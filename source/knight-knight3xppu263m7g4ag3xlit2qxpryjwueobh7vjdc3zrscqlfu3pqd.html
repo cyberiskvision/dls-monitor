@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Please wait...</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .content {
+            width: 100%
+        }
+        .text {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <div class="text">
+            <noscript><h1 style="color:red;">Please turn JavaScript on and reload the page.</h1></noscript>
+            <h1>Checking your browser...</h1>
+            <p>This process is automatic. Your browser will redirect to your requested content shortly.</p>
+            <p id="message">Please<span style="font-weight:700;color:red;"> wait</span> <span id="count">8</span> seconds</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    async function calculate(criteria, data) {
+        let i = 0;
+        while (true) {
+            const dataPlus = data + i;
+            const encoder = new TextEncoder();
+            const hashBuffer = await crypto.subtle.digest('SHA-512', encoder.encode(dataPlus));
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            const hashHex = hashArray.map(byte => byte.toString(16).padStart(2, '0')).join('');
+            if (hashHex.slice(0, criteria.length) === criteria) {
+                document.cookie = "_n=" + i.toString() + ";";
+                break
+            }
+            i++;
+        }
+    }
+    calculate("bc7705717a7022b50bff340f7014a47822ea2523d4f0695457939de9da2ef6d2d4ca7489c60352ee6b08c05d57f49c46840e5cd433fdecf95c3b99663b2e91fa", "f25dbc1c7160142cfef23526fd03f63201c9baa9597b8d10adb0632e34eb004d");
+</script>
+<script type="text/javascript">
+    const countdown = document.getElementById('count');
+    const message = document.getElementById('message');
+    let counter = 8;
+    let intervalID;
+    intervalID = setInterval(function () {
+        counter--
+        if (counter < 1) {
+            clearInterval(intervalID);
+            message.style.color = 'blue';
+            message.innerHTML = 'Redirecting...';
+            location.reload();
+        } else {
+            countdown.innerHTML = counter.toString();
+        }
+    }, 1000)
+</script>
+</body>
+</html>
