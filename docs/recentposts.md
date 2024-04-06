@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-06 | [`Good Morning`](https://google.com/search?q=Good+Morning) | [donutleaks](https://ransomwatch.telemetry.ltd/#/profiles?id=donutleaks) |
 | 2024-04-06 | [`Better Accounting Solutions <www.betteraccountingsolutions.com>`](https://google.com/search?q=Better+Accounting+Solutions+%3Cwww.betteraccountingsolutions.com%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-06 | [`http://www.termoplastic.it`](https://google.com/search?q=http%3A%2F%2Fwww.termoplastic.it) | [ciphbit](https://ransomwatch.telemetry.ltd/#/profiles?id=ciphbit) |
 | 2024-04-06 | [`Chambers Construction`](https://google.com/search?q=Chambers+Construction) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-25 | [`Big Issue Group`](https://google.com/search?q=Big+Issue+Group) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-03-25 | [`Vita IT`](https://google.com/search?q=Vita+IT) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-03-25 | [`European Centre for  Compensation`](https://google.com/search?q=European+Centre+for++Compensation) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-03-25 | [`Calida`](https://google.com/search?q=Calida) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
