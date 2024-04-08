@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-08 | [`Inno-soft Info Systems Pte Ltd`](https://google.com/search?q=Inno-soft+Info+Systems+Pte+Ltd) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-04-08 | [`DUNN, PITTMAN, SKINNER and CUSHMAN, PLLC`](https://google.com/search?q=DUNN%2C+PITTMAN%2C+SKINNER+and+CUSHMAN%2C+PLLC) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-04-07 | [`Malaysian Industrial Development Finance`](https://google.com/search?q=Malaysian+Industrial+Development+Finance) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-04-07 | [`http://www.ellsworthcheese.com`](https://google.com/search?q=http%3A%2F%2Fwww.ellsworthcheese.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-26 | [`Telecommunications Services of Trinidad and Tobago`](https://google.com/search?q=Telecommunications+Services+of+Trinidad+and+Tobago) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
 | 2024-03-26 | [`Ministry of Defense of Peru`](https://google.com/search?q=Ministry+of+Defense+of+Peru) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
 | 2024-03-26 | [`Woodsboro ISD<www.wisd.net>`](https://google.com/search?q=Woodsboro+ISD%3Cwww.wisd.net%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
-| 2024-03-26 | [`regencymedia.com.au`](https://google.com/search?q=regencymedia.com.au) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
