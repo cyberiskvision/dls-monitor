@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-09 | [`PGF Technology Group`](https://google.com/search?q=PGF+Technology+Group) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-04-08 | [`REV Drill Sales & Re ntals`](https://google.com/search?q=REV+Drill+Sales+%26+Re+ntals) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-04-08 | [`Inno-soft Info Systems Pte Ltd`](https://google.com/search?q=Inno-soft+Info+Systems+Pte+Ltd) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-04-08 | [`DUNN, PITTMAN, SKINNER and CUSHMAN, PLLC`](https://google.com/search?q=DUNN%2C+PITTMAN%2C+SKINNER+and+CUSHMAN%2C+PLLC) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-26 | [`Jacobs Farm / Del Cabo`](https://google.com/search?q=Jacobs+Farm+%2F+Del+Cabo) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
 | 2024-03-26 | [`DVision Architecture`](https://google.com/search?q=DVision+Architecture) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
 | 2024-03-26 | [`Telecommunications Services of Trinidad and Tobago`](https://google.com/search?q=Telecommunications+Services+of+Trinidad+and+Tobago) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
-| 2024-03-26 | [`Ministry of Defense of Peru`](https://google.com/search?q=Ministry+of+Defense+of+Peru) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
