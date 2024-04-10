@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-10 | [`Robar Enterprises, Inc.`](https://google.com/search?q=Robar+Enterprises%2C+Inc.) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-04-10 | [`Atlas Container Corporation`](https://google.com/search?q=Atlas+Container+Corporation) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-04-10 | [`Paterson &amp; Cooke`](https://google.com/search?q=Paterson+%26amp%3B+Cooke) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-04-10 | [`Arch-Con® Corporation`](https://google.com/search?q=Arch-Con%C2%AE+Corporation) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-26 | [`tetonortho.com`](https://google.com/search?q=tetonortho.com) | [dragonforce](https://ransomwatch.telemetry.ltd/#/profiles?id=dragonforce) |
 | 2024-03-26 | [`www.dunbier.com`](https://google.com/search?q=www.dunbier.com) | [dragonforce](https://ransomwatch.telemetry.ltd/#/profiles?id=dragonforce) |
 | 2024-03-26 | [`Pantana CPA`](https://google.com/search?q=Pantana+CPA) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
-| 2024-03-26 | [`Law Offices of John V. Orrick, P.L.`](https://google.com/search?q=Law+Offices+of+John+V.+Orrick%2C+P.L.) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
