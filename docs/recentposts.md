@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-10 | [`Central Carolina Insurance Agency Inc.`](https://google.com/search?q=Central+Carolina+Insurance+Agency+Inc.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-04-10 | [`specialoilfield.com`](https://google.com/search?q=specialoilfield.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-10 | [`PROCESS SOLUTIONS`](https://google.com/search?q=PROCESS+SOLUTIONS) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-04-10 | [`Numotion`](https://google.com/search?q=Numotion) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-26 | [`Urban Strategies`](https://google.com/search?q=Urban+Strategies) | [medusa](https://ransomwatch.telemetry.ltd/#/profiles?id=medusa) |
 | 2024-03-26 | [`Kenneth Young Center`](https://google.com/search?q=Kenneth+Young+Center) | [medusa](https://ransomwatch.telemetry.ltd/#/profiles?id=medusa) |
 | 2024-03-26 | [`Suburban Surgical Care Specialists`](https://google.com/search?q=Suburban+Surgical+Care+Specialists) | [medusa](https://ransomwatch.telemetry.ltd/#/profiles?id=medusa) |
-| 2024-03-26 | [`Henry County, Illinois`](https://google.com/search?q=Henry+County%2C+Illinois) | [medusa](https://ransomwatch.telemetry.ltd/#/profiles?id=medusa) |
