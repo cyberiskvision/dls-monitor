@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-11 | [`Consilux (Brazil)`](https://google.com/search?q=Consilux+%28Brazil%29) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-04-11 | [`Samart`](https://google.com/search?q=Samart) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-04-11 | [`F???s???? & ??????t`](https://google.com/search?q=F%3F%3F%3Fs%3F%3F%3F%3F+%26+%3F%3F%3F%3F%3F%3Ft) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-10 | [`speditionlangen.de`](https://google.com/search?q=speditionlangen.de) | [mallox](https://ransomwatch.telemetry.ltd/#/profiles?id=mallox) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-26 | [`Autorità di Sistema Portuale del Mar Tirreno Settentrionale It`](https://google.com/search?q=Autorit%C3%A0+di+Sistema+Portuale+del+Mar+Tirreno+Settentrionale+It) | [medusa](https://ransomwatch.telemetry.ltd/#/profiles?id=medusa) |
 | 2024-03-26 | [`Elior UK `](https://google.com/search?q=Elior+UK+) | [medusa](https://ransomwatch.telemetry.ltd/#/profiles?id=medusa) |
 | 2024-03-26 | [`Romark Laboratories `](https://google.com/search?q=Romark+Laboratories+) | [medusa](https://ransomwatch.telemetry.ltd/#/profiles?id=medusa) |
-| 2024-03-26 | [`Accipiter Capital Management, LLC `](https://google.com/search?q=Accipiter+Capital+Management%2C+LLC+) | [medusa](https://ransomwatch.telemetry.ltd/#/profiles?id=medusa) |
