@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-11 | [`MoldTech`](https://google.com/search?q=MoldTech) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-11 | [`LS Networks`](https://google.com/search?q=LS+Networks) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-11 | [`Access Intelligence`](https://google.com/search?q=Access+Intelligence) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-11 | [`Missouri Electric Co operatives`](https://google.com/search?q=Missouri+Electric+Co+operatives) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-26 | [`Bankofceylon.co.uk`](https://google.com/search?q=Bankofceylon.co.uk) | [cloak](https://ransomwatch.telemetry.ltd/#/profiles?id=cloak) |
 | 2024-03-26 | [`Maas911.com`](https://google.com/search?q=Maas911.com) | [cloak](https://ransomwatch.telemetry.ltd/#/profiles?id=cloak) |
 | 2024-03-26 | [`Ponoka.ca`](https://google.com/search?q=Ponoka.ca) | [cloak](https://ransomwatch.telemetry.ltd/#/profiles?id=cloak) |
-| 2024-03-26 | [`Vhs-vaterstetten.de`](https://google.com/search?q=Vhs-vaterstetten.de) | [cloak](https://ransomwatch.telemetry.ltd/#/profiles?id=cloak) |
