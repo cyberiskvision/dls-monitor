@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-12 | [`Snchez-Betances Sifr e & Muñoz-Noya`](https://google.com/search?q=Snchez-Betances+Sifr+e+%26+Mu%C3%B1oz-Noya) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-04-12 | [`http://multi-fill.com`](https://google.com/search?q=http%3A%2F%2Fmulti-fill.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-04-12 | [`http://jmheaford.com`](https://google.com/search?q=http%3A%2F%2Fjmheaford.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-04-12 | [`https://themcpgroup.com/`](https://google.com/search?q=https%3A%2F%2Fthemcpgroup.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-26 | [`a24group.com  ambition24hours.co.za`](https://google.com/search?q=a24group.com++ambition24hours.co.za) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
 | 2024-03-26 | [`https://www.mikeferry.com`](https://google.com/search?q=https%3A%2F%2Fwww.mikeferry.com) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
 | 2024-03-26 | [`https://www.consorzioinnova.it`](https://google.com/search?q=https%3A%2F%2Fwww.consorzioinnova.it) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
-| 2024-03-26 | [`Forgepresion.com`](https://google.com/search?q=Forgepresion.com) | [cloak](https://ransomwatch.telemetry.ltd/#/profiles?id=cloak) |
