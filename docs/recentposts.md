@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-12 | [`oraclecms.com`](https://google.com/search?q=oraclecms.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-12 | [`Feldstein & Stewart`](https://google.com/search?q=Feldstein+%26+Stewart) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-12 | [`Agate Construction`](https://google.com/search?q=Agate+Construction) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-12 | [`Snchez-Betances Sifr e & Muñoz-Noya`](https://google.com/search?q=Snchez-Betances+Sifr+e+%26+Mu%C3%B1oz-Noya) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-26 | [`IntegrityInc.org   Integrity Inc`](https://google.com/search?q=IntegrityInc.org+++Integrity+Inc) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
 | 2024-03-26 | [`https://www.carri.com`](https://google.com/search?q=https%3A%2F%2Fwww.carri.com) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
 | 2024-03-26 | [`accolade-group.com + levelwear.com +Taiwan  microelectronics(CRM).`](https://google.com/search?q=accolade-group.com+%2B+levelwear.com+%2BTaiwan++microelectronics%28CRM%29.) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
-| 2024-03-26 | [`a24group.com  ambition24hours.co.za`](https://google.com/search?q=a24group.com++ambition24hours.co.za) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
