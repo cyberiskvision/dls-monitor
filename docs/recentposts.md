@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-12 | [`http://jmheaford.com`](https://google.com/search?q=http%3A%2F%2Fjmheaford.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-04-12 | [`https://themcpgroup.com/`](https://google.com/search?q=https%3A%2F%2Fthemcpgroup.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-04-12 | [`http://blaineschools.org`](https://google.com/search?q=http%3A%2F%2Fblaineschools.org) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-04-12 | [`Gimex`](https://google.com/search?q=Gimex) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-26 | [`https://www.consorzioinnova.it`](https://google.com/search?q=https%3A%2F%2Fwww.consorzioinnova.it) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
 | 2024-03-26 | [`Forgepresion.com`](https://google.com/search?q=Forgepresion.com) | [cloak](https://ransomwatch.telemetry.ltd/#/profiles?id=cloak) |
 | 2024-03-26 | [`farwickgrote.de`](https://google.com/search?q=farwickgrote.de) | [cloak](https://ransomwatch.telemetry.ltd/#/profiles?id=cloak) |
-| 2024-03-26 | [`kvfcu.org`](https://google.com/search?q=kvfcu.org) | [cloak](https://ransomwatch.telemetry.ltd/#/profiles?id=cloak) |
