@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-13 | [`http://www.macuz.it`](https://google.com/search?q=http%3A%2F%2Fwww.macuz.it) | [ciphbit](https://ransomwatch.telemetry.ltd/#/profiles?id=ciphbit) |
 | 2024-04-13 | [`countryvillahealth.com`](https://google.com/search?q=countryvillahealth.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-13 | [`disb.dc.gov`](https://google.com/search?q=disb.dc.gov) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-13 | [`Henningson & Snoxell, Ltd.`](https://google.com/search?q=Henningson+%26+Snoxell%2C+Ltd.) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-27 | [`HC Querétaro`](https://google.com/search?q=HC+Quer%C3%A9taro) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-03-27 | [`nampak.com`](https://google.com/search?q=nampak.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-03-26 | [`NHS Scotland`](https://google.com/search?q=NHS+Scotland) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
-| 2024-03-26 | [`El Debate`](https://google.com/search?q=El+Debate) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
