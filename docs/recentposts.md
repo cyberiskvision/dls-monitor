@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-14 | [`Caxton and CTP Publishers and Printers`](https://google.com/search?q=Caxton+and+CTP+Publishers+and+Printers) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-13 | [`Bojangles’ International`](https://google.com/search?q=Bojangles%E2%80%99+International) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-13 | [`http://www.macuz.it`](https://google.com/search?q=http%3A%2F%2Fwww.macuz.it) | [ciphbit](https://ransomwatch.telemetry.ltd/#/profiles?id=ciphbit) |
 | 2024-04-13 | [`countryvillahealth.com`](https://google.com/search?q=countryvillahealth.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-27 | [`UNDP`](https://google.com/search?q=UNDP) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-03-27 | [`Lindos Group Of Companies`](https://google.com/search?q=Lindos+Group+Of+Companies) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-03-27 | [`HC Querétaro`](https://google.com/search?q=HC+Quer%C3%A9taro) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
-| 2024-03-27 | [`nampak.com`](https://google.com/search?q=nampak.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
