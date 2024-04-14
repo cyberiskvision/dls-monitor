@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-14 | [`Inszone Insurance Services`](https://google.com/search?q=Inszone+Insurance+Services) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-14 | [`Frederick Wildman and Sons`](https://google.com/search?q=Frederick+Wildman+and+Sons) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-14 | [`Caxton and CTP Publishers and Printers`](https://google.com/search?q=Caxton+and+CTP+Publishers+and+Printers) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-13 | [`Bojangles’ International`](https://google.com/search?q=Bojangles%E2%80%99+International) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-27 | [`tmt-mc.jp`](https://google.com/search?q=tmt-mc.jp) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-03-27 | [`isophon glas GmbH`](https://google.com/search?q=isophon+glas+GmbH) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-03-27 | [`UNDP`](https://google.com/search?q=UNDP) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
-| 2024-03-27 | [`Lindos Group Of Companies`](https://google.com/search?q=Lindos+Group+Of+Companies) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
