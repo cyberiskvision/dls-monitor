@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-15 | [`compagniedephalsbourg.com`](https://google.com/search?q=compagniedephalsbourg.com) | [threeam](https://ransomwatch.telemetry.ltd/#/profiles?id=threeam) |
 | 2024-04-15 | [`Wacks Law Group`](https://google.com/search?q=Wacks+Law+Group) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-04-15 | [`Madero `](https://google.com/search?q=Madero+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-04-15 | [`ndpaper.com`](https://google.com/search?q=ndpaper.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-27 | [`lifelinedatacenters.com`](https://google.com/search?q=lifelinedatacenters.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-03-27 | [`dkpvlaw.com`](https://google.com/search?q=dkpvlaw.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-03-27 | [`countryvillahealthservices.com`](https://google.com/search?q=countryvillahealthservices.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-03-27 | [`lindquistinsurance.com`](https://google.com/search?q=lindquistinsurance.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
