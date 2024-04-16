@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-16 | [`Lopesan Hotels`](https://google.com/search?q=Lopesan+Hotels) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-04-16 | [`Wright Brothers Cons truction`](https://google.com/search?q=Wright+Brothers+Cons+truction) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-04-16 | [`Medequip Assistive T echnology`](https://google.com/search?q=Medequip+Assistive+T+echnology) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-04-16 | [`hbmolding.com`](https://google.com/search?q=hbmolding.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-27 | [`Prodrive`](https://google.com/search?q=Prodrive) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-03-27 | [`Dallas Gold &amp; Silver Exchange (DGSE)`](https://google.com/search?q=Dallas+Gold+%26amp%3B+Silver+Exchange+%28DGSE%29) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-03-27 | [`Bulwark Exterminating`](https://google.com/search?q=Bulwark+Exterminating) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
-| 2024-03-27 | [`Lagunitas Brewing Company`](https://google.com/search?q=Lagunitas+Brewing+Company) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
