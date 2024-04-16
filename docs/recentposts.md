@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-16 | [`Autoglass`](https://google.com/search?q=Autoglass) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-04-16 | [`charlesparsons`](https://google.com/search?q=charlesparsons) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-04-16 | [`Po****sa`](https://google.com/search?q=Po%2A%2A%2A%2Asa) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-04-16 | [`GPI Corporate`](https://google.com/search?q=GPI+Corporate) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-27 | [`Weld Plus`](https://google.com/search?q=Weld+Plus) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-03-27 | [`Tbr Kowalczyk`](https://google.com/search?q=Tbr+Kowalczyk) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-03-27 | [`Quality Enclosures`](https://google.com/search?q=Quality+Enclosures) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-03-27 | [`Lawrence Semiconductor Research Laboratory`](https://google.com/search?q=Lawrence+Semiconductor+Research+Laboratory) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
