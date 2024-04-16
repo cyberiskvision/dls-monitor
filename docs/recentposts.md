@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-16 | [`hbmolding.com`](https://google.com/search?q=hbmolding.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-16 | [`Studio LAMBDA`](https://google.com/search?q=Studio+LAMBDA) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-04-16 | [`UnivationTechnologies`](https://google.com/search?q=UnivationTechnologies) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-04-16 | [`Autoglass`](https://google.com/search?q=Autoglass) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-27 | [`Lagunitas Brewing Company`](https://google.com/search?q=Lagunitas+Brewing+Company) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-03-27 | [`Mermet`](https://google.com/search?q=Mermet) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-03-27 | [`West Monroe`](https://google.com/search?q=West+Monroe) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-03-27 | [`Weld Plus`](https://google.com/search?q=Weld+Plus) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
