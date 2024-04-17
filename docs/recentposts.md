@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-17 | [`Serfilco, RP Adams,  Baron Blakeslee, Pac er, Service Filtrati on of Canada, Polyma r.`](https://google.com/search?q=Serfilco%2C+RP+Adams%2C++Baron+Blakeslee%2C+Pac+er%2C+Service+Filtrati+on+of+Canada%2C+Polyma+r.) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-04-17 | [`Asteco`](https://google.com/search?q=Asteco) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
 | 2024-04-17 | [`tristatetruckandequip.com`](https://google.com/search?q=tristatetruckandequip.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-17 | [`craigwire.com`](https://google.com/search?q=craigwire.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-27 | [`CAROLINA FOODS INC.`](https://google.com/search?q=CAROLINA+FOODS+INC.) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-03-27 | [`Amerlux`](https://google.com/search?q=Amerlux) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-03-27 | [`Organized Living`](https://google.com/search?q=Organized+Living) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
-| 2024-03-27 | [`MJ Celco`](https://google.com/search?q=MJ+Celco) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
