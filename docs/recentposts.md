@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-17 | [`SOA Architecture`](https://google.com/search?q=SOA+Architecture) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-04-17 | [`R.B. Woodcraft, Inc.`](https://google.com/search?q=R.B.+Woodcraft%2C+Inc.) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-04-17 | [`LYON TERMINAL`](https://google.com/search?q=LYON+TERMINAL) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-04-17 | [`LEMODOR`](https://google.com/search?q=LEMODOR) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-27 | [`KMB`](https://google.com/search?q=KMB) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-03-27 | [`PCT International Inc.`](https://google.com/search?q=PCT+International+Inc.) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-03-27 | [`Sports South`](https://google.com/search?q=Sports+South) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
-| 2024-03-27 | [`Vili’s`](https://google.com/search?q=Vili%E2%80%99s) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
