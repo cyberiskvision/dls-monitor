@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-18 | [`Western Saw Inc.`](https://google.com/search?q=Western+Saw+Inc.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-04-18 | [`sagaciousresearch.com`](https://google.com/search?q=sagaciousresearch.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-18 | [`ablinc.com`](https://google.com/search?q=ablinc.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-18 | [`regencyfurniture.com\$369M\USA\300GB\100% DISCLOSED`](https://google.com/search?q=regencyfurniture.com%5C%24369M%5CUSA%5C300GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-28 | [`Santa Cruz Seaside`](https://google.com/search?q=Santa+Cruz+Seaside) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-03-28 | [`Neurobehavioral Medicine Consultants`](https://google.com/search?q=Neurobehavioral+Medicine+Consultants) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-03-28 | [`Florida Memorial University`](https://google.com/search?q=Florida+Memorial+University) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
-| 2024-03-28 | [`Exela Technologies`](https://google.com/search?q=Exela+Technologies) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
