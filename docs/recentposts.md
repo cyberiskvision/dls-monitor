@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-19 | [`eurosko.com`](https://google.com/search?q=eurosko.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-19 | [`Fluent Home General Information`](https://google.com/search?q=Fluent+Home+General+Information) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-04-19 | [`Macphie`](https://google.com/search?q=Macphie) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-04-19 | [`Cavotec`](https://google.com/search?q=Cavotec) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-30 | [`https://www.claro.com/`](https://google.com/search?q=https%3A%2F%2Fwww.claro.com%2F) | [trigona](https://ransomwatch.telemetry.ltd/#/profiles?id=trigona) |
 | 2024-03-30 | [`Pavilion Construction LLC`](https://google.com/search?q=Pavilion+Construction+LLC) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-03-29 | [`W?????? ????????y`](https://google.com/search?q=W%3F%3F%3F%3F%3F%3F+%3F%3F%3F%3F%3F%3F%3F%3Fy) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-03-29 | [`newagesys.com\$24.1M\USA\319GB\100%DISCLOSED`](https://google.com/search?q=newagesys.com%5C%2424.1M%5CUSA%5C319GB%5C100%25DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
