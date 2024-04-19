@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-19 | [`JE Owens`](https://google.com/search?q=JE+Owens) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-19 | [`Engineered Automation of Maine`](https://google.com/search?q=Engineered+Automation+of+Maine) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-19 | [`Alltruck Bodies`](https://google.com/search?q=Alltruck+Bodies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-19 | [`sierraconstruction.ca`](https://google.com/search?q=sierraconstruction.ca) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-29 | [`Sysmex`](https://google.com/search?q=Sysmex) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-03-29 | [`rameywine.com`](https://google.com/search?q=rameywine.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-03-29 | [`Tech-Quip Inc`](https://google.com/search?q=Tech-Quip+Inc) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
-| 2024-03-29 | [`PSEC Church`](https://google.com/search?q=PSEC+Church) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
