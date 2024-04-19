@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-19 | [`sierraconstruction.ca`](https://google.com/search?q=sierraconstruction.ca) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-18 | [`B Capital Group`](https://google.com/search?q=B+Capital+Group) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-04-18 | [`JE Owens and Company PA.`](https://google.com/search?q=JE+Owens+and+Company+PA.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-04-18 | [`dc.gov`](https://google.com/search?q=dc.gov) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-29 | [`PSEC Church`](https://google.com/search?q=PSEC+Church) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
 | 2024-03-29 | [`Lodan Electronics Inc`](https://google.com/search?q=Lodan+Electronics+Inc) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
 | 2024-03-28 | [`Avant IT Norway<www.avantit.no>`](https://google.com/search?q=Avant+IT+Norway%3Cwww.avantit.no%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
-| 2024-03-28 | [`Lakes Precision`](https://google.com/search?q=Lakes+Precision) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
