@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-20 | [`kjf-augsburg.de`](https://google.com/search?q=kjf-augsburg.de) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-19 | [`eurosko.com`](https://google.com/search?q=eurosko.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-19 | [`Fluent Home General Information`](https://google.com/search?q=Fluent+Home+General+Information) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-04-19 | [`Macphie`](https://google.com/search?q=Macphie) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-03-31 | [`lavelle.com`](https://google.com/search?q=lavelle.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-03-30 | [`https://www.claro.com/`](https://google.com/search?q=https%3A%2F%2Fwww.claro.com%2F) | [trigona](https://ransomwatch.telemetry.ltd/#/profiles?id=trigona) |
 | 2024-03-30 | [`Pavilion Construction LLC`](https://google.com/search?q=Pavilion+Construction+LLC) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
-| 2024-03-29 | [`W?????? ????????y`](https://google.com/search?q=W%3F%3F%3F%3F%3F%3F+%3F%3F%3F%3F%3F%3F%3F%3Fy) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
