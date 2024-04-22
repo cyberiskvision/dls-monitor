@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-22 | [`coastalcargogroup.com\$36.6M\USA\3GB\100%DISCLOSED`](https://google.com/search?q=coastalcargogroup.com%5C%2436.6M%5CUSA%5C3GB%5C100%25DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-04-22 | [`Paulmann Licht`](https://google.com/search?q=Paulmann+Licht) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-22 | [`charlesparsons (Attack again)`](https://google.com/search?q=charlesparsons+%28Attack+again%29) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-04-22 | [`Ma****in`](https://google.com/search?q=Ma%2A%2A%2A%2Ain) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-03 | [`Innomotive Systems Hainichen GmbH`](https://google.com/search?q=Innomotive+Systems+Hainichen+GmbH) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-04-03 | [`Seven Seas Technology`](https://google.com/search?q=Seven+Seas+Technology) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-04-02 | [`casajove.com`](https://google.com/search?q=casajove.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-04-02 | [`delhipolice.gov.in`](https://google.com/search?q=delhipolice.gov.in) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
