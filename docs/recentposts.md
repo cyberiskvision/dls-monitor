@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-22 | [`Optima Manufacturing`](https://google.com/search?q=Optima+Manufacturing) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-21 | [`Notions Marketing`](https://google.com/search?q=Notions+Marketing) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-21 | [`NanoLumens`](https://google.com/search?q=NanoLumens) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-21 | [`Mid-South Health Systems`](https://google.com/search?q=Mid-South+Health+Systems) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-02 | [`KICO GROUP`](https://google.com/search?q=KICO+GROUP) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-04-02 | [`GRUPOCREATIVO HERRERA`](https://google.com/search?q=GRUPOCREATIVO+HERRERA) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-04-02 | [`W.P.J. McCarthy and Company`](https://google.com/search?q=W.P.J.+McCarthy+and+Company) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
-| 2024-04-02 | [`Roberson &amp; Sons Insurance Services`](https://google.com/search?q=Roberson+%26amp%3B+Sons+Insurance+Services) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
