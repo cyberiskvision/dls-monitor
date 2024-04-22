@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-22 | [`Ma****in`](https://google.com/search?q=Ma%2A%2A%2A%2Ain) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-04-22 | [`La****up`](https://google.com/search?q=La%2A%2A%2A%2Aup) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-04-22 | [`Optima Manufacturing`](https://google.com/search?q=Optima+Manufacturing) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-21 | [`Notions Marketing`](https://google.com/search?q=Notions+Marketing) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-02 | [`delhipolice.gov.in`](https://google.com/search?q=delhipolice.gov.in) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-04-02 | [`regencyfurniture.com\$369M\USA\300GB\&lt;1% DISCLOSED`](https://google.com/search?q=regencyfurniture.com%5C%24369M%5CUSA%5C300GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-04-02 | [`KICO GROUP`](https://google.com/search?q=KICO+GROUP) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
-| 2024-04-02 | [`GRUPOCREATIVO HERRERA`](https://google.com/search?q=GRUPOCREATIVO+HERRERA) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
