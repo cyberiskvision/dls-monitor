@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-23 | [`concordegroup.ca\$150M\CANADA\2GB\100%DISCLOSED `](https://google.com/search?q=concordegroup.ca%5C%24150M%5CCANADA%5C2GB%5C100%25DISCLOSED+) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-04-23 | [`https://www.octapharmaplasma.com/`](https://google.com/search?q=https%3A%2F%2Fwww.octapharmaplasma.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-04-23 | [`ebir.com\$5M\SPAIN\200MB\100%DISCLOSED`](https://google.com/search?q=ebir.com%5C%245M%5CSPAIN%5C200MB%5C100%25DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-04-23 | [`Ministerio de Desarrollo Local`](https://google.com/search?q=Ministerio+de+Desarrollo+Local) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-03 | [`Intersport`](https://google.com/search?q=Intersport) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-03 | [`Interface`](https://google.com/search?q=Interface) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-03 | [`DataBank`](https://google.com/search?q=DataBank) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-04-03 | [`Citi Trends`](https://google.com/search?q=Citi+Trends) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
