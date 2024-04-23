@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-23 | [`Wasserkraft Volk AG`](https://google.com/search?q=Wasserkraft+Volk+AG) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-04-23 | [`Bank Pembangunan Daerah Banten Tbk PT`](https://google.com/search?q=Bank+Pembangunan+Daerah+Banten+Tbk+PT) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-04-23 | [`The Tech Interactive`](https://google.com/search?q=The+Tech+Interactive) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-04-23 | [`rangam.com`](https://google.com/search?q=rangam.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-03 | [`Beaver Run Resort`](https://google.com/search?q=Beaver+Run+Resort) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-03 | [`Gi****ex`](https://google.com/search?q=Gi%2A%2A%2A%2Aex) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-04-03 | [`West Idaho Orthopedics`](https://google.com/search?q=West+Idaho+Orthopedics) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
-| 2024-04-03 | [`Norman Urology Associates`](https://google.com/search?q=Norman+Urology+Associates) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
