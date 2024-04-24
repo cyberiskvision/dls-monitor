@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-24 | [`http://petercondakes.com`](https://google.com/search?q=http%3A%2F%2Fpetercondakes.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-04-24 | [`Mainwein`](https://google.com/search?q=Mainwein) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-04-24 | [`STERCH - INTERNATIONAL s.r.o.`](https://google.com/search?q=STERCH+-+INTERNATIONAL+s.r.o.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-04-24 | [`Toyota Brazil`](https://google.com/search?q=Toyota+Brazil) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-05 | [`Banco Promerica`](https://google.com/search?q=Banco+Promerica) | [snatch](https://ransomwatch.telemetry.ltd/#/profiles?id=snatch) |
 | 2024-04-04 | [`Sit`](https://google.com/search?q=Sit) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-04 | [`Constelacion Savings and Credit Society<www.constelacion.com.sv>`](https://google.com/search?q=Constelacion+Savings+and+Credit+Society%3Cwww.constelacion.com.sv%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
-| 2024-04-04 | [`Guy's Floor Service`](https://google.com/search?q=Guy%27s+Floor+Service) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
