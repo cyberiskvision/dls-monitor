@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-24 | [`Army Welfare Trust`](https://google.com/search?q=Army+Welfare+Trust) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-04-24 | [`T A Khoury`](https://google.com/search?q=T+A+Khoury) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-24 | [`Robertson Cheatham Farmers`](https://google.com/search?q=Robertson+Cheatham+Farmers) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-24 | [`xdconnects.com\$50.5M\Netherlands\1TB\100% DISCLOSED`](https://google.com/search?q=xdconnects.com%5C%2450.5M%5CNetherlands%5C1TB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-04 | [`Everbrite`](https://google.com/search?q=Everbrite) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-04 | [`Constelacion Savings and Credit Society`](https://google.com/search?q=Constelacion+Savings+and+Credit+Society) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-04 | [`Radiant Canada`](https://google.com/search?q=Radiant+Canada) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-04-04 | [`Inspection Services`](https://google.com/search?q=Inspection+Services) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
