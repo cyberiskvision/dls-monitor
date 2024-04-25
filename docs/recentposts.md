@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-25 | [`HARMAN - CYNC SOLUTIONS client`](https://google.com/search?q=HARMAN+-+CYNC+SOLUTIONS+client) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-25 | [`https://geodis.com`](https://google.com/search?q=https%3A%2F%2Fgeodis.com) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
 | 2024-04-25 | [`https://goftac.com/    firsttx.com  First Texas Alliance Corp   (FTAC)`](https://google.com/search?q=https%3A%2F%2Fgoftac.com%2F++++firsttx.com++First+Texas+Alliance+Corp+++%28FTAC%29) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
 | 2024-04-25 | [`Central Power Systems and Services`](https://google.com/search?q=Central+Power+Systems+and+Services) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-05 | [`Malabar Gold & Diamonds`](https://google.com/search?q=Malabar+Gold+%26+Diamonds) | [snatch](https://ransomwatch.telemetry.ltd/#/profiles?id=snatch) |
 | 2024-04-05 | [`Hawbaker Engineering`](https://google.com/search?q=Hawbaker+Engineering) | [snatch](https://ransomwatch.telemetry.ltd/#/profiles?id=snatch) |
 | 2024-04-05 | [`HSPG & Associates`](https://google.com/search?q=HSPG+%26+Associates) | [snatch](https://ransomwatch.telemetry.ltd/#/profiles?id=snatch) |
-| 2024-04-05 | [`Dörr Group`](https://google.com/search?q=D%C3%B6rr+Group) | [snatch](https://ransomwatch.telemetry.ltd/#/profiles?id=snatch) |
