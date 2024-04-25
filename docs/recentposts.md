@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-25 | [`Mercatino S.r.l.  https://www.mercatinousato.com/`](https://google.com/search?q=Mercatino+S.r.l.++https%3A%2F%2Fwww.mercatinousato.com%2F) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-25 | [`FábricaInfo <fabricainfo.com>`](https://google.com/search?q=F%C3%A1bricaInfo+%3Cfabricainfo.com%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-25 | [`HARMAN - CYNC SOLUTIONS client`](https://google.com/search?q=HARMAN+-+CYNC+SOLUTIONS+client) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-25 | [`https://geodis.com`](https://google.com/search?q=https%3A%2F%2Fgeodis.com) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-05 | [`Retirement Line`](https://google.com/search?q=Retirement+Line) | [snatch](https://ransomwatch.telemetry.ltd/#/profiles?id=snatch) |
 | 2024-04-05 | [`Miki Travel Limited`](https://google.com/search?q=Miki+Travel+Limited) | [snatch](https://ransomwatch.telemetry.ltd/#/profiles?id=snatch) |
 | 2024-04-05 | [`Malabar Gold & Diamonds`](https://google.com/search?q=Malabar+Gold+%26+Diamonds) | [snatch](https://ransomwatch.telemetry.ltd/#/profiles?id=snatch) |
-| 2024-04-05 | [`Hawbaker Engineering`](https://google.com/search?q=Hawbaker+Engineering) | [snatch](https://ransomwatch.telemetry.ltd/#/profiles?id=snatch) |
