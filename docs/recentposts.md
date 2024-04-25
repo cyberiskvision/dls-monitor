@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-25 | [`Chicony Electronics`](https://google.com/search?q=Chicony+Electronics) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-25 | [`Grupo Cuevas<grupocuevas.es>`](https://google.com/search?q=Grupo+Cuevas%3Cgrupocuevas.es%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-25 | [`CDSHotels`](https://google.com/search?q=CDSHotels) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-04-25 | [`Les Miroirs St-Antoine Inc`](https://google.com/search?q=Les+Miroirs+St-Antoine+Inc) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-05 | [`Doctorim`](https://google.com/search?q=Doctorim) | [malekteam](https://ransomwatch.telemetry.ltd/#/profiles?id=malekteam) |
 | 2024-04-05 | [`http://commercedentistry.com`](https://google.com/search?q=http%3A%2F%2Fcommercedentistry.com) | [ciphbit](https://ransomwatch.telemetry.ltd/#/profiles?id=ciphbit) |
 | 2024-04-05 | [`US government (private data) +Rothschild&Rockefeller`](https://google.com/search?q=US+government+%28private+data%29+%2BRothschild%26Rockefeller) | [snatch](https://ransomwatch.telemetry.ltd/#/profiles?id=snatch) |
-| 2024-04-05 | [`Seven Seas Group`](https://google.com/search?q=Seven+Seas+Group) | [snatch](https://ransomwatch.telemetry.ltd/#/profiles?id=snatch) |
