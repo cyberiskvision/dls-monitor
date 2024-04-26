@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-26 | [`Hong Kong College of Technology`](https://google.com/search?q=Hong+Kong+College+of+Technology) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-04-26 | [`CYNC SOLUTIONS - The unexpected target.`](https://google.com/search?q=CYNC+SOLUTIONS+-+The+unexpected+target.) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-26 | [`Robeson County Sheriff's Office <www.robesoncoso.org>`](https://google.com/search?q=Robeson+County+Sheriff%27s+Office+%3Cwww.robesoncoso.org%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-26 | [`Protected: HIDE NAME SELL DATA SOON`](https://google.com/search?q=Protected%3A+HIDE+NAME+SELL+DATA+SOON) | [ransomblog_noname](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomblog_noname) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-06 | [`Chambers Construction`](https://google.com/search?q=Chambers+Construction) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-04-06 | [`On Q Financial, LLC`](https://google.com/search?q=On+Q+Financial%2C+LLC) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-04-05 | [`truehomes.com`](https://google.com/search?q=truehomes.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-04-05 | [`emalon.co.il`](https://google.com/search?q=emalon.co.il) | [malekteam](https://ransomwatch.telemetry.ltd/#/profiles?id=malekteam) |
