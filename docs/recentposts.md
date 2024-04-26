@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-26 | [`Jutebag <www.jutebag.co.uk>`](https://google.com/search?q=Jutebag+%3Cwww.jutebag.co.uk%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-26 | [`iddink.nl\$80.1M\NL\460GB\&lt;1%DISCLOSED`](https://google.com/search?q=iddink.nl%5C%2480.1M%5CNL%5C460GB%5C%26lt%3B1%25DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-04-26 | [`SSS Australia`](https://google.com/search?q=SSS+Australia) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-26 | [`Rocky Mountain Sales`](https://google.com/search?q=Rocky+Mountain+Sales) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-06 | [`HCI Systems, Inc. <www.hcisystems.net>`](https://google.com/search?q=HCI+Systems%2C+Inc.+%3Cwww.hcisystems.net%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-06 | [`Good Morning`](https://google.com/search?q=Good+Morning) | [donutleaks](https://ransomwatch.telemetry.ltd/#/profiles?id=donutleaks) |
 | 2024-04-06 | [`Better Accounting Solutions <www.betteraccountingsolutions.com>`](https://google.com/search?q=Better+Accounting+Solutions+%3Cwww.betteraccountingsolutions.com%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
-| 2024-04-06 | [`http://www.termoplastic.it`](https://google.com/search?q=http%3A%2F%2Fwww.termoplastic.it) | [ciphbit](https://ransomwatch.telemetry.ltd/#/profiles?id=ciphbit) |
