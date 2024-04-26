@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-26 | [`Axip Energy Services`](https://google.com/search?q=Axip+Energy+Services) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-26 | [`Precision Time Systems <www.precisiontimesystems.com>`](https://google.com/search?q=Precision+Time+Systems+%3Cwww.precisiontimesystems.com%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-26 | [`Jutebag <www.jutebag.co.uk>`](https://google.com/search?q=Jutebag+%3Cwww.jutebag.co.uk%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-26 | [`iddink.nl\$80.1M\NL\460GB\&lt;1%DISCLOSED`](https://google.com/search?q=iddink.nl%5C%2480.1M%5CNL%5C460GB%5C%26lt%3B1%25DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-07 | [`https://sip.be/`](https://google.com/search?q=https%3A%2F%2Fsip.be%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-04-06 | [`Carrozzeria Aretusa srl <aretusamilano.it>`](https://google.com/search?q=Carrozzeria+Aretusa+srl+%3Caretusamilano.it%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-06 | [`HCI Systems, Inc. <www.hcisystems.net>`](https://google.com/search?q=HCI+Systems%2C+Inc.+%3Cwww.hcisystems.net%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
-| 2024-04-06 | [`Good Morning`](https://google.com/search?q=Good+Morning) | [donutleaks](https://ransomwatch.telemetry.ltd/#/profiles?id=donutleaks) |
