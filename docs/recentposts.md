@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-27 | [`taylorlaw.net`](https://google.com/search?q=taylorlaw.net) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-27 | [`sesenergy.org`](https://google.com/search?q=sesenergy.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-27 | [`Toolmarts`](https://google.com/search?q=Toolmarts) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-27 | [`Precision Fluid Controls`](https://google.com/search?q=Precision+Fluid+Controls) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-09 | [`Panacea Healthcare Services`](https://google.com/search?q=Panacea+Healthcare+Services) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-04-09 | [`Mahoney Foundry, Inc.`](https://google.com/search?q=Mahoney+Foundry%2C+Inc.) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-04-09 | [`PGF Technology Group`](https://google.com/search?q=PGF+Technology+Group) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-04-08 | [`REV Drill Sales & Re ntals`](https://google.com/search?q=REV+Drill+Sales+%26+Re+ntals) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
