@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-27 | [`CYNC SOLUTIONS - The unexpected target.<Updated>`](https://google.com/search?q=CYNC+SOLUTIONS+-+The+unexpected+target.%3CUpdated%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-27 | [`Design Intoto <www.designintoto.com.au>`](https://google.com/search?q=Design+Intoto+%3Cwww.designintoto.com.au%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-27 | [`Human Technology Inc.`](https://google.com/search?q=Human+Technology+Inc.) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
 | 2024-04-27 | [`http://htw.com.au`](https://google.com/search?q=http%3A%2F%2Fhtw.com.au) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-10 | [`Schlesinger Law Offices, P.A.`](https://google.com/search?q=Schlesinger+Law+Offices%2C+P.A.) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-04-10 | [`Robar Enterprises, Inc.`](https://google.com/search?q=Robar+Enterprises%2C+Inc.) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-04-10 | [`Atlas Container Corporation`](https://google.com/search?q=Atlas+Container+Corporation) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
-| 2024-04-10 | [`Paterson &amp; Cooke`](https://google.com/search?q=Paterson+%26amp%3B+Cooke) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
