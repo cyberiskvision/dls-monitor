@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-27 | [`Yale Mortgage`](https://google.com/search?q=Yale+Mortgage) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-27 | [`taylorlaw.net`](https://google.com/search?q=taylorlaw.net) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-27 | [`sesenergy.org`](https://google.com/search?q=sesenergy.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-27 | [`Toolmarts`](https://google.com/search?q=Toolmarts) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-10 | [`Arch-Con® Corporation`](https://google.com/search?q=Arch-Con%C2%AE+Corporation) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-04-09 | [`Panacea Healthcare Services`](https://google.com/search?q=Panacea+Healthcare+Services) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-04-09 | [`Mahoney Foundry, Inc.`](https://google.com/search?q=Mahoney+Foundry%2C+Inc.) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
-| 2024-04-09 | [`PGF Technology Group`](https://google.com/search?q=PGF+Technology+Group) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
