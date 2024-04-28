@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-28 | [`[Published]Constelacion Savings and Credit Society<www.constelacion.com.sv>`](https://google.com/search?q=%5BPublished%5DConstelacion+Savings+and+Credit+Society%3Cwww.constelacion.com.sv%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-28 | [`PHARMACY ETTORE FLORIO SNC - Online Pharmacy Italy <www.farmaciaflorio.com>`](https://google.com/search?q=PHARMACY+ETTORE+FLORIO+SNC+-+Online+Pharmacy+Italy+%3Cwww.farmaciaflorio.com%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-28 | [`Skyway Coach Lines and Shuttle Services   --   skywaycoach.ca`](https://google.com/search?q=Skyway+Coach+Lines+and+Shuttle+Services+++--+++skywaycoach.ca) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-28 | [`Baca County Feedyard, Inc`](https://google.com/search?q=Baca+County+Feedyard%2C+Inc) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-10 | [`PROCESS SOLUTIONS`](https://google.com/search?q=PROCESS+SOLUTIONS) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-04-10 | [`Numotion`](https://google.com/search?q=Numotion) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-04-10 | [`Siemens`](https://google.com/search?q=Siemens) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
-| 2024-04-10 | [`Sermo`](https://google.com/search?q=Sermo) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
