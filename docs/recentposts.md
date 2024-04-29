@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-29 | [`EUROPEANPROF - Expertos en Seguridad y Altura - <europeanprof.es>`](https://google.com/search?q=EUROPEANPROF+-+Expertos+en+Seguridad+y+Altura+-+%3Ceuropeanprof.es%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-29 | [`polaris-SOLUCIONES TECNOLÓGICAS PARA EMPRESAS   -- polaris.es`](https://google.com/search?q=polaris-SOLUCIONES+TECNOL%C3%93GICAS+PARA+EMPRESAS+++--+polaris.es) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-28 | [`Magicolor`](https://google.com/search?q=Magicolor) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-28 | [`Targus.com`](https://google.com/search?q=Targus.com) | [redransomware](https://ransomwatch.telemetry.ltd/#/profiles?id=redransomware) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-11 | [`F???s???? & ??????t`](https://google.com/search?q=F%3F%3F%3Fs%3F%3F%3F%3F+%26+%3F%3F%3F%3F%3F%3Ft) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-10 | [`speditionlangen.de`](https://google.com/search?q=speditionlangen.de) | [mallox](https://ransomwatch.telemetry.ltd/#/profiles?id=mallox) |
 | 2024-04-10 | [`Central Carolina Insurance Agency Inc.`](https://google.com/search?q=Central+Carolina+Insurance+Agency+Inc.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
-| 2024-04-10 | [`specialoilfield.com`](https://google.com/search?q=specialoilfield.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
