@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-30 | [`ch-cannes.fr`](https://google.com/search?q=ch-cannes.fr) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-29 | [`Lawrence Group`](https://google.com/search?q=Lawrence+Group) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-04-29 | [`The Line Up, Inc`](https://google.com/search?q=The+Line+Up%2C+Inc) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-04-29 | [`Medizinische Grosshandlung GmbH`](https://google.com/search?q=Medizinische+Grosshandlung+GmbH) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-11 | [`Al****ch`](https://google.com/search?q=Al%2A%2A%2A%2Ach) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-04-11 | [`Se****bH`](https://google.com/search?q=Se%2A%2A%2A%2AbH) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-04-11 | [`Z Development Services, LLC`](https://google.com/search?q=Z+Development+Services%2C+LLC) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
-| 2024-04-11 | [`Consilux (Brazil)`](https://google.com/search?q=Consilux+%28Brazil%29) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
