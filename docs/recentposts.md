@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-30 | [`Frencken`](https://google.com/search?q=Frencken) | [snatch](https://ransomwatch.telemetry.ltd/#/profiles?id=snatch) |
 | 2024-04-30 | [`Canadian Psychological Association`](https://google.com/search?q=Canadian+Psychological+Association) | [snatch](https://ransomwatch.telemetry.ltd/#/profiles?id=snatch) |
 | 2024-04-30 | [`ottlite.com`](https://google.com/search?q=ottlite.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-30 | [`Black Diamond Capital Management`](https://google.com/search?q=Black+Diamond+Capital+Management) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-11 | [`LS Networks`](https://google.com/search?q=LS+Networks) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-11 | [`Access Intelligence`](https://google.com/search?q=Access+Intelligence) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-11 | [`Missouri Electric Co operatives`](https://google.com/search?q=Missouri+Electric+Co+operatives) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-04-11 | [`Victor Fauconnier`](https://google.com/search?q=Victor+Fauconnier) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
