@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-04-30 | [`Canadian Psychological Association`](https://google.com/search?q=Canadian+Psychological+Association) | [snatch](https://ransomwatch.telemetry.ltd/#/profiles?id=snatch) |
 | 2024-04-30 | [`ottlite.com`](https://google.com/search?q=ottlite.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-30 | [`Black Diamond Capital Management`](https://google.com/search?q=Black+Diamond+Capital+Management) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-04-30 | [`Mellitah Oil & Gas / Enigas Ly (Eni Electricity, Oil & Gas)`](https://google.com/search?q=Mellitah+Oil+%26+Gas+%2F+Enigas+Ly+%28Eni+Electricity%2C+Oil+%26+Gas%29) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-11 | [`Access Intelligence`](https://google.com/search?q=Access+Intelligence) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-11 | [`Missouri Electric Co operatives`](https://google.com/search?q=Missouri+Electric+Co+operatives) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-04-11 | [`Victor Fauconnier`](https://google.com/search?q=Victor+Fauconnier) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
-| 2024-04-11 | [`Un****es`](https://google.com/search?q=Un%2A%2A%2A%2Aes) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
