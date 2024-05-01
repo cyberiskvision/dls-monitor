@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-01 | [`sbsofbak.com`](https://google.com/search?q=sbsofbak.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-01 | [`UK government`](https://google.com/search?q=UK+government) | [snatch](https://ransomwatch.telemetry.ltd/#/profiles?id=snatch) |
 | 2024-05-01 | [`MORTON WILLIAMS Data Leak`](https://google.com/search?q=MORTON+WILLIAMS+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-05-01 | [`Les Miroirs St-Antoine Inc Data Leak`](https://google.com/search?q=Les+Miroirs+St-Antoine+Inc+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-12 | [`http://blaineschools.org`](https://google.com/search?q=http%3A%2F%2Fblaineschools.org) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-04-12 | [`Gimex`](https://google.com/search?q=Gimex) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-04-12 | [`Theatrixx Technologies`](https://google.com/search?q=Theatrixx+Technologies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-04-12 | [`The MBTW Group`](https://google.com/search?q=The+MBTW+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
