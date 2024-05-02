@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-02 | [`yupousa.com`](https://google.com/search?q=yupousa.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-02 | [`peaseinc.com`](https://google.com/search?q=peaseinc.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-02 | [`hookerfurniture.com`](https://google.com/search?q=hookerfurniture.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-02 | [`cordish.com`](https://google.com/search?q=cordish.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-13 | [`Henningson & Snoxell, Ltd.`](https://google.com/search?q=Henningson+%26+Snoxell%2C+Ltd.) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
 | 2024-04-13 | [`Oki Golf`](https://google.com/search?q=Oki+Golf) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-04-13 | [`http://www.brewerfire.com`](https://google.com/search?q=http%3A%2F%2Fwww.brewerfire.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2024-04-13 | [`http://olea.com`](https://google.com/search?q=http%3A%2F%2Folea.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
