@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-03 | [`Po****`](https://google.com/search?q=Po%2A%2A%2A%2A) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-05-03 | [`Imedi L`](https://google.com/search?q=Imedi+L) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-05-03 | [`SHAMASS.ORG`](https://google.com/search?q=SHAMASS.ORG) | [ransomblog_noname](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomblog_noname) |
 | 2024-05-03 | [`Stainless Foundry & Engineering`](https://google.com/search?q=Stainless+Foundry+%26+Engineering) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-14 | [`Frederick Wildman and Sons`](https://google.com/search?q=Frederick+Wildman+and+Sons) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-14 | [`Caxton and CTP Publishers and Printers`](https://google.com/search?q=Caxton+and+CTP+Publishers+and+Printers) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-13 | [`Bojangles’ International`](https://google.com/search?q=Bojangles%E2%80%99+International) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-04-13 | [`http://www.macuz.it`](https://google.com/search?q=http%3A%2F%2Fwww.macuz.it) | [ciphbit](https://ransomwatch.telemetry.ltd/#/profiles?id=ciphbit) |
