@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-03 | [`Lopez Hnos`](https://google.com/search?q=Lopez+Hnos) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-05-03 | [`Calumet Civil Contractors, Inc.`](https://google.com/search?q=Calumet+Civil+Contractors%2C+Inc.) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-05-03 | [`GWF Frankenwein`](https://google.com/search?q=GWF+Frankenwein) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-05-03 | [`Reederei JÃ¼ngerhans`](https://google.com/search?q=Reederei+J%C3%83%C2%BCngerhans) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-15 | [`Madero `](https://google.com/search?q=Madero+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-04-15 | [`ndpaper.com`](https://google.com/search?q=ndpaper.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-14 | [`maccarinelli.it`](https://google.com/search?q=maccarinelli.it) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
-| 2024-04-14 | [`Omni Hotels & Resorts  (US)`](https://google.com/search?q=Omni+Hotels+%26+Resorts++%28US%29) | [daixin](https://ransomwatch.telemetry.ltd/#/profiles?id=daixin) |
