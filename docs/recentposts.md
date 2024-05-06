@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-06 | [`http://www.nestoilgroup.com`](https://google.com/search?q=http%3A%2F%2Fwww.nestoilgroup.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-05-05 | [`CMAC Transportation`](https://google.com/search?q=CMAC+Transportation) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-05-05 | [`IDS`](https://google.com/search?q=IDS) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-05-05 | [`Provencher_Roy`](https://google.com/search?q=Provencher_Roy) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-16 | [`charlesparsons`](https://google.com/search?q=charlesparsons) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-04-16 | [`Po****sa`](https://google.com/search?q=Po%2A%2A%2A%2Asa) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-04-16 | [`GPI Corporate`](https://google.com/search?q=GPI+Corporate) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
-| 2024-04-16 | [`Council for Relationships`](https://google.com/search?q=Council+for+Relationships) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
