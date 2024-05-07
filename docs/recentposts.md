@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-07 | [`elarabygroup.com`](https://google.com/search?q=elarabygroup.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-07 | [`cpashin.com`](https://google.com/search?q=cpashin.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-07 | [`cdev.gc.ca`](https://google.com/search?q=cdev.gc.ca) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-07 | [`carespring.com`](https://google.com/search?q=carespring.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-17 | [`SOA Architecture`](https://google.com/search?q=SOA+Architecture) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-04-17 | [`R.B. Woodcraft, Inc.`](https://google.com/search?q=R.B.+Woodcraft%2C+Inc.) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-04-17 | [`LYON TERMINAL`](https://google.com/search?q=LYON+TERMINAL) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
-| 2024-04-17 | [`LEMODOR`](https://google.com/search?q=LEMODOR) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
