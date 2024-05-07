@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-07 | [`Affordable Payroll & Bookkeeping Services`](https://google.com/search?q=Affordable+Payroll+%26+Bookkeeping+Services) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-05-07 | [`Pettinicchi, LLC`](https://google.com/search?q=Pettinicchi%2C+LLC) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-05-06 | [`Nikolaus and Hohenadel`](https://google.com/search?q=Nikolaus+and+Hohenadel) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-05-06 | [`extraco.ae`](https://google.com/search?q=extraco.ae) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-16 | [`Pioneer Oil Company, Inc.`](https://google.com/search?q=Pioneer+Oil+Company%2C+Inc.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-04-16 | [`Lopesan Hotels`](https://google.com/search?q=Lopesan+Hotels) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-04-16 | [`Wright Brothers Cons truction`](https://google.com/search?q=Wright+Brothers+Cons+truction) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-04-16 | [`Medequip Assistive T echnology`](https://google.com/search?q=Medequip+Assistive+T+echnology) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
