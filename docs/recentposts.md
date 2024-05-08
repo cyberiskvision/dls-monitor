@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-08 | [`geotechenv.com`](https://google.com/search?q=geotechenv.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-08 | [`gammarenax.ch`](https://google.com/search?q=gammarenax.ch) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-08 | [`eviivo.com`](https://google.com/search?q=eviivo.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-08 | [`emainc.net`](https://google.com/search?q=emainc.net) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-18 | [`http://www.dvelectronics.com`](https://google.com/search?q=http%3A%2F%2Fwww.dvelectronics.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-04-18 | [`https://www.upc.com.tw`](https://google.com/search?q=https%3A%2F%2Fwww.upc.com.tw) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-04-18 | [`Doyon`](https://google.com/search?q=Doyon) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
-| 2024-04-17 | [`The Souza Agency Inc.`](https://google.com/search?q=The+Souza+Agency+Inc.) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
