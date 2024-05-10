@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-10 | [`brockington.leics.sch.uk`](https://google.com/search?q=brockington.leics.sch.uk) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-10 | [`brfibra.com`](https://google.com/search?q=brfibra.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-10 | [`binder.de`](https://google.com/search?q=binder.de) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-10 | [`auburnpikapp.org`](https://google.com/search?q=auburnpikapp.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-19 | [`Macphie`](https://google.com/search?q=Macphie) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-04-19 | [`Cavotec`](https://google.com/search?q=Cavotec) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-04-19 | [`HYMER`](https://google.com/search?q=HYMER) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
-| 2024-04-19 | [`Hanwha`](https://google.com/search?q=Hanwha) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
