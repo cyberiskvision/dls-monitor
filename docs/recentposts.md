@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-10 | [`binder.de`](https://google.com/search?q=binder.de) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-10 | [`auburnpikapp.org`](https://google.com/search?q=auburnpikapp.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-10 | [`asafoot.com`](https://google.com/search?q=asafoot.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-10 | [`amsoft.cl`](https://google.com/search?q=amsoft.cl) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-19 | [`HYMER`](https://google.com/search?q=HYMER) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-04-19 | [`Hanwha`](https://google.com/search?q=Hanwha) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-04-19 | [`Columbia Pipe &amp; Supply Co.`](https://google.com/search?q=Columbia+Pipe+%26amp%3B+Supply+Co.) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
-| 2024-04-19 | [`call4health.com`](https://google.com/search?q=call4health.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
