@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-10 | [`amsoft.cl`](https://google.com/search?q=amsoft.cl) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-10 | [`alian.mx`](https://google.com/search?q=alian.mx) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-10 | [`agencavisystems.com`](https://google.com/search?q=agencavisystems.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-10 | [`acla-werke.com`](https://google.com/search?q=acla-werke.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-19 | [`call4health.com`](https://google.com/search?q=call4health.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-19 | [`JE Owens`](https://google.com/search?q=JE+Owens) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-19 | [`Engineered Automation of Maine`](https://google.com/search?q=Engineered+Automation+of+Maine) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-04-19 | [`Alltruck Bodies`](https://google.com/search?q=Alltruck+Bodies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
