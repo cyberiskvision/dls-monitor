@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-10 | [`Crescent Point Energy`](https://google.com/search?q=Crescent+Point+Energy) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-05-10 | [`cargotrinidad.com`](https://google.com/search?q=cargotrinidad.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-10 | [`calvia.com`](https://google.com/search?q=calvia.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-10 | [`brockington.leics.sch.uk`](https://google.com/search?q=brockington.leics.sch.uk) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-20 | [`kjf-augsburg.de`](https://google.com/search?q=kjf-augsburg.de) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-19 | [`eurosko.com`](https://google.com/search?q=eurosko.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-04-19 | [`Fluent Home General Information`](https://google.com/search?q=Fluent+Home+General+Information) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
-| 2024-04-19 | [`Macphie`](https://google.com/search?q=Macphie) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
