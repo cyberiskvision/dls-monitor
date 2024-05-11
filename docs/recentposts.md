@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-11 | [`cttxpress.com`](https://google.com/search?q=cttxpress.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-11 | [`contest.omg`](https://google.com/search?q=contest.omg) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-11 | [`colonialsd.org`](https://google.com/search?q=colonialsd.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-11 | [`college-stemarie-elven.org`](https://google.com/search?q=college-stemarie-elven.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-20 | [`Lutheran Social Services of Indiana`](https://google.com/search?q=Lutheran+Social+Services+of+Indiana) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
 | 2024-04-20 | [`Druckman Law Group`](https://google.com/search?q=Druckman+Law+Group) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
 | 2024-04-20 | [`Delano Joint Union High School District`](https://google.com/search?q=Delano+Joint+Union+High+School+District) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
-| 2024-04-20 | [`Continuing Healthcare Solutions`](https://google.com/search?q=Continuing+Healthcare+Solutions) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
