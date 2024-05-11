@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-11 | [`doxim.com`](https://google.com/search?q=doxim.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-11 | [`doublehorse.in`](https://google.com/search?q=doublehorse.in) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-11 | [`depenning.com`](https://google.com/search?q=depenning.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-11 | [`dagma.com.ar`](https://google.com/search?q=dagma.com.ar) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-21 | [`Integrated Control`](https://google.com/search?q=Integrated+Control) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-21 | [`City of St. Cloud, Florida`](https://google.com/search?q=City+of+St.+Cloud%2C+Florida) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-21 | [`http://truenetcommunications.com`](https://google.com/search?q=http%3A%2F%2Ftruenetcommunications.com) | [ciphbit](https://ransomwatch.telemetry.ltd/#/profiles?id=ciphbit) |
-| 2024-04-21 | [`Hernando County`](https://google.com/search?q=Hernando+County) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
