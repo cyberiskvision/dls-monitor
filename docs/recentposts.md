@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-11 | [`cloudminds.com`](https://google.com/search?q=cloudminds.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-11 | [`21stcenturyvitamins.com`](https://google.com/search?q=21stcenturyvitamins.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-11 | [`cinealbeniz.com`](https://google.com/search?q=cinealbeniz.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-11 | [`ccofva.com`](https://google.com/search?q=ccofva.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-20 | [`Myers Automotive Gro up`](https://google.com/search?q=Myers+Automotive+Gro+up) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-04-20 | [`SIS Automatisering`](https://google.com/search?q=SIS+Automatisering) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-20 | [`Pennsylvania Convention Center`](https://google.com/search?q=Pennsylvania+Convention+Center) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-04-20 | [`P??????? & ????`](https://google.com/search?q=P%3F%3F%3F%3F%3F%3F%3F+%26+%3F%3F%3F%3F) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
