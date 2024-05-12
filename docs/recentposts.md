@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-12 | [`iaconnecticut.com`](https://google.com/search?q=iaconnecticut.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-12 | [`hpo.pe`](https://google.com/search?q=hpo.pe) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-12 | [`hotel-ostella.com`](https://google.com/search?q=hotel-ostella.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-12 | [`hetero.com`](https://google.com/search?q=hetero.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-22 | [`D'amico and Pettinicchi, LLC`](https://google.com/search?q=D%27amico+and+Pettinicchi%2C+LLC) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-04-22 | [`Optometric Physicians of Middle Tennessee`](https://google.com/search?q=Optometric+Physicians+of+Middle+Tennessee) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-04-22 | [`Texas Retina Associates`](https://google.com/search?q=Texas+Retina+Associates) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
-| 2024-04-22 | [`Bieler + Lang GmbH`](https://google.com/search?q=Bieler+%2B+Lang+GmbH) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
