@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-12 | [`habeco.com.vn`](https://google.com/search?q=habeco.com.vn) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-12 | [`grupopm.com`](https://google.com/search?q=grupopm.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-12 | [`grc-c.co.il`](https://google.com/search?q=grc-c.co.il) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-12 | [`garage-cretot.fr`](https://google.com/search?q=garage-cretot.fr) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-22 | [`Paulmann Licht`](https://google.com/search?q=Paulmann+Licht) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-22 | [`charlesparsons (Attack again)`](https://google.com/search?q=charlesparsons+%28Attack+again%29) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-04-22 | [`Ma****in`](https://google.com/search?q=Ma%2A%2A%2A%2Ain) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
-| 2024-04-22 | [`La****up`](https://google.com/search?q=La%2A%2A%2A%2Aup) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
