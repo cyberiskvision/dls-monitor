@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-12 | [`evw.k12.mn.us`](https://google.com/search?q=evw.k12.mn.us) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-12 | [`essinc.com`](https://google.com/search?q=essinc.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-12 | [`elements-ing.com`](https://google.com/search?q=elements-ing.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-12 | [`eif.org.na`](https://google.com/search?q=eif.org.na) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-22 | [`Optima Manufacturing`](https://google.com/search?q=Optima+Manufacturing) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-21 | [`Notions Marketing`](https://google.com/search?q=Notions+Marketing) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-21 | [`NanoLumens`](https://google.com/search?q=NanoLumens) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-04-21 | [`Mid-South Health Systems`](https://google.com/search?q=Mid-South+Health+Systems) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
