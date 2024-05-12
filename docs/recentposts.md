@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-12 | [`ecotruck.com.br`](https://google.com/search?q=ecotruck.com.br) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-12 | [`dsglobaltech.com`](https://google.com/search?q=dsglobaltech.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-11 | [`dpkv.cz`](https://google.com/search?q=dpkv.cz) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-11 | [`doxim.com`](https://google.com/search?q=doxim.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-21 | [`Kablutronik SRL`](https://google.com/search?q=Kablutronik+SRL) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-21 | [`Jordano's Inc.`](https://google.com/search?q=Jordano%27s+Inc.) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-21 | [`Jack Doheny Company`](https://google.com/search?q=Jack+Doheny+Company) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-04-21 | [`Integrated Control`](https://google.com/search?q=Integrated+Control) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
