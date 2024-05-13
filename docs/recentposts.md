@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-13 | [`lenmed.co.za`](https://google.com/search?q=lenmed.co.za) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-13 | [`lavalpoincon.com`](https://google.com/search?q=lavalpoincon.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-13 | [`kowessex.co.uk`](https://google.com/search?q=kowessex.co.uk) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-13 | [`kioti.com`](https://google.com/search?q=kioti.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-23 | [`ghimli.com\$189.1M\Australia\88GB\100%DISCLOSED    `](https://google.com/search?q=ghimli.com%5C%24189.1M%5CAustralia%5C88GB%5C100%25DISCLOSED++++) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-04-23 | [`Wasserkraft Volk AG`](https://google.com/search?q=Wasserkraft+Volk+AG) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-04-23 | [`Bank Pembangunan Daerah Banten Tbk PT`](https://google.com/search?q=Bank+Pembangunan+Daerah+Banten+Tbk+PT) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
-| 2024-04-23 | [`The Tech Interactive`](https://google.com/search?q=The+Tech+Interactive) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
