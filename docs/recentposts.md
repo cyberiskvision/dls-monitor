@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-14 | [`oseranhahn.com`](https://google.com/search?q=oseranhahn.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-14 | [`jmjcorporation.com`](https://google.com/search?q=jmjcorporation.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-13 | [`hesperiausd.org`](https://google.com/search?q=hesperiausd.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-13 | [`countyins.com`](https://google.com/search?q=countyins.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-24 | [`Mainwein`](https://google.com/search?q=Mainwein) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-04-24 | [`STERCH - INTERNATIONAL s.r.o.`](https://google.com/search?q=STERCH+-+INTERNATIONAL+s.r.o.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-04-24 | [`Toyota Brazil`](https://google.com/search?q=Toyota+Brazil) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-04-24 | [`Army Welfare Trust`](https://google.com/search?q=Army+Welfare+Trust) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
