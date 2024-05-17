@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-17 | [`Gantan Beauty Industry`](https://google.com/search?q=Gantan+Beauty+Industry) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-05-17 | [`ABS-CBN Broadcasting`](https://google.com/search?q=ABS-CBN+Broadcasting) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-05-17 | [`remagroup.com`](https://google.com/search?q=remagroup.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-17 | [`rehub.ie`](https://google.com/search?q=rehub.ie) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-25 | [`CDSHotels`](https://google.com/search?q=CDSHotels) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-04-25 | [`Les Miroirs St-Antoine Inc`](https://google.com/search?q=Les+Miroirs+St-Antoine+Inc) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-04-25 | [`Mercatino S.r.l.  https://www.mercatinousato.com/`](https://google.com/search?q=Mercatino+S.r.l.++https%3A%2F%2Fwww.mercatinousato.com%2F) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
-| 2024-04-25 | [`FábricaInfo <fabricainfo.com>`](https://google.com/search?q=F%C3%A1bricaInfo+%3Cfabricainfo.com%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
