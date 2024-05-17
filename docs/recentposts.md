@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-17 | [`allcare-med.com`](https://google.com/search?q=allcare-med.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-17 | [`acla.de`](https://google.com/search?q=acla.de) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-17 | [`Isaacs Odinocki`](https://google.com/search?q=Isaacs+Odinocki) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-05-17 | [`Gantan Beauty Industry`](https://google.com/search?q=Gantan+Beauty+Industry) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-25 | [`Empresa de energía del Bajo Putumayo <eebpsa.com.co>`](https://google.com/search?q=Empresa+de+energ%C3%ADa+del+Bajo+Putumayo+%3Ceebpsa.com.co%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-25 | [`Chicony Electronics`](https://google.com/search?q=Chicony+Electronics) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-25 | [`Grupo Cuevas<grupocuevas.es>`](https://google.com/search?q=Grupo+Cuevas%3Cgrupocuevas.es%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
-| 2024-04-25 | [`CDSHotels`](https://google.com/search?q=CDSHotels) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
