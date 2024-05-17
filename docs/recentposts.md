@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-17 | [`randi-group.com`](https://google.com/search?q=randi-group.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-17 | [`Neovia`](https://google.com/search?q=Neovia) | [snatch](https://ransomwatch.telemetry.ltd/#/profiles?id=snatch) |
 | 2024-05-16 | [`Wealth Depot LLC`](https://google.com/search?q=Wealth+Depot+LLC) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-05-14 | [`qstartlabs.com`](https://google.com/search?q=qstartlabs.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-25 | [`HARMAN - CYNC SOLUTIONS client`](https://google.com/search?q=HARMAN+-+CYNC+SOLUTIONS+client) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-25 | [`https://geodis.com`](https://google.com/search?q=https%3A%2F%2Fgeodis.com) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
 | 2024-04-25 | [`https://goftac.com/    firsttx.com  First Texas Alliance Corp   (FTAC)`](https://google.com/search?q=https%3A%2F%2Fgoftac.com%2F++++firsttx.com++First+Texas+Alliance+Corp+++%28FTAC%29) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
-| 2024-04-25 | [`Central Power Systems and Services`](https://google.com/search?q=Central+Power+Systems+and+Services) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
