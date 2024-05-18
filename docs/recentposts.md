@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-18 | [`rfca.com`](https://google.com/search?q=rfca.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-18 | [`morrisgroupint.com`](https://google.com/search?q=morrisgroupint.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-18 | [`keuka.edu`](https://google.com/search?q=keuka.edu) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-18 | [`kauffmanschool.org`](https://google.com/search?q=kauffmanschool.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-26 | [`iddink.nl\$80.1M\NL\460GB\&lt;1%DISCLOSED`](https://google.com/search?q=iddink.nl%5C%2480.1M%5CNL%5C460GB%5C%26lt%3B1%25DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-04-26 | [`SSS Australia`](https://google.com/search?q=SSS+Australia) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-26 | [`Rocky Mountain Sales`](https://google.com/search?q=Rocky+Mountain+Sales) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-04-26 | [`Hong Kong College of Technology`](https://google.com/search?q=Hong+Kong+College+of+Technology) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
