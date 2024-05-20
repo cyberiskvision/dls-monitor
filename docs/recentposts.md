@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-20 | [`southernspecialtysupply.com`](https://google.com/search?q=southernspecialtysupply.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-20 | [`sonoco.com`](https://google.com/search?q=sonoco.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-18 | [`snk.sk`](https://google.com/search?q=snk.sk) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-18 | [`snapethorpeprimary.co.uk`](https://google.com/search?q=snapethorpeprimary.co.uk) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-27 | [`Precision Fluid Controls`](https://google.com/search?q=Precision+Fluid+Controls) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-27 | [`Original Herkimer Cheese`](https://google.com/search?q=Original+Herkimer+Cheese) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-04-27 | [`New Hudson Facades`](https://google.com/search?q=New+Hudson+Facades) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-04-27 | [`Madata`](https://google.com/search?q=Madata) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
