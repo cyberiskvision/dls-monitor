@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-22 | [`Grupo Cadarso`](https://google.com/search?q=Grupo+Cadarso) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-05-21 | [`Atlas Oil`](https://google.com/search?q=Atlas+Oil) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-05-21 | [`TruGreen`](https://google.com/search?q=TruGreen) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-05-21 | [`sunray.com`](https://google.com/search?q=sunray.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-27 | [`Design Intoto <www.designintoto.com.au>`](https://google.com/search?q=Design+Intoto+%3Cwww.designintoto.com.au%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-27 | [`Human Technology Inc.`](https://google.com/search?q=Human+Technology+Inc.) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
 | 2024-04-27 | [`http://htw.com.au`](https://google.com/search?q=http%3A%2F%2Fhtw.com.au) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2024-04-27 | [`Yale Mortgage`](https://google.com/search?q=Yale+Mortgage) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
