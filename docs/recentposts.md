@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-23 | [`Royal Star & Garter`](https://google.com/search?q=Royal+Star+%26+Garter) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-05-23 | [`United Urology Group`](https://google.com/search?q=United+Urology+Group) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-05-23 | [`Advance Press`](https://google.com/search?q=Advance+Press) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-05-23 | [`Le Vian`](https://google.com/search?q=Le+Vian) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-28 | [`[Published]Constelacion Savings and Credit Society<www.constelacion.com.sv>`](https://google.com/search?q=%5BPublished%5DConstelacion+Savings+and+Credit+Society%3Cwww.constelacion.com.sv%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-28 | [`PHARMACY ETTORE FLORIO SNC - Online Pharmacy Italy <www.farmaciaflorio.com>`](https://google.com/search?q=PHARMACY+ETTORE+FLORIO+SNC+-+Online+Pharmacy+Italy+%3Cwww.farmaciaflorio.com%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-28 | [`Skyway Coach Lines and Shuttle Services   --   skywaycoach.ca`](https://google.com/search?q=Skyway+Coach+Lines+and+Shuttle+Services+++--+++skywaycoach.ca) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
-| 2024-04-28 | [`Baca County Feedyard, Inc`](https://google.com/search?q=Baca+County+Feedyard%2C+Inc) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
