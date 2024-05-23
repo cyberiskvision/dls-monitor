@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-23 | [`United Urology Group`](https://google.com/search?q=United+Urology+Group) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-05-23 | [`Advance Press`](https://google.com/search?q=Advance+Press) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-05-23 | [`Le Vian`](https://google.com/search?q=Le+Vian) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-05-22 | [`Lactanet`](https://google.com/search?q=Lactanet) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-28 | [`PHARMACY ETTORE FLORIO SNC - Online Pharmacy Italy <www.farmaciaflorio.com>`](https://google.com/search?q=PHARMACY+ETTORE+FLORIO+SNC+-+Online+Pharmacy+Italy+%3Cwww.farmaciaflorio.com%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-28 | [`Skyway Coach Lines and Shuttle Services   --   skywaycoach.ca`](https://google.com/search?q=Skyway+Coach+Lines+and+Shuttle+Services+++--+++skywaycoach.ca) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-04-28 | [`Baca County Feedyard, Inc`](https://google.com/search?q=Baca+County+Feedyard%2C+Inc) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
-| 2024-04-27 | [`CYNC SOLUTIONS - The unexpected target.<Updated>`](https://google.com/search?q=CYNC+SOLUTIONS+-+The+unexpected+target.%3CUpdated%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
