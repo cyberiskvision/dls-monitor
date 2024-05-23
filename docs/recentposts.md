@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-23 | [`Hedbergs`](https://google.com/search?q=Hedbergs) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-05-23 | [`J & N Stone`](https://google.com/search?q=J+%26+N+Stone) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-05-23 | [`Royal Star & Garter`](https://google.com/search?q=Royal+Star+%26+Garter) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-05-23 | [`United Urology Group`](https://google.com/search?q=United+Urology+Group) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-28 | [`Magicolor`](https://google.com/search?q=Magicolor) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-04-28 | [`Targus.com`](https://google.com/search?q=Targus.com) | [redransomware](https://ransomwatch.telemetry.ltd/#/profiles?id=redransomware) |
 | 2024-04-28 | [`[Published]Constelacion Savings and Credit Society<www.constelacion.com.sv>`](https://google.com/search?q=%5BPublished%5DConstelacion+Savings+and+Credit+Society%3Cwww.constelacion.com.sv%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
-| 2024-04-28 | [`PHARMACY ETTORE FLORIO SNC - Online Pharmacy Italy <www.farmaciaflorio.com>`](https://google.com/search?q=PHARMACY+ETTORE+FLORIO+SNC+-+Online+Pharmacy+Italy+%3Cwww.farmaciaflorio.com%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
