@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-24 | [`tdt.aero`](https://google.com/search?q=tdt.aero) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-24 | [`taylorcrane.com`](https://google.com/search?q=taylorcrane.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-24 | [`syntax-architektur.at`](https://google.com/search?q=syntax-architektur.at) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-24 | [`svenskakyrkan.se`](https://google.com/search?q=svenskakyrkan.se) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-30 | [`The Royal Family of Great Britain`](https://google.com/search?q=The+Royal+Family+of+Great+Britain) | [snatch](https://ransomwatch.telemetry.ltd/#/profiles?id=snatch) |
 | 2024-04-30 | [`Frencken`](https://google.com/search?q=Frencken) | [snatch](https://ransomwatch.telemetry.ltd/#/profiles?id=snatch) |
 | 2024-04-30 | [`Canadian Psychological Association`](https://google.com/search?q=Canadian+Psychological+Association) | [snatch](https://ransomwatch.telemetry.ltd/#/profiles?id=snatch) |
-| 2024-04-30 | [`ottlite.com`](https://google.com/search?q=ottlite.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
