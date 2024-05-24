@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-24 | [`londondrugs.com`](https://google.com/search?q=londondrugs.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-24 | [`equinoxinc.org`](https://google.com/search?q=equinoxinc.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-24 | [`daubertchemical.com`](https://google.com/search?q=daubertchemical.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-23 | [`carcajou.fr`](https://google.com/search?q=carcajou.fr) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-04-29 | [`The Line Up, Inc`](https://google.com/search?q=The+Line+Up%2C+Inc) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-04-29 | [`Medizinische Grosshandlung GmbH`](https://google.com/search?q=Medizinische+Grosshandlung+GmbH) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-04-29 | [`Lumina Americas`](https://google.com/search?q=Lumina+Americas) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
-| 2024-04-29 | [`EUROPEANPROF - Expertos en Seguridad y Altura - <europeanprof.es>`](https://google.com/search?q=EUROPEANPROF+-+Expertos+en+Seguridad+y+Altura+-+%3Ceuropeanprof.es%3E) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
