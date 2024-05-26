@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-26 | [`thebiglifegroup.com`](https://google.com/search?q=thebiglifegroup.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-26 | [`thaiagri.com`](https://google.com/search?q=thaiagri.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-25 | [`telekom.com`](https://google.com/search?q=telekom.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-25 | [`tegaindustries.com`](https://google.com/search?q=tegaindustries.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-01 | [`UK government`](https://google.com/search?q=UK+government) | [snatch](https://ransomwatch.telemetry.ltd/#/profiles?id=snatch) |
 | 2024-05-01 | [`MORTON WILLIAMS Data Leak`](https://google.com/search?q=MORTON+WILLIAMS+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-05-01 | [`Les Miroirs St-Antoine Inc Data Leak`](https://google.com/search?q=Les+Miroirs+St-Antoine+Inc+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
-| 2024-04-30 | [`Advanced Business Networks`](https://google.com/search?q=Advanced+Business+Networks) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
