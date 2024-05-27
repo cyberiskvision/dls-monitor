@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-27 | [`unisi.it`](https://google.com/search?q=unisi.it) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-27 | [`ultragasmexico.com`](https://google.com/search?q=ultragasmexico.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-27 | [`ufresources.com`](https://google.com/search?q=ufresources.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-27 | [`twpunionschools.org`](https://google.com/search?q=twpunionschools.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-02 | [`anatomage.com`](https://google.com/search?q=anatomage.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-02 | [`alimmigration.com`](https://google.com/search?q=alimmigration.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-01 | [`GCH Hotel Group`](https://google.com/search?q=GCH+Hotel+Group) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-05-01 | [`Studio Libeskind`](https://google.com/search?q=Studio+Libeskind) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
