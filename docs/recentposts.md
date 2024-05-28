@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-28 | [`kharafiglobal.com`](https://google.com/search?q=kharafiglobal.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-28 | [`highwaystrust.com`](https://google.com/search?q=highwaystrust.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-28 | [`cafesnovell.com`](https://google.com/search?q=cafesnovell.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-28 | [`bnsgroup.co.uk`](https://google.com/search?q=bnsgroup.co.uk) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-03 | [`Calumet Civil Contractors, Inc.`](https://google.com/search?q=Calumet+Civil+Contractors%2C+Inc.) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-05-03 | [`GWF Frankenwein`](https://google.com/search?q=GWF+Frankenwein) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-05-03 | [`Reederei JÃ¼ngerhans`](https://google.com/search?q=Reederei+J%C3%83%C2%BCngerhans) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
-| 2024-05-03 | [`Gr****en`](https://google.com/search?q=Gr%2A%2A%2A%2Aen) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
