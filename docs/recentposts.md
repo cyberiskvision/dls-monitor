@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-28 | [`vstar.in`](https://google.com/search?q=vstar.in) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-27 | [`vm3fincas.es`](https://google.com/search?q=vm3fincas.es) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-27 | [`vitema.vi.gov`](https://google.com/search?q=vitema.vi.gov) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-27 | [`vinatiorganics.com`](https://google.com/search?q=vinatiorganics.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-03 | [`SHAMASS.ORG`](https://google.com/search?q=SHAMASS.ORG) | [ransomblog_noname](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomblog_noname) |
 | 2024-05-03 | [`Stainless Foundry & Engineering`](https://google.com/search?q=Stainless+Foundry+%26+Engineering) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-05-02 | [`Ayoub &#038; associates CPA Firm`](https://google.com/search?q=Ayoub+%26%23038%3B+associates+CPA+Firm) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
-| 2024-05-02 | [`Canatal Industries`](https://google.com/search?q=Canatal+Industries) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
