@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-28 | [`yucatan.gob.mx`](https://google.com/search?q=yucatan.gob.mx) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-28 | [`workscapes.com`](https://google.com/search?q=workscapes.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-28 | [`sysroad.com`](https://google.com/search?q=sysroad.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-28 | [`sunpetro.com`](https://google.com/search?q=sunpetro.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-05 | [`Olson &amp; Co. Steel`](https://google.com/search?q=Olson+%26amp%3B+Co.+Steel) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-05-05 | [`Territorio Energia Ambiente S.P.A`](https://google.com/search?q=Territorio+Energia+Ambiente+S.P.A) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-05-04 | [`Ayesa`](https://google.com/search?q=Ayesa) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
-| 2024-05-04 | [`SYNLAB`](https://google.com/search?q=SYNLAB) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
