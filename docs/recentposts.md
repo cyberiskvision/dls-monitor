@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-28 | [`pressurejet.com`](https://google.com/search?q=pressurejet.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-28 | [`multigroup.info`](https://google.com/search?q=multigroup.info) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-28 | [`mgops.sedziszow-mlp.pl`](https://google.com/search?q=mgops.sedziszow-mlp.pl) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-28 | [`longviewoms.com`](https://google.com/search?q=longviewoms.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-04 | [`Active-PCB`](https://google.com/search?q=Active-PCB) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-05-04 | [`Gai`](https://google.com/search?q=Gai) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-05-04 | [`Accounting Professionals LLC. Price, Breazeale &#038; Chastang`](https://google.com/search?q=Accounting+Professionals+LLC.+Price%2C+Breazeale+%26%23038%3B+Chastang) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
-| 2024-05-04 | [`INC News`](https://google.com/search?q=INC+News) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
