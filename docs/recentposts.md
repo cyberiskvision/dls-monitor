@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-28 | [`mgops.sedziszow-mlp.pl`](https://google.com/search?q=mgops.sedziszow-mlp.pl) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-28 | [`longviewoms.com`](https://google.com/search?q=longviewoms.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-28 | [`kns.com`](https://google.com/search?q=kns.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-28 | [`kharafiglobal.com`](https://google.com/search?q=kharafiglobal.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-04 | [`Accounting Professionals LLC. Price, Breazeale &#038; Chastang`](https://google.com/search?q=Accounting+Professionals+LLC.+Price%2C+Breazeale+%26%23038%3B+Chastang) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-05-04 | [`INC News`](https://google.com/search?q=INC+News) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
 | 2024-05-03 | [`Lopez Hnos`](https://google.com/search?q=Lopez+Hnos) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
-| 2024-05-03 | [`Calumet Civil Contractors, Inc.`](https://google.com/search?q=Calumet+Civil+Contractors%2C+Inc.) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
