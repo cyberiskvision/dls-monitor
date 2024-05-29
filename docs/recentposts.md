@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-29 | [`Assist Informatica`](https://google.com/search?q=Assist+Informatica) | [mallox](https://ransomwatch.telemetry.ltd/#/profiles?id=mallox) |
 | 2024-05-29 | [`Litigation Lawyers`](https://google.com/search?q=Litigation+Lawyers) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-05-29 | [`Co, Chartered Accountants`](https://google.com/search?q=Co%2C+Chartered+Accountants) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-05-29 | [`Bluebonnet Nutrition`](https://google.com/search?q=Bluebonnet+Nutrition) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-06 | [`extraco.ae`](https://google.com/search?q=extraco.ae) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
 | 2024-05-06 | [`http://vinoly.com`](https://google.com/search?q=http%3A%2F%2Fvinoly.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-05-06 | [`M2E Consulting Engin eers`](https://google.com/search?q=M2E+Consulting+Engin+eers) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-05-06 | [`https://trctalent.com/`](https://google.com/search?q=https%3A%2F%2Ftrctalent.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
