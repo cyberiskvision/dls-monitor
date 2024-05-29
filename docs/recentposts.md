@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-29 | [`Wind Composite Services Group, LLC`](https://google.com/search?q=Wind+Composite+Services+Group%2C+LLC) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-05-29 | [`Kuhn Rechtsanwlte GmbH`](https://google.com/search?q=Kuhn+Rechtsanwlte+GmbH) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-05-29 | [`CNPC Sport`](https://google.com/search?q=CNPC+Sport) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-05-29 | [`Esc Pau Etudes-Conseils`](https://google.com/search?q=Esc+Pau+Etudes-Conseils) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-07 | [`aev-iledefrance.fr`](https://google.com/search?q=aev-iledefrance.fr) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-07 | [`acsistemas.com`](https://google.com/search?q=acsistemas.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-07 | [`Affordable Payroll & Bookkeeping Services`](https://google.com/search?q=Affordable+Payroll+%26+Bookkeeping+Services) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-05-07 | [`Pettinicchi, LLC`](https://google.com/search?q=Pettinicchi%2C+LLC) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
