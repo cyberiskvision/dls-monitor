@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-30 | [`WALSER AUTOMOTIVE GROUP`](https://google.com/search?q=WALSER+AUTOMOTIVE+GROUP) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-05-30 | [`Visa Lighting`](https://google.com/search?q=Visa+Lighting) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-05-30 | [`Semicore Equipment`](https://google.com/search?q=Semicore+Equipment) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-05-30 | [`RDI-USA`](https://google.com/search?q=RDI-USA) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-09 | [`Zuber Gardner CPAs`](https://google.com/search?q=Zuber+Gardner+CPAs) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-05-09 | [`Corr &#038; Corr`](https://google.com/search?q=Corr+%26%23038%3B+Corr) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-05-09 | [`grand-indonesia.com`](https://google.com/search?q=grand-indonesia.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-09 | [`gorrias-mercedes-benz.fr`](https://google.com/search?q=gorrias-mercedes-benz.fr) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
