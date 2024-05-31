@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-31 | [`Insurance Agency Marketing Services`](https://google.com/search?q=Insurance+Agency+Marketing+Services) | [moneymessage](https://ransomwatch.telemetry.ltd/#/profiles?id=moneymessage) |
 | 2024-05-31 | [`strikeusa.com`](https://google.com/search?q=strikeusa.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-30 | [`aytosanlorenzo.es`](https://google.com/search?q=aytosanlorenzo.es) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-30 | [`woldae.com`](https://google.com/search?q=woldae.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-10 | [`kras.hr`](https://google.com/search?q=kras.hr) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-10 | [`kimmelcleaners.com`](https://google.com/search?q=kimmelcleaners.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-10 | [`isee.biz`](https://google.com/search?q=isee.biz) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-10 | [`irc.be`](https://google.com/search?q=irc.be) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
