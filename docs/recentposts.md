@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-05-31 | [`Fiskars Group`](https://google.com/search?q=Fiskars+Group) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-05-31 | [`Bruno generators (It alian manufacturing)`](https://google.com/search?q=Bruno+generators+%28It+alian+manufacturing%29) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-05-31 | [`Marigin`](https://google.com/search?q=Marigin) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-05-31 | [`Newman Ferrara`](https://google.com/search?q=Newman+Ferrara) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-11 | [`college-stemarie-elven.org`](https://google.com/search?q=college-stemarie-elven.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-11 | [`cloudminds.com`](https://google.com/search?q=cloudminds.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-11 | [`21stcenturyvitamins.com`](https://google.com/search?q=21stcenturyvitamins.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-11 | [`cinealbeniz.com`](https://google.com/search?q=cinealbeniz.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
