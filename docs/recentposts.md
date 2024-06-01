@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-01 | [`Cushman Contracting Corporation`](https://google.com/search?q=Cushman+Contracting+Corporation) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-01 | [`Crooker`](https://google.com/search?q=Crooker) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-01 | [`Costa Edutainment SpA`](https://google.com/search?q=Costa+Edutainment+SpA) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-01 | [`Coplosa`](https://google.com/search?q=Coplosa) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-11 | [`doxim.com`](https://google.com/search?q=doxim.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-11 | [`doublehorse.in`](https://google.com/search?q=doublehorse.in) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-11 | [`depenning.com`](https://google.com/search?q=depenning.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-11 | [`dagma.com.ar`](https://google.com/search?q=dagma.com.ar) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
