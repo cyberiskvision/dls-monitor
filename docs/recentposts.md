@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-01 | [`Natsume Tax Accountant Corporation`](https://google.com/search?q=Natsume+Tax+Accountant+Corporation) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-01 | [`Matusima`](https://google.com/search?q=Matusima) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-01 | [`LEMKEN`](https://google.com/search?q=LEMKEN) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-01 | [`Fic Expertise`](https://google.com/search?q=Fic+Expertise) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-12 | [`elements-ing.com`](https://google.com/search?q=elements-ing.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-12 | [`eif.org.na`](https://google.com/search?q=eif.org.na) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-12 | [`ecotruck.com.br`](https://google.com/search?q=ecotruck.com.br) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-12 | [`dsglobaltech.com`](https://google.com/search?q=dsglobaltech.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
