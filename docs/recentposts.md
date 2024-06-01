@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-01 | [`Service public de Wallonie`](https://google.com/search?q=Service+public+de+Wallonie) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-01 | [`powertestdyno.com`](https://google.com/search?q=powertestdyno.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-06-01 | [`S L B TRANSIT INC`](https://google.com/search?q=S+L+B+TRANSIT+INC) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-01 | [`Osaka Motorcycle Business Cooperative`](https://google.com/search?q=Osaka+Motorcycle+Business+Cooperative) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-12 | [`grupopm.com`](https://google.com/search?q=grupopm.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-12 | [`grc-c.co.il`](https://google.com/search?q=grc-c.co.il) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-12 | [`garage-cretot.fr`](https://google.com/search?q=garage-cretot.fr) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-12 | [`evw.k12.mn.us`](https://google.com/search?q=evw.k12.mn.us) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
