@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-01 | [`Sigmund Espeland AS`](https://google.com/search?q=Sigmund+Espeland+AS) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-01 | [`Shirasaki`](https://google.com/search?q=Shirasaki) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-01 | [`Service public de Wallonie`](https://google.com/search?q=Service+public+de+Wallonie) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-01 | [`powertestdyno.com`](https://google.com/search?q=powertestdyno.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-12 | [`heartlandhealthcenter.org`](https://google.com/search?q=heartlandhealthcenter.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-12 | [`habeco.com.vn`](https://google.com/search?q=habeco.com.vn) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-12 | [`grupopm.com`](https://google.com/search?q=grupopm.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-12 | [`grc-c.co.il`](https://google.com/search?q=grc-c.co.il) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
