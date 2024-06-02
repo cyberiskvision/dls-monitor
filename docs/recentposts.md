@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-02 | [`http://mewbornlaw.biz`](https://google.com/search?q=http%3A%2F%2Fmewbornlaw.biz) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-02 | [`http://www.jacksongov.org`](https://google.com/search?q=http%3A%2F%2Fwww.jacksongov.org) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-02 | [`http://pierfoundry.com`](https://google.com/search?q=http%3A%2F%2Fpierfoundry.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-02 | [`https://frankmiller.com/`](https://google.com/search?q=https%3A%2F%2Ffrankmiller.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-13 | [`mogaisrael.com`](https://google.com/search?q=mogaisrael.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-13 | [`manusa.com`](https://google.com/search?q=manusa.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-13 | [`livia.in`](https://google.com/search?q=livia.in) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-13 | [`lenmed.co.za`](https://google.com/search?q=lenmed.co.za) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
