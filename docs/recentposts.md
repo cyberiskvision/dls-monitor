@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-02 | [`http://www.dowellchem.cn/`](https://google.com/search?q=http%3A%2F%2Fwww.dowellchem.cn%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-02 | [`Wealth Depot LLC Data Leak`](https://google.com/search?q=Wealth+Depot+LLC+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-06-02 | [`Ayoub &#038; associates CPA Firm Data Leak`](https://google.com/search?q=Ayoub+%26%23038%3B+associates+CPA+Firm+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-06-01 | [`https://www.ipsotek.com/`](https://google.com/search?q=https%3A%2F%2Fwww.ipsotek.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-13 | [`incegroup.com`](https://google.com/search?q=incegroup.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-13 | [`iitm.ac.in`](https://google.com/search?q=iitm.ac.in) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-12 | [`iaconnecticut.com`](https://google.com/search?q=iaconnecticut.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-12 | [`hpo.pe`](https://google.com/search?q=hpo.pe) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
