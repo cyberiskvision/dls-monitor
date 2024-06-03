@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-03 | [`Nidec Motor Corporation`](https://google.com/search?q=Nidec+Motor+Corporation) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-03 | [`ISETO CORPORATION`](https://google.com/search?q=ISETO+CORPORATION) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-03 | [`Anderson Mikos Archi tects`](https://google.com/search?q=Anderson+Mikos+Archi+tects) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-03 | [`espackeuro.com\$17.3M\Spain\11GB\&lt;1% DISCLOSED`](https://google.com/search?q=espackeuro.com%5C%2417.3M%5CSpain%5C11GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-14 | [`oseranhahn.com`](https://google.com/search?q=oseranhahn.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-14 | [`jmjcorporation.com`](https://google.com/search?q=jmjcorporation.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-13 | [`hesperiausd.org`](https://google.com/search?q=hesperiausd.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-13 | [`countyins.com`](https://google.com/search?q=countyins.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
