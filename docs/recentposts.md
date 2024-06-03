@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-03 | [`Unimed Vales do Taquari e Rio Pardo`](https://google.com/search?q=Unimed+Vales+do+Taquari+e+Rio+Pardo) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-06-03 | [`Surrey Place Healthcare & Rehabilitation`](https://google.com/search?q=Surrey+Place+Healthcare+%26+Rehabilitation) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-06-03 | [`smithandcaugheys.co.nz`](https://google.com/search?q=smithandcaugheys.co.nz) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-06-03 | [`Widdop & Co.`](https://google.com/search?q=Widdop+%26+Co.) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-13 | [`orsiniimballaggi.com`](https://google.com/search?q=orsiniimballaggi.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-13 | [`oraclinical.com`](https://google.com/search?q=oraclinical.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-13 | [`ondozabal.com`](https://google.com/search?q=ondozabal.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-13 | [`netspectrum.ca`](https://google.com/search?q=netspectrum.ca) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
