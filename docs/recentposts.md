@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-03 | [`Anderson Mikos Archi tects`](https://google.com/search?q=Anderson+Mikos+Archi+tects) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-03 | [`espackeuro.com\$17.3M\Spain\11GB\&lt;1% DISCLOSED`](https://google.com/search?q=espackeuro.com%5C%2417.3M%5CSpain%5C11GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-06-03 | [`Unimed Vales do Taquari e Rio Pardo`](https://google.com/search?q=Unimed+Vales+do+Taquari+e+Rio+Pardo) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-06-03 | [`Surrey Place Healthcare & Rehabilitation`](https://google.com/search?q=Surrey+Place+Healthcare+%26+Rehabilitation) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-13 | [`hesperiausd.org`](https://google.com/search?q=hesperiausd.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-13 | [`countyins.com`](https://google.com/search?q=countyins.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-13 | [`orsiniimballaggi.com`](https://google.com/search?q=orsiniimballaggi.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-13 | [`oraclinical.com`](https://google.com/search?q=oraclinical.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
