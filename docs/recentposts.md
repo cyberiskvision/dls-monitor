@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-03 | [`schuettemetals.com\$28.9M\USA\280GB\100%DISCLOSED`](https://google.com/search?q=schuettemetals.com%5C%2428.9M%5CUSA%5C280GB%5C100%25DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-06-03 | [`dollmar.com\$28.3M\Italy\127GB\&lt;1% DISCLOSED`](https://google.com/search?q=dollmar.com%5C%2428.3M%5CItaly%5C127GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-06-03 | [`familyguardian.com\$51.7M\Bahamas\1.5TB\&lt;1% DISCLOSED`](https://google.com/search?q=familyguardian.com%5C%2451.7M%5CBahamas%5C1.5TB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-06-03 | [`Nidec Motor Corporation`](https://google.com/search?q=Nidec+Motor+Corporation) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-14 | [`qstartlabs.com`](https://google.com/search?q=qstartlabs.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-14 | [`peninsulacrane.com`](https://google.com/search?q=peninsulacrane.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-14 | [`parat-techology.com`](https://google.com/search?q=parat-techology.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-14 | [`oseranhahn.com`](https://google.com/search?q=oseranhahn.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
