@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-03 | [`ICC`](https://google.com/search?q=ICC) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-06-03 | [`Rob's Whole Health Pharmacy`](https://google.com/search?q=Rob%27s+Whole+Health+Pharmacy) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-06-02 | [`http://youngconsulting.com`](https://google.com/search?q=http%3A%2F%2Fyoungconsulting.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-02 | [`http://mewbornlaw.biz`](https://google.com/search?q=http%3A%2F%2Fmewbornlaw.biz) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-13 | [`mutualclubunion.com.ar`](https://google.com/search?q=mutualclubunion.com.ar) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-13 | [`museu-goeldi.br`](https://google.com/search?q=museu-goeldi.br) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-13 | [`mpeprevencion.com`](https://google.com/search?q=mpeprevencion.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-13 | [`mogaisrael.com`](https://google.com/search?q=mogaisrael.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
