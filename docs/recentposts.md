@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-03 | [`Northern Minerals Limited`](https://google.com/search?q=Northern+Minerals+Limited) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-06-03 | [`Electric Mirror Inc`](https://google.com/search?q=Electric+Mirror+Inc) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
 | 2024-06-03 | [`cfymca.org`](https://google.com/search?q=cfymca.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-06-03 | [`acfin.cl\$25.1M\Chile\460GB\100%DISCLOSED`](https://google.com/search?q=acfin.cl%5C%2425.1M%5CChile%5C460GB%5C100%25DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-17 | [`remagroup.com`](https://google.com/search?q=remagroup.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-17 | [`rehub.ie`](https://google.com/search?q=rehub.ie) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-17 | [`randi-group.com`](https://google.com/search?q=randi-group.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-17 | [`Neovia`](https://google.com/search?q=Neovia) | [snatch](https://ransomwatch.telemetry.ltd/#/profiles?id=snatch) |
