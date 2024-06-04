@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-04 | [`Madata Data Collection &amp; Internet Portals`](https://google.com/search?q=Madata+Data+Collection+%26amp%3B+Internet+Portals) | [mallox](https://ransomwatch.telemetry.ltd/#/profiles?id=mallox) |
 | 2024-06-04 | [`Formosa Plastics USA`](https://google.com/search?q=Formosa+Plastics+USA) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-06-04 | [`Arrabawn Co-op`](https://google.com/search?q=Arrabawn+Co-op) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-06-04 | [`Aero Tec Laboratories`](https://google.com/search?q=Aero+Tec+Laboratories) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-18 | [`salmonesaysen.cl`](https://google.com/search?q=salmonesaysen.cl) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-18 | [`rollingfields.com`](https://google.com/search?q=rollingfields.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-18 | [`rfca.com`](https://google.com/search?q=rfca.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-18 | [`morrisgroupint.com`](https://google.com/search?q=morrisgroupint.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
