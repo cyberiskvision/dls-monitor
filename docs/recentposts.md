@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-04 | [`www.Seoulsemicon.com`](https://google.com/search?q=www.Seoulsemicon.com) | [metaencryptor](https://ransomwatch.telemetry.ltd/#/profiles?id=metaencryptor) |
 | 2024-06-04 | [`https://belzona.co.uk`](https://google.com/search?q=https%3A%2F%2Fbelzona.co.uk) | [metaencryptor](https://ransomwatch.telemetry.ltd/#/profiles?id=metaencryptor) |
 | 2024-06-04 | [`https://www.eurofleurs.de`](https://google.com/search?q=https%3A%2F%2Fwww.eurofleurs.de) | [metaencryptor](https://ransomwatch.telemetry.ltd/#/profiles?id=metaencryptor) |
 | 2024-06-04 | [`https://jetsonmarketing.com`](https://google.com/search?q=https%3A%2F%2Fjetsonmarketing.com) | [metaencryptor](https://ransomwatch.telemetry.ltd/#/profiles?id=metaencryptor) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-17 | [`epsd.org`](https://google.com/search?q=epsd.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-17 | [`ema-eda.com`](https://google.com/search?q=ema-eda.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-17 | [`district70.org`](https://google.com/search?q=district70.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-17 | [`allcare-med.com`](https://google.com/search?q=allcare-med.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
