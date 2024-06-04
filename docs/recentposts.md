@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-04 | [`Arrabawn Co-op`](https://google.com/search?q=Arrabawn+Co-op) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-06-04 | [`Aero Tec Laboratories`](https://google.com/search?q=Aero+Tec+Laboratories) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-06-04 | [`thermalsolutionsllc.com`](https://google.com/search?q=thermalsolutionsllc.com) | [threeam](https://ransomwatch.telemetry.ltd/#/profiles?id=threeam) |
 | 2024-06-04 | [`escriba.com.br`](https://google.com/search?q=escriba.com.br) | [threeam](https://ransomwatch.telemetry.ltd/#/profiles?id=threeam) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-18 | [`rfca.com`](https://google.com/search?q=rfca.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-18 | [`morrisgroupint.com`](https://google.com/search?q=morrisgroupint.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-18 | [`keuka.edu`](https://google.com/search?q=keuka.edu) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-18 | [`kauffmanschool.org`](https://google.com/search?q=kauffmanschool.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
