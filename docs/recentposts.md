@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-05 | [`E-T-A`](https://google.com/search?q=E-T-A) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-05 | [`Dubai Municipality (UAE)`](https://google.com/search?q=Dubai+Municipality+%28UAE%29) | [daixin](https://ransomwatch.telemetry.ltd/#/profiles?id=daixin) |
 | 2024-06-05 | [`Hibser Yamauchi Architects`](https://google.com/search?q=Hibser+Yamauchi+Architects) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-06-05 | [`Mahindra Racing`](https://google.com/search?q=Mahindra+Racing) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-20 | [`spu.ac.th`](https://google.com/search?q=spu.ac.th) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-20 | [`southernspecialtysupply.com`](https://google.com/search?q=southernspecialtysupply.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-20 | [`sonoco.com`](https://google.com/search?q=sonoco.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-18 | [`snk.sk`](https://google.com/search?q=snk.sk) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
