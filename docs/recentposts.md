@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-06 | [`fpr-us.com\$22.9M\USA\111GB\&lt;1% DISCLOSED`](https://google.com/search?q=fpr-us.com%5C%2422.9M%5CUSA%5C111GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-06-06 | [`Trade-Mark Industrial`](https://google.com/search?q=Trade-Mark+Industrial) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-06-06 | [`Panasonic Australia`](https://google.com/search?q=Panasonic+Australia) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-06 | [`dollmar.com\$28.3M\Italy\127GB\100% DISCLOSED`](https://google.com/search?q=dollmar.com%5C%2428.3M%5CItaly%5C127GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-23 | [`United Urology Group`](https://google.com/search?q=United+Urology+Group) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-05-23 | [`Advance Press`](https://google.com/search?q=Advance+Press) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-05-23 | [`Le Vian`](https://google.com/search?q=Le+Vian) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
-| 2024-05-22 | [`Lactanet`](https://google.com/search?q=Lactanet) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
