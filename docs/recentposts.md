@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-06 | [`Driver Group`](https://google.com/search?q=Driver+Group) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-06-06 | [`laxmicapital.com.np`](https://google.com/search?q=laxmicapital.com.np) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-06-06 | [`mcmtelecom.com`](https://google.com/search?q=mcmtelecom.com) | [blackout](https://ransomwatch.telemetry.ltd/#/profiles?id=blackout) |
 | 2024-06-06 | [`Treasury of Cote d'Ivoire`](https://google.com/search?q=Treasury+of+Cote+d%27Ivoire) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-23 | [`Cressex Community School`](https://google.com/search?q=Cressex+Community+School) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-05-23 | [`Hedbergs`](https://google.com/search?q=Hedbergs) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-05-23 | [`J & N Stone`](https://google.com/search?q=J+%26+N+Stone) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
-| 2024-05-23 | [`Royal Star & Garter`](https://google.com/search?q=Royal+Star+%26+Garter) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
