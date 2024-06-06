@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-06 | [`Jess-link Products`](https://google.com/search?q=Jess-link+Products) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-06-05 | [`espackeuro.com\$17.3M\Spain\11GB\100% DISCLOSED`](https://google.com/search?q=espackeuro.com%5C%2417.3M%5CSpain%5C11GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-06-05 | [`craigsteven.com`](https://google.com/search?q=craigsteven.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-06-05 | [`E-T-A`](https://google.com/search?q=E-T-A) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-21 | [`sunray.com`](https://google.com/search?q=sunray.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-20 | [`Berge Bulk`](https://google.com/search?q=Berge+Bulk) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-05-20 | [`srg-plc.com`](https://google.com/search?q=srg-plc.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-20 | [`spu.ac.th`](https://google.com/search?q=spu.ac.th) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
