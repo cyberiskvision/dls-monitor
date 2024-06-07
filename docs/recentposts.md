@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-07 | [`Sullairargentina.com`](https://google.com/search?q=Sullairargentina.com) | [redransomware](https://ransomwatch.telemetry.ltd/#/profiles?id=redransomware) |
 | 2024-06-07 | [`Aircod.com`](https://google.com/search?q=Aircod.com) | [redransomware](https://ransomwatch.telemetry.ltd/#/profiles?id=redransomware) |
 | 2024-06-07 | [`agranibank.org`](https://google.com/search?q=agranibank.org) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-06-07 | [`RAVEN Mechanical`](https://google.com/search?q=RAVEN+Mechanical) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-24 | [`syntax-architektur.at`](https://google.com/search?q=syntax-architektur.at) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-24 | [`svenskakyrkan.se`](https://google.com/search?q=svenskakyrkan.se) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-24 | [`schmittyandsons.com`](https://google.com/search?q=schmittyandsons.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-24 | [`ramfoam.com`](https://google.com/search?q=ramfoam.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
