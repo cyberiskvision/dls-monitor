@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-07 | [`ccmaui.org`](https://google.com/search?q=ccmaui.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-06-07 | [`Talalay Global`](https://google.com/search?q=Talalay+Global) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-06-07 | [`Akdeniz Chemson`](https://google.com/search?q=Akdeniz+Chemson) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-06-07 | [`Reinhold Sign Servic e`](https://google.com/search?q=Reinhold+Sign+Servic+e) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-25 | [`telekom.com`](https://google.com/search?q=telekom.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-25 | [`tegaindustries.com`](https://google.com/search?q=tegaindustries.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-24 | [`tdt.aero`](https://google.com/search?q=tdt.aero) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-24 | [`taylorcrane.com`](https://google.com/search?q=taylorcrane.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
