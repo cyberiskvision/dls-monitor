@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-07 | [`agranibank.org`](https://google.com/search?q=agranibank.org) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-06-07 | [`RAVEN Mechanical`](https://google.com/search?q=RAVEN+Mechanical) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-06-07 | [`Axip Energy Services`](https://google.com/search?q=Axip+Energy+Services) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-06-07 | [`"Moshe Kahn Advocates"`](https://google.com/search?q=%22Moshe+Kahn+Advocates%22) | [mallox](https://ransomwatch.telemetry.ltd/#/profiles?id=mallox) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-24 | [`schmittyandsons.com`](https://google.com/search?q=schmittyandsons.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-24 | [`ramfoam.com`](https://google.com/search?q=ramfoam.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-24 | [`qualityplumbingassociates.com`](https://google.com/search?q=qualityplumbingassociates.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-24 | [`pricemodern.com`](https://google.com/search?q=pricemodern.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
