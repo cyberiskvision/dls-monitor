@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-07 | [`"Moshe Kahn Advocates"`](https://google.com/search?q=%22Moshe+Kahn+Advocates%22) | [mallox](https://ransomwatch.telemetry.ltd/#/profiles?id=mallox) |
 | 2024-06-07 | [`Dynasafe`](https://google.com/search?q=Dynasafe) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-06-07 | [`The Robson Companies`](https://google.com/search?q=The+Robson+Companies) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-06-07 | [`Elutia`](https://google.com/search?q=Elutia) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-24 | [`pricemodern.com`](https://google.com/search?q=pricemodern.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-24 | [`londondrugs.com`](https://google.com/search?q=londondrugs.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-24 | [`equinoxinc.org`](https://google.com/search?q=equinoxinc.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-24 | [`daubertchemical.com`](https://google.com/search?q=daubertchemical.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
