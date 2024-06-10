@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-10 | [`ctsystem.com\$11.8M\Taiwan\93GB\&lt;1% DISCLOSED`](https://google.com/search?q=ctsystem.com%5C%2411.8M%5CTaiwan%5C93GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-06-10 | [`ctgbrands.com\$29.6M\Canada\327GB\&lt;1% DISCLOSED`](https://google.com/search?q=ctgbrands.com%5C%2429.6M%5CCanada%5C327GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-06-10 | [`Arge Baustahl`](https://google.com/search?q=Arge+Baustahl) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-10 | [`sanyo-shokai.co.jp\$412.6M\Japan\248GB\&lt;1% DISCLOSED`](https://google.com/search?q=sanyo-shokai.co.jp%5C%24412.6M%5CJapan%5C248GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-27 | [`ufresources.com`](https://google.com/search?q=ufresources.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-27 | [`twpunionschools.org`](https://google.com/search?q=twpunionschools.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-26 | [`tu-ilmenau.de`](https://google.com/search?q=tu-ilmenau.de) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-26 | [`truehomesusa.com`](https://google.com/search?q=truehomesusa.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
