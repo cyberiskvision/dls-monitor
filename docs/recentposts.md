@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-12 | [`3GL Technology Solutions`](https://google.com/search?q=3GL+Technology+Solutions) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-12 | [`Concrete`](https://google.com/search?q=Concrete) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-06-12 | [`IPM Group (Multimedi a Information & Prod uction Company)`](https://google.com/search?q=IPM+Group+%28Multimedi+a+Information+%26+Prod+uction+Company%29) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-12 | [`manncorp.com`](https://google.com/search?q=manncorp.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-27 | [`vinatiorganics.com`](https://google.com/search?q=vinatiorganics.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-27 | [`ville-bouchemaine.fr`](https://google.com/search?q=ville-bouchemaine.fr) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-27 | [`vikrantsprings.com`](https://google.com/search?q=vikrantsprings.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-27 | [`valleylandtitleco.com`](https://google.com/search?q=valleylandtitleco.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
