@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-13 | [`https://eurotrol.com/en/`](https://google.com/search?q=https%3A%2F%2Feurotrol.com%2Fen%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-13 | [`Western Mechanical`](https://google.com/search?q=Western+Mechanical) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-13 | [`Trisun Land Services`](https://google.com/search?q=Trisun+Land+Services) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-13 | [`Smartweb`](https://google.com/search?q=Smartweb) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-28 | [`longviewoms.com`](https://google.com/search?q=longviewoms.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-28 | [`kns.com`](https://google.com/search?q=kns.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-28 | [`kharafiglobal.com`](https://google.com/search?q=kharafiglobal.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-28 | [`highwaystrust.com`](https://google.com/search?q=highwaystrust.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
