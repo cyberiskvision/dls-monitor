@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-13 | [`Diogenet S.r.l.`](https://google.com/search?q=Diogenet+S.r.l.) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-06-13 | [`2K Dental`](https://google.com/search?q=2K+Dental) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-06-13 | [`Cukierski &#038; Associates, LLC`](https://google.com/search?q=Cukierski+%26%23038%3B+Associates%2C+LLC) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-06-13 | [`https://eurotrol.com/en/`](https://google.com/search?q=https%3A%2F%2Feurotrol.com%2Fen%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-28 | [`pressurejet.com`](https://google.com/search?q=pressurejet.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-28 | [`multigroup.info`](https://google.com/search?q=multigroup.info) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-28 | [`mgops.sedziszow-mlp.pl`](https://google.com/search?q=mgops.sedziszow-mlp.pl) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-28 | [`longviewoms.com`](https://google.com/search?q=longviewoms.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
