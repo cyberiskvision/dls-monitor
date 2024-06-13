@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-13 | [`Shinnick & Ryan`](https://google.com/search?q=Shinnick+%26+Ryan) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-13 | [`Seagulf Marine Industries`](https://google.com/search?q=Seagulf+Marine+Industries) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-13 | [`Peterbilt of Atlanta`](https://google.com/search?q=Peterbilt+of+Atlanta) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-13 | [`Great Lakes International Trading`](https://google.com/search?q=Great+Lakes+International+Trading) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-28 | [`cafesnovell.com`](https://google.com/search?q=cafesnovell.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-28 | [`bnsgroup.co.uk`](https://google.com/search?q=bnsgroup.co.uk) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-28 | [`alliedtelesis.com`](https://google.com/search?q=alliedtelesis.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-05-28 | [`wisconsinindustrialcoatings.com`](https://google.com/search?q=wisconsinindustrialcoatings.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
