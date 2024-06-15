@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-15 | [`Embotits Espina, SLU`](https://google.com/search?q=Embotits+Espina%2C+SLU) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-15 | [`MRI`](https://google.com/search?q=MRI) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-06-15 | [`Legrand CRM`](https://google.com/search?q=Legrand+CRM) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-06-14 | [`http://www.peregrinegp.com`](https://google.com/search?q=http%3A%2F%2Fwww.peregrinegp.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-29 | [`Dragon Tax and Management INC`](https://google.com/search?q=Dragon+Tax+and+Management+INC) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-05-29 | [`MAH Machine`](https://google.com/search?q=MAH+Machine) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-05-29 | [`Hohenadel`](https://google.com/search?q=Hohenadel) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
-| 2024-05-29 | [`Critchfield and Johnston`](https://google.com/search?q=Critchfield+and+Johnston) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
