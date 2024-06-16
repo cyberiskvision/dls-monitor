@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-16 | [`Datanet`](https://google.com/search?q=Datanet) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-06-16 | [`Above All Store Fronts`](https://google.com/search?q=Above+All+Store+Fronts) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-06-16 | [`PFAM`](https://google.com/search?q=PFAM) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-06-16 | [`Logimodal Operações Logísticas`](https://google.com/search?q=Logimodal+Opera%C3%A7%C3%B5es+Log%C3%ADsticas) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-30 | [`Payne and Jones`](https://google.com/search?q=Payne+and+Jones) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-05-29 | [`Wind Composite Services Group, LLC`](https://google.com/search?q=Wind+Composite+Services+Group%2C+LLC) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-05-29 | [`Kuhn Rechtsanwlte GmbH`](https://google.com/search?q=Kuhn+Rechtsanwlte+GmbH) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
-| 2024-05-29 | [`CNPC Sport`](https://google.com/search?q=CNPC+Sport) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
