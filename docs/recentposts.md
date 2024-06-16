@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-16 | [`Logimodal Operações Logísticas`](https://google.com/search?q=Logimodal+Opera%C3%A7%C3%B5es+Log%C3%ADsticas) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-06-16 | [`Allied Toyota Lift`](https://google.com/search?q=Allied+Toyota+Lift) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-06-16 | [`a-agroup`](https://google.com/search?q=a-agroup) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-06-16 | [`Bock &amp; Associates, LLP`](https://google.com/search?q=Bock+%26amp%3B+Associates%2C+LLP) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-29 | [`CNPC Sport`](https://google.com/search?q=CNPC+Sport) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-05-29 | [`Esc Pau Etudes-Conseils`](https://google.com/search?q=Esc+Pau+Etudes-Conseils) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-05-29 | [`Aéroport de Pau`](https://google.com/search?q=A%C3%A9roport+de+Pau) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
-| 2024-05-29 | [`Assist Informatica`](https://google.com/search?q=Assist+Informatica) | [mallox](https://ransomwatch.telemetry.ltd/#/profiles?id=mallox) |
