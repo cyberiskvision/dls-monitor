@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-17 | [`Holstein Association USA`](https://google.com/search?q=Holstein+Association+USA) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-06-17 | [`Virum Apotek`](https://google.com/search?q=Virum+Apotek) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-06-17 | [`P/Kaufmann Fabrics`](https://google.com/search?q=P%2FKaufmann+Fabrics) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-06-17 | [`Modplan`](https://google.com/search?q=Modplan) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-30 | [`FPL Food`](https://google.com/search?q=FPL+Food) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-05-30 | [`Experis Technology Group`](https://google.com/search?q=Experis+Technology+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-05-30 | [`Pittsburgh’s Trusted Orthopaedic Surgeons`](https://google.com/search?q=Pittsburgh%E2%80%99s+Trusted+Orthopaedic+Surgeons) | [donutleaks](https://ransomwatch.telemetry.ltd/#/profiles?id=donutleaks) |
-| 2024-05-30 | [`Patriot Machine, Updated data leak.`](https://google.com/search?q=Patriot+Machine%2C+Updated+data+leak.) | [donutleaks](https://ransomwatch.telemetry.ltd/#/profiles?id=donutleaks) |
