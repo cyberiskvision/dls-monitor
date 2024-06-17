@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-17 | [`McSweeney / Langevin`](https://google.com/search?q=McSweeney+%2F+Langevin) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-06-17 | [`Edlong`](https://google.com/search?q=Edlong) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-06-17 | [`MGF`](https://google.com/search?q=MGF) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-06-17 | [`Shyang Shin Bao Ind. Co., Ltd. (hereinafter referred to as ''SSB'')`](https://google.com/search?q=Shyang+Shin+Bao+Ind.+Co.%2C+Ltd.+%28hereinafter+referred+to+as+%27%27SSB%27%27%29) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-30 | [`Ardenbrook`](https://google.com/search?q=Ardenbrook) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-05-30 | [`Anchorage Daily News`](https://google.com/search?q=Anchorage+Daily+News) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-05-30 | [`Johnston`](https://google.com/search?q=Johnston) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
-| 2024-05-30 | [`heras.co.uk`](https://google.com/search?q=heras.co.uk) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
