@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-18 | [`Acteon Group`](https://google.com/search?q=Acteon+Group) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-06-18 | [`sofidel.com\$3B\Italy\74GB\&lt;1% DISCLOSED`](https://google.com/search?q=sofidel.com%5C%243B%5CItaly%5C74GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-06-18 | [`malca-amit.com`](https://google.com/search?q=malca-amit.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-06-18 | [`sky-light.com\$26.4M\Denmark\50GB\&lt;1% DISCLOSED`](https://google.com/search?q=sky-light.com%5C%2426.4M%5CDenmark%5C50GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-31 | [`Western Dovetail`](https://google.com/search?q=Western+Dovetail) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-05-31 | [`MagicLand`](https://google.com/search?q=MagicLand) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-05-31 | [`Faultless Brands`](https://google.com/search?q=Faultless+Brands) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-05-31 | [`DreamWall`](https://google.com/search?q=DreamWall) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
