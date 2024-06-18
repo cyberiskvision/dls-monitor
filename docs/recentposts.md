@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-18 | [`CETOS Services`](https://google.com/search?q=CETOS+Services) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-06-18 | [`http://www.kckpd.org`](https://google.com/search?q=http%3A%2F%2Fwww.kckpd.org) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-18 | [`Ojai srl`](https://google.com/search?q=Ojai+srl) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-18 | [`TETRA Technologies,  Inc.`](https://google.com/search?q=TETRA+Technologies%2C++Inc.) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-31 | [`strikeusa.com`](https://google.com/search?q=strikeusa.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-30 | [`aytosanlorenzo.es`](https://google.com/search?q=aytosanlorenzo.es) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-05-30 | [`woldae.com`](https://google.com/search?q=woldae.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
-| 2024-05-30 | [`Protected: HIDE NAME`](https://google.com/search?q=Protected%3A+HIDE+NAME) | [ransomblog_noname](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomblog_noname) |
