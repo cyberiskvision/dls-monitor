@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-18 | [`TETRA Technologies,  Inc.`](https://google.com/search?q=TETRA+Technologies%2C++Inc.) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-18 | [`Kinter`](https://google.com/search?q=Kinter) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-18 | [`Tholen Building Technology Group`](https://google.com/search?q=Tholen+Building+Technology+Group) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-06-17 | [`The Weinstein Firm `](https://google.com/search?q=The+Weinstein+Firm+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-30 | [`Protected: HIDE NAME`](https://google.com/search?q=Protected%3A+HIDE+NAME) | [ransomblog_noname](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomblog_noname) |
 | 2024-05-30 | [`WALSER AUTOMOTIVE GROUP`](https://google.com/search?q=WALSER+AUTOMOTIVE+GROUP) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-05-30 | [`Visa Lighting`](https://google.com/search?q=Visa+Lighting) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-05-30 | [`Semicore Equipment`](https://google.com/search?q=Semicore+Equipment) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
