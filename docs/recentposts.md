@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-21 | [`Topserve Service Solutions`](https://google.com/search?q=Topserve+Service+Solutions) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-21 | [`Taiyo Kogyo Co., Ltd.`](https://google.com/search?q=Taiyo+Kogyo+Co.%2C+Ltd.) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-21 | [`TC Capital Asia Limited`](https://google.com/search?q=TC+Capital+Asia+Limited) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-21 | [`LCS and Partners`](https://google.com/search?q=LCS+and+Partners) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-05-31 | [`Bruno generators (It alian manufacturing)`](https://google.com/search?q=Bruno+generators+%28It+alian+manufacturing%29) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-05-31 | [`Marigin`](https://google.com/search?q=Marigin) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-05-31 | [`Newman Ferrara`](https://google.com/search?q=Newman+Ferrara) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-05-31 | [`TriLiteral`](https://google.com/search?q=TriLiteral) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
