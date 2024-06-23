@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-23 | [`Ladco`](https://google.com/search?q=Ladco) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-23 | [`hundhausen.de\$150M\Germany\650GB\&lt;1% DISCLOSED`](https://google.com/search?q=hundhausen.de%5C%24150M%5CGermany%5C650GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-06-23 | [`fbttransport.com\$70.8M\USA\180GB\&lt;1% DISCLOSED`](https://google.com/search?q=fbttransport.com%5C%2470.8M%5CUSA%5C180GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-06-23 | [`daystar.com\$120.3M\USA\125GB\&lt;1% DISCLOSED`](https://google.com/search?q=daystar.com%5C%24120.3M%5CUSA%5C125GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-01 | [`Embellir`](https://google.com/search?q=Embellir) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-01 | [`Cushman Contracting Corporation`](https://google.com/search?q=Cushman+Contracting+Corporation) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-01 | [`Crooker`](https://google.com/search?q=Crooker) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
-| 2024-06-01 | [`Costa Edutainment SpA`](https://google.com/search?q=Costa+Edutainment+SpA) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
