@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-24 | [`http://revolutionresources.com`](https://google.com/search?q=http%3A%2F%2Frevolutionresources.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-24 | [`World inquest`](https://google.com/search?q=World+inquest) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-24 | [`TPI`](https://google.com/search?q=TPI) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-24 | [`RRCA Accounts Management`](https://google.com/search?q=RRCA+Accounts+Management) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-01 | [`https://www.ipsotek.com/`](https://google.com/search?q=https%3A%2F%2Fwww.ipsotek.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-01 | [`W.I.S. Sicherheit`](https://google.com/search?q=W.I.S.+Sicherheit) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-01 | [`The Kelly Group`](https://google.com/search?q=The+Kelly+Group) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
-| 2024-06-01 | [`Sigmund Espeland AS`](https://google.com/search?q=Sigmund+Espeland+AS) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
