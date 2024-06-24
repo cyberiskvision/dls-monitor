@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-24 | [`qftemb.com`](https://google.com/search?q=qftemb.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-06-24 | [`marvell.com`](https://google.com/search?q=marvell.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-06-23 | [`Bunger Steel`](https://google.com/search?q=Bunger+Steel) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-23 | [`federalreserve.gov`](https://google.com/search?q=federalreserve.gov) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-01 | [`S L B TRANSIT INC`](https://google.com/search?q=S+L+B+TRANSIT+INC) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-01 | [`Osaka Motorcycle Business Cooperative`](https://google.com/search?q=Osaka+Motorcycle+Business+Cooperative) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-01 | [`New Boston Dental Care`](https://google.com/search?q=New+Boston+Dental+Care) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
-| 2024-06-01 | [`Natsume Tax Accountant Corporation`](https://google.com/search?q=Natsume+Tax+Accountant+Corporation) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
