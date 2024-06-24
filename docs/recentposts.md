@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-24 | [`TPI`](https://google.com/search?q=TPI) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-24 | [`RRCA Accounts Management`](https://google.com/search?q=RRCA+Accounts+Management) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-24 | [`ProMotion Holdings`](https://google.com/search?q=ProMotion+Holdings) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-24 | [`Hedrick Brothers Construction`](https://google.com/search?q=Hedrick+Brothers+Construction) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-01 | [`The Kelly Group`](https://google.com/search?q=The+Kelly+Group) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-01 | [`Sigmund Espeland AS`](https://google.com/search?q=Sigmund+Espeland+AS) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-01 | [`Shirasaki`](https://google.com/search?q=Shirasaki) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
-| 2024-06-01 | [`Service public de Wallonie`](https://google.com/search?q=Service+public+de+Wallonie) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
