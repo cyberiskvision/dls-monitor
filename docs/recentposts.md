@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-24 | [`millimages.com\$12.6M\France\147GB\&lt;1% DISCLOSED`](https://google.com/search?q=millimages.com%5C%2412.6M%5CFrance%5C147GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-06-24 | [`www.glynmarais.co.za\$12.6M\South Africa\105GB\&lt;1% DISCLOSED`](https://google.com/search?q=www.glynmarais.co.za%5C%2412.6M%5CSouth+Africa%5C105GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-06-24 | [`http://revolutionresources.com`](https://google.com/search?q=http%3A%2F%2Frevolutionresources.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-24 | [`World inquest`](https://google.com/search?q=World+inquest) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-02 | [`Wealth Depot LLC Data Leak`](https://google.com/search?q=Wealth+Depot+LLC+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-06-02 | [`Ayoub &#038; associates CPA Firm Data Leak`](https://google.com/search?q=Ayoub+%26%23038%3B+associates+CPA+Firm+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-06-01 | [`https://www.ipsotek.com/`](https://google.com/search?q=https%3A%2F%2Fwww.ipsotek.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2024-06-01 | [`W.I.S. Sicherheit`](https://google.com/search?q=W.I.S.+Sicherheit) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
