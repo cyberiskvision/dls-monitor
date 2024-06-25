@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-25 | [`Beckett Thermal Solu tions`](https://google.com/search?q=Beckett+Thermal+Solu+tions) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-25 | [`Utility Datacenter`](https://google.com/search?q=Utility+Datacenter) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-25 | [`https://www.catiglass.com/`](https://google.com/search?q=https%3A%2F%2Fwww.catiglass.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-25 | [`Key Benefit Administrators, Inc.`](https://google.com/search?q=Key+Benefit+Administrators%2C+Inc.) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-03 | [`Widdop & Co.`](https://google.com/search?q=Widdop+%26+Co.) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-06-03 | [`ICC`](https://google.com/search?q=ICC) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-06-03 | [`Rob's Whole Health Pharmacy`](https://google.com/search?q=Rob%27s+Whole+Health+Pharmacy) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
-| 2024-06-02 | [`http://youngconsulting.com`](https://google.com/search?q=http%3A%2F%2Fyoungconsulting.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
