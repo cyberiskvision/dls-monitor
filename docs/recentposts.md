@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-26 | [`competenz.co.nz`](https://google.com/search?q=competenz.co.nz) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-06-26 | [`Ocasa`](https://google.com/search?q=Ocasa) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-26 | [`Gallos Metal Solutio ns`](https://google.com/search?q=Gallos+Metal+Solutio+ns) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-26 | [`Waterbury Newton`](https://google.com/search?q=Waterbury+Newton) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-04 | [`JFK Financial Inc.`](https://google.com/search?q=JFK+Financial+Inc.) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
 | 2024-06-04 | [`Mountjoy`](https://google.com/search?q=Mountjoy) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-06-03 | [`Northern Minerals Limited`](https://google.com/search?q=Northern+Minerals+Limited) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
-| 2024-06-03 | [`Electric Mirror Inc`](https://google.com/search?q=Electric+Mirror+Inc) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
