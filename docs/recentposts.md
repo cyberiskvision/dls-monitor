@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-26 | [`Cukierski &#038; Associates, LLC Data Leak`](https://google.com/search?q=Cukierski+%26%23038%3B+Associates%2C+LLC+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-06-26 | [`http://ibewlocal1.org`](https://google.com/search?q=http%3A%2F%2Fibewlocal1.org) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-26 | [`https://www.doityoungs.com/`](https://google.com/search?q=https%3A%2F%2Fwww.doityoungs.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-26 | [`https://www.keeservices.com/`](https://google.com/search?q=https%3A%2F%2Fwww.keeservices.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-03 | [`cfymca.org`](https://google.com/search?q=cfymca.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-06-03 | [`acfin.cl\$25.1M\Chile\460GB\100%DISCLOSED`](https://google.com/search?q=acfin.cl%5C%2425.1M%5CChile%5C460GB%5C100%25DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-06-03 | [`fulcrum.pro\$2.1M\US\57GB\100%DISCLOSED`](https://google.com/search?q=fulcrum.pro%5C%242.1M%5CUS%5C57GB%5C100%25DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2024-06-03 | [`schuettemetals.com\$28.9M\USA\280GB\100%DISCLOSED`](https://google.com/search?q=schuettemetals.com%5C%2428.9M%5CUSA%5C280GB%5C100%25DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
