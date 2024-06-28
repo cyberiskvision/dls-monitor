@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-28 | [`Power Lube Industria l`](https://google.com/search?q=Power+Lube+Industria+l) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-28 | [`ASI`](https://google.com/search?q=ASI) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-06-28 | [`Wilmots (Legal servi ces)`](https://google.com/search?q=Wilmots+%28Legal+servi+ces%29) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-28 | [`Francesco Parisi`](https://google.com/search?q=Francesco+Parisi) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-04 | [`thermalsolutionsllc.com`](https://google.com/search?q=thermalsolutionsllc.com) | [threeam](https://ransomwatch.telemetry.ltd/#/profiles?id=threeam) |
 | 2024-06-04 | [`escriba.com.br`](https://google.com/search?q=escriba.com.br) | [threeam](https://ransomwatch.telemetry.ltd/#/profiles?id=threeam) |
 | 2024-06-04 | [`www.Seoulsemicon.com`](https://google.com/search?q=www.Seoulsemicon.com) | [metaencryptor](https://ransomwatch.telemetry.ltd/#/profiles?id=metaencryptor) |
-| 2024-06-04 | [`https://belzona.co.uk`](https://google.com/search?q=https%3A%2F%2Fbelzona.co.uk) | [metaencryptor](https://ransomwatch.telemetry.ltd/#/profiles?id=metaencryptor) |
