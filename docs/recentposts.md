@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-28 | [`Wilmots (Legal servi ces)`](https://google.com/search?q=Wilmots+%28Legal+servi+ces%29) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-28 | [`Francesco Parisi`](https://google.com/search?q=Francesco+Parisi) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-06-28 | [`Gestores Administrativos Reunidos`](https://google.com/search?q=Gestores+Administrativos+Reunidos) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-06-27 | [`landmarklife.com`](https://google.com/search?q=landmarklife.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-04 | [`www.Seoulsemicon.com`](https://google.com/search?q=www.Seoulsemicon.com) | [metaencryptor](https://ransomwatch.telemetry.ltd/#/profiles?id=metaencryptor) |
 | 2024-06-04 | [`https://belzona.co.uk`](https://google.com/search?q=https%3A%2F%2Fbelzona.co.uk) | [metaencryptor](https://ransomwatch.telemetry.ltd/#/profiles?id=metaencryptor) |
 | 2024-06-04 | [`https://www.eurofleurs.de`](https://google.com/search?q=https%3A%2F%2Fwww.eurofleurs.de) | [metaencryptor](https://ransomwatch.telemetry.ltd/#/profiles?id=metaencryptor) |
-| 2024-06-04 | [`https://jetsonmarketing.com`](https://google.com/search?q=https%3A%2F%2Fjetsonmarketing.com) | [metaencryptor](https://ransomwatch.telemetry.ltd/#/profiles?id=metaencryptor) |
