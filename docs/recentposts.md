@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-06-30 | [`Lambertz`](https://google.com/search?q=Lambertz) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-06-29 | [`DRM Resources`](https://google.com/search?q=DRM+Resources) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-06-28 | [`Power Lube Industria l`](https://google.com/search?q=Power+Lube+Industria+l) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-28 | [`ASI`](https://google.com/search?q=ASI) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-04 | [`Arrabawn Co-op`](https://google.com/search?q=Arrabawn+Co-op) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-06-04 | [`Aero Tec Laboratories`](https://google.com/search?q=Aero+Tec+Laboratories) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-06-04 | [`thermalsolutionsllc.com`](https://google.com/search?q=thermalsolutionsllc.com) | [threeam](https://ransomwatch.telemetry.ltd/#/profiles?id=threeam) |
-| 2024-06-04 | [`escriba.com.br`](https://google.com/search?q=escriba.com.br) | [threeam](https://ransomwatch.telemetry.ltd/#/profiles?id=threeam) |
