@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-01 | [`SYNERGY PEANUT`](https://google.com/search?q=SYNERGY+PEANUT) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-01 | [`TUV Rheinland AG`](https://google.com/search?q=TUV+Rheinland+AG) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
 | 2024-07-01 | [`maxcess-logistics.com`](https://google.com/search?q=maxcess-logistics.com) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-07-01 | [`Bartlett & Weigle Co. LPA.`](https://google.com/search?q=Bartlett+%26+Weigle+Co.+LPA.) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-04 | [`Voorhees Family Office Services`](https://google.com/search?q=Voorhees+Family+Office+Services) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-06-04 | [`Río Negro`](https://google.com/search?q=R%C3%ADo+Negro) | [mallox](https://ransomwatch.telemetry.ltd/#/profiles?id=mallox) |
 | 2024-06-04 | [`naprodgroup.com`](https://google.com/search?q=naprodgroup.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-06-04 | [`Madata Data Collection &amp; Internet Portals`](https://google.com/search?q=Madata+Data+Collection+%26amp%3B+Internet+Portals) | [mallox](https://ransomwatch.telemetry.ltd/#/profiles?id=mallox) |
