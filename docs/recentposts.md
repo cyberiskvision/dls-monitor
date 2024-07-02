@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-02 | [`Longview Oral and Maxillofacial Surgery`](https://google.com/search?q=Longview+Oral+and+Maxillofacial+Surgery) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-07-02 | [`WheelerShip`](https://google.com/search?q=WheelerShip) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-01 | [`SYNERGY PEANUT`](https://google.com/search?q=SYNERGY+PEANUT) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-01 | [`TUV Rheinland AG`](https://google.com/search?q=TUV+Rheinland+AG) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-05 | [`Hibser Yamauchi Architects`](https://google.com/search?q=Hibser+Yamauchi+Architects) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-06-05 | [`Mahindra Racing`](https://google.com/search?q=Mahindra+Racing) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-04 | [`Voorhees Family Office Services`](https://google.com/search?q=Voorhees+Family+Office+Services) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
-| 2024-06-04 | [`Río Negro`](https://google.com/search?q=R%C3%ADo+Negro) | [mallox](https://ransomwatch.telemetry.ltd/#/profiles?id=mallox) |
