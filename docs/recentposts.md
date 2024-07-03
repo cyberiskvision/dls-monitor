@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-03 | [`I-❤️-TEXAS`](https://google.com/search?q=I-%E2%9D%A4%EF%B8%8F-TEXAS) | [donutleaks](https://ransomwatch.telemetry.ltd/#/profiles?id=donutleaks) |
 | 2024-07-02 | [`Conexus Medstaff`](https://google.com/search?q=Conexus+Medstaff) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-02 | [`Salton`](https://google.com/search?q=Salton) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-02 | [`P1 Technologies`](https://google.com/search?q=P1+Technologies) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-05 | [`espackeuro.com\$17.3M\Spain\11GB\100% DISCLOSED`](https://google.com/search?q=espackeuro.com%5C%2417.3M%5CSpain%5C11GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-06-05 | [`craigsteven.com`](https://google.com/search?q=craigsteven.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-06-05 | [`E-T-A`](https://google.com/search?q=E-T-A) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-06-05 | [`Dubai Municipality (UAE)`](https://google.com/search?q=Dubai+Municipality+%28UAE%29) | [daixin](https://ransomwatch.telemetry.ltd/#/profiles?id=daixin) |
