@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-04 | [`Elyria Foundry`](https://google.com/search?q=Elyria+Foundry) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-07-04 | [`Island Transportation Corp.`](https://google.com/search?q=Island+Transportation+Corp.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-07-04 | [`Legend Properties, Inc.`](https://google.com/search?q=Legend+Properties%2C+Inc.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-07-04 | [`Transit Mutual Insurance Corporation`](https://google.com/search?q=Transit+Mutual+Insurance+Corporation) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-06 | [`laxmicapital.com.np`](https://google.com/search?q=laxmicapital.com.np) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-06-06 | [`mcmtelecom.com`](https://google.com/search?q=mcmtelecom.com) | [blackout](https://ransomwatch.telemetry.ltd/#/profiles?id=blackout) |
 | 2024-06-06 | [`Treasury of Cote d'Ivoire`](https://google.com/search?q=Treasury+of+Cote+d%27Ivoire) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-06-06 | [`fpr-us.com\$22.9M\USA\111GB\&lt;1% DISCLOSED`](https://google.com/search?q=fpr-us.com%5C%2422.9M%5CUSA%5C111GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
