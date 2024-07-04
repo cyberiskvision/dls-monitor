@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-04 | [`Creative Realities`](https://google.com/search?q=Creative+Realities) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-07-03 | [`Explomin`](https://google.com/search?q=Explomin) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-03 | [`Alimac`](https://google.com/search?q=Alimac) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-03 | [`badel1862.hr`](https://google.com/search?q=badel1862.hr) | [blackout](https://ransomwatch.telemetry.ltd/#/profiles?id=blackout) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-06 | [`dollmar.com\$28.3M\Italy\127GB\100% DISCLOSED`](https://google.com/search?q=dollmar.com%5C%2428.3M%5CItaly%5C127GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-06-06 | [`Richelieu Foods`](https://google.com/search?q=Richelieu+Foods) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-06-06 | [`Pella`](https://google.com/search?q=Pella) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-06-06 | [`Manuchar`](https://google.com/search?q=Manuchar) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
