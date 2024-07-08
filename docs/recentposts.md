@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-08 | [`Excelsior Orthopaedics`](https://google.com/search?q=Excelsior+Orthopaedics) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-07-08 | [`Allied Industrial Gr oup`](https://google.com/search?q=Allied+Industrial+Gr+oup) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-08 | [`Esedra`](https://google.com/search?q=Esedra) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-08 | [`Federated Co-operati ves`](https://google.com/search?q=Federated+Co-operati+ves) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-07 | [`GMJ and Co, Chartered Accountants`](https://google.com/search?q=GMJ+and+Co%2C+Chartered+Accountants) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-06-07 | [`ccmaui.org`](https://google.com/search?q=ccmaui.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-06-07 | [`Talalay Global`](https://google.com/search?q=Talalay+Global) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
-| 2024-06-07 | [`Akdeniz Chemson`](https://google.com/search?q=Akdeniz+Chemson) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
