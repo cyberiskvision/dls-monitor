@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-09 | [`Indika Energy`](https://google.com/search?q=Indika+Energy) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-09 | [`Heidmar`](https://google.com/search?q=Heidmar) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-08 | [`Excelsior Orthopaedics`](https://google.com/search?q=Excelsior+Orthopaedics) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-07-08 | [`Allied Industrial Gr oup`](https://google.com/search?q=Allied+Industrial+Gr+oup) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-07 | [`Jones`](https://google.com/search?q=Jones) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-06-07 | [`Elite Limousine Plus Inc`](https://google.com/search?q=Elite+Limousine+Plus+Inc) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-06-07 | [`GMJ and Co, Chartered Accountants`](https://google.com/search?q=GMJ+and+Co%2C+Chartered+Accountants) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
-| 2024-06-07 | [`ccmaui.org`](https://google.com/search?q=ccmaui.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
