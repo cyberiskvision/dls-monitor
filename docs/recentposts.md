@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-10 | [`Municipalité La Guadeloupe`](https://google.com/search?q=Municipalit%C3%A9+La+Guadeloupe) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-07-10 | [`Ronglian Group`](https://google.com/search?q=Ronglian+Group) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-07-10 | [`Intuitae`](https://google.com/search?q=Intuitae) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-07-10 | [`williamsrdm.com`](https://google.com/search?q=williamsrdm.com) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-12 | [`Concrete`](https://google.com/search?q=Concrete) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-06-12 | [`IPM Group (Multimedi a Information & Prod uction Company)`](https://google.com/search?q=IPM+Group+%28Multimedi+a+Information+%26+Prod+uction+Company%29) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-12 | [`manncorp.com`](https://google.com/search?q=manncorp.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-06-12 | [`transportlaberge.com\$27.8M\Canada\110GB\&lt;1% DISCLOSED`](https://google.com/search?q=transportlaberge.com%5C%2427.8M%5CCanada%5C110GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
