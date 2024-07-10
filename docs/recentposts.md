@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-10 | [`etateam.be`](https://google.com/search?q=etateam.be) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-07-10 | [`maccarinelli.it `](https://google.com/search?q=maccarinelli.it+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-07-10 | [`The Wacks Law Group `](https://google.com/search?q=The+Wacks+Law+Group+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-07-09 | [`easchangesystems `](https://google.com/search?q=easchangesystems+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-10 | [`ctgbrands.com\$29.6M\Canada\327GB\&lt;1% DISCLOSED`](https://google.com/search?q=ctgbrands.com%5C%2429.6M%5CCanada%5C327GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-06-10 | [`Arge Baustahl`](https://google.com/search?q=Arge+Baustahl) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-10 | [`sanyo-shokai.co.jp\$412.6M\Japan\248GB\&lt;1% DISCLOSED`](https://google.com/search?q=sanyo-shokai.co.jp%5C%24412.6M%5CJapan%5C248GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2024-06-10 | [`transportlaberge.com\$27.8\Canada\110GB\&lt;1% DISCLOSED`](https://google.com/search?q=transportlaberge.com%5C%2427.8%5CCanada%5C110GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
