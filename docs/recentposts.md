@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-10 | [`P448`](https://google.com/search?q=P448) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-10 | [`Usina Alta Mogiana S /A`](https://google.com/search?q=Usina+Alta+Mogiana+S+%2FA) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-10 | [`Municipalité La Guadeloupe`](https://google.com/search?q=Municipalit%C3%A9+La+Guadeloupe) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-07-10 | [`Ronglian Group`](https://google.com/search?q=Ronglian+Group) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-12 | [`Brainworks Software`](https://google.com/search?q=Brainworks+Software) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-12 | [`3GL Technology Solutions`](https://google.com/search?q=3GL+Technology+Solutions) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-12 | [`Concrete`](https://google.com/search?q=Concrete) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-06-12 | [`IPM Group (Multimedi a Information & Prod uction Company)`](https://google.com/search?q=IPM+Group+%28Multimedi+a+Information+%26+Prod+uction+Company%29) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
