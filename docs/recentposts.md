@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-11 | [`Financoop`](https://google.com/search?q=Financoop) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-11 | [`Sigma`](https://google.com/search?q=Sigma) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-11 | [`hundhausen.de\$150M\Germany\650GB\100% DISCLOSED`](https://google.com/search?q=hundhausen.de%5C%24150M%5CGermany%5C650GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-07-11 | [`hydmech.com\$47.2M\Canada\980GB\100% DISCLOSED`](https://google.com/search?q=hydmech.com%5C%2447.2M%5CCanada%5C980GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-13 | [`Smartweb`](https://google.com/search?q=Smartweb) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-13 | [`Shinnick & Ryan`](https://google.com/search?q=Shinnick+%26+Ryan) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-13 | [`Seagulf Marine Industries`](https://google.com/search?q=Seagulf+Marine+Industries) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-06-13 | [`Peterbilt of Atlanta`](https://google.com/search?q=Peterbilt+of+Atlanta) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
