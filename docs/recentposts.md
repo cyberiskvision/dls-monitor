@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-13 | [`Carigali Hess Operating Company`](https://google.com/search?q=Carigali+Hess+Operating+Company) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-13 | [`https://gbhs.org/`](https://google.com/search?q=https%3A%2F%2Fgbhs.org%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-07-12 | [`Preferred IT Group`](https://google.com/search?q=Preferred+IT+Group) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-07-12 | [`Wagner-Meinert`](https://google.com/search?q=Wagner-Meinert) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-13 | [`Diogenet S.r.l.`](https://google.com/search?q=Diogenet+S.r.l.) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-06-13 | [`2K Dental`](https://google.com/search?q=2K+Dental) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-06-13 | [`Cukierski &#038; Associates, LLC`](https://google.com/search?q=Cukierski+%26%23038%3B+Associates%2C+LLC) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
-| 2024-06-13 | [`https://eurotrol.com/en/`](https://google.com/search?q=https%3A%2F%2Feurotrol.com%2Fen%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
