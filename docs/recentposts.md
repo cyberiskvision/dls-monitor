@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-15 | [`valleylandtitleco.com - UPD`](https://google.com/search?q=valleylandtitleco.com+-+UPD) | [donutleaks](https://ransomwatch.telemetry.ltd/#/profiles?id=donutleaks) |
 | 2024-07-14 | [`luzan5.com`](https://google.com/search?q=luzan5.com) | [blackout](https://ransomwatch.telemetry.ltd/#/profiles?id=blackout) |
 | 2024-07-14 | [`Texas Alcohol and Drug Testing Service`](https://google.com/search?q=Texas+Alcohol+and+Drug+Testing+Service) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-07-14 | [`BrownWinick`](https://google.com/search?q=BrownWinick) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-14 | [`https://mbe.cpa`](https://google.com/search?q=https%3A%2F%2Fmbe.cpa) | [metaencryptor](https://ransomwatch.telemetry.ltd/#/profiles?id=metaencryptor) |
 | 2024-06-14 | [`New Balance Commodit ies`](https://google.com/search?q=New+Balance+Commodit+ies) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-14 | [`Zuber Gardner CPAs Data Leak`](https://google.com/search?q=Zuber+Gardner+CPAs+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
-| 2024-06-13 | [`Kutes.com`](https://google.com/search?q=Kutes.com) | [redransomware](https://ransomwatch.telemetry.ltd/#/profiles?id=redransomware) |
