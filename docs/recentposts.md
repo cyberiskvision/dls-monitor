@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-15 | [`XENAPP-GLOBER`](https://google.com/search?q=XENAPP-GLOBER) | [mallox](https://ransomwatch.telemetry.ltd/#/profiles?id=mallox) |
 | 2024-07-15 | [`Gramercy Surgery Center`](https://google.com/search?q=Gramercy+Surgery+Center) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-07-15 | [`Posi+`](https://google.com/search?q=Posi%2B) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-07-15 | [`CDS, a Hewlett Packard Enterprise company`](https://google.com/search?q=CDS%2C+a+Hewlett+Packard+Enterprise+company) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-16 | [`svmasonry.com`](https://google.com/search?q=svmasonry.com) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-06-16 | [`EnviroApplications`](https://google.com/search?q=EnviroApplications) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-06-15 | [`Kiemle-Hankins`](https://google.com/search?q=Kiemle-Hankins) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
-| 2024-06-15 | [`Embotits Espina, SLU`](https://google.com/search?q=Embotits+Espina%2C+SLU) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
