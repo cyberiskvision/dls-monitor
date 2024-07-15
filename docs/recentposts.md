@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-15 | [`Goede, DeBoest & Cross, PLLC.`](https://google.com/search?q=Goede%2C+DeBoest+%26+Cross%2C+PLLC.) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-07-15 | [`Amino Transport`](https://google.com/search?q=Amino+Transport) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-15 | [`integraservices`](https://google.com/search?q=integraservices) | [mallox](https://ransomwatch.telemetry.ltd/#/profiles?id=mallox) |
 | 2024-07-15 | [`XENAPP-GLOBER`](https://google.com/search?q=XENAPP-GLOBER) | [mallox](https://ransomwatch.telemetry.ltd/#/profiles?id=mallox) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-16 | [`a-agroup`](https://google.com/search?q=a-agroup) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-06-16 | [`Bock &amp; Associates, LLP`](https://google.com/search?q=Bock+%26amp%3B+Associates%2C+LLP) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-06-16 | [`hydefuel.com `](https://google.com/search?q=hydefuel.com+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
-| 2024-06-16 | [`svmasonry.com`](https://google.com/search?q=svmasonry.com) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
