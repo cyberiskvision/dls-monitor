@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-15 | [`CDS, a Hewlett Packard Enterprise company`](https://google.com/search?q=CDS%2C+a+Hewlett+Packard+Enterprise+company) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-07-15 | [`Thompson Creek® Window Company`](https://google.com/search?q=Thompson+Creek%C2%AE+Window+Company) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-07-15 | [`Atos`](https://google.com/search?q=Atos) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-07-15 | [`greenlightbiosciences.com`](https://google.com/search?q=greenlightbiosciences.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-15 | [`Embotits Espina, SLU`](https://google.com/search?q=Embotits+Espina%2C+SLU) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-15 | [`MRI`](https://google.com/search?q=MRI) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-06-15 | [`Legrand CRM`](https://google.com/search?q=Legrand+CRM) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-06-14 | [`http://www.peregrinegp.com`](https://google.com/search?q=http%3A%2F%2Fwww.peregrinegp.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
