@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-16 | [`verco.co.uk\$17.5M\United Kingdom\592GB\&lt;1% DISCLOSED`](https://google.com/search?q=verco.co.uk%5C%2417.5M%5CUnited+Kingdom%5C592GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-07-16 | [`RZO`](https://google.com/search?q=RZO) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-16 | [`MS Ultrasonic Technology Group`](https://google.com/search?q=MS+Ultrasonic+Technology+Group) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-15 | [`Gibbs Hurley Chartered Accountants`](https://google.com/search?q=Gibbs+Hurley+Chartered+Accountants) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-16 | [`Datanet`](https://google.com/search?q=Datanet) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-06-16 | [`Above All Store Fronts`](https://google.com/search?q=Above+All+Store+Fronts) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-06-16 | [`PFAM`](https://google.com/search?q=PFAM) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
-| 2024-06-16 | [`Logimodal Operações Logísticas`](https://google.com/search?q=Logimodal+Opera%C3%A7%C3%B5es+Log%C3%ADsticas) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
