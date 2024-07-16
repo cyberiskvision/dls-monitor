@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-16 | [`Braum's Inc`](https://google.com/search?q=Braum%27s+Inc) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-16 | [`Conexus MedStaff`](https://google.com/search?q=Conexus+MedStaff) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-16 | [`verco.co.uk\$17.5M\United Kingdom\592GB\&lt;1% DISCLOSED`](https://google.com/search?q=verco.co.uk%5C%2417.5M%5CUnited+Kingdom%5C592GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-07-16 | [`RZO`](https://google.com/search?q=RZO) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-17 | [`Shyang Shin Bao Ind. Co., Ltd. (hereinafter referred to as ''SSB'')`](https://google.com/search?q=Shyang+Shin+Bao+Ind.+Co.%2C+Ltd.+%28hereinafter+referred+to+as+%27%27SSB%27%27%29) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-06-17 | [`Golden Acre`](https://google.com/search?q=Golden+Acre) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-06-16 | [`Datanet`](https://google.com/search?q=Datanet) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
-| 2024-06-16 | [`Above All Store Fronts`](https://google.com/search?q=Above+All+Store+Fronts) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
