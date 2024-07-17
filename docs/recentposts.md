@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-17 | [`Modernauto`](https://google.com/search?q=Modernauto) | [blackbyte](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbyte) |
 | 2024-07-17 | [`Gandara Center`](https://google.com/search?q=Gandara+Center) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-07-17 | [`MIPS Technologies`](https://google.com/search?q=MIPS+Technologies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-07-17 | [`Hayden Power Group`](https://google.com/search?q=Hayden+Power+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-17 | [`williamsrdm.com `](https://google.com/search?q=williamsrdm.com+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-06-17 | [`inforius`](https://google.com/search?q=inforius) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-06-17 | [`Holstein Association USA`](https://google.com/search?q=Holstein+Association+USA) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
-| 2024-06-17 | [`Virum Apotek`](https://google.com/search?q=Virum+Apotek) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
