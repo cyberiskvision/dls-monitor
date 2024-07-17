@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-17 | [`Hayden Power Group`](https://google.com/search?q=Hayden+Power+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-07-17 | [`C???o???m`](https://google.com/search?q=C%3F%3F%3Fo%3F%3F%3Fm) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-07-17 | [`labline.it`](https://google.com/search?q=labline.it) | [donutleaks](https://ransomwatch.telemetry.ltd/#/profiles?id=donutleaks) |
 | 2024-07-17 | [`isometrix.com\$45.8M\USA\126GB\&lt;1% DISCLOSED`](https://google.com/search?q=isometrix.com%5C%2445.8M%5CUSA%5C126GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-17 | [`Virum Apotek`](https://google.com/search?q=Virum+Apotek) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-06-17 | [`P/Kaufmann Fabrics`](https://google.com/search?q=P%2FKaufmann+Fabrics) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-06-17 | [`Modplan`](https://google.com/search?q=Modplan) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
-| 2024-06-17 | [`Amper Radio`](https://google.com/search?q=Amper+Radio) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
