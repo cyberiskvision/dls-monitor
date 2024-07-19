@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-19 | [`KuiperCompagnons`](https://google.com/search?q=KuiperCompagnons) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-07-19 | [`Law Offices of the Public Defender - New Mexico`](https://google.com/search?q=Law+Offices+of+the+Public+Defender+-+New+Mexico) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-07-19 | [`Seamon Whiteside`](https://google.com/search?q=Seamon+Whiteside) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-19 | [`Next step healthcar`](https://google.com/search?q=Next+step+healthcar) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-18 | [`Production Machine & Enterprises`](https://google.com/search?q=Production+Machine+%26+Enterprises) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-06-18 | [`CETOS Services`](https://google.com/search?q=CETOS+Services) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-06-18 | [`http://www.kckpd.org`](https://google.com/search?q=http%3A%2F%2Fwww.kckpd.org) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2024-06-18 | [`Ojai srl`](https://google.com/search?q=Ojai+srl) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
