@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-19 | [`Arcmed Group`](https://google.com/search?q=Arcmed+Group) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-19 | [`KuiperCompagnons`](https://google.com/search?q=KuiperCompagnons) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-07-19 | [`Law Offices of the Public Defender - New Mexico`](https://google.com/search?q=Law+Offices+of+the+Public+Defender+-+New+Mexico) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-07-19 | [`Seamon Whiteside`](https://google.com/search?q=Seamon+Whiteside) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-18 | [`reawire.com\$100M\USA\100GB\&lt;1% DISCLOSED`](https://google.com/search?q=reawire.com%5C%24100M%5CUSA%5C100GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-06-18 | [`Production Machine & Enterprises`](https://google.com/search?q=Production+Machine+%26+Enterprises) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-06-18 | [`CETOS Services`](https://google.com/search?q=CETOS+Services) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
-| 2024-06-18 | [`http://www.kckpd.org`](https://google.com/search?q=http%3A%2F%2Fwww.kckpd.org) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
