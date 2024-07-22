@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-22 | [`MEMC`](https://google.com/search?q=MEMC) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-07-22 | [`SH Pension`](https://google.com/search?q=SH+Pension) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-07-22 | [`Guaranteed Supply Company`](https://google.com/search?q=Guaranteed+Supply+Company) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-07-22 | [`RiverSoft`](https://google.com/search?q=RiverSoft) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-19 | [`Lindermayr`](https://google.com/search?q=Lindermayr) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-19 | [`Perfumes & Companhia`](https://google.com/search?q=Perfumes+%26+Companhia) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-19 | [`First Baptist Medical Center`](https://google.com/search?q=First+Baptist+Medical+Center) | [moneymessage](https://ransomwatch.telemetry.ltd/#/profiles?id=moneymessage) |
-| 2024-06-18 | [`Circle K Atlanta`](https://google.com/search?q=Circle+K+Atlanta) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
