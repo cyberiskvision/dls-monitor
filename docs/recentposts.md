@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-22 | [`RiverSoft`](https://google.com/search?q=RiverSoft) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-07-21 | [`KickDown ESET company. No overpayments at 0% (renamed and update)`](https://google.com/search?q=KickDown+ESET+company.+No+overpayments+at+0%25+%28renamed+and+update%29) | [donutleaks](https://ransomwatch.telemetry.ltd/#/profiles?id=donutleaks) |
 | 2024-07-20 | [`Queens County Public Administrator`](https://google.com/search?q=Queens+County+Public+Administrator) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-07-20 | [`https://ecfgroup.com/en/brand/reward-hospitality/;https://www.rewardhospitality.com.au/`](https://google.com/search?q=https%3A%2F%2Fecfgroup.com%2Fen%2Fbrand%2Freward-hospitality%2F%3Bhttps%3A%2F%2Fwww.rewardhospitality.com.au%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-18 | [`Circle K Atlanta`](https://google.com/search?q=Circle+K+Atlanta) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-06-18 | [`Acteon Group`](https://google.com/search?q=Acteon+Group) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-06-18 | [`sofidel.com\$3B\Italy\74GB\&lt;1% DISCLOSED`](https://google.com/search?q=sofidel.com%5C%243B%5CItaly%5C74GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2024-06-18 | [`malca-amit.com`](https://google.com/search?q=malca-amit.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
