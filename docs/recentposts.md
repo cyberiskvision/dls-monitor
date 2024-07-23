@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-23 | [`verco.co.uk\$17.5M\United Kingdom\592GB\100% DISCLOSED`](https://google.com/search?q=verco.co.uk%5C%2417.5M%5CUnited+Kingdom%5C592GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-07-23 | [`isometrix.com\$45.8M\USA\126GB\100% DISCLOSED`](https://google.com/search?q=isometrix.com%5C%2445.8M%5CUSA%5C126GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-07-23 | [`LawDepot`](https://google.com/search?q=LawDepot) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-07-22 | [`Acadian Ambulance (US)`](https://google.com/search?q=Acadian+Ambulance+%28US%29) | [daixin](https://ransomwatch.telemetry.ltd/#/profiles?id=daixin) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-21 | [`LCS and Partners`](https://google.com/search?q=LCS+and+Partners) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-21 | [`Hokushinko Co., Ltd.`](https://google.com/search?q=Hokushinko+Co.%2C+Ltd.) | [8base](https://ransomwatch.telemetry.ltd/#/profiles?id=8base) |
 | 2024-06-21 | [`12345.com`](https://google.com/search?q=12345.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-06-21 | [`1234.com`](https://google.com/search?q=1234.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
