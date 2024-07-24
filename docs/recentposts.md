@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-24 | [`Warning: some of webchats are unavailable. We are working to resolve the issue, all timers`](https://google.com/search?q=Warning%3A+some+of+webchats+are+unavailable.+We+are+working+to+resolve+the+issue%2C+all+timers) | [daixin](https://ransomwatch.telemetry.ltd/#/profiles?id=daixin) |
 | 2024-07-24 | [`Regas (regasenergy.com)`](https://google.com/search?q=Regas+%28regasenergy.com%29) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-07-24 | [`Anyone.. Who need some bags?`](https://google.com/search?q=Anyone..+Who+need+some+bags%3F) | [donutleaks](https://ransomwatch.telemetry.ltd/#/profiles?id=donutleaks) |
 | 2024-07-23 | [`http://rhinocorps.com`](https://google.com/search?q=http%3A%2F%2Frhinocorps.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-22 | [`Erivan Gecom Inc`](https://google.com/search?q=Erivan+Gecom+Inc) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-06-22 | [`City of Newburgh`](https://google.com/search?q=City+of+Newburgh) | [blackbyte](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbyte) |
 | 2024-06-22 | [`sanyo-shokai.co.jp\$412.6M\Japan\248GB\100% DISCLOSED`](https://google.com/search?q=sanyo-shokai.co.jp%5C%24412.6M%5CJapan%5C248GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2024-06-21 | [`Maxillofacial Surgery`](https://google.com/search?q=Maxillofacial+Surgery) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
