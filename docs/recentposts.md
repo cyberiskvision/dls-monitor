@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-24 | [`Accelon Technologies Private`](https://google.com/search?q=Accelon+Technologies+Private) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-07-24 | [`Betances Health Center`](https://google.com/search?q=Betances+Health+Center) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-24 | [`SKC West`](https://google.com/search?q=SKC+West) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-24 | [`American Acryl`](https://google.com/search?q=American+Acryl) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-23 | [`Belle Tire`](https://google.com/search?q=Belle+Tire) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-23 | [`at-global.com`](https://google.com/search?q=at-global.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-06-23 | [`Custom Concrete`](https://google.com/search?q=Custom+Concrete) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-06-23 | [`Ladco`](https://google.com/search?q=Ladco) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
