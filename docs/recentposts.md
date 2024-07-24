@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-24 | [`American Acryl`](https://google.com/search?q=American+Acryl) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-24 | [`Electroalfa`](https://google.com/search?q=Electroalfa) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-24 | [`CALDAN Conveyor`](https://google.com/search?q=CALDAN+Conveyor) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-24 | [`Jack "Designer" Sparrow.`](https://google.com/search?q=Jack+%22Designer%22+Sparrow.) | [donutleaks](https://ransomwatch.telemetry.ltd/#/profiles?id=donutleaks) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-23 | [`Ladco`](https://google.com/search?q=Ladco) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-23 | [`hundhausen.de\$150M\Germany\650GB\&lt;1% DISCLOSED`](https://google.com/search?q=hundhausen.de%5C%24150M%5CGermany%5C650GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-06-23 | [`fbttransport.com\$70.8M\USA\180GB\&lt;1% DISCLOSED`](https://google.com/search?q=fbttransport.com%5C%2470.8M%5CUSA%5C180GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2024-06-23 | [`daystar.com\$120.3M\USA\125GB\&lt;1% DISCLOSED`](https://google.com/search?q=daystar.com%5C%24120.3M%5CUSA%5C125GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
