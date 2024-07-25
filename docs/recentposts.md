@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-25 | [`As****fs`](https://google.com/search?q=As%2A%2A%2A%2Afs) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-07-24 | [`simple-solution-systems`](https://google.com/search?q=simple-solution-systems) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-07-24 | [`Valisana`](https://google.com/search?q=Valisana) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-07-24 | [`Bunkhouse Group`](https://google.com/search?q=Bunkhouse+Group) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-24 | [`Harvey Construction`](https://google.com/search?q=Harvey+Construction) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-24 | [`qftemb.com`](https://google.com/search?q=qftemb.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-06-24 | [`marvell.com`](https://google.com/search?q=marvell.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-06-23 | [`Bunger Steel`](https://google.com/search?q=Bunger+Steel) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
