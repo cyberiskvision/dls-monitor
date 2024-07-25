@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-25 | [`OfficeOps`](https://google.com/search?q=OfficeOps) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-07-25 | [`Odyssey Fitness Center`](https://google.com/search?q=Odyssey+Fitness+Center) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-07-25 | [`Golden Business Machines`](https://google.com/search?q=Golden+Business+Machines) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-07-25 | [`Gateway Extrusions`](https://google.com/search?q=Gateway+Extrusions) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-25 | [`Scrubs &amp; Beyond`](https://google.com/search?q=Scrubs+%26amp%3B+Beyond) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-06-25 | [`tpocc.org`](https://google.com/search?q=tpocc.org) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-06-25 | [`Diogenet S.r.l. Data Leak`](https://google.com/search?q=Diogenet+S.r.l.+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
-| 2024-06-25 | [`2K Dental Data Leak`](https://google.com/search?q=2K+Dental+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
