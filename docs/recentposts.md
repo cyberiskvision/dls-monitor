@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-25 | [`EHS Partnerships`](https://google.com/search?q=EHS+Partnerships) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-07-25 | [`Insula Group`](https://google.com/search?q=Insula+Group) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-07-25 | [`crimsonwinegroup.com`](https://google.com/search?q=crimsonwinegroup.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-07-25 | [`http://www.pojoaque.org`](https://google.com/search?q=http%3A%2F%2Fwww.pojoaque.org) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-24 | [`www.glynmarais.co.za\$12.6M\South Africa\105GB\&lt;1% DISCLOSED`](https://google.com/search?q=www.glynmarais.co.za%5C%2412.6M%5CSouth+Africa%5C105GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-06-24 | [`http://revolutionresources.com`](https://google.com/search?q=http%3A%2F%2Frevolutionresources.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-24 | [`World inquest`](https://google.com/search?q=World+inquest) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-06-24 | [`TPI`](https://google.com/search?q=TPI) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
