@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-25 | [`Environmental Design International`](https://google.com/search?q=Environmental+Design+International) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-25 | [`Empereon Constar`](https://google.com/search?q=Empereon+Constar) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-25 | [`KMLG`](https://google.com/search?q=KMLG) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-07-25 | [`The Law Office of Omar O. Vargas, P.C. Data Leak`](https://google.com/search?q=The+Law+Office+of+Omar+O.+Vargas%2C+P.C.+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-24 | [`westfalia-automotive.com\$19.4M\Germany\60GB\&lt;1% DISCLOSED`](https://google.com/search?q=westfalia-automotive.com%5C%2419.4M%5CGermany%5C60GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-06-24 | [`Agron (Five Ten) Adi das TERREX`](https://google.com/search?q=Agron+%28Five+Ten%29+Adi+das+TERREX) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-24 | [`Agron (Five Ten) ACQ UIRED BY ADIDAS`](https://google.com/search?q=Agron+%28Five+Ten%29+ACQ+UIRED+BY+ADIDAS) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-06-24 | [`Compagnia Trasporti Integrati S.R.L`](https://google.com/search?q=Compagnia+Trasporti+Integrati+S.R.L) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
