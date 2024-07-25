@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-25 | [`TheLutheranFoundation`](https://google.com/search?q=TheLutheranFoundation) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-07-25 | [`Melchers Singapore`](https://google.com/search?q=Melchers+Singapore) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-07-25 | [`As****fs`](https://google.com/search?q=As%2A%2A%2A%2Afs) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-07-24 | [`simple-solution-systems`](https://google.com/search?q=simple-solution-systems) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-24 | [`ProMotion Holdings`](https://google.com/search?q=ProMotion+Holdings) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-24 | [`Hedrick Brothers Construction`](https://google.com/search?q=Hedrick+Brothers+Construction) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-24 | [`Harvey Construction`](https://google.com/search?q=Harvey+Construction) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-06-24 | [`qftemb.com`](https://google.com/search?q=qftemb.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
