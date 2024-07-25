@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-25 | [`Insula Group`](https://google.com/search?q=Insula+Group) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-07-25 | [`crimsonwinegroup.com`](https://google.com/search?q=crimsonwinegroup.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-07-25 | [`http://www.pojoaque.org`](https://google.com/search?q=http%3A%2F%2Fwww.pojoaque.org) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-07-25 | [`Kusum Group of Companies`](https://google.com/search?q=Kusum+Group+of+Companies) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-24 | [`http://revolutionresources.com`](https://google.com/search?q=http%3A%2F%2Frevolutionresources.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-24 | [`World inquest`](https://google.com/search?q=World+inquest) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-06-24 | [`TPI`](https://google.com/search?q=TPI) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-06-24 | [`RRCA Accounts Management`](https://google.com/search?q=RRCA+Accounts+Management) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
