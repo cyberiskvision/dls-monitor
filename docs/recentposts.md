@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-26 | [`Lago Group Spa`](https://google.com/search?q=Lago+Group+Spa) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-07-26 | [`Planet Group International`](https://google.com/search?q=Planet+Group+International) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
 | 2024-07-26 | [`LITEON`](https://google.com/search?q=LITEON) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
 | 2024-07-26 | [`STUDIO NOTARILE BUCCI – OLMI Data Leak`](https://google.com/search?q=STUDIO+NOTARILE+BUCCI+%E2%80%93+OLMI+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-25 | [`https://rbbschools.net/`](https://google.com/search?q=https%3A%2F%2Frbbschools.net%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-25 | [`https://www.colfax.k12.wi.us/`](https://google.com/search?q=https%3A%2F%2Fwww.colfax.k12.wi.us%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-25 | [`https://www.axiavg.com/`](https://google.com/search?q=https%3A%2F%2Fwww.axiavg.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2024-06-25 | [`PCI Developments`](https://google.com/search?q=PCI+Developments) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
