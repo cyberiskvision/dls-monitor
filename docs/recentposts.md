@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-26 | [`STUDIO NOTARILE BUCCI – OLMI Data Leak`](https://google.com/search?q=STUDIO+NOTARILE+BUCCI+%E2%80%93+OLMI+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-07-26 | [`Physical & Occupational Therapy Examiners of Texas`](https://google.com/search?q=Physical+%26+Occupational+Therapy+Examiners+of+Texas) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-26 | [`Williams Construction`](https://google.com/search?q=Williams+Construction) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-07-26 | [`Speed Advisory`](https://google.com/search?q=Speed+Advisory) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-25 | [`PCI Developments`](https://google.com/search?q=PCI+Developments) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-25 | [`Beckett Thermal Solu tions`](https://google.com/search?q=Beckett+Thermal+Solu+tions) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-25 | [`Utility Datacenter`](https://google.com/search?q=Utility+Datacenter) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-06-25 | [`https://www.catiglass.com/`](https://google.com/search?q=https%3A%2F%2Fwww.catiglass.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
