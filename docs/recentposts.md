@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-27 | [`ayurcan`](https://google.com/search?q=ayurcan) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-07-26 | [`Community Care Alliance`](https://google.com/search?q=Community+Care+Alliance) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-07-26 | [`Augusta Orthopedic`](https://google.com/search?q=Augusta+Orthopedic) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-07-26 | [`Karvo Companies, Inc.`](https://google.com/search?q=Karvo+Companies%2C+Inc.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-26 | [`http://www.sanglier.org.uk`](https://google.com/search?q=http%3A%2F%2Fwww.sanglier.org.uk) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-26 | [`https://arangobillboard.com/`](https://google.com/search?q=https%3A%2F%2Farangobillboard.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-25 | [`US Dermatology Partners`](https://google.com/search?q=US+Dermatology+Partners) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
-| 2024-06-25 | [`Better Business Bureau`](https://google.com/search?q=Better+Business+Bureau) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
