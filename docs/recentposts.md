@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-27 | [`Computer Networking Solutions`](https://google.com/search?q=Computer+Networking+Solutions) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-07-27 | [`The Weinstein Firm`](https://google.com/search?q=The+Weinstein+Firm) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-07-27 | [`ayurcan`](https://google.com/search?q=ayurcan) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-07-26 | [`Community Care Alliance`](https://google.com/search?q=Community+Care+Alliance) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-26 | [`https://www.keeservices.com/`](https://google.com/search?q=https%3A%2F%2Fwww.keeservices.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-26 | [`https://theeyeclinicsurgicenter.com`](https://google.com/search?q=https%3A%2F%2Ftheeyeclinicsurgicenter.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-26 | [`http://www.sanglier.org.uk`](https://google.com/search?q=http%3A%2F%2Fwww.sanglier.org.uk) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2024-06-26 | [`https://arangobillboard.com/`](https://google.com/search?q=https%3A%2F%2Farangobillboard.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
