@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-28 | [`Ascent Group`](https://google.com/search?q=Ascent+Group) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-07-28 | [`zoppo.com`](https://google.com/search?q=zoppo.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-07-27 | [`http://hanoverhill.com`](https://google.com/search?q=http%3A%2F%2Fhanoverhill.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-07-27 | [`New Jersey City University`](https://google.com/search?q=New+Jersey+City+University) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-26 | [`Waterbury Newton`](https://google.com/search?q=Waterbury+Newton) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-06-26 | [`Cukierski &#038; Associates, LLC Data Leak`](https://google.com/search?q=Cukierski+%26%23038%3B+Associates%2C+LLC+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-06-26 | [`http://ibewlocal1.org`](https://google.com/search?q=http%3A%2F%2Fibewlocal1.org) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2024-06-26 | [`https://www.doityoungs.com/`](https://google.com/search?q=https%3A%2F%2Fwww.doityoungs.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
