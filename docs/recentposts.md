@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-29 | [`The Gill Corporation`](https://google.com/search?q=The+Gill+Corporation) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-29 | [`Crownlea Group`](https://google.com/search?q=Crownlea+Group) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-29 | [`Priefert`](https://google.com/search?q=Priefert) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-29 | [`Al-Karam Textile Mills Pvt`](https://google.com/search?q=Al-Karam+Textile+Mills+Pvt) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-27 | [`http://kadokawa.co.jp`](https://google.com/search?q=http%3A%2F%2Fkadokawa.co.jp) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-06-26 | [`competenz.co.nz`](https://google.com/search?q=competenz.co.nz) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-06-26 | [`Ocasa`](https://google.com/search?q=Ocasa) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-06-26 | [`Gallos Metal Solutio ns`](https://google.com/search?q=Gallos+Metal+Solutio+ns) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
