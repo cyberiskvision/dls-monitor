@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-30 | [`jean-nouvel`](https://google.com/search?q=jean-nouvel) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-07-30 | [`Network Communications Group `](https://google.com/search?q=Network+Communications+Group+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-07-30 | [`leonardssyrups.com\$22M\USA\575GB\&lt;1% DISCLOSED`](https://google.com/search?q=leonardssyrups.com%5C%2422M%5CUSA%5C575GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-07-30 | [`westernwyomingbeverages.com\$59.2M\USA\102GB\&lt;1% DISCLOSED`](https://google.com/search?q=westernwyomingbeverages.com%5C%2459.2M%5CUSA%5C102GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-30 | [`Wayne Memorial Hospital`](https://google.com/search?q=Wayne+Memorial+Hospital) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-06-30 | [`Lambertz`](https://google.com/search?q=Lambertz) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-06-29 | [`DRM Resources`](https://google.com/search?q=DRM+Resources) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
-| 2024-06-28 | [`Power Lube Industria l`](https://google.com/search?q=Power+Lube+Industria+l) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
