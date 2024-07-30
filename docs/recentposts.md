@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-30 | [`Macadam Europe`](https://google.com/search?q=Macadam+Europe) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-30 | [`Olschewski Davie`](https://google.com/search?q=Olschewski+Davie) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-30 | [`SAGE Publishing`](https://google.com/search?q=SAGE+Publishing) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-29 | [`The Gill Corporation`](https://google.com/search?q=The+Gill+Corporation) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-06-28 | [`Gestores Administrativos Reunidos`](https://google.com/search?q=Gestores+Administrativos+Reunidos) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-06-27 | [`landmarklife.com`](https://google.com/search?q=landmarklife.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-06-27 | [`conferenceusa.com`](https://google.com/search?q=conferenceusa.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
-| 2024-06-27 | [`http://kadokawa.co.jp`](https://google.com/search?q=http%3A%2F%2Fkadokawa.co.jp) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
