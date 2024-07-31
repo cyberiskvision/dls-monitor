@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-31 | [`www.srmedicalcenter.org`](https://google.com/search?q=www.srmedicalcenter.org) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-07-31 | [`City of Columbus, Ohio`](https://google.com/search?q=City+of+Columbus%2C+Ohio) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-07-31 | [`Lake Washington Institute of Technology`](https://google.com/search?q=Lake+Washington+Institute+of+Technology) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-07-31 | [`stb.ro`](https://google.com/search?q=stb.ro) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-02 | [`WheelerShip`](https://google.com/search?q=WheelerShip) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-01 | [`SYNERGY PEANUT`](https://google.com/search?q=SYNERGY+PEANUT) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-01 | [`TUV Rheinland AG`](https://google.com/search?q=TUV+Rheinland+AG) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
-| 2024-07-01 | [`maxcess-logistics.com`](https://google.com/search?q=maxcess-logistics.com) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
