@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-07-31 | [`https://www.webasto.com`](https://google.com/search?q=https%3A%2F%2Fwww.webasto.com) | [metaencryptor](https://ransomwatch.telemetry.ltd/#/profiles?id=metaencryptor) |
 | 2024-07-31 | [`Find Great People`](https://google.com/search?q=Find+Great+People) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-31 | [`BRASPRESS`](https://google.com/search?q=BRASPRESS) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-31 | [`Florence Cement Company, Inc.`](https://google.com/search?q=Florence+Cement+Company%2C+Inc.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-03 | [`I-❤️-TEXAS`](https://google.com/search?q=I-%E2%9D%A4%EF%B8%8F-TEXAS) | [donutleaks](https://ransomwatch.telemetry.ltd/#/profiles?id=donutleaks) |
 | 2024-07-02 | [`Conexus Medstaff`](https://google.com/search?q=Conexus+Medstaff) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-02 | [`Salton`](https://google.com/search?q=Salton) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-07-02 | [`P1 Technologies`](https://google.com/search?q=P1+Technologies) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
