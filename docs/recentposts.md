@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-01 | [`dahlvalve.com\$23.9M\Canada\80GB\&lt;1% DISCLOSED`](https://google.com/search?q=dahlvalve.com%5C%2423.9M%5CCanada%5C80GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-07-31 | [`fingersstore.com`](https://google.com/search?q=fingersstore.com) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-07-31 | [`Kleven Construction`](https://google.com/search?q=Kleven+Construction) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-31 | [`Durham Manufacturing`](https://google.com/search?q=Durham+Manufacturing) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-03 | [`Explomin`](https://google.com/search?q=Explomin) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-03 | [`Alimac`](https://google.com/search?q=Alimac) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-03 | [`badel1862.hr`](https://google.com/search?q=badel1862.hr) | [blackout](https://ransomwatch.telemetry.ltd/#/profiles?id=blackout) |
-| 2024-07-03 | [`valleylandtitleco.com`](https://google.com/search?q=valleylandtitleco.com) | [donutleaks](https://ransomwatch.telemetry.ltd/#/profiles?id=donutleaks) |
