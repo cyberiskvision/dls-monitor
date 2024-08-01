@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-01 | [`ENEA Italy`](https://google.com/search?q=ENEA+Italy) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-08-01 | [`Adorna & Guzman Dentistry`](https://google.com/search?q=Adorna+%26+Guzman+Dentistry) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-08-01 | [`https://www.acsi.org/`](https://google.com/search?q=https%3A%2F%2Fwww.acsi.org%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-08-01 | [`Peñoles`](https://google.com/search?q=Pe%C3%B1oles) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-04 | [`Transit Mutual Insurance Corporation`](https://google.com/search?q=Transit+Mutual+Insurance+Corporation) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-07-04 | [`Сoquitlam Concrete`](https://google.com/search?q=%D0%A1oquitlam+Concrete) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-04 | [`Multisuns Communication`](https://google.com/search?q=Multisuns+Communication) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-07-04 | [`Creative Realities`](https://google.com/search?q=Creative+Realities) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
