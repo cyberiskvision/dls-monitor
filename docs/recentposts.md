@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-02 | [`Khandelwal Laboratories Pvt`](https://google.com/search?q=Khandelwal+Laboratories+Pvt) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-08-02 | [`Jangho Group`](https://google.com/search?q=Jangho+Group) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-08-02 | [`q-cells.de`](https://google.com/search?q=q-cells.de) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-08-02 | [`Veren Inc and Crescent Point Energy`](https://google.com/search?q=Veren+Inc+and+Crescent+Point+Energy) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-04 | [`Fareri Associates`](https://google.com/search?q=Fareri+Associates) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-07-04 | [`Elyria Foundry`](https://google.com/search?q=Elyria+Foundry) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-07-04 | [`Island Transportation Corp.`](https://google.com/search?q=Island+Transportation+Corp.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
-| 2024-07-04 | [`Legend Properties, Inc.`](https://google.com/search?q=Legend+Properties%2C+Inc.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
