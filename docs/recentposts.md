@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-06 | [`Omni Family Health`](https://google.com/search?q=Omni+Family+Health) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-08-06 | [`Casco Antiguo`](https://google.com/search?q=Casco+Antiguo) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-08-06 | [`Fractalia Group`](https://google.com/search?q=Fractalia+Group) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-08-06 | [`westernwyomingbeverages.com\$59.2M\USA\102GB\100% DISCLOSED`](https://google.com/search?q=westernwyomingbeverages.com%5C%2459.2M%5CUSA%5C102GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-09 | [`Heidmar`](https://google.com/search?q=Heidmar) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-08 | [`Excelsior Orthopaedics`](https://google.com/search?q=Excelsior+Orthopaedics) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-07-08 | [`Allied Industrial Gr oup`](https://google.com/search?q=Allied+Industrial+Gr+oup) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-07-08 | [`Esedra`](https://google.com/search?q=Esedra) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
