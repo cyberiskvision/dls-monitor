@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-07 | [`bonatra.com`](https://google.com/search?q=bonatra.com) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-08-07 | [`https://biw-burger.de`](https://google.com/search?q=https%3A%2F%2Fbiw-burger.de) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
 | 2024-08-06 | [`True Blue Environmental`](https://google.com/search?q=True+Blue+Environmental) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-08-06 | [`KinetX`](https://google.com/search?q=KinetX) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-10 | [`etateam.be`](https://google.com/search?q=etateam.be) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-07-10 | [`maccarinelli.it `](https://google.com/search?q=maccarinelli.it+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-07-10 | [`The Wacks Law Group `](https://google.com/search?q=The+Wacks+Law+Group+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
-| 2024-07-09 | [`easchangesystems `](https://google.com/search?q=easchangesystems+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
