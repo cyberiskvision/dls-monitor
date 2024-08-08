@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-08 | [`NIDEC CORPORATION`](https://google.com/search?q=NIDEC+CORPORATION) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-08-08 | [`Horizon View Medical Center`](https://google.com/search?q=Horizon+View+Medical+Center) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-08-07 | [`Bayhealth Hospital`](https://google.com/search?q=Bayhealth+Hospital) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-08-07 | [`Anderson Oil & Gas`](https://google.com/search?q=Anderson+Oil+%26+Gas) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-10 | [`Dr Charles A Evans`](https://google.com/search?q=Dr+Charles+A+Evans) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-07-10 | [`MCS`](https://google.com/search?q=MCS) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-07-10 | [`watergate `](https://google.com/search?q=watergate+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
-| 2024-07-10 | [`Madero`](https://google.com/search?q=Madero) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
