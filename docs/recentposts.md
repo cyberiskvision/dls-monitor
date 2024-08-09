@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-09 | [`Sumter County Sheriff`](https://google.com/search?q=Sumter+County+Sheriff) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-08-08 | [`icarasia.com`](https://google.com/search?q=icarasia.com) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-08-08 | [`Gramercy Surgery Center Data Leak`](https://google.com/search?q=Gramercy+Surgery+Center+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-08-08 | [`Gramercy Surgery Center  Data  Leak`](https://google.com/search?q=Gramercy+Surgery+Center++Data++Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-10 | [`http://cedarfalls.com`](https://google.com/search?q=http%3A%2F%2Fcedarfalls.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-07-10 | [`P448`](https://google.com/search?q=P448) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-10 | [`Usina Alta Mogiana S /A`](https://google.com/search?q=Usina+Alta+Mogiana+S+%2FA) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-07-10 | [`Municipalité La Guadeloupe`](https://google.com/search?q=Municipalit%C3%A9+La+Guadeloupe) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
