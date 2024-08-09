@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-09 | [`Majestic Metals`](https://google.com/search?q=Majestic+Metals) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-08-09 | [`New TSI Holdings, NYSC`](https://google.com/search?q=New+TSI+Holdings%2C+NYSC) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-08-09 | [`NIDEC CORPORATION pt.2`](https://google.com/search?q=NIDEC+CORPORATION+pt.2) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-08-09 | [`Sumter County Sheriff`](https://google.com/search?q=Sumter+County+Sheriff) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-11 | [`The 21st Century Energy Group`](https://google.com/search?q=The+21st+Century+Energy+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-07-11 | [`Texas Electric Cooperatives`](https://google.com/search?q=Texas+Electric+Cooperatives) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-07-10 | [`T P C I`](https://google.com/search?q=T+P+C+I) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-07-10 | [`http://cedarfalls.com`](https://google.com/search?q=http%3A%2F%2Fcedarfalls.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
