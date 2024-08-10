@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-10 | [`Brontoo Technology Solutions`](https://google.com/search?q=Brontoo+Technology+Solutions) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
 | 2024-08-09 | [`Nilorngruppen AB`](https://google.com/search?q=Nilorngruppen+AB) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-08-09 | [`Credible Group`](https://google.com/search?q=Credible+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-08-09 | [`https://www.arkworkplacerisk.co.uk`](https://google.com/search?q=https%3A%2F%2Fwww.arkworkplacerisk.co.uk) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-11 | [`Hyperice`](https://google.com/search?q=Hyperice) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-07-11 | [`http://dealscoop.com`](https://google.com/search?q=http%3A%2F%2Fdealscoop.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-07-11 | [`Financoop`](https://google.com/search?q=Financoop) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-07-11 | [`Sigma`](https://google.com/search?q=Sigma) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
