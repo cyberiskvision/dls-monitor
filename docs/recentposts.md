@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-11 | [`robertshvac.com`](https://google.com/search?q=robertshvac.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-08-11 | [`Moser Wealth Advisors`](https://google.com/search?q=Moser+Wealth+Advisors) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-08-11 | [`Hanon Systems`](https://google.com/search?q=Hanon+Systems) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-08-10 | [`Brontoo Technology Solutions`](https://google.com/search?q=Brontoo+Technology+Solutions) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-13 | [`https://gbhs.org/`](https://google.com/search?q=https%3A%2F%2Fgbhs.org%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-07-12 | [`Preferred IT Group`](https://google.com/search?q=Preferred+IT+Group) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-07-12 | [`Wagner-Meinert`](https://google.com/search?q=Wagner-Meinert) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
-| 2024-07-11 | [`Hyperice`](https://google.com/search?q=Hyperice) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
