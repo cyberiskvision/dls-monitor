@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-13 | [`The White Center Community Development Association`](https://google.com/search?q=The+White+Center+Community+Development+Association) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-08-13 | [`Southwest Family Medicine Associates`](https://google.com/search?q=Southwest+Family+Medicine+Associates) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-08-12 | [`NetOne`](https://google.com/search?q=NetOne) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-08-12 | [`[DISCLOSED] Ronglian Group [Source code of RONGLIAN GROUP company developments]`](https://google.com/search?q=%5BDISCLOSED%5D+Ronglian+Group+%5BSource+code+of+RONGLIAN+GROUP+company+developments%5D) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-15 | [`Atos`](https://google.com/search?q=Atos) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-07-15 | [`greenlightbiosciences.com`](https://google.com/search?q=greenlightbiosciences.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-07-15 | [`valleylandtitleco.com - UPD`](https://google.com/search?q=valleylandtitleco.com+-+UPD) | [donutleaks](https://ransomwatch.telemetry.ltd/#/profiles?id=donutleaks) |
-| 2024-07-14 | [`luzan5.com`](https://google.com/search?q=luzan5.com) | [blackout](https://ransomwatch.telemetry.ltd/#/profiles?id=blackout) |
