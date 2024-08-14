@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-14 | [`Boni`](https://google.com/search?q=Boni) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-08-14 | [`Drug Testing Service`](https://google.com/search?q=Drug+Testing+Service) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-08-14 | [`Financial Advisors`](https://google.com/search?q=Financial+Advisors) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-08-14 | [`Texas Centers for Infectious Disease Associates`](https://google.com/search?q=Texas+Centers+for+Infectious+Disease+Associates) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-16 | [`RZO`](https://google.com/search?q=RZO) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-16 | [`MS Ultrasonic Technology Group`](https://google.com/search?q=MS+Ultrasonic+Technology+Group) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-15 | [`Gibbs Hurley Chartered Accountants`](https://google.com/search?q=Gibbs+Hurley+Chartered+Accountants) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-07-15 | [`ComNet Communications`](https://google.com/search?q=ComNet+Communications) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
