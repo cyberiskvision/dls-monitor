@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-14 | [`Financial Advisors`](https://google.com/search?q=Financial+Advisors) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-08-14 | [`Texas Centers for Infectious Disease Associates`](https://google.com/search?q=Texas+Centers+for+Infectious+Disease+Associates) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-08-14 | [`Thompson Davis and Co`](https://google.com/search?q=Thompson+Davis+and+Co) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-08-14 | [`http://www.forrec.it`](https://google.com/search?q=http%3A%2F%2Fwww.forrec.it) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-15 | [`Gibbs Hurley Chartered Accountants`](https://google.com/search?q=Gibbs+Hurley+Chartered+Accountants) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-15 | [`ComNet Communications`](https://google.com/search?q=ComNet+Communications) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-15 | [`Goede, DeBoest & Cross, PLLC.`](https://google.com/search?q=Goede%2C+DeBoest+%26+Cross%2C+PLLC.) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
-| 2024-07-15 | [`Amino Transport`](https://google.com/search?q=Amino+Transport) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
