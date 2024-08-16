@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-16 | [`[DISCLOSED] Valisana`](https://google.com/search?q=%5BDISCLOSED%5D+Valisana) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-08-16 | [`BTS Biogas`](https://google.com/search?q=BTS+Biogas) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-08-16 | [`Sterling Rope`](https://google.com/search?q=Sterling+Rope) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-08-15 | [`Mill Creek Lumber`](https://google.com/search?q=Mill+Creek+Lumber) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-17 | [`MIPS Technologies`](https://google.com/search?q=MIPS+Technologies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-07-17 | [`Hayden Power Group`](https://google.com/search?q=Hayden+Power+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-07-17 | [`C???o???m`](https://google.com/search?q=C%3F%3F%3Fo%3F%3F%3Fm) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-07-17 | [`labline.it`](https://google.com/search?q=labline.it) | [donutleaks](https://ransomwatch.telemetry.ltd/#/profiles?id=donutleaks) |
