@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-16 | [`Amco Metal Industrial Corporation `](https://google.com/search?q=Amco+Metal+Industrial+Corporation+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-08-16 | [`ccj.edu.lb `](https://google.com/search?q=ccj.edu.lb+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-08-16 | [`Hiesmayr Haustechnik`](https://google.com/search?q=Hiesmayr+Haustechnik) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-08-16 | [`[DISCLOSED] Valisana`](https://google.com/search?q=%5BDISCLOSED%5D+Valisana) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-18 | [`ZSZAALEJI.cz `](https://google.com/search?q=ZSZAALEJI.cz+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-07-17 | [`Modernauto`](https://google.com/search?q=Modernauto) | [blackbyte](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbyte) |
 | 2024-07-17 | [`Gandara Center`](https://google.com/search?q=Gandara+Center) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
-| 2024-07-17 | [`MIPS Technologies`](https://google.com/search?q=MIPS+Technologies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
