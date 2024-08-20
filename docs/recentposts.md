@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-20 | [`North Georgia Brick`](https://google.com/search?q=North+Georgia+Brick) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-08-20 | [`Akkanat Holding`](https://google.com/search?q=Akkanat+Holding) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-08-19 | [`Waynesboro Nurseries`](https://google.com/search?q=Waynesboro+Nurseries) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-08-19 | [`The Transit Authorit y of Northern Kentuc ky (TANK)`](https://google.com/search?q=The+Transit+Authorit+y+of+Northern+Kentuc+ky+%28TANK%29) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-22 | [`Guaranteed Supply Company`](https://google.com/search?q=Guaranteed+Supply+Company) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-07-22 | [`RiverSoft`](https://google.com/search?q=RiverSoft) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-07-21 | [`KickDown ESET company. No overpayments at 0% (renamed and update)`](https://google.com/search?q=KickDown+ESET+company.+No+overpayments+at+0%25+%28renamed+and+update%29) | [donutleaks](https://ransomwatch.telemetry.ltd/#/profiles?id=donutleaks) |
-| 2024-07-20 | [`Queens County Public Administrator`](https://google.com/search?q=Queens+County+Public+Administrator) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
