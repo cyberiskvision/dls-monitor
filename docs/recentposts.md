@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-21 | [`Olympus Financial`](https://google.com/search?q=Olympus+Financial) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-08-20 | [`jpoint.in`](https://google.com/search?q=jpoint.in) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-08-20 | [`North Georgia Brick`](https://google.com/search?q=North+Georgia+Brick) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-08-20 | [`Akkanat Holding`](https://google.com/search?q=Akkanat+Holding) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-22 | [`MEMC`](https://google.com/search?q=MEMC) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-07-22 | [`SH Pension`](https://google.com/search?q=SH+Pension) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-07-22 | [`Guaranteed Supply Company`](https://google.com/search?q=Guaranteed+Supply+Company) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
-| 2024-07-22 | [`RiverSoft`](https://google.com/search?q=RiverSoft) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
