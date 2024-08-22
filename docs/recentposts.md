@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-22 | [`schoolrush.com`](https://google.com/search?q=schoolrush.com) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-08-22 | [`instadriver.co`](https://google.com/search?q=instadriver.co) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-08-22 | [`Kronick Moskovitz Tiedemann & Girard`](https://google.com/search?q=Kronick+Moskovitz+Tiedemann+%26+Girard) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-08-22 | [`level.game`](https://google.com/search?q=level.game) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-24 | [`Electroalfa`](https://google.com/search?q=Electroalfa) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-24 | [`CALDAN Conveyor`](https://google.com/search?q=CALDAN+Conveyor) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-24 | [`Jack "Designer" Sparrow.`](https://google.com/search?q=Jack+%22Designer%22+Sparrow.) | [donutleaks](https://ransomwatch.telemetry.ltd/#/profiles?id=donutleaks) |
-| 2024-07-24 | [`forestparkga.gov`](https://google.com/search?q=forestparkga.gov) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
