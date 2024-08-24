@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-24 | [`https://www.nwcsb.com`](https://google.com/search?q=https%3A%2F%2Fwww.nwcsb.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-08-24 | [`Studio Legale Associato Isolabella`](https://google.com/search?q=Studio+Legale+Associato+Isolabella) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-08-23 | [`terralogs.com.br`](https://google.com/search?q=terralogs.com.br) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-08-23 | [`idahopacific.com`](https://google.com/search?q=idahopacific.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-24 | [`Bunkhouse Group`](https://google.com/search?q=Bunkhouse+Group) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-07-24 | [`Playa Vista Job Opportunities and Business Services`](https://google.com/search?q=Playa+Vista+Job+Opportunities+and+Business+Services) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-07-24 | [`Accelon Technologies Private`](https://google.com/search?q=Accelon+Technologies+Private) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
-| 2024-07-24 | [`Betances Health Center`](https://google.com/search?q=Betances+Health+Center) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
