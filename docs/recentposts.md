@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-26 | [`NewsBank`](https://google.com/search?q=NewsBank) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-08-25 | [`onedayonly.co.za`](https://google.com/search?q=onedayonly.co.za) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-08-25 | [`Affordable Tools`](https://google.com/search?q=Affordable+Tools) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-08-25 | [`autonomous.ai`](https://google.com/search?q=autonomous.ai) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-25 | [`crimsonwinegroup.com`](https://google.com/search?q=crimsonwinegroup.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-07-25 | [`http://www.pojoaque.org`](https://google.com/search?q=http%3A%2F%2Fwww.pojoaque.org) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-07-25 | [`Kusum Group of Companies`](https://google.com/search?q=Kusum+Group+of+Companies) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
-| 2024-07-25 | [`TheLutheranFoundation`](https://google.com/search?q=TheLutheranFoundation) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
