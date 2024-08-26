@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-26 | [`Brookshire Dental - Hospitals &amp; Clinics`](https://google.com/search?q=Brookshire+Dental+-+Hospitals+%26amp%3B+Clinics) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-08-26 | [`https://www.widex.com`](https://google.com/search?q=https%3A%2F%2Fwww.widex.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-08-26 | [`[DISCLOSED] Lake Washington Institute of Technology`](https://google.com/search?q=%5BDISCLOSED%5D+Lake+Washington+Institute+of+Technology) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-08-26 | [`Blue Maven Group - Press Release`](https://google.com/search?q=Blue+Maven+Group+-+Press+Release) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-25 | [`The Law Office of Omar O. Vargas, P.C. Data Leak`](https://google.com/search?q=The+Law+Office+of+Omar+O.+Vargas%2C+P.C.+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-07-25 | [`SH Pension Data Leak`](https://google.com/search?q=SH+Pension+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-07-25 | [`Physical & Occupational Therapy Examiners ofTexas`](https://google.com/search?q=Physical+%26+Occupational+Therapy+Examiners+ofTexas) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-07-25 | [`EHS Partnerships`](https://google.com/search?q=EHS+Partnerships) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
