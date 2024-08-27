@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-27 | [`securityinstrument.com\$15.4M\USA\141GB\&lt;1% DISCLOSED`](https://google.com/search?q=securityinstrument.com%5C%2415.4M%5CUSA%5C141GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-08-26 | [`Precom`](https://google.com/search?q=Precom) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-08-26 | [`Microchip Technology`](https://google.com/search?q=Microchip+Technology) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-08-26 | [`Brookshire Dental - Hospitals &amp; Clinics`](https://google.com/search?q=Brookshire+Dental+-+Hospitals+%26amp%3B+Clinics) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-25 | [`Environmental Design International`](https://google.com/search?q=Environmental+Design+International) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-25 | [`Empereon Constar`](https://google.com/search?q=Empereon+Constar) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-07-25 | [`KMLG`](https://google.com/search?q=KMLG) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
-| 2024-07-25 | [`The Law Office of Omar O. Vargas, P.C. Data Leak`](https://google.com/search?q=The+Law+Office+of+Omar+O.+Vargas%2C+P.C.+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
