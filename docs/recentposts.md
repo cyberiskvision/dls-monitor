@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-28 | [`Network Communications Group`](https://google.com/search?q=Network+Communications+Group) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-08-28 | [`JM Thompson`](https://google.com/search?q=JM+Thompson) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-08-28 | [`Cherny, P.C.`](https://google.com/search?q=Cherny%2C+P.C.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-08-28 | [`Holden`](https://google.com/search?q=Holden) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-26 | [`Lago Group Spa`](https://google.com/search?q=Lago+Group+Spa) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-07-26 | [`Planet Group International`](https://google.com/search?q=Planet+Group+International) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
 | 2024-07-26 | [`LITEON`](https://google.com/search?q=LITEON) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
-| 2024-07-26 | [`STUDIO NOTARILE BUCCI – OLMI Data Leak`](https://google.com/search?q=STUDIO+NOTARILE+BUCCI+%E2%80%93+OLMI+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
