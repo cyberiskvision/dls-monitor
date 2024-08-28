@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-28 | [`M.Royo and KlockMetal`](https://google.com/search?q=M.Royo+and+KlockMetal) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-08-28 | [`Scott Pharma Solutions`](https://google.com/search?q=Scott+Pharma+Solutions) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-08-28 | [`comtruck.ca`](https://google.com/search?q=comtruck.ca) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-08-28 | [`Rinehart Butler Hodge Moss & Bryant`](https://google.com/search?q=Rinehart+Butler+Hodge+Moss+%26+Bryant) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-26 | [`Physical & Occupational Therapy Examiners of Texas`](https://google.com/search?q=Physical+%26+Occupational+Therapy+Examiners+of+Texas) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-26 | [`Williams Construction`](https://google.com/search?q=Williams+Construction) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-07-26 | [`Speed Advisory`](https://google.com/search?q=Speed+Advisory) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
-| 2024-07-25 | [`The Computer Merchant`](https://google.com/search?q=The+Computer+Merchant) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
