@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-28 | [`Cherny, P.C.`](https://google.com/search?q=Cherny%2C+P.C.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-08-28 | [`Holden`](https://google.com/search?q=Holden) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-08-28 | [`M.Royo and KlockMetal`](https://google.com/search?q=M.Royo+and+KlockMetal) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-08-28 | [`Scott Pharma Solutions`](https://google.com/search?q=Scott+Pharma+Solutions) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-26 | [`LITEON`](https://google.com/search?q=LITEON) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
 | 2024-07-26 | [`STUDIO NOTARILE BUCCI – OLMI Data Leak`](https://google.com/search?q=STUDIO+NOTARILE+BUCCI+%E2%80%93+OLMI+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-07-26 | [`Physical & Occupational Therapy Examiners of Texas`](https://google.com/search?q=Physical+%26+Occupational+Therapy+Examiners+of+Texas) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-07-26 | [`Williams Construction`](https://google.com/search?q=Williams+Construction) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
