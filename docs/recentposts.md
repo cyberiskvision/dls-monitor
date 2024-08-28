@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-28 | [`comtruck.ca`](https://google.com/search?q=comtruck.ca) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-08-28 | [`Rinehart Butler Hodge Moss & Bryant`](https://google.com/search?q=Rinehart+Butler+Hodge+Moss+%26+Bryant) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-08-27 | [`codacinc.org`](https://google.com/search?q=codacinc.org) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-08-27 | [`mykukun.com`](https://google.com/search?q=mykukun.com) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-26 | [`Speed Advisory`](https://google.com/search?q=Speed+Advisory) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-07-25 | [`The Computer Merchant`](https://google.com/search?q=The+Computer+Merchant) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-07-25 | [`OfficeOps`](https://google.com/search?q=OfficeOps) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-07-25 | [`Odyssey Fitness Center`](https://google.com/search?q=Odyssey+Fitness+Center) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
