@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-29 | [`tibaitservices.com\$124.3M\Mexico\29GB\100% DISCLOSED`](https://google.com/search?q=tibaitservices.com%5C%24124.3M%5CMexico%5C29GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-08-29 | [`mihlfeld.com\$88.2M\USA\316GB\100% DISCLOSED`](https://google.com/search?q=mihlfeld.com%5C%2488.2M%5CUSA%5C316GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-08-29 | [`https://malonetoyota.com`](https://google.com/search?q=https%3A%2F%2Fmalonetoyota.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-08-29 | [`medisetter.com`](https://google.com/search?q=medisetter.com) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-29 | [`Crownlea Group`](https://google.com/search?q=Crownlea+Group) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-29 | [`Priefert`](https://google.com/search?q=Priefert) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-29 | [`Al-Karam Textile Mills Pvt`](https://google.com/search?q=Al-Karam+Textile+Mills+Pvt) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
-| 2024-07-28 | [`Ascent Group`](https://google.com/search?q=Ascent+Group) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
