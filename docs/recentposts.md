@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-29 | [`agra-services.be`](https://google.com/search?q=agra-services.be) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-08-29 | [`tjs.com`](https://google.com/search?q=tjs.com) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-08-29 | [`Universal Pure`](https://google.com/search?q=Universal+Pure) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-08-29 | [`Software Engineering Associates`](https://google.com/search?q=Software+Engineering+Associates) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-28 | [`zoppo.com`](https://google.com/search?q=zoppo.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-07-27 | [`http://hanoverhill.com`](https://google.com/search?q=http%3A%2F%2Fhanoverhill.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-07-27 | [`New Jersey City University`](https://google.com/search?q=New+Jersey+City+University) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
-| 2024-07-27 | [`Computer Networking Solutions`](https://google.com/search?q=Computer+Networking+Solutions) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
