@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-30 | [`Cotala Cross-Media`](https://google.com/search?q=Cotala+Cross-Media) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-08-30 | [`Phyton Biotech`](https://google.com/search?q=Phyton+Biotech) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-08-30 | [`Burgess Kilpartik`](https://google.com/search?q=Burgess+Kilpartik) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-08-30 | [`Wayne Wright, LLP.`](https://google.com/search?q=Wayne+Wright%2C+LLP.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-31 | [`www.srmedicalcenter.org`](https://google.com/search?q=www.srmedicalcenter.org) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-07-31 | [`City of Columbus, Ohio`](https://google.com/search?q=City+of+Columbus%2C+Ohio) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-07-31 | [`Lake Washington Institute of Technology`](https://google.com/search?q=Lake+Washington+Institute+of+Technology) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
-| 2024-07-31 | [`stb.ro`](https://google.com/search?q=stb.ro) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
