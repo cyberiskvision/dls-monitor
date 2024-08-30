@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-30 | [`Phyton Biotech`](https://google.com/search?q=Phyton+Biotech) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-08-30 | [`Burgess Kilpartik`](https://google.com/search?q=Burgess+Kilpartik) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-08-30 | [`Wayne Wright, LLP.`](https://google.com/search?q=Wayne+Wright%2C+LLP.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-08-30 | [`ICWI`](https://google.com/search?q=ICWI) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-31 | [`City of Columbus, Ohio`](https://google.com/search?q=City+of+Columbus%2C+Ohio) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-07-31 | [`Lake Washington Institute of Technology`](https://google.com/search?q=Lake+Washington+Institute+of+Technology) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-07-31 | [`stb.ro`](https://google.com/search?q=stb.ro) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
-| 2024-07-31 | [`chubb-bulleid.co.uk\$14M\United Kingdom\362GB\&lt;1% DISCLOSED`](https://google.com/search?q=chubb-bulleid.co.uk%5C%2414M%5CUnited+Kingdom%5C362GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
