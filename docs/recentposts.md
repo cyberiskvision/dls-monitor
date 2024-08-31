@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-08-31 | [`Seng Tsoi Architect`](https://google.com/search?q=Seng+Tsoi+Architect) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-08-31 | [`Raeyco Lab Equipment Systems Management`](https://google.com/search?q=Raeyco+Lab+Equipment+Systems+Management) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-08-31 | [`Welding and Fabrication (humblemfg)`](https://google.com/search?q=Welding+and+Fabrication+%28humblemfg%29) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-08-31 | [`Mitsubishi Chemical Group`](https://google.com/search?q=Mitsubishi+Chemical+Group) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-07-31 | [`Durham Manufacturing`](https://google.com/search?q=Durham+Manufacturing) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-07-31 | [`https://www.webasto.com`](https://google.com/search?q=https%3A%2F%2Fwww.webasto.com) | [metaencryptor](https://ransomwatch.telemetry.ltd/#/profiles?id=metaencryptor) |
 | 2024-07-31 | [`Find Great People`](https://google.com/search?q=Find+Great+People) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-07-31 | [`BRASPRESS`](https://google.com/search?q=BRASPRESS) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
