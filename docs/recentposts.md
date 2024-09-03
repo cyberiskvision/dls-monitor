@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-03 | [`[DISCLOSED][TORRENT] Roberto Verino Difusion`](https://google.com/search?q=%5BDISCLOSED%5D%5BTORRENT%5D+Roberto+Verino+Difusion) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-09-03 | [`bluemaven.ca problems`](https://google.com/search?q=bluemaven.ca+problems) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-09-03 | [`Turman `](https://google.com/search?q=Turman+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-09-02 | [`Project Hospitality`](https://google.com/search?q=Project+Hospitality) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-03 | [`nursing.com`](https://google.com/search?q=nursing.com) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
 | 2024-08-03 | [`LRN`](https://google.com/search?q=LRN) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-08-03 | [`https://aikenhousing.org/`](https://google.com/search?q=https%3A%2F%2Faikenhousing.org%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2024-08-02 | [`Khandelwal Laboratories Pvt`](https://google.com/search?q=Khandelwal+Laboratories+Pvt) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
