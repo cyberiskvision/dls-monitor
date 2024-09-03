@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-03 | [`balboabayresort.com\$101M\USA\790GB\&lt;1% DISCLOSED`](https://google.com/search?q=balboabayresort.com%5C%24101M%5CUSA%5C790GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-09-03 | [`flodraulic.com\$58.4M\USA\32GB\&lt;1% DISCLOSED`](https://google.com/search?q=flodraulic.com%5C%2458.4M%5CUSA%5C32GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-09-03 | [`rangeramerican.com\$52.9M\USA\218GB\&lt;1% DISCLOSED`](https://google.com/search?q=rangeramerican.com%5C%2452.9M%5CUSA%5C218GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-09-03 | [`mcphillips.co.uk\$40.8M\United Kingdom\1.2TB\&lt;1% DISCLOSED`](https://google.com/search?q=mcphillips.co.uk%5C%2440.8M%5CUnited+Kingdom%5C1.2TB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-05 | [`exco-solutions.com\$76.4M\Germany\251GB\&lt;1% DISCLOSED`](https://google.com/search?q=exco-solutions.com%5C%2476.4M%5CGermany%5C251GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-08-05 | [`Maryville Academy`](https://google.com/search?q=Maryville+Academy) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-08-04 | [`Ma****ny`](https://google.com/search?q=Ma%2A%2A%2A%2Any) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
-| 2024-08-04 | [`notariusze.waw.pl`](https://google.com/search?q=notariusze.waw.pl) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
