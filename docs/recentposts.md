@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-04 | [`Sunrise Erectors`](https://google.com/search?q=Sunrise+Erectors) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-09-03 | [`simson-maxwell.com\$29.4M\Canada\357GB\&lt;1% DISCLOSED`](https://google.com/search?q=simson-maxwell.com%5C%2429.4M%5CCanada%5C357GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-09-03 | [`balboabayresort.com\$101M\USA\790GB\&lt;1% DISCLOSED`](https://google.com/search?q=balboabayresort.com%5C%24101M%5CUSA%5C790GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-09-03 | [`flodraulic.com\$58.4M\USA\32GB\&lt;1% DISCLOSED`](https://google.com/search?q=flodraulic.com%5C%2458.4M%5CUSA%5C32GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-06 | [`leonardssyrups.com\$22M\USA\575GB\100% DISCLOSED`](https://google.com/search?q=leonardssyrups.com%5C%2422M%5CUSA%5C575GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-08-05 | [`Speed Advisory Data Leak`](https://google.com/search?q=Speed+Advisory+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-08-05 | [`exco-solutions.com\$76.4M\Germany\251GB\&lt;1% DISCLOSED`](https://google.com/search?q=exco-solutions.com%5C%2476.4M%5CGermany%5C251GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2024-08-05 | [`Maryville Academy`](https://google.com/search?q=Maryville+Academy) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
