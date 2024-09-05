@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-05 | [`SWISS CZ`](https://google.com/search?q=SWISS+CZ) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-09-05 | [`Cellular Plus`](https://google.com/search?q=Cellular+Plus) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-09-05 | [`Arch Street Capital Advisors`](https://google.com/search?q=Arch+Street+Capital+Advisors) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-09-05 | [`Western Supplies, Inc`](https://google.com/search?q=Western+Supplies%2C+Inc) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-06 | [`True Blue Environmental`](https://google.com/search?q=True+Blue+Environmental) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-08-06 | [`KinetX`](https://google.com/search?q=KinetX) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-08-06 | [`Granit Design`](https://google.com/search?q=Granit+Design) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-08-06 | [`Alternate Energy`](https://google.com/search?q=Alternate+Energy) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
