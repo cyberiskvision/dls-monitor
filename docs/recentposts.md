@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-06 | [`riomarineinc.com\$56M\USA\490GB\&lt;1% DISCLOSED`](https://google.com/search?q=riomarineinc.com%5C%2456M%5CUSA%5C490GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-09-06 | [`champeau.com\$25.5M\Canada\130GB\&lt;1% DISCLOSED`](https://google.com/search?q=champeau.com%5C%2425.5M%5CCanada%5C130GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-09-06 | [`cda.be`](https://google.com/search?q=cda.be) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-09-05 | [`Custom Security Systems`](https://google.com/search?q=Custom+Security+Systems) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-08 | [`tibaitservices.com\$124.3M\Mexico\29GB\&lt;1% DISCLOSED`](https://google.com/search?q=tibaitservices.com%5C%24124.3M%5CMexico%5C29GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-08-08 | [`mihlfeld.com\$88.2M\USA\316GB\&lt;1% DISCLOSED`](https://google.com/search?q=mihlfeld.com%5C%2488.2M%5CUSA%5C316GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-08-08 | [`NIDEC CORPORATION`](https://google.com/search?q=NIDEC+CORPORATION) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
-| 2024-08-08 | [`Horizon View Medical Center`](https://google.com/search?q=Horizon+View+Medical+Center) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
