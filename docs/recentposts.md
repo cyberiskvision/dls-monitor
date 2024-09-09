@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-09 | [`schynsassurances.be`](https://google.com/search?q=schynsassurances.be) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-09-09 | [`Anniversary Holding`](https://google.com/search?q=Anniversary+Holding) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-09-09 | [`Battle Lumber Co.`](https://google.com/search?q=Battle+Lumber+Co.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-09-09 | [`Pennsylvania State Education Association`](https://google.com/search?q=Pennsylvania+State+Education+Association) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-11 | [`Hanon Systems`](https://google.com/search?q=Hanon+Systems) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-08-10 | [`Brontoo Technology Solutions`](https://google.com/search?q=Brontoo+Technology+Solutions) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
 | 2024-08-09 | [`Nilorngruppen AB`](https://google.com/search?q=Nilorngruppen+AB) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-08-09 | [`Credible Group`](https://google.com/search?q=Credible+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
