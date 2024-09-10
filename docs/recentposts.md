@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-10 | [`PIGGLY WIGGLY ALABAMA DISTRIBUTING`](https://google.com/search?q=PIGGLY+WIGGLY+ALABAMA+DISTRIBUTING) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-10 | [`Joe Swartz Electric`](https://google.com/search?q=Joe+Swartz+Electric) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-10 | [`Evans Distribution Systems`](https://google.com/search?q=Evans+Distribution+Systems) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-10 | [`Elgin Separation Solutions`](https://google.com/search?q=Elgin+Separation+Solutions) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-13 | [`The White Center Community Development Association`](https://google.com/search?q=The+White+Center+Community+Development+Association) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-08-13 | [`Southwest Family Medicine Associates`](https://google.com/search?q=Southwest+Family+Medicine+Associates) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-08-12 | [`NetOne`](https://google.com/search?q=NetOne) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-08-12 | [`[DISCLOSED] Ronglian Group [Source code of RONGLIAN GROUP company developments]`](https://google.com/search?q=%5BDISCLOSED%5D+Ronglian+Group+%5BSource+code+of+RONGLIAN+GROUP+company+developments%5D) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
