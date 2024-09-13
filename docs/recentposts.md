@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-13 | [`Associated Building Specialties`](https://google.com/search?q=Associated+Building+Specialties) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-09-13 | [`Arch-Con`](https://google.com/search?q=Arch-Con) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-09-12 | [`Kingsmill Resort`](https://google.com/search?q=Kingsmill+Resort) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-09-12 | [`ICBC (London)`](https://google.com/search?q=ICBC+%28London%29) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-14 | [`startaxi.com`](https://google.com/search?q=startaxi.com) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-08-14 | [`The Washington Times`](https://google.com/search?q=The+Washington+Times) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-08-14 | [`Boni`](https://google.com/search?q=Boni) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-08-14 | [`Drug Testing Service`](https://google.com/search?q=Drug+Testing+Service) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
