@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-13 | [`HB Construction`](https://google.com/search?q=HB+Construction) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-09-13 | [`Associated Building Specialties`](https://google.com/search?q=Associated+Building+Specialties) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-09-13 | [`Arch-Con`](https://google.com/search?q=Arch-Con) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-09-12 | [`Kingsmill Resort`](https://google.com/search?q=Kingsmill+Resort) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-15 | [`[DISCLOSED]Sibanye-Stillwater`](https://google.com/search?q=%5BDISCLOSED%5DSibanye-Stillwater) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-08-14 | [`startaxi.com`](https://google.com/search?q=startaxi.com) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-08-14 | [`The Washington Times`](https://google.com/search?q=The+Washington+Times) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
-| 2024-08-14 | [`Boni`](https://google.com/search?q=Boni) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
