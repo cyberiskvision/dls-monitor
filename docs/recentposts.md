@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-13 | [`Law Offices of Michael J Gurfinkel, Inc`](https://google.com/search?q=Law+Offices+of+Michael+J+Gurfinkel%2C+Inc) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-09-13 | [`Benson Kearley IFG - Insurance Brokers and Financial Advisors`](https://google.com/search?q=Benson+Kearley+IFG+-+Insurance+Brokers+and+Financial+Advisors) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-09-13 | [`www.mivideo.club`](https://google.com/search?q=www.mivideo.club) | [stormous](https://ransomwatch.telemetry.ltd/#/profiles?id=stormous) |
 | 2024-09-13 | [`VIcom Corporation`](https://google.com/search?q=VIcom+Corporation) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-15 | [`IEMSC.com`](https://google.com/search?q=IEMSC.com) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-08-15 | [`www.prinsotel.com`](https://google.com/search?q=www.prinsotel.com) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-08-15 | [`Patterson Health Center`](https://google.com/search?q=Patterson+Health+Center) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
-| 2024-08-15 | [`http://www.fdsrl.it`](https://google.com/search?q=http%3A%2F%2Fwww.fdsrl.it) | [ciphbit](https://ransomwatch.telemetry.ltd/#/profiles?id=ciphbit) |
