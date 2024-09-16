@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-16 | [`Baskervill`](https://google.com/search?q=Baskervill) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-16 | [`Multidata`](https://google.com/search?q=Multidata) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-16 | [`SuperCommerce.ai`](https://google.com/search?q=SuperCommerce.ai) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-09-16 | [`Port of Seattle`](https://google.com/search?q=Port+of+Seattle) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-19 | [`Jangho Group`](https://google.com/search?q=Jangho+Group) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-08-19 | [`Ferraro Group`](https://google.com/search?q=Ferraro+Group) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-08-18 | [`Mohawk Valley Cardiology PC`](https://google.com/search?q=Mohawk+Valley+Cardiology+PC) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
-| 2024-08-18 | [`PBC Companies`](https://google.com/search?q=PBC+Companies) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
