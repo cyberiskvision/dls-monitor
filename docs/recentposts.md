@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-16 | [`Northern Safety Co., Inc.`](https://google.com/search?q=Northern+Safety+Co.%2C+Inc.) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-09-16 | [`balboabayresort.com\$101M\USA\790GB\100% DISCLOSED`](https://google.com/search?q=balboabayresort.com%5C%24101M%5CUSA%5C790GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-09-15 | [`EAGLE School`](https://google.com/search?q=EAGLE+School) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-09-14 | [`Retemex`](https://google.com/search?q=Retemex) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-16 | [`Prefeitura do Jaboatão dos Guararapes`](https://google.com/search?q=Prefeitura+do+Jaboat%C3%A3o+dos+Guararapes) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-08-16 | [`on365.co.uk`](https://google.com/search?q=on365.co.uk) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-08-16 | [`promises2kids.org `](https://google.com/search?q=promises2kids.org+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
-| 2024-08-16 | [`Amco Metal Industrial Corporation `](https://google.com/search?q=Amco+Metal+Industrial+Corporation+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
