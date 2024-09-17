@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-17 | [`peerlessumbrella.com\$23.2M\USA\131GB\100% DISCLOSED`](https://google.com/search?q=peerlessumbrella.com%5C%2423.2M%5CUSA%5C131GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-09-17 | [`thomas-lloyd.com\$66.1M\USA\2.4TB\&lt;1% DISCLOSED`](https://google.com/search?q=thomas-lloyd.com%5C%2466.1M%5CUSA%5C2.4TB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-09-17 | [`Port of Seattle/Seattle-Tacoma International Airport (SEA)`](https://google.com/search?q=Port+of+Seattle%2FSeattle-Tacoma+International+Airport+%28SEA%29) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-09-17 | [`Rsp`](https://google.com/search?q=Rsp) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-21 | [`spvmhc.org`](https://google.com/search?q=spvmhc.org) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-08-21 | [`Olympus Financial`](https://google.com/search?q=Olympus+Financial) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-08-20 | [`jpoint.in`](https://google.com/search?q=jpoint.in) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
-| 2024-08-20 | [`North Georgia Brick`](https://google.com/search?q=North+Georgia+Brick) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
