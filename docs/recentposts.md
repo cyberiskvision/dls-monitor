@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-17 | [`Mitsubishi Chemical Group pt.2`](https://google.com/search?q=Mitsubishi+Chemical+Group+pt.2) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-09-16 | [`Hariri Pontarini Architects`](https://google.com/search?q=Hariri+Pontarini+Architects) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-16 | [`Baskervill`](https://google.com/search?q=Baskervill) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-16 | [`Multidata`](https://google.com/search?q=Multidata) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-19 | [`The Transit Authorit y of Northern Kentuc ky (TANK)`](https://google.com/search?q=The+Transit+Authorit+y+of+Northern+Kentuc+ky+%28TANK%29) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-08-19 | [`http://wearesbi.com`](https://google.com/search?q=http%3A%2F%2Fwearesbi.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-08-19 | [`Jangho Group`](https://google.com/search?q=Jangho+Group) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
-| 2024-08-19 | [`Ferraro Group`](https://google.com/search?q=Ferraro+Group) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
