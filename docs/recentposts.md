@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-17 | [`riomarineinc.com\$56M\USA\490GB\100% DISCLOSED`](https://google.com/search?q=riomarineinc.com%5C%2456M%5CUSA%5C490GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-09-17 | [`champeau.com\$25.5M\Canada\130GB\100% DISCLOSED`](https://google.com/search?q=champeau.com%5C%2425.5M%5CCanada%5C130GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-09-17 | [`Sherr Puttmann Akins Lamb PC`](https://google.com/search?q=Sherr+Puttmann+Akins+Lamb+PC) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-09-17 | [`natcoglobal.com\$38.5M\USA\111GB\100% DISCLOSED`](https://google.com/search?q=natcoglobal.com%5C%2438.5M%5CUSA%5C111GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-21 | [`Jinny Corporation`](https://google.com/search?q=Jinny+Corporation) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-08-21 | [`HOERBIGER Holding`](https://google.com/search?q=HOERBIGER+Holding) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-08-21 | [`Co`](https://google.com/search?q=Co) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
-| 2024-08-21 | [`http://www.luigiconvertini.it`](https://google.com/search?q=http%3A%2F%2Fwww.luigiconvertini.it) | [ciphbit](https://ransomwatch.telemetry.ltd/#/profiles?id=ciphbit) |
