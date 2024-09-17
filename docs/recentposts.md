@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-17 | [`Port of Seattle/Seattle-Tacoma International Airport (SEA)`](https://google.com/search?q=Port+of+Seattle%2FSeattle-Tacoma+International+Airport+%28SEA%29) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-09-17 | [`Rsp`](https://google.com/search?q=Rsp) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-17 | [`Protective Industrial Products`](https://google.com/search?q=Protective+Industrial+Products) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-17 | [`Inktel`](https://google.com/search?q=Inktel) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-20 | [`jpoint.in`](https://google.com/search?q=jpoint.in) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-08-20 | [`North Georgia Brick`](https://google.com/search?q=North+Georgia+Brick) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-08-20 | [`Akkanat Holding`](https://google.com/search?q=Akkanat+Holding) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-08-19 | [`Waynesboro Nurseries`](https://google.com/search?q=Waynesboro+Nurseries) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
