@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-18 | [`DJH Jugendherberge`](https://google.com/search?q=DJH+Jugendherberge) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-09-18 | [`agricola`](https://google.com/search?q=agricola) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-09-17 | [`miit.gov.cn`](https://google.com/search?q=miit.gov.cn) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-09-17 | [`New Electric`](https://google.com/search?q=New+Electric) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-21 | [`RCG`](https://google.com/search?q=RCG) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-08-21 | [`Quilvest Capital Partners`](https://google.com/search?q=Quilvest+Capital+Partners) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-08-21 | [`Policy Administration Solutions`](https://google.com/search?q=Policy+Administration+Solutions) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-08-21 | [`Grid Subject Matter Experts`](https://google.com/search?q=Grid+Subject+Matter+Experts) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
