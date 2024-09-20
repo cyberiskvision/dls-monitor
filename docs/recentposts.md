@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-20 | [`Mason City Recycling Center`](https://google.com/search?q=Mason+City+Recycling+Center) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-09-20 | [`KW Realty Group`](https://google.com/search?q=KW+Realty+Group) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-09-20 | [`River Region Cardiology Associates`](https://google.com/search?q=River+Region+Cardiology+Associates) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-09-20 | [`Greene Acres Nursing Home`](https://google.com/search?q=Greene+Acres+Nursing+Home) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-23 | [`Crimson Interactive`](https://google.com/search?q=Crimson+Interactive) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-08-22 | [`https://saeilo.com`](https://google.com/search?q=https%3A%2F%2Fsaeilo.com) | [metaencryptor](https://ransomwatch.telemetry.ltd/#/profiles?id=metaencryptor) |
 | 2024-08-22 | [`schoolrush.com`](https://google.com/search?q=schoolrush.com) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
-| 2024-08-22 | [`instadriver.co`](https://google.com/search?q=instadriver.co) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
