@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-21 | [`Omega Industries`](https://google.com/search?q=Omega+Industries) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-21 | [`Noble Environmental`](https://google.com/search?q=Noble+Environmental) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-20 | [`Messe C`](https://google.com/search?q=Messe+C) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-20 | [`Jackson Paper Manufacturing`](https://google.com/search?q=Jackson+Paper+Manufacturing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-24 | [`https://www.nwcsb.com`](https://google.com/search?q=https%3A%2F%2Fwww.nwcsb.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-08-24 | [`Studio Legale Associato Isolabella`](https://google.com/search?q=Studio+Legale+Associato+Isolabella) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-08-23 | [`terralogs.com.br`](https://google.com/search?q=terralogs.com.br) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
-| 2024-08-23 | [`idahopacific.com`](https://google.com/search?q=idahopacific.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
