@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-23 | [`Eurobulk`](https://google.com/search?q=Eurobulk) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-23 | [`BroadGrain Commodities`](https://google.com/search?q=BroadGrain+Commodities) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-23 | [`Kravit, Hovel &amp; Krawczyk  SC`](https://google.com/search?q=Kravit%2C+Hovel+%26amp%3B+Krawczyk++SC) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-09-23 | [`f-t.com`](https://google.com/search?q=f-t.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-27 | [`Crowe`](https://google.com/search?q=Crowe) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-08-27 | [`securityinstrument.com\$15.4M\USA\141GB\&lt;1% DISCLOSED`](https://google.com/search?q=securityinstrument.com%5C%2415.4M%5CUSA%5C141GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-08-26 | [`Precom`](https://google.com/search?q=Precom) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-08-26 | [`Microchip Technology`](https://google.com/search?q=Microchip+Technology) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
