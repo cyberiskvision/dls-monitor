@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-23 | [`Meli (BCYF &amp; Bethany)`](https://google.com/search?q=Meli+%28BCYF+%26amp%3B+Bethany%29) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-09-23 | [`Canstar Restorations`](https://google.com/search?q=Canstar+Restorations) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-09-22 | [`Daughterly Care`](https://google.com/search?q=Daughterly+Care) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-09-22 | [`Woodard , Hernandez , Roth &amp; Day`](https://google.com/search?q=Woodard+%2C+Hernandez+%2C+Roth+%26amp%3B+Day) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-25 | [`Affordable Tools`](https://google.com/search?q=Affordable+Tools) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-08-25 | [`autonomous.ai`](https://google.com/search?q=autonomous.ai) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-08-25 | [`Penn Veterinary Supply INC`](https://google.com/search?q=Penn+Veterinary+Supply+INC) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
-| 2024-08-25 | [`Meli (BCYF &amp; Bethany) `](https://google.com/search?q=Meli+%28BCYF+%26amp%3B+Bethany%29+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
