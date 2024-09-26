@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-26 | [`Schäfer, dein Bäcker GmbH & Co. KG`](https://google.com/search?q=Sch%C3%A4fer%2C+dein+B%C3%A4cker+GmbH+%26+Co.+KG) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-09-26 | [`tolsa.com`](https://google.com/search?q=tolsa.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-09-26 | [`DETROIT PBS ( PUBLIC TV )`](https://google.com/search?q=DETROIT+PBS+%28+PUBLIC+TV+%29) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-09-25 | [`Concord Management S ervices`](https://google.com/search?q=Concord+Management+S+ervices) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-28 | [`Clabots`](https://google.com/search?q=Clabots) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-08-28 | [`ABC Parts International`](https://google.com/search?q=ABC+Parts+International) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-08-28 | [`Network Communications Group`](https://google.com/search?q=Network+Communications+Group) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
-| 2024-08-28 | [`JM Thompson`](https://google.com/search?q=JM+Thompson) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
