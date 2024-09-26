@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-26 | [`DETROIT PBS ( PUBLIC TV )`](https://google.com/search?q=DETROIT+PBS+%28+PUBLIC+TV+%29) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-09-25 | [`Concord Management S ervices`](https://google.com/search?q=Concord+Management+S+ervices) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-09-25 | [`Lawrie Insurance Gro up`](https://google.com/search?q=Lawrie+Insurance+Gro+up) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-09-25 | [`ATG Communications G roup`](https://google.com/search?q=ATG+Communications+G+roup) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-28 | [`Network Communications Group`](https://google.com/search?q=Network+Communications+Group) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-08-28 | [`JM Thompson`](https://google.com/search?q=JM+Thompson) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-08-28 | [`Cherny, P.C.`](https://google.com/search?q=Cherny%2C+P.C.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
-| 2024-08-28 | [`Holden`](https://google.com/search?q=Holden) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
