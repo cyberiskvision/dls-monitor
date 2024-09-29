@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-09-29 | [`Affirm Agency`](https://google.com/search?q=Affirm+Agency) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-29 | [`4B Components`](https://google.com/search?q=4B+Components) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-29 | [`cdc-biodiversite.fr`](https://google.com/search?q=cdc-biodiversite.fr) | [blackout](https://ransomwatch.telemetry.ltd/#/profiles?id=blackout) |
 | 2024-09-28 | [`nfe.fazenda.gov.br `](https://google.com/search?q=nfe.fazenda.gov.br+) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-29 | [`mihlfeld.com\$88.2M\USA\316GB\100% DISCLOSED`](https://google.com/search?q=mihlfeld.com%5C%2488.2M%5CUSA%5C316GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-08-29 | [`https://malonetoyota.com`](https://google.com/search?q=https%3A%2F%2Fmalonetoyota.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-08-29 | [`medisetter.com`](https://google.com/search?q=medisetter.com) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
-| 2024-08-29 | [`agra-services.be`](https://google.com/search?q=agra-services.be) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
