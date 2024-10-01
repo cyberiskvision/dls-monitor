@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-01 | [`www.asobostudio.com`](https://google.com/search?q=www.asobostudio.com) | [stormous](https://ransomwatch.telemetry.ltd/#/profiles?id=stormous) |
 | 2024-10-01 | [`Turman`](https://google.com/search?q=Turman) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-10-01 | [`performance-therapies`](https://google.com/search?q=performance-therapies) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-10-01 | [`www.galab.com\$7.9M\Germany\120GB\&lt;1% DISCLOSED`](https://google.com/search?q=www.galab.com%5C%247.9M%5CGermany%5C120GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-08-31 | [`pfsbrands.com`](https://google.com/search?q=pfsbrands.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-08-31 | [`Richmond Auto Mall`](https://google.com/search?q=Richmond+Auto+Mall) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-08-31 | [`Seng Tsoi Architect`](https://google.com/search?q=Seng+Tsoi+Architect) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
-| 2024-08-31 | [`Raeyco Lab Equipment Systems Management`](https://google.com/search?q=Raeyco+Lab+Equipment+Systems+Management) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
