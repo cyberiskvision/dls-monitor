@@ -370,7 +370,7 @@
 								<td>30/09/2024</td>
 								<td>
 									<div class="table-actions">
-										<div id="timer49" style="color: rgb(224, 2, 2); font-size: small;"></div>
+										<div id="timer51" style="color: rgb(224, 2, 2); font-size: small;"></div>
 									</div>
 								</td>
 								<td>
@@ -382,26 +382,27 @@
 								</td>
 							</tr>
 							<script> 
-								var targetDate49 = new Date('Octobre 12, 2024').getTime(); 
-								var timerDisplay49 = document.getElementById('timer49'); 
-								var timerInterval49 = setInterval(function() { 
-									var now49 = new Date().getTime(); 
-									var distance49 = targetDate49 - now49; 
+								var targetDate51 = new Date('October 6, 2024').getTime(); 
+								var timerDisplay51 = document.getElementById('timer51'); 
+								var timerInterval51 = setInterval(function() { 
+									var now51 = new Date().getTime(); 
+									var distance51 = targetDate51 - now51; 
 									 
-									var days49 = Math.floor(distance49 / (1000 * 60 * 60 * 24)); 
-									var hours49 = Math.floor((distance49 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)); 
-									var minutes49 = Math.floor((distance49 % (1000 * 60 * 60)) / (1000 * 60)); 
-									var seconds49 = Math.floor((distance49 % (1000 * 60)) / 1000); 
+									var days51 = Math.floor(distance51 / (1000 * 60 * 60 * 24)); 
+									var hours51 = Math.floor((distance51 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)); 
+									var minutes51 = Math.floor((distance51 % (1000 * 60 * 60)) / (1000 * 60)); 
+									var seconds51 = Math.floor((distance51 % (1000 * 60)) / 1000); 
 									 
-									timerDisplay49.innerHTML = days49 + "d " + hours49 + "h " + minutes49 + "m " + seconds49 + "s "; 
+									timerDisplay51.innerHTML = days51 + "d " + hours51 + "h " + minutes51 + "m " + seconds51 + "s "; 
 									 
-									if (distance49 < 0) { 
-										clearInterval(timerInterval49); 
-										timerDisplay49.innerHTML = "FINISHED"; 
+									if (distance51 < 0) { 
+										clearInterval(timerInterval51); 
+										timerDisplay51.innerHTML = "FINISHED"; 
 									} 
 								}, 1000); 
 							</script>
-
+						
+						
 						<tbody>						
 							<tr style="background-color: rgb(151, 247, 175);">
 						
