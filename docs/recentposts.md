@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-02 | [`ten8fire.com\$149M\USA\240GB\100% DISCLOSED`](https://google.com/search?q=ten8fire.com%5C%24149M%5CUSA%5C240GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-10-02 | [`http://branhaven.com`](https://google.com/search?q=http%3A%2F%2Fbranhaven.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-10-02 | [`hindlegroup.com\$30.6M\United Kingdom\380GB\100% DISCLOSED`](https://google.com/search?q=hindlegroup.com%5C%2430.6M%5CUnited+Kingdom%5C380GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-10-02 | [`www.amchar.com\$28.7M\USA\605GB\100% DISCLOSED`](https://google.com/search?q=www.amchar.com%5C%2428.7M%5CUSA%5C605GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-03 | [`mcphillips.co.uk\$40.8M\United Kingdom\1.2TB\&lt;1% DISCLOSED`](https://google.com/search?q=mcphillips.co.uk%5C%2440.8M%5CUnited+Kingdom%5C1.2TB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-09-03 | [`VOP CZ`](https://google.com/search?q=VOP+CZ) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-09-03 | [`[DISCLOSED][TORRENT] Roberto Verino Difusion`](https://google.com/search?q=%5BDISCLOSED%5D%5BTORRENT%5D+Roberto+Verino+Difusion) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
-| 2024-09-03 | [`bluemaven.ca problems`](https://google.com/search?q=bluemaven.ca+problems) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
