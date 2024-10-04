@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-04 | [`DPC DATA `](https://google.com/search?q=DPC+DATA+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-10-04 | [`bbgc.gov.bd`](https://google.com/search?q=bbgc.gov.bd) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-10-03 | [`CobelPlast`](https://google.com/search?q=CobelPlast) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-10-03 | [`TRC Worldwide Engine ering (Trcww)`](https://google.com/search?q=TRC+Worldwide+Engine+ering+%28Trcww%29) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-04 | [`Bakersfield`](https://google.com/search?q=Bakersfield) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-04 | [`http://www.osda.com`](https://google.com/search?q=http%3A%2F%2Fwww.osda.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-09-04 | [`Sunrise Erectors`](https://google.com/search?q=Sunrise+Erectors) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-09-03 | [`simson-maxwell.com\$29.4M\Canada\357GB\&lt;1% DISCLOSED`](https://google.com/search?q=simson-maxwell.com%5C%2429.4M%5CCanada%5C357GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
