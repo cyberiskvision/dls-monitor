@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-04 | [`Dreyfuss + Blackford Architecture`](https://google.com/search?q=Dreyfuss+%2B+Blackford+Architecture) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-10-04 | [`North American Break er`](https://google.com/search?q=North+American+Break+er) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-10-04 | [`http://www.copysmart.us`](https://google.com/search?q=http%3A%2F%2Fwww.copysmart.us) | [ciphbit](https://ransomwatch.telemetry.ltd/#/profiles?id=ciphbit) |
 | 2024-10-04 | [`Amplitude Laser`](https://google.com/search?q=Amplitude+Laser) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-05 | [`Arch Street Capital Advisors`](https://google.com/search?q=Arch+Street+Capital+Advisors) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-09-05 | [`Western Supplies, Inc`](https://google.com/search?q=Western+Supplies%2C+Inc) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-09-04 | [`http://parrishandcompany.com`](https://google.com/search?q=http%3A%2F%2Fparrishandcompany.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2024-09-04 | [`Seirus Innovation`](https://google.com/search?q=Seirus+Innovation) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
