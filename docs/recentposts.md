@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-04 | [`GW Mechanical`](https://google.com/search?q=GW+Mechanical) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-10-04 | [`https://genproinc.com/`](https://google.com/search?q=https%3A%2F%2Fgenproinc.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-10-04 | [`Riley Gear Corporati on`](https://google.com/search?q=Riley+Gear+Corporati+on) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-10-04 | [`City Of Forest Park - Full Leak`](https://google.com/search?q=City+Of+Forest+Park+-+Full+Leak) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-05 | [`dvv.be`](https://google.com/search?q=dvv.be) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-09-05 | [`Baird Mandalas Brock stedt LLC`](https://google.com/search?q=Baird+Mandalas+Brock+stedt+LLC) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-09-05 | [`Imetame`](https://google.com/search?q=Imetame) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-09-05 | [`SWISS CZ`](https://google.com/search?q=SWISS+CZ) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
