@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-04 | [`Guerriere & Halnon`](https://google.com/search?q=Guerriere+%26+Halnon) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-04 | [`C&L Ward`](https://google.com/search?q=C%26L+Ward) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-04 | [`GW Mechanical`](https://google.com/search?q=GW+Mechanical) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-10-04 | [`https://genproinc.com/`](https://google.com/search?q=https%3A%2F%2Fgenproinc.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-05 | [`Custom Security Systems`](https://google.com/search?q=Custom+Security+Systems) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-09-05 | [`belfius.be`](https://google.com/search?q=belfius.be) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-09-05 | [`dvv.be`](https://google.com/search?q=dvv.be) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
-| 2024-09-05 | [`Baird Mandalas Brock stedt LLC`](https://google.com/search?q=Baird+Mandalas+Brock+stedt+LLC) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
