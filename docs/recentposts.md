@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-05 | [`Power Torque Services`](https://google.com/search?q=Power+Torque+Services) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-05 | [`Creative Consumer Concepts`](https://google.com/search?q=Creative+Consumer+Concepts) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-05 | [`www.aosense.com`](https://google.com/search?q=www.aosense.com) | [stormous](https://ransomwatch.telemetry.ltd/#/profiles?id=stormous) |
 | 2024-10-05 | [`www.nasa.gov`](https://google.com/search?q=www.nasa.gov) | [stormous](https://ransomwatch.telemetry.ltd/#/profiles?id=stormous) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-09 | [`Exitz Technologies`](https://google.com/search?q=Exitz+Technologies) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-09-08 | [`Stratford School Academy`](https://google.com/search?q=Stratford+School+Academy) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-09-07 | [`Millsboro Animal Hospital`](https://google.com/search?q=Millsboro+Animal+Hospital) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
-| 2024-09-07 | [`NIDEC CORPORATION Data Leak`](https://google.com/search?q=NIDEC+CORPORATION+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
