@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-06 | [`akanea.com`](https://google.com/search?q=akanea.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-06 | [`agapefrance.org`](https://google.com/search?q=agapefrance.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-06 | [`acdcexpress.com`](https://google.com/search?q=acdcexpress.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-06 | [`seoulpi.io`](https://google.com/search?q=seoulpi.io) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-09 | [`Smart Source, Inc.`](https://google.com/search?q=Smart+Source%2C+Inc.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-09-09 | [`atlanticice.com`](https://google.com/search?q=atlanticice.com) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-09-09 | [`CAM - Tyre Trade Systems &amp; Solutions`](https://google.com/search?q=CAM+-+Tyre+Trade+Systems+%26amp%3B+Solutions) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
-| 2024-09-09 | [`Phoenix Air Conditioning &amp; Heating`](https://google.com/search?q=Phoenix+Air+Conditioning+%26amp%3B+Heating) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
