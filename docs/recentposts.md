@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-07 | [`concorddirect.com`](https://google.com/search?q=concorddirect.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-07 | [`clinicatezza.com.pe`](https://google.com/search?q=clinicatezza.com.pe) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-07 | [`claycountyin.gov`](https://google.com/search?q=claycountyin.gov) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-07 | [`ciberviaxesespecial.net`](https://google.com/search?q=ciberviaxesespecial.net) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-11 | [`Southeast Cooler`](https://google.com/search?q=Southeast+Cooler) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-10 | [`PIGGLY WIGGLY ALABAMA DISTRIBUTING`](https://google.com/search?q=PIGGLY+WIGGLY+ALABAMA+DISTRIBUTING) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-10 | [`Joe Swartz Electric`](https://google.com/search?q=Joe+Swartz+Electric) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-09-10 | [`Evans Distribution Systems`](https://google.com/search?q=Evans+Distribution+Systems) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
