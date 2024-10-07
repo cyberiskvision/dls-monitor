@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-07 | [`ciberviaxesespecial.net`](https://google.com/search?q=ciberviaxesespecial.net) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-07 | [`chcm.us`](https://google.com/search?q=chcm.us) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-07 | [`bspcr.com`](https://google.com/search?q=bspcr.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-07 | [`brockington.leisc.sch.uk`](https://google.com/search?q=brockington.leisc.sch.uk) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-10 | [`Evans Distribution Systems`](https://google.com/search?q=Evans+Distribution+Systems) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-10 | [`Elgin Separation Solutions`](https://google.com/search?q=Elgin+Separation+Solutions) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-10 | [`Bel-Air Bay Club`](https://google.com/search?q=Bel-Air+Bay+Club) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-09-10 | [`Vickers Engineering`](https://google.com/search?q=Vickers+Engineering) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
