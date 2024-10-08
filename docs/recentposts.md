@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-08 | [`fanningfanning.com`](https://google.com/search?q=fanningfanning.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-08 | [`fairfieldmemorial.org`](https://google.com/search?q=fairfieldmemorial.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-08 | [`exol-lubricants.com`](https://google.com/search?q=exol-lubricants.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-08 | [`energateinc.com`](https://google.com/search?q=energateinc.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-13 | [`Associated Building Specialties`](https://google.com/search?q=Associated+Building+Specialties) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-09-13 | [`Arch-Con`](https://google.com/search?q=Arch-Con) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-09-12 | [`Kingsmill Resort`](https://google.com/search?q=Kingsmill+Resort) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
-| 2024-09-12 | [`ICBC (London)`](https://google.com/search?q=ICBC+%28London%29) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
