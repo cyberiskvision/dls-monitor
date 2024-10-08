@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-08 | [`gptchb.org`](https://google.com/search?q=gptchb.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-08 | [`goldstarmetal.com`](https://google.com/search?q=goldstarmetal.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-08 | [`glsco.com`](https://google.com/search?q=glsco.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-08 | [`glnf.fr`](https://google.com/search?q=glnf.fr) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-13 | [`Dimensional Merchandising`](https://google.com/search?q=Dimensional+Merchandising) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-13 | [`Creative Playthings`](https://google.com/search?q=Creative+Playthings) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-13 | [`KlockMetal`](https://google.com/search?q=KlockMetal) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
-| 2024-09-13 | [`Law Offices of Michael J Gurfinkel, Inc`](https://google.com/search?q=Law+Offices+of+Michael+J+Gurfinkel%2C+Inc) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
