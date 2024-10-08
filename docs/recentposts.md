@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-08 | [`johnllowery.com`](https://google.com/search?q=johnllowery.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-08 | [`iteam.gr`](https://google.com/search?q=iteam.gr) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-08 | [`inces.com`](https://google.com/search?q=inces.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-08 | [`ignitarium.com`](https://google.com/search?q=ignitarium.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-16 | [`Northern Safety Co., Inc.`](https://google.com/search?q=Northern+Safety+Co.%2C+Inc.) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-09-16 | [`balboabayresort.com\$101M\USA\790GB\100% DISCLOSED`](https://google.com/search?q=balboabayresort.com%5C%24101M%5CUSA%5C790GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-09-15 | [`EAGLE School`](https://google.com/search?q=EAGLE+School) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
-| 2024-09-14 | [`Retemex`](https://google.com/search?q=Retemex) | [ransomexx](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomexx) |
