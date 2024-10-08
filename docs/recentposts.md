@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-08 | [`huntongroup.com`](https://google.com/search?q=huntongroup.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-08 | [`hphood.com`](https://google.com/search?q=hphood.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-08 | [`homelandvinyl.com`](https://google.com/search?q=homelandvinyl.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-08 | [`gptchb.org`](https://google.com/search?q=gptchb.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-14 | [`ecbawm.com`](https://google.com/search?q=ecbawm.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-09-14 | [`http://www.fdlawrence.com`](https://google.com/search?q=http%3A%2F%2Fwww.fdlawrence.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-09-14 | [`True Family Enterprises`](https://google.com/search?q=True+Family+Enterprises) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-09-13 | [`Dimensional Merchandising`](https://google.com/search?q=Dimensional+Merchandising) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
