@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-09 | [`kumhotire.com`](https://google.com/search?q=kumhotire.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-09 | [`kronospublic.com`](https://google.com/search?q=kronospublic.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-09 | [`kierlcpa.com`](https://google.com/search?q=kierlcpa.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-09 | [`kbc-zagreb.hr`](https://google.com/search?q=kbc-zagreb.hr) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-16 | [`Multidata`](https://google.com/search?q=Multidata) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-16 | [`SuperCommerce.ai`](https://google.com/search?q=SuperCommerce.ai) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-09-16 | [`Port of Seattle`](https://google.com/search?q=Port+of+Seattle) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
-| 2024-09-16 | [`flodraulic.com\$58.4M\USA\32GB\100% DISCLOSED`](https://google.com/search?q=flodraulic.com%5C%2458.4M%5CUSA%5C32GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
