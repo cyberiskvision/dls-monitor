@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-09 | [`nicholsfleet.com`](https://google.com/search?q=nicholsfleet.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-09 | [`nhbg.com.co`](https://google.com/search?q=nhbg.com.co) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-09 | [`nfcaa.org`](https://google.com/search?q=nfcaa.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-09 | [`merrymanhouse.org`](https://google.com/search?q=merrymanhouse.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-17 | [`Sherr Puttmann Akins Lamb PC`](https://google.com/search?q=Sherr+Puttmann+Akins+Lamb+PC) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-09-17 | [`natcoglobal.com\$38.5M\USA\111GB\100% DISCLOSED`](https://google.com/search?q=natcoglobal.com%5C%2438.5M%5CUSA%5C111GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-09-17 | [`peerlessumbrella.com\$23.2M\USA\131GB\100% DISCLOSED`](https://google.com/search?q=peerlessumbrella.com%5C%2423.2M%5CUSA%5C131GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2024-09-17 | [`thomas-lloyd.com\$66.1M\USA\2.4TB\&lt;1% DISCLOSED`](https://google.com/search?q=thomas-lloyd.com%5C%2466.1M%5CUSA%5C2.4TB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
