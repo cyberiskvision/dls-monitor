@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-09 | [`kierlcpa.com`](https://google.com/search?q=kierlcpa.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-09 | [`kbc-zagreb.hr`](https://google.com/search?q=kbc-zagreb.hr) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-09 | [`jutebag.co.uk`](https://google.com/search?q=jutebag.co.uk) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-09 | [`joliet86.org`](https://google.com/search?q=joliet86.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-16 | [`Port of Seattle`](https://google.com/search?q=Port+of+Seattle) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-09-16 | [`flodraulic.com\$58.4M\USA\32GB\100% DISCLOSED`](https://google.com/search?q=flodraulic.com%5C%2458.4M%5CUSA%5C32GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-09-16 | [`MCNA Dental 1 million patients records`](https://google.com/search?q=MCNA+Dental+1+million+patients+records) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
-| 2024-09-16 | [`U.S. Dermatology Partners`](https://google.com/search?q=U.S.+Dermatology+Partners) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
