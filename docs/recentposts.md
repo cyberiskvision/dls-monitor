@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-09 | [`merrymanhouse.org`](https://google.com/search?q=merrymanhouse.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-09 | [`luisoliveras.com`](https://google.com/search?q=luisoliveras.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-09 | [`lothar-rapp.de`](https://google.com/search?q=lothar-rapp.de) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-09 | [`lockbit.newcontacts`](https://google.com/search?q=lockbit.newcontacts) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-17 | [`thomas-lloyd.com\$66.1M\USA\2.4TB\&lt;1% DISCLOSED`](https://google.com/search?q=thomas-lloyd.com%5C%2466.1M%5CUSA%5C2.4TB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-09-17 | [`Port of Seattle/Seattle-Tacoma International Airport (SEA)`](https://google.com/search?q=Port+of+Seattle%2FSeattle-Tacoma+International+Airport+%28SEA%29) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-09-17 | [`Rsp`](https://google.com/search?q=Rsp) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-09-17 | [`Protective Industrial Products`](https://google.com/search?q=Protective+Industrial+Products) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
