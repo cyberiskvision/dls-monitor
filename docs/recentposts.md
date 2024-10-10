@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-10 | [`policiaauxiliarcusaem.com.mx`](https://google.com/search?q=policiaauxiliarcusaem.com.mx) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-10 | [`plantmachineworks.com`](https://google.com/search?q=plantmachineworks.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-10 | [`pkf.com.au`](https://google.com/search?q=pkf.com.au) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-10 | [`piedmonthoist.com`](https://google.com/search?q=piedmonthoist.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-19 | [`tims.com`](https://google.com/search?q=tims.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-09-18 | [`Plaisted Companies`](https://google.com/search?q=Plaisted+Companies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-18 | [`Bertelkamp Automation `](https://google.com/search?q=Bertelkamp+Automation+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
-| 2024-09-18 | [`DJH Jugendherberge`](https://google.com/search?q=DJH+Jugendherberge) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
