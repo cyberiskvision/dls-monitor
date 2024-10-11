@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-11 | [`AnVa Industries`](https://google.com/search?q=AnVa+Industries) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-11 | [`Accounting Resource Group`](https://google.com/search?q=Accounting+Resource+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-10 | [`Aaren Scientific`](https://google.com/search?q=Aaren+Scientific) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-10 | [`Richmond Auto Mall - Full Leak`](https://google.com/search?q=Richmond+Auto+Mall+-+Full+Leak) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-23 | [`DIamond Contracting, LLC`](https://google.com/search?q=DIamond+Contracting%2C+LLC) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-09-23 | [`Idre Fjäll`](https://google.com/search?q=Idre+Fj%C3%A4ll) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-09-23 | [`Pureform Radiology Center`](https://google.com/search?q=Pureform+Radiology+Center) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
-| 2024-09-23 | [`Detroit Public TV`](https://google.com/search?q=Detroit+Public+TV) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
