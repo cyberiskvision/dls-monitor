@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-11 | [`Smoker's Choice`](https://google.com/search?q=Smoker%27s+Choice) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-11 | [`Saratoga Liquor`](https://google.com/search?q=Saratoga+Liquor) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-11 | [`RobbJack & Crystallume`](https://google.com/search?q=RobbJack+%26+Crystallume) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-11 | [`FortyEighty Architecture`](https://google.com/search?q=FortyEighty+Architecture) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-23 | [`BroadGrain Commodities`](https://google.com/search?q=BroadGrain+Commodities) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-23 | [`Kravit, Hovel &amp; Krawczyk  SC`](https://google.com/search?q=Kravit%2C+Hovel+%26amp%3B+Krawczyk++SC) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-09-23 | [`f-t.com`](https://google.com/search?q=f-t.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
-| 2024-09-23 | [`Avi Resort & Casino`](https://google.com/search?q=Avi+Resort+%26+Casino) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
