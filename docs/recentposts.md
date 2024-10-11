@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-11 | [`corporatejobbank.com\$22.8M\USA\65GB\&lt;1% DISCLOSED`](https://google.com/search?q=corporatejobbank.com%5C%2422.8M%5CUSA%5C65GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-10-11 | [`Axis Health System`](https://google.com/search?q=Axis+Health+System) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-10-11 | [`victrongroup.com`](https://google.com/search?q=victrongroup.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-10-11 | [`Universal Companies`](https://google.com/search?q=Universal+Companies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-24 | [`http://menningerclinic.org`](https://google.com/search?q=http%3A%2F%2Fmenningerclinic.org) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-09-23 | [`medicheck.io`](https://google.com/search?q=medicheck.io) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-09-23 | [`https://cottlesinc.com`](https://google.com/search?q=https%3A%2F%2Fcottlesinc.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2024-09-23 | [`Eurobulk`](https://google.com/search?q=Eurobulk) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
