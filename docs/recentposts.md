@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-11 | [`[DISCLOSED][i2p-torrent] Roberto Verino Difusion`](https://google.com/search?q=%5BDISCLOSED%5D%5Bi2p-torrent%5D+Roberto+Verino+Difusion) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-10-11 | [`[DISCLOSED][i2p-torrent]Jangho Group`](https://google.com/search?q=%5BDISCLOSED%5D%5Bi2p-torrent%5DJangho+Group) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-10-11 | [`promise.com`](https://google.com/search?q=promise.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-10-11 | [`actionfirepros.com\$17.4M\USA\407GB\100% DISCLOSED`](https://google.com/search?q=actionfirepros.com%5C%2417.4M%5CUSA%5C407GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-25 | [`ATG Communications G roup`](https://google.com/search?q=ATG+Communications+G+roup) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-09-25 | [`Luso Cuanzа`](https://google.com/search?q=Luso+Cuanz%D0%B0) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-09-25 | [`hindlegroup.com\$30.6M\United Kingdom\380GB\&lt;1% DISCLOSED`](https://google.com/search?q=hindlegroup.com%5C%2430.6M%5CUnited+Kingdom%5C380GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2024-09-25 | [`kjtait.com\$18.8M\United Kingdom\1.2TB\&lt;1% DISCLOSED`](https://google.com/search?q=kjtait.com%5C%2418.8M%5CUnited+Kingdom%5C1.2TB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
