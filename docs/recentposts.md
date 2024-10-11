@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-11 | [`RobbJack & Crystallume`](https://google.com/search?q=RobbJack+%26+Crystallume) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-11 | [`FortyEighty Architecture`](https://google.com/search?q=FortyEighty+Architecture) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-11 | [`Eagle Recovery Associates`](https://google.com/search?q=Eagle+Recovery+Associates) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-11 | [`AnVa Industries`](https://google.com/search?q=AnVa+Industries) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-23 | [`f-t.com`](https://google.com/search?q=f-t.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-09-23 | [`Avi Resort & Casino`](https://google.com/search?q=Avi+Resort+%26+Casino) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-09-23 | [`Brown Bottling Group`](https://google.com/search?q=Brown+Bottling+Group) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-09-23 | [`DIamond Contracting, LLC`](https://google.com/search?q=DIamond+Contracting%2C+LLC) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
