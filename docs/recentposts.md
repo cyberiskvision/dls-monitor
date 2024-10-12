@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-12 | [`Therabel Lucien Pharma SAS`](https://google.com/search?q=Therabel+Lucien+Pharma+SAS) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-10-12 | [`Structural and Steel Products`](https://google.com/search?q=Structural+and+Steel+Products) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-10-11 | [`Rumpke Consolidated Companies`](https://google.com/search?q=Rumpke+Consolidated+Companies) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-10-11 | [`http://vra.com`](https://google.com/search?q=http%3A%2F%2Fvra.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-26 | [`Mile Hi Foods`](https://google.com/search?q=Mile+Hi+Foods) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-26 | [`Shenango Area School District`](https://google.com/search?q=Shenango+Area+School+District) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-09-26 | [`http://www.lolaliza.com`](https://google.com/search?q=http%3A%2F%2Fwww.lolaliza.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2024-09-26 | [`Schäfer, dein Bäcker GmbH & Co. KG`](https://google.com/search?q=Sch%C3%A4fer%2C+dein+B%C3%A4cker+GmbH+%26+Co.+KG) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
