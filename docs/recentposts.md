@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-16 | [`Corporate Job Bank`](https://google.com/search?q=Corporate+Job+Bank) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-10-16 | [`Lein Law Offices`](https://google.com/search?q=Lein+Law+Offices) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-10-16 | [`GFM`](https://google.com/search?q=GFM) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-10-16 | [`Case Parts Company`](https://google.com/search?q=Case+Parts+Company) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-09-30 | [`Reutter`](https://google.com/search?q=Reutter) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-30 | [`Performance Food Centers`](https://google.com/search?q=Performance+Food+Centers) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-09-30 | [`InteriorWorx Commercial Flooring`](https://google.com/search?q=InteriorWorx+Commercial+Flooring) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-09-30 | [`Garvey`](https://google.com/search?q=Garvey) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
