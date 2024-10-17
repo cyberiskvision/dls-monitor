@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-17 | [`corporatejobbank.com\$22.8M\USA\65GB\100% DISCLOSED`](https://google.com/search?q=corporatejobbank.com%5C%2422.8M%5CUSA%5C65GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-10-17 | [`synertrade.com\$42M\USA\3TB\&lt;1% DISCLOSED`](https://google.com/search?q=synertrade.com%5C%2442M%5CUSA%5C3TB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-10-17 | [`Microworks`](https://google.com/search?q=Microworks) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-10-17 | [`Henry County Schools`](https://google.com/search?q=Henry+County+Schools) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-01 | [`Cascade Columbia Dis tribution`](https://google.com/search?q=Cascade+Columbia+Dis+tribution) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-10-01 | [`ShoreMaster`](https://google.com/search?q=ShoreMaster) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-10-01 | [`CSG Consultants`](https://google.com/search?q=CSG+Consultants) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-10-01 | [`Enviromental Design  International`](https://google.com/search?q=Enviromental+Design++International) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
