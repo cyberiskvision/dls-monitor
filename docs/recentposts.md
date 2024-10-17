@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-17 | [`Steel Art Signs`](https://google.com/search?q=Steel+Art+Signs) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-17 | [`Rescar Companies`](https://google.com/search?q=Rescar+Companies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-17 | [`OzarksGo`](https://google.com/search?q=OzarksGo) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-17 | [`Nora Biscuits`](https://google.com/search?q=Nora+Biscuits) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-01 | [`www.galab.com\$7.9M\Germany\120GB\&lt;1% DISCLOSED`](https://google.com/search?q=www.galab.com%5C%247.9M%5CGermany%5C120GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-10-01 | [`telehealthcenter.in`](https://google.com/search?q=telehealthcenter.in) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-09-30 | [`credihealth.com`](https://google.com/search?q=credihealth.com) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
-| 2024-09-30 | [`itap.nacc.go.th`](https://google.com/search?q=itap.nacc.go.th) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
