@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-17 | [`In the depths of software development. Unlocking the secrets of Promise Technology, Inc.`](https://google.com/search?q=In+the+depths+of+software+development.+Unlocking+the+secrets+of+Promise+Technology%2C+Inc.) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-10-17 | [`W?l?????n`](https://google.com/search?q=W%3Fl%3F%3F%3F%3F%3Fn) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-17 | [`bancodevene`](https://google.com/search?q=bancodevene) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-17 | [`Steel Art Signs`](https://google.com/search?q=Steel+Art+Signs) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-01 | [`www.asobostudio.com`](https://google.com/search?q=www.asobostudio.com) | [stormous](https://ransomwatch.telemetry.ltd/#/profiles?id=stormous) |
 | 2024-10-01 | [`Turman`](https://google.com/search?q=Turman) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-10-01 | [`performance-therapies`](https://google.com/search?q=performance-therapies) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
-| 2024-10-01 | [`www.galab.com\$7.9M\Germany\120GB\&lt;1% DISCLOSED`](https://google.com/search?q=www.galab.com%5C%247.9M%5CGermany%5C120GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
