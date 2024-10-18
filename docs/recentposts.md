@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-18 | [`rudrakshahospitals.com`](https://google.com/search?q=rudrakshahospitals.com) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-10-18 | [`moi.gov.ly`](https://google.com/search?q=moi.gov.ly) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-10-18 | [`CreaGen Inc`](https://google.com/search?q=CreaGen+Inc) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-10-17 | [`volohealth.in`](https://google.com/search?q=volohealth.in) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-02 | [`hindlegroup.com\$30.6M\United Kingdom\380GB\100% DISCLOSED`](https://google.com/search?q=hindlegroup.com%5C%2430.6M%5CUnited+Kingdom%5C380GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-10-02 | [`www.amchar.com\$28.7M\USA\605GB\100% DISCLOSED`](https://google.com/search?q=www.amchar.com%5C%2428.7M%5CUSA%5C605GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-10-02 | [`kjtait.com\$18.8M\United Kingdom\1.2TB\100% DISCLOSED`](https://google.com/search?q=kjtait.com%5C%2418.8M%5CUnited+Kingdom%5C1.2TB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2024-10-02 | [`ETC Companies`](https://google.com/search?q=ETC+Companies) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
