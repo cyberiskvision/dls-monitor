@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-18 | [`CreaGen Inc`](https://google.com/search?q=CreaGen+Inc) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-10-17 | [`volohealth.in`](https://google.com/search?q=volohealth.in) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-10-17 | [`tripxoxo.com`](https://google.com/search?q=tripxoxo.com) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-10-17 | [`Parnell Defense`](https://google.com/search?q=Parnell+Defense) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-02 | [`kjtait.com\$18.8M\United Kingdom\1.2TB\100% DISCLOSED`](https://google.com/search?q=kjtait.com%5C%2418.8M%5CUnited+Kingdom%5C1.2TB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-10-02 | [`ETC Companies`](https://google.com/search?q=ETC+Companies) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
 | 2024-10-02 | [`Holmes & Brakel`](https://google.com/search?q=Holmes+%26+Brakel) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
-| 2024-10-02 | [`Forshey Prostok LLP`](https://google.com/search?q=Forshey+Prostok+LLP) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
