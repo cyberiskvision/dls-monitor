@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-19 | [`http://www.kchospice.org`](https://google.com/search?q=http%3A%2F%2Fwww.kchospice.org) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-10-19 | [`ask.vet`](https://google.com/search?q=ask.vet) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-10-19 | [`Wilkinson`](https://google.com/search?q=Wilkinson) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-19 | [`The Strainrite Companies`](https://google.com/search?q=The+Strainrite+Companies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-04 | [`DPC DATA `](https://google.com/search?q=DPC+DATA+) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-10-04 | [`bbgc.gov.bd`](https://google.com/search?q=bbgc.gov.bd) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-10-03 | [`CobelPlast`](https://google.com/search?q=CobelPlast) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-10-03 | [`TRC Worldwide Engine ering (Trcww)`](https://google.com/search?q=TRC+Worldwide+Engine+ering+%28Trcww%29) | [akira](https://ransomwatch.telemetry.ltd/#/profiles?id=akira) |
