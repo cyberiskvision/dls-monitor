@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-22 | [`boloforms.com`](https://google.com/search?q=boloforms.com) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
 | 2024-10-22 | [`La Tazza D'oro - Full Leak`](https://google.com/search?q=La+Tazza+D%27oro+-+Full+Leak) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-10-22 | [`Burgess Kilpatrick - Full Leak`](https://google.com/search?q=Burgess+Kilpatrick+-+Full+Leak) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-10-22 | [`Welding and Fabrication (Humble Mfg) - Full Leak`](https://google.com/search?q=Welding+and+Fabrication+%28Humble+Mfg%29+-+Full+Leak) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-07 | [`albanybank.com`](https://google.com/search?q=albanybank.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-07 | [`Broward Realty Corp`](https://google.com/search?q=Broward+Realty+Corp) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-10-06 | [`akanea.com`](https://google.com/search?q=akanea.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-10-06 | [`agapefrance.org`](https://google.com/search?q=agapefrance.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
