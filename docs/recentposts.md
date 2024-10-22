@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-22 | [`Temple, Inc.`](https://google.com/search?q=Temple%2C+Inc.) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-10-22 | [`Miller Edge`](https://google.com/search?q=Miller+Edge) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-10-21 | [`The Kaiser Enterprise`](https://google.com/search?q=The+Kaiser+Enterprise) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-10-21 | [`Silver Springs Bottled Water Company`](https://google.com/search?q=Silver+Springs+Bottled+Water+Company) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-05 | [`www.aosense.com`](https://google.com/search?q=www.aosense.com) | [stormous](https://ransomwatch.telemetry.ltd/#/profiles?id=stormous) |
 | 2024-10-05 | [`www.nasa.gov`](https://google.com/search?q=www.nasa.gov) | [stormous](https://ransomwatch.telemetry.ltd/#/profiles?id=stormous) |
 | 2024-10-05 | [`Ibermutuamur`](https://google.com/search?q=Ibermutuamur) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-10-05 | [`betterhalf.ai`](https://google.com/search?q=betterhalf.ai) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
