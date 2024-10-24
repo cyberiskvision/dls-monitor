@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-24 | [`picsolve.com\$32M\USA\620GB\&lt;1% DISCLOSED`](https://google.com/search?q=picsolve.com%5C%2432M%5CUSA%5C620GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-10-24 | [`bcllegal.com\$16.7M\United Kingdom\829GB\&lt;1% DISCLOSED`](https://google.com/search?q=bcllegal.com%5C%2416.7M%5CUnited+Kingdom%5C829GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-10-24 | [`Prince Pipes`](https://google.com/search?q=Prince+Pipes) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-10-24 | [`P+B Team Aircargo`](https://google.com/search?q=P%2BB+Team+Aircargo) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-07 | [`divaris.com`](https://google.com/search?q=divaris.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-07 | [`designintoto.com.au`](https://google.com/search?q=designintoto.com.au) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-07 | [`customssupport.be`](https://google.com/search?q=customssupport.be) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-10-07 | [`concorddirect.com`](https://google.com/search?q=concorddirect.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
