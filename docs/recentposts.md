@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-24 | [`TU Parks`](https://google.com/search?q=TU+Parks) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-24 | [`Mainelli Mechanical Contractors`](https://google.com/search?q=Mainelli+Mechanical+Contractors) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-24 | [`Ivanhoe Club`](https://google.com/search?q=Ivanhoe+Club) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-24 | [`Iron World Manufacturing`](https://google.com/search?q=Iron+World+Manufacturing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-07 | [`clinicatezza.com.pe`](https://google.com/search?q=clinicatezza.com.pe) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-07 | [`claycountyin.gov`](https://google.com/search?q=claycountyin.gov) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-07 | [`ciberviaxesespecial.net`](https://google.com/search?q=ciberviaxesespecial.net) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-10-07 | [`chcm.us`](https://google.com/search?q=chcm.us) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
