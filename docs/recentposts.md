@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-25 | [`Niko Resources Ltd.`](https://google.com/search?q=Niko+Resources+Ltd.) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-10-25 | [`Ambica Steels`](https://google.com/search?q=Ambica+Steels) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-10-25 | [`Matouk Bassiouny`](https://google.com/search?q=Matouk+Bassiouny) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-10-25 | [`De Rose Lawyers`](https://google.com/search?q=De+Rose+Lawyers) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-08 | [`glnf.fr`](https://google.com/search?q=glnf.fr) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-08 | [`gbricambi.it`](https://google.com/search?q=gbricambi.it) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-08 | [`frilot.com`](https://google.com/search?q=frilot.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-10-08 | [`fremontschools.net`](https://google.com/search?q=fremontschools.net) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
