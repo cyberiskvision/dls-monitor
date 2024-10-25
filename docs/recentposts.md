@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-25 | [`https://www.omara-ag.com/`](https://google.com/search?q=https%3A%2F%2Fwww.omara-ag.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-10-25 | [`****`](https://google.com/search?q=%2A%2A%2A%2A) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-10-25 | [`Spine by Villamil MD`](https://google.com/search?q=Spine+by+Villamil+MD) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-10-25 | [`Pacific Pulmonary Medical Group`](https://google.com/search?q=Pacific+Pulmonary+Medical+Group) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-08 | [`exol-lubricants.com`](https://google.com/search?q=exol-lubricants.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-08 | [`energateinc.com`](https://google.com/search?q=energateinc.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-08 | [`emanic.net`](https://google.com/search?q=emanic.net) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-10-08 | [`efile.com`](https://google.com/search?q=efile.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
