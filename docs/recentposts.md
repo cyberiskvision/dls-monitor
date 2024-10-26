@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-26 | [`Premier Work Support`](https://google.com/search?q=Premier+Work+Support) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-10-26 | [`TR****GB`](https://google.com/search?q=TR%2A%2A%2A%2AGB) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-10-25 | [`Niko Resources Ltd.`](https://google.com/search?q=Niko+Resources+Ltd.) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-10-25 | [`Ambica Steels`](https://google.com/search?q=Ambica+Steels) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-08 | [`goldstarmetal.com`](https://google.com/search?q=goldstarmetal.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-08 | [`glsco.com`](https://google.com/search?q=glsco.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-08 | [`glnf.fr`](https://google.com/search?q=glnf.fr) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-10-08 | [`gbricambi.it`](https://google.com/search?q=gbricambi.it) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
