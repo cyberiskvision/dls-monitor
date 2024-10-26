@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-26 | [`truehome`](https://google.com/search?q=truehome) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-26 | [`https://wescan-services.com`](https://google.com/search?q=https%3A%2F%2Fwescan-services.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-10-26 | [`Digital Engineering`](https://google.com/search?q=Digital+Engineering) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-10-26 | [`ATTENTION!`](https://google.com/search?q=ATTENTION%21) | [donutleaks](https://ransomwatch.telemetry.ltd/#/profiles?id=donutleaks) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-08 | [`huntongroup.com`](https://google.com/search?q=huntongroup.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-08 | [`hphood.com`](https://google.com/search?q=hphood.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-08 | [`homelandvinyl.com`](https://google.com/search?q=homelandvinyl.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-10-08 | [`gptchb.org`](https://google.com/search?q=gptchb.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
