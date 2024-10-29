@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-29 | [`https://nathcompanies.com/`](https://google.com/search?q=https%3A%2F%2Fnathcompanies.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-10-29 | [`Hello.`](https://google.com/search?q=Hello.) | [donutleaks](https://ransomwatch.telemetry.ltd/#/profiles?id=donutleaks) |
 | 2024-10-28 | [`http://aerotecnic.com`](https://google.com/search?q=http%3A%2F%2Faerotecnic.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-10-28 | [`[File Tree and Full Data Dump]VOP CZ`](https://google.com/search?q=%5BFile+Tree+and+Full+Data+Dump%5DVOP+CZ) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-09 | [`kierlcpa.com`](https://google.com/search?q=kierlcpa.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-09 | [`kbc-zagreb.hr`](https://google.com/search?q=kbc-zagreb.hr) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-09 | [`jutebag.co.uk`](https://google.com/search?q=jutebag.co.uk) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-10-09 | [`joliet86.org`](https://google.com/search?q=joliet86.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
