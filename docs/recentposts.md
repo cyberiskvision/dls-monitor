@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-10-29 | [`[DISCLOSED]Universite Paris Sud`](https://google.com/search?q=%5BDISCLOSED%5DUniversite+Paris+Sud) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-10-29 | [`https://nathcompanies.com/`](https://google.com/search?q=https%3A%2F%2Fnathcompanies.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-10-29 | [`Hello.`](https://google.com/search?q=Hello.) | [donutleaks](https://ransomwatch.telemetry.ltd/#/profiles?id=donutleaks) |
 | 2024-10-28 | [`http://aerotecnic.com`](https://google.com/search?q=http%3A%2F%2Faerotecnic.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-09 | [`kronospublic.com`](https://google.com/search?q=kronospublic.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-09 | [`kierlcpa.com`](https://google.com/search?q=kierlcpa.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-09 | [`kbc-zagreb.hr`](https://google.com/search?q=kbc-zagreb.hr) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-10-09 | [`jutebag.co.uk`](https://google.com/search?q=jutebag.co.uk) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
