@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-01 | [`JS McCarthy Printers`](https://google.com/search?q=JS+McCarthy+Printers) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-11-01 | [`CGR Technologies`](https://google.com/search?q=CGR+Technologies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-11-01 | [`DieTech North America`](https://google.com/search?q=DieTech+North+America) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-11-01 | [`DAIKIN THAILAND`](https://google.com/search?q=DAIKIN+THAILAND) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-11 | [`FortyEighty Architecture`](https://google.com/search?q=FortyEighty+Architecture) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-11 | [`Eagle Recovery Associates`](https://google.com/search?q=Eagle+Recovery+Associates) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-11 | [`AnVa Industries`](https://google.com/search?q=AnVa+Industries) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-10-11 | [`Accounting Resource Group`](https://google.com/search?q=Accounting+Resource+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
