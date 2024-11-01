@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-01 | [`Valu-Trac Investment Management`](https://google.com/search?q=Valu-Trac+Investment+Management) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-11-01 | [`vikurverk.is`](https://google.com/search?q=vikurverk.is) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-11-01 | [`mirandaproduce.com.ve`](https://google.com/search?q=mirandaproduce.com.ve) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-11-01 | [`propak`](https://google.com/search?q=propak) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-10 | [`Richmond Auto Mall - Full Leak`](https://google.com/search?q=Richmond+Auto+Mall+-+Full+Leak) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-10-10 | [`Pearl Cohen`](https://google.com/search?q=Pearl+Cohen) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-10-10 | [`yesmoke.eu`](https://google.com/search?q=yesmoke.eu) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-10-10 | [`ws-stahl.eu`](https://google.com/search?q=ws-stahl.eu) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
