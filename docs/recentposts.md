@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-01 | [`CreaGen Inc Data Leak`](https://google.com/search?q=CreaGen+Inc+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-11-01 | [`Country Inn &#038; Suites by Radisson Data Leak`](https://google.com/search?q=Country+Inn+%26%23038%3B+Suites+by+Radisson+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-11-01 | [`Broward Realty Corp Data Leak`](https://google.com/search?q=Broward+Realty+Corp+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-11-01 | [`Arctrade`](https://google.com/search?q=Arctrade) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-10 | [`salaam.af`](https://google.com/search?q=salaam.af) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-10 | [`robesoncoso.org`](https://google.com/search?q=robesoncoso.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-10 | [`rhp.com.br`](https://google.com/search?q=rhp.com.br) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-10-10 | [`qespavements.com`](https://google.com/search?q=qespavements.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
