@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-05 | [`Burch, APC`](https://google.com/search?q=Burch%2C+APC) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-11-05 | [`L and B Transport, L.L.C.`](https://google.com/search?q=L+and+B+Transport%2C+L.L.C.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-11-05 | [`www.colonialbh.org`](https://google.com/search?q=www.colonialbh.org) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-11-04 | [`canstarrestorations.com`](https://google.com/search?q=canstarrestorations.com) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-12 | [`Structural and Steel Products`](https://google.com/search?q=Structural+and+Steel+Products) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-10-11 | [`Rumpke Consolidated Companies`](https://google.com/search?q=Rumpke+Consolidated+Companies) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-10-11 | [`http://vra.com`](https://google.com/search?q=http%3A%2F%2Fvra.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2024-10-11 | [`Protective Industrial Products`](https://google.com/search?q=Protective+Industrial+Products) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
