@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-09 | [`Immuno Laboratories, Inc`](https://google.com/search?q=Immuno+Laboratories%2C+Inc) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-11-09 | [`ATSG, Inc`](https://google.com/search?q=ATSG%2C+Inc) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-11-09 | [`Palmisano and Goodman, P.A.`](https://google.com/search?q=Palmisano+and+Goodman%2C+P.A.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-11-09 | [`Granite School District`](https://google.com/search?q=Granite+School+District) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-16 | [`Boston Children's Health Physicians`](https://google.com/search?q=Boston+Children%27s+Health+Physicians) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-10-16 | [`Corporate Job Bank`](https://google.com/search?q=Corporate+Job+Bank) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-10-16 | [`Lein Law Offices`](https://google.com/search?q=Lein+Law+Offices) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
-| 2024-10-16 | [`GFM`](https://google.com/search?q=GFM) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
