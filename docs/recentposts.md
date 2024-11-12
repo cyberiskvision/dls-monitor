@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-12 | [`https://jarrellinc.com/`](https://google.com/search?q=https%3A%2F%2Fjarrellinc.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-11-11 | [`https://www.supplytechnologies.com/`](https://google.com/search?q=https%3A%2F%2Fwww.supplytechnologies.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-11-11 | [`https://www.maxxis.com/`](https://google.com/search?q=https%3A%2F%2Fwww.maxxis.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-11-11 | [`https://dezinecorp.com`](https://google.com/search?q=https%3A%2F%2Fdezinecorp.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-17 | [`Kuhn and Associates`](https://google.com/search?q=Kuhn+and+Associates) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-17 | [`thewalkerschool.or`](https://google.com/search?q=thewalkerschool.or) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-17 | [`Courtney Construction`](https://google.com/search?q=Courtney+Construction) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-10-17 | [`Concord`](https://google.com/search?q=Concord) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
