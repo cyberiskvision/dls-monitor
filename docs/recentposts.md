@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-13 | [`Hellmich`](https://google.com/search?q=Hellmich) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-11-13 | [`Sercomm`](https://google.com/search?q=Sercomm) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-11-13 | [`Schmack`](https://google.com/search?q=Schmack) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-11-13 | [`Value Dental Center`](https://google.com/search?q=Value+Dental+Center) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-17 | [`Henry County Schools`](https://google.com/search?q=Henry+County+Schools) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-10-17 | [`In the depths of software development. Unlocking the secrets of Promise Technology, Inc.`](https://google.com/search?q=In+the+depths+of+software+development.+Unlocking+the+secrets+of+Promise+Technology%2C+Inc.) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-10-17 | [`W?l?????n`](https://google.com/search?q=W%3Fl%3F%3F%3F%3F%3Fn) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-10-17 | [`bancodevene`](https://google.com/search?q=bancodevene) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
