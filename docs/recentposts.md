@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-13 | [`Value Dental Center`](https://google.com/search?q=Value+Dental+Center) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-11-13 | [`Asaro Dental Aesthetics`](https://google.com/search?q=Asaro+Dental+Aesthetics) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-11-13 | [`Artistic Family Dental`](https://google.com/search?q=Artistic+Family+Dental) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-11-12 | [`Orange County Pathology Medical Group`](https://google.com/search?q=Orange+County+Pathology+Medical+Group) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-17 | [`bancodevene`](https://google.com/search?q=bancodevene) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-17 | [`Steel Art Signs`](https://google.com/search?q=Steel+Art+Signs) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-17 | [`Rescar Companies`](https://google.com/search?q=Rescar+Companies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-10-17 | [`OzarksGo`](https://google.com/search?q=OzarksGo) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
