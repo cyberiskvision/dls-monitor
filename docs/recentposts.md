@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-14 | [`Kumla Kommun`](https://google.com/search?q=Kumla+Kommun) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-11-13 | [`https://www.stalyhill-inf.tameside.sch.uk/`](https://google.com/search?q=https%3A%2F%2Fwww.stalyhill-inf.tameside.sch.uk%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-11-13 | [`http://www.axeon-360.com`](https://google.com/search?q=http%3A%2F%2Fwww.axeon-360.com) | [ciphbit](https://ransomwatch.telemetry.ltd/#/profiles?id=ciphbit) |
 | 2024-11-13 | [`Hellmich`](https://google.com/search?q=Hellmich) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-17 | [`corporatejobbank.com\$22.8M\USA\65GB\100% DISCLOSED`](https://google.com/search?q=corporatejobbank.com%5C%2422.8M%5CUSA%5C65GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-10-17 | [`synertrade.com\$42M\USA\3TB\&lt;1% DISCLOSED`](https://google.com/search?q=synertrade.com%5C%2442M%5CUSA%5C3TB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-10-17 | [`Microworks`](https://google.com/search?q=Microworks) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
-| 2024-10-17 | [`Henry County Schools`](https://google.com/search?q=Henry+County+Schools) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
