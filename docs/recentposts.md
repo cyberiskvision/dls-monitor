@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-15 | [`https://www.surgicalassociates.com/`](https://google.com/search?q=https%3A%2F%2Fwww.surgicalassociates.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-11-15 | [`https://www.kenmore.com/`](https://google.com/search?q=https%3A%2F%2Fwww.kenmore.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-11-15 | [`https://www.billyheromans.com/`](https://google.com/search?q=https%3A%2F%2Fwww.billyheromans.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-11-15 | [`Total Patient Care LLC`](https://google.com/search?q=Total+Patient+Care+LLC) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-18 | [`Absolute Machine Tools`](https://google.com/search?q=Absolute+Machine+Tools) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-18 | [`http://neighborscu.org`](https://google.com/search?q=http%3A%2F%2Fneighborscu.org) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-10-18 | [`rudrakshahospitals.com`](https://google.com/search?q=rudrakshahospitals.com) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
-| 2024-10-18 | [`moi.gov.ly`](https://google.com/search?q=moi.gov.ly) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
