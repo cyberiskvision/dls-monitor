@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-15 | [`https://www.marysville.k12.oh.us`](https://google.com/search?q=https%3A%2F%2Fwww.marysville.k12.oh.us) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-11-14 | [`wbligh`](https://google.com/search?q=wbligh) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-11-14 | [`Pincu Barkan, Law Office and Notary`](https://google.com/search?q=Pincu+Barkan%2C+Law+Office+and+Notary) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-11-14 | [`Kumla Kommun`](https://google.com/search?q=Kumla+Kommun) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-17 | [`Parnell Defense`](https://google.com/search?q=Parnell+Defense) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-10-17 | [`Aaren Scientific`](https://google.com/search?q=Aaren+Scientific) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-10-17 | [`matki.co.uk\$23M\United Kingdom\267GB\100% DISCLOSED`](https://google.com/search?q=matki.co.uk%5C%2423M%5CUnited+Kingdom%5C267GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2024-10-17 | [`corporatejobbank.com\$22.8M\USA\65GB\100% DISCLOSED`](https://google.com/search?q=corporatejobbank.com%5C%2422.8M%5CUSA%5C65GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
