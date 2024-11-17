@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-17 | [`Ge****og`](https://google.com/search?q=Ge%2A%2A%2A%2Aog) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-11-17 | [`Gu****me`](https://google.com/search?q=Gu%2A%2A%2A%2Ame) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-11-17 | [`http://www.hetrhedens.nl`](https://google.com/search?q=http%3A%2F%2Fwww.hetrhedens.nl) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-11-17 | [`The Egyptian Tax Authority (ETA)`](https://google.com/search?q=The+Egyptian+Tax+Authority+%28ETA%29) | [moneymessage](https://ransomwatch.telemetry.ltd/#/profiles?id=moneymessage) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-19 | [`https://www.rcschools.net`](https://google.com/search?q=https%3A%2F%2Fwww.rcschools.net) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-10-19 | [`https://mopsohio.com/`](https://google.com/search?q=https%3A%2F%2Fmopsohio.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-10-19 | [`http://www.kchospice.org`](https://google.com/search?q=http%3A%2F%2Fwww.kchospice.org) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2024-10-19 | [`ask.vet`](https://google.com/search?q=ask.vet) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
