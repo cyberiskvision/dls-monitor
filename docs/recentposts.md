@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-19 | [`https://www.eastgateauto.com/`](https://google.com/search?q=https%3A%2F%2Fwww.eastgateauto.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-11-19 | [`http://betrvom4agzebo27bt7o3hk35tvr7ppw3hrx5xx4ecvijwfsb4iufoyd.onion/kciaviation.com/`](https://google.com/search?q=http%3A%2F%2Fbetrvom4agzebo27bt7o3hk35tvr7ppw3hrx5xx4ecvijwfsb4iufoyd.onion%2Fkciaviation.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-11-18 | [`ville-bouchemain`](https://google.com/search?q=ville-bouchemain) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-11-18 | [`Dorner Law & Title Services`](https://google.com/search?q=Dorner+Law+%26+Title+Services) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-21 | [`gorrias-mercedes-b`](https://google.com/search?q=gorrias-mercedes-b) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-20 | [`pe`](https://google.com/search?q=pe) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-10-20 | [`Atende Software's`](https://google.com/search?q=Atende+Software%27s) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-10-20 | [`Pr****es`](https://google.com/search?q=Pr%2A%2A%2A%2Aes) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
