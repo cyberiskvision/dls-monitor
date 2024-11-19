@@ -1,7 +1,7 @@
 lxml==4.9.3
 selenium==4.14.0
 tldextract==5.0.1
-matplotlib===3.8.1
+matplotlib===3.9.0
 BeautifulSoup4==4.12.2
 requests[socks]
 tweepy==4.14.0
