@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-19 | [`REMBE GmbH Safety + Control`](https://google.com/search?q=REMBE+GmbH+Safety+%2B+Control) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-11-19 | [`RAUCH Streuer – Kompetenz in Entwicklung &amp; Herstellung`](https://google.com/search?q=RAUCH+Streuer+%E2%80%93+Kompetenz+in+Entwicklung+%26amp%3B+Herstellung) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-11-19 | [`Jonti-Craft`](https://google.com/search?q=Jonti-Craft) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-11-19 | [`Andy Frain Services`](https://google.com/search?q=Andy+Frain+Services) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-21 | [`Seng Tsoi Architect - Full Leak`](https://google.com/search?q=Seng+Tsoi+Architect+-+Full+Leak) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-10-21 | [`[File Tree Full Data Dump, Evidance Pack 2]VOP CZ`](https://google.com/search?q=%5BFile+Tree+Full+Data+Dump%2C+Evidance+Pack+2%5DVOP+CZ) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-10-21 | [`http://teddy.it`](https://google.com/search?q=http%3A%2F%2Fteddy.it) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2024-10-21 | [`Mercury Theatre`](https://google.com/search?q=Mercury+Theatre) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
