@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-19 | [`Southern Oregon Veterinary Specialty Center`](https://google.com/search?q=Southern+Oregon+Veterinary+Specialty+Center) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-11-19 | [`Instinct Pet Food`](https://google.com/search?q=Instinct+Pet+Food) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-11-19 | [`Eaton Metal Products Company`](https://google.com/search?q=Eaton+Metal+Products+Company) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-11-19 | [`CULTURE-BUILDING EXPERTS`](https://google.com/search?q=CULTURE-BUILDING+EXPERTS) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-22 | [`Phyton Biotech - Full Leak`](https://google.com/search?q=Phyton+Biotech+-+Full+Leak) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-10-22 | [`Cotala Cross-Media - Full Leak`](https://google.com/search?q=Cotala+Cross-Media+-+Full+Leak) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-10-22 | [`City Projects - Full Leak`](https://google.com/search?q=City+Projects+-+Full+Leak) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
-| 2024-10-22 | [`fordcountrymotors.mx`](https://google.com/search?q=fordcountrymotors.mx) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
