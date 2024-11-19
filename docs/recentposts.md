@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-19 | [`Jonti-Craft`](https://google.com/search?q=Jonti-Craft) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-11-19 | [`Andy Frain Services`](https://google.com/search?q=Andy+Frain+Services) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-11-19 | [`https://www.eastgateauto.com/`](https://google.com/search?q=https%3A%2F%2Fwww.eastgateauto.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-11-19 | [`http://betrvom4agzebo27bt7o3hk35tvr7ppw3hrx5xx4ecvijwfsb4iufoyd.onion/kciaviation.com/`](https://google.com/search?q=http%3A%2F%2Fbetrvom4agzebo27bt7o3hk35tvr7ppw3hrx5xx4ecvijwfsb4iufoyd.onion%2Fkciaviation.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-21 | [`http://teddy.it`](https://google.com/search?q=http%3A%2F%2Fteddy.it) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-10-21 | [`Mercury Theatre`](https://google.com/search?q=Mercury+Theatre) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-10-21 | [`gorrias-mercedes-b`](https://google.com/search?q=gorrias-mercedes-b) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-10-20 | [`pe`](https://google.com/search?q=pe) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
