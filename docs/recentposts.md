@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-19 | [`IndicaOnline`](https://google.com/search?q=IndicaOnline) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-11-19 | [`ISA`](https://google.com/search?q=ISA) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-11-19 | [`Rockport Mortgage`](https://google.com/search?q=Rockport+Mortgage) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-11-19 | [`KMC Global`](https://google.com/search?q=KMC+Global) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-21 | [`The Kaiser Enterprise`](https://google.com/search?q=The+Kaiser+Enterprise) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-10-21 | [`Silver Springs Bottled Water Company`](https://google.com/search?q=Silver+Springs+Bottled+Water+Company) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-10-21 | [`LEWA`](https://google.com/search?q=LEWA) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
-| 2024-10-21 | [`Raeyco Lab Equipment - Full Leak`](https://google.com/search?q=Raeyco+Lab+Equipment+-+Full+Leak) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
