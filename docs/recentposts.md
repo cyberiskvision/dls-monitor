@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-20 | [`IVC Technologies`](https://google.com/search?q=IVC+Technologies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-11-20 | [`Hive Power Engineering`](https://google.com/search?q=Hive+Power+Engineering) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-11-20 | [`Henderson Stamping & Production`](https://google.com/search?q=Henderson+Stamping+%26+Production) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-11-20 | [`Diamond Brand Gear`](https://google.com/search?q=Diamond+Brand+Gear) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-23 | [`The Povman Law Firm`](https://google.com/search?q=The+Povman+Law+Firm) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-10-23 | [`Easterseals`](https://google.com/search?q=Easterseals) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-10-23 | [`shipkar.co.in`](https://google.com/search?q=shipkar.co.in) | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) |
-| 2024-10-22 | [`IdeaLab`](https://google.com/search?q=IdeaLab) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
