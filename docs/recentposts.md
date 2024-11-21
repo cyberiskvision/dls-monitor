@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-21 | [`ottosimon.co.uk\$16.6M\United Kingdom\1.9TB\100% DISCLOSED`](https://google.com/search?q=ottosimon.co.uk%5C%2416.6M%5CUnited+Kingdom%5C1.9TB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-11-21 | [`Kellerhals Ferguson Kroblin PLLC`](https://google.com/search?q=Kellerhals+Ferguson+Kroblin+PLLC) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-11-21 | [`Silverback Exploration`](https://google.com/search?q=Silverback+Exploration) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-11-20 | [`Bishop Ireton High School`](https://google.com/search?q=Bishop+Ireton+High+School) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-24 | [`Prince Pipes`](https://google.com/search?q=Prince+Pipes) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-10-24 | [`P+B Team Aircargo`](https://google.com/search?q=P%2BB+Team+Aircargo) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-10-24 | [`TU Parks`](https://google.com/search?q=TU+Parks) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-10-24 | [`Mainelli Mechanical Contractors`](https://google.com/search?q=Mainelli+Mechanical+Contractors) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
