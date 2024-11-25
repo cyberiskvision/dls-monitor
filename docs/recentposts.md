@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-25 | [`glts.net`](https://google.com/search?q=glts.net) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-11-25 | [`INFiLED`](https://google.com/search?q=INFiLED) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-11-25 | [`Orshan, Spann & Fernandez-Mesa`](https://google.com/search?q=Orshan%2C+Spann+%26+Fernandez-Mesa) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-11-25 | [`GuangDong South Land pharmaceutical`](https://google.com/search?q=GuangDong+South+Land+pharmaceutical) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-25 | [`De Rose Lawyers`](https://google.com/search?q=De+Rose+Lawyers) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-10-25 | [`https://unitedsprinkler.com/`](https://google.com/search?q=https%3A%2F%2Funitedsprinkler.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-10-25 | [`https://www.zyloware.com/`](https://google.com/search?q=https%3A%2F%2Fwww.zyloware.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2024-10-25 | [`https://www.deschampsimp.com/`](https://google.com/search?q=https%3A%2F%2Fwww.deschampsimp.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
