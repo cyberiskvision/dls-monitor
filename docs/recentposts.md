@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-27 | [`http://www.gsd200.org`](https://google.com/search?q=http%3A%2F%2Fwww.gsd200.org) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-11-27 | [`Contrack Facilities Management`](https://google.com/search?q=Contrack+Facilities+Management) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-11-27 | [`Ventana Micro Systems`](https://google.com/search?q=Ventana+Micro+Systems) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-11-27 | [`Lu****ng`](https://google.com/search?q=Lu%2A%2A%2A%2Ang) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-26 | [`TV Guide Magazine`](https://google.com/search?q=TV+Guide+Magazine) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-26 | [`Positive Business Solutions`](https://google.com/search?q=Positive+Business+Solutions) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-10-26 | [`C & C Industries`](https://google.com/search?q=C+%26+C+Industries) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-10-26 | [`truehome`](https://google.com/search?q=truehome) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
