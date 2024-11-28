@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-28 | [`McLean Mortgage Corporation`](https://google.com/search?q=McLean+Mortgage+Corporation) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-11-28 | [`IAС`](https://google.com/search?q=IA%D0%A1) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-11-28 | [`R Pac Central America S.A. de C.V.`](https://google.com/search?q=R+Pac+Central+America+S.A.+de+C.V.) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-11-27 | [`http://www.gsd200.org`](https://google.com/search?q=http%3A%2F%2Fwww.gsd200.org) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-28 | [`http://aerotecnic.com`](https://google.com/search?q=http%3A%2F%2Faerotecnic.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-10-28 | [`[File Tree and Full Data Dump]VOP CZ`](https://google.com/search?q=%5BFile+Tree+and+Full+Data+Dump%5DVOP+CZ) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-10-27 | [`BU****IT`](https://google.com/search?q=BU%2A%2A%2A%2AIT) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
-| 2024-10-26 | [`TV Guide Magazine`](https://google.com/search?q=TV+Guide+Magazine) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
