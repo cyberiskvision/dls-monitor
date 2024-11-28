@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-11-28 | [`Delmar International`](https://google.com/search?q=Delmar+International) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-11-28 | [`https://jtekt-na.com/`](https://google.com/search?q=https%3A%2F%2Fjtekt-na.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-11-28 | [`McLean Mortgage Corporation`](https://google.com/search?q=McLean+Mortgage+Corporation) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-11-28 | [`IAС`](https://google.com/search?q=IA%D0%A1) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-10-29 | [`https://nathcompanies.com/`](https://google.com/search?q=https%3A%2F%2Fnathcompanies.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-10-29 | [`Hello.`](https://google.com/search?q=Hello.) | [donutleaks](https://ransomwatch.telemetry.ltd/#/profiles?id=donutleaks) |
 | 2024-10-28 | [`http://aerotecnic.com`](https://google.com/search?q=http%3A%2F%2Faerotecnic.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2024-10-28 | [`[File Tree and Full Data Dump]VOP CZ`](https://google.com/search?q=%5BFile+Tree+and+Full+Data+Dump%5DVOP+CZ) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
