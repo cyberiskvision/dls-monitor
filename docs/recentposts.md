@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-12-05 | [`[DISCLOSED]Sabesp`](https://google.com/search?q=%5BDISCLOSED%5DSabesp) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-12-05 | [`[DISCLOSED]GuangDong South Land pharmaceutical`](https://google.com/search?q=%5BDISCLOSED%5DGuangDong+South+Land+pharmaceutical) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-12-05 | [`[DISCLOSED]Interior Metals`](https://google.com/search?q=%5BDISCLOSED%5DInterior+Metals) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-12-05 | [`lesbur`](https://google.com/search?q=lesbur) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-11-01 | [`patria.hu`](https://google.com/search?q=patria.hu) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-11-01 | [`MCNA Dental Data Leak`](https://google.com/search?q=MCNA+Dental+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-11-01 | [`CreaGen Inc Data Leak`](https://google.com/search?q=CreaGen+Inc+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
-| 2024-11-01 | [`Country Inn &#038; Suites by Radisson Data Leak`](https://google.com/search?q=Country+Inn+%26%23038%3B+Suites+by+Radisson+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
