@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-12-07 | [`CO-VER Power Technology SpA`](https://google.com/search?q=CO-VER+Power+Technology+SpA) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-12-06 | [`Medical Technology Industries, Inc.`](https://google.com/search?q=Medical+Technology+Industries%2C+Inc.) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-12-06 | [`LTI Trucking Services`](https://google.com/search?q=LTI+Trucking+Services) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-12-06 | [`pez.com`](https://google.com/search?q=pez.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-11-01 | [`Aiken Electric Cooperative`](https://google.com/search?q=Aiken+Electric+Cooperative) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-11-01 | [`Groupe Althays`](https://google.com/search?q=Groupe+Althays) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-11-01 | [`AIMS, Inc. - Fuel Business Accounting Software, Jobber Software - Wholesale Petroleum Acco`](https://google.com/search?q=AIMS%2C+Inc.+-+Fuel+Business+Accounting+Software%2C+Jobber+Software+-+Wholesale+Petroleum+Acco) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
-| 2024-11-01 | [`Sabesp`](https://google.com/search?q=Sabesp) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
