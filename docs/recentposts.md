@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-12-10 | [`Throat`](https://google.com/search?q=Throat) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-12-10 | [`Global Insurance Agency LLC`](https://google.com/search?q=Global+Insurance+Agency+LLC) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-12-10 | [`Physicians' Primary Care of Southwest Florida`](https://google.com/search?q=Physicians%27+Primary+Care+of+Southwest+Florida) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-12-09 | [`nedamaritime.gr`](https://google.com/search?q=nedamaritime.gr) | [blackout](https://ransomwatch.telemetry.ltd/#/profiles?id=blackout) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-11-01 | [`DAIKIN THAILAND`](https://google.com/search?q=DAIKIN+THAILAND) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-11-01 | [`Heritage Golf`](https://google.com/search?q=Heritage+Golf) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
 | 2024-11-01 | [`Valu-Trac Investment Management`](https://google.com/search?q=Valu-Trac+Investment+Management) | [qilin](https://ransomwatch.telemetry.ltd/#/profiles?id=qilin) |
-| 2024-11-01 | [`vikurverk.is`](https://google.com/search?q=vikurverk.is) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
