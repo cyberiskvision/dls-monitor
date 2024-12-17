@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-12-17 | [`Asaro Dental Aesthetics Data Leak`](https://google.com/search?q=Asaro+Dental+Aesthetics+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-12-17 | [`Artistic Family Dental;Value Dental Center;Sparkling Smiles Family Dentistry Data Leak`](https://google.com/search?q=Artistic+Family+Dental%3BValue+Dental+Center%3BSparkling+Smiles+Family+Dentistry+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-12-17 | [`South Plains Implement`](https://google.com/search?q=South+Plains+Implement) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-12-16 | [`Lanigan Ryan`](https://google.com/search?q=Lanigan+Ryan) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-11-06 | [`S & W Kitchens`](https://google.com/search?q=S+%26+W+Kitchens) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-11-06 | [`Paragon Plastics`](https://google.com/search?q=Paragon+Plastics) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-11-05 | [`Delfin Design & Manufacturing`](https://google.com/search?q=Delfin+Design+%26+Manufacturing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-11-05 | [`Dome Construction`](https://google.com/search?q=Dome+Construction) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
