@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-12-18 | [`Fruit of the Earth`](https://google.com/search?q=Fruit+of+the+Earth) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-12-18 | [`Bender GmbH &amp; Co. KG`](https://google.com/search?q=Bender+GmbH+%26amp%3B+Co.+KG) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-12-18 | [`Valveworks USA`](https://google.com/search?q=Valveworks+USA) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-12-18 | [`Wikov`](https://google.com/search?q=Wikov) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-11-11 | [`https://dezinecorp.com`](https://google.com/search?q=https%3A%2F%2Fdezinecorp.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-11-11 | [`Dietzgen Corporation`](https://google.com/search?q=Dietzgen+Corporation) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-11-11 | [`Amourgis & Associates`](https://google.com/search?q=Amourgis+%26+Associates) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-11-11 | [`Banco Sucredito Regional S.A.U.`](https://google.com/search?q=Banco+Sucredito+Regional+S.A.U.) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
