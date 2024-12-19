@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-12-19 | [`lockbit4.com`](https://google.com/search?q=lockbit4.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-12-18 | [`Archetype Group`](https://google.com/search?q=Archetype+Group) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-12-18 | [`National Atomic Energy Commission`](https://google.com/search?q=National+Atomic+Energy+Commission) | [moneymessage](https://ransomwatch.telemetry.ltd/#/profiles?id=moneymessage) |
 | 2024-12-18 | [`Cottrell P.C.`](https://google.com/search?q=Cottrell+P.C.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-11-12 | [`Orange County Pathology Medical Group`](https://google.com/search?q=Orange+County+Pathology+Medical+Group) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-11-12 | [`SK Gas`](https://google.com/search?q=SK+Gas) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-11-12 | [`https://steppingstonesd.org/`](https://google.com/search?q=https%3A%2F%2Fsteppingstonesd.org%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2024-11-12 | [`https://jst.es/`](https://google.com/search?q=https%3A%2F%2Fjst.es%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
