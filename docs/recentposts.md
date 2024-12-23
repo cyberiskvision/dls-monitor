@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-12-23 | [`galatachemicals.com\$100M\USA\1.7TB\&lt;1% DISCLOSED`](https://google.com/search?q=galatachemicals.com%5C%24100M%5CUSA%5C1.7TB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-12-23 | [`ptcky.com\$5M\USA\902GB\&lt;1% DISCLOSED`](https://google.com/search?q=ptcky.com%5C%245M%5CUSA%5C902GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-12-23 | [`adveo.com\$740.7M\France\1.1TB\&lt;1% DISCLOSED`](https://google.com/search?q=adveo.com%5C%24740.7M%5CFrance%5C1.1TB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-12-23 | [`Gr****up`](https://google.com/search?q=Gr%2A%2A%2A%2Aup) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-11-15 | [`https://klarenbeek-transport.nl/`](https://google.com/search?q=https%3A%2F%2Fklarenbeek-transport.nl%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-11-15 | [`https://www.surgicalassociates.com/`](https://google.com/search?q=https%3A%2F%2Fwww.surgicalassociates.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2024-11-15 | [`https://www.kenmore.com/`](https://google.com/search?q=https%3A%2F%2Fwww.kenmore.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2024-11-15 | [`https://www.billyheromans.com/`](https://google.com/search?q=https%3A%2F%2Fwww.billyheromans.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
