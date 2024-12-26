@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-12-26 | [`http://www.advokatur-bl.ch`](https://google.com/search?q=http%3A%2F%2Fwww.advokatur-bl.ch) | [ciphbit](https://ransomwatch.telemetry.ltd/#/profiles?id=ciphbit) |
 | 2024-12-25 | [`STIIIZY Happy New 20025 !`](https://google.com/search?q=STIIIZY+Happy+New+20025+%21) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-12-25 | [`T Smiles Dental`](https://google.com/search?q=T+Smiles+Dental) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-12-24 | [`SeaLandAire Technologies`](https://google.com/search?q=SeaLandAire+Technologies) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-11-18 | [`lumiplan.com\$49.2M\France\652GB\100% DISCLOSED`](https://google.com/search?q=lumiplan.com%5C%2449.2M%5CFrance%5C652GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-11-17 | [`Mantinga`](https://google.com/search?q=Mantinga) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-11-17 | [`Ge****og`](https://google.com/search?q=Ge%2A%2A%2A%2Aog) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
-| 2024-11-17 | [`Gu****me`](https://google.com/search?q=Gu%2A%2A%2A%2Ame) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
