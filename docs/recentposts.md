@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2024-12-28 | [`Watertown Public Schools`](https://google.com/search?q=Watertown+Public+Schools) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-12-28 | [`STEG Stadtentwicklung`](https://google.com/search?q=STEG+Stadtentwicklung) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-12-28 | [`Cell C`](https://google.com/search?q=Cell+C) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-12-28 | [`Ire-Omba SpA`](https://google.com/search?q=Ire-Omba+SpA) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-11-19 | [`RAUCH Streuer – Kompetenz in Entwicklung &amp; Herstellung`](https://google.com/search?q=RAUCH+Streuer+%E2%80%93+Kompetenz+in+Entwicklung+%26amp%3B+Herstellung) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-11-19 | [`Jonti-Craft`](https://google.com/search?q=Jonti-Craft) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-11-19 | [`Andy Frain Services`](https://google.com/search?q=Andy+Frain+Services) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
-| 2024-11-19 | [`https://www.eastgateauto.com/`](https://google.com/search?q=https%3A%2F%2Fwww.eastgateauto.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
