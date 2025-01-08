@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-01-08 | [`kingpower.com`](https://google.com/search?q=kingpower.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2025-01-07 | [`Sunflower Medical Group`](https://google.com/search?q=Sunflower+Medical+Group) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-01-04 | [`Montreal North`](https://google.com/search?q=Montreal+North) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-01-03 | [`Nikki-Universal Co Ltd`](https://google.com/search?q=Nikki-Universal+Co+Ltd) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-11-19 | [`Instinct Pet Food`](https://google.com/search?q=Instinct+Pet+Food) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-11-19 | [`Eaton Metal Products Company`](https://google.com/search?q=Eaton+Metal+Products+Company) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-11-19 | [`CULTURE-BUILDING EXPERTS`](https://google.com/search?q=CULTURE-BUILDING+EXPERTS) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
-| 2024-11-19 | [`Wachter`](https://google.com/search?q=Wachter) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
