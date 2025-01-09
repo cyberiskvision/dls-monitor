@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-01-09 | [`CO-VER Power Technology SpA Data Leak`](https://google.com/search?q=CO-VER+Power+Technology+SpA+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2025-01-09 | [`awimc.com\$102.7M\USA\440GB\100% DISCLOSED`](https://google.com/search?q=awimc.com%5C%24102.7M%5CUSA%5C440GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-01-08 | [`bendixengineering`](https://google.com/search?q=bendixengineering) | [ransomblog_noname](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomblog_noname) |
 | 2025-01-08 | [`kingpower.com`](https://google.com/search?q=kingpower.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-11-20 | [`KVF`](https://google.com/search?q=KVF) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-11-19 | [`Oxford Auto Insurance`](https://google.com/search?q=Oxford+Auto+Insurance) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-11-19 | [`Southern Oregon Veterinary Specialty Center`](https://google.com/search?q=Southern+Oregon+Veterinary+Specialty+Center) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
-| 2024-11-19 | [`Instinct Pet Food`](https://google.com/search?q=Instinct+Pet+Food) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
