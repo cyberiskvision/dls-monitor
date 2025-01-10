@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-01-10 | [`ptcky.com\$5M\USA\902GB\100% DISCLOSED`](https://google.com/search?q=ptcky.com%5C%245M%5CUSA%5C902GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-01-10 | [`Evidn`](https://google.com/search?q=Evidn) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2025-01-09 | [`Sarah Car Care Data Leak`](https://google.com/search?q=Sarah+Car+Care+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2025-01-09 | [`Myhealthcarebilling Data Leak`](https://google.com/search?q=Myhealthcarebilling+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-11-20 | [`Dairy Farmers of Canada`](https://google.com/search?q=Dairy+Farmers+of+Canada) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-11-20 | [`CMD`](https://google.com/search?q=CMD) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-11-20 | [`Birdair`](https://google.com/search?q=Birdair) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-11-20 | [`Anderson Miller LTD`](https://google.com/search?q=Anderson+Miller+LTD) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
