@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-01-10 | [`Qualinet`](https://google.com/search?q=Qualinet) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-01-10 | [`massdevelopment.com\$24.6M\USA\1.2TB\100% DISCLOSED`](https://google.com/search?q=massdevelopment.com%5C%2424.6M%5CUSA%5C1.2TB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-01-10 | [`ptcky.com\$5M\USA\902GB\100% DISCLOSED`](https://google.com/search?q=ptcky.com%5C%245M%5CUSA%5C902GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-01-10 | [`Evidn`](https://google.com/search?q=Evidn) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-11-20 | [`Henderson Stamping & Production`](https://google.com/search?q=Henderson+Stamping+%26+Production) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-11-20 | [`Diamond Brand Gear`](https://google.com/search?q=Diamond+Brand+Gear) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-11-20 | [`Dairy Farmers of Canada`](https://google.com/search?q=Dairy+Farmers+of+Canada) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-11-20 | [`CMD`](https://google.com/search?q=CMD) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
