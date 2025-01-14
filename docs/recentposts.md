@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-01-14 | [`lamejor.com.co`](https://google.com/search?q=lamejor.com.co) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-01-14 | [`gelco-s-a.com.br`](https://google.com/search?q=gelco-s-a.com.br) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-01-14 | [`Solaris Pharma`](https://google.com/search?q=Solaris+Pharma) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2025-01-13 | [`candelasyasociados.es`](https://google.com/search?q=candelasyasociados.es) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-11-25 | [`Orshan, Spann & Fernandez-Mesa`](https://google.com/search?q=Orshan%2C+Spann+%26+Fernandez-Mesa) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-11-25 | [`GuangDong South Land pharmaceutical`](https://google.com/search?q=GuangDong+South+Land+pharmaceutical) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-11-25 | [`JN attorney`](https://google.com/search?q=JN+attorney) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-11-25 | [`Ace Laboratories Limited`](https://google.com/search?q=Ace+Laboratories+Limited) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
