@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-01-29 | [`Wallin & Klarich`](https://google.com/search?q=Wallin+%26+Klarich) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-01-29 | [`TRIVAD`](https://google.com/search?q=TRIVAD) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-01-29 | [`Plymouth Foam`](https://google.com/search?q=Plymouth+Foam) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-01-29 | [`SCV Med Group`](https://google.com/search?q=SCV+Med+Group) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-12-04 | [`NTrust`](https://google.com/search?q=NTrust) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-12-04 | [`Co****ns`](https://google.com/search?q=Co%2A%2A%2A%2Ans) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-12-04 | [`copral.com.br`](https://google.com/search?q=copral.com.br) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-12-04 | [`Graham + Sibbald`](https://google.com/search?q=Graham+%2B+Sibbald) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
