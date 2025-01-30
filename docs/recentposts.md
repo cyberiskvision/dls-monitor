@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-01-30 | [`vsstransportationgroup.com\$54.5M\USA\522GB\&lt;1% DISCLOSED`](https://google.com/search?q=vsstransportationgroup.com%5C%2454.5M%5CUSA%5C522GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-01-30 | [`Night Hawk`](https://google.com/search?q=Night+Hawk) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-01-30 | [`sunrise-soya.com\$42.2M\Canada\504GB\&lt;1% DISCLOSED`](https://google.com/search?q=sunrise-soya.com%5C%2442.2M%5CCanada%5C504GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-01-30 | [`nenok.de`](https://google.com/search?q=nenok.de) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-12-05 | [`Standard Calibrations`](https://google.com/search?q=Standard+Calibrations) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-12-05 | [`NatAlliance Securities`](https://google.com/search?q=NatAlliance+Securities) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2024-12-05 | [`Max Trans`](https://google.com/search?q=Max+Trans) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-12-05 | [`ITO EN`](https://google.com/search?q=ITO+EN) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
