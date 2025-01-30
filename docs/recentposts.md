@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-01-30 | [`johnpaulrichard.com\$60M\USA\985GB\&lt;1% DISCLOSED`](https://google.com/search?q=johnpaulrichard.com%5C%2460M%5CUSA%5C985GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-01-30 | [`ibericar`](https://google.com/search?q=ibericar) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2025-01-30 | [`vsstransportationgroup.com\$54.5M\USA\522GB\&lt;1% DISCLOSED`](https://google.com/search?q=vsstransportationgroup.com%5C%2454.5M%5CUSA%5C522GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-01-30 | [`Night Hawk`](https://google.com/search?q=Night+Hawk) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-12-06 | [`LTI Trucking Services`](https://google.com/search?q=LTI+Trucking+Services) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-12-06 | [`pez.com`](https://google.com/search?q=pez.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-12-05 | [`Standard Calibrations`](https://google.com/search?q=Standard+Calibrations) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2024-12-05 | [`NatAlliance Securities`](https://google.com/search?q=NatAlliance+Securities) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
