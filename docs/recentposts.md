@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-02-02 | [`usuhs.edu`](https://google.com/search?q=usuhs.edu) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-02-02 | [`Four Eye Clinics`](https://google.com/search?q=Four+Eye+Clinics) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2025-02-02 | [`jpcgroupinc.com`](https://google.com/search?q=jpcgroupinc.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2025-02-02 | [`Civic Committee`](https://google.com/search?q=Civic+Committee) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-12-11 | [`Rutherford County Schools`](https://google.com/search?q=Rutherford+County+Schools) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2024-12-11 | [`At Interspiro`](https://google.com/search?q=At+Interspiro) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-12-10 | [`Telecom Namibia`](https://google.com/search?q=Telecom+Namibia) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2024-12-10 | [`Throat`](https://google.com/search?q=Throat) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
