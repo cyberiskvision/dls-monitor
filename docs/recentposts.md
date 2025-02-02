@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-02-02 | [`Ayres Law Firm`](https://google.com/search?q=Ayres+Law+Firm) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2025-02-02 | [`Growth Acceleration Partners`](https://google.com/search?q=Growth+Acceleration+Partners) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2025-02-01 | [`My New Jersey Dentist`](https://google.com/search?q=My+New+Jersey+Dentist) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-01-31 | [`BH Aircraft Company, Inc.`](https://google.com/search?q=BH+Aircraft+Company%2C+Inc.) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-12-10 | [`Global Insurance Agency LLC`](https://google.com/search?q=Global+Insurance+Agency+LLC) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-12-10 | [`Physicians' Primary Care of Southwest Florida`](https://google.com/search?q=Physicians%27+Primary+Care+of+Southwest+Florida) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-12-09 | [`nedamaritime.gr`](https://google.com/search?q=nedamaritime.gr) | [blackout](https://ransomwatch.telemetry.ltd/#/profiles?id=blackout) |
-| 2024-12-09 | [`http://copresi.es`](https://google.com/search?q=http%3A%2F%2Fcopresi.es) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
