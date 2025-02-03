@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-02-03 | [`DPC Development`](https://google.com/search?q=DPC+Development) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-02-03 | [`gruppozaccaria.it`](https://google.com/search?q=gruppozaccaria.it) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-02-03 | [`Evidn Data Leak`](https://google.com/search?q=Evidn+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2025-02-02 | [`usuhs.edu`](https://google.com/search?q=usuhs.edu) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-12-11 | [`Sarah Car Care`](https://google.com/search?q=Sarah+Car+Care) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-12-11 | [`Compass Communications`](https://google.com/search?q=Compass+Communications) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-12-11 | [`http://midwest.com`](https://google.com/search?q=http%3A%2F%2Fmidwest.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2024-12-11 | [`Rutherford County Schools`](https://google.com/search?q=Rutherford+County+Schools) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
