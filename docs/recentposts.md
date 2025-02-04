@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-02-04 | [`Commercial Solutions`](https://google.com/search?q=Commercial+Solutions) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2025-02-04 | [`Town Counsel Law & Litigation`](https://google.com/search?q=Town+Counsel+Law+%26+Litigation) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-02-04 | [`rashtiandrashti.com\$19.1M\USA\786GB\&lt;1% DISCLOSED`](https://google.com/search?q=rashtiandrashti.com%5C%2419.1M%5CUSA%5C786GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-02-04 | [`mgainnovation.com\$30.9M\USA\215GB\&lt;1% DISCLOSED`](https://google.com/search?q=mgainnovation.com%5C%2430.9M%5CUSA%5C215GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-12-14 | [`Mid Florida Primary Care`](https://google.com/search?q=Mid+Florida+Primary+Care) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-12-14 | [`TWRU CPAs and Financial Advisors`](https://google.com/search?q=TWRU+CPAs+and+Financial+Advisors) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2024-12-13 | [`http://www.abag-sroc.pt`](https://google.com/search?q=http%3A%2F%2Fwww.abag-sroc.pt) | [ciphbit](https://ransomwatch.telemetry.ltd/#/profiles?id=ciphbit) |
-| 2024-12-13 | [`Kazyon`](https://google.com/search?q=Kazyon) | [moneymessage](https://ransomwatch.telemetry.ltd/#/profiles?id=moneymessage) |
