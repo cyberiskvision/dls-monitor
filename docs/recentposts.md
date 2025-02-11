@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-02-11 | [`Rogers`](https://google.com/search?q=Rogers) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2025-02-11 | [`Hammond Trucking & Excavation`](https://google.com/search?q=Hammond+Trucking+%26+Excavation) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-02-11 | [`sole technology`](https://google.com/search?q=sole+technology) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2025-02-10 | [`D-7 Roofing`](https://google.com/search?q=D-7+Roofing) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-12-18 | [`Active Dynamics`](https://google.com/search?q=Active+Dynamics) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-12-18 | [`Bath Fitter`](https://google.com/search?q=Bath+Fitter) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-12-18 | [`Grimaldi Alliance`](https://google.com/search?q=Grimaldi+Alliance) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
-| 2024-12-18 | [`Medion AG`](https://google.com/search?q=Medion+AG) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
