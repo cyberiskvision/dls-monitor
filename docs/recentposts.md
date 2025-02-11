@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-02-11 | [`sole technology`](https://google.com/search?q=sole+technology) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2025-02-10 | [`D-7 Roofing`](https://google.com/search?q=D-7+Roofing) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2025-02-10 | [`Recievership Specialists`](https://google.com/search?q=Recievership+Specialists) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2025-02-10 | [`abcapital.com.ph`](https://google.com/search?q=abcapital.com.ph) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-12-18 | [`Grimaldi Alliance`](https://google.com/search?q=Grimaldi+Alliance) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-12-18 | [`Medion AG`](https://google.com/search?q=Medion+AG) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2024-12-18 | [`massdevelopment.com\$24.6M\USA\1.2TB\&lt;1% DISCLOSED`](https://google.com/search?q=massdevelopment.com%5C%2424.6M%5CUSA%5C1.2TB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2024-12-18 | [`Avstar Fuel Systems`](https://google.com/search?q=Avstar+Fuel+Systems) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
