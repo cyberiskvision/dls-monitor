@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-02-12 | [`ROCK SOLID Stabilization & Reclamation`](https://google.com/search?q=ROCK+SOLID+Stabilization+%26+Reclamation) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-02-12 | [`Neaton Auto Products Manufacturing`](https://google.com/search?q=Neaton+Auto+Products+Manufacturing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-02-12 | [`Monroe Transportation Services Inc`](https://google.com/search?q=Monroe+Transportation+Services+Inc) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-02-12 | [`Mainline Information Systems`](https://google.com/search?q=Mainline+Information+Systems) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-12-19 | [`lockbit4.com`](https://google.com/search?q=lockbit4.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-12-18 | [`Archetype Group`](https://google.com/search?q=Archetype+Group) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-12-18 | [`National Atomic Energy Commission`](https://google.com/search?q=National+Atomic+Energy+Commission) | [moneymessage](https://ransomwatch.telemetry.ltd/#/profiles?id=moneymessage) |
-| 2024-12-18 | [`Cottrell P.C.`](https://google.com/search?q=Cottrell+P.C.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
