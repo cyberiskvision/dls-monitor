@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-02-13 | [`R Molds Inc`](https://google.com/search?q=R+Molds+Inc) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2025-02-13 | [`Nash Brothers Construction`](https://google.com/search?q=Nash+Brothers+Construction) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2025-02-13 | [`Nippon Steel USA`](https://google.com/search?q=Nippon+Steel+USA) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2025-02-13 | [`Financial Services of America, Inc.`](https://google.com/search?q=Financial+Services+of+America%2C+Inc.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-12-22 | [`STIIIZY Pre-Christmas publication`](https://google.com/search?q=STIIIZY+Pre-Christmas+publication) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2024-12-22 | [`NE****IT`](https://google.com/search?q=NE%2A%2A%2A%2AIT) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-12-22 | [`Wa****ls`](https://google.com/search?q=Wa%2A%2A%2A%2Als) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
-| 2024-12-22 | [`ST****ng`](https://google.com/search?q=ST%2A%2A%2A%2Ang) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
