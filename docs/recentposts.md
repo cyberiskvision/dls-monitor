@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-02-13 | [`Borel CPA's L.L.C`](https://google.com/search?q=Borel+CPA%27s+L.L.C) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2025-02-13 | [`Dain, Torpy, Le Ray, Wiest and Garner, P.C.`](https://google.com/search?q=Dain%2C+Torpy%2C+Le+Ray%2C+Wiest+and+Garner%2C+P.C.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2025-02-12 | [`http://thermaseal.net`](https://google.com/search?q=http%3A%2F%2Fthermaseal.net) | [ciphbit](https://ransomwatch.telemetry.ltd/#/profiles?id=ciphbit) |
 | 2025-02-12 | [`Tie Down Engineering`](https://google.com/search?q=Tie+Down+Engineering) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-12-22 | [`ibericar - Press Release`](https://google.com/search?q=ibericar+-+Press+Release) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2024-12-21 | [`berkotfoods.com`](https://google.com/search?q=berkotfoods.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2024-12-20 | [`Izmocars`](https://google.com/search?q=Izmocars) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
-| 2024-12-20 | [`Genie Healthcare`](https://google.com/search?q=Genie+Healthcare) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
