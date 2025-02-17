@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-02-17 | [`ssmcoop.com\$22.5M\USA\26GB\&lt;1% DISCLOSED`](https://google.com/search?q=ssmcoop.com%5C%2422.5M%5CUSA%5C26GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-02-17 | [`teamwass.com\$676.3M\USA\451GB\&lt;1% DISCLOSED`](https://google.com/search?q=teamwass.com%5C%24676.3M%5CUSA%5C451GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-02-17 | [`Swissmem`](https://google.com/search?q=Swissmem) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2025-02-17 | [`mgainnovation.com\$30.9M\USA\215GB\100% DISCLOSED`](https://google.com/search?q=mgainnovation.com%5C%2430.9M%5CUSA%5C215GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-12-23 | [`awimc.com\$102.7M\USA\440GB\&lt;1% DISCLOSED`](https://google.com/search?q=awimc.com%5C%24102.7M%5CUSA%5C440GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-12-23 | [`tsebrakes.com`](https://google.com/search?q=tsebrakes.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-12-23 | [`marmon-herrington.com`](https://google.com/search?q=marmon-herrington.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2024-12-23 | [`SmartLynx Airlines SIA`](https://google.com/search?q=SmartLynx+Airlines+SIA) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
