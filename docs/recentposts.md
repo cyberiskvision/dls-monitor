@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-02-17 | [`northernresponse.com\$17.4M\Canada\366GB\100% DISCLOSED`](https://google.com/search?q=northernresponse.com%5C%2417.4M%5CCanada%5C366GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-02-17 | [`savoiesfoods.com\$18.2M\USA\95GB\100% DISCLOSED`](https://google.com/search?q=savoiesfoods.com%5C%2418.2M%5CUSA%5C95GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-02-15 | [`halex.com`](https://google.com/search?q=halex.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2025-02-14 | [`The Agency`](https://google.com/search?q=The+Agency) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-12-23 | [`9fsfalcons.org`](https://google.com/search?q=9fsfalcons.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2024-12-23 | [`galatachemicals.com\$100M\USA\1.7TB\&lt;1% DISCLOSED`](https://google.com/search?q=galatachemicals.com%5C%24100M%5CUSA%5C1.7TB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2024-12-23 | [`ptcky.com\$5M\USA\902GB\&lt;1% DISCLOSED`](https://google.com/search?q=ptcky.com%5C%245M%5CUSA%5C902GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2024-12-23 | [`adveo.com\$740.7M\France\1.1TB\&lt;1% DISCLOSED`](https://google.com/search?q=adveo.com%5C%24740.7M%5CFrance%5C1.1TB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
