@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-02-18 | [`Wylie Steel Fabricators`](https://google.com/search?q=Wylie+Steel+Fabricators) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-02-18 | [`Weed Man Canada`](https://google.com/search?q=Weed+Man+Canada) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-02-18 | [`Transkid`](https://google.com/search?q=Transkid) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-02-18 | [`Startek Peglar & Calcagni`](https://google.com/search?q=Startek+Peglar+%26+Calcagni) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-12-28 | [`STEG Stadtentwicklung`](https://google.com/search?q=STEG+Stadtentwicklung) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
 | 2024-12-28 | [`Cell C`](https://google.com/search?q=Cell+C) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-12-28 | [`Ire-Omba SpA`](https://google.com/search?q=Ire-Omba+SpA) | [ragroup](https://ransomwatch.telemetry.ltd/#/profiles?id=ragroup) |
-| 2024-12-27 | [`[DISCLOSED] KuiperCompagnons`](https://google.com/search?q=%5BDISCLOSED%5D+KuiperCompagnons) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
