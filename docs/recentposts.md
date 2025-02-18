@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-02-18 | [`Rheinischer Sch`](https://google.com/search?q=Rheinischer+Sch) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-02-18 | [`Oxford Companies`](https://google.com/search?q=Oxford+Companies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-02-18 | [`Inland Empire Distribution Systems, Inc.`](https://google.com/search?q=Inland+Empire+Distribution+Systems%2C+Inc.) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-02-17 | [`Cuna Supply`](https://google.com/search?q=Cuna+Supply) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2024-12-27 | [`[DISCLOSED] INFiLED`](https://google.com/search?q=%5BDISCLOSED%5D+INFiLED) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2024-12-26 | [`Family Help & Wellness`](https://google.com/search?q=Family+Help+%26+Wellness) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2024-12-26 | [`Associates`](https://google.com/search?q=Associates) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
-| 2024-12-26 | [`Caframo Limited.`](https://google.com/search?q=Caframo+Limited.) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
