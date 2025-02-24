@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-02-24 | [`[EVIDENCE] Aishu, Eshoo`](https://google.com/search?q=%5BEVIDENCE%5D+Aishu%2C+Eshoo) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-02-24 | [`amalgamatedsugar.com\$764.8 M\USA\464gb\&lt;1% DISCLOSED`](https://google.com/search?q=amalgamatedsugar.com%5C%24764.8+M%5CUSA%5C464gb%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-02-22 | [`SPEED Co`](https://google.com/search?q=SPEED+Co) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2025-02-22 | [`CCOO Servicios`](https://google.com/search?q=CCOO+Servicios) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-01-09 | [`Izmocars Data Leak`](https://google.com/search?q=Izmocars+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2025-01-09 | [`CO-VER Power Technology SpA Data Leak`](https://google.com/search?q=CO-VER+Power+Technology+SpA+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2025-01-09 | [`awimc.com\$102.7M\USA\440GB\100% DISCLOSED`](https://google.com/search?q=awimc.com%5C%24102.7M%5CUSA%5C440GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2025-01-08 | [`bendixengineering`](https://google.com/search?q=bendixengineering) | [ransomblog_noname](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomblog_noname) |
