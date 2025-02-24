@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-02-24 | [`chfindustries.com\$253.8M\USA\2.5TB\&lt;1% DISCLOSED`](https://google.com/search?q=chfindustries.com%5C%24253.8M%5CUSA%5C2.5TB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-02-24 | [`aiibeauty.com\$274.8M\USA\508GB\&lt;1% DISCLOSED`](https://google.com/search?q=aiibeauty.com%5C%24274.8M%5CUSA%5C508GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-02-24 | [`formanmills.com\$422.2M\USA\846gb\&lt;1% DISCLOSED`](https://google.com/search?q=formanmills.com%5C%24422.2M%5CUSA%5C846gb%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-02-24 | [`everelgroup.com\$259M\Italy\440GB\&lt;1% DISCLOSED`](https://google.com/search?q=everelgroup.com%5C%24259M%5CItaly%5C440GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-01-10 | [`massdevelopment.com\$24.6M\USA\1.2TB\100% DISCLOSED`](https://google.com/search?q=massdevelopment.com%5C%2424.6M%5CUSA%5C1.2TB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-01-10 | [`ptcky.com\$5M\USA\902GB\100% DISCLOSED`](https://google.com/search?q=ptcky.com%5C%245M%5CUSA%5C902GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-01-10 | [`Evidn`](https://google.com/search?q=Evidn) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
-| 2025-01-09 | [`Sarah Car Care Data Leak`](https://google.com/search?q=Sarah+Car+Care+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
