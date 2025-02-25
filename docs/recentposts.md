@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-02-25 | [`bluedge.com\$104.5M\USA\994GB\&lt;1% DISCLOSED`](https://google.com/search?q=bluedge.com%5C%24104.5M%5CUSA%5C994GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-02-25 | [`unila.edu.mx`](https://google.com/search?q=unila.edu.mx) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-02-25 | [`ossc.mx`](https://google.com/search?q=ossc.mx) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-02-25 | [`essenzamovies.com.br`](https://google.com/search?q=essenzamovies.com.br) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-01-11 | [`Brachot`](https://google.com/search?q=Brachot) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2025-01-11 | [`Avril Supermarché Santé`](https://google.com/search?q=Avril+Supermarch%C3%A9+Sant%C3%A9) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
 | 2025-01-11 | [`Mortgage Investors Group (MIG)`](https://google.com/search?q=Mortgage+Investors+Group+%28MIG%29) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
-| 2025-01-11 | [`Bnext.nl`](https://google.com/search?q=Bnext.nl) | [blackbasta](https://ransomwatch.telemetry.ltd/#/profiles?id=blackbasta) |
