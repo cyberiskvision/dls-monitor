@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-02-26 | [`Nationz Technologies Inc.`](https://google.com/search?q=Nationz+Technologies+Inc.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-02-26 | [`Kendall Auto Group`](https://google.com/search?q=Kendall+Auto+Group) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2025-02-26 | [`Omni United`](https://google.com/search?q=Omni+United) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2025-02-26 | [`holtcat.com\$1B\USA\868GB\&lt;1% DISCLOSED`](https://google.com/search?q=holtcat.com%5C%241B%5CUSA%5C868GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-01-13 | [`adveo.com\$740.7M\France\1.1TB\100% DISCLOSED`](https://google.com/search?q=adveo.com%5C%24740.7M%5CFrance%5C1.1TB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-01-12 | [`Unisource Information Services`](https://google.com/search?q=Unisource+Information+Services) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2025-01-12 | [`T. Hasegawa USA`](https://google.com/search?q=T.+Hasegawa+USA) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2025-01-11 | [`RocSearch`](https://google.com/search?q=RocSearch) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
