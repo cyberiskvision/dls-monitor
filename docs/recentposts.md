@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-02-26 | [`3cBSI`](https://google.com/search?q=3cBSI) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-02-26 | [`Story Environmental`](https://google.com/search?q=Story+Environmental) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-02-26 | [`Muller Insurance`](https://google.com/search?q=Muller+Insurance) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-02-26 | [`Nationz Technologies Inc.`](https://google.com/search?q=Nationz+Technologies+Inc.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-01-13 | [`atpformosa.gob.ar`](https://google.com/search?q=atpformosa.gob.ar) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-01-13 | [`Welcomehallmission.com`](https://google.com/search?q=Welcomehallmission.com) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2025-01-13 | [`telering.de`](https://google.com/search?q=telering.de) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2025-01-13 | [`adveo.com\$740.7M\France\1.1TB\100% DISCLOSED`](https://google.com/search?q=adveo.com%5C%24740.7M%5CFrance%5C1.1TB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
