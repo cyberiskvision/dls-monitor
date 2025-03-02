@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-03-02 | [`Ganong Bros`](https://google.com/search?q=Ganong+Bros) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-03-02 | [`Couri Insurance Agency`](https://google.com/search?q=Couri+Insurance+Agency) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-03-02 | [`gruppocogesi.org`](https://google.com/search?q=gruppocogesi.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-03-02 | [`FM.GOB.AR`](https://google.com/search?q=FM.GOB.AR) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-01-23 | [`Cyrious Software`](https://google.com/search?q=Cyrious+Software) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2025-01-23 | [`Medical Associates of Brevard`](https://google.com/search?q=Medical+Associates+of+Brevard) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2025-01-22 | [`Omni Fiber LLC - Press Release`](https://google.com/search?q=Omni+Fiber+LLC+-+Press+Release) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
-| 2025-01-21 | [`Solaris-pharma.com leakage`](https://google.com/search?q=Solaris-pharma.com+leakage) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
