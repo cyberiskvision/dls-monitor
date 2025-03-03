@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-03-03 | [`quigleyeye.com\$33.6M\USA\435GB\&lt;1% DISCLOSED`](https://google.com/search?q=quigleyeye.com%5C%2433.6M%5CUSA%5C435GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-03-03 | [`ceratec.com`](https://google.com/search?q=ceratec.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2025-03-03 | [`britannicahome.com\$20.6M\USA\2.8TB\100% DISCLOSED`](https://google.com/search?q=britannicahome.com%5C%2420.6M%5CUSA%5C2.8TB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-03-03 | [`kinseysinc.com\$74.9M\USA\675GB\100% DISCLOSED`](https://google.com/search?q=kinseysinc.com%5C%2474.9M%5CUSA%5C675GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-01-28 | [`BBLAWFIRM`](https://google.com/search?q=BBLAWFIRM) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2025-01-28 | [`lnetwork`](https://google.com/search?q=lnetwork) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2025-01-28 | [`metalurgica roma`](https://google.com/search?q=metalurgica+roma) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
-| 2025-01-28 | [`Carthage Police Department`](https://google.com/search?q=Carthage+Police+Department) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
