@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-03-04 | [`Ewald Consulting`](https://google.com/search?q=Ewald+Consulting) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2025-03-03 | [`almostfamousclothing.com\$183M\USA\375GB\100% DISCLOSED`](https://google.com/search?q=almostfamousclothing.com%5C%24183M%5CUSA%5C375GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-03-03 | [`ssmcoop.com\$22.5M\USA\26GB\100% DISCLOSED`](https://google.com/search?q=ssmcoop.com%5C%2422.5M%5CUSA%5C26GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-03-03 | [`everelgroup.com\$259M\Italy\440GB\100% DISCLOSED`](https://google.com/search?q=everelgroup.com%5C%24259M%5CItaly%5C440GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-01-29 | [`Commercial & Residential Management Group`](https://google.com/search?q=Commercial+%26+Residential+Management+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-01-29 | [`Cahoon Farms`](https://google.com/search?q=Cahoon+Farms) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-01-29 | [`By design`](https://google.com/search?q=By+design) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-01-29 | [`Cimarron Telephone Company`](https://google.com/search?q=Cimarron+Telephone+Company) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
