@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-03-05 | [`Best Collateral, Inc.`](https://google.com/search?q=Best+Collateral%2C+Inc.) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-03-04 | [`365labs - Security Corp`](https://google.com/search?q=365labs+-+Security+Corp) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2025-03-04 | [`Phoenix`](https://google.com/search?q=Phoenix) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2025-03-04 | [`Keystone Pacific Property Management LLC`](https://google.com/search?q=Keystone+Pacific+Property+Management+LLC) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-01-30 | [`biagibros.com\$273M\USA\820GB\&lt;1% DISCLOSED`](https://google.com/search?q=biagibros.com%5C%24273M%5CUSA%5C820GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-01-30 | [`alkodistributors.com\$33.5M\USA\345GB\&lt;1% DISCLOSED`](https://google.com/search?q=alkodistributors.com%5C%2433.5M%5CUSA%5C345GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-01-29 | [`daVinci`](https://google.com/search?q=daVinci) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-01-29 | [`Wallin & Klarich`](https://google.com/search?q=Wallin+%26+Klarich) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
