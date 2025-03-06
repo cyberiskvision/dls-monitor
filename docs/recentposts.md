@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-03-06 | [`electrocraft.com\$190.1M\USA\477GB\100% DISCLOSED`](https://google.com/search?q=electrocraft.com%5C%24190.1M%5CUSA%5C477GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-03-06 | [`holtcat.com\$1B\USA\868GB\100% DISCLOSED`](https://google.com/search?q=holtcat.com%5C%241B%5CUSA%5C868GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-03-05 | [`Best Collateral, Inc.`](https://google.com/search?q=Best+Collateral%2C+Inc.) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-03-04 | [`365labs - Security Corp`](https://google.com/search?q=365labs+-+Security+Corp) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-01-30 | [`FENSTERMAKER`](https://google.com/search?q=FENSTERMAKER) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2025-01-30 | [`bancodevenez`](https://google.com/search?q=bancodevenez) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-01-30 | [`biagibros.com\$273M\USA\820GB\&lt;1% DISCLOSED`](https://google.com/search?q=biagibros.com%5C%24273M%5CUSA%5C820GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2025-01-30 | [`alkodistributors.com\$33.5M\USA\345GB\&lt;1% DISCLOSED`](https://google.com/search?q=alkodistributors.com%5C%2433.5M%5CUSA%5C345GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
