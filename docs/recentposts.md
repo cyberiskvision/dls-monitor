@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-03-09 | [`British virgin islands London Office`](https://google.com/search?q=British+virgin+islands+London+Office) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-03-08 | [`Allworx`](https://google.com/search?q=Allworx) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2025-03-08 | [`Island Realty`](https://google.com/search?q=Island+Realty) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2025-03-07 | [`Minnesota Orthodontics`](https://google.com/search?q=Minnesota+Orthodontics) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-01-31 | [`Pembina Trails School Division`](https://google.com/search?q=Pembina+Trails+School+Division) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-01-30 | [`ttucorp.com\$27.6M\USA\1TB\&lt;1% DISCLOSED`](https://google.com/search?q=ttucorp.com%5C%2427.6M%5CUSA%5C1TB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-01-30 | [`jayaapparelgroup.com\$60.6M\USA\824GB\&lt;1% DISCLOSED`](https://google.com/search?q=jayaapparelgroup.com%5C%2460.6M%5CUSA%5C824GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2025-01-30 | [`johnpaulrichard.com\$60M\USA\985GB\&lt;1% DISCLOSED`](https://google.com/search?q=johnpaulrichard.com%5C%2460M%5CUSA%5C985GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
