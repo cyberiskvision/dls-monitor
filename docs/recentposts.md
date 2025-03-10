@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-03-10 | [`[DISCLOSED]Nationz Technologies Inc.`](https://google.com/search?q=%5BDISCLOSED%5DNationz+Technologies+Inc.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-03-10 | [`The Loretto Hospital`](https://google.com/search?q=The+Loretto+Hospital) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-03-09 | [`Yorke & Curtis`](https://google.com/search?q=Yorke+%26+Curtis) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-03-09 | [`T J Machine & Tool`](https://google.com/search?q=T+J+Machine+%26+Tool) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-02-03 | [`[EVIDANCE] AIshu, Eshoo`](https://google.com/search?q=%5BEVIDANCE%5D+AIshu%2C+Eshoo) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-02-03 | [`Dickerson & Nieman Realtors`](https://google.com/search?q=Dickerson+%26+Nieman+Realtors) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-02-03 | [`Daniel Island Club`](https://google.com/search?q=Daniel+Island+Club) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-02-03 | [`DPC Development`](https://google.com/search?q=DPC+Development) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
