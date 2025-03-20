@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-03-20 | [`yano.tokyo`](https://google.com/search?q=yano.tokyo) | [blackout](https://ransomwatch.telemetry.ltd/#/profiles?id=blackout) |
 | 2025-03-20 | [`Cargills Bank`](https://google.com/search?q=Cargills+Bank) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2025-03-20 | [`Megacentro`](https://google.com/search?q=Megacentro) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2025-03-19 | [`Q railing`](https://google.com/search?q=Q+railing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-02-12 | [`Kensington Glass Arts`](https://google.com/search?q=Kensington+Glass+Arts) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-02-12 | [`Omni Fiber LLC`](https://google.com/search?q=Omni+Fiber+LLC) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2025-02-12 | [`Jildor Shoes`](https://google.com/search?q=Jildor+Shoes) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-02-12 | [`Fastighetsservice AB`](https://google.com/search?q=Fastighetsservice+AB) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
