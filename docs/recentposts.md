@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-03-31 | [`CMC Technology Group`](https://google.com/search?q=CMC+Technology+Group) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2025-03-31 | [`Meridian Senior`](https://google.com/search?q=Meridian+Senior) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2025-03-31 | [`Saunders and Saunders`](https://google.com/search?q=Saunders+and+Saunders) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2025-03-31 | [`Sonrisas Dental Health`](https://google.com/search?q=Sonrisas+Dental+Health) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-02-17 | [`savoiesfoods.com\$18.2M\USA\95GB\100% DISCLOSED`](https://google.com/search?q=savoiesfoods.com%5C%2418.2M%5CUSA%5C95GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-02-15 | [`halex.com`](https://google.com/search?q=halex.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2025-02-14 | [`The Agency`](https://google.com/search?q=The+Agency) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
-| 2025-02-13 | [`Shields Facilities Maintenance`](https://google.com/search?q=Shields+Facilities+Maintenance) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
