@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-04-02 | [`OTA Management`](https://google.com/search?q=OTA+Management) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-02 | [`Lifebreath`](https://google.com/search?q=Lifebreath) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-02 | [`Hop Industries`](https://google.com/search?q=Hop+Industries) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-02 | [`A little gift of exclusive data for everyone`](https://google.com/search?q=A+little+gift+of+exclusive+data+for+everyone) | [daixin](https://ransomwatch.telemetry.ltd/#/profiles?id=daixin) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-02-17 | [`The Townsley Law Firm Information`](https://google.com/search?q=The+Townsley+Law+Firm+Information) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-02-17 | [`almostfamousclothing.com\$183M\USA\375GB\&lt;1% DISCLOSED`](https://google.com/search?q=almostfamousclothing.com%5C%24183M%5CUSA%5C375GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-02-17 | [`https://www.dapope.com/`](https://google.com/search?q=https%3A%2F%2Fwww.dapope.com%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2025-02-17 | [`ssmcoop.com\$22.5M\USA\26GB\&lt;1% DISCLOSED`](https://google.com/search?q=ssmcoop.com%5C%2422.5M%5CUSA%5C26GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
