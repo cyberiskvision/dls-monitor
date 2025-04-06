@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-04-06 | [`Swiss Capitals Group`](https://google.com/search?q=Swiss+Capitals+Group) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-04-05 | [`Hawk Technology`](https://google.com/search?q=Hawk+Technology) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-05 | [`Csm Engineering`](https://google.com/search?q=Csm+Engineering) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-05 | [`Baltimore Steel Erectors`](https://google.com/search?q=Baltimore+Steel+Erectors) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-02-18 | [`revitalash.com\$21.5M\USA\1.2TB\&lt;1% DISCLOSED`](https://google.com/search?q=revitalash.com%5C%2421.5M%5CUSA%5C1.2TB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-02-18 | [`bestbrands.com\$25.5M\USA\659GB\&lt;1% DISCLOSED`](https://google.com/search?q=bestbrands.com%5C%2425.5M%5CUSA%5C659GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-02-18 | [`kinseysinc.com\$74.9M\USA\675GB\&lt;1% DISCLOSED`](https://google.com/search?q=kinseysinc.com%5C%2474.9M%5CUSA%5C675GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2025-02-18 | [`steelerubber.com\$17.9M\USA\116GB\&lt;1% DISCLOSED`](https://google.com/search?q=steelerubber.com%5C%2417.9M%5CUSA%5C116GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
