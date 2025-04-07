@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-04-07 | [`Telecontrol`](https://google.com/search?q=Telecontrol) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-04-07 | [`[DISCLOSED]Cell C`](https://google.com/search?q=%5BDISCLOSED%5DCell+C) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-04-06 | [`asiapacificex.com`](https://google.com/search?q=asiapacificex.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-04-06 | [`IDS Infotech`](https://google.com/search?q=IDS+Infotech) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-02-22 | [`CCOO Servicios`](https://google.com/search?q=CCOO+Servicios) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2025-02-22 | [`Peter Glenn Ski Sport`](https://google.com/search?q=Peter+Glenn+Ski+Sport) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-02-20 | [`newhorizonsbaking.com\$163M\USA\455GB\&lt;1% DISCLOSED`](https://google.com/search?q=newhorizonsbaking.com%5C%24163M%5CUSA%5C455GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2025-02-19 | [`Supreme Administrative Court of Bulgaria`](https://google.com/search?q=Supreme+Administrative+Court+of+Bulgaria) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
