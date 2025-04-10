@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-04-10 | [`Bonick Landscaping`](https://google.com/search?q=Bonick+Landscaping) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-08 | [`physiciansmedicalbilling.net`](https://google.com/search?q=physiciansmedicalbilling.net) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-04-08 | [`https://www.thirdave.com`](https://google.com/search?q=https%3A%2F%2Fwww.thirdave.com) | [metaencryptor](https://ransomwatch.telemetry.ltd/#/profiles?id=metaencryptor) |
 | 2025-04-08 | [`crystal-d.com`](https://google.com/search?q=crystal-d.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-02-24 | [`regulvar.com\$253.5M\Canada\3.6TB\&lt;1% DISCLOSED`](https://google.com/search?q=regulvar.com%5C%24253.5M%5CCanada%5C3.6TB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-02-24 | [`[EVIDENCE] Aishu, Eshoo`](https://google.com/search?q=%5BEVIDENCE%5D+Aishu%2C+Eshoo) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-02-24 | [`amalgamatedsugar.com\$764.8 M\USA\464gb\&lt;1% DISCLOSED`](https://google.com/search?q=amalgamatedsugar.com%5C%24764.8+M%5CUSA%5C464gb%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2025-02-22 | [`SPEED Co`](https://google.com/search?q=SPEED+Co) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
