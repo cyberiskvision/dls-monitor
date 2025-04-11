@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-04-11 | [`C?l???t Group`](https://google.com/search?q=C%3Fl%3F%3F%3Ft+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-11 | [`The Study`](https://google.com/search?q=The+Study) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-11 | [`Sfrent.net`](https://google.com/search?q=Sfrent.net) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-11 | [`PAC Strapping Products`](https://google.com/search?q=PAC+Strapping+Products) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-02-25 | [`unila.edu.mx`](https://google.com/search?q=unila.edu.mx) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-02-25 | [`ossc.mx`](https://google.com/search?q=ossc.mx) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-02-25 | [`essenzamovies.com.br`](https://google.com/search?q=essenzamovies.com.br) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2025-02-25 | [`Nichino Ryokka Co Ltd`](https://google.com/search?q=Nichino+Ryokka+Co+Ltd) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
