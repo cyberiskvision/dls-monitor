@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-04-11 | [`Sfrent.net`](https://google.com/search?q=Sfrent.net) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-11 | [`PAC Strapping Products`](https://google.com/search?q=PAC+Strapping+Products) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-11 | [`Noyen Construction`](https://google.com/search?q=Noyen+Construction) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-11 | [`New York Sports Club`](https://google.com/search?q=New+York+Sports+Club) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-02-25 | [`essenzamovies.com.br`](https://google.com/search?q=essenzamovies.com.br) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-02-25 | [`Nichino Ryokka Co Ltd`](https://google.com/search?q=Nichino+Ryokka+Co+Ltd) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2025-02-24 | [`[DISCLOSED] Aishu, Eshoo`](https://google.com/search?q=%5BDISCLOSED%5D+Aishu%2C+Eshoo) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
-| 2025-02-24 | [`chfindustries.com\$253.8M\USA\2.5TB\&lt;1% DISCLOSED`](https://google.com/search?q=chfindustries.com%5C%24253.8M%5CUSA%5C2.5TB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
