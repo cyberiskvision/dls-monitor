@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-04-15 | [`Waller`](https://google.com/search?q=Waller) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-15 | [`Voigt-Abernathy Company`](https://google.com/search?q=Voigt-Abernathy+Company) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-15 | [`O'Brien & Ryan`](https://google.com/search?q=O%27Brien+%26+Ryan) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-15 | [`Miller Boskus Lack Architects`](https://google.com/search?q=Miller+Boskus+Lack+Architects) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-02-26 | [`Muller Insurance`](https://google.com/search?q=Muller+Insurance) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-02-26 | [`Nationz Technologies Inc.`](https://google.com/search?q=Nationz+Technologies+Inc.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-02-26 | [`Kendall Auto Group`](https://google.com/search?q=Kendall+Auto+Group) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2025-02-26 | [`Omni United`](https://google.com/search?q=Omni+United) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
