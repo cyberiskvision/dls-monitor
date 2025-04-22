@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-04-22 | [`All Book Covers`](https://google.com/search?q=All+Book+Covers) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-22 | [`Bacton Transport Services`](https://google.com/search?q=Bacton+Transport+Services) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-04-22 | [`Acos Favorit`](https://google.com/search?q=Acos+Favorit) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-04-21 | [`C-Mec`](https://google.com/search?q=C-Mec) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-03-01 | [`uniquehd.com\$13.7M\USA\429GB\100% DISCLOSED`](https://google.com/search?q=uniquehd.com%5C%2413.7M%5CUSA%5C429GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-03-01 | [`stanleyconsultants.com\$190.5M\USA\388GB\&lt;1% DISCLOSED`](https://google.com/search?q=stanleyconsultants.com%5C%24190.5M%5CUSA%5C388GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-03-01 | [`electrocraft.com\$190.1M\USA\477GB\&lt;1% DISCLOSED`](https://google.com/search?q=electrocraft.com%5C%24190.1M%5CUSA%5C477GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2025-03-01 | [`associatedasset.com\$288M\USA\26GB\&lt;1% DISCLOSED`](https://google.com/search?q=associatedasset.com%5C%24288M%5CUSA%5C26GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
