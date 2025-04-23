@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-04-23 | [`Milicic`](https://google.com/search?q=Milicic) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-04-23 | [`Mafi`](https://google.com/search?q=Mafi) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2025-04-23 | [`The Human Bean`](https://google.com/search?q=The+Human+Bean) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-23 | [`Suburban Carting`](https://google.com/search?q=Suburban+Carting) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-03-02 | [`FM.GOB.AR`](https://google.com/search?q=FM.GOB.AR) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2025-03-02 | [`uniekinc.com\$37.5M\USA\1.8TB\100% DISCLOSED`](https://google.com/search?q=uniekinc.com%5C%2437.5M%5CUSA%5C1.8TB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-03-02 | [`midwayimporting.com\$43.7M\USA\915GB\100% DISCLOSED`](https://google.com/search?q=midwayimporting.com%5C%2443.7M%5CUSA%5C915GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2025-03-02 | [`revitalash.com\$21.5M\USA\1.2TB\100% DISCLOSED`](https://google.com/search?q=revitalash.com%5C%2421.5M%5CUSA%5C1.2TB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
