@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-04-25 | [`Kenworth Del Sur`](https://google.com/search?q=Kenworth+Del+Sur) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2025-04-25 | [`Kasb Bank - K-Trade`](https://google.com/search?q=Kasb+Bank+-+K-Trade) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2025-04-24 | [`https://www.pacmet.com`](https://google.com/search?q=https%3A%2F%2Fwww.pacmet.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2025-04-24 | [`https://fortunesociety.org/`](https://google.com/search?q=https%3A%2F%2Ffortunesociety.org%2F) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-03-02 | [`IT-IQ Botswana`](https://google.com/search?q=IT-IQ+Botswana) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-03-02 | [`Ganong Bros`](https://google.com/search?q=Ganong+Bros) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-03-02 | [`Couri Insurance Agency`](https://google.com/search?q=Couri+Insurance+Agency) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-03-02 | [`gruppocogesi.org`](https://google.com/search?q=gruppocogesi.org) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
