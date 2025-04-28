@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-04-28 | [`Scientel Solutions`](https://google.com/search?q=Scientel+Solutions) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-27 | [`Mantel Machine Products`](https://google.com/search?q=Mantel+Machine+Products) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-27 | [`Haas & Associates`](https://google.com/search?q=Haas+%26+Associates) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-27 | [`FMT Consultants`](https://google.com/search?q=FMT+Consultants) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-03-03 | [`steelerubber.com\$17.9M\USA\116GB\100% DISCLOSED`](https://google.com/search?q=steelerubber.com%5C%2417.9M%5CUSA%5C116GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-03-03 | [`Pre Con Industries`](https://google.com/search?q=Pre+Con+Industries) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-03-03 | [`Optometrics`](https://google.com/search?q=Optometrics) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-03-02 | [`North American Fire Hose`](https://google.com/search?q=North+American+Fire+Hose) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
