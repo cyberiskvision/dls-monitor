@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-05-03 | [`American Eagle Logistics - Press Release`](https://google.com/search?q=American+Eagle+Logistics+-+Press+Release) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2025-05-02 | [`[DISCLOSED]Imedexsa`](https://google.com/search?q=%5BDISCLOSED%5DImedexsa) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-05-02 | [`Government of Peru`](https://google.com/search?q=Government+of+Peru) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-05-02 | [`The Seydel Companies`](https://google.com/search?q=The+Seydel+Companies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-03-07 | [`alphabaking.com\$421.9M\USA\1TB\100% DISCLOSED`](https://google.com/search?q=alphabaking.com%5C%24421.9M%5CUSA%5C1TB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-03-06 | [`agi.net`](https://google.com/search?q=agi.net) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2025-03-06 | [`stanleyconsultants.com\$190.5M\USA\388GB\100% DISCLOSED`](https://google.com/search?q=stanleyconsultants.com%5C%24190.5M%5CUSA%5C388GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2025-03-06 | [`electrocraft.com\$190.1M\USA\477GB\100% DISCLOSED`](https://google.com/search?q=electrocraft.com%5C%24190.1M%5CUSA%5C477GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
