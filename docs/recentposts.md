@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-05-05 | [`Alberta Construction Safety Association`](https://google.com/search?q=Alberta+Construction+Safety+Association) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-05 | [`ATI Systems`](https://google.com/search?q=ATI+Systems) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-05 | [`Technical Die-Casting`](https://google.com/search?q=Technical+Die-Casting) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-05 | [`OeTTINGER Brauerei`](https://google.com/search?q=OeTTINGER+Brauerei) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-03-08 | [`Allworx`](https://google.com/search?q=Allworx) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2025-03-08 | [`Island Realty`](https://google.com/search?q=Island+Realty) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
 | 2025-03-07 | [`Minnesota Orthodontics`](https://google.com/search?q=Minnesota+Orthodontics) | [bianlian](https://ransomwatch.telemetry.ltd/#/profiles?id=bianlian) |
-| 2025-03-07 | [`associatedasset.com\$288M\USA\26GB\100% DISCLOSED`](https://google.com/search?q=associatedasset.com%5C%24288M%5CUSA%5C26GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
