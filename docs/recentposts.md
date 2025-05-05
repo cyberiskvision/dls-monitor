@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-05-05 | [`Novosit`](https://google.com/search?q=Novosit) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-05 | [`Marine Technical Surveyors`](https://google.com/search?q=Marine+Technical+Surveyors) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-05 | [`Downtown Travel`](https://google.com/search?q=Downtown+Travel) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-05 | [`Breen Construction Services`](https://google.com/search?q=Breen+Construction+Services) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-03-09 | [`Compound Solutions`](https://google.com/search?q=Compound+Solutions) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-03-09 | [`Clawson Honda`](https://google.com/search?q=Clawson+Honda) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-03-09 | [`Buckley BalaWilson Mew`](https://google.com/search?q=Buckley+BalaWilson+Mew) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-03-09 | [`British virgin islands London Office`](https://google.com/search?q=British+virgin+islands+London+Office) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
