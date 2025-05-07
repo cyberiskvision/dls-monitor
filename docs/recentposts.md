@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-05-07 | [`vzlom7may.omg`](https://google.com/search?q=vzlom7may.omg) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-05-07 | [`Amtech Software`](https://google.com/search?q=Amtech+Software) | [monti](https://ransomwatch.telemetry.ltd/#/profiles?id=monti) |
 | 2025-05-06 | [`ehlers-inc.com`](https://google.com/search?q=ehlers-inc.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-05-06 | [`Commune de Jemeppe-sur-Sambre`](https://google.com/search?q=Commune+de+Jemeppe-sur-Sambre) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-03-10 | [`[DISCLOSED]Nationz Technologies Inc.`](https://google.com/search?q=%5BDISCLOSED%5DNationz+Technologies+Inc.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-03-10 | [`The Loretto Hospital`](https://google.com/search?q=The+Loretto+Hospital) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-03-09 | [`Yorke & Curtis`](https://google.com/search?q=Yorke+%26+Curtis) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-03-09 | [`T J Machine & Tool`](https://google.com/search?q=T+J+Machine+%26+Tool) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
