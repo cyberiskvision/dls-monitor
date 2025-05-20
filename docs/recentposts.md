@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-05-20 | [`Tri State Electric`](https://google.com/search?q=Tri+State+Electric) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-05-19 | [`K & K Fence`](https://google.com/search?q=K+%26+K+Fence) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-18 | [`Termolar`](https://google.com/search?q=Termolar) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-05-16 | [`Carney Badley Spellman`](https://google.com/search?q=Carney+Badley+Spellman) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-03-17 | [`baillie.com\$130.5M\USA\52GB\100% DISCLOSED`](https://google.com/search?q=baillie.com%5C%24130.5M%5CUSA%5C52GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-03-17 | [`assaabloy.com\$14.4B\Sweden\229GB\&lt;1% DISCLOSED`](https://google.com/search?q=assaabloy.com%5C%2414.4B%5CSweden%5C229GB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-03-17 | [`kyb.com\$600.5M\USA\1.8TB\&lt;1% DISCLOSED`](https://google.com/search?q=kyb.com%5C%24600.5M%5CUSA%5C1.8TB%5C%26lt%3B1%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2025-03-17 | [`bluedge.com\$104.5M\USA\994GB\100% DISCLOSED`](https://google.com/search?q=bluedge.com%5C%24104.5M%5CUSA%5C994GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
