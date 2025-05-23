@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-05-23 | [`AKJ Energiteknik`](https://google.com/search?q=AKJ+Energiteknik) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-21 | [`Greater Seattle Concrete`](https://google.com/search?q=Greater+Seattle+Concrete) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-21 | [`CNHI LLC`](https://google.com/search?q=CNHI+LLC) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-21 | [`AttainX`](https://google.com/search?q=AttainX) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-03-17 | [`CableVision`](https://google.com/search?q=CableVision) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2025-03-17 | [`urban1.com\$460.3M\USA\2.5TB\100% DISCLOSED`](https://google.com/search?q=urban1.com%5C%24460.3M%5CUSA%5C2.5TB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-03-17 | [`rocketstores.com\$738.9M\USA\3.2TB\100% DISCLOSED`](https://google.com/search?q=rocketstores.com%5C%24738.9M%5CUSA%5C3.2TB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2025-03-17 | [`tempel.com\$628.7M\USA\111GB\100% DISCLOSED`](https://google.com/search?q=tempel.com%5C%24628.7M%5CUSA%5C111GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
