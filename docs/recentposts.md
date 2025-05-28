@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-05-28 | [`Cator Ruma & Associates`](https://google.com/search?q=Cator+Ruma+%26+Associates) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-05-27 | [`Wrap & Send Services`](https://google.com/search?q=Wrap+%26+Send+Services) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2025-05-27 | [`Eight8Ate Holdings, Inc`](https://google.com/search?q=Eight8Ate+Holdings%2C+Inc) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2025-05-27 | [`Corantioquia`](https://google.com/search?q=Corantioquia) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-03-22 | [`Zaveta Custom Homes`](https://google.com/search?q=Zaveta+Custom+Homes) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-03-22 | [`REOC San Antonio`](https://google.com/search?q=REOC+San+Antonio) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-03-21 | [`https://www.orangeville.ca`](https://google.com/search?q=https%3A%2F%2Fwww.orangeville.ca) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2025-03-20 | [`yano.tokyo`](https://google.com/search?q=yano.tokyo) | [blackout](https://ransomwatch.telemetry.ltd/#/profiles?id=blackout) |
