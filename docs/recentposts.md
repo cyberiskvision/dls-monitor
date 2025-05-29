@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-05-29 | [`http://www.innsofaurora.com`](https://google.com/search?q=http%3A%2F%2Fwww.innsofaurora.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2025-05-29 | [`Mulia Raya`](https://google.com/search?q=Mulia+Raya) | [ransomblog_noname](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomblog_noname) |
 | 2025-05-29 | [`http://metromont.com`](https://google.com/search?q=http%3A%2F%2Fmetromont.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2025-05-28 | [`netspectrum.c`](https://google.com/search?q=netspectrum.c) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-03-25 | [`Kimco Steel`](https://google.com/search?q=Kimco+Steel) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-03-25 | [`B&C Industries`](https://google.com/search?q=B%26C+Industries) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-03-25 | [`ossc.com.mx`](https://google.com/search?q=ossc.com.mx) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2025-03-25 | [`fepasa.com.ar`](https://google.com/search?q=fepasa.com.ar) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
