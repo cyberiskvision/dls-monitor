@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-05-30 | [`Anchor Industries`](https://google.com/search?q=Anchor+Industries) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-30 | [`UnigazJordan`](https://google.com/search?q=UnigazJordan) | [ransomblog_noname](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomblog_noname) |
 | 2025-05-29 | [`http://www.innsofaurora.com`](https://google.com/search?q=http%3A%2F%2Fwww.innsofaurora.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2025-05-29 | [`Mulia Raya`](https://google.com/search?q=Mulia+Raya) | [ransomblog_noname](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomblog_noname) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-03-26 | [`Genie Healthcare Data Leak`](https://google.com/search?q=Genie+Healthcare+Data+Leak) | [everest](https://ransomwatch.telemetry.ltd/#/profiles?id=everest) |
 | 2025-03-25 | [`usCalibration`](https://google.com/search?q=usCalibration) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-03-25 | [`Kimco Steel`](https://google.com/search?q=Kimco+Steel) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-03-25 | [`B&C Industries`](https://google.com/search?q=B%26C+Industries) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
