@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-06-16 | [`CNPC USA`](https://google.com/search?q=CNPC+USA) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-06-15 | [`tegai`](https://google.com/search?q=tegai) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-06-14 | [`S&H Express`](https://google.com/search?q=S%26H+Express) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-06-14 | [`Rollex`](https://google.com/search?q=Rollex) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-04-03 | [`Regionale Verkehrsbetriebe`](https://google.com/search?q=Regionale+Verkehrsbetriebe) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-03 | [`Parvin-Clauss Sign Company`](https://google.com/search?q=Parvin-Clauss+Sign+Company) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-02 | [`OTA Management`](https://google.com/search?q=OTA+Management) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-04-02 | [`Lifebreath`](https://google.com/search?q=Lifebreath) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
