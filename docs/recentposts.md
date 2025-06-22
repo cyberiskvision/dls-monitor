@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-06-22 | [`Fisher59`](https://google.com/search?q=Fisher59) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-06-22 | [`Dairy Farmers of America`](https://google.com/search?q=Dairy+Farmers+of+America) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-06-19 | [`Vacation Myrtle Beach`](https://google.com/search?q=Vacation+Myrtle+Beach) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-06-19 | [`Place Homes`](https://google.com/search?q=Place+Homes) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-04-05 | [`Blackmon Mooring`](https://google.com/search?q=Blackmon+Mooring) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2025-04-05 | [`grupotersa.com.mx`](https://google.com/search?q=grupotersa.com.mx) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-04-04 | [`https://www.mmwec.org`](https://google.com/search?q=https%3A%2F%2Fwww.mmwec.org) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
-| 2025-04-04 | [`Royal Glass`](https://google.com/search?q=Royal+Glass) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
