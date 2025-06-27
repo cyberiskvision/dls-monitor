@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-06-27 | [`Carter Manufacturing`](https://google.com/search?q=Carter+Manufacturing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-06-27 | [`Cartel Communication Systems`](https://google.com/search?q=Cartel+Communication+Systems) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-06-27 | [`CGP&H`](https://google.com/search?q=CGP%26H) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-06-27 | [`Associated Packaging`](https://google.com/search?q=Associated+Packaging) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-04-05 | [`Hawk Technology`](https://google.com/search?q=Hawk+Technology) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-05 | [`Csm Engineering`](https://google.com/search?q=Csm+Engineering) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-05 | [`Baltimore Steel Erectors`](https://google.com/search?q=Baltimore+Steel+Erectors) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-04-05 | [`ABITL Finishing`](https://google.com/search?q=ABITL+Finishing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
