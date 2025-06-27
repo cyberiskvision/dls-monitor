@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-06-27 | [`CGP&H`](https://google.com/search?q=CGP%26H) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-06-27 | [`Associated Packaging`](https://google.com/search?q=Associated+Packaging) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-06-26 | [`Merlin Industries`](https://google.com/search?q=Merlin+Industries) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-06-22 | [`Ovalstrapping`](https://google.com/search?q=Ovalstrapping) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-04-05 | [`Baltimore Steel Erectors`](https://google.com/search?q=Baltimore+Steel+Erectors) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-05 | [`ABITL Finishing`](https://google.com/search?q=ABITL+Finishing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-05 | [`TEDOM`](https://google.com/search?q=TEDOM) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2025-04-05 | [`Nexia Poyiadjis IT`](https://google.com/search?q=Nexia+Poyiadjis+IT) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
