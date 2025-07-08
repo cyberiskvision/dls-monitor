@@ -1,25 +1,655 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Welcome to nginx!</title>
-<style>
-    body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RebornVC</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background: linear-gradient(135deg, rgb(5,5,5) 0%, rgb(15,15,15) 100%);
+            color: white;
+            min-height: 100vh;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .navbar {
+            background: rgba(15, 15, 15, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1.2rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 83, 83, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .navbar-brand {
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #ff5353, #ff7373);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: -0.5px;
+        }
+
+        .navbar-nav {
+            display: flex;
+            gap: 2.5rem;
+        }
+
+        .nav-item {
+            position: relative;
+        }
+
+        .nav-link {
+            color: #e0e0e0;
+            text-decoration: none;
+            padding: 0.75rem 1.25rem;
+            border-radius: 8px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 500;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .nav-link::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(255, 83, 83, 0.1), rgba(255, 115, 115, 0.1));
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            border-radius: 8px;
+        }
+
+        .nav-link:hover::before {
+            opacity: 1;
+        }
+
+        .nav-link:hover {
+            color: #ff5353;
+            transform: translateY(-1px);
+        }
+
+        .dropdown-panel {
+            position: absolute;
+            top: calc(100% + 10px);
+            right: 0;
+            background: rgba(20, 20, 20, 0.95);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 83, 83, 0.2);
+            border-radius: 12px;
+            padding: 2rem;
+            min-width: 350px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-20px) scale(0.95);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 1000;
+        }
+
+        .dropdown-panel.active {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0) scale(1);
+        }
+
+        .dropdown-panel h3 {
+            color: #ff5353;
+            margin-bottom: 1.5rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-align: center;
+            position: relative;
+        }
+
+        .dropdown-panel h3::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40px;
+            height: 2px;
+            background: linear-gradient(90deg, #ff5353, #ff7373);
+            border-radius: 1px;
+        }
+
+        .benefits-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .benefits-list li {
+            color: #e0e0e0;
+            font-size: 0.9rem;
+            padding: 0.5rem;
+            background: rgba(30, 30, 30, 0.5);
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            border-left: 3px solid transparent;
+        }
+
+        .benefits-list li:hover {
+            background: rgba(255, 83, 83, 0.1);
+            border-left-color: #ff5353;
+            transform: translateX(5px);
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .contact-info p {
+            text-align: center;
+            color: #e0e0e0;
+            font-weight: 500;
+        }
+
+        .tox-container {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            background: rgba(30, 30, 30, 0.8);
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 83, 83, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .tox-container:hover {
+            border-color: #ff5353;
+            box-shadow: 0 0 20px rgba(255, 83, 83, 0.2);
+        }
+
+        .tox-id {
+            font-family: 'JetBrains Mono', 'Fira Code', monospace;
+            font-size: 0.8rem;
+            color: #ff5353;
+            flex: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 0.5rem;
+            border-radius: 4px;
+        }
+
+        .copy-btn {
+            background: linear-gradient(135deg, #ff5353, #ff3333);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.25rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.85rem;
+            font-weight: 600;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .copy-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .copy-btn:hover::before {
+            left: 100%;
+        }
+
+        .copy-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(255, 83, 83, 0.4);
+        }
+
+        .copy-btn.copied {
+            background: linear-gradient(135deg, #4CAF50, #45a049);
+        }
+
+        .chevron {
+            width: 12px;
+            height: 12px;
+            border-right: 2px solid currentColor;
+            border-bottom: 2px solid currentColor;
+            transform: rotate(45deg);
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .nav-link.active .chevron {
+            transform: rotate(-135deg);
+        }
+
+        .main-content {
+            padding: 3rem 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: calc(100vh - 100px);
+            position: relative;
+        }
+
+        .main-content::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 50% 50%, rgba(255, 83, 83, 0.05) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .container {
+            max-width: 900px;
+            width: 100%;
+            padding: 2.5rem;
+            background: rgba(20, 20, 20, 0.8);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            text-align: center;
+            border: 1px solid rgba(255, 83, 83, 0.1);
+            position: relative;
+            z-index: 1;
+        }
+
+        .container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(255, 83, 83, 0.05) 0%, transparent 50%);
+            border-radius: 16px;
+            pointer-events: none;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            background: linear-gradient(135deg, #ff5353, #ff7373);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+            letter-spacing: -1px;
+        }
+
+        .description {
+            text-align: left;
+            margin-bottom: 2.5rem;
+            color: #e0e0e0;
+            background: rgba(25, 25, 25, 0.8);
+            padding: 2rem;
+            border-radius: 12px;
+            border-left: 4px solid #ff5353;
+            line-height: 1.7;
+            font-size: 1.05rem;
+            position: relative;
+        }
+
+        .description::before {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            font-size: 3rem;
+            color: rgba(255, 83, 83, 0.3);
+            font-family: serif;
+        }
+
+        .join-btn {
+            width: 100%;
+            background: linear-gradient(135deg, #ff5353, #ff3333);
+            border: none;
+            outline: none;
+            border-radius: 12px;
+            padding: 1.25rem;
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            margin-bottom: 2.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .join-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .join-btn:hover::before {
+            left: 100%;
+        }
+
+        .join-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(255, 83, 83, 0.4);
+        }
+
+        .card {
+            margin: 1.5rem 0;
+            padding: 2.5rem;
+            background: rgba(30, 30, 30, 0.8);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            text-align: left;
+            border: 1px solid rgba(255, 83, 83, 0.2);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(255, 83, 83, 0.05) 0%, transparent 50%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+
+        }
+
+        .card:hover::before {
+            opacity: 1;
+        }
+
+        .card:hover {
+            border-color: #ff5353;
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(255, 83, 83, 0.2);
+        }
+
+        .company-header {
+            font-size: 1.4rem;
+            color: #ff5353;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            text-decoration: underline;
+            text-decoration-color: rgba(255, 83, 83, 0.5);
+        }
+
+        .revenue {
+            color: #ffffff;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        .ransom-amount {
+            background: linear-gradient(135deg, #ff5353, #ff3333);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            display: inline-block;
+            margin: 1.5rem 0;
+            font-size: 1.1rem;
+            box-shadow: 0 4px 15px rgba(255, 83, 83, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                gap: 1.5rem;
+                padding: 1rem;
+            }
+
+            .navbar-nav {
+                gap: 1.5rem;
+            }
+
+            .dropdown-panel {
+                position: fixed;
+                top: 140px;
+                left: 1rem;
+                right: 1rem;
+                width: auto;
+                min-width: auto;
+                max-width: none;
+            }
+
+            .benefits-list {
+                grid-template-columns: 1fr;
+            }
+
+            .main-content {
+                padding: 2rem 1rem;
+            }
+
+            .container {
+                padding: 2rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .navbar-brand {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .tox-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .tox-id {
+                width: 100%;
+                text-align: center;
+            }
+
+            .copy-btn {
+                width: 100%;
+            }
+        }
+
+        .sample a{
+            font-weight: bold;
+            color: #00ff55;
+        }
+    </style>
 </head>
 <body>
-<h1>Welcome to nginx!</h1>
-<p>If you see this page, the nginx web server is successfully installed and
-working. Further configuration is required.</p>
+    <nav class="navbar">
+        <div class="navbar-brand">RansomedVC</div>
+        <div class="navbar-nav">
+            <div class="nav-item">
+                <a class="nav-link" data-dropdown="affiliate">
+                    What we offer
+                    <div class="chevron"></div>
+                </a>
+                <div class="dropdown-panel" id="affiliate-panel">
+                    <h3>Affiliate program benefits</h3>
+                    <ul class="benefits-list">
+                        <li>â¢ A place to advertise and kneel your victim</li>
+                        <li>â¢ Access to rVC affiliate subgroups</li>
+                        <li>â¢ OSINT specialists</li>
+                        <li>â¢ Unlimited servers and storage</li>
+                        <li>â¢ Negotiation and media coverage</li>
+                        <li>â¢ 24/7 caller support</li>
+                        <li>â¢ Partnerships</li>
+                        <li>â¢ Originality</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a class="nav-link" data-dropdown="contact">
+                    Contact us
+                    <div class="chevron"></div>
+                </a>
+                <div class="dropdown-panel" id="contact-panel">
+                    <h3>Contact</h3>
+                    <div class="contact-info">
+                        <p>Secure communication via TOX:</p>
+                        <div class="tox-container">
+                            <span class="tox-id" id="tox-id">FF59E28C08A4D0D9BA95EC6D72A15F7677D58E48EC5EE0D7CADEE0E7A1B3E37BFBD4996B41DD</span>
+                            <button class="copy-btn" onclick="copyToxId()">Copy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-<p>For online documentation and support please refer to
-<a href="http://nginx.org/">nginx.org</a>.<br/>
-Commercial support is available at
-<a href="http://nginx.com/">nginx.com</a>.</p>
+    <div class="main-content">
+        <div class="container">
+            <h1>RebornVC</h1>
+            <div class="description">
+                As many of you hoped, weâre back under new leadership focused on bringing quality and professionalism back to the market.
+                This space is saturated with similar groups, but weâre here to show that it doesnât take much to stand out :)
+            </div>
+            
+            <div class="card">
+                <div class="company-header">snapav.com / resideo.com</div>
+                <div class="revenue">$1.1 Billion</div>
+                <div class="victim-details">
+                    Snap AV / Resideo has suffered a major data breach.
+                    Despite multiple attempts to contact them to keep the incident private, they have chosen to ignore us.
+                    They are now free to pay the price with their own reputation.
+                    You are risking big fines from the Federal Trade Commission by not securing your data and that of your partners.
+                    We have all your proprietary and confidential documents, private tests of your programs,
+                    your drawings and surveillance schemes, private communications and much more. 
+                    The whole set of documents is for sale!<br><br>
+                </div>
+                <div class="ransom-amount">$1,000,000</div>
+            </div>
+            <div class="card">
+                <div class="company-header">unyleya.edu.br</div>
+                <div class="revenue">$150 Million</div>
+                <div class="victim-details">
+                    Unyleya is an educational group that has been developing technological solutions to offer quality education to thousands
+                    of students seeking qualification and professional development for over 18 years.
+                    It is known for being a pioneer in digital education, offering a wide variety of undergraduate and postgraduate courses in Brazil.
+                    Invoices, contracts, users, assignments and more was stolen.<br><br>
+                </div>
+                <div class="ransom-amount">$10,000</div>
+            </div>
+        </div>
+    </div>
 
-<p><em>Thank you for using nginx.</em></p>
+    <script>
+        document.querySelectorAll('.nav-link[data-dropdown]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const dropdownId = this.getAttribute('data-dropdown');
+                toggleDropdown(dropdownId);
+            });
+        });
+
+        function toggleDropdown(dropdownId) {
+            const panel = document.getElementById(dropdownId + '-panel');
+            const link = document.querySelector(`[data-dropdown="${dropdownId}"]`);
+            
+            document.querySelectorAll('.dropdown-panel').forEach(p => {
+                if (p.id !== dropdownId + '-panel') {
+                    p.classList.remove('active');
+                }
+            });
+            
+            document.querySelectorAll('.nav-link').forEach(l => {
+                if (l !== link) {
+                    l.classList.remove('active');
+                }
+            });
+            
+            panel.classList.toggle('active');
+            link.classList.toggle('active');
+        }
+
+
+
+        function copyToxId() {
+            const toxId = document.getElementById('tox-id').textContent;
+            const button = document.querySelector('.copy-btn');
+            
+            navigator.clipboard.writeText(toxId).then(() => {
+                button.textContent = 'Copied!';
+                button.classList.add('copied');
+                
+                setTimeout(() => {
+                    button.textContent = 'Copy';
+                    button.classList.remove('copied');
+                }, 2000);
+            })
+        }
+
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('.nav-item')) {
+                document.querySelectorAll('.dropdown-panel').forEach(panel => {
+                    panel.classList.remove('active');
+                });
+                document.querySelectorAll('.nav-link').forEach(link => {
+                    link.classList.remove('active');
+                });
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.card');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            cards.forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(card);
+            });
+        });
+    </script>
 </body>
 </html>
