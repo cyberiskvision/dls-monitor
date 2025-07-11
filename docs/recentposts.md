@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-07-11 | [`CyberlinkASP`](https://google.com/search?q=CyberlinkASP) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-07-09 | [`www.miatech.net`](https://google.com/search?q=www.miatech.net) | [blackout](https://ransomwatch.telemetry.ltd/#/profiles?id=blackout) |
 | 2025-07-08 | [`Wood, Patel & Associates`](https://google.com/search?q=Wood%2C+Patel+%26+Associates) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-07-08 | [`Wfmt`](https://google.com/search?q=Wfmt) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-04-12 | [`Dimension Composite`](https://google.com/search?q=Dimension+Composite) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-04-11 | [`C?l???t Group`](https://google.com/search?q=C%3Fl%3F%3F%3Ft+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-11 | [`The Study`](https://google.com/search?q=The+Study) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-04-11 | [`Sfrent.net`](https://google.com/search?q=Sfrent.net) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
