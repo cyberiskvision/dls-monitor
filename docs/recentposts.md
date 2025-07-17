@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-07-17 | [`bot2.html`](https://google.com/search?q=bot2.html) | [lockbit3_fs](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3_fs) |
 | 2025-07-16 | [`Morrison Companies`](https://google.com/search?q=Morrison+Companies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-07-16 | [`IMSSA Manufacturing`](https://google.com/search?q=IMSSA+Manufacturing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-07-15 | [`Young Adjustment Company`](https://google.com/search?q=Young+Adjustment+Company) | [moneymessage](https://ransomwatch.telemetry.ltd/#/profiles?id=moneymessage) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-04-15 | [`Miller Boskus Lack Architects`](https://google.com/search?q=Miller+Boskus+Lack+Architects) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-14 | [`Merri-Makers`](https://google.com/search?q=Merri-Makers) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-14 | [`James & Sons Fine Jewelers`](https://google.com/search?q=James+%26+Sons+Fine+Jewelers) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-04-14 | [`Cortez Resources`](https://google.com/search?q=Cortez+Resources) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
