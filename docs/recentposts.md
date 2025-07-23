@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-07-23 | [`DA Whitacre Construction`](https://google.com/search?q=DA+Whitacre+Construction) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-07-17 | [`track.html`](https://google.com/search?q=track.html) | [lockbit3_fs](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3_fs) |
 | 2025-07-17 | [`bot2.html`](https://google.com/search?q=bot2.html) | [lockbit3_fs](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3_fs) |
 | 2025-07-16 | [`Morrison Companies`](https://google.com/search?q=Morrison+Companies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-04-15 | [`Voigt-Abernathy Company`](https://google.com/search?q=Voigt-Abernathy+Company) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-15 | [`O'Brien & Ryan`](https://google.com/search?q=O%27Brien+%26+Ryan) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-15 | [`Miller Boskus Lack Architects`](https://google.com/search?q=Miller+Boskus+Lack+Architects) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-04-14 | [`Merri-Makers`](https://google.com/search?q=Merri-Makers) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
