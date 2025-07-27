@@ -1,797 +1,1319 @@
-ï»¿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="ddcef3d0fe4bb39" href="images/stm.ico">
-  <title>StormouS.X V.4</title>
-  <link rel="stylesheet" href="styles.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-    }
-    .header {
-      background-color: #fff;
-      padding: 20px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .header h1 {
-      font-size: 28px;
-      color: #333;
-      margin: 0;
-      display: flex;
-      align-items: center;
-    }
-    .header h1 .additional-boxes {
-      display: flex;
-      gap: 15px;
-      margin-left: 20px;
-    }
-    .box {
-      padding: 10px 20px;
-      background-color: #48688b;
-      border-radius: 5px;
-      color: #fff;
-      font-size: 14px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-    .box:hover {
-      background-color: #0056b3;
-    }
-    .main-container {
-      padding: 20px;
-    }
-    .posts-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .post-card {
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      padding: 20px;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .post-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-    }
-    .post-card .date {
-      font-size: 12px;
-      color: #888;
-    }
-    .post-card h4 {
-      font-size: 18px;
-      margin: 10px 0;
-      color: #333;
-    }
-    .post-card .subtitle {
-      font-size: 14px;
-      color: #555;
-    }
-    .post-card .size {
-      font-size: 16px;
-      font-weight: bold;
-      margin: 10px 0;
-      color: #007bff;
-    }
-    .read-more {
-      color: #007bff;
-      text-decoration: none;
-      font-size: 14px;
-    }
-    .read-more:hover {
-      text-decoration: underline;
-    }
-    .post-card {
-      border-left: 5px solid green;
-    }
-
-    .countdown-box {
-      width: 100%;
-      height: 30px; 
-      border: 2px solid #ccc;
-      padding: 5px;
-      margin-top: 10px;
-      text-align: center;
-      font-size: 12px; 
-      background-color: #f7f7f7;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 5px;
-    }
-
-    .post-card .countdown-box {
-      position: relative;
-      top: 10px;
-      margin-top: 0;
-    }
-
-    .search-container {
-      margin-top: 30px;
-      text-align: center;
-    }
-
-    .search-input {
-      padding: 10px;
-      font-size: 16px;
-      width: 80%;
-      max-width: 500px;
-      margin-bottom: 20px;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-      outline: none;
-    }
-
-    .search-input:focus {
-      border-color: #007bff;
-    }
-
-    .no-results {
-      color: red;
-      font-size: 16px;
-      margin-top: 10px;
-    }
-  .countdown-box {
-    width: 100%;
-    height: 30px; 
-    border: 2px solid #ccc;
-    padding: 5px;
-    margin-top: 10px;
-    text-align: center;
-    font-size: 12px; 
-    background-color: #ffcccc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-  }
-  .posts-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
-  gap: 20px; 
-  align-items: stretch; /
-}
-
-.post-card {
-  display: flex;
-  flex-direction: column; 
-  justify-content: space-between; 
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.post-card:nth-child(1) {
-  border-left: 5px solid rgb(2, 122, 8);
-}
-.post-card:nth-child(2) {
-  border-left: 5px solid rgb(2, 122, 8);
-}
-.post-card:nth-child(3) {
-  border-left: 5px solid rgb(2, 122, 8);
-}
-
-.post-card:nth-child(4) {
-  border-left: 5px solid rgb(2, 122, 8);
-}
-.post-card:nth-child(5) {
-  border-left: 5px solid rgb(2, 122, 8);
-}
-.post-card:nth-child(6) {
-  border-left: 5px solid rgb(2, 122, 8);}
-.post-card:nth-child(7) {
-  border-left: 5px solid rgb(2, 122, 8);
-}
-.post-card:nth-child(8) {
-  border-left: 5px solid rgb(2, 122, 8);
-}
-.post-card:nth-child(9) {
-  border-left: 5px solid rgb(2, 122, 8);
-}
-.post-card:nth-child(10) {
-  border-left: 5px solid rgb(2, 122, 8);
-}
-.post-card:nth-child(11) {
-  border-left: 5px solid rgb(2, 122, 8);
-}
-</style>
-</head>
-<body>
-  <header class="header">
-    <h1>StormouS/ <span>V.4</span>
-      <span class="additional-boxes">
-        <div class="box" onclick="window.location.href='Contact-Us.html'">CONTACT US</div>
-        <div class="box" onclick="window.location.href='RaaS-Service.html'"><span>AFFILIATE</span></div>
-        <div class="box" onclick="window.location.href='who-are-we.html'">Press about us</div>
-        <div class="box" onclick="window.location.href='https://x.com/search?q=stormous'">TWITTER "X"</div>
-        <div class="box" onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion'">DATABASE</div>
-        <div class="box" onclick="window.location.href='phish.pw'">phish.pw</div>
-        <div class="box" onclick="window.location.href=''">We've been working since 4 years</div>
-      </span>
-    </h1>
-  </header>
-
-  <main class="main-container">
-    <!-- Search -->
-    <div class="search-container">
-      <input type="text" id="searchBox" class="search-input" placeholder="Search for a company..." onkeyup="searchPosts()">
-      <div id="noResults" class="no-results" style="display: none;">No results found</div>
-    </div>
-    <div class="posts-grid" id="postsGrid">
-      
-
-       
-        <!-- Card 18 -->
-     <div class="post-card">
-      <p class="date">Update:2025-07-15</p>
-      <h4>North Country HealthCare</h4>
-         <p class="subtitle">
-                             Health information for 600,000 patients has been accessed from the North Country Health (NCH) care</p> 
-<p>The dataset includes full Personally Identifiable Information (PII), Protected Health Information (PHI), diagnostic codes (ICD), clinic data, and insurance provider details as follows:</p> 
-<p>Full Name-Date of Birth-Gender-Phone Number /ID-Clinic Name/code-Visit Date & Location-Insurance Provider-ICD Code (Diagnosis)-Diagnosis Description</p>
-       <h4>Data of 100,000 patients for sale â 500,000 will be leaked for free.</h4>
-<p class="size">?GB</p>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/NCH/" class="read-more">NCH-Part1 "500k"/ â</a>  
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/NCH/" class="read-more">NCH-Part1.txt "500k"/ â</a>  
-       <div class="countdown-box" id="countdown23"></div>          
-      </div> 
-      
-
-
-        <!-- Card 17 -->
-     <div class="post-card">
-      <p class="date">Update:2025-07-01 PUBLISHED</p>
-      <h4>hy-vee.com</h4>
-         <p class="subtitle">
-                             Hy-Vee refuses to pay, and we are proceeding to leak all the data that was extracted.</p> 
-<p>We will also sell the personal data, as well as IT-related data, to any interested party or individual</p> 
-<p>Internal documents, infrastructure diagrams, employee data, training materials, and technical information related to several operational systems were extracted.</p>
-       <h4>Personal data and IT-related data are for sale</h4>
-<p class="size">53GB</p>
-        <a href="http://kxlpsf4uua2k36quvcob3mjlguurbc3rhjkwt7thoyi52o7y6tf2wrad.onion/" class="read-more">All-Data/ â</a>  
-        <a href="http://kxlpsf4uua2k36quvcob3mjlguurbc3rhjkwt7thoyi52o7y6tf2wrad.onion/HR/" class="read-more">HR/ â</a>  
-        <a href="http://kxlpsf4uua2k36quvcob3mjlguurbc3rhjkwt7thoyi52o7y6tf2wrad.onion/Hy-Vee_Developer_KB/" class="read-more">Hy-Vee Developer KB/ â</a>  
-        <a href="http://kxlpsf4uua2k36quvcob3mjlguurbc3rhjkwt7thoyi52o7y6tf2wrad.onion/D_and_D/" class="read-more">D_and_D_Contacts/ â</a> 
-        <a href="http://kxlpsf4uua2k36quvcob3mjlguurbc3rhjkwt7thoyi52o7y6tf2wrad.onion/ERP_Project_Fusion/" class="read-more">ERP_Project_Fusion/ â</a> 
-           <a href="http://kxlpsf4uua2k36quvcob3mjlguurbc3rhjkwt7thoyi52o7y6tf2wrad.onion/ERP_Project_Fusion/" class="read-more">Ecommerce-Operations/ â</a>
-       <div class="countdown-box" id="countdown21"></div>        
-       
-      </div>
-     
-
-
-      <!-- Card 16 -->
-     <div class="post-card">
-      <p class="date">Update:2025-06-14 PUBLISHED</p>
-      <h4>bulentklise.com.tr</h4>
-         <p class="subtitle">Customer names, identification numbers, production orders, client records, delivery tracking data, customer information, logos, and more</p>    
-         <p class="size">2.3GB</p>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/www.bulentklise.com.tr" class="read-more">read-more â</a>  
-        <div class="countdown-box" id="countdown20"></div>        
-   
-      </div>
-     
-
-
-      <!-- Card 15 -->
-     <div class="post-card">
-      <p class="date">Update:2025-06-12 PUBLISHED</p>
-      <h4>French Gov</h4>
-      <p class="subtitle">Stealer-type breach â enjoy!</p>
-      <p>Valid credentials. Sensitive access. Still active.
-         Multiple government domains have been affected.
-         These credentials can be used to log into accounts and access personal and internal</p>
-        <h5>The PYV (Publish Your Victim) service allows our affiliates to publicly release or sell victim data</h5>
-        <h5>(Note: This service is not related to our RaaS offering, Stmx.X GhostLocker)</h5>
-        
-         <p class="size"></p>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/French-Gouv/" class="read-more">List of all domains â</a>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/French-Gouv/" class="read-more">ac-creteil â</a>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/French-Gouv/" class="read-more">db_administrative â</a>
-        <div class="countdown-box" id="countdown19"></div>        
-    </div>
-
-
-
- <!-- Card 14 -->
-     <div class="post-card">
-      <p class="date">Update:2025-06-06 PUBLISHED</p>
-      <h4>rinaldi.com.br</h4>
-      <p class="subtitle">Data of 1,000 registered distributors and sellers â employee and customer information â admin login passwords â email addresses, phone numbers, full names â and more...</p>
-        <p class="size">1GB</p>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/rinaldi.com.br" class="read-more">read-more â</a>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/rinaldi.com.br/email.txt" class="read-more">Data on registered distributors and resellers +1k â</a>
-        <div class="countdown-box" id="countdown18"></div>
-    </div>
-
-
-
-
- <!-- Card 13 -->
-     <div class="post-card">
-      <p class="date">Update:2025-06-06 PUBLISHED</p>
-      <h5>fal-3a.prd.eu.dp.vwg-connect.com / www.volkswagen-group.com</h5>
-      <p class="subtitle"> </p>
-      <p>,</p>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/CarNet.log" class="read-more">CarNet â</a>
-        <div class="countdown-box" id="countdown17"></div>
-    </div>
-
-
- <!-- Card 12 -->
-     <div class="post-card">
-      <p class="date">Update:2025-05-27 PUBLISHED</p>
-      <h4>thewatermansarms.net</h4>
-      <p class="subtitle"> CVs - Bank - VCF - Business accounts - image - SCAN - Passport Details - ID Card - ......
-        </p>
-        <p class="size">3GB</p>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/thewatermansarms.net" class="read-more">read more â</a>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/thewatermansarms.net" class="read-more">thewatermansarms.net/ â</a>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/thewatermansarms.net/invoice/" class="read-more">invoice/ â</a>
-        <div class="countdown-box" id="countdown16"></div>
-    </div>
-
-
-
- <!-- Card 11 -->
-     <div class="post-card">
-      <p class="date">Update:2025-05-21 PUBLISHED</p>
-      <h4>www.atolon-parkhotel.com</h4>
-      <p class="subtitle"> CVs - FACTURES - Hwawei.com - AA GROUPE 2025 - RESERVATION 2025 - PERSONNELS - INFOS - STAGIAIRES .....
-        </p>
-        <p class="size">8GB</p>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/atolon-parkhotel.com" class="read-more">read more â</a>
-      <div class="countdown-box" id="countdown08"></div>
-    </div>
-
-
-
-
-      <!-- Card 10 -->
-      <div class="post-card">
-        <p class="date">Update:2025-05-21</p>
-        <h4>crystalhotels.com.tr</h4>
-        <p class="subtitle">Full names of hotel guests a
-          Email addresses (internal and external)
-          Customer complaints and feedback content
-          Booking or reference numbers
-          Internal hotel communication data ......
-          </p>
-          <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/crystalhotels.com.tr" class="read-more">read-more â</a>
-        <div class="countdown-box" id="countdown12"></div>
-      </div>
-
-
-
-      <!-- Card 09 -->
-     <div class="post-card">
-      <p class="date">Update:2025-05-21</p>
-      <h4>www.axxoshotels.com</h4>
-      <p class="subtitle">IPT â customer data â 2025 bookings â identity cards and more.
-        </p>
-        <p class="size">33GB</p>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/axxoshotels.com" class="read-more">The data has been sold â</a>
-      <div class="countdown-box" id="countdown11"></div>
-
-    </div>
-
-
-
-  <!-- Card 08 -->
-     <div class="post-card">
-      <p class="date">Update: 2025-05-19</p>
-      <h4>www.jparkislandresort.com</h4>
-      <p class="subtitle">Full reservation databases
-                         Booking platform references (including HeyTripGo)
-                         Payment Data
-                         PDF files containing credit card numbers, expiration dates, and CVV codes
-                         Scans of physical card images used in transactions
-                         Names and billing addresses linked to cards
-                         Full reports of transaction history
-                         Partner comission data and invoice logs
-                         ID Documents
-                         Guest registration forms (with physical signatures)
-                         Internal Communication
-                         Booking confirmation exchanges with platforms (HeyTripGo, Agoda, etc.)
-      
-                         It was clearly observed that HeyTripGo.com does not encrypt or anonymize customer booking details, allowing direct exposure of
-Raw redit card data
-Customer personal details
-Booking references traceable to their system
-                       </p>
-        <p class="size">14GB</p>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/jparkislandresort.com" class="read-more">read more â</a>
-        <div class="countdown-box" id="countdown07"></div>
-    </div>
-
-
-
-
-      <!-- Card 07 -->
-     <div class="post-card">
-      <p class="date">Update:2025-05-24</p>
-      <h4>www.seashoremotel.com</h4>
-      <p class="subtitle"> A large amount of valid banking card data from various sources â customer information from ID cards, passports, and driver's licenses â email addresses, phone numbers, full names â and selfie photos.
-        </p>
-        <p class="size">7GB</p>
-        <a href="" class="read-more">The data has been sold â</a>
-      <div class="countdown-box" id="countdown09"></div>
-    </div>
-
-
-
-
-     <!-- Card 06 -->
-     <div class="post-card">
-      <p class="date">Update:2025-05-13</p>
-      <h4>www.regencyrestors.com</h4>
-      <p class="subtitle">Full customer reservation databases (names, phones, emails, addresses, booking dates)
-
-        Scanned ID documents (passports, national IDs)
-        
-        Internal emails via OWA 
-        
-        Employee and customer email lists
-        
-        RDP credential files (with usernames/passwords)
-        </p>
-        <p class="size">5GB</p>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencytorviscas.com" class="read-more">read more â</a>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/Contact-Us.html" class="read-more">ID cards and others for sale</a>
-        <div class="countdown-box" id="countdown06"></div>
-    </div>
-
-
-
-     <!-- Card 05 -->
-     <div class="post-card">
-      <p class="date">Update:2025-05-13</p>
-      <h4>www.regencycountryclub.com</h4>
-      <p class="subtitle">Full customer reservation databases (names, phones, emails, addresses, booking dates)
-
-        Scanned ID documents (passports, national IDs)
-        
-        Internal emails via OWA 
-        
-        Employee and customer email lists
-        
-        RDP credential files (with usernames/passwords)
-        </p>
-        <p class="size">5GB</p>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencytorviscas.com" class="read-more">read more â</a>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/Contact-Us.html" class="read-more">ID cards and others for sale</a>
-      <div class="countdown-box" id="countdown05"></div>
-    </div>
-
-
-     <!-- Card 04 -->
-     <div class="post-card">
-      <p class="date">Update:2025-05-13</p>
-      <h4>www.regencytorviscas.com</h4>
-      <p class="subtitle">Full customer reservation databases (names, phones, emails, addresses, booking dates)
-
-        Scanned ID documents (passports, national IDs)
-        
-        Internal emails via OWA 
-        
-        Employee and customer email lists
-        
-        RDP credential files (with usernames/passwords)
-        </p>
-        <p class="size">5GB</p>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencytorviscas.com" class="read-more">read more â</a>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/Contact-Us.html" class="read-more">ID cards and others for sale</a>
-      <div class="countdown-box" id="countdown04"></div>
-    </div>
-
-
-       <!-- Card 03 -->
-       <div class="post-card">
-        <p class="date">2025-04-30</p>
-        <h4>Wizz Air</h4>
-        <p class="subtitle">The response stated: "Wizz Air has strong security systems in place, designed to protect the sensitive data of our valued customers and partners."
-
-          But I would like to know what guarantees you actually offer your customers and others, because this company clearly seems unaware of whatâs going on. The breach was published nearly a month ago, and the data has been widely circulated and used. It has also been verified, and it is indeed valid data linked to your employees.
-          
-          Does the company not have any monitoring system? Or perhaps there have been numerous reports of major fraud incidents committed under your name. So, your denial of the breach â which dates back to a month ago â appears more like an attempt to mislead your customers and partners.</p>
-        <p class="size"></p>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/" class="read-more"></a>
-        <div class="countdown-box" id="countdown03"></div>
-      </div>
-
-      
-
-      <!-- Card 02  -->
-          <div class="post-card">
-            <p class="date">2025-03-17</p>
-            <h4>KYC UK</h4>
-            <p class="subtitle">ENJOY!</p>
-            <p class="size">+1GB</p>
-            <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/KYC-UK" class="read-more">read more â</a>
-            <div class="countdown-box" id="countdown01"></div>
-          </div>
-    
-    
-      <!-- Card 01 -->
-      <div class="post-card">
-        <p class="date">2025-03-14</p>
-        <h4>enersolcr.com</h4>
-        <p class="subtitle">Internal Data - System Data - 73 Partner Data - Customer Data (Email, Name, Phone Number) - Admin Data and Their Roles, etc.....</p>
-        <p class="size">500MB</p>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/enersolcr.com" class="read-more">read more â</a>
-        <div class="countdown-box" id="countdown1"></div>
-      </div>
-
-
-      <!-- Card 3 -->
-      <div class="post-card">
-        <p class="date">2025-02-06</p>
-        <h4>cmr24.by</h4>
-        <p class="subtitle">Account statements and payment checks A list of delinquent customers with their data, Includes invoices, operational reports, and logistical document</p>
-        <p class="size">5GB</p>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion//cmr24.by" class="read-more">read more â</a>
-        <div class="countdown-box" id="countdown3"></div>
-      </div>
-
-      <!-- Card 4 -->
-      <div class="post-card">
-        <p class="date">2025-01-28</p>
-        <h4>turbomp.com</h4>
-        <p class="subtitle">Because this company receives product design drawings from other partner companies and carries out manufacturing orders, it has detailed contract documents with numerous companies, their design documents, detailed drawings required for the manufacturing process, and documents showing the manufacturing process.</p>
-        <p class="size">700GB</p>
-        <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion//turbomp.com" class="read-more">read more â</a>
-        <div class="countdown-box" id="countdown4"></div>
-      </div>
-
-<!-- Card 5 -->
-<div class="post-card">
-  <p class="date">2024-12-16</p>
-  <h4>biodimed.com</h4>
-  <p class="subtitle">Email operations associated with all employees - attachments include 40GB of documents related to biodimed - employee data - internal messages</p>
-  <p class="size">12 GB</p>
-  <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion//biodimed.com" class="read-more">read more â</a>
-  <div class="countdown-box" id="countdown5"></div>
-</div>
-
-
-    <!-- Card 6 -->
-    <div class="post-card">
-      <p class="date">2024-10-10</p>
-      <h4>acuity.co.uk</h4>
-      <p class="subtitle">his includes important legal documents such as drafts of non-disclosure agreements (NDA) pertaining to the company and strategic partners like Bosch, detailed financial documents containing analyses of Acuity's financial position</p>
-      <p class="size">4 GB</p>
-      <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion//acuity.co.uk" class="read-more">read more â</a>
-      <div class="countdown-box" id="countdown6"></div>
-    </div>
-
-
-    <!-- Card 7 -->
-    <div class="post-card">
-      <p class="date">2024-10-14</p>
-      <h4>aosense.com</h4>
-      <p class="subtitle">Accounting Information- AOSense Commercial Sales-Design-Financial-Inertial_Sensors_Group-IT-Products-Report-ContractsAdmin-Active Project Numbers-USNO Ca oven-NASA-Atom Computing-Subcontracts-Purchasing-IntellectualProperty-Administrative-Data-Navigation</p>
-      <p class="size">10GB</p>
-      <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion//aosense.com" class="read-more">read more â</a>
-      <div class="countdown-box" id="countdown7"></div>
-    </div>
-  
-
-
-    <!-- Card 8 -->
-    <div class="post-card">
-      <p class="date">2024-10-15</p>
-      <h4>fractal.id</h4>
-      <p class="subtitle"> The total amount of data we managed to access exceeded 10 GB ------ 12GB, including personal photos, bank statements, proof of address, and ETH/BTC addresses</p>
-      <p class="size">? GB</p>
-      <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion//fractal.id" class="read-more">read more â</a>
-      <div class="countdown-box" id="countdown8"></div>
-    </div>
-
-
-
-    <!-- Card 9 -->
-    <div class="post-card">
-      <p class="date">2024-10-15</p>
-      <h4>ascires.com</h4>
-      <p class="subtitle">Client Data - Medical Reports - Financial Status (Bank reports, taxes, and more) - Annual Accounts - Personal Information - New Projects - Large amounts of patient-related data - Business plans and much more â a total of 700 GB of critical information!</p>
-      <p class="size">60 GB</p>
-      <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion//ascires.com" class="read-more">read more â</a>
-      <div class="countdown-box" id="countdown9"></div>
-    </div>
-
-
-
-    <!-- Card 10 -->
-    <div class="post-card">
-      <p class="date">2024-10-31</p>
-      <h4>guardianhc.com</h4>
-      <p class="subtitle">Apps - Attachments - Daily Admission Copies - Documents - Pictures - COVID TESTING DATE - Custom Office Templates -Vaccines</p>
-      <p class="size">3 GB</p>
-      <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion//guardianhc.com" class="read-more">read more â</a>
-      <div class="countdown-box" id="countdown10"></div>
-    </div>
-
-
-    <!-- Card 11 -->
-    <div class="post-card">
-      <p class="date">2024-09-02</p>
-      <h4>intrama-bg</h4>
-      <p class="subtitle">intrama-bg.com/</p>
-      <p class="size">42 GB</p>
-      <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion//intrama-bg.com.rar" class="read-more">read more â</a>
-      <div class="countdown-box" id="countdown11"></div>
-    </div>
-
-
-
-    <!-- Card 12 -->
-    <div class="post-card">
-      <p class="date">2024-09-12</p>
-      <h4>jatelindo</h4>
-      <p class="subtitle">jatelindo.co.id/</p>
-      <p class="size">1.2 GB</p>
-      <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion//jatelindo.co.id.rar" class="read-more">read more â</a>
-      <div class="countdown-box" id="countdown12"></div>
-    </div>
-
-
-
-    <!-- Card 13 -->
-    <div class="post-card">
-      <p class="date">2024-10-03</p>
-      <h4>lyra.officegroup.it</h4>
-      <p class="subtitle">lyra.officegroup/</p>
-      <p class="size">1 GB</p>
-      <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion//lyra.officegroup.it.rar" class="read-more">read more â</a>
-      <div class="countdown-box" id="countdown13"></div>
-    </div>
-
-
-
-    <!-- Card 14 -->
-    <div class="post-card">
-      <p class="date">2024-09-13</p>
-      <h4>mivideo.club</h4>
-      <p class="subtitle">mivideo.club/</p>
-      <p class="size">1 GB</p>
-      <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion//mivideo.club.rar" class="read-more">read more â</a>
-      <div class="countdown-box" id="countdown14"></div>
-    </div>
-
-
-
-    <!-- Card 15 -->
-    <div class="post-card">
-      <p class="date">2024-11-17</p>
-      <h4>uatf.edu.bo</h4>
-      <p class="subtitle">Personal data (names, addresses, phone numbers) - Internal email correspondences - Attachments containing educational and administrative documents - Information on student or employee activities - Contact list for all students, internal messages, and more</p>
-      <p class="size">3 GB</p>
-      <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion//uatf.edu.bo" class="read-more">read more â</a>
-      <div class="countdown-box" id="countdown15"></div>
-    </div>
-
-
-
-    <!-- Card 16 -->
-    <div class="post-card">
-      <p class="date">2024-11-17</p>
-      <h4>Transak.com</h4>
-      <p class="subtitle">We have extracted more than 300GB of data, which includes sensitive personal documents such as government-issued IDs, proof of address, financial statements, and user selfies</p>
-      <p class="size">70 GB</p>
-      <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion//transak.com" class="read-more">read more â</a>
-      <div class="countdown-box" id="countdown16"></div>
-    </div>
-     </div>
-  </main>
-  
-  <script>
-    function startCountdown(id, targetDate) {
-      var countdownElement = document.getElementById(id);
-      var interval = setInterval(function() {
-        var now = new Date().getTime();
-        var distance = targetDate - now;
-  
-        if (distance < 0) {
-          clearInterval(interval);
-          countdownElement.innerHTML = "PUBLISHED";
-        } else {
-          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  
-          countdownElement.innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StormouS.V4 BLOG</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'JetBrains Mono', monospace;
+            background-color: #0a0a0a;
+            color: #e0e0e0;
+            font-size: 0.9rem;
         }
-      }, 1000);
-    }
-    var targetDate1 = new Date("2025-03-15T00:00:00").getTime();  
-    var targetDate2 = new Date("2025-03-16T00:00:00").getTime();  
-    var targetDate3 = new Date("2025-03-16T00:00:00").getTime();  
-    var targetDate4 = new Date("2025-03-16T00:00:00").getTime();  
-    var targetDate5 = new Date("2025-03-16T00:00:00").getTime();  
-    var targetDate6 = new Date("2025-03-16T00:00:00").getTime();  
-    var targetDate7 = new Date("2025-03-16T00:00:00").getTime();  
-    var targetDate8 = new Date("2025-03-16T00:00:00").getTime();  
-    var targetDate9 = new Date("2025-03-16T00:00:00").getTime();  
-    var targetDate10 = new Date("2025-03-16T00:00:00").getTime();  
-    var targetDate11 = new Date("2025-03-16T00:00:00").getTime();  
-    var targetDate12 = new Date("2025-03-16T00:00:00").getTime();  
-    var targetDate13 = new Date("2025-03-16T00:00:00").getTime();  
-    var targetDate14 = new Date("2025-03-16T00:00:00").getTime();  
-    var targetDate15 = new Date("2025-03-16T00:00:00").getTime();  
-    var targetDate16 = new Date("2025-03-16T00:00:00").getTime();  
-    var targetDate17 = new Date("2025-03-17T00:00:00").getTime();  
-    var targetDate18 = new Date("2025-03-17T00:00:00").getTime();  
-    var targetDate19 = new Date("2025-05-13T00:00:00").getTime();  
-    var targetDate20 = new Date("2025-05-13T00:00:00").getTime();  
-    var targetDate21 = new Date("2025-05-13T00:00:00").getTime();  
-    var targetDate22 = new Date("2025-05-18T00:00:00").getTime();  
-    var targetDate24 = new Date("2025-05-21T00:00:00").getTime();  
-    var targetDate25 = new Date("2025-05-29T00:00:00").getTime();  
-    var targetDate26 = new Date("2025-06-01T00:00:00").getTime();  
-    var targetDate27 = new Date("2025-06-01T00:00:00").getTime();  
-    var targetDate28 = new Date("2025-06-01T00:00:00").getTime();  
-    var targetDate29 = new Date("2025-06-01T00:00:00").getTime();  
-    var targetDate31 = new Date("2025-05-22T00:00:00").getTime();  
-    var targetDate32 = new Date("2025-05-16T00:00:00").getTime();  
-    var targetDate33 = new Date("2025-06-06T00:00:00").getTime();  
-    var targetDate34 = new Date("2025-06-05T00:00:00").getTime();  
-    var targetDate35 = new Date("2025-06-11T00:00:00").getTime();  
-    var targetDate36 = new Date("2025-06-13T00:00:00").getTime();  
-    var targetDate37 = new Date("2025-06-29T00:00:00").getTime();  
-    var targetDate38 = new Date("2025-06-29T00:00:00").getTime();  
-    var targetDate39 = new Date("2025-07-15T00:00:00").getTime();  
+        .compact-table {
+            border: 1px solid #333;
+            background-color: #111;
+            transition: all 0.3s ease;
+        }
+        .compact-table:hover {
+            border-color: #ff2e2e;
+            box-shadow: 0 0 15px rgba(255, 46, 46, 0.2);
+        }
+        .table-header {
+            background-color: #1a1a1a;
+            border-bottom: 1px solid #ff2e2e;
+        }
+        .status-pending {
+            color: #ffcc00;
+            animation: pulse 1.5s infinite;
+        }
+        .status-published {
+            color: #00ff88;
+        }
+        .countdown {
+            font-feature-settings: "tnum";
+            font-variant-numeric: tabular-nums;
+        }
+        @keyframes pulse {
+            0% { opacity: 0.6; }
+            50% { opacity: 1; }
+            100% { opacity: 0.6; }
+        }
+        .data-cell {
+            word-break: break-word;
+            max-width: 200px;
+        }
+        .nav-link {
+            position: relative;
+        }
+        .nav-link:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 1px;
+            bottom: -2px;
+            left: 0;
+            background-color: #ff2e2e;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover:after {
+            width: 100%;
+        }
+        .database-link {
+            color: #ff2e2e;
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-block;
+            margin-top: 5px;
+            transition: all 0.2s ease;
+        }
+        .database-link:hover {
+            color: #ff1a1a;
+            text-decoration: underline;
+        }
+        .file-card {
+            background-color: #111;
+            border: 1px solid #333;
+            transition: all 0.3s ease;
+        }
+        .file-card:hover {
+            border-color: #ff2e2e;
+            transform: translateY(-2px);
+        }
+        .download-btn {
+            background-color: #ff2e2e;
+            color: white;
+            transition: all 0.2s ease;
+        }
+        .download-btn:hover {
+            background-color: #ff1a1a;
+        }
+        .hidden {
+            display: none;
+        }
+        #database-page {
+            background-color: #111;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body class="p-4">
+    <!-- Main Page -->
+    <div id="main-page">
+        <!-- Header -->
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
+            <h1 class="text-2xl font-bold text-red-500 tracking-tight">StormouS.V4</h1>
+            <div class="flex flex-wrap gap-x-4 gap-y-2 text-sm">
+                <a href="index.html" class="text-gray-400 hover:text-white nav-link">home</a>
+                <a href="#database-page" class="text-gray-400 hover:text-white nav-link">database</a>
+                <a href="affiliate.html" class="text-gray-400 hover:text-white nav-link">affiliate</a>
+                <a href="Contact-Us.html" class="text-gray-400 hover:text-white nav-link">contact us</a>
+                <a href="" class="text-gray-400 hover:text-white nav-link">Marketplace</a>
+                <a href="https://x.com/search?q=stormous" class="text-gray-400 hover:text-white nav-link">twitterX</a>
+                <a href="feedback.html" class="text-gray-400 hover:text-white nav-link">Pressfeedback</a>
+            </div>
+        </div>
 
-    startCountdown('countdown1', targetDate1);
-    startCountdown('countdown2', targetDate2);
-    startCountdown('countdown3', targetDate3);
-    startCountdown('countdown4', targetDate4);
-    startCountdown('countdown5', targetDate5);
-    startCountdown('countdown6', targetDate6);
-    startCountdown('countdown7', targetDate7);
-    startCountdown('countdown8', targetDate8);
-    startCountdown('countdown9', targetDate9);
-    startCountdown('countdown10', targetDate10);
-    startCountdown('countdown11', targetDate11);
-    startCountdown('countdown12', targetDate12);
-    startCountdown('countdown13', targetDate13);
-    startCountdown('countdown14', targetDate14);
-    startCountdown('countdown15', targetDate15);
-    startCountdown('countdown16', targetDate16);
-    startCountdown('countdown01', targetDate17);
-    startCountdown('countdown02', targetDate17);
-    startCountdown('countdown03', targetDate17);
-    startCountdown('countdown04', targetDate19);
-    startCountdown('countdown05', targetDate20);
-    startCountdown('countdown06', targetDate21);
-    startCountdown('countdown07', targetDate22);
-    startCountdown('countdown08', targetDate24);
-    startCountdown('countdown09', targetDate25);
-    startCountdown('countdown10', targetDate26);
-    startCountdown('countdown11', targetDate27);
-    startCountdown('countdown12', targetDate28);
-    startCountdown('countdown13', targetDate29);
-    startCountdown('countdown15', targetDate31);
-    startCountdown('countdown16', targetDate32);
-    startCountdown('countdown17', targetDate33);
-    startCountdown('countdown18', targetDate34);
-    startCountdown('countdown19', targetDate35);
-    startCountdown('countdown20', targetDate36);
-    startCountdown('countdown21', targetDate37);
-    startCountdown('countdown22', targetDate38);
-    startCountdown('countdown23', targetDate39);
+        <!-- Tables Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          
+            <!-- Transak -->
+            <div class="compact-table rounded" data-table-id="company-1">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ðTransak</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">Transak.com</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">We have extracted more than 300GB of data</div>
+                                <div class="data-cell mt-1">which includes sensitive personal documents such as government-issued IDs ..</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="#database-page" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-  </script>
+            <!-- Hy-Vee -->
+            <div class="compact-table rounded" data-table-id="company-2">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ðHy-Vee</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">Hy-Vee.com</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell"> Hy-Vee refuses to pay, and we are proceeding to leak all the data that was extracted.</div>
+                                <div class="data-cell mt-1">Internal documents, infrastructure diagrams, employee data, training materials ....</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://kxlpsf4uua2k36quvcob3mjlguurbc3rhjkwt7thoyi52o7y6tf2wrad.onion" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- aosense.com -->
+            <div class="compact-table rounded" data-table-id="company-4">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ðaosense.com</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">aosense.com</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">Accounting Information- AOSense Commercial Sales-Design-Financial-Inertial_Sensors_Group-IT-Products-Report</div>
+                                <div class="data-cell mt-1">ContractsAdmin-Active Project Numbers-USNO Ca oven-NASA-Atom Computing</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="#database-page" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- French Government -->
+            <div class="compact-table rounded" data-table-id="company-4">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ðFrench Government</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">French Government</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">Stealer-type breach</div>
+                                <div class="data-cell mt-1">Valid credentials, sensitive access</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/French-Gouv/" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- North Country HealthCare -->
+            <div class="compact-table rounded" data-table-id="company-5">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">North Country HealthCare</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">North Country HealthCare</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell"> Health information for 600,000 patients has been accessed from the North Country Health (NCH) care</div>
+                                <div class="data-cell mt-1">The dataset includes full Personally Identifiable Information (PII), Protected Health Information (PHI), </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/NCH/" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+           <!-- bulentklise.com.tr -->
+            <div class="compact-table rounded" data-table-id="company-7">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">bulentklise</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">bulentklise.com.tr</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">Customer names, identification numbers, production orders,</div>
+                                <div class="data-cell mt-1">client records, delivery tracking data, customer information, logos, and more</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/www.bulentklise.com.tr" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Volkswagen -->
+            <div class="compact-table rounded" data-table-id="company-6">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">Volkswagen</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">Volkswagen</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">CarNet system breach</div>
+                                <div class="data-cell mt-1">Internal data accessed</div>
+                            </td>
+                        </tr>
+                        <tr>
+                             <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/CarNet.log" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            
+            <!-- rinaldi.com.br -->
+            <div class="compact-table rounded" data-table-id="company-8">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">rinaldi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">rinaldi.com.br</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">Data of 1,000 registered distributors and sellers</div>
+                                <div class="data-cell mt-1">employee and customer information â admin login passwords â email addresses, phone numbers, full names â and more...</div>
+                            </td>
+                        </tr>
+                        <tr>
+                              <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/rinaldi.com.br" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- thewatermansarms.net -->
+            <div class="compact-table rounded" data-table-id="company-8">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">thewatermansarms</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">thewatermansarms.net</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">CVs - Bank - VCF - Business accounts - image - SCAN - Passport Details - ID Card - ...... </div>
+                                <div class="data-cell mt-1"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                              <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/thewatermansarms.net" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+         
+            <!-- atolon-parkhotel.com -->
+            <div class="compact-table rounded" data-table-id="company-8">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">atolon-parkhotel</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">atolon-parkhotel.com</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">CVs - FACTURES - Hwawei.com - AA GROUPE 2025 - RESERVATION 2025 - PERSONNELS - INFOS - STAGIAIRES ..... </div>
+                                <div class="data-cell mt-1"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                              <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/atolon-parkhotel.com" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    
+            <!-- crystalhotels.com.tr -->
+            <div class="compact-table rounded" data-table-id="company-8">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">crystalhotels</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">crystalhotels.com.tr</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">Full names of hotel guests a Email addresses (internal and external) Customer </div>
+                                <div class="data-cell mt-1">complaints and feedback content Booking or reference numbers Internal hotel communication data ...... </div>
+                            </td>
+                        </tr>
+                        <tr>
+                              <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/crystalhotels.com.tr" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- jparkislandresort.com -->
+            <div class="compact-table rounded" data-table-id="company-8">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">jparkislandresort</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">jparkislandresort.com</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">Full reservation databases Booking platform references (including HeyTripGo) Payment Data PDF files containing credit card numbers, expiration dates </div>
+                                <div class="data-cell mt-1">and CVV codes Scans of physical card images used in transactions Names and billing addresses linked to card ...... </div>
+                            </td>
+                        </tr>
+                        <tr>
+                              <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/jparkislandresort.com" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- regencyrestors.com -->
+            <div class="compact-table rounded" data-table-id="company-8">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">regencyrestors</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">regencyrestors.com</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">Full customer reservation databases (names, phones, emails, addresses, booking dates)</div>
+                                <div class="data-cell mt-1">Scanned ID documents (passports, national IDs) Internal emails via OWA Employee and customer email lists RDP credential files</div>
+                            </td>
+                        </tr>
+                        <tr>
+                              <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencytorviscas.com" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- regencycountryclub.com -->
+            <div class="compact-table rounded" data-table-id="company-8">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">regencycountryclub</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">regencycountryclub.com</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">Full customer reservation databases (names, phones, emails, addresses, booking dates)</div>
+                                <div class="data-cell mt-1">Scanned ID documents (passports, national IDs) Internal emails via OWA Employee and customer email lists RDP credential files</div>
+                            </td>
+                        </tr>
+                        <tr>
+                              <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencytorviscas.com" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- regencytorviscas.com -->
+            <div class="compact-table rounded" data-table-id="company-8">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">regencytorviscas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">regencytorviscas.com</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">Full customer reservation databases (names, phones, emails, addresses, booking dates)</div>
+                                <div class="data-cell mt-1">Scanned ID documents (passports, national IDs) Internal emails via OWA Employee and customer email lists RDP credential files</div>
+                            </td>
+                        </tr>
+                        <tr>
+                              <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencytorviscas.com" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    
+
+            <!-- KYC UK -->
+            <div class="compact-table rounded" data-table-id="company-8">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ðKYC UK</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">KYC UK</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">ENJOY!</div>
+                                <div class="data-cell mt-1"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                              <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/KYC-UK" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    
+            <!-- enersolcr.com -->
+            <div class="compact-table rounded" data-table-id="company-8">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">enersolcr</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">enersolcr.com</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">Internal Data - System Data - 73 Partner Data - Customer Data (Email, Name, Phone Number) - Admin Data and Their Roles, etc....<div>
+                                <div class="data-cell mt-1"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                              <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/enersolcr.com" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- turbomp.com -->
+            <div class="compact-table rounded" data-table-id="company-8">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">turbomp</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">turbomp.com</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">Because this company receives product design drawings from other partner companies and carries out manufacturing orders, it has detailed contract documents with numerous companies<div>
+                                <div class="data-cell mt-1">their design documents, detailed drawings required for the manufacturing process, and documents showing the manufacturing process.</div>
+                            </td>
+                        </tr>
+                        <tr>
+                              <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/enersolcr.com" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- biodimed.com -->
+            <div class="compact-table rounded" data-table-id="company-8">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">biodimed</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">biodimed.com</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">Email operations associated with all employees - attachments include 40GB of documents related to biodimed - employee data - internal messages<div>
+                                <div class="data-cell mt-1"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                              <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/biodimed.com" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- acuity.co.uk -->
+            <div class="compact-table rounded" data-table-id="company-8">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">acuity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">acuity.co.uk</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">his includes important legal documents such as drafts of non-disclosure agreements (NDA)<div>
+                                <div class="data-cell mt-1">pertaining to the company and strategic partners like Bosch, detailed financial documents containing analyses of Acuity's financial position</div>
+                            </td>
+                        </tr>
+                        <tr>
+                              <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/acuity.co.uk" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- ascires.com -->
+            <div class="compact-table rounded" data-table-id="company-8">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ascires</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">ascires.com</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">Client Data - Medical Reports - Financial Status (Bank reports, taxes, and more) - Annual Accounts - Personal Information<div>
+                                <div class="data-cell mt-1">New Projects - Large amounts of patient-related data - Business plans and much more â a total of 700 GB of critical information!</div>
+                            </td>
+                        </tr>
+                        <tr>
+                              <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/ascires.com" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- guardianhc.com -->
+            <div class="compact-table rounded" data-table-id="company-8">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ascires</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">ascires.com</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">Apps - Attachments - Daily Admission Copies - Documents - Pictures - COVID TESTING DATE - Custom Office Templates -Vaccines<div>
+                                <div class="data-cell mt-1"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                              <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/guardianhc.com" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- uatf.edu.bo -->
+            <div class="compact-table rounded" data-table-id="company-8">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">uatf.edu.bo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">uatf.edu.bo</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">Personal data (names, addresses, phone numbers) - Internal email correspondences - Attachments containing educational and administrative documents<div>
+                                <div class="data-cell mt-1">Information on student or employee activities - Contact list for all students, internal messages, and more</div>
+                            </td>
+                        </tr>
+                        <tr>
+                              <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/uatf.edu.bo" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- lyra.officegroup.it -->
+            <div class="compact-table rounded" data-table-id="company-8">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">lyra.officegroup</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">lyra.officegroup.it</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">Enjoy!<div>
+                                <div class="data-cell mt-1"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                              <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/lyra.officegroup.it" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Database Page (hidden by default) -->
+    <div id="database-page" class="max-w-screen-2xl mx-auto p-4" style="display: none;">
+        <!-- Header -->
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
+            <h1 class="text-2xl font-bold text-red-500 tracking-tight">StormouS.V4 database</h1>
+            <div class="flex flex-wrap gap-x-4 gap-y-2 text-sm">
+                <a href="stormousv4.html" onclick="showMainPage()" class="text-gray-400 hover:text-white nav-link">home</a>
+                <a href="#database" class="text-gray-400 hover:text-white nav-link">database</a>
+                <a href="affiliate.html" class="text-gray-400 hover:text-white nav-link">affiliate</a>
+                <a href="contact.html" class="text-gray-400 hover:text-white nav-link">contact us</a>
+                <a href="https://x.com/search?q=stormous" class="text-gray-400 hover:text-white nav-link">twitterX</a>
+                <a href="feedback.html" class="text-gray-400 hover:text-white nav-link">Pressfeedback</a>
+            </div>
+        </div>
+
+        <!-- Search and Filter -->
+        <div class="mb-6 flex flex-col sm:flex-row gap-4">
+            <input type="text" id="database-search" placeholder="Search database..." class="bg-gray-900 border border-gray-700 rounded px-3 py-2 flex-grow focus:border-red-500 focus:outline-none">
+            <select id="category-filter" class="bg-gray-900 border border-gray-700 rounded px-3 py-2 focus:border-red-500 focus:outline-none">
+                <option value="all">All Categories</option>
+                <option value="healthcare">Healthcare</option>
+                <option value="retail">Retail</option>
+                <option value="government">Government</option>
+                <option value="hospitality">Hospitality</option>
+                <option value="automotive">Automotive</option>
+                <option value="finance">Finance</option>
+            </select>
+            <select id="sort-by" class="bg-gray-900 border border-gray-700 rounded px-3 py-2 focus:border-red-500 focus:outline-none">
+                <option value="newest">Sort by Newest</option>
+                <option value="oldest">Sort by Oldest</option>
+                <option value="name">Sort by Name</option>
+                <option value="size">Sort by Size</option>
+            </select>
+        </div>
+
+        <!-- Published Files Grid -->
+        <div id="files-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- North Country HealthCare -->
+            <div class="file-card rounded p-4" data-category="healthcare" data-date="2023-11-15" data-name="NCH_Patient_Data.zip" data-size="53">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-red-500">NCH_Patient_Data.zip</h3>
+                    <span class="text-xs bg-gray-800 px-2 py-1 rounded">?GB</span>
+                </div>
+                <p class="text-gray-400 text-sm mb-3">600,000 patient records including PII, PHI, clinic data, and insurance details from North Country HealthCare</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-xs text-gray-500">Published: 2025</span>
+                    <button class="download-btn text-xs px-3 py-1 rounded" onclick="downloadFile('NCH_Patient_Data.zip')">DOWNLOAD</button>
+                </div>
+            </div>
+
+            <!-- Hy-Vee -->
+            <div class="file-card rounded p-4" data-category="retail" data-date="2023-10-28" data-name="HyVee_Internal_Docs.7z" data-size="53">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-red-500">HyVee_Internal_Docs.7z</h3>
+                    <span class="text-xs bg-gray-800 px-2 py-1 rounded">53 GB</span>
+                </div>
+                <p class="text-gray-400 text-sm mb-3">Internal documents, infrastructure diagrams, employee data from Hy-Vee after ransom refusal</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-xs text-gray-500">Published: 2025</span>
+                    <button class="download-btn text-xs px-3 py-1 rounded" onclick="downloadFile('HyVee_Internal_Docs.7z')">DOWNLOAD</button>
+                </div>
+            </div>
+
+            <!-- Bulent Klise -->
+            <div class="file-card rounded p-4" data-category="manufacturing" data-date="2023-09-12" data-name="BulentKlise_ClientData.rar" data-size="2.3">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-red-500">BulentKlise_ClientData.rar</h3>
+                    <span class="text-xs bg-gray-800 px-2 py-1 rounded">2.3 GB</span>
+                </div>
+                <p class="text-gray-400 text-sm mb-3">Customer names, production orders, client records from Bulent Klise manufacturing</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-xs text-gray-500">Published: 2025</span>
+                    <button class="download-btn text-xs px-3 py-1 rounded" onclick="downloadFile('BulentKlise_ClientData.rar')">DOWNLOAD</button>
+                </div>
+            </div>
+
+            <!-- French Government -->
+            <div class="file-card rounded p-4" data-category="government" data-date="2023-08-05" data-name="FrenchGov_Credentials.tar" data-size="1">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-red-500">FrenchGov_Credentials.tar</h3>
+                    <span class="text-xs bg-gray-800 px-2 py-1 rounded">?GB</span>
+                </div>
+                <p class="text-gray-400 text-sm mb-3">Valid credentials and sensitive access to multiple French government domains</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-xs text-gray-500">Published: 2025</span>
+                    <button class="download-btn text-xs px-3 py-1 rounded" onclick="downloadFile('FrenchGov_Credentials.tar')">DOWNLOAD</button>
+                </div>
+            </div>
+
+            <!-- Rinaldi -->
+            <div class="file-card rounded p-4" data-category="retail" data-date="2023-07-22" data-name="Rinaldi_Distributors.zip" data-size="1">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-red-500">Rinaldi_Distributors.zip</h3>
+                    <span class="text-xs bg-gray-800 px-2 py-1 rounded">1 GB</span>
+                </div>
+                <p class="text-gray-400 text-sm mb-3">1,000+ distributor records with employee and customer information from Rinaldi</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-xs text-gray-500">Published: 2025</span>
+                    <button class="download-btn text-xs px-3 py-1 rounded" onclick="downloadFile('Rinaldi_Distributors.zip')">DOWNLOAD</button>
+                </div>
+            </div>
+
+            <!-- Volkswagen -->
+            <div class="file-card rounded p-4" data-category="automotive" data-date="2023-06-14" data-name="VW_CarNet_Data.7z" data-size="10">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-red-500">VW_CarNet_Data.7z</h3>
+                    <span class="text-xs bg-gray-800 px-2 py-1 rounded">?GB</span>
+                </div>
+                <p class="text-gray-400 text-sm mb-3">Internal Volkswagen CarNet system data and operational information</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-xs text-gray-500">Published: 2025</span>
+                    <button class="download-btn text-xs px-3 py-1 rounded" onclick="downloadFile('VW_CarNet_Data.7z')">DOWNLOAD</button>
+                </div>
+            </div>
+
+            <!-- The Waterman's Arms -->
+            <div class="file-card rounded p-4" data-category="hospitality" data-date="2023-05-10" data-name="WatermansArms_Docs.rar" data-size="3">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-red-500">WatermansArms_Docs.rar</h3>
+                    <span class="text-xs bg-gray-800 px-2 py-1 rounded">3 GB</span>
+                </div>
+                <p class="text-gray-400 text-sm mb-3">Sensitive documents including bank details, passports, and IDs from The Waterman's Arms</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-xs text-gray-500">Published: 2025</span>
+                    <button class="download-btn text-xs px-3 py-1 rounded" onclick="downloadFile('WatermansArms_Docs.rar')">DOWNLOAD</button>
+                </div>
+            </div>
+
+            <!-- Atolon Parkhotel -->
+            <div class="file-card rounded p-4" data-category="hospitality" data-date="2023-04-05" data-name="AtolonParkhotel_Data.tar" data-size="8">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-red-500">AtolonParkhotel_Data.tar</h3>
+                    <span class="text-xs bg-gray-800 px-2 py-1 rounded">8 GB</span>
+                </div>
+                <p class="text-gray-400 text-sm mb-3">Hotel management data including reservations, staff info, and invoices from Atolon Parkhotel</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-xs text-gray-500">Published: 2025</span>
+                    <button class="download-btn text-xs px-3 py-1 rounded" onclick="downloadFile('AtolonParkhotel_Data.tar')">DOWNLOAD</button>
+                </div>
+            </div>
+
+            <!-- Wizz Air -->
+            <div class="file-card rounded p-4" data-category="transport" data-date="2023-03-15" data-name="WizzAir_Employee_Data.zip" data-size="1">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-red-500">WizzAir_Employee_Data.zip</h3>
+                    <span class="text-xs bg-gray-800 px-2 py-1 rounded">1GB</span>
+                </div>
+                <p class="text-gray-400 text-sm mb-3">Valid employee data from Wizz Air despite company denials</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-xs text-gray-500">Published: 2025</span>
+                    <button class="download-btn text-xs px-3 py-1 rounded" onclick="downloadFile('WizzAir_Employee_Data.zip')">DOWNLOAD</button>
+                </div>
+            </div>
+
+            <!-- J Park Island Resort -->
+            <div class="file-card rounded p-4" data-category="hospitality" data-date="2023-02-28" data-name="JPark_Resort_Data.7z" data-size="14">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-red-500">JPark_Resort_Data.7z</h3>
+                    <span class="text-xs bg-gray-800 px-2 py-1 rounded">14 GB</span>
+                </div>
+                <p class="text-gray-400 text-sm mb-3">Full reservation databases with payment data and ID documents from J Park Island Resort</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-xs text-gray-500">Published: 2025</span>
+                    <button class="download-btn text-xs px-3 py-1 rounded" onclick="downloadFile('JPark_Resort_Data.7z')">DOWNLOAD</button>
+                </div>
+            </div>
+
+            <!-- Turbomp -->
+            <div class="file-card rounded p-4" data-category="manufacturing" data-date="2023-01-20" data-name="Turbomp_Designs.rar" data-size="700">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-red-500">Turbomp_Designs.rar</h3>
+                    <span class="text-xs bg-gray-800 px-2 py-1 rounded">700 GB</span>
+                </div>
+                <p class="text-gray-400 text-sm mb-3">Product design drawings and manufacturing documents from Turbomp and partners</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-xs text-gray-500">Published: 2024</span>
+                    <button class="download-btn text-xs px-3 py-1 rounded" onclick="downloadFile('Turbomp_Designs.rar')">DOWNLOAD</button>
+                </div>
+            </div>
+
+            <!-- Transak -->
+            <div class="file-card rounded p-4" data-category="finance" data-date="2022-12-15" data-name="Transak_User_Data.tar" data-size="70">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-red-500">Transak_User_Data.tar</h3>
+                    <span class="text-xs bg-gray-800 px-2 py-1 rounded">70 GB</span>
+                </div>
+                <p class="text-gray-400 text-sm mb-3">300GB of sensitive documents including IDs, financial statements from Transak</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-xs text-gray-500">Published: 2024</span>
+                    <button class="download-btn text-xs px-3 py-1 rounded" onclick="downloadFile('Transak_User_Data.tar')">DOWNLOAD</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="mt-6 flex justify-center gap-2">
+            <button class="bg-gray-800 px-3 py-1 rounded text-sm" onclick="changePage(-1)">&laquo;</button>
+            <button class="bg-red-600 px-3 py-1 rounded text-sm" onclick="goToPage(1)">1</button>
+            <button class="bg-gray-800 px-3 py-1 rounded text-sm" onclick="goToPage(2)">2</button>
+            <button class="bg-gray-800 px-3 py-1 rounded text-sm" onclick="goToPage(3)">3</button>
+            <button class="bg-gray-800 px-3 py-1 rounded text-sm" onclick="changePage(1)">&raquo;</button>
+        </div>
+    </div>
+
+    <script>
+        // Initialize the page when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log("DOM fully loaded and parsed");
+            
+            // Set up database page navigation
+            document.querySelectorAll('a[href="#database-page"]').forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    console.log("Database link clicked");
+                    showDatabasePage();
+                });
+            });
+
+            // Set up home navigation
+            document.querySelectorAll('a[href="stormousv4.html"]').forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    console.log("Home link clicked");
+                    showMainPage();
+                });
+            });
+
+            // Initialize database page functionality
+            const searchInput = document.getElementById('database-search');
+            const categoryFilter = document.getElementById('category-filter');
+            const sortBy = document.getElementById('sort-by');
+            
+            // Add event listeners for filtering and sorting
+            if (searchInput && categoryFilter && sortBy) {
+                searchInput.addEventListener('input', filterFiles);
+                categoryFilter.addEventListener('change', filterFiles);
+                sortBy.addEventListener('change', filterFiles);
+            }
+            
+            // Initialize countdown timers
+            initializeCountdowns();
+        });
+
+        function showMainPage() {
+            console.log("Showing main page");
+            document.getElementById('main-page').style.display = 'block';
+            document.getElementById('database-page').style.display = 'none';
+            window.scrollTo(0, 0);
+        }
+
+        function showDatabasePage() {
+            console.log("Showing database page");
+            document.getElementById('main-page').style.display = 'none';
+            document.getElementById('database-page').style.display = 'block';
+            window.scrollTo(0, 0);
+            // Apply any existing filters when showing the page
+            filterFiles();
+        }
+
+        // Database functionality
+        function filterFiles() {
+            const searchTerm = document.getElementById('database-search').value.toLowerCase();
+            const category = document.getElementById('category-filter').value;
+            const sortBy = document.getElementById('sort-by').value;
+            
+            const fileCards = document.querySelectorAll('.file-card');
+            let visibleCards = [];
+            
+            fileCards.forEach(card => {
+                const name = card.getAttribute('data-name').toLowerCase();
+                const description = card.querySelector('p').textContent.toLowerCase();
+                const cardCategory = card.getAttribute('data-category');
+                const date = card.getAttribute('data-date');
+                const size = parseFloat(card.getAttribute('data-size'));
+                
+                // Check if card matches search and category filters
+                const matchesSearch = name.includes(searchTerm) || description.includes(searchTerm);
+                const matchesCategory = category === 'all' || cardCategory === category;
+                
+                if (matchesSearch && matchesCategory) {
+                    card.classList.remove('hidden');
+                    visibleCards.push({
+                        element: card,
+                        name: name,
+                        date: date,
+                        size: size
+                    });
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+            
+            // Sort the visible cards
+            sortFiles(visibleCards, sortBy);
+            
+            // Re-append cards in sorted order
+            const container = document.getElementById('files-container');
+            if (container) {
+                container.innerHTML = '';
+                visibleCards.forEach(card => {
+                    container.appendChild(card.element);
+                });
+            }
+        }
+
+        function sortFiles(cards, sortBy) {
+            switch(sortBy) {
+                case 'newest':
+                    cards.sort((a, b) => new Date(b.date) - new Date(a.date));
+                    break;
+                case 'oldest':
+                    cards.sort((a, b) => new Date(a.date) - new Date(b.date));
+                    break;
+                case 'name':
+                    cards.sort((a, b) => a.name.localeCompare(b.name));
+                    break;
+                case 'size':
+                    cards.sort((a, b) => b.size - a.size);
+                    break;
+                default:
+                    // Default to newest
+                    cards.sort((a, b) => new Date(b.date) - new Date(a.date));
+            }
+            return cards;
+        }
+
+        function downloadFile(filename) {
+            // In a real implementation, this would trigger a file download
+            // For demo purposes, we'll just show an alert
+            alert(`Downloading ${filename}... (This is a demo - no actual file will be downloaded)`);
+            
+            // In a real implementation, you might use something like:
+            // window.location.href = `/download/${filename}`;
+        }
+
+        function changePage(direction) {
+            // Simple pagination logic - in a real app you'd have more complex handling
+            const currentPage = document.querySelector('.bg-red-600')?.textContent;
+            if (!currentPage) return;
+            
+            const newPage = parseInt(currentPage) + direction;
+            
+            if (newPage >= 1 && newPage <= 3) {
+                goToPage(newPage);
+            }
+        }
+
+        function goToPage(pageNumber) {
+            // Update active page button
+            document.querySelectorAll('#database-page .bg-red-600').forEach(btn => {
+                btn.classList.remove('bg-red-600');
+                btn.classList.add('bg-gray-800');
+            });
+            
+            document.querySelectorAll('#database-page .bg-gray-800').forEach(btn => {
+                if (btn.textContent == pageNumber) {
+                    btn.classList.remove('bg-gray-800');
+                    btn.classList.add('bg-red-600');
+                }
+            });
+            
+            // In a real implementation, you would load the appropriate page of results
+            // For this demo, we'll just show an alert
+            console.log(`Loading page ${pageNumber}`);
+        }
+
+        // Countdown timer logic
+        function initializeCountdowns() {
+            document.querySelectorAll('.compact-table').forEach(table => {
+                const tableId = table.getAttribute('data-table-id');
+                const statusElement = table.querySelector('.status-pending');
+                
+                if (!statusElement) return; // Skip if not pending
+                
+                const hoursElement = table.querySelector('.countdown-hours');
+                const minutesElement = table.querySelector('.countdown-minutes');
+                const secondsElement = table.querySelector('.countdown-seconds');
+                
+                // Check if we have a stored end time for this table
+                const storedEndTime = localStorage.getItem(`endTime_${tableId}`);
+                let endTime;
+                
+                if (storedEndTime) {
+                    endTime = parseInt(storedEndTime);
+                    // Check if the timer has already expired
+                    if (Date.now() > endTime) {
+                        markAsPublished(table, statusElement);
+                        return;
+                    }
+                } else {
+                    // Set new end time (24 hours from now)
+                    endTime = Date.now() + 24 * 60 * 60 * 1000;
+                    localStorage.setItem(`endTime_${tableId}`, endTime.toString());
+                }
+                
+                // Start the countdown
+                updateCountdown(table, statusElement, hoursElement, minutesElement, secondsElement, endTime);
+            });
+        }
+        
+        function updateCountdown(table, statusElement, hoursElement, minutesElement, secondsElement, endTime) {
+            const countdown = setInterval(() => {
+                const now = Date.now();
+                const remaining = endTime - now;
+                
+                if (remaining <= 0) {
+                    clearInterval(countdown);
+                    markAsPublished(table, statusElement);
+                    return;
+                }
+                
+                // Calculate remaining time
+                const hours = Math.floor(remaining / (1000 * 60 * 60));
+                const minutes = Math.floor((remaining % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((remaining % (1000 * 60)) / 1000);
+                
+                // Update display
+                if (hoursElement) hoursElement.textContent = hours.toString().padStart(2, '0');
+                if (minutesElement) minutesElement.textContent = minutes.toString().padStart(2, '0');
+                if (secondsElement) secondsElement.textContent = seconds.toString().padStart(2, '0');
+            }, 1000);
+        }
+        
+        function markAsPublished(table, statusElement) {
+            statusElement.classList.remove('status-pending');
+            statusElement.classList.add('status-published');
+            statusElement.textContent = 'PUBLISHED';
+            const countdownElement = table.querySelector('.countdown');
+            if (countdownElement) countdownElement.style.display = 'none';
+            
+            // Add database access link
+            const statusCell = statusElement.parentElement;
+            const dbLink = document.createElement('a');
+            dbLink.href = '#database-page';
+            dbLink.className = 'database-link text-xs';
+            dbLink.textContent = 'ACCESS DATABASE';
+            dbLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                showDatabasePage();
+            });
+            statusCell.appendChild(dbLink);
+            
+            // Clean up localStorage
+            const tableId = table.getAttribute('data-table-id');
+            localStorage.removeItem(`endTime_${tableId}`);
+        }
+    </script>
 </body>
 </html>
