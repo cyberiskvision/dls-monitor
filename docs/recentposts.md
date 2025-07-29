@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-07-29 | [`First Baptist Church of Hammond`](https://google.com/search?q=First+Baptist+Church+of+Hammond) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-07-26 | [`hptc.org`](https://google.com/search?q=hptc.org) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2025-07-23 | [`Ka Logistics`](https://google.com/search?q=Ka+Logistics) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-07-23 | [`DA Whitacre Construction`](https://google.com/search?q=DA+Whitacre+Construction) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-04-16 | [`aeamg.org.br`](https://google.com/search?q=aeamg.org.br) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-04-15 | [`Oregon Department of Environmental Quality`](https://google.com/search?q=Oregon+Department+of+Environmental+Quality) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-04-15 | [`Waller`](https://google.com/search?q=Waller) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-04-15 | [`Voigt-Abernathy Company`](https://google.com/search?q=Voigt-Abernathy+Company) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
