@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-08-06 | [`Jamco Aerospace`](https://google.com/search?q=Jamco+Aerospace) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-08-06 | [`Emprise`](https://google.com/search?q=Emprise) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-08-06 | [`Brad's Bedding Plants`](https://google.com/search?q=Brad%27s+Bedding+Plants) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-08-04 | [`Bucks County Opportunity Council, INC.`](https://google.com/search?q=Bucks+County+Opportunity+Council%2C+INC.) | [moneymessage](https://ransomwatch.telemetry.ltd/#/profiles?id=moneymessage) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-04-22 | [`Acos Favorit`](https://google.com/search?q=Acos+Favorit) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-04-21 | [`C-Mec`](https://google.com/search?q=C-Mec) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-04-21 | [`Pharma Force`](https://google.com/search?q=Pharma+Force) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2025-04-21 | [`tuttoperlufficio.eu`](https://google.com/search?q=tuttoperlufficio.eu) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
