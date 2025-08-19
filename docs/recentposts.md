@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-08-19 | [`Maxell Asia`](https://google.com/search?q=Maxell+Asia) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-08-15 | [`eShipGlobal`](https://google.com/search?q=eShipGlobal) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-08-14 | [`NextLabs`](https://google.com/search?q=NextLabs) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-08-14 | [`Greenscape Pump Services`](https://google.com/search?q=Greenscape+Pump+Services) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-04-26 | [`MDB`](https://google.com/search?q=MDB) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-04-25 | [`Kenworth Del Sur`](https://google.com/search?q=Kenworth+Del+Sur) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2025-04-25 | [`Kasb Bank - K-Trade`](https://google.com/search?q=Kasb+Bank+-+K-Trade) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2025-04-24 | [`https://www.pacmet.com`](https://google.com/search?q=https%3A%2F%2Fwww.pacmet.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
