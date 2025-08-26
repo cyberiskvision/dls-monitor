@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-08-26 | [`Logan & Mencuccini`](https://google.com/search?q=Logan+%26+Mencuccini) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-08-26 | [`Galaxy Freightline`](https://google.com/search?q=Galaxy+Freightline) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-08-26 | [`Edward J McKarski`](https://google.com/search?q=Edward+J+McKarski) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-08-26 | [`Banville Wine Merchants`](https://google.com/search?q=Banville+Wine+Merchants) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-04-29 | [`Gorham Sand & Gravel`](https://google.com/search?q=Gorham+Sand+%26+Gravel) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-29 | [`Cooper Global Chauffeured`](https://google.com/search?q=Cooper+Global+Chauffeured) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-29 | [`BOLL Logistik`](https://google.com/search?q=BOLL+Logistik) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-04-28 | [`LaBella Associates`](https://google.com/search?q=LaBella+Associates) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
