@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-08-29 | [`co`](https://google.com/search?q=co) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-08-28 | [`Firelands Scientific`](https://google.com/search?q=Firelands+Scientific) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-08-27 | [`ZCORP`](https://google.com/search?q=ZCORP) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-08-26 | [`Premier Realty Group`](https://google.com/search?q=Premier+Realty+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-04-30 | [`Coop UQAM`](https://google.com/search?q=Coop+UQAM) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-04-30 | [`PermaCold Engineering`](https://google.com/search?q=PermaCold+Engineering) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-29 | [`National Steel City`](https://google.com/search?q=National+Steel+City) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-04-29 | [`Missouri Pipe Fittings`](https://google.com/search?q=Missouri+Pipe+Fittings) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
