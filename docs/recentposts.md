@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-09-01 | [`Juggernaut`](https://google.com/search?q=Juggernaut) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-01 | [`Arboris`](https://google.com/search?q=Arboris) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-01 | [`All States Materials Group`](https://google.com/search?q=All+States+Materials+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-08-29 | [`co`](https://google.com/search?q=co) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-04-30 | [`Telco Intercontinental`](https://google.com/search?q=Telco+Intercontinental) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2025-04-30 | [`FCC`](https://google.com/search?q=FCC) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
 | 2025-04-30 | [`Digestive Specialists`](https://google.com/search?q=Digestive+Specialists) | [hunters](https://ransomwatch.telemetry.ltd/#/profiles?id=hunters) |
-| 2025-04-30 | [`Coop UQAM`](https://google.com/search?q=Coop+UQAM) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
