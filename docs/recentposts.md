@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-09-08 | [`https://gazomet.pl & https://cgas.pl`](https://google.com/search?q=https%3A%2F%2Fgazomet.pl+%26+https%3A%2F%2Fcgas.pl) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
 | 2025-09-05 | [`Elite Trailers`](https://google.com/search?q=Elite+Trailers) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-09-04 | [`https://ipathpr.com`](https://google.com/search?q=https%3A%2F%2Fipathpr.com) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
 | 2025-09-01 | [`Vanderpool Construction`](https://google.com/search?q=Vanderpool+Construction) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-05-01 | [`Southern Fidelity`](https://google.com/search?q=Southern+Fidelity) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-01 | [`ECOM America`](https://google.com/search?q=ECOM+America) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-01 | [`Defected Records`](https://google.com/search?q=Defected+Records) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-05-01 | [`Custom Paper`](https://google.com/search?q=Custom+Paper) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
