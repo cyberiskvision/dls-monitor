@@ -9,8 +9,8 @@
     <style>
         body {
             font-family: 'JetBrains Mono', monospace;
-            background-color: #ffffff;
-            color: #e0e0e0;
+            background-color: #8a8787;
+            color: #8a8787;
             font-size: 0.9rem;
         }
         .compact-table {
@@ -19,12 +19,12 @@
             transition: all 0.3s ease;
         }
         .compact-table:hover {
-            border-color: #ff2e2e;
+            border-color: #ee0000;
             box-shadow: 0 0 15px rgba(255, 46, 46, 0.2);
         }
         .table-header {
             background-color: #1a1a1a;
-            border-bottom: 1px solid #ff2e2e;
+            border-bottom: 1px solid #34e000;
         }
         .status-pending {
             color: #ffcc00;
@@ -63,7 +63,7 @@
             width: 100%;
         }
         .database-link {
-            color: #5ba100;
+            text-decoration:#ff1a1a;
             text-decoration: none;
             font-weight: 500;
             display: inline-block;
@@ -84,8 +84,8 @@
             transform: translateY(-2px);
         }
         .download-btn {
-            background-color: #ff2e2e;
-            color: white;
+            background-color: #2bff00;
+            color: rgb(0, 255, 13);
             transition: all 0.2s ease;
         }
         .download-btn:hover {
@@ -121,129 +121,8 @@
         <!-- Tables Grid -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           
-            <!-- Transak -->
-            <div class="compact-table rounded" data-table-id="company-1">
-                <table class="w-full">
-                    <thead>
-                        <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ðTransak</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
-                            <td class="py-1 px-3 data-cell">Transak.com</td>
-                        </tr>
-                        <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
-                            <td class="py-1 px-3">
-                                <div class="data-cell">We have extracted more than 300GB of data</div>
-                                <div class="data-cell mt-1">which includes sensitive personal documents such as government-issued IDs ..</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-1 px-3 text-gray-400">Status</td>
-                            <td class="py-1 px-3">
-                                <span class="status-published text-xs">PUBLISHED</span>
-                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/transak.com" class="database-link text-xs">ACCESS DATABASE</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <!-- Hy-Vee -->
-            <div class="compact-table rounded" data-table-id="company-2">
-                <table class="w-full">
-                    <thead>
-                        <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ðHy-Vee</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
-                            <td class="py-1 px-3 data-cell">Hy-Vee.com</td>
-                        </tr>
-                        <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
-                            <td class="py-1 px-3">
-                                <div class="data-cell"> Hy-Vee refuses to pay, and we are proceeding to leak all the data that was extracted.</div>
-                                <div class="data-cell mt-1">Internal documents, infrastructure diagrams, employee data, training materials ....</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-1 px-3 text-gray-400">Status</td>
-                            <td class="py-1 px-3">
-                                <span class="status-published text-xs">PUBLISHED</span>
-                                <a href="http://kxlpsf4uua2k36quvcob3mjlguurbc3rhjkwt7thoyi52o7y6tf2wrad.onion/hy-vee/" class="database-link text-xs">ACCESS DATABASE</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <!-- aosense.com -->
-            <div class="compact-table rounded" data-table-id="company-4">
-                <table class="w-full">
-                    <thead>
-                        <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ðaosense.com</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
-                            <td class="py-1 px-3 data-cell">aosense.com</td>
-                        </tr>
-                        <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
-                            <td class="py-1 px-3">
-                                <div class="data-cell">Accounting Information- AOSense Commercial Sales-Design-Financial-Inertial_Sensors_Group-IT-Products-Report</div>
-                                <div class="data-cell mt-1">ContractsAdmin-Active Project Numbers-USNO Ca oven-NASA-Atom Computing</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-1 px-3 text-gray-400">Status</td>
-                            <td class="py-1 px-3">
-                                <span class="status-published text-xs">PUBLISHED</span>
-                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/aosense.com" class="database-link text-xs">ACCESS DATABASE</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <!-- French Government -->
-            <div class="compact-table rounded" data-table-id="company-4">
-                <table class="w-full">
-                    <thead>
-                        <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ðFrench Government</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
-                            <td class="py-1 px-3 data-cell">French Government</td>
-                        </tr>
-                        <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
-                            <td class="py-1 px-3">
-                                <div class="data-cell">Stealer-type breach</div>
-                                <div class="data-cell mt-1">Valid credentials, sensitive access</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-1 px-3 text-gray-400">Status</td>
-                            <td class="py-1 px-3">
-                                <span class="status-published text-xs">PUBLISHED</span>
-                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/French-Gouv/" class="database-link text-xs">ACCESS DATABASE</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+        
+        
 
        <!-- level.com/ -->
             <div class="compact-table rounded" data-table-id="company-5">
@@ -465,6 +344,40 @@
                 </table>
             </div>
     
+  <!-- Transak -->
+            <div class="compact-table rounded" data-table-id="company-1">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ðTransak</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">Transak.com</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">We have extracted more than 300GB of data</div>
+                                <div class="data-cell mt-1">which includes sensitive personal documents such as government-issued IDs ..</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/transak.com" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+
             <!-- crystalhotels.com.tr -->
             <div class="compact-table rounded" data-table-id="company-8">
                 <table class="w-full">
@@ -806,6 +719,101 @@
                     </tbody>
                 </table>
             </div>
+
+
+ <!-- Hy-Vee -->
+            <div class="compact-table rounded" data-table-id="company-2">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ðHy-Vee</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">Hy-Vee.com</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell"> Hy-Vee refuses to pay, and we are proceeding to leak all the data that was extracted.</div>
+                                <div class="data-cell mt-1">Internal documents, infrastructure diagrams, employee data, training materials ....</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://kxlpsf4uua2k36quvcob3mjlguurbc3rhjkwt7thoyi52o7y6tf2wrad.onion/hy-vee/" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- aosense.com -->
+            <div class="compact-table rounded" data-table-id="company-4">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ðaosense.com</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">aosense.com</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">Accounting Information- AOSense Commercial Sales-Design-Financial-Inertial_Sensors_Group-IT-Products-Report</div>
+                                <div class="data-cell mt-1">ContractsAdmin-Active Project Numbers-USNO Ca oven-NASA-Atom Computing</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/aosense.com" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- French Government -->
+            <div class="compact-table rounded" data-table-id="company-4">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ðFrench Government</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 data-cell">French Government</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell">Stealer-type breach</div>
+                                <div class="data-cell mt-1">Valid credentials, sensitive access</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/French-Gouv/" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
 
             <!-- guardianhc.com -->
             <div class="compact-table rounded" data-table-id="company-8">
