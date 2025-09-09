@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-09-09 | [`Celtic Engineering`](https://google.com/search?q=Celtic+Engineering) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-09 | [`Anderson Aluminum`](https://google.com/search?q=Anderson+Aluminum) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-09 | [`Promark Partners`](https://google.com/search?q=Promark+Partners) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-09 | [`Energy Fishing`](https://google.com/search?q=Energy+Fishing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-05-02 | [`[DISCLOSED]Imedexsa`](https://google.com/search?q=%5BDISCLOSED%5DImedexsa) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-05-02 | [`Government of Peru`](https://google.com/search?q=Government+of+Peru) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-05-02 | [`The Seydel Companies`](https://google.com/search?q=The+Seydel+Companies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-05-02 | [`pdcm.com`](https://google.com/search?q=pdcm.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
