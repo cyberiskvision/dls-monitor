@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-09-09 | [`Energy Fishing`](https://google.com/search?q=Energy+Fishing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-08 | [`BDE Computer Services`](https://google.com/search?q=BDE+Computer+Services) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-08 | [`nubox.com & sumasaas.com`](https://google.com/search?q=nubox.com+%26+sumasaas.com) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
 | 2025-09-08 | [`https://gazomet.pl & https://cgas.pl`](https://google.com/search?q=https%3A%2F%2Fgazomet.pl+%26+https%3A%2F%2Fcgas.pl) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-05-02 | [`pdcm.com`](https://google.com/search?q=pdcm.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-05-02 | [`kll-law.com`](https://google.com/search?q=kll-law.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-05-01 | [`arc-com.com`](https://google.com/search?q=arc-com.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2025-05-01 | [`Southern Fidelity`](https://google.com/search?q=Southern+Fidelity) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
