@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-09-10 | [`M8 Group`](https://google.com/search?q=M8+Group) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-09-10 | [`Coastal Pacific Xpress`](https://google.com/search?q=Coastal+Pacific+Xpress) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-09-10 | [`Royal Machine & Tool`](https://google.com/search?q=Royal+Machine+%26+Tool) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-10 | [`Rising Star Hydraulics`](https://google.com/search?q=Rising+Star+Hydraulics) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-05-06 | [`Sugar Lake Lodge`](https://google.com/search?q=Sugar+Lake+Lodge) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-06 | [`Rand Technology`](https://google.com/search?q=Rand+Technology) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-05 | [`Novosit`](https://google.com/search?q=Novosit) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-05-05 | [`Marine Technical Surveyors`](https://google.com/search?q=Marine+Technical+Surveyors) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
