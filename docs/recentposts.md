@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-09-10 | [`Mayors Machine Works`](https://google.com/search?q=Mayors+Machine+Works) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-10 | [`JIT Energy Services`](https://google.com/search?q=JIT+Energy+Services) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-10 | [`HD Media Systems`](https://google.com/search?q=HD+Media+Systems) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-10 | [`GL Veneer`](https://google.com/search?q=GL+Veneer) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-05-05 | [`Breen Construction Services`](https://google.com/search?q=Breen+Construction+Services) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-05 | [`Alberta Construction Safety Association`](https://google.com/search?q=Alberta+Construction+Safety+Association) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-05 | [`ATI Systems`](https://google.com/search?q=ATI+Systems) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-05-05 | [`Technical Die-Casting`](https://google.com/search?q=Technical+Die-Casting) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
