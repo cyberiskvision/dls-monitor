@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-09-16 | [`RGR Sportswear`](https://google.com/search?q=RGR+Sportswear) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-16 | [`RFI`](https://google.com/search?q=RFI) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-16 | [`Pathfinder`](https://google.com/search?q=Pathfinder) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-16 | [`McCarter Electrical`](https://google.com/search?q=McCarter+Electrical) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-05-09 | [`Gistic Research`](https://google.com/search?q=Gistic+Research) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-09 | [`EMX Enterprises`](https://google.com/search?q=EMX+Enterprises) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-09 | [`Mountain View Mushrooms`](https://google.com/search?q=Mountain+View+Mushrooms) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
-| 2025-05-09 | [`hennessyfunds.com`](https://google.com/search?q=hennessyfunds.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
