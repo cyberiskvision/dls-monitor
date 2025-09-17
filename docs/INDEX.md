@@ -165,7 +165,7 @@
 | [stormous](https://ransomwatch.telemetry.ltd/#/profiles?id=stormous) | Database Shop | 🔴 | 2022-05-09 | 3slz4povugieoi3tw7sblxoowxhbzxeju427cffsst5fo2tizepwatid.onion |
 | [stormous](https://ransomwatch.telemetry.ltd/#/profiles?id=stormous) | Stormous _ official Site | 🔴 | 2023-09-30 | h3reihqb2y7woqdary2g3bmk3apgtxuyhx4j2ftovbhe3l5svev7bdyd.onion |
 | [stormous](https://ransomwatch.telemetry.ltd/#/profiles?id=stormous) | RANSTREET - STORMOUS Ransomware | 🔴 | 2023-12-27 | ransekgbpijp56bflufgxptwn5hej2rztx423v6sim2zrzz7xetnr2qd.onion |
-| [stormous](https://ransomwatch.telemetry.ltd/#/profiles?id=stormous) | StormouS.V4 BLOG | 🔴 | 2025-09-17 | pdcizqzjitsgfcgqeyhuee5u6uki6zy5slzioinlhx6xjnsw25irdgqd.onion |
+| [stormous](https://ransomwatch.telemetry.ltd/#/profiles?id=stormous) | StormouS.V4 BLOG | 🟢 |  | pdcizqzjitsgfcgqeyhuee5u6uki6zy5slzioinlhx6xjnsw25irdgqd.onion |
 | [stormous](https://ransomwatch.telemetry.ltd/#/profiles?id=stormous) | StormouS.X BLOG - Official blog | 🔴 | 2024-02-29 | stmxylixiz4atpmkspvhkym4xccjvpcv3v67uh3dze7xwwhtnz4faxid.onion |
 | [leaktheanalyst](https://ransomwatch.telemetry.ltd/#/profiles?id=leaktheanalyst) | #LeakTheAnalyst | 🔴 | 2022-08-05 | leaktheanalyst.fireeye62c3da3fnosymmmcqcty7rl7cjucpbkzaz275a4qs5fgkzhad.onion |
 | [ranion](https://ransomwatch.telemetry.ltd/#/profiles?id=ranion) |  | 🔴 | 2025-01-26 | ranionv3j2o7wrn3um6de33eccbchhg32mkgnnoi72enkpp7jc25h3ad.onion |
@@ -235,7 +235,7 @@
 | [lockbit3_fs](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3_fs) | LockBit - Leaked | 🟢 |  | lockbit7z4ndl6thsct34yd47jrzdkpnfg3acfvpacuccb45pnars2ad.onion |
 | [lockbit3_fs](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3_fs) | LockBit - Leaked | 🟢 |  | lockbit7z55tuwaflw2c7torcryobdvhkcgvivhflyndyvcrexafssad.onion |
 | [lockbit3_fs](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3_fs) | LockBit - Leaked | 🟢 |  | lockbit7z57mkicfkuq44j6yrpu5finwvjllczkkp2uvdedsdonjztyd.onion |
-| [lockbit3_fs](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3_fs) | LockBit - Leaked | 🟢 |  | lockbit7z5ehshj6gzpetw5kso3onts6ty7wrnneya5u4aj3vzkeoaqd.onion |
+| [lockbit3_fs](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3_fs) | LockBit - Leaked | 🔴 | 2025-09-17 | lockbit7z5ehshj6gzpetw5kso3onts6ty7wrnneya5u4aj3vzkeoaqd.onion |
 | [lockbit3_fs](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3_fs) | LockBit - Leaked | 🟢 |  | lockbit7z5hwf6ywfuzipoa42tjlmal3x5suuccngsamsgklww2xgyqd.onion |
 | [lockbit3_fs](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3_fs) | LockBit - Leaked | 🟢 |  | lockbit7z5ltrhzv46lsg447o3cx2637dloc3qt4ugd3gr2xdkkkeayd.onion |
 | [lockbit3_fs](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3_fs) | LockBit - Leaked | 🟢 |  | lockbit7z6choojah4ipvdpzzfzxxchjbecnmtn4povk6ifdvx2dpnid.onion |
@@ -274,7 +274,7 @@
 | [nevada](https://ransomwatch.telemetry.ltd/#/profiles?id=nevada) |  | 🔴 | 2021-05-01 | nevaffcwswjosddmw55qhn4u4secw42wlppzvf26k5onrlxjevm6avad.onion |
 | [vendetta](https://ransomwatch.telemetry.ltd/#/profiles?id=vendetta) | Vendetta | 🔴 | 2024-02-08 | test.cuba4ikm4jakjgmkezytyawtdgr2xymvy6nvzgw5cglswg3si76icnqd.onion |
 | [0xFFF](https://ransomwatch.telemetry.ltd/#/profiles?id=0xFFF) | U-bomb | 🔴 | 2024-08-05 | contiuevxdgdhn3zl2kubpajtfgqq4ssj2ipv6ujw7fwhggev3rk6hqd.onion |
-| [ransomblog_noname](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomblog_noname) | Ransomware blog – We will not give ourselves a nam | 🟢 |  | z6wkgghtoawog5noty5nxulmmt2zs7c3yvwr22v4czbffdoly2kl4uad.onion |
+| [ransomblog_noname](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomblog_noname) | Ransomware blog – We will not give ourselves a nam | 🔴 | 2025-09-17 | z6wkgghtoawog5noty5nxulmmt2zs7c3yvwr22v4czbffdoly2kl4uad.onion |
 | [ransomblog_noname](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomblog_noname) | Ransomware blog – We will not give ourselves a nam | 🔴 | 2024-06-28 | z6wkgghzdliugvwinrp46m7i4xpmovjyygoitpicx7x2iqtihn7noxid.onion |
 | [darkbit01](https://ransomwatch.telemetry.ltd/#/profiles?id=darkbit01) |  | 🔴 | 2021-05-01 | iw6v2p3cruy7tqfup3yl4dgt4pfibfa3ai4zgnu5df2q3hus3lm7c7ad.onion |
 | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |  | 🟢 |  | 3ev4metjirohtdpshsqlkrqcmxq6zu3d7obrdhglpy5jpbr7whmlfgqd.onion |
