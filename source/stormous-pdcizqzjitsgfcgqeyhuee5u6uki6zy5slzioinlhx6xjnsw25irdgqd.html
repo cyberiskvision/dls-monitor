@@ -9,8 +9,8 @@
     <style>
         body {
             font-family: 'JetBrains Mono', monospace;
-            background-color: #5c5c5c;
-            color: #8a8787;
+            background-color: #000000;
+            color: #f0e8e8;
             font-size: 0.9rem;
         }
         .compact-table {
@@ -19,12 +19,12 @@
             transition: all 0.3s ease;
         }
         .compact-table:hover {
-            border-color: #ee0000;
+            border-color: #b30808;
             box-shadow: 0 0 15px rgba(255, 46, 46, 0.2);
         }
         .table-header {
-            background-color: #1a1a1a;
-            border-bottom: 1px solid #34e000;
+            background-color: #02551d;
+            border-bottom: 1px solid #857272;
         }
         .status-pending {
             color: #ffcc00;
@@ -56,14 +56,14 @@
             height: 1px;
             bottom: -2px;
             left: 0;
-            background-color: #ff2e2e;
+            background-color: #ff3030;
             transition: width 0.3s ease;
         }
         .nav-link:hover:after {
             width: 100%;
         }
         .database-link {
-            text-decoration:#ff1a1a;
+            text-decoration:#a30d0d;
             text-decoration: none;
             font-weight: 500;
             display: inline-block;
@@ -71,31 +71,31 @@
             transition: all 0.2s ease;
         }
         .database-link:hover {
-            color: #ff1a1a;
+            color: #fc1100;
             text-decoration: underline;
         }
         .file-card {
             background-color: #111;
-            border: 1px solid #333;
+            border: 1px solid #247922;
             transition: all 0.3s ease;
         }
         .file-card:hover {
-            border-color: #ff2e2e;
+            border-color: #9c0d0d;
             transform: translateY(-2px);
         }
         .download-btn {
             background-color: #fc1100;
-            color: rgb(235, 235, 235);
+            color: rgb(255, 0, 0);
             transition: all 0.2s ease;
         }
         .download-btn:hover {
-            background-color: #ff1a1a;
+            background-color: #00500d;
         }
         .hidden {
             display: none;
         }
         #database-page {
-            background-color: #eee8e8;
+            background-color: #000000;
             min-height: 100vh;
         }
     </style>
@@ -107,13 +107,12 @@
         <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
             <h1 class="text-2xl font-bold text-red-500 tracking-tight">StormouS.V4</h1>
             <div class="flex flex-wrap gap-x-4 gap-y-2 text-sm">
-                <a href="index.html" class="text-gray-400 hover:text-white nav-link">home</a>
-                <a href="#database-page" class="text-gray-400 hover:text-white nav-link">database</a>
-                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion" class="text-gray-400 hover:text-white nav-link">leak</a>
-                <a href="affiliate.html" class="text-gray-400 hover:text-white nav-link">affiliate</a>
-                <a href="Contact-Us.html" class="text-gray-400 hover:text-white nav-link">contact us</a>
-                <a href="" class="text-gray-400 hover:text-white nav-link">Marketplace</a>
-                <a href="https://x.com/search?q=stormous" class="text-gray-400 hover:text-white nav-link">twitterX</a>
+                <a href="index.html" class="text-gray-400 hover:text-white nav-link">HOME</a>
+                <a href="#database-page" class="text-gray-400 hover:text-white nav-link">DATABASE</a>
+                <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion" class="text-gray-400 hover:text-white nav-link">LEAK</a>
+                <a href="affiliate.html" class="text-gray-400 hover:text-white nav-link">AFFILIATES</a>
+                <a href="Contact-Us.html" class="text-gray-400 hover:text-white nav-link">CONTACT US</a>
+                <a href="https://x.com/search?q=stormous" class="text-gray-400 hover:text-white nav-link">twitterx</a>
                 <a href="feedback.html" class="text-gray-400 hover:text-white nav-link">Pressfeedback</a>
             </div>
         </div>
@@ -122,32 +121,29 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           
         
-        
-
-      
 
             <!-- North Country HealthCare -->
             <div class="compact-table rounded" data-table-id="company-5">
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">North Country HealthCare</th>
+                            <th colspan="2" class="py-2 px-3 text-left text--500">North Country HealthCare</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">North Country HealthCare</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell"> Health information for 600,000 patients has been accessed from the North Country Health (NCH) care</div>
                                 <div class="data-cell mt-1">The dataset includes full Personally Identifiable Information (PII), Protected Health Information (PHI), </div>
                             </td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/NCH/" class="database-link text-xs">ACCESS DATABASE</a>
@@ -162,23 +158,23 @@
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">bulentklise</th>
+                            <th colspan="2" class="py-2 px-3 text-left text--200">bulentklise</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">bulentklise.com.tr</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">Customer names, identification numbers, production orders,</div>
                                 <div class="data-cell mt-1">client records, delivery tracking data, customer information, logos, and more</div>
                             </td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/www.bulentklise.com.tr" class="database-link text-xs">ACCESS DATABASE</a>
@@ -193,23 +189,23 @@
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">Volkswagen</th>
+                            <th colspan="2" class="py-2 px-3 text-left text--500">Volkswagen</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">Volkswagen</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">CarNet system breach</div>
                                 <div class="data-cell mt-1">Internal data accessed</div>
                             </td>
                         </tr>
                         <tr>
-                             <td class="py-1 px-3 text-gray-400">Status</td>
+                             <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/CarNet.log" class="database-link text-xs">ACCESS DATABASE</a>
@@ -225,23 +221,23 @@
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">rinaldi</th>
+                            <th colspan="2" class="py-2 px-3 text-left text--500">rinaldi</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">rinaldi.com.br</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">Data of 1,000 registered distributors and sellers</div>
                                 <div class="data-cell mt-1">employee and customer information â admin login passwords â email addresses, phone numbers, full names â and more...</div>
                             </td>
                         </tr>
                         <tr>
-                              <td class="py-1 px-3 text-gray-400">Status</td>
+                              <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/rinaldi.com.br" class="database-link text-xs">ACCESS DATABASE</a>
@@ -256,23 +252,23 @@
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">thewatermansarms</th>
+                            <th colspan="2" class="py-2 px-3 text-left text--500">thewatermansarms</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">thewatermansarms.net</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">CVs - Bank - VCF - Business accounts - image - SCAN - Passport Details - ID Card - ...... </div>
                                 <div class="data-cell mt-1"></div>
                             </td>
                         </tr>
                         <tr>
-                              <td class="py-1 px-3 text-gray-400">Status</td>
+                              <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/thewatermansarms.net" class="database-link text-xs">ACCESS DATABASE</a>
@@ -287,23 +283,23 @@
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">atolon-parkhotel</th>
+                            <th colspan="2" class="py-2 px-3 text-left text--500">atolon-parkhotel</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">atolon-parkhotel.com</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">CVs - FACTURES - Hwawei.com - AA GROUPE 2025 - RESERVATION 2025 - PERSONNELS - INFOS - STAGIAIRES ..... </div>
                                 <div class="data-cell mt-1"></div>
                             </td>
                         </tr>
                         <tr>
-                              <td class="py-1 px-3 text-gray-400">Status</td>
+                              <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/atolon-parkhotel.com" class="database-link text-xs">ACCESS DATABASE</a>
@@ -318,23 +314,23 @@
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ðTransak</th>
+                            <th colspan="2" class="py-2 px-3 text-left text--500">Transak</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">Transak.com</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">We have extracted more than 300GB of data</div>
                                 <div class="data-cell mt-1">which includes sensitive personal documents such as government-issued IDs ..</div>
                             </td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/transak.com" class="database-link text-xs">ACCESS DATABASE</a>
@@ -344,6 +340,36 @@
                 </table>
             </div>
 
+ <!-- Hy-Vee -->
+            <div class="compact-table rounded" data-table-id="company-2">
+                <table class="w-full">
+                    <thead>
+                        <tr class="table-header">
+                            <th colspan="2" class="py-2 px-3 text-left text--500">Hy-Vee</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
+                            <td class="py-1 px-3 data-cell">Hy-Vee.com</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
+                            <td class="py-1 px-3">
+                                <div class="data-cell"> Hy-Vee refuses to pay, and we are proceeding to leak all the data that was extracted.</div>
+                                <div class="data-cell mt-1">Internal documents, infrastructure diagrams, employee data, training materials ....</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-1 px-3 text-gray-400">Status:</td>
+                            <td class="py-1 px-3">
+                                <span class="status-published text-xs">PUBLISHED</span>
+                                <a href="http://kxlpsf4uua2k36quvcob3mjlguurbc3rhjkwt7thoyi52o7y6tf2wrad.onion/hy-vee/" class="database-link text-xs">ACCESS DATABASE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
 
 
@@ -352,23 +378,23 @@
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">crystalhotels</th>
+                            <th colspan="2" class="py-2 px-3 text-left text--500">crystalhotels</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">crystalhotels.com.tr</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">Full names of hotel guests a Email addresses (internal and external) Customer </div>
                                 <div class="data-cell mt-1">complaints and feedback content Booking or reference numbers Internal hotel communication data ...... </div>
                             </td>
                         </tr>
                         <tr>
-                              <td class="py-1 px-3 text-gray-400">Status</td>
+                              <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/crystalhotels.com.tr" class="database-link text-xs">ACCESS DATABASE</a>
@@ -383,23 +409,23 @@
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">jparkislandresort</th>
+                            <th colspan="2" class="py-2 px-3 text-left text-500">jparkislandresort</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">jparkislandresort.com</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">Full reservation databases Booking platform references (including HeyTripGo) Payment Data PDF files containing credit card numbers, expiration dates </div>
                                 <div class="data-cell mt-1">and CVV codes Scans of physical card images used in transactions Names and billing addresses linked to card ...... </div>
                             </td>
                         </tr>
                         <tr>
-                              <td class="py-1 px-3 text-gray-400">Status</td>
+                              <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/jparkislandresort.com" class="database-link text-xs">ACCESS DATABASE</a>
@@ -414,23 +440,23 @@
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">regencyrestors</th>
+                            <th colspan="2" class="py-2 px-3 text-left text--500">regencyrestors</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">regencyrestors.com</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">Full customer reservation databases (names, phones, emails, addresses, booking dates)</div>
                                 <div class="data-cell mt-1">Scanned ID documents (passports, national IDs) Internal emails via OWA Employee and customer email lists RDP credential files</div>
                             </td>
                         </tr>
                         <tr>
-                              <td class="py-1 px-3 text-gray-400">Status</td>
+                              <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencytorviscas.com" class="database-link text-xs">ACCESS DATABASE</a>
@@ -445,23 +471,23 @@
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">regencycountryclub</th>
+                            <th colspan="2" class="py-2 px-3 text-left text-500">regencycountryclub</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">regencycountryclub.com</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">Full customer reservation databases (names, phones, emails, addresses, booking dates)</div>
                                 <div class="data-cell mt-1">Scanned ID documents (passports, national IDs) Internal emails via OWA Employee and customer email lists RDP credential files</div>
                             </td>
                         </tr>
                         <tr>
-                              <td class="py-1 px-3 text-gray-400">Status</td>
+                              <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencytorviscas.com" class="database-link text-xs">ACCESS DATABASE</a>
@@ -476,23 +502,23 @@
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">regencytorviscas</th>
+                            <th colspan="2" class="py-2 px-3 text-left text-500">regencytorviscas</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">regencytorviscas.com</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">Full customer reservation databases (names, phones, emails, addresses, booking dates)</div>
                                 <div class="data-cell mt-1">Scanned ID documents (passports, national IDs) Internal emails via OWA Employee and customer email lists RDP credential files</div>
                             </td>
                         </tr>
                         <tr>
-                              <td class="py-1 px-3 text-gray-400">Status</td>
+                              <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencytorviscas.com" class="database-link text-xs">ACCESS DATABASE</a>
@@ -508,23 +534,23 @@
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ðKYC UK</th>
+                            <th colspan="2" class="py-2 px-3 text-left text-500">KYC UK</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">KYC UK</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">ENJOY!</div>
                                 <div class="data-cell mt-1"></div>
                             </td>
                         </tr>
                         <tr>
-                              <td class="py-1 px-3 text-gray-400">Status</td>
+                              <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/KYC-UK" class="database-link text-xs">ACCESS DATABASE</a>
@@ -539,23 +565,23 @@
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">enersolcr</th>
+                            <th colspan="2" class="py-2 px-3 text-left text-500">enersolcr</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">enersolcr.com</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">Internal Data - System Data - 73 Partner Data - Customer Data (Email, Name, Phone Number) - Admin Data and Their Roles, etc....<div>
                                 <div class="data-cell mt-1"></div>
                             </td>
                         </tr>
                         <tr>
-                              <td class="py-1 px-3 text-gray-400">Status</td>
+                              <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/enersolcr.com" class="database-link text-xs">ACCESS DATABASE</a>
@@ -570,23 +596,23 @@
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">turbomp</th>
+                            <th colspan="2" class="py-2 px-3 text-left text-500">turbomp</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">turbomp.com</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">Because this company receives product design drawings from other partner companies and carries out manufacturing orders, it has detailed contract documents with numerous companies<div>
                                 <div class="data-cell mt-1">their design documents, detailed drawings required for the manufacturing process, and documents showing the manufacturing process.</div>
                             </td>
                         </tr>
                         <tr>
-                              <td class="py-1 px-3 text-gray-400">Status</td>
+                              <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/enersolcr.com" class="database-link text-xs">ACCESS DATABASE</a>
@@ -601,23 +627,23 @@
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">biodimed</th>
+                            <th colspan="2" class="py-2 px-3 text-left text-500">biodimed</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">biodimed.com</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">Email operations associated with all employees - attachments include 40GB of documents related to biodimed - employee data - internal messages<div>
                                 <div class="data-cell mt-1"></div>
                             </td>
                         </tr>
                         <tr>
-                              <td class="py-1 px-3 text-gray-400">Status</td>
+                              <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/biodimed.com" class="database-link text-xs">ACCESS DATABASE</a>
@@ -632,23 +658,23 @@
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">acuity</th>
+                            <th colspan="2" class="py-2 px-3 text-left text-500">acuity</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">acuity.co.uk</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">his includes important legal documents such as drafts of non-disclosure agreements (NDA)<div>
                                 <div class="data-cell mt-1">pertaining to the company and strategic partners like Bosch, detailed financial documents containing analyses of Acuity's financial position</div>
                             </td>
                         </tr>
                         <tr>
-                              <td class="py-1 px-3 text-gray-400">Status</td>
+                              <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/acuity.co.uk" class="database-link text-xs">ACCESS DATABASE</a>
@@ -663,23 +689,23 @@
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ascires</th>
+                            <th colspan="2" class="py-2 px-3 text-left text-500">ascires</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">ascires.com</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">Client Data - Medical Reports - Financial Status (Bank reports, taxes, and more) - Annual Accounts - Personal Information<div>
                                 <div class="data-cell mt-1">New Projects - Large amounts of patient-related data - Business plans and much more â a total of 700 GB of critical information!</div>
                             </td>
                         </tr>
                         <tr>
-                              <td class="py-1 px-3 text-gray-400">Status</td>
+                              <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/ascires.com" class="database-link text-xs">ACCESS DATABASE</a>
@@ -690,59 +716,28 @@
             </div>
 
 
- <!-- Hy-Vee -->
-            <div class="compact-table rounded" data-table-id="company-2">
-                <table class="w-full">
-                    <thead>
-                        <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ðHy-Vee</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
-                            <td class="py-1 px-3 data-cell">Hy-Vee.com</td>
-                        </tr>
-                        <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
-                            <td class="py-1 px-3">
-                                <div class="data-cell"> Hy-Vee refuses to pay, and we are proceeding to leak all the data that was extracted.</div>
-                                <div class="data-cell mt-1">Internal documents, infrastructure diagrams, employee data, training materials ....</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-1 px-3 text-gray-400">Status</td>
-                            <td class="py-1 px-3">
-                                <span class="status-published text-xs">PUBLISHED</span>
-                                <a href="http://kxlpsf4uua2k36quvcob3mjlguurbc3rhjkwt7thoyi52o7y6tf2wrad.onion/hy-vee/" class="database-link text-xs">ACCESS DATABASE</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
             <!-- aosense.com -->
             <div class="compact-table rounded" data-table-id="company-4">
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ðaosense.com</th>
+                            <th colspan="2" class="py-2 px-3 text-left text-500">aosense.com</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">aosense.com</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">Accounting Information- AOSense Commercial Sales-Design-Financial-Inertial_Sensors_Group-IT-Products-Report</div>
                                 <div class="data-cell mt-1">ContractsAdmin-Active Project Numbers-USNO Ca oven-NASA-Atom Computing</div>
                             </td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/aosense.com" class="database-link text-xs">ACCESS DATABASE</a>
@@ -757,23 +752,23 @@
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ðFrench Government</th>
+                            <th colspan="2" class="py-2 px-3 text-left text-500">French Government</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">French Government</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">Stealer-type breach</div>
                                 <div class="data-cell mt-1">Valid credentials, sensitive access</div>
                             </td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Status</td>
+                            <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/French-Gouv/" class="database-link text-xs">ACCESS DATABASE</a>
@@ -789,23 +784,23 @@
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">ascires</th>
+                            <th colspan="2" class="py-2 px-3 text-left text-500">ascires</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">ascires.com</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">Apps - Attachments - Daily Admission Copies - Documents - Pictures - COVID TESTING DATE - Custom Office Templates -Vaccines<div>
                                 <div class="data-cell mt-1"></div>
                             </td>
                         </tr>
                         <tr>
-                              <td class="py-1 px-3 text-gray-400">Status</td>
+                              <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/guardianhc.com" class="database-link text-xs">ACCESS DATABASE</a>
@@ -820,23 +815,23 @@
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">uatf.edu.bo</th>
+                            <th colspan="2" class="py-2 px-3 text-left text-500">uatf.edu.bo</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">uatf.edu.bo</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">Personal data (names, addresses, phone numbers) - Internal email correspondences - Attachments containing educational and administrative documents<div>
                                 <div class="data-cell mt-1">Information on student or employee activities - Contact list for all students, internal messages, and more</div>
                             </td>
                         </tr>
                         <tr>
-                              <td class="py-1 px-3 text-gray-400">Status</td>
+                              <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/uatf.edu.bo" class="database-link text-xs">ACCESS DATABASE</a>
@@ -851,23 +846,23 @@
                 <table class="w-full">
                     <thead>
                         <tr class="table-header">
-                            <th colspan="2" class="py-2 px-3 text-left text-red-500">lyra.officegroup</th>
+                            <th colspan="2" class="py-2 px-3 text-left text-500">lyra.officegroup</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Company</td>
+                            <td class="py-1 px-3 text-gray-400">Company:</td>
                             <td class="py-1 px-3 data-cell">lyra.officegroup.it</td>
                         </tr>
                         <tr>
-                            <td class="py-1 px-3 text-gray-400">Description</td>
+                            <td class="py-1 px-3 text-gray-400">Description:</td>
                             <td class="py-1 px-3">
                                 <div class="data-cell">Enjoy!<div>
                                 <div class="data-cell mt-1"></div>
                             </td>
                         </tr>
                         <tr>
-                              <td class="py-1 px-3 text-gray-400">Status</td>
+                              <td class="py-1 px-3 text-gray-400">Status:</td>
                             <td class="py-1 px-3">
                                 <span class="status-published text-xs">PUBLISHED</span>
                                 <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/lyra.officegroup.it" class="database-link text-xs">ACCESS DATABASE</a>
