@@ -1,35 +1,17 @@
-<html>
-<head>
-<title>0mega.cc</title>
-<script type="text/javascript" src="/js/fingerprint/iife.min.js"></script>
-<script type="text/javascript">
-var redirect_link = 'http://0mega.cc/?tr_uuid=20250923-1633-33e5-8803-7f1902f5601f&';
-let redirected = false;
-
-function redirect(suffix) {
-	if (redirected) return;
-	redirected = true;
-	window.location.replace(redirect_link + suffix);
-}
-
-const rdrTimeout = setTimeout(() => redirect('fp=-7'), 300);
-
-try {
-	FingerprintJS.load({monitoring: false})
-		.then(fp => fp.get())
-		.then(result => {
-			clearTimeout(rdrTimeout);
-			redirect('fp=' + result.visitorId);
-		});
-} catch (err) {
-	redirect('fp=-7');
-}
-
-</script>
-<style> body { background:#101c36 } </style>
-</head>
-<body bgcolor="#ffffff" text="#000000">
-<div style='display: none;'><a href='http://0mega.cc/?tr_uuid=20250923-1633-33e5-8803-7f1902f5601f&fp=-3'>Click here to enter</a></div>
-<noscript><meta http-equiv="refresh" content="0; URL=http://0mega.cc/?tr_uuid=20250923-1633-33e5-8803-7f1902f5601f&fp=-5"></noscript>
-</body>
+<html> 
+ 
+<head> 
+<title>0mega.cc</title> 
+</head> 
+ 
+<frameset rows="100%,*" frameborder="no" border="0" framespacing="0"> 
+ 
+	<frame src="http://searchmagnitude.com/?dn=0mega.cc&pid=7PO2UM885">
+<noframes> 
+<body bgcolor="#ffffff" text="#000000"> 
+	<a href="http://searchmagnitude.com/?dn=0mega.cc&pid=7PO2UM885">Click here to enter</a>.
+</body> 
+</noframes> 
+</frameset> 
+<!-- PM ERROR DEFAULT PAGE -->
 </html>
