@@ -184,7 +184,7 @@
 | [cheers](https://ransomwatch.telemetry.ltd/#/profiles?id=cheers) | sembmarine | 🔴 | 2022-09-20 | crkfkmrh4qzbddfrl2axnkvjp5tgwx73d7lq4oycsfxc7pfgbfhtfiid.onion |
 | [darkangels](https://ransomwatch.telemetry.ltd/#/profiles?id=darkangels) | Home | 🔴 | 2022-07-18 | wemo2ysyeq6km2nqhcrz63dkdhez3j25yw2nvn7xba2z4h7v7gyrfgid.onion |
 | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) | LockBit BLOG | 🟢 |  | lockbit3753ekiocyo5epmpy6klmejchjtzddoekjlnt6mu3qh4de2id.onion |
-| [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) | LockBit BLOG | 🟢 |  | lockbit3g3ohd3katajf6zaehxz4h4cnhmz5t735zpltywhwpc6oy3id.onion |
+| [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |  | 🟢 |  | lockbit3g3ohd3katajf6zaehxz4h4cnhmz5t735zpltywhwpc6oy3id.onion |
 | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) | LockBit BLOG | 🟢 |  | lockbit3olp7oetlc4tl5zydnoluphh7fvdt5oa6arcp2757r7xkutid.onion |
 | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) | LockBit BLOG | 🟢 |  | lockbit435xk3ki62yun7z5nhwz6jyjdp2c64j5vge536if2eny3gtid.onion |
 | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) | LockBit BLOG | 🟢 |  | lockbit4lahhluquhoka3t4spqym2m3dhe66d6lr337glmnlgg2nndad.onion |
@@ -329,7 +329,7 @@
 | [lambda](https://ransomwatch.telemetry.ltd/#/profiles?id=lambda) | Live Support | 🔴 | 2023-12-25 | krjv3wondknwdrlvzp6ktqcqkrlvpme2xjt3fu7ojqpaqgl3sm33bdqd.onion |
 | [siegedsec](https://ransomwatch.telemetry.ltd/#/profiles?id=siegedsec) |  | 🔴 | 2023-12-24 | nv5p2mmpctvyqdyyi5zwh4gnifq2uxdx4etvnmaheqlrw6ordrjwxryd.onion |
 | [dragonforce](https://ransomwatch.telemetry.ltd/#/profiles?id=dragonforce) |  | 🟢 |  | z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion |
-| [dragonforce](https://ransomwatch.telemetry.ltd/#/profiles?id=dragonforce) | DragonForce - Recovery | 🟢 |  | 3pktcrcbmssvrnwe5skburdwe2h3v6ibdnn5kbjqihsg6eu6s6b7ryqd.onion |
+| [dragonforce](https://ransomwatch.telemetry.ltd/#/profiles?id=dragonforce) | DragonForce - Recovery | 🔴 | 2025-09-24 | 3pktcrcbmssvrnwe5skburdwe2h3v6ibdnn5kbjqihsg6eu6s6b7ryqd.onion |
 | [werewolves](https://ransomwatch.telemetry.ltd/#/profiles?id=werewolves) | 404 Not Found | 🔴 | 2024-03-07 | werewolves.pro |
 | [werewolves](https://ransomwatch.telemetry.ltd/#/profiles?id=werewolves) | weerwolven.biz | 🟢 |  | weerwolven.biz |
 | [malekteam](https://ransomwatch.telemetry.ltd/#/profiles?id=malekteam) | Just a moment... | 🔴 | 2024-11-10 | malekteam.ac |
