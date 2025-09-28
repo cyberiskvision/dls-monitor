@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-09-28 | [`Steve Basso Plumbing Heating`](https://google.com/search?q=Steve+Basso+Plumbing+Heating) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-27 | [`Pangborn`](https://google.com/search?q=Pangborn) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-27 | [`Earthadelic`](https://google.com/search?q=Earthadelic) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-27 | [`ComTec Systems`](https://google.com/search?q=ComTec+Systems) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-05-23 | [`South Atlantic Federal Credit Union`](https://google.com/search?q=South+Atlantic+Federal+Credit+Union) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-23 | [`AKJ Energiteknik`](https://google.com/search?q=AKJ+Energiteknik) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-21 | [`Greater Seattle Concrete`](https://google.com/search?q=Greater+Seattle+Concrete) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-05-21 | [`CNHI LLC`](https://google.com/search?q=CNHI+LLC) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
