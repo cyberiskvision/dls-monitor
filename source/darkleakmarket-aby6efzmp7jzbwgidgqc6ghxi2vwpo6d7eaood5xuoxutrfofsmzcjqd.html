@@ -246,6 +246,26 @@ body {
     line-height: 1.42857143;
     color: #9d9d9d;
     background-color: #000;
+}
+
+
+.woocommerce-checkout form .col-1,
+.woocommerce-checkout form .col-2 {
+    -ms-flex: 0 0 48%; 
+    flex: 0 0 48%;
+    max-width: 48%;
+    padding-left: 10px; 
+    padding-right: 10px; 
+}
+
+
+.woocommerce-checkout .woocommerce-billing-fields__field-wrapper .form-row,
+.woocommerce-checkout .woocommerce-shipping-fields__field-wrapper .form-row,
+.woocommerce-checkout .woocommerce-address-fields__field-wrapper .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px; 
+    margin-right: -10px; 
 }		</style>
 		 
         <!--end WordPress head-->
@@ -910,7 +930,7 @@ var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":fa
 /* <![CDATA[ */
 			var wcBlocksMiddlewareConfig = {
 				storeApiNonce: '8ae773a770',
-				wcStoreApiNonceTimestamp: '1759414548'
+				wcStoreApiNonceTimestamp: '1759418255'
 			};
 			
 /* ]]> */
