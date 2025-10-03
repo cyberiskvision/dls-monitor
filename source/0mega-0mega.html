@@ -1,35 +1,3 @@
-<html>
-<head>
-<title>0mega.cc</title>
-<script type="text/javascript" src="/js/fingerprint/iife.min.js"></script>
-<script type="text/javascript">
-var redirect_link = 'http://0mega.cc/?tr_uuid=20251003-1117-04b7-8c6c-66b4f58d6162&';
-let redirected = false;
-
-function redirect(suffix) {
-	if (redirected) return;
-	redirected = true;
-	window.location.replace(redirect_link + suffix);
-}
-
-const rdrTimeout = setTimeout(() => redirect('fp=-7'), 300);
-
-try {
-	FingerprintJS.load({monitoring: false})
-		.then(fp => fp.get())
-		.then(result => {
-			clearTimeout(rdrTimeout);
-			redirect('fp=' + result.visitorId);
-		});
-} catch (err) {
-	redirect('fp=-7');
-}
-
-</script>
-<style> body { background:#101c36 } </style>
-</head>
-<body bgcolor="#ffffff" text="#000000">
-<div style='display: none;'><a href='http://0mega.cc/?tr_uuid=20251003-1117-04b7-8c6c-66b4f58d6162&fp=-3'>Click here to enter</a></div>
-<noscript><meta http-equiv="refresh" content="0; URL=http://0mega.cc/?tr_uuid=20251003-1117-04b7-8c6c-66b4f58d6162&fp=-5"></noscript>
-</body>
-</html>
+<html><body><h1>408 Request Time-out</h1>
+Your browser didn't send a complete request in time.
+</body></html>
