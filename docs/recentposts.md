@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-10-07 | [`JASCO Applied Sciences`](https://google.com/search?q=JASCO+Applied+Sciences) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-10-06 | [`Dataforth`](https://google.com/search?q=Dataforth) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-10-06 | [`AES Clean Technology`](https://google.com/search?q=AES+Clean+Technology) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-10-05 | [`https://www.libertydentaltown.com`](https://google.com/search?q=https%3A%2F%2Fwww.libertydentaltown.com) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-05-29 | [`http://metromont.com`](https://google.com/search?q=http%3A%2F%2Fmetromont.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
 | 2025-05-28 | [`netspectrum.c`](https://google.com/search?q=netspectrum.c) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-05-28 | [`Eliel Cycling`](https://google.com/search?q=Eliel+Cycling) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-05-28 | [`KDV Label`](https://google.com/search?q=KDV+Label) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
