@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-10-13 | [`www.mercantetubos.com.br`](https://google.com/search?q=www.mercantetubos.com.br) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
 | 2025-10-13 | [`Furuno Electric`](https://google.com/search?q=Furuno+Electric) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-10-09 | [`Elmer W. Davis`](https://google.com/search?q=Elmer+W.+Davis) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-10-09 | [`Accelerated`](https://google.com/search?q=Accelerated) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-05-30 | [`Tri-Point Solutions`](https://google.com/search?q=Tri-Point+Solutions) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-30 | [`Anchor Industries`](https://google.com/search?q=Anchor+Industries) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-05-30 | [`UnigazJordan`](https://google.com/search?q=UnigazJordan) | [ransomblog_noname](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomblog_noname) |
-| 2025-05-29 | [`http://www.innsofaurora.com`](https://google.com/search?q=http%3A%2F%2Fwww.innsofaurora.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
