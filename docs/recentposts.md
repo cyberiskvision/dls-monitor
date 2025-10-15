@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-10-15 | [`Royal Thai`](https://google.com/search?q=Royal+Thai) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-10-15 | [`Legacy Manufacturing`](https://google.com/search?q=Legacy+Manufacturing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-10-15 | [`Koch & White Heating & Cooling`](https://google.com/search?q=Koch+%26+White+Heating+%26+Cooling) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-10-15 | [`Global Shop Solutions`](https://google.com/search?q=Global+Shop+Solutions) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-06-02 | [`FLOE Internationa`](https://google.com/search?q=FLOE+Internationa) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-06-02 | [`Capital Trade`](https://google.com/search?q=Capital+Trade) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-06-02 | [`Vinda Group`](https://google.com/search?q=Vinda+Group) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
-| 2025-06-02 | [`http://www.kcac.com`](https://google.com/search?q=http%3A%2F%2Fwww.kcac.com) | [blacksuit](https://ransomwatch.telemetry.ltd/#/profiles?id=blacksuit) |
