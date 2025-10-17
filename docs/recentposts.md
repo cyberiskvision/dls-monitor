@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-10-17 | [`Cottage`](https://google.com/search?q=Cottage) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-10-17 | [`Hematology Oncology Consultants`](https://google.com/search?q=Hematology+Oncology+Consultants) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-10-17 | [`WEBER`](https://google.com/search?q=WEBER) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-10-17 | [`GEIGER`](https://google.com/search?q=GEIGER) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-06-09 | [`EUC Sjlland`](https://google.com/search?q=EUC+Sjlland) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-06-07 | [`Hudson River Housing`](https://google.com/search?q=Hudson+River+Housing) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-06-05 | [`Triumph Construction`](https://google.com/search?q=Triumph+Construction) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-06-05 | [`Ebac`](https://google.com/search?q=Ebac) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
