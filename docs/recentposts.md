@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-10-23 | [`Kurogane Kasei Co.`](https://google.com/search?q=Kurogane+Kasei+Co.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-10-23 | [`S Food Co., Ltd.`](https://google.com/search?q=S+Food+Co.%2C+Ltd.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-10-22 | [`United Lube Oil`](https://google.com/search?q=United+Lube+Oil) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-10-21 | [`Peraso`](https://google.com/search?q=Peraso) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-06-16 | [`CNPC USA`](https://google.com/search?q=CNPC+USA) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-06-15 | [`tegai`](https://google.com/search?q=tegai) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-06-14 | [`S&H Express`](https://google.com/search?q=S%26H+Express) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-06-14 | [`Rollex`](https://google.com/search?q=Rollex) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
