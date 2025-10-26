@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-10-26 | [`LaBonne`](https://google.com/search?q=LaBonne) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-10-24 | [`Forrest Ci`](https://google.com/search?q=Forrest+Ci) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-10-23 | [`[DISCLOSED]WEBER`](https://google.com/search?q=%5BDISCLOSED%5DWEBER) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-10-23 | [`OCI International Holdings`](https://google.com/search?q=OCI+International+Holdings) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-06-19 | [`Place Homes`](https://google.com/search?q=Place+Homes) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-06-18 | [`Coreix`](https://google.com/search?q=Coreix) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-06-16 | [`NF Stroth & Associates`](https://google.com/search?q=NF+Stroth+%26+Associates) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-06-16 | [`Jasper Products`](https://google.com/search?q=Jasper+Products) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
