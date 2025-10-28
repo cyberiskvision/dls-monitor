@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-10-28 | [`Super Quik`](https://google.com/search?q=Super+Quik) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-10-28 | [`Ouranos`](https://google.com/search?q=Ouranos) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-10-28 | [`Kitchen Design Concepts`](https://google.com/search?q=Kitchen+Design+Concepts) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-10-28 | [`Henry Raymond & Thompson`](https://google.com/search?q=Henry+Raymond+%26+Thompson) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-06-27 | [`Islington Golf Club`](https://google.com/search?q=Islington+Golf+Club) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-06-27 | [`Emtech Inc`](https://google.com/search?q=Emtech+Inc) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-06-27 | [`Carter Manufacturing`](https://google.com/search?q=Carter+Manufacturing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-06-27 | [`Cartel Communication Systems`](https://google.com/search?q=Cartel+Communication+Systems) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
