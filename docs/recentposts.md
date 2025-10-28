@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-10-28 | [`Fast Freight`](https://google.com/search?q=Fast+Freight) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-10-28 | [`Evogence`](https://google.com/search?q=Evogence) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-10-28 | [`Aphase II`](https://google.com/search?q=Aphase+II) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-10-28 | [`Bellflower Unified School District`](https://google.com/search?q=Bellflower+Unified+School+District) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-06-27 | [`Associated Packaging`](https://google.com/search?q=Associated+Packaging) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-06-26 | [`Merlin Industries`](https://google.com/search?q=Merlin+Industries) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-06-22 | [`Ovalstrapping`](https://google.com/search?q=Ovalstrapping) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-06-22 | [`Fisher59`](https://google.com/search?q=Fisher59) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
