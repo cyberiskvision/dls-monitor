@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-10-30 | [`ASKUL`](https://google.com/search?q=ASKUL) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-10-30 | [`Spindletop Center`](https://google.com/search?q=Spindletop+Center) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-10-29 | [`Gemini Group`](https://google.com/search?q=Gemini+Group) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-10-29 | [`Sylvester Roofing`](https://google.com/search?q=Sylvester+Roofing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-06-29 | [`Budget Electric`](https://google.com/search?q=Budget+Electric) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-06-29 | [`Welthungerhilfe`](https://google.com/search?q=Welthungerhilfe) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-06-28 | [`View Zuellig Industrial`](https://google.com/search?q=View+Zuellig+Industrial) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-06-28 | [`Sunrise Springs Spa Resort`](https://google.com/search?q=Sunrise+Springs+Spa+Resort) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
