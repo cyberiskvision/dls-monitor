@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-11-01 | [`Wright Tool`](https://google.com/search?q=Wright+Tool) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-01 | [`Tavo Packaging Inc`](https://google.com/search?q=Tavo+Packaging+Inc) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-01 | [`Professional's Choice Sports`](https://google.com/search?q=Professional%27s+Choice+Sports) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-01 | [`Encore Repair Services`](https://google.com/search?q=Encore+Repair+Services) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-07-06 | [`Whim Hospitality`](https://google.com/search?q=Whim+Hospitality) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-07-03 | [`Metric`](https://google.com/search?q=Metric) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-07-03 | [`Lydig Construction`](https://google.com/search?q=Lydig+Construction) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-07-03 | [`JFC Electric`](https://google.com/search?q=JFC+Electric) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
