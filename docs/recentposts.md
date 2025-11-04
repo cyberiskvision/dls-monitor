@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-11-04 | [`Automated Logistics Systems`](https://google.com/search?q=Automated+Logistics+Systems) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-11-03 | [`www.myriversidedentaloffice.com`](https://google.com/search?q=www.myriversidedentaloffice.com) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
 | 2025-11-03 | [`Irwin Car`](https://google.com/search?q=Irwin+Car) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-03 | [`UnitedLayer`](https://google.com/search?q=UnitedLayer) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-07-08 | [`Wood, Patel & Associates`](https://google.com/search?q=Wood%2C+Patel+%26+Associates) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-07-08 | [`Wfmt`](https://google.com/search?q=Wfmt) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-07-08 | [`Tyree Oil`](https://google.com/search?q=Tyree+Oil) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-07-08 | [`Florida Hand Center`](https://google.com/search?q=Florida+Hand+Center) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
