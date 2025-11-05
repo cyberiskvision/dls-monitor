@@ -4,87 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11"> 
-	<script type="text/template" id="freeze-table-template">
-  <div class="frzTbl antiscroll-wrap frzTbl--scrolled-to-left-edge">
-    <div class="frzTbl-scroll-overlay antiscroll-inner">
-        <div class="frzTbl-scroll-overlay__inner"></div>
-    </div>
-    <div class="frzTbl-content-wrapper">
-
-        <!-- sticky outer heading -->
-        <div class="frzTbl-fixed-heading-wrapper-outer">          
-          <div class="frzTbl-fixed-heading-wrapper">
-            <div class="frzTbl-fixed-heading-wrapper__inner">
-              {{heading}}
-            </div>    
-          </div>
-        </div>
-
-        <!-- column shadows -->
-        <div class="frzTbl-frozen-columns-wrapper">
-          <!-- left -->
-          <div class="frzTbl-frozen-columns-wrapper__columns frzTbl-frozen-columns-wrapper__columns--left {{hide-left-column}}"></div>
-          <!-- right -->            
-          <div class="frzTbl-frozen-columns-wrapper__columns frzTbl-frozen-columns-wrapper__columns--right {{hide-right-column}}"></div>
-        </div>
-
-        <!-- table -->
-        <div class="frzTbl-table-wrapper">
-          <div class="frzTbl-table-wrapper__inner">
-            <div class="frzTbl-table-placeholder"></div>
-          </div>
-        </div>
-
-    </div>
-  </div>
-</script><script type="text/template" id="tmpl-wcpt-product-form-loading-modal">
-  <div class="wcpt-modal wcpt-product-form-loading-modal" data-wcpt-product-id="{{{ data.product_id }}}">
-    <div class="wcpt-modal-content">
-      <div class="wcpt-close-modal">
-        <!-- close 'x' icon svg -->
-        <span class="wcpt-icon wcpt-icon-x wcpt-close-modal-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line>
-          </svg>
-        </span>
-      </div>
-      <span class="wcpt-product-form-loading-text">
-        <i class="wcpt-ajax-badge">
-          <!-- ajax loading icon svg -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-loader" color="#384047">
-            <line x1="12" y1="2" x2="12" y2="6"></line><line x1="12" y1="18" x2="12" y2="22"></line><line x1="4.93" y1="4.93" x2="7.76" y2="7.76"></line><line x1="16.24" y1="16.24" x2="19.07" y2="19.07"></line><line x1="2" y1="12" x2="6" y2="12"></line><line x1="18" y1="12" x2="22" y2="12"></line><line x1="4.93" y1="19.07" x2="7.76" y2="16.24"></line><line x1="16.24" y1="7.76" x2="19.07" y2="4.93"></line>
-          </svg>
-        </i>
-
-        Loading&hellip;      </span>
-    </div>
-  </div>
-</script>
-<script type="text/template" id="tmpl-wcpt-cart-checkbox-trigger">
-	<div 
-		class="wcpt-cart-checkbox-trigger"
-		data-wcpt-redirect-url=""
-	>
-		<style media="screen">
-	@media(min-width:1200px){
-		.wcpt-cart-checkbox-trigger {
-			display: inline-block;
-					}
-	}
-	@media(max-width:1100px){
-		.wcpt-cart-checkbox-trigger {
-			display: inline-block;
-		}
-	}
-
-	.wcpt-cart-checkbox-trigger {
-		background-color : #4CAF50; border-color : rgba(0, 0, 0, .1); color : rgba(255, 255, 255); 	}
-
-</style>
-		<span 
-      class="wcpt-icon wcpt-icon-shopping-bag wcpt-cart-checkbox-trigger__shopping-icon "    ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg></span>		<span class="wcpt-cart-checkbox-trigger__text">Add selected (<span class="wcpt-total-selected"></span>) to cart</span>
-		<span class="wcpt-cart-checkbox-trigger__close">✕</span>
-	</div>
-</script><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
 	
 	<!-- This site is optimized with the Yoast SEO plugin v26.0 - https://yoast.com/wordpress/plugins/seo/ -->
@@ -166,30 +86,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 :root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--ast-global-color-0: var(--ast-global-color-0);--wp--preset--color--ast-global-color-1: var(--ast-global-color-1);--wp--preset--color--ast-global-color-2: var(--ast-global-color-2);--wp--preset--color--ast-global-color-3: var(--ast-global-color-3);--wp--preset--color--ast-global-color-4: var(--ast-global-color-4);--wp--preset--color--ast-global-color-5: var(--ast-global-color-5);--wp--preset--color--ast-global-color-6: var(--ast-global-color-6);--wp--preset--color--ast-global-color-7: var(--ast-global-color-7);--wp--preset--color--ast-global-color-8: var(--ast-global-color-8);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: var(--wp--custom--ast-content-width-size);--wp--style--global--wide-size: var(--wp--custom--ast-wide-width-size); }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: none;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-ast-global-color-0-color{color: var(--wp--preset--color--ast-global-color-0) !important;}.has-ast-global-color-1-color{color: var(--wp--preset--color--ast-global-color-1) !important;}.has-ast-global-color-2-color{color: var(--wp--preset--color--ast-global-color-2) !important;}.has-ast-global-color-3-color{color: var(--wp--preset--color--ast-global-color-3) !important;}.has-ast-global-color-4-color{color: var(--wp--preset--color--ast-global-color-4) !important;}.has-ast-global-color-5-color{color: var(--wp--preset--color--ast-global-color-5) !important;}.has-ast-global-color-6-color{color: var(--wp--preset--color--ast-global-color-6) !important;}.has-ast-global-color-7-color{color: var(--wp--preset--color--ast-global-color-7) !important;}.has-ast-global-color-8-color{color: var(--wp--preset--color--ast-global-color-8) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-ast-global-color-0-background-color{background-color: var(--wp--preset--color--ast-global-color-0) !important;}.has-ast-global-color-1-background-color{background-color: var(--wp--preset--color--ast-global-color-1) !important;}.has-ast-global-color-2-background-color{background-color: var(--wp--preset--color--ast-global-color-2) !important;}.has-ast-global-color-3-background-color{background-color: var(--wp--preset--color--ast-global-color-3) !important;}.has-ast-global-color-4-background-color{background-color: var(--wp--preset--color--ast-global-color-4) !important;}.has-ast-global-color-5-background-color{background-color: var(--wp--preset--color--ast-global-color-5) !important;}.has-ast-global-color-6-background-color{background-color: var(--wp--preset--color--ast-global-color-6) !important;}.has-ast-global-color-7-background-color{background-color: var(--wp--preset--color--ast-global-color-7) !important;}.has-ast-global-color-8-background-color{background-color: var(--wp--preset--color--ast-global-color-8) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-ast-global-color-0-border-color{border-color: var(--wp--preset--color--ast-global-color-0) !important;}.has-ast-global-color-1-border-color{border-color: var(--wp--preset--color--ast-global-color-1) !important;}.has-ast-global-color-2-border-color{border-color: var(--wp--preset--color--ast-global-color-2) !important;}.has-ast-global-color-3-border-color{border-color: var(--wp--preset--color--ast-global-color-3) !important;}.has-ast-global-color-4-border-color{border-color: var(--wp--preset--color--ast-global-color-4) !important;}.has-ast-global-color-5-border-color{border-color: var(--wp--preset--color--ast-global-color-5) !important;}.has-ast-global-color-6-border-color{border-color: var(--wp--preset--color--ast-global-color-6) !important;}.has-ast-global-color-7-border-color{border-color: var(--wp--preset--color--ast-global-color-7) !important;}.has-ast-global-color-8-border-color{border-color: var(--wp--preset--color--ast-global-color-8) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
 :root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
 </style>
-<link rel='stylesheet' id='antiscroll-css' href='http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/plugins/wc-product-table-lite/assets/antiscroll/css.min.css?ver=3.9.7' media='all' />
-<link rel='stylesheet' id='freeze_table-css' href='http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/plugins/wc-product-table-lite/assets/freeze_table_v2/css.min.css?ver=3.9.7' media='all' />
-<link rel='stylesheet' id='photoswipe-css' href='http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css?ver=3.9.7' media='all' />
-<link rel='stylesheet' id='photoswipe-default-skin-css' href='http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css?ver=3.9.7' media='all' />
-<link rel='stylesheet' id='multirange-css' href='http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/plugins/wc-product-table-lite/assets/multirange/css.min.css?ver=3.9.7' media='all' />
-<link rel='stylesheet' id='wcpt-css' href='http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/plugins/wc-product-table-lite/assets/css.min.css?ver=3.9.7' media='all' />
-<style id='wcpt-inline-css'>
-
-    .mejs-button>button {
-      background: transparent url(http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-includes/js/mediaelement/mejs-controls.svg) !important;
-    }
-    .mejs-mute>button {
-      background-position: -60px 0 !important;
-    }    
-    .mejs-unmute>button {
-      background-position: -40px 0 !important;
-    }    
-    .mejs-pause>button {
-      background-position: -20px 0 !important;
-    }    
-  
-</style>
-<link rel='stylesheet' id='mediaelement-css' href='http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' media='all' />
-<link rel='stylesheet' id='wp-mediaelement-css' href='http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.8.3' media='all' />
 <link rel='stylesheet' id='woocommerce-layout-css' href='http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/themes/astra/assets/css/minified/compatibility/woocommerce/woocommerce-layout-grid.min.css?ver=4.11.14' media='all' />
 <link rel='stylesheet' id='woocommerce-smallscreen-css' href='http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/themes/astra/assets/css/minified/compatibility/woocommerce/woocommerce-smallscreen-grid.min.css?ver=4.11.14' media='only screen and (max-width: 921px)' />
 <link rel='stylesheet' id='woocommerce-general-css' href='http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/themes/astra/assets/css/minified/compatibility/woocommerce/woocommerce-grid.min.css?ver=4.11.14' media='all' />
@@ -386,14 +282,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 .woocommerce form .form-row .required { visibility: visible; }
 </style>
 <link rel='stylesheet' id='brands-styles-css' href='http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/plugins/woocommerce/assets/css/brands.css?ver=10.2.2' media='all' />
-<script type="text/template" id="tmpl-variation-template">
-	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
-	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
-	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
-</script>
-<script type="text/template" id="tmpl-unavailable-variation-template">
-	<p role="alert">Sorry, this product is unavailable. Please choose a different combination.</p>
-</script>
 <!--[if IE]>
 <script src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/themes/astra/assets/js/minified/flexibility.min.js?ver=4.11.14" id="astra-flexibility-js"></script>
 <script id="astra-flexibility-js-after">
@@ -402,20 +290,11 @@ flexibility(document.documentElement);
 <![endif]-->
 <script src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 <script src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
-<script src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-includes/js/underscore.min.js?ver=1.13.7" id="underscore-js"></script>
-<script id="wp-util-js-extra">
-var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
-</script>
-<script src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-includes/js/wp-util.min.js?ver=6.8.3" id="wp-util-js"></script>
+<script src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.10.2.2" id="jquery-blockui-js" defer data-wp-strategy="defer"></script>
 <script id="wc-add-to-cart-js-extra">
 var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion\/cart\/","is_cart":"","cart_redirect_after_add":"yes"};
 </script>
 <script src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=10.2.2" id="wc-add-to-cart-js" defer data-wp-strategy="defer"></script>
-<script id="wc-add-to-cart-variation-js-extra">
-var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_make_a_selection_text":"Please select some product options before adding this product to your cart.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination.","i18n_reset_alert_text":"Your selection has been reset. Please select some product options before adding this product to your cart."};
-</script>
-<script src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=10.2.2" id="wc-add-to-cart-variation-js" defer data-wp-strategy="defer"></script>
-<script src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.10.2.2" id="jquery-blockui-js" defer data-wp-strategy="defer"></script>
 <script src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.10.2.2" id="js-cookie-js" defer data-wp-strategy="defer"></script>
 <script id="woocommerce-js-extra">
 var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_password_show":"Show password","i18n_password_hide":"Hide password"};
@@ -583,26 +462,26 @@ class="post-7030 page type-page status-publish ast-article-single" id="post-7030
 
 	
 	<p><div class="woocommerce columns-2 "><ul class="products columns-2">
-<li class="ast-article-single desktop-align-left tablet-align-left mobile-align-left product type-product post-2960 status-publish first instock product_cat-dumps-fullz product_tag-india-cc-dump-atm-pin has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
-	<div class="astra-shop-thumbnail-wrap">
-	
-	<a href="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/product/india-cc-dump-atm-pin/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img fetchpriority="high" decoding="async" width="250" height="250" src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/uploads/2020/05/india-250x250.jpeg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="India CC Dump  atm PIN" srcset="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/uploads/2020/05/india-250x250.jpeg 250w, http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/uploads/2020/05/india-100x100.jpeg 100w, http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/uploads/2020/05/india-150x150.jpeg 150w, http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/uploads/2020/05/india-65x65.jpeg 65w" sizes="(max-width: 250px) 100vw, 250px" /></a><span  class="ast-on-card-button ast-onsale-card" data-notification="default">Sale!</span><a href="/?add-to-cart=2960" data-quantity="1" class="ast-on-card-button ast-select-options-trigger product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="2960" data-product_sku="" aria-label="Add to cart: &ldquo;India CC Dump + atm PIN x 10 HIGH BALANCE&rdquo;" rel="nofollow"> <span class="ast-card-action-tooltip"> Add to cart </span> <span class="ahfb-svg-iconset"> <span class="ast-icon icon-bag"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="ast-bag-icon-svg" x="0px" y="0px" width="100" height="100" viewBox="826 826 140 140" enable-background="new 826 826 140 140" xml:space="preserve">
+<li class="ast-article-single desktop-align-left tablet-align-left mobile-align-left product type-product post-34 status-publish first instock product_cat-money-transfers product_tag-hacked-western-union-transfer product_tag-the-western-union-money-flip product_tag-track-a-western-union-transfer product_tag-western-union-transfer-2025 product_tag-western-union-transfers-1000 product_tag-wu-transfer has-post-thumbnail purchasable product-type-variable">
+	<div class="astra-shop-thumbnail-wrap"><a href="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/product/western-union-transfers-2024/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img fetchpriority="high" decoding="async" width="250" height="250" src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/uploads/2020/02/westernunion-450x450.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Western Union Transfers $1000" srcset="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/uploads/2020/02/westernunion-450x450.png 450w, http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/uploads/2020/02/westernunion-100x100.png 100w, http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/uploads/2020/02/westernunion-150x150.png 150w" sizes="(max-width: 250px) 100vw, 250px" /></a><a href="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/product/western-union-transfers-2024/" data-quantity="1" class="ast-on-card-button ast-select-options-trigger product_type_variable add_to_cart_button" data-product_id="34" data-product_sku="" aria-label="Select options for &ldquo;Western Union Transfers 2025&rdquo;" rel="nofollow"> <span class="ast-card-action-tooltip"> Select options </span> <span class="ahfb-svg-iconset"> <span class="ast-icon icon-bag"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="ast-bag-icon-svg" x="0px" y="0px" width="100" height="100" viewBox="826 826 140 140" enable-background="new 826 826 140 140" xml:space="preserve">
 				<path d="M960.758,934.509l2.632,23.541c0.15,1.403-0.25,2.657-1.203,3.761c-0.953,1.053-2.156,1.579-3.61,1.579H833.424  c-1.454,0-2.657-0.526-3.61-1.579c-0.952-1.104-1.354-2.357-1.203-3.761l2.632-23.541H960.758z M953.763,871.405l6.468,58.29H831.77  l6.468-58.29c0.15-1.203,0.677-2.218,1.58-3.045c0.903-0.827,1.981-1.241,3.234-1.241h19.254v9.627c0,2.658,0.94,4.927,2.82,6.807  s4.149,2.82,6.807,2.82c2.658,0,4.926-0.94,6.807-2.82s2.821-4.149,2.821-6.807v-9.627h28.882v9.627  c0,2.658,0.939,4.927,2.819,6.807c1.881,1.88,4.149,2.82,6.807,2.82s4.927-0.94,6.808-2.82c1.879-1.88,2.82-4.149,2.82-6.807v-9.627  h19.253c1.255,0,2.332,0.414,3.235,1.241C953.086,869.187,953.612,870.202,953.763,871.405z M924.881,857.492v19.254  c0,1.304-0.476,2.432-1.429,3.385s-2.08,1.429-3.385,1.429c-1.303,0-2.432-0.477-3.384-1.429c-0.953-0.953-1.43-2.081-1.43-3.385  v-19.254c0-5.315-1.881-9.853-5.641-13.613c-3.76-3.761-8.298-5.641-13.613-5.641s-9.853,1.88-13.613,5.641  c-3.761,3.76-5.641,8.298-5.641,13.613v19.254c0,1.304-0.476,2.432-1.429,3.385c-0.953,0.953-2.081,1.429-3.385,1.429  c-1.303,0-2.432-0.477-3.384-1.429c-0.953-0.953-1.429-2.081-1.429-3.385v-19.254c0-7.973,2.821-14.779,8.461-20.42  c5.641-5.641,12.448-8.461,20.42-8.461c7.973,0,14.779,2.82,20.42,8.461C922.062,842.712,924.881,849.519,924.881,857.492z" />
 				</svg></span> </span> </a></div><div class="astra-shop-summary-wrap">			<span class="ast-woo-product-category">
-				dumps and pins			</span>
-			<a href="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/product/india-cc-dump-atm-pin/" class="ast-loop-product__link"><h2 class="woocommerce-loop-product__title">India CC Dump + atm PIN x 10 HIGH BALANCE</h2></a>
-	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>119.00</bdi></span></del> <span class="screen-reader-text">Original price was: &#036;119.00.</span><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>99.00</bdi></span></ins><span class="screen-reader-text">Current price is: &#036;99.00.</span></span>
-<a href="/?add-to-cart=2960" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_2960" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="2960" data-product_sku="" aria-label="Add to cart: &ldquo;India CC Dump + atm PIN x 10 HIGH BALANCE&rdquo;" rel="nofollow" data-success_message="&ldquo;India CC Dump + atm PIN x 10 HIGH BALANCE&rdquo; has been added to your cart">Add to cart</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_2960" class="screen-reader-text">
-			</span>
+				money transfers			</span>
+			<a href="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/product/western-union-transfers-2024/" class="ast-loop-product__link"><h2 class="woocommerce-loop-product__title">Western Union Transfers 2025</h2></a>
+	<span class="price"><span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>129.00</bdi></span> <span aria-hidden="true">&ndash;</span> <span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>550.00</bdi></span><span class="screen-reader-text">Price range: &#36;129.00 through &#36;550.00</span></span>
+<a href="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/product/western-union-transfers-2024/" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_34" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="34" data-product_sku="" aria-label="Select options for &ldquo;Western Union Transfers 2025&rdquo;" rel="nofollow">Select options</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_34" class="screen-reader-text">
+		This product has multiple variants. The options may be chosen on the product page	</span>
 </div></li>
-<li class="ast-article-single desktop-align-left tablet-align-left mobile-align-left product type-product post-2585 status-publish last instock product_cat-carding product_cat-hardwares product_tag-pvc-card-embosser has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<div class="astra-shop-thumbnail-wrap"><a href="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/product/pvc-card-embosser/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="250" height="250" src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/uploads/2020/04/1-500x500-450x450-1-250x250.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="PVC Card Embosser" srcset="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/uploads/2020/04/1-500x500-450x450-1-250x250.jpg 250w, http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/uploads/2020/04/1-500x500-450x450-1-100x100.jpg 100w, http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/uploads/2020/04/1-500x500-450x450-1-350x350.jpg 350w, http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/uploads/2020/04/1-500x500-450x450-1-300x300.jpg 300w, http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/uploads/2020/04/1-500x500-450x450-1-150x150.jpg 150w, http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/uploads/2020/04/1-500x500-450x450-1-65x65.jpg 65w, http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/uploads/2020/04/1-500x500-450x450-1.jpg 450w" sizes="(max-width: 250px) 100vw, 250px" /></a><a href="/?add-to-cart=2585" data-quantity="1" class="ast-on-card-button ast-select-options-trigger product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="2585" data-product_sku="" aria-label="Add to cart: &ldquo;PVC Card Embosser&rdquo;" rel="nofollow"> <span class="ast-card-action-tooltip"> Add to cart </span> <span class="ahfb-svg-iconset"> <span class="ast-icon icon-bag"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="ast-bag-icon-svg" x="0px" y="0px" width="100" height="100" viewBox="826 826 140 140" enable-background="new 826 826 140 140" xml:space="preserve">
+<li class="ast-article-single desktop-align-left tablet-align-left mobile-align-left product type-product post-2581 status-publish last instock product_cat-carding product_cat-hardwares product_tag-emv-software-full-version has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
+	<div class="astra-shop-thumbnail-wrap">
+	
+	<a href="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/product/emv-software-full-version/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="250" height="250" src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/uploads/2020/04/x2-emv-software-5-450x450.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Emv software FULL version" srcset="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/uploads/2020/04/x2-emv-software-5-450x450.png 450w, http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/uploads/2020/04/x2-emv-software-5-100x100.png 100w" sizes="(max-width: 250px) 100vw, 250px" /></a><span  class="ast-on-card-button ast-onsale-card" data-notification="default">Sale!</span><a href="/?add-to-cart=2581" data-quantity="1" class="ast-on-card-button ast-select-options-trigger product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="2581" data-product_sku="" aria-label="Add to cart: &ldquo;Emv software FULL version&rdquo;" rel="nofollow"> <span class="ast-card-action-tooltip"> Add to cart </span> <span class="ahfb-svg-iconset"> <span class="ast-icon icon-bag"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="ast-bag-icon-svg" x="0px" y="0px" width="100" height="100" viewBox="826 826 140 140" enable-background="new 826 826 140 140" xml:space="preserve">
 				<path d="M960.758,934.509l2.632,23.541c0.15,1.403-0.25,2.657-1.203,3.761c-0.953,1.053-2.156,1.579-3.61,1.579H833.424  c-1.454,0-2.657-0.526-3.61-1.579c-0.952-1.104-1.354-2.357-1.203-3.761l2.632-23.541H960.758z M953.763,871.405l6.468,58.29H831.77  l6.468-58.29c0.15-1.203,0.677-2.218,1.58-3.045c0.903-0.827,1.981-1.241,3.234-1.241h19.254v9.627c0,2.658,0.94,4.927,2.82,6.807  s4.149,2.82,6.807,2.82c2.658,0,4.926-0.94,6.807-2.82s2.821-4.149,2.821-6.807v-9.627h28.882v9.627  c0,2.658,0.939,4.927,2.819,6.807c1.881,1.88,4.149,2.82,6.807,2.82s4.927-0.94,6.808-2.82c1.879-1.88,2.82-4.149,2.82-6.807v-9.627  h19.253c1.255,0,2.332,0.414,3.235,1.241C953.086,869.187,953.612,870.202,953.763,871.405z M924.881,857.492v19.254  c0,1.304-0.476,2.432-1.429,3.385s-2.08,1.429-3.385,1.429c-1.303,0-2.432-0.477-3.384-1.429c-0.953-0.953-1.43-2.081-1.43-3.385  v-19.254c0-5.315-1.881-9.853-5.641-13.613c-3.76-3.761-8.298-5.641-13.613-5.641s-9.853,1.88-13.613,5.641  c-3.761,3.76-5.641,8.298-5.641,13.613v19.254c0,1.304-0.476,2.432-1.429,3.385c-0.953,0.953-2.081,1.429-3.385,1.429  c-1.303,0-2.432-0.477-3.384-1.429c-0.953-0.953-1.429-2.081-1.429-3.385v-19.254c0-7.973,2.821-14.779,8.461-20.42  c5.641-5.641,12.448-8.461,20.42-8.461c7.973,0,14.779,2.82,20.42,8.461C922.062,842.712,924.881,849.519,924.881,857.492z" />
 				</svg></span> </span> </a></div><div class="astra-shop-summary-wrap">			<span class="ast-woo-product-category">
 				carding			</span>
-			<a href="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/product/pvc-card-embosser/" class="ast-loop-product__link"><h2 class="woocommerce-loop-product__title">PVC Card Embosser</h2></a>
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>289.00</bdi></span></span>
-<a href="/?add-to-cart=2585" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_2585" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="2585" data-product_sku="" aria-label="Add to cart: &ldquo;PVC Card Embosser&rdquo;" rel="nofollow" data-success_message="&ldquo;PVC Card Embosser&rdquo; has been added to your cart">Add to cart</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_2585" class="screen-reader-text">
+			<a href="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/product/emv-software-full-version/" class="ast-loop-product__link"><h2 class="woocommerce-loop-product__title">Emv software FULL version</h2></a>
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>1,000.00</bdi></span></del> <span class="screen-reader-text">Original price was: &#036;1,000.00.</span><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>700.00</bdi></span></ins><span class="screen-reader-text">Current price is: &#036;700.00.</span></span>
+<a href="/?add-to-cart=2581" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_2581" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="2581" data-product_sku="" aria-label="Add to cart: &ldquo;Emv software FULL version&rdquo;" rel="nofollow" data-success_message="&ldquo;Emv software FULL version&rdquo; has been added to your cart">Add to cart</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_2581" class="screen-reader-text">
 			</span>
 </div></li>
 </ul>
@@ -713,48 +592,13 @@ class="site-footer" id="colophon" itemtype="https://schema.org/WPFooter" itemsco
 	</footer><!-- #colophon -->
 	</div><!-- #page -->
 <script type="speculationrules">
-{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/astra\/*","\/*\\?(.+)","\/cart\/*","\/checkout\/*","\/my-account\/*"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/astra\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
 </script>
 
 <div id="ast-scroll-top" tabindex="0" class="ast-scroll-top-icon ast-scroll-to-top-right" data-on-devices="both">
 	<span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
                 <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
                 </svg></span>	<span class="screen-reader-text">Scroll to Top</span>
-</div>
-
-<div id="photoswipe-fullscreen-dialog" class="pswp" tabindex="-1" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Full screen image">
-	<div class="pswp__bg"></div>
-	<div class="pswp__scroll-wrap">
-		<div class="pswp__container">
-			<div class="pswp__item"></div>
-			<div class="pswp__item"></div>
-			<div class="pswp__item"></div>
-		</div>
-		<div class="pswp__ui pswp__ui--hidden">
-			<div class="pswp__top-bar">
-				<div class="pswp__counter"></div>
-				<button class="pswp__button pswp__button--zoom" aria-label="Zoom in/out"></button>
-				<button class="pswp__button pswp__button--fs" aria-label="Toggle fullscreen"></button>
-				<button class="pswp__button pswp__button--share" aria-label="Share"></button>
-				<button class="pswp__button pswp__button--close" aria-label="Close (Esc)"></button>
-				<div class="pswp__preloader">
-					<div class="pswp__preloader__icn">
-						<div class="pswp__preloader__cut">
-							<div class="pswp__preloader__donut"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-				<div class="pswp__share-tooltip"></div>
-			</div>
-			<button class="pswp__button pswp__button--arrow--left" aria-label="Previous (arrow left)"></button>
-			<button class="pswp__button pswp__button--arrow--right" aria-label="Next (arrow right)"></button>
-			<div class="pswp__caption">
-				<div class="pswp__caption__center"></div>
-			</div>
-		</div>
-	</div>
 </div>
 	<script>
 		(function () {
@@ -860,29 +704,9 @@ wp.date.setSettings( {"l10n":{"locale":"en_US","months":["January","February","M
 Object.assign( window.wp.editor, window.wp.oldEditor );
 </script>
 <script id="paygatedottocryptogateway-block-support-js-extra">
-var paygatedottocryptogatewayData = [{"id":"paygatedotto-crypto-payment-gateway-multicoin","label":"Multicoin","description":"Pay via Escrow Multicoin cryptocurrency","icon_url":"http:\/\/aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion\/wp-content\/plugins\/crypto-payment-gateway\/static\/multicoin.png"}];
+var paygatedottocryptogatewayData = [{"id":"paygatedotto-crypto-payment-gateway-btc","label":"Bitcoin","description":"Pay via crypto Bitcoin btc","icon_url":"http:\/\/aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion\/wp-content\/plugins\/crypto-payment-gateway\/static\/btc.png"},{"id":"paygatedotto-crypto-payment-gateway-ltc","label":"Litecoin","description":"Pay via crypto Litecoin ltc","icon_url":"http:\/\/aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion\/wp-content\/plugins\/crypto-payment-gateway\/static\/ltc.png"},{"id":"paygatedotto-crypto-payment-gateway-doge","label":"Dogecoin","description":"Pay via crypto Dogecoin doge","icon_url":"http:\/\/aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion\/wp-content\/plugins\/crypto-payment-gateway\/static\/doge.png"},{"id":"paygatedotto-crypto-payment-gateway-eth","label":"Ethereum (ERC20)","description":"Pay via crypto Ethereum (ERC20) eth","icon_url":"http:\/\/aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion\/wp-content\/plugins\/crypto-payment-gateway\/static\/eth.png"},{"id":"paygatedotto-crypto-payment-gateway-trx","label":"TRX","description":"Pay via crypto TRX trx","icon_url":"http:\/\/aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion\/wp-content\/plugins\/crypto-payment-gateway\/static\/trx.png"},{"id":"paygatedotto-crypto-payment-gateway-solsol","label":"Solana","description":"Pay via crypto Solana sol_sol","icon_url":"http:\/\/aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion\/wp-content\/plugins\/crypto-payment-gateway\/static\/solsol.png"}];
 </script>
 <script src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/plugins/crypto-payment-gateway/assets/js/paygatedottocryptogateway-block-checkout-support.js?ver=1759756739" id="paygatedottocryptogateway-block-support-js"></script>
-<script src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/plugins/wc-product-table-lite/assets/antiscroll/js.min.js?ver=3.9.7" id="antiscroll-js"></script>
-<script src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/plugins/wc-product-table-lite/assets/freeze_table_v2/js.min.js?ver=3.9.7" id="freeze_table-js"></script>
-<script src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=3.9.7" id="photoswipe-js" defer data-wp-strategy="defer"></script>
-<script src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=3.9.7" id="photoswipe-ui-default-js" defer data-wp-strategy="defer"></script>
-<script src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/plugins/wc-product-table-lite/assets/multirange/js.min.js?ver=3.9.7" id="multirange-js"></script>
-<script id="wcpt-js-extra">
-var wcpt_i18n = {"i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_make_a_selection_text":"Please select some product options before adding this product to your cart.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination.","lang":""};
-var wcpt_params = {"ajax_url":"http:\/\/aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","shop_url":"http:\/\/aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion\/secure-market\/","shop_table_id":"","site_url":"http:\/\/aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion","cart_widget_enabled_site_wide":"","cart_widget_exclude_urls":"","cart_widget_include_urls":"","initially_empty_cart":"1","breakpoints":{"tablet":"1199","phone":"749"},"price_decimals":"2","price_decimal_separator":".","price_thousand_separator":",","price_format":"%1$s%2$s","currency_symbol":"$","initial_device":"laptop","responsive_checkbox_trigger":"1"};
-var wcpt_persist_params = ["s","post_type","term","taxonomy"];
-</script>
-<script src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/plugins/wc-product-table-lite/assets/js.min.js?ver=3.9.7" id="wcpt-js"></script>
-<script id="mediaelement-core-js-before">
-var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
-</script>
-<script src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17" id="mediaelement-core-js"></script>
-<script src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.8.3" id="mediaelement-migrate-js"></script>
-<script id="mediaelement-js-extra">
-var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive","audioShortcodeLibrary":"mediaelement","videoShortcodeLibrary":"mediaelement"};
-</script>
-<script src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=6.8.3" id="wp-mediaelement-js"></script>
 <script src="http://aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=10.2.2" id="sourcebuster-js-js"></script>
 <script id="wc-order-attribution-js-extra">
 var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"http:\/\/aby6efzmp7jzbwgidgqc6ghxi2vwpo6d7eaood5xuoxutrfofsmzcjqd.onion\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
