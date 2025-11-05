@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-11-05 | [`sonoco.c`](https://google.com/search?q=sonoco.c) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-11-04 | [`Sellars Absorbent Materials`](https://google.com/search?q=Sellars+Absorbent+Materials) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-04 | [`ConvExx`](https://google.com/search?q=ConvExx) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-04 | [`American PowerNet`](https://google.com/search?q=American+PowerNet) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-07-14 | [`Hulberg & Associates`](https://google.com/search?q=Hulberg+%26+Associates) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-07-11 | [`FormWood Industries`](https://google.com/search?q=FormWood+Industries) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-07-11 | [`EIA Global`](https://google.com/search?q=EIA+Global) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-07-11 | [`CyberlinkASP`](https://google.com/search?q=CyberlinkASP) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
