@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-11-10 | [`Ioxo & Stream Computers`](https://google.com/search?q=Ioxo+%26+Stream+Computers) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-10 | [`Garvin Promotion Group`](https://google.com/search?q=Garvin+Promotion+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-10 | [`Darvin Furniture`](https://google.com/search?q=Darvin+Furniture) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-10 | [`[DISCLOSED]Kurogane Kasei Co.`](https://google.com/search?q=%5BDISCLOSED%5DKurogane+Kasei+Co.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-07-23 | [`Ka Logistics`](https://google.com/search?q=Ka+Logistics) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-07-23 | [`DA Whitacre Construction`](https://google.com/search?q=DA+Whitacre+Construction) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-07-17 | [`track.html`](https://google.com/search?q=track.html) | [lockbit3_fs](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3_fs) |
-| 2025-07-17 | [`bot2.html`](https://google.com/search?q=bot2.html) | [lockbit3_fs](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3_fs) |
