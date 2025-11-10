@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-11-10 | [`Darvin Furniture`](https://google.com/search?q=Darvin+Furniture) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-10 | [`[DISCLOSED]Kurogane Kasei Co.`](https://google.com/search?q=%5BDISCLOSED%5DKurogane+Kasei+Co.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-11-10 | [`MARCK Industries`](https://google.com/search?q=MARCK+Industries) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-11-10 | [`[DISCLOSED]S Food Co., Ltd.`](https://google.com/search?q=%5BDISCLOSED%5DS+Food+Co.%2C+Ltd.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-07-17 | [`track.html`](https://google.com/search?q=track.html) | [lockbit3_fs](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3_fs) |
 | 2025-07-17 | [`bot2.html`](https://google.com/search?q=bot2.html) | [lockbit3_fs](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3_fs) |
 | 2025-07-16 | [`Morrison Companies`](https://google.com/search?q=Morrison+Companies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-07-16 | [`IMSSA Manufacturing`](https://google.com/search?q=IMSSA+Manufacturing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
