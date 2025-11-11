@@ -1,35 +1,14 @@
-<html>
+<!doctype html>
+<html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_cHyafxQYVs3E1gD1FoxBvmgTg+sJuataatBTLQpbY52eUOJ8yJqBkR26l1YgFsYvHmRUpJPo0O94eK2m8tNIbA==" lang="en" style="background: #2B2B2B;">
 <head>
-<title>0mega.cc</title>
-<script type="text/javascript" src="/js/fingerprint/iife.min.js"></script>
-<script type="text/javascript">
-var redirect_link = 'http://0mega.cc/?tr_uuid=20251111-1224-29fd-b0ae-50002b20cbec&';
-let redirected = false;
-
-function redirect(suffix) {
-	if (redirected) return;
-	redirected = true;
-	window.location.replace(redirect_link + suffix);
-}
-
-const rdrTimeout = setTimeout(() => redirect('fp=-7'), 300);
-
-try {
-	FingerprintJS.load({monitoring: false})
-		.then(fp => fp.get())
-		.then(result => {
-			clearTimeout(rdrTimeout);
-			redirect('fp=' + result.visitorId);
-		});
-} catch (err) {
-	redirect('fp=-7');
-}
-
-</script>
-<style> body { background:#101c36 } </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
+    <link rel="preconnect" href="https://www.google.com" crossorigin>
 </head>
-<body bgcolor="#ffffff" text="#000000">
-<div style='display: none;'><a href='http://0mega.cc/?tr_uuid=20251111-1224-29fd-b0ae-50002b20cbec&fp=-3'>Click here to enter</a></div>
-<noscript><meta http-equiv="refresh" content="0; URL=http://0mega.cc/?tr_uuid=20251111-1224-29fd-b0ae-50002b20cbec&fp=-5"></noscript>
+<body>
+<div id="target" style="opacity: 0"></div>
+<script>window.park = "eyJ1dWlkIjoiYmNlY2U3ZWQtYzZlZi00MGVjLWIyMmQtMTFmNmFhZGNlZTRiIiwicGFnZV90aW1lIjoxNzYyODMxMjYxLCJwYWdlX3VybCI6Imh0dHA6Ly93dzI1LjBtZWdhLmNjLz9zdWJpZDE9MjAyNTExMTEtMTQyMS0wMWQ1LTgxZTAtOTUzNzRiNGFiNTAwIiwicGFnZV9tZXRob2QiOiJHRVQiLCJwYWdlX3JlcXVlc3QiOnsic3ViaWQxIjoiMjAyNTExMTEtMTQyMS0wMWQ1LTgxZTAtOTUzNzRiNGFiNTAwIn0sInBhZ2VfaGVhZGVycyI6e30sImhvc3QiOiJ3dzI1LjBtZWdhLmNjIiwiaXAiOiI0NS4xNDguMTAuMTExIn0K";</script>
+<script src="/bZUuHxqWr.js"></script>
 </body>
 </html>
