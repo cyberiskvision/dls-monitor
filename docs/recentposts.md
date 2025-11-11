@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-11-11 | [`Public Safety Mutual Benefit Fund`](https://google.com/search?q=Public+Safety+Mutual+Benefit+Fund) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-11-11 | [`Octomeca Oy`](https://google.com/search?q=Octomeca+Oy) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-11-11 | [`Polidano Group`](https://google.com/search?q=Polidano+Group) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-11-11 | [`Heart South Cardiovascular Group`](https://google.com/search?q=Heart+South+Cardiovascular+Group) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-08-04 | [`Phoenix Lighting`](https://google.com/search?q=Phoenix+Lighting) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-08-04 | [`Backstage Library Works`](https://google.com/search?q=Backstage+Library+Works) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-08-02 | [`Cookeville Regional Medical Center`](https://google.com/search?q=Cookeville+Regional+Medical+Center) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
-| 2025-07-31 | [`Thern`](https://google.com/search?q=Thern) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
