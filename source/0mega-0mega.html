@@ -1,14 +1,35 @@
-<!doctype html>
-<html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_rVm+vUWRO2fjmuKRMtpWz79+7vCzn8CfZ2+dQiyF5fj0wU6SmcauYaTO0Ypnwouw0OfD1LX1uv6kbx1yKzZgyw==" lang="en" style="background: #2B2B2B;">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
-    <link rel="preconnect" href="https://www.google.com" crossorigin>
+<title>0mega.cc</title>
+<script type="text/javascript" src="/js/fingerprint/iife.min.js"></script>
+<script type="text/javascript">
+var redirect_link = 'http://0mega.cc/?tr_uuid=20251111-1627-1761-bcdb-df437876f723&';
+let redirected = false;
+
+function redirect(suffix) {
+	if (redirected) return;
+	redirected = true;
+	window.location.replace(redirect_link + suffix);
+}
+
+const rdrTimeout = setTimeout(() => redirect('fp=-7'), 300);
+
+try {
+	FingerprintJS.load({monitoring: false})
+		.then(fp => fp.get())
+		.then(result => {
+			clearTimeout(rdrTimeout);
+			redirect('fp=' + result.visitorId);
+		});
+} catch (err) {
+	redirect('fp=-7');
+}
+
+</script>
+<style> body { background:#101c36 } </style>
 </head>
-<body>
-<div id="target" style="opacity: 0"></div>
-<script>window.park = "eyJ1dWlkIjoiMTI1OGJiMDMtOTQ1ZS00NTljLWJlOTYtYmQ5OTYzZTdmMDdkIiwicGFnZV90aW1lIjoxNzYyODM1Mzc1LCJwYWdlX3VybCI6Imh0dHA6Ly93dzI1LjBtZWdhLmNjLz9zdWJpZDE9MjAyNTExMTEtMTUyOS0zNDFlLTgyMjQtNWQxOWVhOGI2NWQxIiwicGFnZV9tZXRob2QiOiJHRVQiLCJwYWdlX3JlcXVlc3QiOnsic3ViaWQxIjoiMjAyNTExMTEtMTUyOS0zNDFlLTgyMjQtNWQxOWVhOGI2NWQxIn0sInBhZ2VfaGVhZGVycyI6e30sImhvc3QiOiJ3dzI1LjBtZWdhLmNjIiwiaXAiOiIxODUuMjIwLjEwMS4xNDQifQo=";</script>
-<script src="/bNzOHiolR.js"></script>
+<body bgcolor="#ffffff" text="#000000">
+<div style='display: none;'><a href='http://0mega.cc/?tr_uuid=20251111-1627-1761-bcdb-df437876f723&fp=-3'>Click here to enter</a></div>
+<noscript><meta http-equiv="refresh" content="0; URL=http://0mega.cc/?tr_uuid=20251111-1627-1761-bcdb-df437876f723&fp=-5"></noscript>
 </body>
 </html>
