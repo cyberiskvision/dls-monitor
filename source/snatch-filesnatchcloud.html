@@ -1,464 +1,674 @@
 <head>
-  <meta charset="utf-8">
-  <title>TOPSITES</title>
+        <title>Simcast News portal.</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Search on topics your interested. Read great personalised news.">
+        <meta name="keywords" content="search,news,automotive,beauty,education,events,fashion,finance,games,health,home,insurance,legal,pets,property,shopping,sports,technology,transport,travel,utilties">
+        <meta name="author" content="Simcast">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/templates/simcast/favicon.png" type="image/x-icon">
+        <script async="" src="https://cdn.hadronid.net/hadron.js?partner_id=788&amp;sync=1&amp;url=https%3A%2F%2Fsimcast.com%2F%3Fd%3Dfilesnatchcloud.top%26pcid%3D56%26a%3Dfalse%26uuid%3Dd4feb568745a10fc8bb95ba744915ee7"></script><script async="" src="https://a.ad.gt/api/v1/u/matches/788?url=https%3A%2F%2Fsimcast.com%2F%3Fd%3Dfilesnatchcloud.top%26pcid%3D56%26a%3Dfalse%26uuid%3Dd4feb568745a10fc8bb95ba744915ee7&amp;ref=https%3A%2F%2Ffilesnatchcloud.top%2F"></script><script async="" src="https://cdn.hadronid.net/hadron.js?url=https%3A%2F%2Fsimcast.com%2F%3Fd%3Dfilesnatchcloud.top%26pcid%3D56%26a%3Dfalse%26uuid%3Dd4feb568745a10fc8bb95ba744915ee7&amp;ref=https%3A%2F%2Ffilesnatchcloud.top%2F&amp;_it=tag&amp;partner_id=788&amp;ha=ha"></script><script type="text/javascript" async="" src="https://static.anonymised.io/light/loader.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-RFSL1NPH34&amp;cx=c&amp;gtm=4e5ba1"></script><script async="" type="text/javascript" src="https://p.gcprivacy.com/t/gcid_s.min.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-KXJCD57"></script><script async="" type="text/javascript" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script><script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <link type="text/css" href="/templates/simcast/css/html.css" rel="stylesheet">
+        <link href="/lib/fontawesome-5.9.0/css/all.min.css" rel="stylesheet">
+        <script src="/templates/simcast/js/lib.js"></script>
+        <script type="text/javascript" src="https://cdn.adapex.io/hb/aaw.simcast.js" async=""></script>
+            <script type="text/javascript">
+        $(document).ready(function () {
+            document.cookie = "mess=1;SameSite=none;Secure";
+            var totX = 0;
+            var totY = 0;
+            var startx = 0;
+            var starty = 0;
+            var mess = 0;
+            var fra = 0;
+            var p = 0;
+            var infr = window.self !== window.top;
+            if (infr) {
+                fra = 1;
+            }
+            var pop = (window.opener !== undefined && window.opener !== null && window.opener !== window);
+            if (pop) {
+                p = 1;
+            }
+            $.ajax({
+                type: 'GET',
+                url: '/widgets/ms/ajaxjs.php?fra=' + fra + '&p=' + p,
+                dataType: "text",
+                success: function (data) {
+                    var dataval = parseInt(data);
+                    if ((dataval === 86) || (dataval === 87)) {
+                        window.location.replace("/notfound.php?a=1");
+                    }
+                    ;
+                }
+            });
+            document.addEventListener('touchstart', function (e) {
+                var touchobj = e.changedTouches[0]; // first touch
+                totX = totX + parseInt(touchobj.clientX);
+                totY = totY + parseInt(touchobj.clientY);
+            }, false);
+            document.addEventListener('touchend', function (e) {
+                var touchobj = e.changedTouches[0]; // last touch
+                totX = totX + abs(parseInt(touchobj.clientX) - startx);
+                totY = totY + abs(parseInt(touchobj.clientY) - starty);
+            }, false);
+            document.onmousemove = function (e) {
+                totX = totX + e.pageX;
+                totY = totY + e.pageY;
+            };
+            if (parseInt(getCookie("mess")) < 2) {
+                setInterval(checkCursor, 200);
+            }
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, shrink-to-fit=no">
-    <meta name="keywords" content="">
-    <meta name="description" content=""> 
-    <meta name="referrer" content="unsafe-url">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
-    <link rel="manifest" href="/icons/site.webmanifest">
-    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/icons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#2b5797">
-    <meta name="msapplication-config" content="/icons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="/main.css?v=4.8">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
-    <script async="" src="https://mc.yandex.ru/metrika/tag.js"></script><script async="" src="https://js.wpadmngr.com/static/adManager.js" data-admpid="161705"></script>
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript">
-       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-       m[i].l=1*new Date();
-       for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-       k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-       ym(96333054, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true
-       });
+            function checkCursor() {
+                if ((totX !== 0) || (totY !== 0)) {
+                    if (mess < 2) {
+                        mess = 2;
+                        //LoadExt2();
+                        document.cookie = "mess=2;SameSite=none;Secure";
+                        $.ajax({
+                            method: "GET",
+                            url: "/widgets/ms/ajaxup.php?mess=" + mess
+                        });
+                    }
+                }
+            }
+            function LoadExt2() {
+                var head = document.getElementsByTagName('head')[0];
+                var js = document.createElement("script");
+                js.type = "text/javascript";
+                js.src = "https://cdn.adapex.io/hb/aaw.smc.js";
+                head.appendChild(js);
+            }
+        }
+        );
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/96333054" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
- 
-    <script typ="text/javascript">
-        ym(96333054,'reachGoal','out');
-    </script>
+        <meta name="pbstck_context:pbstck_ab_test" content="true"><script type="text/javascript" async="" src="https://cdn1.anonymised.io/light/bundle.js?v=1.8.2"></script><script src="https://cdn1.anonymised.io/light/auth.js?v=1.8.2"></script><img src="https://ib.adnxs.com/getuid?https%3A%2F%2Fp2.gcprivacy.com%2Fv4%2Fid%2Fxandr%3Fpid%3D6CP1D%26id%3D%24UID%26gcid%3D786e5bcc-711c-41b7-a7a4-ef0db09db7ed" style="display: none !important;"><style>@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&display=swap);</style><style>#idw-plugin-container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    position: fixed;
+    left: -160px;
+    bottom: -160px;
+    z-index: 999999;
+    background-color: #fff;
 
+    height: auto;
+    max-width: 160px;
+    width: 160px;
+    min-width: 160px;
+    color: #171717;
+    line-height: 1rem;
 
+    outline: 1px solid #171717;
+    justify-content: flex-start;
 
-</head>
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: left .4s, bottom .4s, opacity .1s;
+}
 
-<body>
- 
-  
-    <section>
-        <article>
-            <ul class="tubes">
+#idw-plugin-container.idw-open {
+    left: 0;
+    bottom: 0;
+    opacity: 1;
+}
 
-                <li>
-                                            <div class="mh-thumb">
-                                                <a href="https://69ebony.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://69ebony.com/thumbs/AA/3c/B6.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>69ebony.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://hadesex.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://hadesex.com/thumbs/AA/Gq/cd.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>hadesex.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://gftranny.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://gftranny.com/thumbs/AA/_X/w7.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>gftranny.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://voyeurix.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://voyeurix.com/thumbs/AA/yZ/sQ.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>voyeurix.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://xcumwebcam.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://xcumwebcam.com/thumbs/AA/Kq/B3.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>xcumwebcam.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://voyeurix.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://voyeurix.com/thumbs/AA/OK/pw.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>voyeurix.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://jbdsm.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://jbdsm.com/thumbs/AA/sQ/bB.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>jbdsm.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://javsecrets.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://javsecrets.com/thumbs/AA/ri/vc.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>javsecrets.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://femdomqueen.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://femdomqueen.com/thumbs/AA/2R/n6.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>femdomqueen.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://happy-granny.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://happy-granny.com/thumbs/AA/xC/wp.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>happy-granny.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://69indian.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://69indian.com/thumbs/AA/3O/Q0.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>69indian.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://gftranny.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://gftranny.com/thumbs/AA/Fj/WZ.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>gftranny.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://hadesex.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://hadesex.com/thumbs/AA/Gq/cd.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>hadesex.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://myretrocollection.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://myretrocollection.com/thumbs/AA/Hc/xv.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>myretrocollection.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://69ebony.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://69ebony.com/thumbs/AA/PV/KJ.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>69ebony.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://lovefootjob.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://lovefootjob.com/thumbs/AA/WO/kS.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>lovefootjob.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://myretrocollection.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://myretrocollection.com/thumbs/AA/gr/4Y.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>myretrocollection.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://javsecrets.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://javsecrets.com/thumbs/AA/SQ/5f.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>javsecrets.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://femdomqueen.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://femdomqueen.com/thumbs/AA/7V/dZ.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>femdomqueen.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://69indian.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://69indian.com/thumbs/AA/q9/FM.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>69indian.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://againgay.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://againgay.com/thumbs/AA/W1/tX.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>againgay.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://losanalos.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://losanalos.com/thumbs/AA/3o/TI.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>losanalos.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://69lesbi.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://69lesbi.com/thumbs/AA/ms/yv.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>69lesbi.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://interracial69.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://interracial69.com/thumbs/AA/Tz/I5.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>interracial69.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://lovefootjob.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://lovefootjob.com/thumbs/AA/DY/es.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>lovefootjob.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://xcumwebcam.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://xcumwebcam.com/thumbs/AA/_V/6v.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>xcumwebcam.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://groupsexxx.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://groupsexxx.com/thumbs/AA/DV/Gp.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>groupsexxx.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://milftop.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://milftop.com/thumbs/AA/QL/1i.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>milftop.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://losanalos.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://losanalos.com/thumbs/AA/ZH/nd.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>losanalos.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://69lesbi.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://69lesbi.com/thumbs/AA/CZ/XJ.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>69lesbi.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://porn13.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="https://porn13.com/thumbs/AA/Xi/FJ.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>porn13.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://jbdsm.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://jbdsm.com/thumbs/AA/u8/oC.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>jbdsm.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://happy-granny.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://happy-granny.com/thumbs/AA/g3/7k.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>happy-granny.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://porn13.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="https://porn13.com/thumbs/AA/Ug/ys.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>porn13.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://interracial69.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://interracial69.com/thumbs/AA/W3/fH.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>interracial69.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://milftop.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://milftop.com/thumbs/AA/60/2J.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>milftop.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://groupsexxx.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://groupsexxx.com/thumbs/AA/Ds/fl.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>groupsexxx.com</h3>
-                                                </a>
-                                            </div>
-                                        </li><li>
-                                            <div class="mh-thumb">
-                                                <a href="https://againgay.com" title="" target="_blank">
-                                                    <div class="ispan">
-                                                        <img class="lazyload lazy stats" src="http://againgay.com/thumbs/AA/Xl/uS.jpg" data-tn="" alt="" width="310" height="180" decoding="async" data-position="0" style=""> 
-                                                    </div>
-                                                    <h3>againgay.com</h3>
-                                                </a>
-                                            </div>
-                                        </li>                <!-- <li>
-                    <div class="mh-thumb">
-                        <a href="#" title="" target="_blank">
-                            <div class="ispan">
+#idw-plugin-buttons {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: auto;
+}
 
-                                <img class="lazyload lazy stats" src="/thumbs/AA/3p/MV.jpg" data-tn="3pMV" alt="Gym" data-gid="20467" width="320" height="180" decoding="async" data-position="0" style="">
+#idw-plugin-container .pluginBtn {
+    border: none;
+    padding: 1px 5px !important;
+    margin: 0 !important;
+    width: auto !important;
+    height: 25px !important;
+    box-sizing: border-box !important;
 
+    border-radius: 0 !important;
+    text-align: right !important;
 
+    font-family: 'Open Sans', sans-serif !important;
+    line-height: normal !important;
+    text-transform: none !important;
+    letter-spacing: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
 
+    background-color: #ffffff !important;
+    transition: background-color 0.2s;
+    cursor: pointer !important;
+}
 
-                                <span class="amount">655</span>
-                            </div>
-                            <h3>Gym</h3>
-                        </a>
-                    </div>
-                </li> -->
-                
-            </ul>
-            <p class="long_desc"></p>
-        </article>
-    </section>
-   
-     
-  <footer>
-   
-  </footer>
+#idw-plugin-container .pluginBtn:hover {
+    outline: 1px solid #ffffff !important;
+    background-color: #171717 !important;
+    color: #ffffff !important;
+}
 
-  <a href="#" class="totop"></a>
+#idw-open-trigger {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    z-index: 999999;
+    cursor: pointer;
+    -webkit-clip-path: polygon(100% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 100%, 0 100%, 0 0);
+    background-color: #171717 !important;
+}
 
-  <script src="//md-static.com/js/jquery.min.js"></script><script type="text/javascript" src="//a11ybar.com/ok6.js"></script>
-  <script src="//md-static.com/js/jquery-ui.min.js"></script><script type="text/javascript" src="//a11ybar.com/ok6.js"></script>
-   
+#idw-open-trigger img {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    /* padding: 4px; */
+    bottom: -2px;
+    left: -2px;
+}</style><style>/***************/
+/*MEDIA QUERIES*/
+/***************/
+/*
+  ##Device: Tablets, Ipads (portrait)
+  ##Screen: B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+}
+/*
+  ##Device: Most of the Smartphones Mobiles (Portrait)
+  ##Screen: B/w 320px to 479px
+*/
+@media (min-width: 400px) and (max-width: 480px) {
 
-
+}</style><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9nrunKdU5m96PSN1XsSGr3qOP0lvPFUB2AiAylCDlN5DTl17uDFkpQuHj1AFtgWLxpLaiBZuhrtb2WOu7ofHwEAAACKeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A93bovR+QVXNx2/38qDbmeYYf1wdte9EO37K9eMq3r+541qo0byhYU899BhPB7Cv9QqD7wIbR1B6OAc9kEfYCA4AAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A1S5fojrAunSDrFbD8OfGmFHdRFZymSM/1ss3G+NEttCLfHkXvlcF6LGLH8Mo5PakLO1sCASXU1/gQf6XGuTBgwAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202511050101/pubads_impl.js" async=""></script><script src="https://p.ad.gt/api/v1/p/788" async=""></script><script src="https://www.googletagmanager.com/gtag/js?id=G-FVWZ0RM4DH&amp;l=audDataLayer" async=""></script><script async="" src="https://fundingchoicesmessages.google.com/i/22181265?ers=3"></script><script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxXV7iL9Wz4VWls2MZTgU-ipAutydZlwSNz-WAf64cXw43M1CZBIf-5AIOKoYRNc13vv7SLwguBAXbxlF6AoaUzE9_TGGcXs6dCmLKSHHJjR0Pe8RXNK0RaxP1RDJ1IWUUlpHKIC?fccs=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFsxNzYyOTM1ODgxLDIwNjAwMDAwMF0sbnVsbCxudWxsLG51bGwsW251bGwsWzddXSwiaHR0cHM6Ly9zaW1jYXN0LmNvbS8iLG51bGwsW1s4LCJTekRFblB3VmJHRSJdLFs5LCJlbi1VUyJdLFsxOSwiMiJdLFsxNywiWzBdIl0sWzI0LCJmaWxlc25hdGNoY2xvdWQudG9wIl0sWzI5LCJmYWxzZSJdXV0"></script><script esp-signal="true" src="https://static.criteo.net/js/ld/publishertag.ids.js"></script><script esp-signal="true" src="https://cdn.mgaru.dev/static/myGaruStandalone.js"></script><script esp-signal="true" src="https://tags.crwdcntrl.net/lt/c/16589/sync.min.js"></script><script esp-signal="true" src="https://cdn.jsdelivr.net/gh/prebid/shared-id/pubcid.js/docs/pubcid.min.js"></script><script esp-signal="true" src="https://cdn.prod.uidapi.com/uid2SecureSignal.js"></script><script esp-signal="true" src="https://cdn.prod.euid.eu/euidSecureSignal.js"></script><script esp-signal="true" src="https://oa.openxcdn.net/esp.js"></script><script esp-signal="true" src="https://connectid.analytics.yahoo.com/connectId-gpt.js"></script><script esp-signal="true" src="https://cdn-ima.33across.com/ob.js"></script><script esp-signal="true" src="https://ads.pubmatic.com/AdServer/js/google-esp.js"></script><script esp-signal="true" src="https://cdn.id5-sync.com/api/1.0/esp.js"></script><script esp-signal="true" src="https://invstatic101.creativecdn.com/encrypted-signals/encrypted-tag-g.js"></script><script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxX3Gr1S-3kQZXxtZdIGZrf-BaCKa45558YCIptD-r5H32YW_cT8prxWG4E1K8FednbT8PuAdaBvG5ar3gRXmMyyx2tduUNIi8eTmrsbXVkuLj4Z2Zysn3OuD__HOdEBD_OtWoBb?fccs=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFsxNzYyOTM1ODgxLDI0NTAwMDAwMF0sbnVsbCxudWxsLG51bGwsW251bGwsWzcsOV0sbnVsbCwyLG51bGwsImVuIl0sImh0dHBzOi8vc2ltY2FzdC5jb20vIixudWxsLFtbOCwiU3pERW5Qd1ZiR0UiXSxbOSwiZW4tVVMiXSxbMTksIjIiXSxbMTcsIlswXSJdLFsyNCwiZmlsZXNuYXRjaGNsb3VkLnRvcCJdLFsyOSwiZmFsc2UiXV1d"></script><script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxUvBvWgziEEJBV5hfl9QaJjSxA5KS2JqMZONd7FbikT7NBDn3rEPivLiByaWfWpDzGiBc_6S7a8-1eSB8SOO_XuABlRe-b4axR04Ha-x5pDpxWUM_CTrWPux8Nd2Ow5xnsMCuSb?fccs=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFsxNzYyOTM1ODgyLDExNzAwMDAwMF0sbnVsbCxudWxsLG51bGwsW251bGwsWzcsOSw2XSxudWxsLDIsbnVsbCwiZW4iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCwxXSwiaHR0cHM6Ly9zaW1jYXN0LmNvbS8iLG51bGwsW1s4LCJTekRFblB3VmJHRSJdLFs5LCJlbi1VUyJdLFsxOSwiMiJdLFsxNywiWzBdIl0sWzI0LCJmaWxlc25hdGNoY2xvdWQudG9wIl0sWzI5LCJmYWxzZSJdXV0"></script></head>
+    <body id="mainbody">
+        <div class="menutop clearfix">
+            <div class="logo-block">
+                <div class="logo-image"><a href="/"><img src="/templates/simcast/images/simcastlogo_35y.png" alt="Simcast logo" style="max-width:169px;max-height:35px;"></a></div>
+            </div>
+                    <script>
+            function myConfirm(message) {
+                switch (message.length) {
+                    case 0:
+                        message = "WARNING!\nAre you sure you want to do this?";
+                    case 1:
+                        break;
+                }
+                if (confirm(message) == true) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        </script>
+        <script type="text/javascript">
+            function myFunction() {
+                $("#myTopnav").toggleClass("responsive");
+                $(".menutop").toggleClass("responsive1");
+            }
+        </script>
+        <div class="menu-block"><ul class="dropdown topnav" id="myTopnav"><li class="icon"><a href="javascript:void(0);" onclick="myFunction()"><div class="bar1"></div><div class="bar2"></div><div class="bar3"></div></a></li><li><a href="/news" title="News">News</a><ul></ul></li><li><a href="/Entertainment" title="Entertainment">Entertainment</a><ul></ul></li><li><a href="/Money" title="Money">Money</a><ul></ul></li><li><a href="/Lifestyle" title="Lifestyle">Lifestyle</a><ul></ul></li><li><a href="/Health" title="Health">Health</a><ul></ul></li><li><a href="/Sports" title="Sports">Sports</a><ul></ul></li><li><a href="/Travel" title="Travel">Travel</a><ul></ul></li><li><a href="/Video" title="Videos">Videos</a><ul></ul></li><li><a href="/About-Simcast" title="About Us">About Us</a><ul><li><a href="/about-us/About-Simcast" title="About Simcast">About Simcast</a><ul></ul></li><li><a href="/about-us/Contact-Us" title="Contact Us">Contact Us</a><ul></ul></li><li><a href="/about-us/Policies" title="Policies">Policies</a><ul><li><a href="/about-us/policies/Privacy-Policy" title="Privacy Policy">Privacy Policy</a><ul></ul></li><li><a href="/about-us/policies/Terms-of-Use" title="Terms of Use">Terms of Use</a><ul></ul></li></ul></li></ul></li>        </ul></div>            <div class="powered-block">Powered by <em><strong>Microsoft News</strong></em></div>
+        </div>
+                    <div style="margin-top:70px;">
+                <div id="plBanner">
+                    <script id="parklogic" type="text/javascript" src="https://parking3.parklogic.com/page/enhance.js?pcId=56&amp;domain=filesnatchcloud.top"></script>
+                </div>
+            </div>
+                <div id="contentwrapper">
+                <div class="search-block clearfix">
+                    <style>
+                .search-advanced {
+                    color:#B68EBC;
+                    font-size:10px;
+                }
+                .search-advanced:hover {
+                    color:#562E5C;
+                }
+                .search-adddomain {
+                    font-size:13px;
+                    color:#88DD88;
+                }
+                .search-adddomain:hover {
+                    color:#66BB66;
+                }
+                .search-advanced {
+                    font-size:13px;
+                    color:#8888DD;
+                }
+                .search-advanced:hover {
+                    color:#6666BB;
+                }
+            </style>
+            <div class="search-inputblock">
+                <form method="post" action="/widgets/searches/rl.php">
+                                        <input type="text" name="q" value="Search Internet" onblur="if (this.value === '') {
+                                               this.value = 'Search Internet';
+                                           }" onfocus="if (this.value === 'Search Internet') {
+                                               this.value = '';
+                                           }" class="search-inputbox" aria-label="Search Internet">
+                    <input name="inputboxvar" type="hidden" value="q">
+                    <input name="ms" type="hidden" value="0">
+                    <input name="remote" type="hidden" value="0">
+                    <i class="fas fa-search search-button" onclick="this.closest('form').submit();
+                                    return false;"></i>
+                </form>
+            </div>
+            <div style="text-align:right;width:400px;margin:0px auto 0px auto;">
+                <a href="javascript:displayModal(109);" title="Advanced search" class="search-advanced"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                <!--- <a href="javascript:displayModal(108);" title="Add your website to the search engine." class='search-adddomain'><i class="fa fa-plus-circle" aria-hidden="true"></i></a>--->
+            </div>
+                </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css">
+<link rel="stylesheet" href="/widgets/modal/modal.css">
 <script>
-    $(window).scroll(function () {
-        if ($(window).scrollTop() >= 300) {
-            $('.totop').addClass('fixed');
-        }
-        else {
-            $('.totop').removeClass('fixed');
-        }
-    });
-    $(document).ready(function () {
-        $('a[href=\\#]').click(function (e) {
-            e.preventDefault();
-            $('html, body').animate({
-                scrollTop: 0
-            }, 'slow');
-            return false;
-        });
-        $("header nav ul li span.l").click(function () {
-            $(this).toggleClass("check");
-            $('header nav ul').toggleClass("visible");
-        });
 
-    });
+    function displayModal(mm) {
+        $('#modalout').load('/widgets/modal/modal.php?mm=' + mm);
+    }
+    function displayComment(mm, k, id) {
+        $('#modalout').load('/widgets/modal/modal.php?mm=' + mm + "&k=" + k + "&id=" + id);
+    }
+    function displayModalURL(mm, id) {
+        $('#modalout').load('/widgets/modal/modal.php?mm=' + mm + "&id=" + id);
+    }
+    function displayBroadCastModal(mm) {
+        $('#modalout').load('/widgets/modal/modal.php?mm=' + mm);
+    }
 </script>
+<div id="modalout"></div>
 
-<script src="/js/utm-datasource.js?v=1.90"></script> 
+            <div class="articlewrapper">
+                <div class="row">
+                                        <div class="leftcolumn">
+                        
+<div id="trendingnews"><div class="trendingnewsheading">Trending News</div></div>    <div class="textArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=5&amp;k=news" class="textArticle-link" target="_BLANK">
+            <div class="textArticle-imageblock">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1EGFiG.img?h=100&amp;w=100&amp;x=800&amp;y=450&amp;m=5" class="textArticle-image" style="object-fit: cover;width: 100%;height: 100px;" alt="Hundreds of UK jobs at risk as Japanese bearings firm plans factory closure&lt;br&gt;">
+            </div>
+            <div class="textArticle-textcontent">
+                <div class="textArticle-title">
+                    Hundreds of UK jobs at risk as Japanese bearings firm plans factory closure<br>                    <div class="textArticle-abstract">
+                        A Japanese manufacturing firm has revealed plans to shut a factory in County Durham, placing hundreds of jobs at risk.                    </div>
+                    <div class="textArticle-provider">
+                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AALlEdG.img" style="max-height:18px;float:left;" alt="Sky News">
+                        <div style="font-size:11px;margin:4px 0px 0px 4px;float:left;">
+                            Sky News&nbsp;&nbsp;                        </div>
+                                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+        <div class="textArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=13&amp;k=news" class="textArticle-link" target="_BLANK">
+            <div class="textArticle-imageblock">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1QeMlA.img?h=100&amp;w=100&amp;x=600&amp;y=400&amp;m=5" class="textArticle-image" style="object-fit: cover;width: 100%;height: 100px;" alt="Londoners could benefit from seized £5.5bn crypto stash&lt;br&gt;">
+            </div>
+            <div class="textArticle-textcontent">
+                <div class="textArticle-title">
+                    Londoners could benefit from seized £5.5bn crypto stash<br>                    <div class="textArticle-abstract">
+                        Londoners could benefit from £5.5bn crypto stash seized from fraudster - Zhimin Qian was jailed for 11 years after scamming more than 128,000 people and storing the funds in Bitcoin                    </div>
+                    <div class="textArticle-provider">
+                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1ERw56.img" style="max-height:18px;float:left;" alt="Evening Standard">
+                        <div style="font-size:11px;margin:4px 0px 0px 4px;float:left;">
+                            Evening Standard&nbsp;&nbsp;                        </div>
+                                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+        <div class="textArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=2&amp;k=news" class="textArticle-link" target="_BLANK">
+            <div class="textArticle-imageblock">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1JTqxR.img?h=100&amp;w=100&amp;x=532&amp;y=145&amp;m=5" class="textArticle-image" style="object-fit: cover;width: 100%;height: 100px;" alt="Raheem Sterling confronts burglars with knife in break in&lt;br&gt;">
+            </div>
+            <div class="textArticle-textcontent">
+                <div class="textArticle-title">
+                    Raheem Sterling confronts burglars with knife in break in<br>                    <div class="textArticle-abstract">
+                        Raheem Sterling confronts burglars with knife as Chelsea player's house broken into again - Masked men reportedly broke into the Chelsea footballer’s home shortly before the west London club played Wolves                    </div>
+                    <div class="textArticle-provider">
+                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1ERw56.img" style="max-height:18px;float:left;" alt="Evening Standard">
+                        <div style="font-size:11px;margin:4px 0px 0px 4px;float:left;">
+                            Evening Standard&nbsp;&nbsp;                        </div>
+                                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+        <div class="textArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=17&amp;k=news" class="textArticle-link" target="_BLANK">
+            <div class="textArticle-imageblock">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1uidbk.img?h=100&amp;w=100&amp;x=626.5&amp;y=248.5&amp;m=5" class="textArticle-image" style="object-fit: cover;width: 100%;height: 100px;" alt="The secret romance that could have changed Churchill’s life&lt;br&gt;">
+            </div>
+            <div class="textArticle-textcontent">
+                <div class="textArticle-title">
+                    The secret romance that could have changed Churchill’s life<br>                    <div class="textArticle-abstract">
+                        There have been few occasions in my life when I have read letters that have made my eyes come so far out on stalks that it is questionable if they will ever go back in again. This happened when I took possession of Clarissa Avon’s papers, bequeathed...                    </div>
+                    <div class="textArticle-provider">
+                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qi9VK.img" style="max-height:18px;float:left;" alt="The Telegraph">
+                        <div style="font-size:11px;margin:4px 0px 0px 4px;float:left;">
+                            The Telegraph&nbsp;&nbsp;                        </div>
+                                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+        <div class="textArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=12&amp;k=news" class="textArticle-link" target="_BLANK">
+            <div class="textArticle-imageblock">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Qgsm4.img?h=100&amp;w=100&amp;x=613&amp;y=244&amp;m=5" class="textArticle-image" style="object-fit: cover;width: 100%;height: 100px;" alt="" dharmendra="" is="" dead:'="" how="" the="" rumor="" spread="" across="" bollywood<br="">'&gt;
+            </div>
+            <div class="textArticle-textcontent">
+                <div class="textArticle-title">
+                    'Dharmendra Is Dead:' How the Rumor Spread Across Bollywood<br>                    <div class="textArticle-abstract">
+                        False reports claiming Bollywood legend Dharmendra has passed away are circulating online, despite no official confirmation from his family or representatives. The 89-year-old actor's health remains uncertain, but the rumours have caused widespread concern...                    </div>
+                    <div class="textArticle-provider">
+                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1lWu9K.img" style="max-height:18px;float:left;" alt="IBTimes UK">
+                        <div style="font-size:11px;margin:4px 0px 0px 4px;float:left;">
+                            IBTimes UK&nbsp;&nbsp;                        </div>
+                                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+        <div class="majorArticle-block">
+        <a href="/widgets/streams/c.php?id=12&amp;k=news" target="_BLANK">
+            <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1OWMbu.img?h=500&amp;w=1000&amp;x=508.5&amp;y=382.5&amp;m=2" class="majorArticle-image" style="object-fit: cover;width: 100%;height: 400px;" alt="Joe Marler reveals his Celebrity Traitors pay cheque">
+            <div class="majorArticle-title">
+                Joe Marler reveals his Celebrity Traitors pay cheque            </div>
+        </a>
+    </div>
+                        </div>
+                    <div class="middlecolumn">
+                        <div class="breakingnews">Breaking News</div>    <div class="minorArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=15&amp;k=news" class="minorArticle-imagelink" target="_BLANK">
+            <div class="minorimage-block">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1QeRGZ.img?h=70&amp;w=95&amp;x=936&amp;y=278&amp;m=5" class="minorArticle-image" style="object-fit: cover;width: 100%;height: 70px;" alt="BBC executive who defended Trump video put in charge of news&lt;br&gt;&lt;br&gt;">
+            </div>
+        </a>
+        <div class="minorArticle-title">
+            <a href="/widgets/streams/c.php?id=15&amp;k=news" class="minorArticle-text" target="_BLANK">
+                BBC executive who defended Trump video put in charge of news            </a>
+        </div>
+        <div class="provider">
+            <a href="/widgets/streams/c.php?id=15&amp;k=news" class="minorArticle-newsprovider" target="_BLANK">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qi9VK.img" style="max-height:18px;float:left;" alt="The Telegraph">&nbsp;
+                The Telegraph&nbsp;&nbsp;            </a>
+                    </div>
+    </div>
+        <div class="minorArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=3&amp;k=news" class="minorArticle-imagelink" target="_BLANK">
+            <div class="minorimage-block">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Qec5H.img?h=70&amp;w=95&amp;x=480&amp;y=271&amp;m=5" class="minorArticle-image" style="object-fit: cover;width: 100%;height: 70px;" alt="BBC presenter found dead in her property after hospital discharge following car crash&lt;br&gt;&lt;br&gt;">
+            </div>
+        </a>
+        <div class="minorArticle-title">
+            <a href="/widgets/streams/c.php?id=3&amp;k=news" class="minorArticle-text" target="_BLANK">
+                BBC presenter found dead in her property after hospital discharge following car crash            </a>
+        </div>
+        <div class="provider">
+            <a href="/widgets/streams/c.php?id=3&amp;k=news" class="minorArticle-newsprovider" target="_BLANK">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBlOd7s.img" style="max-height:18px;float:left;" alt="Birmingham Mail">&nbsp;
+                Birmingham Mail&nbsp;&nbsp;            </a>
+                    </div>
+    </div>
+        <div class="minorArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=7&amp;k=news" class="minorArticle-imagelink" target="_BLANK">
+            <div class="minorimage-block">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Qf9ZZ.img?h=70&amp;w=95&amp;x=432&amp;y=253&amp;m=5" class="minorArticle-image" style="object-fit: cover;width: 100%;height: 70px;" alt="Is Trump" s="" mind="" slipping?="" 79-year-old="" demands="" troops="" at="" non-existent="" chicago="" shopping="" centre<br=""><br>'&gt;
+            </div>
+        </a>
+        <div class="minorArticle-title">
+            <a href="/widgets/streams/c.php?id=7&amp;k=news" class="minorArticle-text" target="_BLANK">
+                Is Trump's Mind Slipping? 79-Year-Old Demands Troops at Non-Existent Chicago Shopping Centre            </a>
+        </div>
+        <div class="provider">
+            <a href="/widgets/streams/c.php?id=7&amp;k=news" class="minorArticle-newsprovider" target="_BLANK">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1lWu9K.img" style="max-height:18px;float:left;" alt="IBTimes UK">&nbsp;
+                IBTimes UK&nbsp;&nbsp;            </a>
+                    </div>
+    </div>
+        <div class="minorArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=19&amp;k=news" class="minorArticle-imagelink" target="_BLANK">
+            <div class="minorimage-block">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1QePBf.img?h=70&amp;w=95&amp;x=688&amp;y=305&amp;m=5" class="minorArticle-image" style="object-fit: cover;width: 100%;height: 70px;" alt="Rob Kardashian Forced To Wear " buzzing'="" posture="" corrector="" for="" comeback<br=""><br>'&gt;
+            </div>
+        </a>
+        <div class="minorArticle-title">
+            <a href="/widgets/streams/c.php?id=19&amp;k=news" class="minorArticle-text" target="_BLANK">
+                Rob Kardashian Forced To Wear 'Buzzing' Posture Corrector For Comeback            </a>
+        </div>
+        <div class="provider">
+            <a href="/widgets/streams/c.php?id=19&amp;k=news" class="minorArticle-newsprovider" target="_BLANK">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1lWu9K.img" style="max-height:18px;float:left;" alt="IBTimes UK">&nbsp;
+                IBTimes UK&nbsp;&nbsp;            </a>
+                    </div>
+    </div>
+        <div class="minorArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=9&amp;k=news" class="minorArticle-imagelink" target="_BLANK">
+            <div class="minorimage-block">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Qfbpd.img?h=70&amp;w=95&amp;x=405&amp;y=269.5&amp;m=5" class="minorArticle-image" style="object-fit: cover;width: 100%;height: 70px;" alt="Premier League release full VAR audio of Virgil van Dijk incident after Liverpool complaint&lt;br&gt;&lt;br&gt;">
+            </div>
+        </a>
+        <div class="minorArticle-title">
+            <a href="/widgets/streams/c.php?id=9&amp;k=news" class="minorArticle-text" target="_BLANK">
+                Premier League release full VAR audio of Virgil van Dijk incident after Liverpool complaint            </a>
+        </div>
+        <div class="provider">
+            <a href="/widgets/streams/c.php?id=9&amp;k=news" class="minorArticle-newsprovider" target="_BLANK">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBlOiBc.img" style="max-height:18px;float:left;" alt="Liverpool Echo">&nbsp;
+                Liverpool Echo&nbsp;&nbsp;            </a>
+                    </div>
+    </div>
+        <div class="minorArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=4&amp;k=news" class="minorArticle-imagelink" target="_BLANK">
+            <div class="minorimage-block">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1EGFiG.img?h=70&amp;w=95&amp;x=800&amp;y=450&amp;m=5" class="minorArticle-image" style="object-fit: cover;width: 100%;height: 70px;" alt="Hundreds of UK jobs at risk as Japanese bearings firm plans factory closure&lt;br&gt;&lt;br&gt;">
+            </div>
+        </a>
+        <div class="minorArticle-title">
+            <a href="/widgets/streams/c.php?id=4&amp;k=news" class="minorArticle-text" target="_BLANK">
+                Hundreds of UK jobs at risk as Japanese bearings firm plans factory closure            </a>
+        </div>
+        <div class="provider">
+            <a href="/widgets/streams/c.php?id=4&amp;k=news" class="minorArticle-newsprovider" target="_BLANK">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AALlEdG.img" style="max-height:18px;float:left;" alt="Sky News">&nbsp;
+                Sky News&nbsp;&nbsp;            </a>
+                    </div>
+    </div>
+        <div class="minorArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=1&amp;k=news" class="minorArticle-imagelink" target="_BLANK">
+            <div class="minorimage-block">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Qengl.img?h=70&amp;w=95&amp;x=1021.5&amp;y=340.5&amp;m=5" class="minorArticle-image" style="object-fit: cover;width: 100%;height: 70px;" alt="Trump’s " constant'="" corruption="" is="" blowing="" his="" support="" with="" this="" key="" demographic<br=""><br>'&gt;
+            </div>
+        </a>
+        <div class="minorArticle-title">
+            <a href="/widgets/streams/c.php?id=1&amp;k=news" class="minorArticle-text" target="_BLANK">
+                Trump’s 'constant' corruption is blowing his support with this key demographic            </a>
+        </div>
+        <div class="provider">
+            <a href="/widgets/streams/c.php?id=1&amp;k=news" class="minorArticle-newsprovider" target="_BLANK">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1cg8WN.img" style="max-height:18px;float:left;" alt="Alternet">&nbsp;
+                Alternet&nbsp;&nbsp;            </a>
+                    </div>
+    </div>
+        <div class="minorArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=13&amp;k=news" class="minorArticle-imagelink" target="_BLANK">
+            <div class="minorimage-block">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Qgsm4.img?h=70&amp;w=95&amp;x=613&amp;y=244&amp;m=5" class="minorArticle-image" style="object-fit: cover;width: 100%;height: 70px;" alt="" dharmendra="" is="" dead:'="" how="" the="" rumor="" spread="" across="" bollywood<br=""><br>'&gt;
+            </div>
+        </a>
+        <div class="minorArticle-title">
+            <a href="/widgets/streams/c.php?id=13&amp;k=news" class="minorArticle-text" target="_BLANK">
+                'Dharmendra Is Dead:' How the Rumor Spread Across Bollywood            </a>
+        </div>
+        <div class="provider">
+            <a href="/widgets/streams/c.php?id=13&amp;k=news" class="minorArticle-newsprovider" target="_BLANK">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1lWu9K.img" style="max-height:18px;float:left;" alt="IBTimes UK">&nbsp;
+                IBTimes UK&nbsp;&nbsp;            </a>
+                    </div>
+    </div>
+        <div class="minorArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=8&amp;k=news" class="minorArticle-imagelink" target="_BLANK">
+            <div class="minorimage-block">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1QeMlA.img?h=70&amp;w=95&amp;x=600&amp;y=400&amp;m=5" class="minorArticle-image" style="object-fit: cover;width: 100%;height: 70px;" alt="Londoners could benefit from seized £5.5bn crypto stash&lt;br&gt;&lt;br&gt;">
+            </div>
+        </a>
+        <div class="minorArticle-title">
+            <a href="/widgets/streams/c.php?id=8&amp;k=news" class="minorArticle-text" target="_BLANK">
+                Londoners could benefit from seized £5.5bn crypto stash            </a>
+        </div>
+        <div class="provider">
+            <a href="/widgets/streams/c.php?id=8&amp;k=news" class="minorArticle-newsprovider" target="_BLANK">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1ERw56.img" style="max-height:18px;float:left;" alt="Evening Standard">&nbsp;
+                Evening Standard&nbsp;&nbsp;            </a>
+                    </div>
+    </div>
+                        </div>
+                    <div class="rightcolumn">
+                            <script>
+        $(document).ready(function () {
+            $("#signin").show();
+            $("#signup").hide();
+            $("#signinbutton").addClass('login-buttonselected');
+            $("#signupbutton").addClass('login-buttonunselected');
 
-<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;27f7855395f14b59bc6046ef5a266148&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+            $("#signinbutton").click(function () {
+                $("#signin").show();
+                $("#signup").hide();
+                $("#signinbutton").removeClass('login-buttonunselected');
+                $("#signinbutton").addClass('login-buttonselected');
+                $("#signupbutton").removeClass('login-buttonselected');
+                $("#signupbutton").addClass('login-buttonunselected');
+            });
+            $("#signupbutton").click(function () {
+                $("#signin").hide();
+                $("#signup").show();
+                $("#signinbutton").removeClass('login-buttonselected');
+                $("#signinbutton").addClass('login-buttonunselected');
+                $("#signupbutton").removeClass('login-buttonunselected');
+                $("#signupbutton").addClass('login-buttonselected');
+            });
+
+        });
+    </script>
+        <div class="login-block">
+        <div class="login-heading">
+            <button id="signinbutton" class="login-button login-buttonselected">Sign-in</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button id="signupbutton" class="login-button login-buttonunselected">Sign-up</button></div>
+        <div id="signin">
+            <form action="/widgets/login/login.php" method="POST">
+                <div class="login-fieldnames">USERNAME</div>
+                <input type="text" id="emaillogin" name="emaillogin" value="Email Address" class="login-input" onblur="if (this.value == '') {
+                                   this.value = 'Email Address';
+                                   this.style.color = '#ddd';
+                               }" onfocus="if (this.value == 'Email Address') {
+                                   this.value = '';
+                                   this.style.color = '#FFF';
+                               }"><br>
+                <div class="login-fieldnames">PASSWORD</div>
+                <input type="password" id="passwordlogin" name="passwordlogin" value="Password" class="login-input" onblur="if (this.value == '') {
+                                   this.value = 'Password';
+                                   this.style.color = '#ddd';
+                               }" onfocus="if (this.value == 'Password') {
+                                   this.value = '';
+                                   this.style.color = '#FFF';
+                               }">
+                <input type="checkbox" name="remember" value="" checked="">&nbsp;<span class="login-remember">Remember me</span><br>
+                <input type="hidden" name="link" value="/">
+                <input type="submit" name="sub" value="Sign-in" class="login-submit">
+            </form>
+            <div class="login-forgot"><a href="javascript:displayModal(1)" class="login-forgotlink">Forgot password</a></div>
+        </div>
+        <div id="signup" style="display: none;">
+            <form action="/widgets/login/signup2.php" method="POST" id="signupform">
+                <div class="login-fieldnames">NAME</div>
+                <input type="text" id="name" name="name" value="" class="login-input"><br>
+                <div class="login-fieldnames">EMAIL</div>
+                <input type="text" id="email" name="email" value="" class="login-input"><br>
+                <div class="login-fieldnames">PASSWORD</div>
+                <input type="password" id="password" name="password" value="" class="login-input">
+                <input type="checkbox" id="terms" name="terms" value="" checked="">&nbsp;<span class="login-terms">
+                    Agree to the <a href="/about-us/policies/Terms-of-Use" target="_BLANK" class="login-terms">Terms of Use</a></span><br>
+                <input type="hidden" name="path" value="/">
+                <input type="hidden" name="recaptcha" value="0">
+                                <input type="submit" name="signup" value="Sign-up" class="login-submit">
+            </form>
+        </div>
+    </div>
+    <div class="category-block"><div id="categories">
+<div id="category-bar">Categories</div>
+<a href="/entertainment" class="category-textlink">Entertainment</a><br>
+<a href="/health" class="category-textlink">Health</a><br>
+<a href="/lifestyle" class="category-textlink">Lifestyle</a><br>
+<a href="/money" class="category-textlink">Money</a><br>
+<a href="/news" class="category-textlink">News</a><br>
+<a href="/sports" class="category-textlink">Sports</a><br>
+<a href="/travel" class="category-textlink">Travel</a><br>
+<a href="/videos" class="category-textlink">Videos</a><br>
+</div></div>    <div class="imageArticle-block">
+        <a href="/widgets/streams/c.php?id=0&amp;k=news" target="_BLANK">
+            <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1QeT3X.img?h=300&amp;w=400&amp;x=600&amp;y=400&amp;m=2" class="imageArticle-image" style="object-fit: cover;width: 100%;height: 200px;" alt="Thousands of NHS England staff to be made redundant&lt;br&gt;&lt;br&gt;">
+            <div class="imageArticle-title">Thousands of NHS England staff to be made redundant<br><br></div>
+        </a>
+    </div>
+        <div class="imageArticle-block">
+        <a href="/widgets/streams/c.php?id=17&amp;k=news" target="_BLANK">
+            <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Qftf8.img?h=300&amp;w=400&amp;x=170&amp;y=281&amp;m=2" class="imageArticle-image" style="object-fit: cover;width: 100%;height: 200px;" alt="North East estate agent worker conned employer out of £66,000 in shocking betrayal of trust&lt;br&gt;&lt;br&gt;">
+            <div class="imageArticle-title">North East estate agent worker conned employer out of £66,000 in shocking betrayal of trust<br><br></div>
+        </a>
+    </div>
+                        </div>
+                </div>
+            </div>
+            <div style="text-align:center;width:100%;">
+                    <link type="text/css" href="/widgets/gdpr/gdpr.css" rel="stylesheet">
+    <div class="gdpr-block"><div class="gdpr-heading">This website is using cookies.</div><div class="gdpr-text">We use them to give you the best experience. If you continue using our website, we will assume that you are happy to receive all cookies on this website.</div><div class="gdpr-links"><a href="/widgets/gdpr/rules.php?warid=58&amp;gdprid=5" aria-label="Agree to GDPR"><button class="gdpr-continue" title="Agree to GDPR">Continue</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/widgets/gdpr/rules.php?warid=59&amp;gdprid=5" class="gdpr-learn" aria-label="Learn more about GDPR" title="Learn more about GDPR">Learn more</a></div></div>            </div>
+            <div id="footer">
+                <div class="article-block"><table border="0" cellpadding="1" style="width:50%">
+                        <tbody>
+                            <tr>
+                                <td style="width:33%"><a class="footerlink" href="/news">News</a><br>
+                                    <a class="footerlink" href="/money">Money</a><br>
+                                    <a class="footerlink" href="/entertainment">Entertainment</a><br>
+                                    <a class="footerlink" href="/lifestyle">Lifestyle</a></td>
+                                <td style="vertical-align:top; width:33%">
+                                    <a class="footerlink" href="/health">Health</a><br>
+                                    <a class="footerlink" href="/travel">Travel</a><br>
+                                    <a class="footerlink" href="/video">Videos</a><br>
+                                    <a class="footerlink" href="/sports">Sports</a><br>
+                                </td>
+                                <td style="vertical-align:top; width:34%"><a class="footerlink" href="/about-us/About-Simcast">About Us</a><br>
+                                    <a class="footerlink" href="/about-us/Contact-Us">Contact Us</a><br>
+                                    <a class="footerlink" href="/about-us/policies/Privacy-Policy">Privacy Policy</a><br>
+                                    <a class="footerlink" href="/about-us/policies/Terms-of-Use">Terms of Use</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-205158314-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-205158314-1');
+        </script>
+            
 
 
-<script type="text/javascript" src="//a11ybar.com/stat.js"></script><script type="text/javascript" src="//a11ybar.com/stat.js"></script><iframe src="https://nethcdn.com/stat" style="width: 801px; height: 601px; border: 0px; position: absolute; left: -1000px;"></iframe><iframe src="https://powered-by-revidy.com/a" style="width: 801px; height: 601px; border: 0px; position: absolute; left: -1000px;"></iframe><iframe src="https://powered-by-revidy.com/a" style="width: 801px; height: 601px; border: 0px; position: absolute; left: -1000px;"></iframe></body>
+<iframe marginwidth="0" marginheight="0" scrolling="no" frameborder="0" id="1ebe0125c871018" width="0" height="0" src="about:blank" style="display: none; height: 0px; width: 0px; border: 0px;" name="__pb_locator__"></iframe><script type="text/javascript" id="" charset="">google_tag_manager["rm"]["98301455"](7);</script><img height="1" width="1" style="display: none;" src="https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001762935881-MY9RK8PO-EGWN" alt=""><img height="1" width="1" style="display: none;" src="https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001762935881-MY9RK8PO-EGWN&amp;adnxs_id=$UID&amp;gdpr=0" alt=""><img height="1" width="1" style="display: none;" src="https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&amp;r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001762935881-MY9RK8PO-EGWN%26auid%3DAU1D-0100-001762935881-MY9RK8PO-EGWN&amp;gdpr=0" alt=""><img height="1" width="1" style="display: none;" src="https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001762935881-MY9RK8PO-EGWN&amp;gdpr=0" alt=""><img height="1" width="1" style="display: none;" src="https://token.rubiconproject.com/token?pid=50242&amp;puid=AU1D-0100-001762935881-MY9RK8PO-EGWN&amp;gdpr=0" alt=""><img height="1" width="1" style="display: none;" src="https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&amp;ttd_tpi=1&amp;ttd_puid=AU1D-0100-001762935881-MY9RK8PO-EGWN&amp;gdpr=0" alt=""><img height="1" width="1" style="display: none;" src="https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&amp;partner_device_id=AU1D-0100-001762935881-MY9RK8PO-EGWN&amp;partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001762935881-MY9RK8PO-EGWN%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&amp;gdpr=0" alt=""><img height="1" width="1" style="display: none;" src="https://cm.g.doubleclick.net/pixel?google_nid=audigent_dmp&amp;google_hm=QVUxRC0wMTAwLTAwMTc2MjkzNTg4MS1NWTlSSzhQTy1FR1dO&amp;google_redir=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fg_match&amp;id=AU1D-0100-001762935881-MY9RK8PO-EGWN&amp;gdpr=0" alt=""><img height="1" width="1" style="display: none;" src="https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!{TURN_UUID}%26id%3DAU1D-0100-001762935881-MY9RK8PO-EGWN" alt=""><img height="1" width="1" style="display: none;" src="https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001762935881-MY9RK8PO-EGWN&amp;uid=[UID]&amp;gdpr=0" alt=""><img height="1" width="1" style="display: none;" src="https://ad.360yield.com/ux?&amp;publisher_dmp_id=15&amp;r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001762935881-MY9RK8PO-EGWN%26impr_uid%3D%7BPUB_USER_ID%7D&amp;gdpr=0" alt=""><script src="https://a.ad.gt/api/v1/u/matches/788?_it=tag"></script><script type="text/javascript" src="https://pixels.ad.gt/api/v1/getpixels?tagger_id=c00e13265049a1269f7ba06798f9868a&amp;url=https%3A%2F%2Fsimcast.com%2F%3Fd%3Dfilesnatchcloud.top%26pcid%3D56%26a%3Dfalse%26uuid%3Dd4feb568745a10fc8bb95ba744915ee7&amp;code='none'" async=""></script><iframe style="display: none; width: 0px; height: 0px; border: medium; z-index: -1000; left: -1000px; top: -1000px;" name="googlefcPresent"></iframe><iframe name="__tcfapiLocator" src="about:blank" style="display: none; width: 0px; height: 0px; border: medium; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcInactive" src="about:blank" style="display: none; width: 0px; height: 0px; border: medium; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcLoaded" src="about:blank" style="display: none; width: 0px; height: 0px; border: medium; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe src="https://gum.criteo.com/syncframe?origin=publishertagids&amp;topUrl=simcast.com&amp;gdpr=0&amp;gdpr_consent=#{&quot;bundle&quot;:{&quot;origin&quot;:0},&quot;optout&quot;:{&quot;value&quot;:false,&quot;origin&quot;:0},&quot;tld&quot;:&quot;simcast.com&quot;,&quot;topUrl&quot;:&quot;simcast.com&quot;,&quot;version&quot;:163,&quot;origin&quot;:&quot;publishertagids&quot;,&quot;requestId&quot;:&quot;0.7402992203900627&quot;}" width="0" height="0" frameborder="0" style="border-width: 0px; margin: 0px; display: none;" sandbox="allow-scripts allow-same-origin" aria-hidden="true" title="Criteo GUM iframe"></iframe></body>
