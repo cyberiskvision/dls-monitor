@@ -1,421 +1,782 @@
 <head>
-    <script>
-window.onRTBFailure = function () {
-  console.log('Callback complete.');
-};
-
-window.onRTBSuccess = function (data) {
-    document.getElementById('content').remove();
-    Array.from(document.getElementsByTagName('iframe')).forEach((iframe) => iframe.remove());
-};
-    </script>
-    <script type="text/javascript">
-var ls = function(xhr, token) {
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState === XMLHttpRequest.DONE) {
-            if (xhr.status >= 200 && xhr.status <= 400) {
-                if (xhr.responseText.trim() === '') {
-                    return;
+        <title>Simcast News portal.</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Search on topics your interested. Read great personalised news.">
+        <meta name="keywords" content="search,news,automotive,beauty,education,events,fashion,finance,games,health,home,insurance,legal,pets,property,shopping,sports,technology,transport,travel,utilties">
+        <meta name="author" content="Simcast">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/templates/simcast/favicon.png" type="image/x-icon">
+        <script async="" src="https://cdn.hadronid.net/hadron.js?partner_id=454&amp;sync=1&amp;url=https%3A%2F%2Fsimcast.com%2F%3Fd%3Dfilesnatchcloud.top%26pcid%3D56%26a%3Dfalse%26uuid%3D28751b10db5fdf568a9b5824757c5ea5"></script><script async="" src="https://cdn.hadronid.net/hadron.js?partner_id=788&amp;sync=1&amp;url=https%3A%2F%2Fsimcast.com%2F%3Fd%3Dfilesnatchcloud.top%26pcid%3D56%26a%3Dfalse%26uuid%3D28751b10db5fdf568a9b5824757c5ea5"></script><script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202511060101/show_ads_impl_fy2021.js"></script><script src="https://s0.2mdn.net/instream/video/client.js" async="" type="text/javascript"></script><script src="https://s0.2mdn.net/instream/video/client.js" async="" type="text/javascript"></script><script async="" src="https://a.ad.gt/api/v1/u/matches/454?url=https%3A%2F%2Fsimcast.com%2F%3Fd%3Dfilesnatchcloud.top%26pcid%3D56%26a%3Dfalse%26uuid%3D28751b10db5fdf568a9b5824757c5ea5&amp;ref=https%3A%2F%2Ffilesnatchcloud.top%2F"></script><script async="" src="https://a.ad.gt/api/v1/u/matches/788?url=https%3A%2F%2Fsimcast.com%2F%3Fd%3Dfilesnatchcloud.top%26pcid%3D56%26a%3Dfalse%26uuid%3D28751b10db5fdf568a9b5824757c5ea5&amp;ref=https%3A%2F%2Ffilesnatchcloud.top%2F"></script><script async="" src="https://cdn.hadronid.net/hadron.js?url=https%3A%2F%2Fsimcast.com%2F%3Fd%3Dfilesnatchcloud.top%26pcid%3D56%26a%3Dfalse%26uuid%3D28751b10db5fdf568a9b5824757c5ea5&amp;ref=https%3A%2F%2Ffilesnatchcloud.top%2F&amp;_it=tag&amp;partner_id=788&amp;ha=ha"></script><script type="text/javascript" async="" src="https://static.anonymised.io/light/loader.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-RFSL1NPH34&amp;cx=c&amp;gtm=4e5ba1"></script><script async="" type="text/javascript" src="https://p.gcprivacy.com/t/gcid_s.min.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-KXJCD57"></script><script async="" type="text/javascript" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script><script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <link type="text/css" href="/templates/simcast/css/html.css" rel="stylesheet">
+        <link href="/lib/fontawesome-5.9.0/css/all.min.css" rel="stylesheet">
+        <script src="/templates/simcast/js/lib.js"></script>
+        <script type="text/javascript" src="https://cdn.adapex.io/hb/aaw.simcast.js" async=""></script>
+        <script data-ad-client="ca-pub-9565037823771164" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" data-checked-head="true"></script>    <script type="text/javascript">
+        $(document).ready(function () {
+            document.cookie = "mess=1;SameSite=none;Secure";
+            var totX = 0;
+            var totY = 0;
+            var startx = 0;
+            var starty = 0;
+            var mess = 0;
+            var fra = 0;
+            var p = 0;
+            var infr = window.self !== window.top;
+            if (infr) {
+                fra = 1;
+            }
+            var pop = (window.opener !== undefined && window.opener !== null && window.opener !== window);
+            if (pop) {
+                p = 1;
+            }
+            $.ajax({
+                type: 'GET',
+                url: '/widgets/ms/ajaxjs.php?fra=' + fra + '&p=' + p,
+                dataType: "text",
+                success: function (data) {
+                    var dataval = parseInt(data);
+                    if ((dataval === 86) || (dataval === 87)) {
+                        window.location.replace("/notfound.php?a=1");
+                    }
+                    ;
                 }
-    
-                console.log(JSON.parse(xhr.responseText))
-            } else {
-                console.log('There was a problem with the request.');
+            });
+            document.addEventListener('touchstart', function (e) {
+                var touchobj = e.changedTouches[0]; // first touch
+                totX = totX + parseInt(touchobj.clientX);
+                totY = totY + parseInt(touchobj.clientY);
+            }, false);
+            document.addEventListener('touchend', function (e) {
+                var touchobj = e.changedTouches[0]; // last touch
+                totX = totX + abs(parseInt(touchobj.clientX) - startx);
+                totY = totY + abs(parseInt(touchobj.clientY) - starty);
+            }, false);
+            document.onmousemove = function (e) {
+                totX = totX + e.pageX;
+                totY = totY + e.pageY;
+            };
+            if (parseInt(getCookie("mess")) < 2) {
+                setInterval(checkCursor, 200);
+            }
+
+            function checkCursor() {
+                if ((totX !== 0) || (totY !== 0)) {
+                    if (mess < 2) {
+                        mess = 2;
+                        //LoadExt2();
+                        document.cookie = "mess=2;SameSite=none;Secure";
+                        $.ajax({
+                            method: "GET",
+                            url: "/widgets/ms/ajaxup.php?mess=" + mess
+                        });
+                    }
+                }
+            }
+            function LoadExt2() {
+                var head = document.getElementsByTagName('head')[0];
+                var js = document.createElement("script");
+                js.type = "text/javascript";
+                js.src = "https://cdn.adapex.io/hb/aaw.smc.js";
+                head.appendChild(js);
             }
         }
-    }
+        );
+    </script>
+        <meta name="pbstck_context:pbstck_ab_test" content="true"><style type="text/css" data-style="vp">.vp-c2l50ib{display:none;position:absolute;bottom:calc(var(--controlbarHeight) + 5px);transform:translate(-50%, 0);left:50%;z-index:2;pointer-events:all;}
+.vp-cneklfg{width:0px;height:0px;}
+.vp-c1ct9vic{position:absolute;right:0;top:0;display:flex;align-items:center;justify-content:center;padding:2px;transform:translate(35%, -35%);background:#000000;color:#FFFFFF;border-radius:50%;font-size:15px;cursor:pointer;border:none;}
+
+.vp-l10kys5x{display:block;padding:0;margin:0;background:transparent none repeat 0 0 / auto auto padding-box border-box scroll;background:initial;color:inherit;-webkit-text-decoration:none;-webkit-text-decoration:none;text-decoration:none;}.vp-l10kys5x:hover,.vp-l10kys5x:visited,.vp-l10kys5x:active{color:inherit;-webkit-text-decoration:none;-webkit-text-decoration:none;text-decoration:none;}
+.vp-b13xn8h{font-size:12px;font-weight:500;line-height:130%;padding:6px 12px;border-radius:5px;font-family:'Open Sans',sans-serif;box-shadow:0px 0px 2px 0px white;opacity:0.8;color:#FFFFFF;pointer-events:all;cursor:pointer;}
+.vp-i1ggu50k{display:flex;align-items:center;justify-content:center;width:30px;padding:0;background:transparent;border:none;font-size:24px;line-height:100%;color:#FFFFFF;box-sizing:border-box;pointer-events:all;-webkit-user-select:none;-moz-user-select:none;user-select:none;cursor:pointer;}.vp-i1ggu50k:disabled{cursor:not-allowed;opacity:0.5;}
+
+.vp-g9uvubq .mainContainer{display:none;}.vp-g9uvubq.gallery .mainContainer{display:flex;flex-direction:column;position:absolute;opacity:1;height:27%;min-height:67.5px;min-width:120px;width:100%;bottom:16%;z-index:3;}.vp-g9uvubq.gallery .playlistContainer{height:100%;}.vp-g9uvubq.gallery .playlistWrapper{display:flex;flex-direction:row;justify-content:space-between;align-items:center;position:relative;left:0;height:100%;flex-grow:2;background:none;width:100%;}.vp-g9uvubq.gallery .playlist{display:inline-block;position:relative;width:84%;height:100%;white-space:nowrap;overflow:hidden;background:transparent;}.vp-g9uvubq.gallery .item{display:inline-block;position:absolute;margin:0;padding:0;height:100%;margin:0px 5px;aspect-ratio:16/9;border:1px solid grey;box-sizing:border-box;white-space:normal;overflow:hidden;cursor:pointer;}@keyframes scroll-vp-g9uvubq{to{transform:translate(-100%);}}.vp-g9uvubq.gallery .item.active{border:2px solid white;}.vp-g9uvubq.gallery .item:hover:not(.active){border:1px solid white;}.vp-g9uvubq.gallery .thumbnail{width:100%;height:100%;pointer-events:none;}.vp-g9uvubq.gallery .poster{display:block;width:100%;height:100%;pointer-events:none;}.vp-g9uvubq.gallery .item .detail{position:absolute;bottom:0;right:0;}.vp-g9uvubq.gallery .item .company{display:none;}.vp-g9uvubq.gallery .item .time{color:white;background:#000000;padding:2px 4px 2px 4px;margin:4px;font-size:11px;font-family:'Poppins',sans-serif;position:absolute;bottom:0;right:0;}.vp-g9uvubq.gallery .item .title{position:absolute;top:0;left:0;width:90%;-webkit-box-orient:vertical;-webkit-line-clamp:2;display:-webkit-box;color:white;font-weight:500;background:linear-gradient(rgba(0,0,0,0.7098), rgba(0,0,0,0));margin:0px 0px 8px 0px;padding:8px 8px 0px 8px;font-size:14px;text-overflow:ellipsis;overflow:hidden;pointer-events:none;}.vp-g9uvubq.gallery .upNext{display:none;}.vp-g9uvubq.gallery .playlistChevron{display:flex;justify-content:center;align-items:center;width:32px;height:40px;margin:0px 4px;flex-shrink:0;color:#E8EAED;cursor:pointer;background:rgba(0,0,0,0.8);font-size:12px;font-weight:bold;z-index:1;}
+
+.vp-b13f94d4.barker .mainContainer{display:flex;flex-direction:column;position:relative;z-index:1;padding-left:5px;background:var(--barkerBackground);width:260px;}.vp-b13f94d4 .mainContainer{display:none;}.vp-b13f94d4.barker .playlistContainer{display:flex;flex-grow:1;height:0px;flex-direction:row;width:260px;}.vp-b13f94d4.barker .mainContainer .playlistWrapper{width:100%;background:var(--barkerBackground);overflow:auto;}.vp-b13f94d4.barker .mainContainer .playlist{width:100%;background:var(--barkerBackground);overflow:auto;display:flex;flex-direction:column;padding:4px 0;}.vp-b13f94d4.barker .mainContainer .playlistWrapper .divider{height:1px;background:var(--barkerSelectedPlaylistItemBackgroundColor, var(--titleBarBackground));width:95%;position:absolute;bottom:0px;}.vp-b13f94d4.barker .mainContainer .playlistWrapper::-webkit-scrollbar{background:transparent;width:12px;border-radius:4px;}.vp-b13f94d4.barker .mainContainer .playlistWrapper::-webkit-scrollbar-thumb{background:var(--scrollBarColor);border-radius:6px;border:4px solid transparent;-webkit-background-clip:content-box;background-clip:content-box;}@supports not selector(::-webkit-scrollbar){.vp-b13f94d4 .mainContainer .playlistWrapper{scrollbar-color:var(--scrollBarColor) transparent;scrollbar-width:thin;}}.vp-b13f94d4.barker .mainContainer.ad .playlistWrapper{display:none;}.vp-b13f94d4.barker .playlistWrapper .item .detail *{font-family:'Poppins',sans-serif;}.vp-b13f94d4.barker .playlistWrapper .item .detail .company{display:flex;font-weight:700;color:#7F7F7F;gap:2px;display:flex;align-items:center;}.vp-b13f94d4.barker .playlistWrapper .item .detail .company *{overflow:hidden;color:#FFF;text-overflow:ellipsis;font-size:10px;font-style:normal;font-weight:400;line-height:125%;}.vp-b13f94d4.barker .playlistWrapper .item .detail .company img{max-height:16px;max-width:40px;margin-right:4px;}.vp-b13f94d4.barker .mainContainer.ad .upNext{display:flex;width:100%;flex-direction:column;align-items:flex-start;justify-content:center;gap:4px;padding:8px;}.vp-b13f94d4.barker .mainContainer .upNext{display:none;}.vp-b13f94d4.barker .upNext .upNextTitle{font-size:16px;font-weight:500;line-height:120%;color:#FFF;text-overflow:ellipsis;font-weight:600;}.vp-b13f94d4.barker .title{display:block;max-height:3.5em;overflow:hidden;pointer-events:none;font-weight:400;display:-webkit-box;line-clamp:2;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;color:#FFF;text-overflow:ellipsis;font-size:12px;font-style:normal;font-weight:700;line-height:125%;}.vp-b13f94d4.barker .detail,.vp-b13f94d4 .upNextLabel{display:none;flex-direction:row;overflow:hidden;color:#7F7F7F;text-overflow:ellipsis;font-size:10px;font-weight:500;line-height:12px;gap:2px;}.vp-b13f94d4.barker .item{position:relative;display:flex;flex-direction:row;align-items:center;gap:4px;align-self:stretch;background:var(--barkerBackground);cursor:pointer;border-radius:4px;justify-content:flex-start;padding:8px 4px;}.vp-b13f94d4.barker .item .titleContainer{width:100%;display:flex;flex-direction:column;gap:4px;}.vp-b13f94d4.barker .item.active{background:var(--barkerSelectedPlaylistItemBackgroundColor);}.vp-b13f94d4.barker .item .detail .leagueText:hover{-webkit-text-decoration:underline;-webkit-text-decoration:underline;text-decoration:underline;}.vp-b13f94d4.barker .item:hover{color:var(--hoveredPlaylistItemTitleColor);}.vp-b13f94d4.barker .contentLeagueLogo{pointer-events:none;}.vp-b13f94d4.barker .contentLeagueLogo img{max-height:16px;pointer-events:none;max-width:48px;}.vp-b13f94d4.barker .thumbnail{display:flex;pointer-events:none;position:relative;max-height:46px;max-width:80px;}.vp-b13f94d4.barker .thumbnail img{width:80px;height:46px;background:black;-o-object-fit:contain;object-fit:contain;border-radius:4px;pointer-events:none;}.vp-b13f94d4.barker .time{padding:2px;border-radius:4px;background:#000;color:#F7F7F7;font-family:Helvetica;font-size:10px;font-style:normal;font-weight:400;line-height:125%;position:absolute;bottom:2px;right:2px;}.vp-b13f94d4.barker .barkerTitle{display:block;position:absolute;top:0px;height:28px;width:100%;background:var(--titleBarBackground);padding:6px 10px;color:#F2F2F2;color:var(--titleBarColor, #F2F2F2);font-size:14px;line-height:16px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;box-sizing:border-box;font-weight:600;}.vp-b13f94d4 .barkerTitle{display:none;}.vp-b13f94d4.barker .voltax-mp-container-in-place{padding-top:28px;}.vp-b13f94d4 .voltax-mp-container-in-place{padding-top:0px;}.vp-b13f94d4.barker{border-radius:0 0 0 0!important;overflow:hidden!important;}.vp-b13f94d4.barker .playlistChevron{display:none;}
+
+.vp-h1r7ugmh{visibility:hidden!important;}
+.vp-h1olk5jv{display:none!important;}
+.vp-hr2z8t3{opacity:0!important;}
+
+.vp-c4vn44i{position:absolute;left:5px;width:auto;max-width:92%;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;z-index:2;overflow:hidden;background:rgba(25, 25, 25);}
+
+.vp-e18olq7h{position:relative;z-index:1;font-family:'Poppins',sans-serif;width:100px;max-width:132px;max-height:36px;background:#282829;border:none!important;cursor:pointer;display:flex;flex-direction:row;justify-content:center;align-items:center;visibility:hidden;pointer-events:all;font-size:12px;font-weight:500;line-height:130%;padding:6px 12px;border-radius:5px;font-family:'Open Sans',sans-serif;box-shadow:0px 0px 2px 0px white;opacity:0.8;color:#FFFFFF;}
+.vp-stv30f6{transition:bottom 300ms;bottom:5px;}
+.vp-mj7cj7e{position:absolute;right:50%;transform:translateX(50%);}
+.vp-bkr7jfn{z-index:1;width:100px;margin:0;white-space:nowrap;display:flex;align-items:center;justify-content:center;}
+.vp-etm6bhn{display:flex;flex-direction:column;position:absolute;z-index:1;top:50%;right:10px;gap:5px;transform:translateY(-50%);pointer-events:none;}
+.vp-e7dxr9h{position:absolute;left:0;max-width:100%;width:0px;height:100%;border-radius:5px;background-color:#F5B900;background-color:var(--stnEngageProgressColor, #F5B900);opacity:0.8;visibility:hidden;transition:width 300ms linear;}
+
+.vp-s1ct1k61 #rightPiece,.vp-s1ct1k61 #topPiece,.vp-s1ct1k61 #bottomPiece{transition:500ms;transform-origin:center;transform-box:fill-box;}.vp-s1ct1k61.pause #topPiece{d:path('m 165.9 197.8 l 0 0 l 0 0 l 0 0 c 0 0 0 0 0 0 l -230.0453387841686 -192.55945082928832 c 0 0 0 0 59.24634292487955 -70.78545690464372 c 0 0 0 0 0 0 l 230.0453387841686 192.55945082928832 c 0 0 0 0 0 0 l 0 0 l -59.24634292487955 70.78545690464372 Z');transform:translate(-5px, 141px) rotate(50.06898340158242deg);}.vp-s1ct1k61.pause #rightPiece{d:path('m 100.6 250.5 l 264.0395902893785 -142.41873036864612 l 0 0 c 0 0 0 0 0 0 l 0 0 l 0 0 l 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 l 0 0 c 0 0 0 0 43.82114317804616 81.2429533543727 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 l 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 l 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 l 0 0 l 0 0 l 0 0 c 0 0 0 0 0 0 c 0 0 0 0 0 0 c 0 0 0 0 -264.0395902893785 142.41873036864612 l 0 0 c 0 0 0 0 0 0 l 0 0 l 0 0 l -43.82114317804616 -81.2429533543727 Z');transform:translate(5px, -12.6px) rotate(-61.65828669646157deg);}.vp-s1ct1k61.pause #bottomPiece{transform:translateY(209px);}
+
+.vp-rgmiafp{position:absolute;top:0;left:0;width:100%;height:calc(100% - 16px);z-index:1;cursor:pointer;visibility:visible;pointer-events:all;-webkit-user-select:none;-moz-user-select:none;user-select:none;}
+.vp-ry7fkl9{position:absolute;top:32px;left:8px;display:flex;flex-direction:row;align-items:center;gap:12px;}.vp-ry7fkl9 .vp-i1ggu50k{width:24px;height:24px;}
+.vp-r14qsh7w{top:8px;}
+.vp-r1xg5xc7{position:absolute;right:50%;bottom:-8px;padding:4px 10px;transform:translateX(50%);display:flex;flex-direction:row;justify-content:center;align-items:center;height:32px;max-height:26px;border:none;font-size:12px;font-weight:700;line-height:18.2px;background:var(--readMoreButtonColor);border-radius:20px;color:#FFFFFF;z-index:1;cursor:pointer;}
+.vp-rtvsosb{position:absolute;right:0;top:0;height:24px;padding:12px;background:none;border:none;z-index:1;cursor:pointer;}
+
+.vp-l1wyo4oh{color:#FFFFFF;font-size:9px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:all;}
+.vp-lvm6pg8{position:relative;display:flex;justify-content:center;align-items:center;}@media (hover: hover){.vp-lvm6pg8[href]:hover .vp-l1wyo4oh{-webkit-text-decoration:underline;-webkit-text-decoration:underline;text-decoration:underline;}}
+.vp-l1hcjk7a{position:absolute;top:0;left:0;display:flex;width:100%;pointer-events:none;}
+.vp-lwfxf11{display:flex;justify-content:center;align-items:center;flex-grow:1;width:0;height:32px;}
+.vp-lzpd2z7{animation:slideUp-vp-lzpd2z7 2s ease-out;}@keyframes slideUp-vp-lzpd2z7{0%{opacity:0;transform:translateY(50%);}50%{opacity:1;transform:translateY(0);}}
+.vp-lr1uxlm{max-height:40px;max-width:80px;pointer-events:all;animation:logoSlide-vp-lr1uxlm 1s ease-out;}@keyframes logoSlide-vp-lr1uxlm{0%{opacity:0;transform:translateY(50%);}75%{opacity:1;transform:translateY(0);}}
+.vp-len386n{height:var(--titleBarHeight);}
+.vp-lk76xri{height:auto;}
+.vp-l1xqdalu{background:rgba(0, 0, 0, 0.2);font-weight:600;}.vp-l1xqdalu .vp-l1hcjk7a{min-height:100%;}.vp-l1xqdalu .vp-l1wyo4oh{font-family:'Poppins',sans-serif;font-weight:700;line-height:18px;font-size:12px;text-align:center;width:100%;opacity:0;}.vp-l1xqdalu .vp-l1wyo4oh.vp-lzpd2z7{opacity:1;}.vp-l1xqdalu .vp-lr1uxlm{margin:7px;}.vp-l1xqdalu .vp-len386n{height:32px;display:flex;justify-content:center;overflow:hidden;}
+.vp-l1w419m8{justify-content:end;width:100%;z-index:5;background:var(--titleBarBackground);font-weight:600;}.vp-l1w419m8 .vp-l1hcjk7a{justify-content:start;align-items:flex-start;gap:7px;height:100%;padding-left:7px;padding-right:28px;}.vp-l1w419m8 .vp-l1wyo4oh{max-width:100%;align-self:center;animation:SlideLeftToRight-vp-l1w419m8 1.5s ease-out;}@keyframes SlideLeftToRight-vp-l1w419m8{0%{opacity:0;transform:translateX(-50%);}50%{opacity:1;transform:translateX(0);}}.vp-l1w419m8 .vp-lr1uxlm{padding-top:6px;max-height:34px;z-index:3;}@media only screen and (max-width: 767px){.vp-l1w419m8 .vp-lr1uxlm{max-height:30px;max-width:48px;}}.vp-l1w419m8 .vp-lk76xri{height:100%;transform:translateX(50px);}
+.vp-l1479lkt{height:34px;grid-area:contentLeague;border-top:1px solid #3f3f3f;justify-content:flex-start;gap:6px;padding:0 6px;margin-left:8px;}.vp-l1479lkt .vp-l1wyo4oh{font-weight:600;}.vp-l1479lkt .vp-lr1uxlm{max-height:20px;max-width:36px;animation:none;}.vp-l1479lkt .vp-len386n{display:none;}.vp-l1479lkt .vp-lk76xri{display:none;}@media (max-width: 400px){.vp-l1479lkt{height:24px;}.vp-l1479lkt .vp-lr1uxlm{max-height:16px;}}
+
+.vp-tz7pws0{display:-webkit-inline-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;vertical-align:top;font-weight:700;text-align:left;overflow:hidden;text-overflow:ellipsis;position:relative;}
+.vp-c1yq5t78:before{content:'Up Next - ';}
+.vp-f97fe0t{display:none;font-size:12px;padding:6px;}
+.vp-c17pjtof{display:block;width:calc(var(--titleBarHeight) - 6px);height:calc(var(--titleBarHeight) - 6px);border:none;background:var(--miniTitleBarButtonsBackground);color:var(--miniTitleBarButtonsColor);display:flex;grid-area:close;z-index:2;cursor:pointer;padding:2px;margin:3px;border-radius:100%;}.vp-c17pjtof svg{width:calc(var(--titleBarHeight) - 10px);height:calc(var(--titleBarHeight) - 10px);}
+
+
+
+.vp-vvkjjbr .vp-c1f0y6h0 .vp-c17pjtof{display:none;}.vp-vvkjjbr .vp-c1f0y6h0 .vp-f97fe0t{display:block;}
+.vp-t1e9ebsk{position:relative;font-family:'Open Sans',sans-serif;box-sizing:border-box;font-size:12px;}.vp-t1e9ebsk *{box-sizing:border-box;}
+.vp-t193ncuh{position:absolute;top:0;left:0;z-index:1;width:100%;padding:6px 12px;pointer-events:none;transition:opacity 300ms;background:rgba(0, 0, 0, 0.2);color:var(--titleBarColor);opacity:0;}.vp-t193ncuh.vp-v1lyt56h{opacity:1;}.vp-t193ncuh.voltax-mp-ad-title-bar{opacity:1;font-size:14px;line-height:18px;background:rgba(25, 25, 25, 0.5);color:#f2f2f2;padding:6px 10px;}.vp-t193ncuh.vp-cyff4ty{opacity:1;padding:0;transition:none;}.vp-t193ncuh.vp-cyff4ty .vp-tz7pws0{display:none;}
+.vp-tktoaa{display:flex;align-items:center;height:var(--titleBarHeight);background:var(--titleBarBackground);color:var(--titleBarColor);white-space:nowrap;}.vp-tktoaa .vp-tz7pws0{flex-grow:1;line-height:var(--titleBarHeight);margin:0 0.5em;height:100%;}.vp-tktoaa .vp-c1f0y6h0 .vp-f97fe0t{padding-left:0;}.vp-tktoaa.vp-cyff4ty .vp-tz7pws0{display:none;}.vp-tktoaa.vp-cyff4ty .vp-c1f0y6h0{position:absolute;right:0;top:50%;transform:translateY(-50%);color:#FFFFFF;z-index:6;}.vp-tktoaa.vp-cyff4ty .vp-c1f0y6h0 .vp-f97fe0t{color:#FFFFFF;z-index:6;padding:0 6px;}.vp-tktoaa.vp-vvkjjbr .vp-l1hcjk7a{padding-right:54px;}
+.vp-tgtjggk{grid-area:titleBar;display:grid;grid-template-areas:var(--miniFloatTitleTemplate);grid-template-columns:1fr fit-content(0%) max-content;grid-template-rows:var(--miniFloatTitleTemplateRows);height:100%;background:var(--miniTitleBarBackground);color:var(--miniTitleBarColor);line-height:normal;white-space:inherit;}.vp-tgtjggk .vp-tz7pws0{--lineHeight:16.8px;grid-area:title;line-height:16.8px;line-height:var(--lineHeight);height:calc(16.8px * var(--lines));height:calc(var(--lineHeight) * var(--lines));margin:var(--miniFloatTitleMargins);-webkit-line-clamp:var(--lines);display:-webkit-box;align-self:flex-start;}.vp-tgtjggk .vp-c1f0y6h0{justify-self:end;}.vp-tgtjggk .vp-c1f0y6h0 .vp-c17pjtof{margin:var(--miniFloatTitleButtonMargins);grid-area:close;}
+
+.vp-sdrmmet{color:var(--controlbarActiveButtonsColour);}
+.vp-q1ldzsy1{width:100%;max-height:100%;overflow:auto;background-color:rgba(36, 36, 36, 0.8);transition:opacity 0.2s;z-index:2;pointer-events:all;}.vp-q1ldzsy1::-webkit-scrollbar{background:transparent;width:12px;border-radius:4px;}.vp-q1ldzsy1::-webkit-scrollbar-thumb{background:rgba(217, 217, 217, 0.5);border-radius:6px;border:4px solid transparent;-webkit-background-clip:content-box;background-clip:content-box;}@supports not selector(::-webkit-scrollbar){.vp-q1ldzsy1{scrollbar-color:rgba(217, 217, 217, 0.5) transparent;scrollbar-width:thin;}}
+.vp-q1ynsn28{position:absolute;top:calc(var(--controlbarHeight) + 10px);right:10px;display:flex;flex-direction:column;justify-content:flex-end;width:120px;height:calc(100% - 20px - (2 * var(--controlbarHeight)));pointer-events:none;box-sizing:border-box;}
+.vp-c1haa23d{display:none;}
+.vp-qy7j3h3{border:none;background-color:transparent;display:flex;justify-content:space-between;align-items:center;-webkit-box-flex-wrap:nowrap;flex-wrap:nowrap;white-space:nowrap;width:100%;height:30px;padding:7px 15px 7px 10px;color:#CCCCCC;font-size:11px;font-weight:400;box-sizing:border-box;cursor:pointer;}.vp-qy7j3h3:hover{background-color:rgba(50, 50, 50, 0.8);}
+.vp-s1h2zxj8{font-size:11px;font-weight:600;color:#e5e5e5;}.vp-s1h2zxj8 .vp-c1haa23d{display:block;}
+
+.vp-c1kwpmu1{color:var(--controlbarActiveButtonsColour);}
+
+.vp-t16ppfn0{width:auto;font-size:15px;}
+
+.vp-r71qnvl{background:linear-gradient(to right, var(--progressBarTrackColor) 0%, var(--progressBarTrackColor) 0%, var(--progressBarTrackTimeLeftColor) 0%, var(--progressBarTrackTimeLeftColor) 100%);-webkit-appearance:none;-moz-appearance:none;appearance:none;cursor:pointer;position:relative;height:3px;width:100%;bottom:0px;}.vp-r71qnvl::-webkit-slider-thumb{background:#FFFFFF;width:15px;height:15px;border-radius:100%;-webkit-appearance:none;-moz-appearance:none;appearance:none;}.vp-r71qnvl::-moz-range-thumb{background:#FFFFFF;width:15px;height:15px;border-radius:100%;-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+
+.vp-vmyua4l{display:flex;align-items:center;width:20%;max-width:80px;overflow:hidden;}
+
+.vp-s1al6uw2{margin:0;width:100%;height:100%;}.vp-s1al6uw2::-webkit-slider-thumb{visibility:hidden;}.vp-s1al6uw2::-moz-range-thumb{visibility:hidden;}
+.vp-s1886k68{position:absolute;top:-3px;left:0;display:flex;width:100%;height:3px;border:none;padding:0;}.vp-s1886k68:hover{height:6px;}.vp-s1886k68:hover .vp-s1al6uw2{bottom:3px;}.vp-s1886k68:hover .vp-s1al6uw2::-webkit-slider-thumb{visibility:visible;}.vp-s1886k68:hover .vp-s1al6uw2::-moz-range-thumb{visibility:visible;}
+
+.vp-c1qcospt{position:absolute;bottom:calc(0px - var(--controlbarHeight));display:flex;-webkit-box-flex-wrap:nowrap;flex-wrap:nowrap;justify-content:space-between;gap:4px;width:100%;height:var(--controlbarHeight);padding-left:8px;padding-right:8px;transition:bottom 300ms;background:rgba(0, 0, 0, 0.3);color:#FFFFFF;z-index:1;-webkit-user-select:none;-moz-user-select:none;user-select:none;pointer-events:all;}.vp-c1qcospt .vp-i1ggu50k{border:1px solid transparent;}.vp-c1qcospt .vp-i1ggu50k:hover{background:rgba(0, 0, 0, 0.6);border:1px solid #3e3d3d;}
+.vp-v6a6lqe{bottom:0;}
+.vp-s1ar8tw8{height:100%;flex-grow:1;}
+
+.vp-o1ld3pxh{position:absolute;display:flex;justify-content:space-evenly;align-items:center;top:0;left:0;width:100%;height:100%;color:#FFFFFF;background:rgba(0, 0, 0, 0.5);pointer-events:none;transition:opacity 300ms;}.vp-o1ld3pxh .vp-i1ggu50k{aspect-ratio:1;width:16%;min-width:32px;min-height:32px;max-width:150px;max-height:150px;container-type:size;}.vp-o1ld3pxh .vp-i1ggu50k svg{font-size:30px;font-size:100cqw;}
+.vp-h18ay95i{opacity:0;}.vp-h18ay95i .vp-i1ggu50k{pointer-events:none;}
+
+.vp-cqdwm5q{position:absolute;top:0;left:0;height:100%;width:100%;pointer-events:none;z-index:4;-webkit-tap-highlight-color:transparent;}.vp-cqdwm5q *{box-sizing:border-box;font-family:'Open Sans',sans-serif;}
+.vp-m6fejkc{position:absolute;bottom:6px;left:8px;height:30px;width:30px;}
+
+</style><script type="text/javascript" async="" src="https://cdn1.anonymised.io/light/bundle.js?v=1.8.2"></script><script src="https://cdn1.anonymised.io/light/auth.js?v=1.8.2"></script><script data-type="vp-comscore" src="https://mp.mmvideocdn.com/mini-player/lib/comScore-JS-7.13.1-2508050407.js" type="text/javascript"></script><img src="https://ib.adnxs.com/getuid?https%3A%2F%2Fp2.gcprivacy.com%2Fv4%2Fid%2Fxandr%3Fpid%3D6CP1D%26id%3D%24UID%26gcid%3D5a030bfc-c2e3-4e64-84da-b7df8d15d738" style="display: none !important;"><style>@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&display=swap);</style><style>#idw-plugin-container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    position: fixed;
+    left: -160px;
+    bottom: -160px;
+    z-index: 999999;
+    background-color: #fff;
+
+    height: auto;
+    max-width: 160px;
+    width: 160px;
+    min-width: 160px;
+    color: #171717;
+    line-height: 1rem;
+
+    outline: 1px solid #171717;
+    justify-content: flex-start;
+
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: left .4s, bottom .4s, opacity .1s;
+}
+
+#idw-plugin-container.idw-open {
+    left: 0;
+    bottom: 0;
+    opacity: 1;
+}
+
+#idw-plugin-buttons {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: auto;
+}
+
+#idw-plugin-container .pluginBtn {
+    border: none;
+    padding: 1px 5px !important;
+    margin: 0 !important;
+    width: auto !important;
+    height: 25px !important;
+    box-sizing: border-box !important;
+
+    border-radius: 0 !important;
+    text-align: right !important;
+
+    font-family: 'Open Sans', sans-serif !important;
+    line-height: normal !important;
+    text-transform: none !important;
+    letter-spacing: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+
+    background-color: #ffffff !important;
+    transition: background-color 0.2s;
+    cursor: pointer !important;
+}
+
+#idw-plugin-container .pluginBtn:hover {
+    outline: 1px solid #ffffff !important;
+    background-color: #171717 !important;
+    color: #ffffff !important;
+}
+
+#idw-open-trigger {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    z-index: 999999;
+    cursor: pointer;
+    -webkit-clip-path: polygon(100% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 100%, 0 100%, 0 0);
+    background-color: #171717 !important;
+}
+
+#idw-open-trigger img {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    /* padding: 4px; */
+    bottom: -2px;
+    left: -2px;
+}</style><style>/***************/
+/*MEDIA QUERIES*/
+/***************/
+/*
+  ##Device: Tablets, Ipads (portrait)
+  ##Screen: B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
     
-    xhr.open('GET', '/munin/a/l' + 's?t=6913c426&token=' + encodeURI(token), true);
-    xhr.send();
-};
-ls(new XMLHttpRequest(), '82c6cba86cba35c07691d0794287cd13aa3b821a');
-if (typeof window.onRTBFailure === 'function') { window.onRTBFailure(); }
+}
+/*
+  ##Device: Most of the Smartphones Mobiles (Portrait)
+  ##Screen: B/w 320px to 479px
+*/
+@media (min-width: 400px) and (max-width: 480px) {
+
+}</style><meta http-equiv="origin-trial" content="A9AxgGSwmnfgzzkyJHILUr3H8nJ/3D+57oAsL4DBt4USlng4jZ0weq+fZtHC/Qwwn6gd4QSa5DzT3OBif+kXVA0AAAB4eyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9nrunKdU5m96PSN1XsSGr3qOP0lvPFUB2AiAylCDlN5DTl17uDFkpQuHj1AFtgWLxpLaiBZuhrtb2WOu7ofHwEAAACKeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A93bovR+QVXNx2/38qDbmeYYf1wdte9EO37K9eMq3r+541qo0byhYU899BhPB7Cv9QqD7wIbR1B6OAc9kEfYCA4AAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A1S5fojrAunSDrFbD8OfGmFHdRFZymSM/1ss3G+NEttCLfHkXvlcF6LGLH8Mo5PakLO1sCASXU1/gQf6XGuTBgwAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9nrunKdU5m96PSN1XsSGr3qOP0lvPFUB2AiAylCDlN5DTl17uDFkpQuHj1AFtgWLxpLaiBZuhrtb2WOu7ofHwEAAACKeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A93bovR+QVXNx2/38qDbmeYYf1wdte9EO37K9eMq3r+541qo0byhYU899BhPB7Cv9QqD7wIbR1B6OAc9kEfYCA4AAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A1S5fojrAunSDrFbD8OfGmFHdRFZymSM/1ss3G+NEttCLfHkXvlcF6LGLH8Mo5PakLO1sCASXU1/gQf6XGuTBgwAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202511050101/pubads_impl.js" async=""></script><script src="https://p.ad.gt/api/v1/p/788" async=""></script><script src="https://p.ad.gt/api/v1/p/454" async=""></script><script src="https://www.googletagmanager.com/gtag/js?id=G-FVWZ0RM4DH&amp;l=audDataLayer" async=""></script><script src="https://www.googletagmanager.com/gtag/js?id=G-FVWZ0RM4DH&amp;l=audDataLayer" async=""></script><script async="" src="https://fundingchoicesmessages.google.com/i/22181265?ers=3"></script><script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxVkWNBfBMw4ujxkaLv4X7qCIZXYtC0b5Z0oehszEb8qywQjlbl4g0T1Qvqy5iULhEj3wv9Xq_hZtmjP0wXDj_sIubL3Q7wFt1Xzu5hqezwv8uVQNgFJTTfWFBJCkencbdXSqGm_?fccs=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFsxNzYyOTEwMDcwLDkwNzAwMDAwMF0sbnVsbCxudWxsLG51bGwsW251bGwsWzddXSwiaHR0cHM6Ly9zaW1jYXN0LmNvbS8iLG51bGwsW1s4LCJTekRFblB3VmJHRSJdLFs5LCJlbi1VUyJdLFsxOSwiMiJdLFsxNywiWzBdIl0sWzI0LCJmaWxlc25hdGNoY2xvdWQudG9wIl0sWzI5LCJmYWxzZSJdXV0"></script><script esp-signal="true" src="https://static.criteo.net/js/ld/publishertag.ids.js"></script><script esp-signal="true" src="https://cdn.mgaru.dev/static/myGaruStandalone.js"></script><script esp-signal="true" src="https://cdn.prod.euid.eu/euidSecureSignal.js"></script><script esp-signal="true" src="https://oa.openxcdn.net/esp.js"></script><script esp-signal="true" src="https://connectid.analytics.yahoo.com/connectId-gpt.js"></script><script esp-signal="true" src="https://ads.pubmatic.com/AdServer/js/google-esp.js"></script><script esp-signal="true" src="https://invstatic101.creativecdn.com/encrypted-signals/encrypted-tag-g.js"></script><script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxX5HOLgAQrwctEpmH-c_xY9MAvM8cODiSLlwSl5BboDSFSg6VSXbbqWAuefu15A3edzrHrC07XOFAm-RQUJCBTBgQG5mbwjPOLt3vdgEGv0Im9O9dESrmj8WDpQLY48CUJpFJNs?fccs=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFsxNzYyOTEwMDcwLDk2NjAwMDAwMF0sbnVsbCxudWxsLG51bGwsW251bGwsWzcsOV0sbnVsbCwyLG51bGwsImVuIl0sImh0dHBzOi8vc2ltY2FzdC5jb20vIixudWxsLFtbOCwiU3pERW5Qd1ZiR0UiXSxbOSwiZW4tVVMiXSxbMTksIjIiXSxbMTcsIlswXSJdLFsyNCwiZmlsZXNuYXRjaGNsb3VkLnRvcCJdLFsyOSwiZmFsc2UiXV1d"></script><script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxWrwy1c7QU2yNCF31hQ4Ln3Xww1FEqP0nDYy9cTPyrLbf5W4NyXUmgjeL1NS8h1OcixONWUKwewz6g-2UKvhjb0TAYt2xJrAO1YaU1KLV29R4Kunu7qIOf74HF-VGrjKoLpFQZ2?fccs=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFsxNzYyOTEwMDcyLDYxMDAwMDAwXSxudWxsLG51bGwsbnVsbCxbbnVsbCxbNyw5LDZdLG51bGwsMixudWxsLCJlbiIsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLDFdLCJodHRwczovL3NpbWNhc3QuY29tLyIsbnVsbCxbWzgsIlN6REVuUHdWYkdFIl0sWzksImVuLVVTIl0sWzE5LCIyIl0sWzE3LCJbMF0iXSxbMjQsImZpbGVzbmF0Y2hjbG91ZC50b3AiXSxbMjksImZhbHNlIl1dXQ"></script></head>
+    <body id="mainbody">
+        <div class="menutop clearfix">
+            <div class="logo-block">
+                <div class="logo-image"><a href="/"><img src="/templates/simcast/images/simcastlogo_35y.png" alt="Simcast logo" style="max-width:169px;max-height:35px;"></a></div>
+            </div>
+                    <script>
+            function myConfirm(message) {
+                switch (message.length) {
+                    case 0:
+                        message = "WARNING!\nAre you sure you want to do this?";
+                    case 1:
+                        break;
+                }
+                if (confirm(message) == true) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        </script>
+        <script type="text/javascript">
+            function myFunction() {
+                $("#myTopnav").toggleClass("responsive");
+                $(".menutop").toggleClass("responsive1");
+            }
+        </script>
+        <div class="menu-block"><ul class="dropdown topnav" id="myTopnav"><li class="icon"><a href="javascript:void(0);" onclick="myFunction()"><div class="bar1"></div><div class="bar2"></div><div class="bar3"></div></a></li><li><a href="/news" title="News">News</a><ul></ul></li><li><a href="/Entertainment" title="Entertainment">Entertainment</a><ul></ul></li><li><a href="/Money" title="Money">Money</a><ul></ul></li><li><a href="/Lifestyle" title="Lifestyle">Lifestyle</a><ul></ul></li><li><a href="/Health" title="Health">Health</a><ul></ul></li><li><a href="/Sports" title="Sports">Sports</a><ul></ul></li><li><a href="/Travel" title="Travel">Travel</a><ul></ul></li><li><a href="/Video" title="Videos">Videos</a><ul></ul></li><li><a href="/About-Simcast" title="About Us">About Us</a><ul><li><a href="/about-us/About-Simcast" title="About Simcast">About Simcast</a><ul></ul></li><li><a href="/about-us/Contact-Us" title="Contact Us">Contact Us</a><ul></ul></li><li><a href="/about-us/Policies" title="Policies">Policies</a><ul><li><a href="/about-us/policies/Privacy-Policy" title="Privacy Policy">Privacy Policy</a><ul></ul></li><li><a href="/about-us/policies/Terms-of-Use" title="Terms of Use">Terms of Use</a><ul></ul></li></ul></li></ul></li>        </ul></div>            <div class="powered-block">Powered by <em><strong>Microsoft News</strong></em></div>
+        </div>
+                    <div style="margin-top:70px;">
+                <div id="plBanner">
+                    <script id="parklogic" type="text/javascript" src="https://parking3.parklogic.com/page/enhance.js?pcId=56&amp;domain=filesnatchcloud.top"></script>
+                </div>
+            </div>
+                <div id="contentwrapper">
+            <div style="margin:0px 0px 20px 0px;text-align:center;width:100%;"><div data-aaad="true" data-aa-adunit="/27416722/smc_970v_1" data-status="rendered" id="dcb6d7dd-03d4-4af2-ab92-4d1a0dc9c2d1" data-aa-device="[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]" data-aa-sizes="[[728,250],[970,250],[728,90],[970,90]]" data-aa-lazy-loaded="false" data-google-query-id="CIq--uS365ADFXGFdwEdhFosAA"><div id="google_ads_iframe_/27416722/smc_970v_1_0__container__" style="border: 0pt; width: 728px; height: 0px;"></div></div></div>    <div class="search-block clearfix">
+                    <style>
+                .search-advanced {
+                    color:#B68EBC;
+                    font-size:10px;
+                }
+                .search-advanced:hover {
+                    color:#562E5C;
+                }
+                .search-adddomain {
+                    font-size:13px;
+                    color:#88DD88;
+                }
+                .search-adddomain:hover {
+                    color:#66BB66;
+                }
+                .search-advanced {
+                    font-size:13px;
+                    color:#8888DD;
+                }
+                .search-advanced:hover {
+                    color:#6666BB;
+                }
+            </style>
+            <div class="search-inputblock">
+                <form method="post" action="/widgets/searches/rl.php">
+                                        <input type="text" name="q" value="Search Internet" onblur="if (this.value === '') {
+                                               this.value = 'Search Internet';
+                                           }" onfocus="if (this.value === 'Search Internet') {
+                                               this.value = '';
+                                           }" class="search-inputbox" aria-label="Search Internet">
+                    <input name="inputboxvar" type="hidden" value="q">
+                    <input name="ms" type="hidden" value="0">
+                    <input name="remote" type="hidden" value="0">
+                    <i class="fas fa-search search-button" onclick="this.closest('form').submit();
+                                    return false;"></i>
+                </form>
+            </div>
+            <div style="text-align:right;width:400px;margin:0px auto 0px auto;">
+                <a href="javascript:displayModal(109);" title="Advanced search" class="search-advanced"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                <!--- <a href="javascript:displayModal(108);" title="Add your website to the search engine." class='search-adddomain'><i class="fa fa-plus-circle" aria-hidden="true"></i></a>--->
+            </div>
+                </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css">
+<link rel="stylesheet" href="/widgets/modal/modal.css">
+<script>
+
+    function displayModal(mm) {
+        $('#modalout').load('/widgets/modal/modal.php?mm=' + mm);
+    }
+    function displayComment(mm, k, id) {
+        $('#modalout').load('/widgets/modal/modal.php?mm=' + mm + "&k=" + k + "&id=" + id);
+    }
+    function displayModalURL(mm, id) {
+        $('#modalout').load('/widgets/modal/modal.php?mm=' + mm + "&id=" + id);
+    }
+    function displayBroadCastModal(mm) {
+        $('#modalout').load('/widgets/modal/modal.php?mm=' + mm);
+    }
 </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>filesnatchcloud.top</title>
-        <style media="screen">
-.asset_star0 {
-	background: url('//d38psrni17bvxu.cloudfront.net/themes/assets/star0.gif') no-repeat center;
-	width: 13px;
-	height: 12px;
-	display: inline-block;
-}
+<div id="modalout"></div>
 
-.asset_star1 {
-	background: url('//d38psrni17bvxu.cloudfront.net/themes/assets/star1.gif') no-repeat center;
-	width: 13px;
-	height: 12px;
-	display: inline-block;
-}
-
-.asset_starH {
-	background: url('//d38psrni17bvxu.cloudfront.net/themes/assets/starH.gif') no-repeat center;
-	width: 13px;
-	height: 12px;
-	display: inline-block;
-}
-
-.sitelink {
-	padding-right: 16px;
-}
-
-.sellerRatings a:link,
-.sellerRatings a:visited,
-.sellerRatings a:hover,
-.sellerRatings a:active {
-	text-decoration: none;
-	cursor: text;
-}
-
-.sellerRatings {
-	margin:0 0 3px 20px;
-}
-
-.sitelinkHolder {
-	margin:-15px 0 15px 35px;
-}
-
-#ajaxloaderHolder {
-	display: block;
-	width: 24px;
-	height: 24px;
-	background: #fff;
-	padding: 8px 0 0 8px;
-	margin:10px auto;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-}</style>    <style type="text/css">
-        :root {
-            --blue: #101c36;
-            --text: #ffffff;
-            --card: rgba(255, 255, 255, 0.14);
-            --stroke: rgba(255, 255, 255, 0.25);
-        }
-
-        body {
-            padding: 0;
-            height: 100%;
-            overflow: hidden;
-            margin: 0;
-            font-family: sans-serif;
-            color: var(--text);
-            background: var(--blue);
-        }
-
-        iframe {
-            margin: 0;
-            padding: 0;
-            border: none;
-            width: 100%;
-            height: 100vh;
-        }
-
-        #content {
-            display: grid;
-            place-items: center;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            top: 0;
-            margin-top: 10%;
-            margin-bottom: 20%;
-        }
-
-        #imprint {
-            position: relative;
-            bottom: 0;
-            text-align: center;
-            padding-top: 5px;
-            height: 25px;
-        }
-
-        * { box-sizing: border-box; }
-        html { height: 100%; }
-
-        #loading {
-            width: min(720px, 92vw);
-            text-align: center;
-            padding: 48px 28px;
-            border-radius: 24px;
-            background: var(--card);
-            backdrop-filter: blur(6px);
-            border: 1px solid var(--stroke);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
-        }
-
-        h1 {
-            margin: 12px 0 10px;
-            font-size: clamp(28px, 5vw, 44px);
-            letter-spacing: 0.2px;
-        }
-
-        p {
-            margin: 0 0 22px;
-            font-size: clamp(14px, 2.4vw, 18px);
-            opacity: 0.95;
-        }
-
-        /* Simple CSS spinner */
-        .spinner {
-            --size: 56px;
-            width: var(--size);
-            height: var(--size);
-            margin: 0 auto 18px;
-            border-radius: 50%;
-            border: 4px solid rgba(255, 255, 255, 0.35);
-            border-top-color: #fff;
-            animation: spin 0.9s linear infinite;
-        }
-
-        @keyframes spin {
-            to { transform: rotate(360deg); }
-        }
-
-        footer {
-            margin-top: 26px;
-            font-size: 12px;
-            opacity: 0.8;
-        }
-        a { color: #fff; }
-    </style>
-
-    
-<script src="https://obseu.youstarsbuilding.com/ct?id=80705&amp;url=https%3A%2F%2Fww12.filesnatchcloud.top%2F%3Fusid%3D102%26utid%3Db1404450a49d048b9b2b6b62b64c31a6&amp;sf=0&amp;tpi=&amp;ch=AdsDeli%20-%20domain%20-%20landingpage&amp;uvid=82c6cba86cba35c07691d0794287cd13aa3b821a&amp;tsf=0&amp;tsfmi=&amp;tsfu=&amp;cb=1762903079381&amp;hl=1&amp;op=0&amp;ag=3678426874&amp;rand=147582655848289000799217222812700405081610015298101185210128120612106290505611260190051580&amp;fs=1366x682&amp;fst=1366x682&amp;np=linux%20x86_64&amp;nv=&amp;ref=https%3A%2F%2Ffilesnatchcloud.top%2F&amp;ss=1366x768&amp;nc=0&amp;at=&amp;di=W1siZWYiLDgyMTddLFsiYWJuY2giLDVdLFstMywiW1wiaW50ZXJuYWwtcGRmLXZpZXdlclwiLFwiaW50ZXJuYWwtcGRmLXZpZXdlclwiLFwiaW50ZXJuYWwtcGRmLXZpZXdlclwiLFwiaW50ZXJuYWwtcGRmLXZpZXdlclwiLFwiaW50ZXJuYWwtcGRmLXZpZXdlclwiXSJdLFstOCwiLSJdLFstMjQsIltdIl0sWy0yNSwiLSJdLFstMjgsImVuLVVTLGVuIl0sWy00OCwiW1wiLVwiLFwiLVwiLFwiLVwiLFwiLVwiLFwiLVwiXSJdLFstNTEsIi0iXSxbLTcsIi0iXSxbLTQyLCI4ODMzOTkwMTYiXSxbLTExLCJ7XCJ0XCI6XCJcIixcIm1cIjpbXX0iXSxbLTE4LCJbMCwwLDAsMV0iXSxbLTE5LCJbMCwwLDAsMCwwLDAsMSwyNCwyNCxcIi1cIiwxMzY2LDc2OCwxMzY2LDc2OCwxMzY2LDc2OCwxMzY2LDY4MiwwLDAsMCwwLFwiLVwiLFwiLVwiLDEzNjYsNjgyLG51bGxdIl0sWy02MSwiLSJdLFstNjIsIjU4Il0sWy0yMiwiW1wiLVwiLFwiblwiXSJdLFstMzYsIltcIjY4My8zODRcIixcIjY4My8zODRcIl0iXSxbLTM3LCItIl0sWy02OSwiTGludXggeDg2XzY0fHx8NHwtfC0iXSxbLTcwLCItIl0sWy05LCIrIl0sWy0yOSwiLSJdLFstMzIsIjAiXSxbLTM0LCItIl0sWy01OCwiLSJdLFstMTQsIi0iXSxbLTI2LCItIl0sWy0zNSwiWzE3NjI5MDMwNzkyMTgsMF0iXSxbLTM5LCJbXCIyMDEwMDEwMVwiLDIsXCJHZWNrb1wiLFwiTmV0c2NhcGVcIixcIk1vemlsbGFcIixcIjIwMTgxMDAxMDAwMDAwXCIsbnVsbCxmYWxzZSxudWxsLGZhbHNlLG51bGwsNSx0cnVlLGZhbHNlLG51bGwsMCxmYWxzZSxmYWxzZSxmYWxzZSx0cnVlXSJdLFstNTksImRlZmF1bHQiXSxbLTY0LCItIl0sWy03MywiRWhRPSJdLFstMiwiMzMsRkJFVkJSckNBcVlnRUIyNHFkMVVWRlhWZGRzYU8wUmF6cjJsZkYzaFZGVkVTczJIY3RhMWRFbWxJRENhbFQ3dHorUGVmTzNPVE9KRkgwdjEvNWZZTnhhbTVtM3VjK3B6em5uSCJdLFstMTAsIi0iXSxbLTEyLCJcInVuc3BlY2lmaWVkXCIiXSxbLTE3LCI0Il0sWy0yMSwiLSJdLFstNDMsIjAwMDAwMDAxMDAwMDAwMDAwMDExMTAwMTAwMDAwMTAwMDAwMDAwMDAwIl0sWy00NCwiMCw1LDAsNSJdLFstNDUsIjc1MiwwLDAsMCwwLDAsNzYxLDAsNjQ4LDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCJdLFstNjAsIi0iXSxbLTY1LCItIl0sWy03MSwiYTAxMTAwMTAxMDAxMDAxMDEwMDAxMDEwMDExMTExMDAwMDAwMTAiXSxbLTMxLCJ0cnVlIl0sWy00MSwiLSJdLFstNDYsIjAiXSxbLTU1LCIwIl0sWy01NiwibGFuZHNjYXBlLXByaW1hcnkiXSxbMTIsIntcImVcIjowLFwid2dsXCI6MX0iXSxbLTEsIkxpbnV4IHg4Nl82NCJdLFstNCwiLSJdLFstNSwiLSJdLFstMTYsIjAiXSxbLTI3LCItIl0sWy01MCwiLSJdLFstNTcsIlMzbFJUVTFKU2dNV0ZseE1WbHNYUUZaTVNrMVlTMHBiVEZCVlhWQlhYaGRhVmxRV1NrRkpGbEFXQ3dzTlh3RU1DZ2tMV0ZnTFd3OWNXZ29KV0ZoYUFGZ0JERjFZQzFwYlh3QVhVMG9EQ0FNQkRBMExBQlVPQ0FBV1RSZGNRVWxXUzAxS0ZnVjVVVTFOU1VvREZoWmNURlpiRjBCV1RFcE5XRXRLVzB4UVZWMVFWMTRYV2xaVUZrcEJTUlpRRmdzTERWOEJEQW9KQzFoWUMxc1BYRm9LQ1ZoWVdnQllBUXhkV0F0YVcxOEFGMU5LQXdnREFRd1BDdzQ9Il0sWy02NywiLSJdLFstNiwie1wid1wiOltcIjBcIixcIm9uUlRCRmFpbHVyZVwiLFwib25SVEJTdWNjZXNzXCIsXCJsc1wiLFwiZW5oYW5jZVVybFwiLFwidHJ5Q291bnRcIixcIndhaXRUaW1lclwiLFwidHJ5TWF4XCIsXCJyZXRyeVwiLFwiX19jdGNnX2N0XzgwNzA1X2V4ZWNcIl0sXCJuXCI6W10sXCJkXCI6W119Il0sWy0yMCwiLSJdLFstMzAsIltcInZcIiwwXSJdLFstMzMsIi0iXSxbLTQwLCIzNyJdLFstNDksIi0iXSxbLTUyLCItIl0sWy01MywiMDAxIl0sWy01NCwie1wiaFwiOltcIjMyOTk3Mjg0NTJcIixcIjgyMjgyMzExOVwiLFwiOTgzMjI2MjkwXCIsXCIyODcyODk5MzIwXCIsXCJfM1wiLFwiMjg3Mjg5OTMyMFwiXSxcImRcIjpbXSxcImJcIjpbXSxcInNcIjoxfSJdLFstNjgsIi0iXSxbLTcyLCJFeFU9Il0sWy03NCwiMCwwIl0sWyJibmNoIiwyNDVdLFstMTMsIi0iXSxbLTE1LCItIl0sWy0yMywiKyJdLFstMzgsImMsLTEsLTEsNiwwLDAsMCw0ODMsNjgsODksLTEsMCwsODMyLDEwOTQsMTA5MyJdLFstNDcsIlVUQyxlbi1VUyxsYXRuLGdyZWdvcnkiXSxbLTYzLCItIl0sWy02NiwiLSJdLFsiZGRiIiwiMCwzMywwLDAsMCwxLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMSwwLDAsMSwxLDAsMCwzOSwwLDAsMCwxLDAsMTksMCwxLDAsMSwwLDAsMCwwLDE1LDAsMCwwLDEsMSwwLDAsMCwwLDAsMCwwLDAsMCwwLDEsMCwwLDAsMCJdLFsiY2IiLCIxLDAsMCwwLDAsMCwwLDAsMCwxLDAsMCw0NywwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMSwwLDAsMCwwLDAsMSwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDIsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCw3LDAsMCwwLDAsMCw1NiwwLDAsMCwwLDAsMCwwIl1d&amp;dep=0&amp;pre=0&amp;sdd=&amp;cri=CWVmmss9iW&amp;pto=1096&amp;ver=65&amp;gac=-&amp;mei=&amp;ap=&amp;fe=1&amp;duid=1.1762903079.YtbueJzDkyJGcC1M&amp;suid=1.1762903079.cgopTNOzfzdbYs9T&amp;tuid=1.1762903079.6RvfEiF6FUxC5Yvz&amp;fbc=-&amp;gtm=-&amp;it=6%2C652%2C109&amp;fbcl=-&amp;gacl=-&amp;gacsd=-&amp;rtic=-&amp;rtict=-&amp;bgc=-&amp;spa=1&amp;urid=0&amp;ab=&amp;sck=-&amp;io=aGA2Og%3D%3D" async=""></script></head>
-
-<body><a href="#" tabindex="-1" aria-hidden="true" rel="nofollow" style="opacity: 0.01; position: absolute; z-index: -999; width: 54px; height: 22px;">___</a><div style="opacity: 0.01; position: absolute; z-index: -1000; width: 54px; height: 22px;"></div>
-
-    <script async="" src="https://euob.youstarsbuilding.com/sxp/i/224f85302aa2b6ec30aac9a85da2cbf9.js" data-ch="AdsDeli - domain - landingpage" data-uvid="82c6cba86cba35c07691d0794287cd13aa3b821a" class="ct_clicktrue_80705" data-jsonp="onCheqResponse"></script>
-    <noscript>
-        <iframe src="https://obseu.youstarsbuilding.com/ns/224f85302aa2b6ec30aac9a85da2cbf9.html?ch=AdsDeli%20-%20domain%20-%20landingpage" width="0" height="0" style="display:none"></iframe>
-    </noscript>
-<div>
-    <div id="plBanner"><script id="parklogic" type="text/javascript" src="https://parking3.parklogic.com/page/enhance.js?pcId=12&amp;domain=filesnatchcloud.top"></script></div>
-    </div>
-
-<div id="content" style="top: 0px;">
-    <div id="loading">
-        <div class="spinner" role="status" aria-label="Loading"></div>
-        <h1>We’re getting things ready</h1>
-        <p>Loading your experience… This won’t take long.</p>
-    </div>
+            <div class="articlewrapper">
+                <div class="row">
+                                        <div class="leftcolumn">
+                        <div style="margin-bottom:10px;text-align:center;"><div class="s2nPlayer k-eKVKXbhX" data-type="float" data-stn-player="eKVKXbhX"><stn-player data-type="float" style="display: block; width: 100%;"><voltax-player id="voltax-mp-video" class="shadow-root-voltax-mp" style="display: block; width: 100%; min-height: 0px;"><div style="border-block: unset; border-inline: unset; border-start-start-radius: unset; border-start-end-radius: unset; border-end-start-radius: unset; border-end-end-radius: unset; overflow-block: unset; overflow-inline: unset; overscroll-behavior-block: unset; overscroll-behavior-inline: unset; margin-block: unset; margin-inline: unset; scroll-margin-block: unset; scroll-margin-inline: unset; padding-block: unset; padding-inline: unset; scroll-padding-block: unset; scroll-padding-inline: unset; inset-block: unset; inset-inline: unset; block-size: unset; min-block-size: unset; max-block-size: unset; inline-size: unset; min-inline-size: unset; max-inline-size: unset; contain-intrinsic-block-size: unset; contain-intrinsic-inline-size: unset; background-image: unset; background-position: unset; background-repeat: unset; background-attachment: unset; background-clip: unset; background-origin: unset; background-size: unset; background-blend-mode: unset; border: unset; border-radius: unset; box-decoration-break: unset; -moz-float-edge: unset; float: unset; clear: unset; vertical-align: unset; baseline-source: unset; overflow: unset; overflow-anchor: unset; transform: unset; rotate: unset; scale: unset; translate: unset; offset: unset; scroll-behavior: unset; scroll-snap-align: unset; scroll-snap-type: unset; scroll-snap-stop: unset; overscroll-behavior: unset; isolation: unset; break-after: unset; break-before: unset; break-inside: unset; resize: unset; perspective: unset; perspective-origin: unset; backface-visibility: unset; transform-box: unset; transform-style: unset; transform-origin: unset; contain: unset; content-visibility: unset; container: unset; appearance: unset; -moz-orient: unset; will-change: unset; shape-image-threshold: unset; shape-margin: unset; shape-outside: unset; touch-action: unset; -webkit-line-clamp: unset; scrollbar-gutter: unset; zoom: unset; columns: unset; column-fill: unset; column-rule: unset; column-span: unset; content: unset; counter-increment: unset; counter-reset: unset; counter-set: unset; box-shadow: unset; clip: unset; filter: unset; backdrop-filter: unset; mix-blend-mode: unset; font: unset; font-synthesis: unset; font-palette: unset; math-depth: unset; math-style: unset; visibility: unset; writing-mode: unset; text-orientation: unset; print-color-adjust: unset; image-rendering: unset; image-orientation: unset; dominant-baseline: unset; text-anchor: unset; color-interpolation: unset; color-interpolation-filters: unset; fill: unset; fill-opacity: unset; fill-rule: unset; shape-rendering: unset; stroke: unset; stroke-width: unset; stroke-linecap: unset; stroke-linejoin: unset; stroke-miterlimit: unset; stroke-opacity: unset; stroke-dasharray: unset; stroke-dashoffset: unset; clip-rule: unset; marker: unset; paint-order: unset; border-collapse: unset; empty-cells: unset; caption-side: unset; border-spacing: unset; color: unset; text-transform: unset; hyphens: unset; -moz-text-size-adjust: unset; text-indent: unset; overflow-wrap: unset; word-break: unset; text-justify: unset; text-align-last: unset; text-align: unset; letter-spacing: unset; word-spacing: unset; white-space: unset; text-shadow: unset; text-emphasis: unset; text-emphasis-position: unset; tab-size: unset; line-break: unset; -webkit-text-fill-color: unset; -webkit-text-stroke: unset; ruby-align: unset; ruby-position: unset; text-combine-upright: unset; text-rendering: unset; text-underline-offset: unset; text-underline-position: unset; text-decoration-skip-ink: unset; hyphenate-character: unset; forced-color-adjust: unset; -webkit-text-security: unset; hyphenate-limit-chars: unset; text-wrap: unset; cursor: unset; caret-color: unset; accent-color: unset; color-scheme: unset; scrollbar-color: unset; list-style: unset; quotes: unset; margin: unset; overflow-clip-margin: unset; scroll-margin: unset; outline: unset; outline-offset: unset; padding: unset; scroll-padding: unset; page: unset; right: unset; bottom: unset; flex-flow: unset; place-content: unset; place-items: unset; flex: unset; place-self: unset; order: unset; min-height: unset; max-height: unset; min-width: unset; max-width: unset; box-sizing: unset; object-fit: unset; object-position: unset; grid-area: unset; grid: unset; gap: unset; aspect-ratio: unset; contain-intrinsic-size: unset; vector-effect: unset; stop-color: unset; stop-opacity: unset; flood-color: unset; flood-opacity: unset; lighting-color: unset; mask-type: unset; clip-path: unset; mask: unset; x: unset; y: unset; cx: unset; cy: unset; rx: unset; ry: unset; r: unset; d: unset; table-layout: unset; text-overflow: unset; text-decoration: unset; ime-mode: unset; scrollbar-width: unset; user-select: unset; -moz-force-broken-image-icon: unset; transition: unset; animation: unset; animation-composition: unset; view-transition-name: unset; view-transition-class: unset; -moz-box-align: unset; -moz-box-direction: unset; -moz-box-flex: unset; -moz-box-orient: unset; -moz-box-pack: unset; -moz-box-ordinal-group: unset; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: none; pointer-events: none; opacity: 0; z-index: 2; background-color: rgb(0, 0, 0);" id="ad-container" slot="ad-container"><div style="position: absolute;"><div style="display: none;"><video style="background-color: rgb(0, 0, 0); height: 100%; width: 100%; position: absolute; left: 0px; top: 0px;" title="Advertisement" webkit-playsinline="true" playsinline="true"></video><div style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px;"></div></div><div style="display: none;"><video style="background-color: rgb(0, 0, 0); height: 100%; width: 100%; position: absolute; left: 0px; top: 0px;" title="Advertisement" webkit-playsinline="true" playsinline="true"></video><div style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px;"></div></div><iframe src="https://imasdk.googleapis.com/js/core/bridge3.731.0_en.html#deid=%22%22&amp;eventfe_experiment_ids=%5B%5D&amp;fid=%22goog_552963771%22&amp;genotype_experiment_data=%7B%22experimentStateProto%22%3A%22%5B%5B%5B45713128%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B803064088%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45681221%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5Bnull%2C749060184%2Cnull%2C%5Bnull%2C100%5D%5D%2C%5B45722344%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45706017%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45668885%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45685340%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45734716%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45735891%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45663239%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45715032%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45661356%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45676441%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45675307%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45675308%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5Bnull%2C45645574%2Cnull%2C%5B%5D%5D%2C%5B45688859%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45656766%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45710689%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45710688%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45685601%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5Bnull%2C500%5D%5D%2C%5B775241416%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107959%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107958%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B792614055%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107957%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45729602%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45658982%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45725657%2Cnull%2Cnull%2C%5B%5D%5D%5D%2C%5B%5B16%2C%5B%5B1%2C%5B%5B31089630%5D%2C%5B31089631%2C%5B%5B45668885%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B1000%2C%5B%5B95332046%5D%5D%5D%2C%5Bnull%2C%5B%5B95332047%5D%5D%5D%2C%5B10%2C%5B%5B95333808%5D%2C%5B95333809%2C%5B%5B635466687%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95338769%2C%5B%5Bnull%2C45645574%2Cnull%2C%5Bnull%2C1%5D%5D%5D%5D%2C%5B95338770%2C%5B%5Bnull%2C45645574%2Cnull%2C%5Bnull%2C2%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95345206%5D%2C%5B95345207%2C%5B%5B45661356%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5Bnull%2C%5B%5B95351425%5D%2C%5B95351426%2C%5B%5B45676441%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95356068%5D%2C%5B95356069%2C%5B%5B45685601%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5B%5D%5D%5D%5D%2C%5B95356070%2C%5B%5B45685601%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5B%5D%5D%5D%5D%2C%5B95356071%2C%5B%5B45685601%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5Bnull%2C100%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95372277%5D%2C%5B95372278%2C%5B%5Bnull%2C745150931%2Cnull%2C%5Bnull%2C1%5D%5D%5D%5D%5D%5D%2C%5B1%2C%5B%5B95373378%2C%5B%5B792614055%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95373379%2C%5B%5B781107959%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B792614055%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B781107957%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95375243%5D%2C%5B95375244%5D%5D%5D%2C%5B50%2C%5B%5B95375505%5D%2C%5B95375506%2C%5B%5Bnull%2C749060184%2Cnull%2C%5B%5D%5D%5D%5D%5D%5D%2C%5B100%2C%5B%5B95375625%5D%2C%5B95375626%2C%5B%5B45706017%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5Bnull%2C%5B%5B95375930%5D%2C%5B95375931%2C%5B%5B45734716%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95376520%2C%5B%5B45734716%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45735891%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%5D%5D%5D%2Cnull%2Cnull%2C%5Bnull%2C1000%2C1%2C1000%5D%5D%22%7D&amp;imalib_experiments=%5B95322027%2C95331589%2C95332046%2C95375625%5D&amp;is_eap_loader=false&amp;managed_js_experiment_id=0&amp;pvsid=4462282874875157&amp;top_accessible_page_url=%22https%3A%2F%2Fsimcast.com%2F%3Fd%3Dfilesnatchcloud.top%26pcid%3D56%26a%3Dfalse%26uuid%3D28751b10db5fdf568a9b5824757c5ea5%22" allowfullscreen="" allow="" id="goog_552963771" style="border: 0px; opacity: 0; margin: 0px; padding: 0px; position: relative; color-scheme: light;" title="Advertisement"></iframe><iframe style="visibility: hidden; width: 0px; height: 0px; position: absolute; left: 0px; top: 0px;" title="Advertisement"></iframe></div></div></voltax-player></stn-player></div>
 </div>
-<style media="screen">
-.asset_star0 {
-	background: url('//d38psrni17bvxu.cloudfront.net/themes/assets/star0.gif') no-repeat center;
-	width: 13px;
-	height: 12px;
-	display: inline-block;
-}
+<script type="text/javascript" src="//embed.sendtonews.com/player3/embedcode.js?fk=eKVKXbhX&amp;cid=12018&amp;offsetx=0&amp;offsety=0&amp;floatwidth=400&amp;floatposition=bottom-right" data-type="s2nScript"></script>
+<div id="trendingnews"><div class="trendingnewsheading">Trending News</div></div>    <div class="textArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=19&amp;k=news" class="textArticle-link" target="_BLANK">
+            <div class="textArticle-imageblock">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Qbz2g.img?h=100&amp;w=100&amp;x=756&amp;y=150&amp;m=5" class="textArticle-image" style="object-fit: cover;width: 100%;height: 100px;" alt="Trump dismisses financial concerns of air traffic controllers working without pay for more than 40 days&lt;br&gt;">
+            </div>
+            <div class="textArticle-textcontent">
+                <div class="textArticle-title">
+                    Trump dismisses financial concerns of air traffic controllers working without pay for more than 40 days<br>                    <div class="textArticle-abstract">
+                        The president, whose staff explored ways to skirt a law requiring backpay for federal workers after the shutdown ends, insisted "they all knew the money is coming."                    </div>
+                    <div class="textArticle-provider">
+                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1lLE2B.img" style="max-height:18px;float:left;" alt="NBC News">
+                        <div style="font-size:11px;margin:4px 0px 0px 4px;float:left;">
+                            NBC News&nbsp;&nbsp;                        </div>
+                                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+        <div class="textArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=0&amp;k=news" class="textArticle-link" target="_BLANK">
+            <div class="textArticle-imageblock">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Q5WuW.img?h=100&amp;w=100&amp;x=1536&amp;y=864&amp;m=5" class="textArticle-image" style="object-fit: cover;width: 100%;height: 100px;" alt="Korean worker detained by ICE speaks out about raid in Georgia&lt;br&gt;">
+            </div>
+            <div class="textArticle-textcontent">
+                <div class="textArticle-title">
+                    Korean worker detained by ICE speaks out about raid in Georgia<br>                    <div class="textArticle-abstract">
+                        ABC News’ senior White House correspondent Selina Wang reports on ICE raid, arrests at car manufacturing plant in Georgia on “This Week.”                    </div>
+                    <div class="textArticle-provider">
+                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA15syDR.img" style="max-height:18px;float:left;" alt="ABC News">
+                        <div style="font-size:11px;margin:4px 0px 0px 4px;float:left;">
+                            ABC News&nbsp;&nbsp;                        </div>
+                                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+        <div class="textArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=5&amp;k=news" class="textArticle-link" target="_BLANK">
+            <div class="textArticle-imageblock">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1NJZRD.img?h=100&amp;w=100&amp;x=400&amp;y=225&amp;m=5" class="textArticle-image" style="object-fit: cover;width: 100%;height: 100px;" alt="AccuWeather" s="" 2025-2026="" winter="" forecast<br="">'&gt;
+            </div>
+            <div class="textArticle-textcontent">
+                <div class="textArticle-title">
+                    AccuWeather's 2025-2026 winter forecast<br>                    <div class="textArticle-abstract">
+                        With October here, it won't be long until the cold and snow return. Lincoln Riddle spoke with our long-range experts to find out what you can expect this winter to be like in the U.S.                    </div>
+                    <div class="textArticle-provider">
+                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAP2MVI.img" style="max-height:18px;float:left;" alt="AccuWeather">
+                        <div style="font-size:11px;margin:4px 0px 0px 4px;float:left;">
+                            AccuWeather&nbsp;&nbsp;                        </div>
+                                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+        <div class="textArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=13&amp;k=news" class="textArticle-link" target="_BLANK">
+            <div class="textArticle-imageblock">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Qed1J.img?h=100&amp;w=100&amp;x=635&amp;y=227&amp;m=5" class="textArticle-image" style="object-fit: cover;width: 100%;height: 100px;" alt="When will the House vote to reopen the government? Here’s what to know.&lt;br&gt;">
+            </div>
+            <div class="textArticle-textcontent">
+                <div class="textArticle-title">
+                    When will the House vote to reopen the government? Here’s what to know.<br>                    <div class="textArticle-abstract">
+                        The end is in sight for the record-breaking federal government shutdown, but there are still a few critical steps to go before Washington gets back to business.                    </div>
+                    <div class="textArticle-provider">
+                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBqlER2.img" style="max-height:18px;float:left;" alt="MarketWatch">
+                        <div style="font-size:11px;margin:4px 0px 0px 4px;float:left;">
+                            MarketWatch&nbsp;&nbsp;                        </div>
+                                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+        <div class="textArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=7&amp;k=news" class="textArticle-link" target="_BLANK">
+            <div class="textArticle-imageblock">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1NJCgt.img?h=100&amp;w=100&amp;x=853&amp;y=599&amp;m=5" class="textArticle-image" style="object-fit: cover;width: 100%;height: 100px;" alt="‘Everybody Loves Raymond’ Cast to Reunite for 30th Anniversary&lt;br&gt;">
+            </div>
+            <div class="textArticle-textcontent">
+                <div class="textArticle-title">
+                    ‘Everybody Loves Raymond’ Cast to Reunite for 30th Anniversary<br>                    <div class="textArticle-abstract">
+                        The cast of “Everybody Loves Raymond” is getting back together in honor of the show’s 30th anniversary! Ray Romano and series creator Phil Rosenthal will host the 90-minute special scheduled to air on Nov. 24.                    </div>
+                    <div class="textArticle-provider">
+                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBph2d1.img" style="max-height:18px;float:left;" alt="TODAY">
+                        <div style="font-size:11px;margin:4px 0px 0px 4px;float:left;">
+                            TODAY&nbsp;&nbsp;                        </div>
+                                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+        <div class="majorArticle-block">
+        <a href="/widgets/streams/c.php?id=12&amp;k=news" target="_BLANK">
+            <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Qf6ay.img?h=500&amp;w=1000&amp;x=800&amp;y=800&amp;m=2" class="majorArticle-image" style="object-fit: cover;width: 100%;height: 400px;" alt="Sonder tells guests to leave immediately after Marriott partnership ends">
+            <div class="majorArticle-title">
+                Sonder tells guests to leave immediately after Marriott partnership ends            </div>
+        </a>
+    </div>
+                        </div>
+                    <div class="middlecolumn">
+                        <div class="breakingnews">Breaking News</div>    <div class="minorArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=4&amp;k=news" class="minorArticle-imagelink" target="_BLANK">
+            <div class="minorimage-block">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Q5QnA.img?h=70&amp;w=95&amp;x=2182.5&amp;y=1003.5&amp;m=5" class="minorArticle-image" style="object-fit: cover;width: 100%;height: 70px;" alt="Woman snubs husband’s shower invite—then sees what’s on his laptop&lt;br&gt;&lt;br&gt;">
+            </div>
+        </a>
+        <div class="minorArticle-title">
+            <a href="/widgets/streams/c.php?id=4&amp;k=news" class="minorArticle-text" target="_BLANK">
+                Woman snubs husband’s shower invite—then sees what’s on his laptop            </a>
+        </div>
+        <div class="provider">
+            <a href="/widgets/streams/c.php?id=4&amp;k=news" class="minorArticle-newsprovider" target="_BLANK">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA12I4v2.img" style="max-height:18px;float:left;" alt="Newsweek">&nbsp;
+                Newsweek&nbsp;&nbsp;            </a>
+                    </div>
+    </div>
+        <div class="minorArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=6&amp;k=news" class="minorArticle-imagelink" target="_BLANK">
+            <div class="minorimage-block">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1QbdPC.img?h=70&amp;w=95&amp;x=640&amp;y=427&amp;m=5" class="minorArticle-image" style="object-fit: cover;width: 100%;height: 70px;" alt="California Supreme Court overturns law against filing false police misconduct complaints&lt;br&gt;&lt;br&gt;">
+            </div>
+        </a>
+        <div class="minorArticle-title">
+            <a href="/widgets/streams/c.php?id=6&amp;k=news" class="minorArticle-text" target="_BLANK">
+                California Supreme Court overturns law against filing false police misconduct complaints            </a>
+        </div>
+        <div class="provider">
+            <a href="/widgets/streams/c.php?id=6&amp;k=news" class="minorArticle-newsprovider" target="_BLANK">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBTV7sb.img" style="max-height:18px;float:left;" alt="San Francisco Chronicle">&nbsp;
+                San Francisco Chronicle&nbsp;&nbsp;            </a>
+                    </div>
+    </div>
+        <div class="minorArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=14&amp;k=news" class="minorArticle-imagelink" target="_BLANK">
+            <div class="minorimage-block">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1QeEbb.img?h=70&amp;w=95&amp;x=518.5&amp;y=156.5&amp;m=5" class="minorArticle-image" style="object-fit: cover;width: 100%;height: 70px;" alt="Trump pardons runner who took a shortcut during record-breaking race&lt;br&gt;&lt;br&gt;">
+            </div>
+        </a>
+        <div class="minorArticle-title">
+            <a href="/widgets/streams/c.php?id=14&amp;k=news" class="minorArticle-text" target="_BLANK">
+                Trump pardons runner who took a shortcut during record-breaking race            </a>
+        </div>
+        <div class="provider">
+            <a href="/widgets/streams/c.php?id=14&amp;k=news" class="minorArticle-newsprovider" target="_BLANK">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBERMX9.img" style="max-height:18px;float:left;" alt="The Independent">&nbsp;
+                The Independent&nbsp;&nbsp;            </a>
+                    </div>
+    </div>
+        <div class="minorArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=16&amp;k=news" class="minorArticle-imagelink" target="_BLANK">
+            <div class="minorimage-block">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1KACZR.img?h=70&amp;w=95&amp;x=1509.5&amp;y=732&amp;m=5" class="minorArticle-image" style="object-fit: cover;width: 100%;height: 70px;" alt="Taylor Swift, at 14, gets asked if she" ll="" be="" a="" star<br=""><br>'&gt;
+            </div>
+        </a>
+        <div class="minorArticle-title">
+            <a href="/widgets/streams/c.php?id=16&amp;k=news" class="minorArticle-text" target="_BLANK">
+                Taylor Swift, at 14, gets asked if she'll be a star            </a>
+        </div>
+        <div class="provider">
+            <a href="/widgets/streams/c.php?id=16&amp;k=news" class="minorArticle-newsprovider" target="_BLANK">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA15syDR.img" style="max-height:18px;float:left;" alt="ABC News">&nbsp;
+                ABC News&nbsp;&nbsp;            </a>
+                    </div>
+    </div>
+        <div class="minorArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=17&amp;k=news" class="minorArticle-imagelink" target="_BLANK">
+            <div class="minorimage-block">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1QeDZ7.img?h=70&amp;w=95&amp;x=714.5&amp;y=184.5&amp;m=5" class="minorArticle-image" style="object-fit: cover;width: 100%;height: 70px;" alt="Bills linked to controversial pass rusher after boring trade deadline&lt;br&gt;&lt;br&gt;">
+            </div>
+        </a>
+        <div class="minorArticle-title">
+            <a href="/widgets/streams/c.php?id=17&amp;k=news" class="minorArticle-text" target="_BLANK">
+                Bills linked to controversial pass rusher after boring trade deadline            </a>
+        </div>
+        <div class="provider">
+            <a href="/widgets/streams/c.php?id=17&amp;k=news" class="minorArticle-newsprovider" target="_BLANK">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA12I4v2.img" style="max-height:18px;float:left;" alt="Newsweek">&nbsp;
+                Newsweek&nbsp;&nbsp;            </a>
+                    </div>
+    </div>
+        <div class="minorArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=5&amp;k=news" class="minorArticle-imagelink" target="_BLANK">
+            <div class="minorimage-block">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1DbZ0s.img?h=70&amp;w=95&amp;x=399.5&amp;y=225.5&amp;m=5" class="minorArticle-image" style="object-fit: cover;width: 100%;height: 70px;" alt="Watch this paralyzed dog regain his personality after getting a custom wheelchair!&lt;br&gt;&lt;br&gt;">
+            </div>
+        </a>
+        <div class="minorArticle-title">
+            <a href="/widgets/streams/c.php?id=5&amp;k=news" class="minorArticle-text" target="_BLANK">
+                Watch this paralyzed dog regain his personality after getting a custom wheelchair!            </a>
+        </div>
+        <div class="provider">
+            <a href="/widgets/streams/c.php?id=5&amp;k=news" class="minorArticle-newsprovider" target="_BLANK">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1rWJh1.img" style="max-height:18px;float:left;" alt="USA TODAY">&nbsp;
+                USA TODAY&nbsp;&nbsp;            </a>
+                    </div>
+    </div>
+        <div class="minorArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=0&amp;k=news" class="minorArticle-imagelink" target="_BLANK">
+            <div class="minorimage-block">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Qb4mO.img?h=70&amp;w=95&amp;x=644&amp;y=239&amp;m=5" class="minorArticle-image" style="object-fit: cover;width: 100%;height: 70px;" alt="CNN tracks down French teenager in viral photo&lt;br&gt;&lt;br&gt;">
+            </div>
+        </a>
+        <div class="minorArticle-title">
+            <a href="/widgets/streams/c.php?id=0&amp;k=news" class="minorArticle-text" target="_BLANK">
+                CNN tracks down French teenager in viral photo            </a>
+        </div>
+        <div class="provider">
+            <a href="/widgets/streams/c.php?id=0&amp;k=news" class="minorArticle-newsprovider" target="_BLANK">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1neFU6.img" style="max-height:18px;float:left;" alt="CNN">&nbsp;
+                CNN&nbsp;&nbsp;            </a>
+                    </div>
+    </div>
+        <div class="minorArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=7&amp;k=news" class="minorArticle-imagelink" target="_BLANK">
+            <div class="minorimage-block">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Q5WuW.img?h=70&amp;w=95&amp;x=1536&amp;y=864&amp;m=5" class="minorArticle-image" style="object-fit: cover;width: 100%;height: 70px;" alt="Korean worker detained by ICE speaks out about raid in Georgia&lt;br&gt;&lt;br&gt;">
+            </div>
+        </a>
+        <div class="minorArticle-title">
+            <a href="/widgets/streams/c.php?id=7&amp;k=news" class="minorArticle-text" target="_BLANK">
+                Korean worker detained by ICE speaks out about raid in Georgia            </a>
+        </div>
+        <div class="provider">
+            <a href="/widgets/streams/c.php?id=7&amp;k=news" class="minorArticle-newsprovider" target="_BLANK">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA15syDR.img" style="max-height:18px;float:left;" alt="ABC News">&nbsp;
+                ABC News&nbsp;&nbsp;            </a>
+                    </div>
+    </div>
+        <div class="minorArticle-block clearfix">
+        <a href="/widgets/streams/c.php?id=9&amp;k=news" class="minorArticle-imagelink" target="_BLANK">
+            <div class="minorimage-block">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Q3Tmm.img?h=70&amp;w=95&amp;x=465&amp;y=180&amp;m=5" class="minorArticle-image" style="object-fit: cover;width: 100%;height: 70px;" alt="USC" s="" fake="" punt="" using="" jersey="" swap="" should="" have="" drawn="" penalty,="" big="" ten="" says<br=""><br>'&gt;
+            </div>
+        </a>
+        <div class="minorArticle-title">
+            <a href="/widgets/streams/c.php?id=9&amp;k=news" class="minorArticle-text" target="_BLANK">
+                USC's fake punt using jersey swap should have drawn penalty, Big Ten says            </a>
+        </div>
+        <div class="provider">
+            <a href="/widgets/streams/c.php?id=9&amp;k=news" class="minorArticle-newsprovider" target="_BLANK">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1nemJL.img" style="max-height:18px;float:left;" alt="FOX News">&nbsp;
+                FOX News&nbsp;&nbsp;            </a>
+                    </div>
+    </div>
+    <div style="margin:10px 0px 10px 0px;text-align:center;"> 
+<div data-aaad="true" data-aa-adunit="/27416722/smc_300v_2" data-status="rendered" id="a585c5d4-a2e7-4f11-ac63-231c933989c7" data-aa-device="[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]" data-aa-sizes="[[336,280],[320,100],[300,250],[300,100]]" data-aa-lazy-loaded="false" data-google-query-id="CIu--uS365ADFXGFdwEdhFosAA"><div id="google_ads_iframe_/27416722/smc_300v_2_0__container__" style="border: 0pt; width: 336px; height: 0px;"></div></div>
+</div>                    </div>
+                    <div class="rightcolumn">
+                            <script>
+        $(document).ready(function () {
+            $("#signin").show();
+            $("#signup").hide();
+            $("#signinbutton").addClass('login-buttonselected');
+            $("#signupbutton").addClass('login-buttonunselected');
 
-.asset_star1 {
-	background: url('//d38psrni17bvxu.cloudfront.net/themes/assets/star1.gif') no-repeat center;
-	width: 13px;
-	height: 12px;
-	display: inline-block;
-}
+            $("#signinbutton").click(function () {
+                $("#signin").show();
+                $("#signup").hide();
+                $("#signinbutton").removeClass('login-buttonunselected');
+                $("#signinbutton").addClass('login-buttonselected');
+                $("#signupbutton").removeClass('login-buttonselected');
+                $("#signupbutton").addClass('login-buttonunselected');
+            });
+            $("#signupbutton").click(function () {
+                $("#signin").hide();
+                $("#signup").show();
+                $("#signinbutton").removeClass('login-buttonselected');
+                $("#signinbutton").addClass('login-buttonunselected');
+                $("#signupbutton").removeClass('login-buttonunselected');
+                $("#signupbutton").addClass('login-buttonselected');
+            });
 
-.asset_starH {
-	background: url('//d38psrni17bvxu.cloudfront.net/themes/assets/starH.gif') no-repeat center;
-	width: 13px;
-	height: 12px;
-	display: inline-block;
-}
-
-.sitelink {
-	padding-right: 16px;
-}
-
-.sellerRatings a:link,
-.sellerRatings a:visited,
-.sellerRatings a:hover,
-.sellerRatings a:active {
-	text-decoration: none;
-	cursor: text;
-}
-
-.sellerRatings {
-	margin:0 0 3px 20px;
-}
-
-.sitelinkHolder {
-	margin:-15px 0 15px 35px;
-}
-
-#ajaxloaderHolder {
-	display: block;
-	width: 24px;
-	height: 24px;
-	background: #fff;
-	padding: 8px 0 0 8px;
-	margin:10px auto;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-}</style><style media="screen">
-* {
-    margin:0;padding:0
-}
-
-body {
-    background:#101c36;
-    font-family: sans-serif;
-    text-align: center;
-    font-size:1rem;
-}
-
-.header {
-    padding:1rem 1rem 0;
-    overflow:hidden;
-}
-
-h1 {
-    color:#848484;
-    font-size:1.5rem;
-}
-
-.header-text-color:visited,
-.header-text-color:link,
-.header-text-color {
-    color:#848484;
-}
-
-.comp-is-parked {
-  margin: 4px 0 2px;
-}
-
-.comp-sponsored {
-  text-align: left;
-  margin: 0 0 -1.8rem 4px;
-}
-
-.wrapper1 {
-    margin:1rem;
-}
-
-.wrapper2 {
-    background:url('//d38psrni17bvxu.cloudfront.net/themes/cleanPeppermintBlackConsent_657d9013/img/bottom.png') no-repeat center bottom;
-    padding-bottom:140px;
-}
-
-.wrapper3 {
-    background:#fff;
-    max-width:300px;
-    margin:0 auto 1rem;
-    padding-top:1px;
-    padding-bottom:1px;
-}
-
-.onDesktop {
-    display:none;
-}
-
-.tcHolder {
-    padding-top: 2rem;
-}
-
-.adsHolder {
-    margin: 1rem 0;
-    padding-top: 2rem;
-    overflow:hidden;
-}
-
-.footer {
-    color:#626574;
-    padding:2rem 1rem;
-    font-size:.8rem;
-    margin:0 auto;
-    max-width:440px;
-}
-
-.footer a:link,
-.footer a:visited {
-    color:#626574;
-}
-
-.sale_link_bold a,
-.sale_link,
-.sale_link a {
-    color:#626574 !important;
-}
-
-.searchHolder {
-    padding:1px 0 1px 1px;
-    margin:1rem auto;
-    width: 95%;
-    max-width: 500px;
-}
-
-.fallback-term-holder {
-    display: inline-grid;
-    grid-template-columns: 1fr;
-    width: 100%;
-    padding-top: 75px;
-}
-
-.fallback-term-link {
-    grid-column: 1 / span 1; align-self: center;
-    padding: 50px 13px 50px 13px; border-radius: 25px;
-    border: 5px solid #ffffff; margin-bottom: 20px;
-    background-color: rgb(16, 28, 54);
-    text-decoration-line: none;
-    font-size: 18px;
-    font-weight: 700;
-    color: #ffffff;
-    text-align: left;
-}
-
-.fallback-term-link:hover {
-    background-color: #242b42;
-
-    text-decoration-line: underline;
-    text-decoration-color: currentColor;
-    text-decoration-thickness: auto;
-}
-
-@media screen and (min-width:600px) {
-
-    .comp-is-parked,
-    .comp-sponsored {
-      color: #848484;
-    }
-
-    .comp-sponsored {
-      margin-left: 0;
-    }
-
-    .wrapper1 {
-        max-width:1500px;
-        margin-left:auto;
-        margin-right:auto;
-    }
-
-    .wrapper2 {
-        background:url('//d38psrni17bvxu.cloudfront.net/themes/cleanPeppermintBlackConsent_657d9013/img/arrows.png') no-repeat center top;
-        padding-bottom:0;
-        min-height:600px;
-    }
-
-    .wrapper3 {
-        max-width:530px;
-        background:none;
-    }
-}
-</style>
-<div class="wrapper1" id="keywords-template" style="display:none;">
-    <div class="wrapper2">
-        <div class="wrapper3">
-            <div id="fallbackTerms" class="fallback-term-holder"></div>
+        });
+    </script>
+        <div class="login-block">
+        <div class="login-heading">
+            <button id="signinbutton" class="login-button login-buttonselected">Sign-in</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button id="signupbutton" class="login-button login-buttonunselected">Sign-up</button></div>
+        <div id="signin">
+            <form action="/widgets/login/login.php" method="POST">
+                <div class="login-fieldnames">USERNAME</div>
+                <input type="text" id="emaillogin" name="emaillogin" value="Email Address" class="login-input" onblur="if (this.value == '') {
+                                   this.value = 'Email Address';
+                                   this.style.color = '#ddd';
+                               }" onfocus="if (this.value == 'Email Address') {
+                                   this.value = '';
+                                   this.style.color = '#FFF';
+                               }"><br>
+                <div class="login-fieldnames">PASSWORD</div>
+                <input type="password" id="passwordlogin" name="passwordlogin" value="Password" class="login-input" onblur="if (this.value == '') {
+                                   this.value = 'Password';
+                                   this.style.color = '#ddd';
+                               }" onfocus="if (this.value == 'Password') {
+                                   this.value = '';
+                                   this.style.color = '#FFF';
+                               }">
+                <input type="checkbox" name="remember" value="" checked="">&nbsp;<span class="login-remember">Remember me</span><br>
+                <input type="hidden" name="link" value="/">
+                <input type="submit" name="sub" value="Sign-in" class="login-submit">
+            </form>
+            <div class="login-forgot"><a href="javascript:displayModal(1)" class="login-forgotlink">Forgot password</a></div>
+        </div>
+        <div id="signup" style="display: none;">
+            <form action="/widgets/login/signup2.php" method="POST" id="signupform">
+                <div class="login-fieldnames">NAME</div>
+                <input type="text" id="name" name="name" value="" class="login-input"><br>
+                <div class="login-fieldnames">EMAIL</div>
+                <input type="text" id="email" name="email" value="" class="login-input"><br>
+                <div class="login-fieldnames">PASSWORD</div>
+                <input type="password" id="password" name="password" value="" class="login-input">
+                <input type="checkbox" id="terms" name="terms" value="" checked="">&nbsp;<span class="login-terms">
+                    Agree to the <a href="/about-us/policies/Terms-of-Use" target="_BLANK" class="login-terms">Terms of Use</a></span><br>
+                <input type="hidden" name="path" value="/">
+                <input type="hidden" name="recaptcha" value="0">
+                                <input type="submit" name="signup" value="Sign-up" class="login-submit">
+            </form>
         </div>
     </div>
-</div>
+    <div class="category-block"><div id="categories">
+<div id="category-bar">Categories</div>
+<a href="/entertainment" class="category-textlink">Entertainment</a><br>
+<a href="/health" class="category-textlink">Health</a><br>
+<a href="/lifestyle" class="category-textlink">Lifestyle</a><br>
+<a href="/money" class="category-textlink">Money</a><br>
+<a href="/news" class="category-textlink">News</a><br>
+<a href="/sports" class="category-textlink">Sports</a><br>
+<a href="/travel" class="category-textlink">Travel</a><br>
+<a href="/videos" class="category-textlink">Videos</a><br>
+</div></div>    <div class="imageArticle-block">
+        <a href="/widgets/streams/c.php?id=1&amp;k=news" target="_BLANK">
+            <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1Qf8Hi.img?h=300&amp;w=400&amp;x=512&amp;y=341.5&amp;m=2" class="imageArticle-image" style="object-fit: cover;width: 100%;height: 200px;" alt="In Trump-dominated media world, editing video takes on new significance — as BBC uproar shows&lt;br&gt;&lt;br&gt;">
+            <div class="imageArticle-title">In Trump-dominated media world, editing video takes on new significance — as BBC uproar shows<br><br></div>
+        </a>
+    </div>
+        <div class="imageArticle-block">
+        <a href="/widgets/streams/c.php?id=3&amp;k=news" target="_BLANK">
+            <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1NJCgt.img?h=300&amp;w=400&amp;x=853&amp;y=599&amp;m=2" class="imageArticle-image" style="object-fit: cover;width: 100%;height: 200px;" alt="‘Everybody Loves Raymond’ Cast to Reunite for 30th Anniversary&lt;br&gt;&lt;br&gt;">
+            <div class="imageArticle-title">‘Everybody Loves Raymond’ Cast to Reunite for 30th Anniversary<br><br></div>
+        </a>
+    </div>
+                        </div>
+                </div>
+            </div>
+            <div style="text-align:center;width:100%;">
+                <div style="margin:0px 0px 20px 0px;text-align:center;width:100%;"></div>    <link type="text/css" href="/widgets/gdpr/gdpr.css" rel="stylesheet">
+    <div class="gdpr-block"><div class="gdpr-heading">This website is using cookies.</div><div class="gdpr-text">We use them to give you the best experience. If you continue using our website, we will assume that you are happy to receive all cookies on this website.</div><div class="gdpr-links"><a href="/widgets/gdpr/rules.php?warid=58&amp;gdprid=5" aria-label="Agree to GDPR"><button class="gdpr-continue" title="Agree to GDPR">Continue</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/widgets/gdpr/rules.php?warid=59&amp;gdprid=5" class="gdpr-learn" aria-label="Learn more about GDPR" title="Learn more about GDPR">Learn more</a></div></div>            </div>
+            <div id="footer">
+                <div class="article-block"><table border="0" cellpadding="1" style="width:50%">
+                        <tbody>
+                            <tr>
+                                <td style="width:33%"><a class="footerlink" href="/news">News</a><br>
+                                    <a class="footerlink" href="/money">Money</a><br>
+                                    <a class="footerlink" href="/entertainment">Entertainment</a><br>
+                                    <a class="footerlink" href="/lifestyle">Lifestyle</a></td>
+                                <td style="vertical-align:top; width:33%">
+                                    <a class="footerlink" href="/health">Health</a><br>
+                                    <a class="footerlink" href="/travel">Travel</a><br>
+                                    <a class="footerlink" href="/video">Videos</a><br>
+                                    <a class="footerlink" href="/sports">Sports</a><br>
+                                </td>
+                                <td style="vertical-align:top; width:34%"><a class="footerlink" href="/about-us/About-Simcast">About Us</a><br>
+                                    <a class="footerlink" href="/about-us/Contact-Us">Contact Us</a><br>
+                                    <a class="footerlink" href="/about-us/policies/Privacy-Policy">Privacy Policy</a><br>
+                                    <a class="footerlink" href="/about-us/policies/Terms-of-Use">Terms of Use</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div><script src="https://mp.mmvideocdn.com/mini-player/prod/voltax_mp.js"></script>
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-205158314-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
 
-<script>
-    (function () {
-        document.getElementById("content").style.top = document.getElementById("content").previousElementSibling.clientHeight + "px";
-    })();
-</script>
+            gtag('config', 'UA-205158314-1');
+        </script>
+            
 
 
-</body>
+<iframe marginwidth="0" marginheight="0" scrolling="no" frameborder="0" id="1af506d88835ca8" width="0" height="0" src="about:blank" style="display: none; height: 0px; width: 0px; border: 0px;" name="__pb_locator__"></iframe><script type="text/javascript" id="" charset="">google_tag_manager["rm"]["98301455"](7);</script><div data-aaad="true" data-aa-adunit="/27416722/smc_sticky_footer" data-status="rendered" id="cac58af3-f7ab-4446-9ab3-98750a7c1c51" data-aa-device="[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]" data-aa-sizes="[[728,90]]" data-aa-lazy-loaded="false" data-aa-rich-media-format="{&quot;type&quot;:&quot;adhesion&quot;,&quot;options&quot;:{&quot;closeButton&quot;:&quot;true&quot;}}" style="display: none;" data-aa-infinite-ad-slider="false" data-google-query-id="CIy--uS365ADFXGFdwEdhFosAA"><div id="google_ads_iframe_/27416722/smc_sticky_footer_0__container__" style="border: 0pt; width: 728px; height: 0px;"></div></div><script src="https://imasdk.googleapis.com/js/sdkloader/ima3.js"></script><script>!function(w,d,t,u){
+      var a=d.createElement(t);a.async=1;a.src=u+"?url="+encodeURIComponent(w.location.href)+"&ref="+encodeURIComponent(d.referrer);
+      var s=d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(a,s);
+      }(window, document, 'script', 'https://a.ad.gt/api/v1/u/matches/454')</script><ins class="adsbygoogle adsbygoogle-noablate" style="display: none !important;" data-adsbygoogle-status="done" data-ad-status="unfilled"><div id="aswift_0_host" style="border: medium; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;min-height:auto;max-height:none;min-width:auto;max-width:none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9565037823771164&amp;output=html&amp;adk=1272721408&amp;adf=3838797007&amp;lmt=1762910070&amp;plat=1%3A16777216%2C2%3A16777216%2C3%3A16%2C4%3A16%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32&amp;format=0x0&amp;url=https%3A%2F%2Fsimcast.com%2F%3Fd%3Dfilesnatchcloud.top%26pcid%3D56%26a%3Dfalse%26uuid%3D28751b10db5fdf568a9b5824757c5ea5&amp;pra=5&amp;wgl=1&amp;asro=0&amp;aiapm=0.1542&amp;aiapmd=0.1423&amp;aiapmi=0.16&amp;aiapmid=1&amp;aiact=0.5423&amp;aiactd=0.7&amp;aicct=0.7&amp;aicctd=0.5799&amp;ailct=0.5849&amp;ailctd=0.65&amp;aimart=4&amp;aimartd=4&amp;aieuf=1&amp;aicrs=1&amp;abgtt=1&amp;dt=1762910069635&amp;bpp=2&amp;bdt=2826&amp;idt=905&amp;shv=r20251110&amp;mjsv=m202511060101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie_enabled=1&amp;eoidce=1&amp;nras=1&amp;correlator=5061171249698&amp;frm=20&amp;pv=2&amp;u_tz=0&amp;u_his=1&amp;u_h=768&amp;u_w=1366&amp;u_ah=768&amp;u_aw=1366&amp;u_cd=24&amp;u_sd=1&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1354&amp;bih=682&amp;scr_x=0&amp;scr_y=0&amp;eid=31095752%2C95376582%2C95376707%2C95377329%2C95377335&amp;oid=2&amp;pvsid=4462282874875157&amp;tmod=1423423305&amp;uas=0&amp;nvt=1&amp;fsapi=1&amp;ref=https%3A%2F%2Ffilesnatchcloud.top%2F&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1366%2C0%2C1366%2C768%2C1366%2C682&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;bz=1&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=940" data-google-container-id="a!1" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true"></iframe></div></ins><img height="1" width="1" style="display: none;" src="https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001762910070-W3MP5120-8R2Q" alt=""><img height="1" width="1" style="display: none;" src="https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001762910070-W3MP5120-8R2Q&amp;adnxs_id=$UID&amp;gdpr=0" alt=""><img height="1" width="1" style="display: none;" src="https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&amp;r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001762910070-W3MP5120-8R2Q%26auid%3DAU1D-0100-001762910070-W3MP5120-8R2Q&amp;gdpr=0" alt=""><img height="1" width="1" style="display: none;" src="https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001762910070-W3MP5120-8R2Q&amp;gdpr=0" alt=""><img height="1" width="1" style="display: none;" src="https://token.rubiconproject.com/token?pid=50242&amp;puid=AU1D-0100-001762910070-W3MP5120-8R2Q&amp;gdpr=0" alt=""><img height="1" width="1" style="display: none;" src="https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&amp;ttd_tpi=1&amp;ttd_puid=AU1D-0100-001762910070-W3MP5120-8R2Q&amp;gdpr=0" alt=""><img height="1" width="1" style="display: none;" src="https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&amp;partner_device_id=AU1D-0100-001762910070-W3MP5120-8R2Q&amp;partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001762910070-W3MP5120-8R2Q%26tapad_id%3D%24%7BTA_DEVICE_ID%7D&amp;gdpr=0" alt=""><img height="1" width="1" style="display: none;" src="https://cm.g.doubleclick.net/pixel?google_nid=audigent_dmp&amp;google_hm=QVUxRC0wMTAwLTAwMTc2MjkxMDA3MC1XM01QNTEyMC04UjJR&amp;google_redir=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fg_match&amp;id=AU1D-0100-001762910070-W3MP5120-8R2Q&amp;gdpr=0" alt=""><img height="1" width="1" style="display: none;" src="https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!{TURN_UUID}%26id%3DAU1D-0100-001762910070-W3MP5120-8R2Q" alt=""><img height="1" width="1" style="display: none;" src="https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001762910070-W3MP5120-8R2Q&amp;uid=[UID]&amp;gdpr=0" alt=""><img height="1" width="1" style="display: none;" src="https://ad.360yield.com/ux?&amp;publisher_dmp_id=15&amp;r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001762910070-W3MP5120-8R2Q%26impr_uid%3D%7BPUB_USER_ID%7D&amp;gdpr=0" alt=""><img height="1" width="1" style="display: none;" src="https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001762910070-W3MP5120-8R2Q" alt=""><img height="1" width="1" style="display: none;" src="https://sync.smartadserver.com/getuid?url=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fsmart_match%3Fid%3DAU1D-0100-001762910070-W3MP5120-8R2Q%26sas_uid%3D%5bsas_uid%5d&amp;gdpr=0" alt=""><img height="1" width="1" style="display: none;" src="https://bh.contextweb.com/bh/rtset?pid=562316&amp;ev=1&amp;rurl=https://ids.ad.gt/api/v1/ppnt_match?uid=%%VGUID%%&amp;id=AU1D-0100-001762910070-W3MP5120-8R2Q&amp;gdpr=0" alt=""><img height="1" width="1" style="display: none;" src="https://sync.1rx.io/usersync/audigent/0?dspret=1&amp;redir=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Funruly%3Fid%3DAU1D-0100-001762910070-W3MP5120-8R2Q%26unruly_id%3D%5BRX_UUID%5D&amp;gdpr=0" alt=""><img height="1" width="1" style="display: none;" src="https://sync.colossusssp.com/ebfa23da174faa55634171c5e49d0152.gif?puid=AU1D-0100-001762910070-W3MP5120-8R2Q&amp;redir=http%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fcolossus%3Fcls_id%3D%5BUID%5D%26id%3DAU1D-0100-001762910070-W3MP5120-8R2Q" alt=""><img height="1" width="1" style="display: none;" src="https://onetag-sys.com/match/?int_id=180&amp;uid=AU1D-0100-001762910070-W3MP5120-8R2Q&amp;gdpr=0" alt=""><img height="1" width="1" style="display: none;" src="https://dpm.demdex.net/ibs:dpid=348447&amp;dpuuid=AU1D-0100-001762910070-W3MP5120-8R2Q&amp;redir=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fadb_match%3Fadb%3D%24%7BDD_UUID%7D%26id%3DAU1D-0100-001762910070-W3MP5120-8R2Q&amp;gdpr=0" alt=""><script src="https://a.ad.gt/api/v1/u/matches/788?_it=tag"></script><script type="text/javascript" src="https://pixels.ad.gt/api/v1/getpixels?tagger_id=4ff599a9114936da63955c26ae68380b&amp;url=https%3A%2F%2Fsimcast.com%2F%3Fd%3Dfilesnatchcloud.top%26pcid%3D56%26a%3Dfalse%26uuid%3D28751b10db5fdf568a9b5824757c5ea5&amp;code='none'" async=""></script><script type="text/javascript" src="https://pixels.ad.gt/api/v1/getpixels?tagger_id=c00e13265049a1269f7ba06798f9868a&amp;url=https%3A%2F%2Fsimcast.com%2F%3Fd%3Dfilesnatchcloud.top%26pcid%3D56%26a%3Dfalse%26uuid%3D28751b10db5fdf568a9b5824757c5ea5&amp;code='none'" async=""></script><iframe style="display: none; width: 0px; height: 0px; border: medium; z-index: -1000; left: -1000px; top: -1000px;" name="googlefcPresent"></iframe><script type="text/javascript" src="https://pixels.ad.gt/api/v1/getpixels?tagger_id=4ff599a9114936da63955c26ae68380b&amp;url=https%3A%2F%2Fsimcast.com%2F%3Fd%3Dfilesnatchcloud.top%26pcid%3D56%26a%3Dfalse%26uuid%3D28751b10db5fdf568a9b5824757c5ea5&amp;code='none'" async=""></script><script type="text/javascript" src="https://pixels.ad.gt/api/v1/getpixels?tagger_id=c00e13265049a1269f7ba06798f9868a&amp;url=https%3A%2F%2Fsimcast.com%2F%3Fd%3Dfilesnatchcloud.top%26pcid%3D56%26a%3Dfalse%26uuid%3D28751b10db5fdf568a9b5824757c5ea5&amp;code='none'" async=""></script><script src="https://a.ad.gt/api/v1/u/matches/454?_it=0"></script><img height="1" width="1" style="display: none;" src="https://ids.ad.gt/api/v1/halo_match?id=AU1D-0100-001762910070-W3MP5120-8R2Q&amp;halo_id=060lod9j2g599999f989f9f9d9d9f66666607l6xtrz76676p657o6p7k6k6o1101" alt=""><iframe name="__tcfapiLocator" src="about:blank" style="display: none; width: 0px; height: 0px; border: medium; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcInactive" src="about:blank" style="display: none; width: 0px; height: 0px; border: medium; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcLoaded" src="about:blank" style="display: none; width: 0px; height: 0px; border: medium; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe src="https://gum.criteo.com/syncframe?origin=publishertagids&amp;topUrl=simcast.com&amp;gdpr=0&amp;gdpr_consent=#{&quot;bundle&quot;:{&quot;origin&quot;:0},&quot;optout&quot;:{&quot;value&quot;:false,&quot;origin&quot;:0},&quot;tld&quot;:&quot;simcast.com&quot;,&quot;topUrl&quot;:&quot;simcast.com&quot;,&quot;version&quot;:163,&quot;origin&quot;:&quot;publishertagids&quot;,&quot;requestId&quot;:&quot;0.028590659432068954&quot;}" width="0" height="0" frameborder="0" style="border-width: 0px; margin: 0px; display: none;" sandbox="allow-scripts allow-same-origin" aria-hidden="true" title="Criteo GUM iframe"></iframe><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe></body><iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20251110/r20190131/zrt_lookup_fy2021.html" style="display: none;"></iframe><iframe sandbox="allow-scripts allow-same-origin" id="54da5f2baf582af8" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://cs-server-s2s.yellowblue.io/sync-iframe?gdpr=0&amp;redirect=https%3A%2F%2Fcs.ingage.tech%2Fv1%2Fsync%2Frisecodes%2Faeb7c008-da56-4f1d-bc81-c03988256c33%3Fuid%3D%7BpartnerId%7D">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="555cbe0fef338c7" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://ap.lijit.com/pixel?redir=https%3A%2F%2Fcs.ingage.tech%2Fv1%2Fsync%2Fsovrn%2Faeb7c008-da56-4f1d-bc81-c03988256c33%3Fuid%3D%24UID&amp;gdpr=0">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="565b5e96f4657be8" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://ib.adnxs.com/getuid?https%3A%2F%2Fcs.ingage.tech%2Fv1%2Fsync%2Fxandr%2Faeb7c008-da56-4f1d-bc81-c03988256c33%3Fuid=%24UID&amp;gdpr=0">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="57f67ce4a5ca6e48" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://ssc-cms.33across.com/ps/?m=xch&amp;rt=html&amp;id=0010b00002T3JniAAF&amp;ru=https%3A%2F%2Fsync.adtelligent.com%2Fcsync%3Ft%3Dg%26ep%3D58%26traffic_source%3Dsnippet%26sp%3D723434%26pb%3D554204%26c%3D488210%26a%3D304056%26domain%3Dhttps%3A%2F%2Fsimcast.com%2F%3Fd%3Dfilesnatchcloud.top%26pcid%3D56%26a%3Dfalse%26uuid%3D28751b10db5fdf568a9b5824757c5ea5%26extuid%3D33XUSERID33X">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="581edfc0f71e226" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://onetag-sys.com/usync/?cb=1762910069657">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="5996981b1695bbd" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://sync.1rx.io/usersync2/rmpssp?sub=insticator">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="60f04f691167d588" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://match.sharethrough.com/universal/v1?supply_id=jc3Tkmr6&amp;gdpr=0">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="61ed14ce0e2cfa8" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://hbx.media.net/cksync.php?cs=1&amp;type=pbs&amp;ovsid=setstatuscode&amp;gdpr=0&amp;gdpr_consent={gdpr_consent}&amp;gpp={gpp}&amp;gpp_sid={gpp_sid}&amp;redirect=https%3A%2F%2Fsync.adtelligent.com%2Fcsync%3Ft%3Dg%26ep%3D142%26traffic_source%3Dsnippet%26sp%3D723434%26pb%3D554204%26c%3D750708%26a%3D754412%26domain%3Dhttps%3A%2F%2Fsimcast.com%2F%3Fd%3Dfilesnatchcloud.top%26pcid%3D56%26a%3Dfalse%26uuid%3D28751b10db5fdf568a9b5824757c5ea5%26extuid%3D%3Cvsid%3E">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="62783dae56bdee98" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://ssc-cms.33across.com/ps/?m=xch&amp;rt=html&amp;id=001Pg000012xbFyIAI&amp;ru=https%3A%2F%2Fsync.adtelligent.com%2Fcsync%3Ft%3Dg%26ep%3D58%26traffic_source%3Dsnippet%26sp%3D723434%26pb%3D554204%26c%3D844123%26a%3D778207%26domain%3Dhttps%3A%2F%2Fsimcast.com%2F%3Fd%3Dfilesnatchcloud.top%26pcid%3D56%26a%3Dfalse%26uuid%3D28751b10db5fdf568a9b5824757c5ea5%26extuid%3D33XUSERID33X">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="6390a723119a2208" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://sync.kueezrtb.com/api/sync/iframe/?cid=&amp;gdpr=0&amp;gdpr_consent=&amp;us_privacy=&amp;coppa=0">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="644920dcb7a76f58" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://use3-cs.amx1.net/isyn?__st=iframe&amp;gdpr=0&amp;gdpr_consent=&amp;us_privacy=1---&amp;_e=TVAxC4cDDK22UuOvcRRqanefeb47EVxOPvmhDGJhvpTFHDnNlVeN_b9qH3_EbOBThh74Qp1jwr3eCBHT0imMTrmYS-IPzarINoYRlE4ZqVc8vEOBfMceZy_NAV9fK1MfFrjbF0STi6OFAsiao7m98tPfsEj6db8pXo9RTFNe0U6gvI0RXxOa9I9PfGFqbYBkZeU1mCpwcxpfbX-kBbcxEiM0wNx4jviE-_iSk1WuCUMOC1jlq33PAMvNDJtgx73fetW70AQZoW3MFkgWR9f8H2Euaxk_igLFPb-XSU5QUTrbL4luTBqk9G42tY4pqg3jNtJILcl2eLcUWxhsdIFWxzWxu06yUHdoOK4m_lMED11Lxli5XTMTS6kVthmf228EpakNDx8MVc5rAAGok2uYj0FMHuNHBVddfMEYfu9fj7VVC2crLnvQ0yZG_3J_dkJ_jco9T-O7By_EnrxJ8Cp4ZsxnjrQh0QQ2b9ZM6GauCs0l3wOdNDXRaiABPK9WjkNda8Qo1khq0Y7zZ5ef">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="6523e6ebf13ea4a8" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://sync.cootlogix.com/api/sync/iframe/?cid=&amp;gdpr=0&amp;gdpr_consent=&amp;us_privacy=&amp;coppa=0">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="66446ea2eda70ea" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://visitor.omnitagjs.com/visitor/isync?uid=19340f4f097d16f41f34fc0274981ca4">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="67272015bb34d928" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://cs.pgammedia.com/iframe?pbjs=1&amp;coppa=0">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="685ccc7ba7e316b" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://u.4dex.io/usync.html?it=adg-pb-clt&amp;lang=en&amp;publisher_id=1088&amp;website_name=simcast-com">
+    </iframe>
