@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-11-12 | [`Vennerhus Weine AG`](https://google.com/search?q=Vennerhus+Weine+AG) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-11-11 | [`Fulgar S.p.A.`](https://google.com/search?q=Fulgar+S.p.A.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-11-11 | [`Public Safety Mutual Benefit Fund`](https://google.com/search?q=Public+Safety+Mutual+Benefit+Fund) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-11-11 | [`Octomeca Oy`](https://google.com/search?q=Octomeca+Oy) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-08-04 | [`White Horse Packaging`](https://google.com/search?q=White+Horse+Packaging) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-08-04 | [`Terillium`](https://google.com/search?q=Terillium) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-08-04 | [`Phoenix Lighting`](https://google.com/search?q=Phoenix+Lighting) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-08-04 | [`Backstage Library Works`](https://google.com/search?q=Backstage+Library+Works) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
