@@ -25,16 +25,197 @@ var ls = function(xhr, token) {
         }
     }
     
-    xhr.open('GET', '/munin/a/l' + 's?t=6915be3c&token=' + encodeURI(token), true);
+    xhr.open('GET', '/munin/a/l' + 's?t=6915d104&token=' + encodeURI(token), true);
     xhr.send();
 };
-ls(new XMLHttpRequest(), 'd49375ce9d7b7bdd558995df53c8049d6da3714a');
+ls(new XMLHttpRequest(), '5effbf399de0923272ee32f7cfa0c7190e8c5cd3');
 if (typeof window.onRTBFailure === 'function') { window.onRTBFailure(); }
 </script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>filesnatchcloud.top</title>
-        <style media="screen">
+            <style media="screen">
+#sale_link,
+#sale_link_bold,
+#sale_link_below {
+    color: rgb(0,0,0);
+    text-align: right;
+    font: 14px arial, sans-serif;
+    height: 20px;
+    padding: 10px 0 5px 0;
+    width: 900px;
+    margin: 0 auto;
+    z-index: 20;
+}
+#sale_link a,
+#sale_link_below a {
+    text-decoration: underline;
+    color: rgb(0,0,0);
+    font-size: 14px;
+}
+#sale_link_bold a {
+	font-weight: bold;
+    text-decoration: underline;
+    color: rgb(0,0,0);
+    font-size: 14px;
+}
+#sale_link a:hover,
+#sale_link_bold a:hover,
+#sale_link_below a:hover {
+    color: rgb(100,100,100);
+}
+
+#sale_link_below {
+    text-align: center;
+}
+
+
+
+#sale_banner_gray {
+    background: url('//d38psrni17bvxu.cloudfront.net/themes/sale/sale_simple.png') repeat-x;
+}
+#sale_banner_orange {
+    background: url('//d38psrni17bvxu.cloudfront.net/themes/sale/orange.png') repeat-x;
+}
+#sale_banner_gray,
+#sale_banner_orange {
+    border-bottom: 1px solid rgb(200,200,200);
+    color: rgb(200,200,200);
+    text-align: center;
+    font: 16px arial, sans-serif;
+    font-weight: bold;
+
+    padding: 8px 0 0 0;
+    height: 28px;
+}
+#sale_banner_gray a.firstlink,
+#sale_banner_orange a.firstlink {
+    text-decoration: none;
+    display: block;
+}
+#sale_banner_gray a,
+#sale_banner_orange a {
+    color: rgb(255,255,255);
+}
+
+#sale_banner_orange_wide {
+	background-position: bottom;
+	background-color: #E57921;
+	padding: 18px 0;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+#sale_banner_orange_wide a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#sale_discreet {
+    background: url('//d38psrni17bvxu.cloudfront.net/themes/sale/sale_simple.png') repeat-x;
+    border-bottom: 1px solid rgb(200,200,200);
+    color: rgb(200,200,200);
+    text-align: right;
+    font: 14px arial, sans-serif;
+    height: 28px;
+    padding: 10px 20px 0 0;
+}
+#sale_discreet a {
+    text-decoration: none;
+    color: rgb(240,240,240);
+    font-size: 14px;
+}
+
+#sale_prominent {
+    height: 68px;
+}
+#sale_prominent #grey {
+    background: rgb(145,140,137);
+    color: rgb(255,255,255);
+    text-align: right;
+    font: 14px arial, sans-serif;
+    height: 62px;
+    padding: 7px 15px 0 50px;
+    border-bottom: 1px solid rgb(90,90,90);
+    float: right;
+}
+#sale_prominent #grey img {
+    float: left;
+    margin: -7px 0 0 -100px;
+}
+#sale_prominent #sale_top {
+    font-size: 20px;
+}
+#sale_prominent #sale_bottom a {
+    text-decoration: none;
+    color: blue;
+    font-size: 14px;
+}
+
+#sale_diagonal_orange {
+	height:50px;
+	line-height:25px;
+	text-transform:uppercase;
+	font-family:'Port Lligat Slab',sans-serif;
+	font-weight:lighter; text-align:center;
+    z-index: 20;
+}
+
+#sale_diagonal_orange a {
+	display:block;
+	height:100%;
+	color:#000;
+	text-decoration:none;
+	background: #f25b00;
+	background: -moz-linear-gradient(left,  #f25b00 0%, #f49300 47%, #f25b00 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f25b00), color-stop(47%,#f49300), color-stop(100%,#f25b00));
+	background: -webkit-linear-gradient(left,  #f25b00 0%,#f49300 47%,#f25b00 100%);
+	background: -o-linear-gradient(left,  #f25b00 0%,#f49300 47%,#f25b00 100%);
+	background: -ms-linear-gradient(left,  #f25b00 0%,#f49300 47%,#f25b00 100%);
+	background: linear-gradient(to right,  #f25b00 0%,#f49300 47%,#f25b00 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f25b00', endColorstr='#f25b00',GradientType=1 );
+}
+
+#sale_diagonal_orange a:hover {
+	text-decoration:underline;
+}
+
+#sale_diagonal_orange span {
+	display:inline-block;
+	margin:0 3px;
+}
+#break {
+	display:none;
+}
+
+@media only screen and (min-width : 480px) {
+	#sale_diagonal_orange {
+		width: 400px;
+		height:70px;
+		position:fixed;
+		right:-120px;
+		top:42px;
+		line-height:20px;
+	    z-index: 20;
+	}
+
+	#sale_diagonal_orange a {
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		transform: rotate(45deg);
+		color: #fff;
+	}
+
+	#sale_diagonal_orange span:first-child {
+		padding-top: 5px;
+	}
+	#break {
+		display: block;
+	}
+}
+</style>        <style media="screen">
 .asset_star0 {
 	background: url('//d38psrni17bvxu.cloudfront.net/themes/assets/star0.gif') no-repeat center;
 	width: 13px;
@@ -181,20 +362,51 @@ if (typeof window.onRTBFailure === 'function') { window.onRTBFailure(); }
         a { color: #fff; }
     </style>
 
-    
-<script src="https://obseu.youstarsbuilding.com/ct?id=80705&amp;url=https%3A%2F%2Fww38.filesnatchcloud.top%2F&amp;sf=0&amp;tpi=&amp;ch=AdsDeli%20-%20domain%20-%20landingpage&amp;uvid=d49375ce9d7b7bdd558995df53c8049d6da3714a&amp;tsf=0&amp;tsfmi=&amp;tsfu=&amp;cb=1763032637214&amp;hl=1&amp;op=0&amp;ag=3678426874&amp;rand=041202210249100167990278811108092302851507201701761159566282875212012512096729729258009257&amp;fs=1366x682&amp;fst=1366x682&amp;np=linux%20x86_64&amp;nv=&amp;ref=&amp;ss=1366x768&amp;nc=0&amp;at=&amp;di=W1siZWYiLDI3MzJdLFsiYWJuY2giLDZdLFstNSwiLSJdLFstMjcsIi0iXSxbLTI5LCItIl0sWy0zNSwiWzE3NjMwMzI2MzY4ODEsMF0iXSxbLTQzLCIwMDAwMDAwMTAwMDAwMDAwMDAxMTEwMDEwMDAwMDEwMDAwMDAwMDAwMCJdLFstNjIsIjU4Il0sWy02OCwiLSJdLFstNzAsIi0iXSxbLTcsIi0iXSxbMTIsIntcImVcIjowLFwid2dsXCI6MX0iXSxbLTM4LCJjLC0xLC0xLDUzMywwLDAsMCwzMzQsNjYsMTE5LC0xLDAsLDEyMjYsMTM1NSwxMzU1Il0sWy00LCItIl0sWy0xNCwiLSJdLFstMjUsIi0iXSxbLTM5LCJbXCIyMDEwMDEwMVwiLDIsXCJHZWNrb1wiLFwiTmV0c2NhcGVcIixcIk1vemlsbGFcIixcIjIwMTgxMDAxMDAwMDAwXCIsbnVsbCxmYWxzZSxudWxsLGZhbHNlLG51bGwsNSx0cnVlLGZhbHNlLG51bGwsMCxmYWxzZSxmYWxzZSxmYWxzZSx0cnVlXSJdLFstNTEsIi0iXSxbLTU5LCJkZWZhdWx0Il0sWy02NCwiLSJdLFstMTcsIjQiXSxbLTIwLCItIl0sWy0yMSwiLSJdLFstNDgsIltcIi1cIixcIi1cIixcIi1cIixcIi1cIixcIi1cIl0iXSxbLTUyLCItIl0sWy01MywiMDAxIl0sWy02NywiLSJdLFstMSwiTGludXggeDg2XzY0Il0sWy0xOCwiWzAsMCwwLDFdIl0sWy0yOCwiZW4tVVMsZW4iXSxbLTMxLCJ0cnVlIl0sWy00MiwiODgzMzk5MDE2Il0sWy00NCwiMCw1LDAsNSJdLFstNDUsIjc1MiwwLDAsMCwwLDAsNzYxLDAsNjQ4LDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCJdLFstNDcsIlVUQyxlbi1VUyxsYXRuLGdyZWdvcnkiXSxbLTU4LCItIl0sWy02MywiLSJdLFstNjYsIi0iXSxbLTIsIjE2LEZCRVZCUnJDQXFZZ0VCMjRxZDFVVkZYVmRkc2FPMFJhenIybGZGM2hWRlZFU3MySGN0YTFkRW1sSURDYWxUN3R6K1BlZk8zT1RPSkZIMHYxLzVmWU54YW01bTN1YytwenpubkgiXSxbLTYsIntcIndcIjpbXCIwXCIsXCJvblJUQkZhaWx1cmVcIixcIm9uUlRCU3VjY2Vzc1wiLFwibHNcIixcImVuaGFuY2VVcmxcIixcInRyeUNvdW50XCIsXCJ3YWl0VGltZXJcIixcInRyeU1heFwiLFwicmV0cnlcIixcIl9fY3RjZ19jdF84MDcwNV9leGVjXCJdLFwiblwiOltdLFwiZFwiOltdfSJdLFstMTAsIi0iXSxbLTMwLCJbXCJ2XCIsMF0iXSxbLTM3LCItIl0sWy01NCwie1wiaFwiOltcIjMyOTk3Mjg0NTJcIixcIjgyMjgyMzExOVwiLFwiOTgzMjI2MjkwXCIsXCIyODcyODk5MzIwXCIsXCJfM1wiLFwiMjg3Mjg5OTMyMFwiXSxcImRcIjpbXSxcImJcIjpbXSxcInNcIjoxfSJdLFstOCwiLSJdLFstOSwiKyJdLFstMTIsIlwidW5zcGVjaWZpZWRcIiJdLFstMTYsIjAiXSxbLTE5LCJbMCwwLDAsMCwwLDAsMSwyNCwyNCxcIi1cIiwxMzY2LDc2OCwxMzY2LDc2OCwxMzY2LDc2OCwxMzY2LDY4MiwwLDAsMCwwLFwiLVwiLFwiLVwiLDEzNjYsNjgyLG51bGxdIl0sWy0yMiwiW1wiblwiLFwiblwiXSJdLFstNzIsIkV4VT0iXSxbLTMzLCItIl0sWy0zNCwiLSJdLFstNDAsIjM3Il0sWy00MSwiLSJdLFstNDYsIjAiXSxbLTYxLCItIl0sWy0yMywiKyJdLFstNDksIi0iXSxbLTU1LCIwIl0sWy02MCwiLSJdLFstNjUsIi0iXSxbLTEzLCItIl0sWy0yNCwiW10iXSxbLTI2LCItIl0sWy0zMiwiMCJdLFstNTAsIi0iXSxbLTU2LCJsYW5kc2NhcGUtcHJpbWFyeSJdLFstNTcsIlMzbFJUVTFKU2dNV0ZseE1WbHNYUUZaTVNrMVlTMHBiVEZCVlhWQlhYaGRhVmxRV1NrRkpGbEFXQ3dzTlh3RU1DZ2tMV0ZnTFd3OWNXZ29KV0ZoYUFGZ0JERjFZQzFwYlh3QVhVMG9EQ0FNQkRBMExBQlVPQ0FBV1RSZGNRVWxXUzAxS0ZnVjVVVTFOU1VvREZoWmNURlpiRjBCV1RFcE5XRXRLVzB4UVZWMVFWMTRYV2xaVUZrcEJTUlpRRmdzTERWOEJEQW9KQzFoWUMxc1BYRm9LQ1ZoWVdnQllBUXhkV0F0YVcxOEFGMU5LQXdnREFRd1BDdzQ9Il0sWyJibmNoIiwzNDVdLFstNjksIkxpbnV4IHg4Nl82NHx8fDR8LXwtIl0sWy03MSwiYTAxMTAwMTAxMDAxMDAxMDEwMDAxMDEwMDExMTExMDAwMDAwMTAiXSxbLTczLCJFaFE9Il0sWy0zLCJbXCJpbnRlcm5hbC1wZGYtdmlld2VyXCIsXCJpbnRlcm5hbC1wZGYtdmlld2VyXCIsXCJpbnRlcm5hbC1wZGYtdmlld2VyXCIsXCJpbnRlcm5hbC1wZGYtdmlld2VyXCIsXCJpbnRlcm5hbC1wZGYtdmlld2VyXCJdIl0sWy0xMSwie1widFwiOlwiXCIsXCJtXCI6W119Il0sWy0xNSwiLSJdLFstMzYsIltcIjY4My8zODRcIixcIjY4My8zODRcIl0iXSxbLTc0LCIwLDAiXSxbImRkYiIsIjAsMTUsMCwwLDEsMiwwLDAsMCwxLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwxLDAsMCwwLDAsMCwwLDAsMCwwLDEsMSwwLDEsMSwwLDAsMjMsMCwwLDAsMTIsMiwxNSwwLDE1OCwwLDAsMCwwLDAsMCw0LDAsMCwwLDEsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDIxLDAsMCwwLDAiXSxbImNiIiwiMCwwLDAsMCwwLDAsMCwwLDAsMiwwLDAsMzUsMCwwLDEsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDEsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwxLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDEsMCwwLDAsMCwwLDAsMCwwLDAsOSwwLDAsMCwwLDAsMTcsMCwwLDAsMCwxLDAsMCJdXQ%3D%3D&amp;dep=0&amp;pre=0&amp;sdd=&amp;cri=gmhgqqyii8&amp;pto=1605&amp;ver=65&amp;gac=-&amp;mei=&amp;ap=&amp;fe=1&amp;duid=1.1763032637.uhAAvRtGzMuPJLtI&amp;suid=1.1763032637.HK60WTE1bgrt9741&amp;tuid=1.1763032637.7zPReMqkDfmzX5E9&amp;fbc=-&amp;gtm=-&amp;it=6%2C1066%2C168&amp;fbcl=-&amp;gacl=-&amp;gacsd=-&amp;rtic=-&amp;rtict=-&amp;bgc=-&amp;spa=1&amp;urid=0&amp;ab=&amp;sck=-&amp;io=aGA2Og%3D%3D" async=""></script></head>
+    <meta name="description" content="This domain may be for sale!">
+<script src="https://obseu.youstarsbuilding.com/ct?id=80705&amp;url=https%3A%2F%2Fww38.filesnatchcloud.top%2F&amp;sf=0&amp;tpi=&amp;ch=AdsDeli%20-%20domain%20-%20landingpage&amp;uvid=5effbf399de0923272ee32f7cfa0c7190e8c5cd3&amp;tsf=0&amp;tsfmi=&amp;tsfu=&amp;cb=1763037445773&amp;hl=1&amp;op=0&amp;ag=3678426874&amp;rand=538018927141077995775900670776720380155259662118211697001861701509220106811856101781897580&amp;fs=1366x682&amp;fst=1366x682&amp;np=linux%20x86_64&amp;nv=&amp;ref=&amp;ss=1366x768&amp;nc=0&amp;at=&amp;di=W1siZWYiLDEzMjNdLFsiYWJuY2giLDVdLFstMSwiTGludXggeDg2XzY0Il0sWy0yMiwiW1wiblwiLFwiblwiXSJdLFstMjksIi0iXSxbLTMxLCJ0cnVlIl0sWy0zOCwiYywtMSwtMSw0MDMsMCwwLDAsMCw2MTQsMTQ1LC0xLDAsLDEyMjksMTU2NSwxNTY0Il0sWy00MiwiODgzMzk5MDE2Il0sWy01MCwiLSJdLFstNTMsIjAwMSJdLFstNjcsIi0iXSxbLTE0LCItIl0sWy0xNiwiMCJdLFstMTgsIlswLDAsMCwxXSJdLFstNjYsIi0iXSxbLTExLCJ7XCJ0XCI6XCJcIixcIm1cIjpbXCJkZXNjcmlwdGlvblwiXX0iXSxbLTIxLCItIl0sWy0yNiwiLSJdLFstNDAsIjM3Il0sWy00NSwiNzUyLDAsMCwwLDAsMCw3NjEsMCw2NDgsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwIl0sWy01MiwiLSJdLFstNTQsIntcImhcIjpbXCIzMjk5NzI4NDUyXCIsXCI4MjI4MjMxMTlcIixcIjk4MzIyNjI5MFwiLFwiMjg3Mjg5OTMyMFwiLFwiXzNcIixcIjI4NzI4OTkzMjBcIl0sXCJkXCI6W10sXCJiXCI6W10sXCJzXCI6MX0iXSxbLTY0LCItIl0sWy03NCwiMCwwIl0sWy0zLCJbXCJpbnRlcm5hbC1wZGYtdmlld2VyXCIsXCJpbnRlcm5hbC1wZGYtdmlld2VyXCIsXCJpbnRlcm5hbC1wZGYtdmlld2VyXCIsXCJpbnRlcm5hbC1wZGYtdmlld2VyXCIsXCJpbnRlcm5hbC1wZGYtdmlld2VyXCJdIl0sWy04LCItIl0sWy0xMiwiXCJ1bnNwZWNpZmllZFwiIl0sWy0zMiwiMCJdLFstNDEsIi0iXSxbLTYzLCItIl0sWy03MywiRWhRPSJdLFstNiwie1wid1wiOltcIjBcIixcIm9uUlRCRmFpbHVyZVwiLFwib25SVEJTdWNjZXNzXCIsXCJsc1wiLFwiX19jdGNnX2N0XzgwNzA1X2V4ZWNcIl0sXCJuXCI6W10sXCJkXCI6W119Il0sWy0yMCwiLSJdLFstMjMsIisiXSxbLTI0LCJbXSJdLFstNjAsIi0iXSxbLTEzLCItIl0sWy0xNSwiLSJdLFstMTcsIjQiXSxbLTQzLCIwMDAwMDAwMTAwMDAwMDAwMDAxMTEwMDEwMDAwMDEwMDAwMDAwMDAwMCJdLFstNDYsIjAiXSxbLTQ3LCJVVEMsZW4tVVMsbGF0bixncmVnb3J5Il0sWy01OSwiZGVmYXVsdCJdLFstNjIsIjU4Il0sWy0yLCI4MSxGQkVWQlJyQ0FxWWdFQjI0cWQxVVZGWFZkZHNhTzBSYXpyMmxmRjNoVkZWRVNzMkhjdGExZEVtbElEQ2FsVDd0eitQZWZPM09UT0pGSDB2MS81ZllOeGFtNW0zdWMrcHp6bm5IIl0sWy03LCItIl0sWy0yNywiLSJdLFstMzksIltcIjIwMTAwMTAxXCIsMixcIkdlY2tvXCIsXCJOZXRzY2FwZVwiLFwiTW96aWxsYVwiLFwiMjAxODEwMDEwMDAwMDBcIixudWxsLGZhbHNlLG51bGwsZmFsc2UsbnVsbCw1LHRydWUsZmFsc2UsbnVsbCwwLGZhbHNlLGZhbHNlLGZhbHNlLHRydWVdIl0sWy00NCwiMCw1LDAsNSJdLFstNTEsIi0iXSxbLTU4LCItIl0sWy02OCwiLSJdLFsxMiwie1wiZVwiOjAsXCJ3Z2xcIjoxfSJdLFstNCwiLSJdLFstNSwiLSJdLFstMjUsIi0iXSxbLTQ4LCJbXCItXCIsXCItXCIsXCItXCIsXCItXCIsXCItXCJdIl0sWy01NiwibGFuZHNjYXBlLXByaW1hcnkiXSxbLTU3LCJTM2xSVFUxSlNnTVdGbHhNVmxzWFFGWk1TazFZUzBwYlRGQlZYVkJYWGhkYVZsUVdTa0ZKRmxBV0N3c05Yd0VNQ2drTFdGZ0xXdzljV2dvSldGaGFBRmdCREYxWUMxcGJYd0FYVTBvRENBTUJEQTBMQUJVT0NBQVdUUmRjUVVsV1MwMUtGZ1Y1VVUxTlNVb0RGaFpjVEZaYkYwQldURXBOV0V0S1cweFFWVjFRVjE0WFdsWlVGa3BCU1JaUUZnc0xEVjhCREFvSkMxaFlDMXNQWEZvS0NWaFlXZ0JZQVF4ZFdBdGFXMThBRjFOS0F3Z0RBUXdQQ3c0PSJdLFstNzEsImEwMTEwMDEwMTAwMTAwMTAxMDAwMTAxMDAxMTExMTAwMDAwMDEwIl0sWy0yOCwiZW4tVVMsZW4iXSxbLTM0LCItIl0sWy0zNywiLSJdLFstNDksIi0iXSxbLTcyLCJFeFU9Il0sWy05LCIrIl0sWy0zMCwiW1widlwiLDBdIl0sWy0zNSwiWzE3NjMwMzc0NDU3NzEsMF0iXSxbLTY1LCItIl0sWy02OSwiTGludXggeDg2XzY0fHx8NHwtfC0iXSxbImJuY2giLDg2MV0sWy0xMCwiLSJdLFstMTksIlswLDAsMCwwLDAsMCwxLDI0LDI0LFwiLVwiLDEzNjYsNzY4LDEzNjYsNzY4LDEzNjYsNzY4LDEzNjYsNjgyLDAsMCwwLDAsXCItXCIsXCItXCIsMTM2Niw2ODIsbnVsbF0iXSxbLTMzLCItIl0sWy0zNiwiW1wiNjgzLzM4NFwiLFwiNjgzLzM4NFwiXSJdLFstNTUsIjAiXSxbLTYxLCItIl0sWy03MCwiLSJdLFsiZGRiIiwiMCw4MSwwLDAsMCwxLDAsMCwwLDAsMCwwLDAsMCwwLDEsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDEsMSwwLDAsMCwxLDAsMCw1NSwwLDAsMSwwLDIsMTgsMCw0MDEsMCwwLDAsMCwwLDAsMjMsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwIl0sWyJjYiIsIjAsMCwwLDAsMCwwLDAsMCwwLDEsMCwwLDgyLDAsMCwxLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwxLDEsMCwwLDAsMiwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDUxLDAsMCwwLDAsMCwxMjAsMCwwLDAsMSwwLDAsMCJdXQ%3D%3D&amp;dep=0&amp;pre=0&amp;sdd=&amp;cri=omjPubiZ8j&amp;pto=2296&amp;ver=65&amp;gac=-&amp;mei=&amp;ap=&amp;fe=1&amp;duid=1.1763037445.GFj3GUXjhGlFnTXX&amp;suid=1.1763037445.9WxtjtWFoukYR0IB&amp;tuid=1.1763037445.WSyuY93lNnVs1Gqt&amp;fbc=-&amp;gtm=-&amp;it=5%2C1189%2C177&amp;fbcl=-&amp;gacl=-&amp;gacsd=-&amp;rtic=-&amp;rtict=-&amp;bgc=-&amp;spa=1&amp;urid=0&amp;ab=&amp;sck=-&amp;io=aGA2Og%3D%3D" async=""></script></head>
 
 <body><a href="#" tabindex="-1" aria-hidden="true" rel="nofollow" style="opacity: 0.01; position: absolute; z-index: -999; width: 54px; height: 22px;">___</a><div style="opacity: 0.01; position: absolute; z-index: -1000; width: 54px; height: 22px;"></div>
 
-    <script async="" src="https://euob.youstarsbuilding.com/sxp/i/224f85302aa2b6ec30aac9a85da2cbf9.js" data-ch="AdsDeli - domain - landingpage" data-uvid="d49375ce9d7b7bdd558995df53c8049d6da3714a" class="ct_clicktrue_80705" data-jsonp="onCheqResponse"></script>
+    <script async="" src="https://euob.youstarsbuilding.com/sxp/i/224f85302aa2b6ec30aac9a85da2cbf9.js" data-ch="AdsDeli - domain - landingpage" data-uvid="5effbf399de0923272ee32f7cfa0c7190e8c5cd3" class="ct_clicktrue_80705" data-jsonp="onCheqResponse"></script>
     <noscript>
         <iframe src="https://obseu.youstarsbuilding.com/ns/224f85302aa2b6ec30aac9a85da2cbf9.html?ch=AdsDeli%20-%20domain%20-%20landingpage" width="0" height="0" style="display:none"></iframe>
     </noscript>
 <div>
-    <div id="plBanner"><script id="parklogic" type="text/javascript" src="https://parking3.parklogic.com/page/enhance.js?pcId=12&amp;domain=filesnatchcloud.top"></script></div>
-    </div>
+    
+    
+<style>
+	.sale_link_bold {
+		color: rgb(0,0,0);
+		text-align: right;
+		font: 14px arial, sans-serif;
+		height: 20px;
+		padding: 10px 0 5px 0;
+		width: 900px;
+		max-width:96%;
+		margin: 0 auto;
+		z-index: 20;
+	}
 
-<div id="content" style="top: 0px;">
+	.sale_link_bold a {
+		font-weight: bold;
+		text-decoration: underline;
+		color: rgb(0,0,0);
+		font-size: 14px;
+	}
+
+	.sale_link_bold a:hover {
+		color: rgb(100,100,100);
+	}
+</style>
+
+<div id="sale_link_bold" class="sale_link_bold">
+	        <a href="https://www.mydomaincontact.com/?domain_name=filesnatchcloud.top" target="_blank">
+			Buy this domain.
+	</a>
+</div>
+</div>
+
+<div id="content" style="top: 20px;">
     <div id="loading">
         <div class="spinner" role="status" aria-label="Loading"></div>
         <h1>We’re getting things ready</h1>
