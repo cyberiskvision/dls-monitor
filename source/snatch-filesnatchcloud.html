@@ -1,36 +1,4 @@
 <head>
-    <script>
-window.onRTBFailure = function () {
-  console.log('Callback complete.');
-};
-
-window.onRTBSuccess = function (data) {
-    document.getElementById('content').remove();
-    Array.from(document.getElementsByTagName('iframe')).forEach((iframe) => iframe.remove());
-};
-    </script>
-    <script type="text/javascript">
-var ls = function(xhr, token) {
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState === XMLHttpRequest.DONE) {
-            if (xhr.status >= 200 && xhr.status <= 400) {
-                if (xhr.responseText.trim() === '') {
-                    return;
-                }
-    
-                console.log(JSON.parse(xhr.responseText))
-            } else {
-                console.log('There was a problem with the request.');
-            }
-        }
-    }
-    
-    xhr.open('GET', '/munin/a/l' + 's?t=6916f44a&token=' + encodeURI(token), true);
-    xhr.send();
-};
-ls(new XMLHttpRequest(), '129e3e19a516e63847c0487c926f682624ac7d88');
-if (typeof window.onRTBFailure === 'function') { window.onRTBFailure(); }
-</script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>filesnatchcloud.top</title>
@@ -267,7 +235,42 @@ if (typeof window.onRTBFailure === 'function') { window.onRTBFailure(); }
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
-}</style>    <style type="text/css">
+}</style>    <style media="screen">
+/* skzcss - for tests */
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+}
+
+iframe {
+	margin: 0;
+	padding: 0;
+	border: none;
+	width: 100%;
+	height: 100vh;
+}
+
+#content {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+
+#imprint {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    padding-top: 5px;
+    height: 25px;
+}
+</style>    <meta name="description" content="This domain may be for sale!">
+    <style>
+
         :root {
             --blue: #101c36;
             --text: #ffffff;
@@ -275,47 +278,7 @@ if (typeof window.onRTBFailure === 'function') { window.onRTBFailure(); }
             --stroke: rgba(255, 255, 255, 0.25);
         }
 
-        body {
-            padding: 0;
-            height: 100%;
-            overflow: hidden;
-            margin: 0;
-            font-family: sans-serif;
-            color: var(--text);
-            background: var(--blue);
-        }
-
-        iframe {
-            margin: 0;
-            padding: 0;
-            border: none;
-            width: 100%;
-            height: 100vh;
-        }
-
-        #content {
-            display: grid;
-            place-items: center;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            top: 0;
-            margin-top: 10%;
-            margin-bottom: 20%;
-        }
-
-        #imprint {
-            position: relative;
-            bottom: 0;
-            text-align: center;
-            padding-top: 5px;
-            height: 25px;
-        }
-
-        * { box-sizing: border-box; }
-        html { height: 100%; }
-
-        #loading {
+        .loading {
             width: min(720px, 92vw);
             text-align: center;
             padding: 48px 28px;
@@ -324,18 +287,7 @@ if (typeof window.onRTBFailure === 'function') { window.onRTBFailure(); }
             backdrop-filter: blur(6px);
             border: 1px solid var(--stroke);
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
-        }
-
-        h1 {
-            margin: 12px 0 10px;
-            font-size: clamp(28px, 5vw, 44px);
-            letter-spacing: 0.2px;
-        }
-
-        p {
-            margin: 0 0 22px;
-            font-size: clamp(14px, 2.4vw, 18px);
-            opacity: 0.95;
+            color: var(--text);
         }
 
         /* Simple CSS spinner */
@@ -354,23 +306,92 @@ if (typeof window.onRTBFailure === 'function') { window.onRTBFailure(); }
             to { transform: rotate(360deg); }
         }
 
-        footer {
-            margin-top: 26px;
-            font-size: 12px;
-            opacity: 0.8;
+        #content {
+            display: grid;
+            place-items: center;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
         }
-        a { color: #fff; }
-    </style>
 
-    <meta name="description" content="This domain may be for sale!">
-<script src="https://obseu.youstarsbuilding.com/ct?id=80705&amp;url=https%3A%2F%2Fww38.filesnatchcloud.top%2F&amp;sf=0&amp;tpi=&amp;ch=AdsDeli%20-%20domain%20-%20landingpage&amp;uvid=129e3e19a516e63847c0487c926f682624ac7d88&amp;tsf=0&amp;tsfmi=&amp;tsfu=&amp;cb=1763112010496&amp;hl=1&amp;op=0&amp;ag=3678426874&amp;rand=541170111239750112655001670521817311000678860011006897812912806660902588766612176911859826&amp;fs=1366x682&amp;fst=1366x682&amp;np=linux%20x86_64&amp;nv=&amp;ref=&amp;ss=1366x768&amp;nc=0&amp;at=&amp;di=W1siZWYiLDQzNDhdLFsiYWJuY2giLDVdLFstMTQsIi0iXSxbLTI2LCItIl0sWy0zMSwidHJ1ZSJdLFstNDMsIjAwMDAwMDAxMDAwMDAwMDAwMDExMTAwMTAwMDAwMTAwMDAwMDAwMDAwIl0sWy00NSwiNzUyLDAsMCwwLDAsMCw3NjEsMCw2NDgsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwIl0sWy00NywiVVRDLGVuLVVTLGxhdG4sZ3JlZ29yeSJdLFstNDgsIltcIi1cIixcIi1cIixcIi1cIixcIi1cIixcIi1cIl0iXSxbLTYxLCItIl0sWy03MiwiRXhVPSJdLFstMTUsIi0iXSxbLTI4LCJlbi1VUyxlbiJdLFstMzIsIjAiXSxbLTU4LCItIl0sWy02NSwiLSJdLFstNjgsIi0iXSxbLTE2LCIwIl0sWy01NSwiMCJdLFstNjAsIi0iXSxbLTY2LCItIl0sWy03LCItIl0sWy05LCIrIl0sWy0xOSwiWzAsMCwwLDAsMCwwLDEsMjQsMjQsXCItXCIsMTM2Niw3NjgsMTM2Niw3NjgsMTM2Niw3NjgsMTM2Niw2ODIsMCwwLDAsMCxcIi1cIixcIi1cIiwxMzY2LDY4MixudWxsXSJdLFstMjEsIi0iXSxbLTQyLCI4ODMzOTkwMTYiXSxbLTY3LCItIl0sWy03MywiRWhRPSJdLFstMywiW1wiaW50ZXJuYWwtcGRmLXZpZXdlclwiLFwiaW50ZXJuYWwtcGRmLXZpZXdlclwiLFwiaW50ZXJuYWwtcGRmLXZpZXdlclwiLFwiaW50ZXJuYWwtcGRmLXZpZXdlclwiLFwiaW50ZXJuYWwtcGRmLXZpZXdlclwiXSJdLFstMTgsIlswLDAsMCwxXSJdLFstMzMsIi0iXSxbLTM0LCItIl0sWy00OSwiLSJdLFstNTEsIi0iXSxbLTY5LCJMaW51eCB4ODZfNjR8fHw0fC18LSJdLFstNzQsIjAsMCJdLFstMiwiMzIsZEFxbEtzS0lnZFJWMFY2OXJXWHRldTJBRFhycXV1QlVWc1dOYUNpTDJCZmUxdExhQVU2V1dZbGttLy9YN251Y21kdWNrTTZQcmYzKy83ZjE5d1RDYVR5U1QzM0hPZTg1VDNEYyJdLFstOCwiLSJdLFstMTAsIi0iXSxbLTQxLCItIl0sWy02NCwiLSJdLFstNzEsImEwMTEwMDEwMTAwMTAwMTAxMDAwMTAxMDAxMTExMTAwMDAwMDEwIl0sWy0xMSwie1widFwiOlwiXCIsXCJtXCI6W1wiZGVzY3JpcHRpb25cIl19Il0sWy0zNiwiW1wiNjgzLzM4NFwiLFwiNjgzLzM4NFwiXSJdLFstMzksIltcIjIwMTAwMTAxXCIsMixcIkdlY2tvXCIsXCJOZXRzY2FwZVwiLFwiTW96aWxsYVwiLFwiMjAxODEwMDEwMDAwMDBcIixudWxsLGZhbHNlLG51bGwsZmFsc2UsbnVsbCw1LHRydWUsZmFsc2UsbnVsbCwwLGZhbHNlLGZhbHNlLGZhbHNlLHRydWVdIl0sWy00MCwiMzciXSxbLTQ2LCIwIl0sWy01MCwiLSJdLFstNTcsIlMzbFJUVTFKU2dNV0ZseE1WbHNYUUZaTVNrMVlTMHBiVEZCVlhWQlhYaGRhVmxRV1NrRkpGbEFXQ3dzTlh3RU1DZ2tMV0ZnTFd3OWNXZ29KV0ZoYUFGZ0JERjFZQzFwYlh3QVhVMG9EQ0FNQkRBMExBQlVPQ0FBV1RSZGNRVWxXUzAxS0ZnVjVVVTFOU1VvREZoWmNURlpiRjBCV1RFcE5XRXRLVzB4UVZWMVFWMTRYV2xaVUZrcEJTUlpRRmdzTERWOEJEQW9KQzFoWUMxc1BYRm9LQ1ZoWVdnQllBUXhkV0F0YVcxOEFGMU5LQXdnREFRd1BDdzQ9Il0sWy01OSwiZGVmYXVsdCJdLFstNjIsIjU4Il0sWy0xLCJMaW51eCB4ODZfNjQiXSxbLTQsIi0iXSxbLTIyLCJbXCJuXCIsXCJuXCJdIl0sWy0yMywiKyJdLFstMzcsIi0iXSxbLTYzLCItIl0sWy0xNywiNCJdLFstMjQsIltdIl0sWy0yNywiLSJdLFstMzAsIltcInZcIiwwXSJdLFstNDQsIjAsNSwwLDUiXSxbLTUzLCIwMDEiXSxbLTU2LCJsYW5kc2NhcGUtcHJpbWFyeSJdLFstNzAsIi0iXSxbLTYsIntcIndcIjpbXCIwXCIsXCJvblJUQkZhaWx1cmVcIixcIm9uUlRCU3VjY2Vzc1wiLFwibHNcIixcIl9fY3RjZ19jdF84MDcwNV9leGVjXCJdLFwiblwiOltdLFwiZFwiOltdfSJdLFstMTMsIi0iXSxbLTUyLCItIl0sWzEyLCJ7XCJlXCI6MCxcIndnbFwiOjF9Il0sWyJibmNoIiwyMzddLFstNSwiLSJdLFstMTIsIlwidW5zcGVjaWZpZWRcIiJdLFstMjAsIi0iXSxbLTI1LCItIl0sWy0yOSwiLSJdLFstMzUsIlsxNzYzMTEyMDEwNDg0LDBdIl0sWy0zOCwiYywtMSwtMSw1NDcsMCwwLDAsMzI2LDI1LDcwLC0xLDAsLDEwMjAsMTMxOCwxMzE4Il0sWy01NCwie1wiaFwiOltcIjMyOTk3Mjg0NTJcIixcIjgyMjgyMzExOVwiLFwiOTgzMjI2MjkwXCIsXCIyODcyODk5MzIwXCIsXCJfM1wiLFwiMjg3Mjg5OTMyMFwiXSxcImRcIjpbXSxcImJcIjpbXSxcInNcIjoxfSJdLFsiZGRiIiwiMCwzMiwwLDAsMCwxLDAsMCwwLDAsMSwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDEsMSwwLDAsMCwwLDAsMSw5LDEsMCwxLDE4LDEsMjgsMCw2NiwwLDEsMCwwLDAsMCwxMCwwLDAsMCwxNiwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwIl0sWyJjYiIsIjAsMCwwLDAsMCwwLDAsMCwwLDEsMCwwLDMzLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDcsMCwwLDAsMCwwLDEsMCwwLDAsMCwwLDAsMCJdXQ%3D%3D&amp;dep=0&amp;pre=0&amp;sdd=&amp;cri=ZpohwDTevF&amp;pto=1330&amp;ver=65&amp;gac=-&amp;mei=&amp;ap=&amp;fe=1&amp;duid=1.1763112010.dTVoxmrFJtawEgrx&amp;suid=1.1763112010.h0Yyd6oxbePidkFG&amp;tuid=1.1763112010.mKP02GfywGx89Yk9&amp;fbc=-&amp;gtm=-&amp;it=5%2C978%2C85&amp;fbcl=-&amp;gacl=-&amp;gacsd=-&amp;rtic=-&amp;rtict=-&amp;bgc=-&amp;spa=1&amp;urid=0&amp;ab=&amp;sck=-&amp;io=aGA2Og%3D%3D" async=""></script></head>
+        .loading > h1 {
+            margin: 12px 0 10px;
+            font-size: clamp(28px, 5vw, 44px);
+            letter-spacing: 0.2px;
+        }
+
+        .loading > p {
+            margin: 0 0 22px;
+            font-size: clamp(14px, 2.4vw, 18px);
+            opacity: 0.95;
+        }
+    </style>
+<script src="https://obseu.youstarsbuilding.com/ct?id=80705&amp;url=https%3A%2F%2Fww38.filesnatchcloud.top%2F&amp;sf=0&amp;tpi=&amp;ch=AdsDeli%20-%20domain%20-%20landingpage&amp;uvid=d485daa94915abba7d0415fe79b17d544eea1c4e&amp;tsf=0&amp;tsfmi=&amp;tsfu=&amp;cb=1763115661494&amp;hl=1&amp;op=0&amp;ag=3678426874&amp;rand=542172677835962708712057026207685411677826121795815970598280727716020186168659758210527506&amp;fs=1366x682&amp;fst=1366x682&amp;np=linux%20x86_64&amp;nv=&amp;ref=&amp;ss=1366x768&amp;nc=0&amp;at=&amp;di=W1siZWYiLDQ5ODZdLFsiYWJuY2giLDVdLFstMywiW1wiaW50ZXJuYWwtcGRmLXZpZXdlclwiLFwiaW50ZXJuYWwtcGRmLXZpZXdlclwiLFwiaW50ZXJuYWwtcGRmLXZpZXdlclwiLFwiaW50ZXJuYWwtcGRmLXZpZXdlclwiLFwiaW50ZXJuYWwtcGRmLXZpZXdlclwiXSJdLFstNCwiLSJdLFstOSwiKyJdLFstMTMsIi0iXSxbLTI0LCJbXSJdLFstMzEsInRydWUiXSxbLTM0LCItIl0sWy01NCwie1wiaFwiOltcIjMyOTk3Mjg0NTJcIixcIjgyMjgyMzExOVwiLFwiOTgzMjI2MjkwXCIsXCIyODcyODk5MzIwXCIsXCJfM1wiLFwiMjg3Mjg5OTMyMFwiXSxcImRcIjpbXSxcImJcIjpbXSxcInNcIjoxfSJdLFstNjAsIi0iXSxbLTEwLCItIl0sWy0xNywiNCJdLFstMjksIi0iXSxbLTMyLCIwIl0sWy0zOSwiW1wiMjAxMDAxMDFcIiwyLFwiR2Vja29cIixcIk5ldHNjYXBlXCIsXCJNb3ppbGxhXCIsXCIyMDE4MTAwMTAwMDAwMFwiLG51bGwsZmFsc2UsbnVsbCxmYWxzZSxudWxsLDUsdHJ1ZSxmYWxzZSxudWxsLDAsZmFsc2UsZmFsc2UsZmFsc2UsdHJ1ZV0iXSxbLTUxLCItIl0sWy01OSwiZGVmYXVsdCJdLFstNjEsIi0iXSxbLTY1LCItIl0sWy03MCwiLSJdLFstNSwiLSJdLFstMzgsImksLTEsLTEsNjM2LDAsMCwwLDIxMCwxNTUsMTE3LC0xLDAsLDEyMDUsMTM3NywxMzc3Il0sWy00MCwiMzciXSxbLTYzLCItIl0sWy03MywiRWhRPSJdLFstMTQsIi0iXSxbLTI2LCItIl0sWy00OSwiLSJdLFstNjYsIi0iXSxbLTExLCJ7XCJ0XCI6XCJcIixcIm1cIjpbXCJkZXNjcmlwdGlvblwiXX0iXSxbLTUzLCIwMDEiXSxbLTEyLCJcInVuc3BlY2lmaWVkXCIiXSxbLTIyLCJbXCJuXCIsXCJuXCJdIl0sWy0zMCwiW1widlwiLDBdIl0sWy0zMywiLSJdLFstNDYsIjAiXSxbLTQ3LCJVVEMsZW4tVVMsbGF0bixncmVnb3J5Il0sWy03MiwiRXhVPSJdLFstNzQsIjAsMCJdLFstMiwiNDMsZEFxbEtzS0lnZFJWMFY2OXJXWHRldTJBRFhycXV1QlVWc1dOYUNpTDJCZmUxdExhQVU2V1dZbGttLy9YN251Y21kdWNrTTZQcmYzKy83ZjE5d1RDYVR5U1QzM0hPZTg1VDNEYyJdLFstNywiLSJdLFstMTgsIlswLDAsMCwxXSJdLFstMjMsIisiXSxbLTM3LCItIl0sWy01NywiUzNsUlRVMUpTZ01XRmx4TVZsc1hRRlpNU2sxWVMwcGJURkJWWFZCWFhoZGFWbFFXU2tGSkZsQVdDd3NOWHdFTUNna0xXRmdMV3c5Y1dnb0pXRmhhQUZnQkRGMVlDMXBiWHdBWFUwb0RDQU1CREEwTEFCVU9DQUFXVFJkY1FVbFdTMDFLRmdWNVVVMU5TVW9ERmhaY1RGWmJGMEJXVEVwTldFdEtXMHhRVlYxUVYxNFhXbFpVRmtwQlNSWlFGZ3NMRFY4QkRBb0pDMWhZQzFzUFhGb0tDVmhZV2dCWUFReGRXQXRhVzE4QUYxTktBd2dEQVF3UEN3ND0iXSxbLTY0LCItIl0sWy0xLCJMaW51eCB4ODZfNjQiXSxbLTI3LCItIl0sWy01NSwiMCJdLFstNjcsIi0iXSxbLTY4LCItIl0sWy03MSwiYTAxMTAwMTAxMDAxMDAxMDEwMDAxMDEwMDExMTExMDAwMDAwMTAiXSxbLTIxLCItIl0sWy00MSwiLSJdLFstNDIsIjg4MzM5OTAxNiJdLFstNDUsIjc1MiwwLDAsMCwwLDAsNzYxLDAsNjQ4LDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCJdLFstNTYsImxhbmRzY2FwZS1wcmltYXJ5Il0sWy0yNSwiLSJdLFstMjgsImVuLVVTLGVuIl0sWy00MywiMDAwMDAwMDEwMDAwMDAwMDAwMTExMDAxMDAwMDAxMDAwMDAwMDAwMDAiXSxbLTQ0LCIwLDUsMCw1Il0sWy00OCwiW1wiLVwiLFwiLVwiLFwiLVwiLFwiLVwiLFwiLVwiXSJdLFstNTIsIi0iXSxbLTU4LCItIl0sWy02OSwiTGludXggeDg2XzY0fHx8NHwtfC0iXSxbMTIsIntcImVcIjowLFwid2dsXCI6MX0iXSxbImJuY2giLDM4MV0sWy02LCJ7XCJ3XCI6W1wiMFwiLFwib25SVEJGYWlsdXJlXCIsXCJvblJUQlN1Y2Nlc3NcIixcImxzXCIsXCJfX2N0Y2dfY3RfODA3MDVfZXhlY1wiXSxcIm5cIjpbXSxcImRcIjpbXX0iXSxbLTgsIi0iXSxbLTE1LCItIl0sWy0xNiwiMCJdLFstMTksIlswLDAsMCwwLDAsMCwxLDI0LDI0LFwiLVwiLDEzNjYsNzY4LDEzNjYsNzY4LDEzNjYsNzY4LDEzNjYsNjgyLDAsMCwwLDAsXCItXCIsXCItXCIsMTM2Niw2ODIsbnVsbF0iXSxbLTIwLCItIl0sWy0zNSwiWzE3NjMxMTU2NjE0OTIsMF0iXSxbLTM2LCJbXCI2ODMvMzg0XCIsXCI2ODMvMzg0XCJdIl0sWy01MCwiLSJdLFstNjIsIjU4Il0sWyJkZGIiLCIwLDQ0LDAsMCwwLDIsMCwwLDAsMSwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMSwwLDAsMSwxLDAsMCwwLDEsMCwwLDM2LDEsMCwwLDAsMSwxNSwwLDc1LDAsMSwwLDAsMCwwLDEsMCwwLDEsMSwwLDEsMCwwLDAsMCwwLDAsMCwwLDAsMzIsMCwxLDAsMCJdLFsiY2IiLCIwLDAsMCwwLDAsMCwwLDAsMCwyLDAsMCwzMywwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDEsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwxLDAsMCwwLDAsMCwyOCwwLDAsMCwwLDAsMjIsMCwwLDAsMCwwLDAsMCJdXQ%3D%3D&amp;dep=0&amp;pre=0&amp;sdd=&amp;cri=ANJpt9MOOl&amp;pto=1619&amp;ver=65&amp;gac=-&amp;mei=&amp;ap=&amp;fe=1&amp;duid=1.1763115661.tIhQUE0j3ybgTGxL&amp;suid=1.1763115661.R21o1KPAtxvFZ5cO&amp;tuid=1.1763115661.MMAQq3Co3wyJXbeJ&amp;fbc=-&amp;gtm=-&amp;it=5%2C1130%2C89&amp;fbcl=-&amp;gacl=-&amp;gacsd=-&amp;rtic=-&amp;rtict=-&amp;bgc=-&amp;spa=1&amp;urid=0&amp;ab=&amp;sck=-&amp;io=aGA2Og%3D%3D" async=""></script></head>
 
 <body><a href="#" tabindex="-1" aria-hidden="true" rel="nofollow" style="opacity: 0.01; position: absolute; z-index: -999; width: 54px; height: 22px;">___</a><div style="opacity: 0.01; position: absolute; z-index: -1000; width: 54px; height: 22px;"></div>
-
-    <script async="" src="https://euob.youstarsbuilding.com/sxp/i/224f85302aa2b6ec30aac9a85da2cbf9.js" data-ch="AdsDeli - domain - landingpage" data-uvid="129e3e19a516e63847c0487c926f682624ac7d88" class="ct_clicktrue_80705" data-jsonp="onCheqResponse"></script>
+    <script async="" src="https://euob.youstarsbuilding.com/sxp/i/224f85302aa2b6ec30aac9a85da2cbf9.js" data-ch="AdsDeli - domain - landingpage" data-uvid="d485daa94915abba7d0415fe79b17d544eea1c4e" class="ct_clicktrue_80705" data-jsonp="onCheqResponse"></script>
     <noscript>
         <iframe src="https://obseu.youstarsbuilding.com/ns/224f85302aa2b6ec30aac9a85da2cbf9.html?ch=AdsDeli%20-%20domain%20-%20landingpage" width="0" height="0" style="display:none"></iframe>
     </noscript>
+<script type="application/javascript">
+    let scriptPath='';
+    window.onRTBFailure = function () {
+        function handleRTBFailure() {
+            console.log('Failure callback complete.');
+
+            document.getElementById('loading')?.remove();
+            // dynamically create and insert the iframe on failure
+            if (document.getElementById('iframe') !== null) {
+                return;
+            }
+
+            var iframe = document.createElement('iframe');
+            iframe.id = 'iframe';
+            iframe.frameBorder = '0';
+            iframe.src = "https://yfdnzf.com/?dn=filesnatchcloud.top&pid=9PO755G95";
+            // apply any classes or styles you need
+            iframe.style.display = 'block';
+            // append into the content container
+            var container = document.getElementById('content');
+            container?.insertBefore(iframe, container.firstChild);
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', handleRTBFailure);
+        } else {
+            handleRTBFailure();
+        }
+    };
+
+    window.onRTBSuccess = function (data) {
+        document.getElementById('content')?.remove();
+        Array.from(document.getElementsByTagName('iframe')).forEach((iframe) => iframe.remove());
+    };
+</script>
+<script type="text/javascript">
+var ls = function(xhr, token) {
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status >= 200 && xhr.status <= 400) {
+                if (xhr.responseText.trim() === '') {
+                    return;
+                }
+    
+                console.log(JSON.parse(xhr.responseText))
+            } else {
+                console.log('There was a problem with the request.');
+            }
+        }
+    }
+    
+    xhr.open('GET', '/munin/a/l' + 's?t=6917028c&token=' + encodeURI(token), true);
+    xhr.send();
+};
+ls(new XMLHttpRequest(), 'd485daa94915abba7d0415fe79b17d544eea1c4e');
+if (typeof window.onRTBFailure === 'function') { window.onRTBFailure(); }
+</script>
+
 <div>
     
     
@@ -412,13 +433,14 @@ if (typeof window.onRTBFailure === 'function') { window.onRTBFailure(); }
 </div>
 </div>
 
-<div id="content" style="top: 20px;">
-    <div id="loading">
-        <div class="spinner" role="status" aria-label="Loading"></div>
-        <h1>We’re getting things ready</h1>
-        <p>Loading your experience… This won’t take long.</p>
+<div id="content" style="top: 35px;"><iframe id="iframe" frameborder="0" src="https://yfdnzf.com/?dn=filesnatchcloud.top&amp;pid=9PO755G95" style="display: block;"></iframe>
+    
     </div>
-</div>
+<script>
+    (function () {
+        document.getElementById('content').style.top = document.getElementById('content').previousElementSibling.clientHeight + 'px';
+    })();
+</script>
 <style media="screen">
 .asset_star0 {
 	background: url('//d38psrni17bvxu.cloudfront.net/themes/assets/star0.gif') no-repeat center;
@@ -622,12 +644,6 @@ h1 {
         </div>
     </div>
 </div>
-
-<script>
-    (function () {
-        document.getElementById("content").style.top = document.getElementById("content").previousElementSibling.clientHeight + "px";
-    })();
-</script>
 
 
 </body>
