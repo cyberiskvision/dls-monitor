@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-11-14 | [`Sellers Publishing`](https://google.com/search?q=Sellers+Publishing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-14 | [`BK Precision`](https://google.com/search?q=BK+Precision) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-12 | [`Soleol`](https://google.com/search?q=Soleol) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-11-12 | [`Vennerhus Weine AG`](https://google.com/search?q=Vennerhus+Weine+AG) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-08-06 | [`Emprise`](https://google.com/search?q=Emprise) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-08-06 | [`Brad's Bedding Plants`](https://google.com/search?q=Brad%27s+Bedding+Plants) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-08-04 | [`Bucks County Opportunity Council, INC.`](https://google.com/search?q=Bucks+County+Opportunity+Council%2C+INC.) | [moneymessage](https://ransomwatch.telemetry.ltd/#/profiles?id=moneymessage) |
-| 2025-08-04 | [`White Horse Packaging`](https://google.com/search?q=White+Horse+Packaging) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
