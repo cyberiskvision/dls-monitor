@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-11-20 | [`Artesian Insurance`](https://google.com/search?q=Artesian+Insurance) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-20 | [`Applied Energy Systems`](https://google.com/search?q=Applied+Energy+Systems) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-20 | [`Makro`](https://google.com/search?q=Makro) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-11-18 | [`Smoll & Banning, CPAs`](https://google.com/search?q=Smoll+%26+Banning%2C+CPAs) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-08-11 | [`Rite Track`](https://google.com/search?q=Rite+Track) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-08-11 | [`Bluewater Yacht Sales`](https://google.com/search?q=Bluewater+Yacht+Sales) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-08-10 | [`Alascom`](https://google.com/search?q=Alascom) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
-| 2025-08-09 | [`RHI Supply`](https://google.com/search?q=RHI+Supply) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
