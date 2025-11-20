@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-11-20 | [`Makro`](https://google.com/search?q=Makro) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-11-18 | [`Smoll & Banning, CPAs`](https://google.com/search?q=Smoll+%26+Banning%2C+CPAs) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-11-17 | [`dulay.ca`](https://google.com/search?q=dulay.ca) | [ransomblog_noname](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomblog_noname) |
 | 2025-11-17 | [`[DISCLOSED]Victorian Chemical`](https://google.com/search?q=%5BDISCLOSED%5DVictorian+Chemical) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-08-10 | [`Alascom`](https://google.com/search?q=Alascom) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-08-09 | [`RHI Supply`](https://google.com/search?q=RHI+Supply) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-08-09 | [`NEAS`](https://google.com/search?q=NEAS) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-08-09 | [`CFI Tire Service`](https://google.com/search?q=CFI+Tire+Service) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
