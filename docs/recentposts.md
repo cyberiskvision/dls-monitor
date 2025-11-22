@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-11-22 | [`Turkstra Trusses`](https://google.com/search?q=Turkstra+Trusses) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-22 | [`Keystone Fabricating`](https://google.com/search?q=Keystone+Fabricating) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-22 | [`Katch Kan`](https://google.com/search?q=Katch+Kan) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-22 | [`St. Joseph's Healthcare Hamilton`](https://google.com/search?q=St.+Joseph%27s+Healthcare+Hamilton) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-08-20 | [`Greater Pittsburgh Orthopaedic Associates`](https://google.com/search?q=Greater+Pittsburgh+Orthopaedic+Associates) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-08-20 | [`Elkhart Independent School District`](https://google.com/search?q=Elkhart+Independent+School+District) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-08-19 | [`Maxell Asia`](https://google.com/search?q=Maxell+Asia) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
-| 2025-08-15 | [`eShipGlobal`](https://google.com/search?q=eShipGlobal) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
