@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-11-26 | [`ADC Aerospace`](https://google.com/search?q=ADC+Aerospace) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-25 | [`Marlex Human Capital`](https://google.com/search?q=Marlex+Human+Capital) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-11-24 | [`Swedish Arts Council`](https://google.com/search?q=Swedish+Arts+Council) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-11-24 | [`Collge Superieur De Montreal`](https://google.com/search?q=Collge+Superieur+De+Montreal) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-08-25 | [`https://www.woodlore.ca`](https://google.com/search?q=https%3A%2F%2Fwww.woodlore.ca) | [metaencryptor](https://ransomwatch.telemetry.ltd/#/profiles?id=metaencryptor) |
 | 2025-08-25 | [`DLCOSMETICS O.E.`](https://google.com/search?q=DLCOSMETICS+O.E.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-08-20 | [`Omega Global Technologies`](https://google.com/search?q=Omega+Global+Technologies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-08-20 | [`CBG Surveying Texas`](https://google.com/search?q=CBG+Surveying+Texas) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
