@@ -1,1 +1,564 @@
-<center><b>Please, try later</b></center>
+
+<html>
+    <head>
+        <title>Blog</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="data:,">
+        <style>
+            html
+                {
+                    overflow-y:scroll;
+                    scrollbar-color: #2A0000 #220000;
+                    padding:0px;
+                    margin:0px;
+                }
+
+            body
+                {
+                    padding:0px;
+                    margin:0px;
+                    background:#220000;
+                    font-family:sans-serif;
+                    font-size:11px;
+                    color:#330000;
+                }
+            
+            :focus
+                {
+                    outline:none;
+                }
+
+            .abt
+                {
+                    text-decoration:none;
+                }
+
+            .amo
+                {
+                    color:#AA4444;
+                    font-weight:bold;
+                    font-size:12px;
+                }
+
+            .amo:hover
+                {
+                    text-shadow:0px 0px 1px #ABABAB;
+                }
+
+            .main_div
+                {
+                    margin-bottom:10px;
+                }
+
+            .pdiv
+                {
+                    position:relative; 
+                    width:800px; 
+                    left:50%; 
+                    margin-left:-400px; 
+                }
+
+            .tdiv
+                { 
+                    font-size:12px;
+                    font-weight:bold;
+                    color:white;
+                    line-height:35px;
+                    padding:10px 10px 0px 10px;
+                }
+
+            .cdiv
+                {
+                    margin-top:0px; 
+                    background:#FFFFFF77; 
+                    border:solid 0px #FFFFFF; 
+                    border-radius:10px; 
+                    padding:10px;
+                }
+
+            .b_block
+                {
+                    background:#F2F2F2;
+                }
+
+            .b_block:hover
+                {
+                    box-shadow:inset 0px 0px 5px 0px #ABABAB;
+                }
+
+            .news_div
+                {
+                    word-wrap:break-word;
+                    padding:10px;
+                }
+
+            .inp_text
+                {
+                    border:solid 1px #773333;
+                    border-radius:3px;
+                    font-size:11px;
+                    box-shadow:inset 0px 0px 3px 0px #ABABAB;
+                    padding:2px;
+                }
+
+            .ac
+                {
+                    text-align:center;
+                }
+
+            .tr
+                {
+                    display:table-row;
+                }
+
+            .tc
+                {
+                    display:table-cell;
+                }
+
+            .news_title
+                {
+                    line-height:30px;
+                    border-style:solid;
+                    border-width:0px 0px 1px 0px;
+                    border-color:#BEBEBE;
+                    font-size:13px;
+                    font-weight:bold;
+                    color:#550000;
+                }
+
+            .a_title
+                {
+                    color:#550000;
+                }
+            
+            .a_title:hover
+                {
+                    text-shadow:0px 0px 1px #AA7777;
+                }
+
+            .bt
+                {
+                    border-style:solid;
+                    border-width:2px;
+                    border-color:#A5A5A5;
+                    padding:5px 7px 5px 7px;
+                    border-radius:5px;
+                    font-size:12px;
+                    color:#F2F2F2;
+                    margin-left:5px;
+                    cursor:pointer;
+                }
+
+            .bt:hover
+                {
+                    border-color:#979797;
+                    box-shadow: 0px 0px 5px 0px white;
+                }
+
+            .tdiv
+                {
+                    padding:10px;
+                    line-height:34px;
+                    font-weight:bold;
+                    font-size:15px;
+                    color:#992222;
+                    text-align:center;
+                    text-shadow:0px 0px 7px #4F4F4F;
+                    margin-top:5px;
+                }
+            
+            .data_published_text
+                {
+                    display:inline-block;
+                    padding:2px;
+                    box-shadow:0 0px 3px 0 #FFABABFF;
+                    line-height:10px;
+                    font-size:10px;
+                    color:maroon;
+                    font-weight:normal;
+                    border:1px solid maroon;
+                    border-radius:3px;
+                }
+
+        </style>
+        <script type="text/javascript">
+
+            gid = function(id) { return document.getElementById(id); }
+
+        function timeFormat(t)
+            {
+                let s = Math.floor((t / 1000) % 60);
+                let m = Math.floor((t / 1000 / 60) % 60);
+                let h = Math.floor((t / (1000 * 60 * 60)) % 24);
+                let d = Math.floor(t / (1000 * 60 * 60 * 24));
+
+                 return {'total': t,'days': d,'hours': h,'minutes': m,'seconds': s};
+            }
+
+        function paytimer(timer_id, ltime = 0, lt = false)
+            {
+                let timer_obj = gid(timer_id);
+                let t = timeFormat(ltime * 1000);
+
+                if (ltime % 2 == 0)
+                    timer_obj.style.borderColor = 'lightgray';
+                    else
+                    timer_obj.style.borderColor = '#5F0000';
+
+                if (lt)
+                    {
+                        ld = (t.days > 0) ? t.days + ' d ' : '';
+                        lh = (t.hours > 0) ? t.hours + ' h ' : '';
+                        lm = (t.minutes > 0) ? t.minutes + ' m ' : '';
+                        ls = t.seconds + ' s ';
+                    }
+                    else
+                    {
+                        ld = (t.days > 0) ? t.days + ((t.days == 1) ? ' day ' : ' days ') : '';
+                        lh = (t.hours > 0) ? t.hours + ((t.hours == 1) ? ' hour ' : ' hours ') : '';
+                        lm = (t.minutes > 0) ? t.minutes + ((t.minutes == 1) ? ' minute ' : ' minutes ') : '';
+                        ls = t.seconds + ((t.seconds == 1) ? ' second ' : ' seconds ');
+                    }
+                timer_obj.innerHTML = ld + lh + lm + ls;
+                ltime = ltime-1;
+
+                if (ltime > 0)
+                    setTimeout(function(){paytimer(timer_id, ltime, lt)}, 1000);
+                    else
+                    timer_obj.innerHTML = "Time's up";
+                    
+            }
+
+                                
+        </script>
+    </head>
+
+
+    <body>
+        <div id="main_div" class="main_div">
+            <div class="pdiv tdiv">
+                <div style="display:inline-block; width:20%; float:left; text-align:left;">
+                    <a href="/" class="abt"><span class="bt">&lArr; Enter system</span></a>
+                </div>
+                <div style="display:inline-block; float:left; width:60%;">
+                    &nbsp;
+                </div>
+                <div style="display:inline-block; width:20%; text-align:right;">
+                    <div style="height:34px;">
+        
+                        <a href="javascript:void(0);" class="abt"><span class="bt">&lArr;</span></a>
+                        <a href="blog_2" class="abt"><span class="bt">&rArr;</span></a>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="pdiv cdiv">
+    
+
+                    <div class="b_block" style=" border-radius:5px; padding:10px; margin-bottom:10px;">
+                        <div class="news_div">
+                
+                            <div class="news_title" style="display:inline-block; width:100%;">
+                                <div style="float:left;">
+                                    <a href="blog_1-30" class="a_title">https://www.bew.co.th</a>
+                                </div>
+                                <div style="float:right; text-align:center; width:120px;">
+                                    <div class="data_published_text">The data has been published</div>
+                                </div>
+
+                            </div>
+                            <div style="line-height:20px; padding-top:5px; margin-bottom:30px;">
+                                Bangkok Eagle Wings Co.,Ltd.<br>67/14 Mu 5 Chuamsamphan Rd. Kokfad. Nongchok. Bangkok 10530. Thailand.<br>Stamping process<br>Welding and assembly process<br>Machining process<br>Painting process
+                            </div>
+                            <div style="display:block; margin-top:15px;">
+                
+                                <div>
+                                    <div>
+                                    
+                                    </div>
+                
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="b_block" style=" border-radius:5px; padding:10px; margin-bottom:10px;">
+                        <div class="news_div">
+                
+                            <div class="news_title" style="display:inline-block; width:100%;">
+                                <div style="float:left;">
+                                    <a href="blog_1-29" class="a_title">www.automotiveml.com</a>
+                                </div>
+                                <div style="float:right; text-align:center; width:120px;">
+                                    <div class="data_published_text">The data has been published</div>
+                                </div>
+
+                            </div>
+                            <div style="line-height:20px; padding-top:5px; margin-bottom:30px;">
+                                With over 70 years of rich experience serving in the auto industry, they are one of India's largest car dealerships.
+                            </div>
+                            <div style="display:block; margin-top:15px;">
+                
+                                <div>
+                                    <div>
+                                    
+                                    </div>
+                
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="b_block" style=" border-radius:5px; padding:10px; margin-bottom:10px;">
+                        <div class="news_div">
+                
+                            <div class="news_title" style="display:inline-block; width:100%;">
+                                <div style="float:left;">
+                                    <a href="blog_1-28" class="a_title">https://www.unterkofler.info</a>
+                                </div>
+                                <div style="float:right; text-align:center; width:120px;">
+                                    <div class="data_published_text">The data has been published</div>
+                                </div>
+
+                            </div>
+                            <div style="line-height:20px; padding-top:5px; margin-bottom:30px;">
+                                117 GB data has stolen<br>Bakery and confectionery<br>5611 Grossarl | Marktstr. 109<br>+43 (0) 6414 / 2760
+                            </div>
+                            <div style="display:block; margin-top:15px;">
+                
+                                <div>
+                                    <div>
+                                    
+                                    </div>
+                
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="b_block" style=" border-radius:5px; padding:10px; margin-bottom:10px;">
+                        <div class="news_div">
+                
+                            <div class="news_title" style="display:inline-block; width:100%;">
+                                <div style="float:left;">
+                                    <a href="blog_1-27" class="a_title">www.verdugohillsdental.com</a>
+                                </div>
+                                <div style="float:right; text-align:center; width:120px;">
+                                    <div class="data_published_text">The data has been published</div>
+                                </div>
+
+                            </div>
+                            <div style="line-height:20px; padding-top:5px; margin-bottom:30px;">
+                                At Verdugo Hills Dental in Glendale, CA, our experienced team is committed to more than just dentistry—we’re here to ensure your comfort and overall well-being every step of the way. From routine check-ups to advanced restorative treatments, we deliver comprehensive care with a gentle touch, alw...<a href="blog_1-27" class="amo">Read more &rArr;</a>
+                            </div>
+                            <div style="display:block; margin-top:15px;">
+                
+                                <div>
+                                    <div>
+                                    
+                                    </div>
+                
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="b_block" style=" border-radius:5px; padding:10px; margin-bottom:10px;">
+                        <div class="news_div">
+                
+                            <div class="news_title" style="display:inline-block; width:100%;">
+                                <div style="float:left;">
+                                    <a href="blog_1-26" class="a_title">www.myriversidedentaloffice.com</a>
+                                </div>
+                                <div style="float:right; text-align:center; width:120px;">
+                                    <div class="data_published_text">The data has been published</div>
+                                </div>
+
+                            </div>
+                            <div style="line-height:20px; padding-top:5px; margin-bottom:30px;">
+                                It is dental practice devoted to restoring and enhancing the natural beauty of your smile using conservative, state-of-the-art procedures that will result in beautiful, long lasting smiles!
+                            </div>
+                            <div style="display:block; margin-top:15px;">
+                
+                                <div>
+                                    <div>
+                                    
+                                    </div>
+                
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="b_block" style=" border-radius:5px; padding:10px; margin-bottom:10px;">
+                        <div class="news_div">
+                
+                            <div class="news_title" style="display:inline-block; width:100%;">
+                                <div style="float:left;">
+                                    <a href="blog_1-25" class="a_title">www.mercantetubos.com.br</a>
+                                </div>
+                                <div style="float:right; text-align:center; width:120px;">
+                                    <div class="data_published_text">The data has been published</div>
+                                </div>
+
+                            </div>
+                            <div style="line-height:20px; padding-top:5px; margin-bottom:30px;">
+                                Mangueira Indústria e Comércio de Tubos e Aços Especiais Ltda. was founded on October 3, 1972, with the objective of importing DIN ST 52 steel mechanical tubes. Later, when Mannesmann S.A. began industrializing this product line, Mangueira obtained a distribution quota for DIN ST 52 mechanical tu...<a href="blog_1-25" class="amo">Read more &rArr;</a>
+                            </div>
+                            <div style="display:block; margin-top:15px;">
+                
+                                <div>
+                                    <div>
+                                    
+                                    </div>
+                
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="b_block" style=" border-radius:5px; padding:10px; margin-bottom:10px;">
+                        <div class="news_div">
+                
+                            <div class="news_title" style="display:inline-block; width:100%;">
+                                <div style="float:left;">
+                                    <a href="blog_1-24" class="a_title">https://www.libertydentaltown.com</a>
+                                </div>
+                                <div style="float:right; text-align:center; width:120px;">
+                                    <div class="data_published_text">The data has been published</div>
+                                </div>
+
+                            </div>
+                            <div style="line-height:20px; padding-top:5px; margin-bottom:30px;">
+                                Liberty Dental Care & Dentures provides general dentistry <br>7100 Sennet Pl, Suite E Liberty Township, Ohio 45069<br>Around The Corner From Laser Web in Liberty Town Center<br>libertydental007@gmail.com<br>513-644-2086<br>513-644-2289<br><br>58Gb data has been stolen
+                            </div>
+                            <div style="display:block; margin-top:15px;">
+                
+                                <div>
+                                    <div>
+                                    
+                                    </div>
+                
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="b_block" style=" border-radius:5px; padding:10px; margin-bottom:10px;">
+                        <div class="news_div">
+                
+                            <div class="news_title" style="display:inline-block; width:100%;">
+                                <div style="float:left;">
+                                    <a href="blog_1-23" class="a_title">www.sonoshowmoveis.com.br</a>
+                                </div>
+                                <div style="float:right; text-align:center; width:120px;">
+                                    <div class="data_published_text">The data has been published</div>
+                                </div>
+
+                            </div>
+                            <div style="line-height:20px; padding-top:5px; margin-bottom:30px;">
+                                We are Sono Show Furniture (J V MOVEIS E COLCHOES EIRELI EPP) registered with CNPJ 21.036.111/0001-28, headquartered in Rio de Janeiro, state of Rio de Janeiro, at Estrada da Cachamorra, 795, Campo Grande<br><br>23 GB data<br>Clients<br>Projects<br>Financial documentation<br>etc. 
+                            </div>
+                            <div style="display:block; margin-top:15px;">
+                
+                                <div>
+                                    <div>
+                                    
+                                    </div>
+                
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="b_block" style=" border-radius:5px; padding:10px; margin-bottom:10px;">
+                        <div class="news_div">
+                
+                            <div class="news_title" style="display:inline-block; width:100%;">
+                                <div style="float:left;">
+                                    <a href="blog_1-22" class="a_title">https://www.adhunikpower.com</a>
+                                </div>
+                                <div style="float:right; text-align:center; width:120px;">
+                                    <div class="data_published_text">The data has been published</div>
+                                </div>
+
+                            </div>
+                            <div style="line-height:20px; padding-top:5px; margin-bottom:30px;">
+                                Adhunik Power And Natural Resources (APNRL) is an Independent Power Producer (IPP) owning and operating a 2x270 MW coal based thermal power plant in Padampur, Saraikela-Kharsawan, Jharkhand State.<br><br>~86 GB Data<br>-Contracts<br>-Projects<br>-Financial data of the company <br>-Accounts<br>-Budge...<a href="blog_1-22" class="amo">Read more &rArr;</a>
+                            </div>
+                            <div style="display:block; margin-top:15px;">
+                
+                                <div>
+                                    <div>
+                                    
+                                    </div>
+                
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="b_block" style=" border-radius:5px; padding:10px; ">
+                        <div class="news_div">
+                
+                            <div class="news_title" style="display:inline-block; width:100%;">
+                                <div style="float:left;">
+                                    <a href="blog_1-21" class="a_title">grupozeta.com & www.grupozetajalisco.com</a>
+                                </div>
+                                <div style="float:right; text-align:center; width:120px;">
+                                    <div class="data_published_text">The data has been published</div>
+                                </div>
+
+                            </div>
+                            <div style="line-height:20px; padding-top:5px; margin-bottom:30px;">
+                                ~170 GB data<br>Ciudad Juárez, México · Samalayuca, Chihuahua, Mexico · Valle de Juárez, Jalisco, México<br>-Contracts<br>-Projects<br>-Clients<br>-Customers<br>-Employees<br>etc 
+                            </div>
+                            <div style="display:block; margin-top:15px;">
+                
+                                <div>
+                                    <div>
+                                    
+                                    </div>
+                
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                
+            </div>
+
+        </div>
+        <div style="height:10px;">
+        </div>
+    </body>
+</html>
