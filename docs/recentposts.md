@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-12-01 | [`University Loft`](https://google.com/search?q=University+Loft) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-12-01 | [`South Island Public Service District`](https://google.com/search?q=South+Island+Public+Service+District) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-12-01 | [`Hall Aluminum Products`](https://google.com/search?q=Hall+Aluminum+Products) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-12-01 | [`Clark & Sullivan Constructors`](https://google.com/search?q=Clark+%26+Sullivan+Constructors) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-09-01 | [`Arboris`](https://google.com/search?q=Arboris) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-01 | [`All States Materials Group`](https://google.com/search?q=All+States+Materials+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-08-29 | [`co`](https://google.com/search?q=co) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
-| 2025-08-28 | [`Firelands Scientific`](https://google.com/search?q=Firelands+Scientific) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
