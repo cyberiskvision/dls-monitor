@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-12-03 | [`Bo Beuckman Ford`](https://google.com/search?q=Bo+Beuckman+Ford) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-12-03 | [`Armis Group`](https://google.com/search?q=Armis+Group) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-12-02 | [`[EVIDENCE PACK 3]ASKUL`](https://google.com/search?q=%5BEVIDENCE+PACK+3%5DASKUL) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-12-02 | [`Cleveland County Sheriff's Office`](https://google.com/search?q=Cleveland+County+Sheriff%27s+Office) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-09-05 | [`Elite Trailers`](https://google.com/search?q=Elite+Trailers) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-09-04 | [`https://ipathpr.com`](https://google.com/search?q=https%3A%2F%2Fipathpr.com) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
 | 2025-09-01 | [`Vanderpool Construction`](https://google.com/search?q=Vanderpool+Construction) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-09-01 | [`Juggernaut`](https://google.com/search?q=Juggernaut) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
