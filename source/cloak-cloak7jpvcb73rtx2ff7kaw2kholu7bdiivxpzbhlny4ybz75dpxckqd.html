@@ -1,22 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Cloak</title>
+  <title>CAPTCHA Verification</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="/static/captcha.js" defer></script>
+  <link rel="stylesheet" href="/static/captcha.css">
 </head>
 <body>
-    <style nonce="Lk8q667Nf8SF32vRP-RfS91mYrZzCZ_g" >
-        body{display:flex;align-items:center;justify-content:center;margin:auto;padding:0;font-family:"Arial", sans-serif;font-size:12px;font-weight:600;color:#fff;outline:none;background-color:#151515;min-height:100vh}form{display:flex;flex-direction:column;align-items:center;font-size:20px;background-color:rgba(55, 89, 89, 0.2);padding:40px;border-radius:20px}form :nth-child(n){margin-bottom:10px}input{border-radius:8px;padding:4px;text-align:center;width:200px}button{backface-visibility:hidden;position:relative;cursor:pointer;display:inline-block;min-width:160px;white-space:nowrap;background:linear-gradient(-130deg,#d2d2d2 50%,#71706f 100%);border-radius:5px;border:1px solid #8f8f8f;border-width:2px 2px 3px 3px;padding:10px;box-shadow:inset 0 1px 0 rgba(255,255,255,1),0px 1px 3px rgba(0,0,0,0.3);color:#000;font-size:20px;font-family:Arial;font-weight:900;font-style:normal;text-shadow:0 -1px 0 rgba(0,0,0,0.4);box-sizing:border-box}
-    </style>
-
-
-    <form method="POST" action="/verify_captcha?next=http://cloak7jpvcb73rtx2ff7kaw2kholu7bdiivxpzbhlny4ybz75dpxckqd.onion/">
-        <h1>CAPTCHA Verification</h1>
-        <input id="csrf_token" name="csrf_token" type="hidden" value="IjFhYzA3NzdkNTNkMTIzNDc1ZTJiMmJmMzRjMWM5NjhjMDg3MWE4NDMi.aUP49g.DdrCnbT-UKZxBH4oPFFLOJwRIV4">
-        <input type="hidden" name="next" value="http://cloak7jpvcb73rtx2ff7kaw2kholu7bdiivxpzbhlny4ybz75dpxckqd.onion/">
-        <img src="/captcha" alt="CAPTCHA">
-        <input type="text" name="captcha_input" placeholder="Enter CAPTCHA">
-        <button type="submit">Verify</button>
-        
-    </form>
+<div class="form-box">
+  <form method="POST" action="/verify_captcha?next=http://cloak7jpvcb73rtx2ff7kaw2kholu7bdiivxpzbhlny4ybz75dpxckqd.onion/">
+    <h1>CAPTCHA Verification</h1>
+    <input id="csrf_token" name="csrf_token" type="hidden" value="ImQyYzE0NDRmMDVmMjFiMjYxZGNhM2JkNDY1ZTliNWFjMmQ1ZTkxNWQi.aUQfPA.hdo_kwQbpNhEk0ILSs1lpMroopU">
+    <input type="hidden" name="next" value="http://cloak7jpvcb73rtx2ff7kaw2kholu7bdiivxpzbhlny4ybz75dpxckqd.onion/">
+    <img id="captcha-img" class="captcha-img" src="/captcha" alt="CAPTCHA">
+    <button type="button" id="refresh-btn" class="refresh-btn">&#x21bb; Refresh</button>
+    <input type="text" name="captcha_input" placeholder="Enter CAPTCHA" required>
+    <button type="submit">Verify</button>    
+    <p id="error-message">
+      
+    </p>
+  </form>
+</div>
 </body>
 </html>
