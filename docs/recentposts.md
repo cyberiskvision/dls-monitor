@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-12-19 | [`Lawsoft`](https://google.com/search?q=Lawsoft) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-12-16 | [`Maypay Farms Inc`](https://google.com/search?q=Maypay+Farms+Inc) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-12-16 | [`Fairgrove Oil`](https://google.com/search?q=Fairgrove+Oil) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-12-16 | [`Allure Home Creation`](https://google.com/search?q=Allure+Home+Creation) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-09-10 | [`Gagosian(US, UK)`](https://google.com/search?q=Gagosian%28US%2C+UK%29) | [daixin](https://ransomwatch.telemetry.ltd/#/profiles?id=daixin) |
 | 2025-09-10 | [`M8 Group`](https://google.com/search?q=M8+Group) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-09-10 | [`Coastal Pacific Xpress`](https://google.com/search?q=Coastal+Pacific+Xpress) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
-| 2025-09-10 | [`Royal Machine & Tool`](https://google.com/search?q=Royal+Machine+%26+Tool) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
