@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-12-22 | [`Assolim`](https://google.com/search?q=Assolim) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-12-20 | [`Security ONE Alarm Systems`](https://google.com/search?q=Security+ONE+Alarm+Systems) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-12-20 | [`Kucera International`](https://google.com/search?q=Kucera+International) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-12-19 | [`Larry Pitt & Associates`](https://google.com/search?q=Larry+Pitt+%26+Associates) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-09-15 | [`Rochester Optical`](https://google.com/search?q=Rochester+Optical) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-15 | [`Baum Precision Machining`](https://google.com/search?q=Baum+Precision+Machining) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-14 | [`usenergy`](https://google.com/search?q=usenergy) | [ransomblog_noname](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomblog_noname) |
-| 2025-09-11 | [`moinian.com`](https://google.com/search?q=moinian.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
