@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-12-26 | [`[DISCLOSED]Soderstrom Architects, LTD`](https://google.com/search?q=%5BDISCLOSED%5DSoderstrom+Architects%2C+LTD) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-12-24 | [`[DISCLOSED] Diaz Gill Medicina Laboratorial S.A.`](https://google.com/search?q=%5BDISCLOSED%5D+Diaz+Gill+Medicina+Laboratorial+S.A.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-12-22 | [`Assolim`](https://google.com/search?q=Assolim) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-12-20 | [`Security ONE Alarm Systems`](https://google.com/search?q=Security+ONE+Alarm+Systems) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-09-15 | [`Eau Palm Beach Resort & Spa`](https://google.com/search?q=Eau+Palm+Beach+Resort+%26+Spa) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-15 | [`Crestone Group`](https://google.com/search?q=Crestone+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-15 | [`Rochester Optical`](https://google.com/search?q=Rochester+Optical) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-09-15 | [`Baum Precision Machining`](https://google.com/search?q=Baum+Precision+Machining) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
