@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-12-29 | [`JZ Russell Industries`](https://google.com/search?q=JZ+Russell+Industries) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-12-29 | [`Genoa Lakes`](https://google.com/search?q=Genoa+Lakes) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-12-29 | [`Esquire Brands`](https://google.com/search?q=Esquire+Brands) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-12-29 | [`C&r Electric`](https://google.com/search?q=C%26r+Electric) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-09-16 | [`Pathfinder`](https://google.com/search?q=Pathfinder) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-16 | [`McCarter Electrical`](https://google.com/search?q=McCarter+Electrical) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-16 | [`Lake Book Manufacturing`](https://google.com/search?q=Lake+Book+Manufacturing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-09-15 | [`General Control Systems`](https://google.com/search?q=General+Control+Systems) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
