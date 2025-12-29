@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-12-29 | [`Esquire Brands`](https://google.com/search?q=Esquire+Brands) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-12-29 | [`C&r Electric`](https://google.com/search?q=C%26r+Electric) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-12-29 | [`ESSPL`](https://google.com/search?q=ESSPL) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-12-29 | [`Arkan`](https://google.com/search?q=Arkan) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-09-16 | [`Lake Book Manufacturing`](https://google.com/search?q=Lake+Book+Manufacturing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-15 | [`General Control Systems`](https://google.com/search?q=General+Control+Systems) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-15 | [`Garrison Architects`](https://google.com/search?q=Garrison+Architects) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-09-15 | [`Energenecs`](https://google.com/search?q=Energenecs) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
