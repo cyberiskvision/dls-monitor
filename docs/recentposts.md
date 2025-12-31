@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-12-31 | [`Infinite Computing Systems`](https://google.com/search?q=Infinite+Computing+Systems) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-12-30 | [`Falk, Waas, Hernandez, Cortina, Solomon & Bonner Overview Metrics`](https://google.com/search?q=Falk%2C+Waas%2C+Hernandez%2C+Cortina%2C+Solomon+%26+Bonner+Overview+Metrics) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-12-29 | [`MP Filtri`](https://google.com/search?q=MP+Filtri) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-12-29 | [`JZ Russell Industries`](https://google.com/search?q=JZ+Russell+Industries) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-09-16 | [`TerranearPMC`](https://google.com/search?q=TerranearPMC) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-16 | [`RGR Sportswear`](https://google.com/search?q=RGR+Sportswear) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-16 | [`RFI`](https://google.com/search?q=RFI) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-09-16 | [`Pathfinder`](https://google.com/search?q=Pathfinder) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
