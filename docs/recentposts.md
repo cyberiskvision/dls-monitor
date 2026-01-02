@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-01-02 | [`Rockport Technology Group`](https://google.com/search?q=Rockport+Technology+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-02 | [`Pewarchuk CPA`](https://google.com/search?q=Pewarchuk+CPA) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-02 | [`Lakeside Title Company`](https://google.com/search?q=Lakeside+Title+Company) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-02 | [`Garner Foods`](https://google.com/search?q=Garner+Foods) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-09-22 | [`optimumdesign.com`](https://google.com/search?q=optimumdesign.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2025-09-19 | [`United Machine`](https://google.com/search?q=United+Machine) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-17 | [`Thomas Safran & Associates`](https://google.com/search?q=Thomas+Safran+%26+Associates) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-09-16 | [`grupozeta.com & www.grupozetajalisco.com`](https://google.com/search?q=grupozeta.com+%26+www.grupozetajalisco.com) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
