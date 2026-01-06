@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-01-06 | [`Autohaus Pichel GmbH`](https://google.com/search?q=Autohaus+Pichel+GmbH) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-06 | [`Mill Brothers`](https://google.com/search?q=Mill+Brothers) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-02 | [`Wardell Builders`](https://google.com/search?q=Wardell+Builders) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-02 | [`Stoughton Steel`](https://google.com/search?q=Stoughton+Steel) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-09-22 | [`DHM Properties`](https://google.com/search?q=DHM+Properties) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-22 | [`Combined Services HVAC`](https://google.com/search?q=Combined+Services+HVAC) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-22 | [`APG`](https://google.com/search?q=APG) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-09-22 | [`Agility CIS`](https://google.com/search?q=Agility+CIS) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
