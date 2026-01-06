@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-01-06 | [`Charles Leonard Steel Services`](https://google.com/search?q=Charles+Leonard+Steel+Services) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-01-06 | [`Due Doyle Fanning`](https://google.com/search?q=Due+Doyle+Fanning) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-06 | [`Autohaus Pichel GmbH`](https://google.com/search?q=Autohaus+Pichel+GmbH) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-06 | [`Mill Brothers`](https://google.com/search?q=Mill+Brothers) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-09-23 | [`Hilldun`](https://google.com/search?q=Hilldun) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-22 | [`GrammaTech`](https://google.com/search?q=GrammaTech) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-22 | [`DHM Properties`](https://google.com/search?q=DHM+Properties) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-09-22 | [`Combined Services HVAC`](https://google.com/search?q=Combined+Services+HVAC) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
