@@ -345,7 +345,7 @@ iframe {
             var iframe = document.createElement('iframe');
             iframe.id = 'iframe';
             iframe.frameBorder = '0';
-            iframe.src = "https://yfdpco3.com/sk-park.php?pid=9PO15V947&dn=filesnatchcloud.top&ua=Mozilla%2F5.0+%28Windows+NT+10.0%3B+rv%3A109.0%29+Gecko%2F20100101+Firefox%2F115.0&requrl=http%3A%2F%2Fww38.filesnatchcloud.top%2F&al=en-US%2Cen%3Bq%3D0.5";
+            iframe.src = "https://yfdnza.com/?dn=filesnatchcloud.top&pid=9PO755G95";
             // apply any classes or styles you need
             iframe.style.display = 'block';
             // append into the content container
@@ -366,21 +366,34 @@ iframe {
     };
 </script>
 <script type="text/javascript">
-var ls = function(xhr, token) {
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState === XMLHttpRequest.DONE) {
-            if (xhr.status < 200 || xhr.status >= 400) {
-                console.log('There was a problem with the request.');
-            }
-            
-            if (typeof window.onRTBFailure === 'function') { window.onRTBFailure(); }
+fetch('/chronos?dune=eyJhbGciOiJBMTI4S1ciLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0.lahRx_y7eSxn_QIGJYYwc6X-r8rMrcJw9AW1S9qkAkR4mmKQHaKCMw.E1cEt0k2-nsAv8fgwgNYAw.e02MaqXRPKjYt2sQhTWJ-ZwdlvLUq9QuLMbGpqfZ9Kv3K1cEFc04htp670ETSzS5Y8ADhplvGweg7adib80tSuUeBvNCltqXRbpO6uRhMlnpg6wrLZ88tPQg_HP7ZAQvNUDq5tE4RPtDGL_ObzZUxtU21Y_Uif6p3KohZu88yOZCz8zJzyqv3if3_3EXU5eRberQMlZyl7-Z9GoCfsoAq5LkbixRQLkHJM8U1ZHHvSoJ22yiC9sC9EaK1nEAkHo_8UKHN1q9jUllnNoFKgRJVp0jsXUIZHIzJtyQl3E9NuI.TLs7zB43cQsV4ge-52FP3w&t=696163c9&token=284b5e5e1e1616f675fc048cca2676d1236a2d07')
+    .then(async response => {
+        if (!response.ok && response.status >= 400) {
+            throw new Error('Network response was not ok: ' + response.statusText);
         }
-    }
-    
-    xhr.open('GET', '/munin/a/l' + 's?t=695eea40&token=' + encodeURI(token), true);
-    xhr.send();
-};
-ls(new XMLHttpRequest(), '660c01aa4a7a547edbb3555a2c03c1b518413e4a');
+        if (response.status === 204) {
+            window.onRTBFailure();
+            return null;
+        }
+        return JSON.parse(await response.text());
+    })
+    .then(data => {
+        if (data && data.location) {
+            if (data.location.indexOf('http') === 0) {
+                window.location.replace(data.location);
+            } else {
+                history.pushState(null, null, data.location);
+                history.go();
+            }
+        } else {
+            window.onRTBFailure();
+            console.log(data);
+        }
+    })
+    .catch(error => {
+        console.error(error);
+        window.onRTBFailure();
+    });
 </script>
 
 <div>
@@ -424,7 +437,7 @@ ls(new XMLHttpRequest(), '660c01aa4a7a547edbb3555a2c03c1b518413e4a');
 </div>
 </div>
 
-<div id="content" style="top: 35px;"><iframe id="iframe" frameborder="0" src="https://yfdpco3.com/sk-park.php?pid=9PO15V947&amp;dn=filesnatchcloud.top&amp;ua=Mozilla%2F5.0+%28Windows+NT+10.0%3B+rv%3A109.0%29+Gecko%2F20100101+Firefox%2F115.0&amp;requrl=http%3A%2F%2Fww38.filesnatchcloud.top%2F&amp;al=en-US%2Cen%3Bq%3D0.5" style="display: block;"></iframe>
+<div id="content" style="top: 35px;"><iframe id="iframe" frameborder="0" src="https://yfdnza.com/?dn=filesnatchcloud.top&amp;pid=9PO755G95" style="display: block;"></iframe>
     
     </div>
 <script>
@@ -635,7 +648,7 @@ h1 {
         </div>
     </div>
 </div>
-<script async="" src="https://euob.youstarsbuilding.com/sxp/i/636f8b858f681acb7bfa6f583a96630a.js" data-ch="AdsDeli - iFrame" data-uvid="660c01aa4a7a547edbb3555a2c03c1b518413e4a" class="ct_clicktrue_92098" data-jsonp="onCheqResponse"></script>
+<script async="" src="https://euob.youstarsbuilding.com/sxp/i/636f8b858f681acb7bfa6f583a96630a.js" data-ch="AdsDeli - iFrame" data-uvid="284b5e5e1e1616f675fc048cca2676d1236a2d07" class="ct_clicktrue_92098" data-jsonp="onCheqResponse"></script>
 <noscript>
     <iframe src='https://obseu.youstarsbuilding.com/ns/636f8b858f681acb7bfa6f583a96630a.html?ch=AdsDeli%20-%20iFrame' width='0' height='0' style='display:none'></iframe>
 </noscript>
