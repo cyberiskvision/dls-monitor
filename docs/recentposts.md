@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-01-10 | [`Denny's 5th Avenue Bakery`](https://google.com/search?q=Denny%27s+5th+Avenue+Bakery) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-08 | [`[DISCLOSED]Assolim`](https://google.com/search?q=%5BDISCLOSED%5DAssolim) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-01-08 | [`Fedcap`](https://google.com/search?q=Fedcap) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-01-08 | [`Luxshare Precision Industry Co. Ltd.`](https://google.com/search?q=Luxshare+Precision+Industry+Co.+Ltd.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-09-23 | [`Roth & Scholl`](https://google.com/search?q=Roth+%26+Scholl) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-23 | [`Ronco Safety`](https://google.com/search?q=Ronco+Safety) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-23 | [`PTR`](https://google.com/search?q=PTR) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-09-23 | [`New England Waterproofing`](https://google.com/search?q=New+England+Waterproofing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
