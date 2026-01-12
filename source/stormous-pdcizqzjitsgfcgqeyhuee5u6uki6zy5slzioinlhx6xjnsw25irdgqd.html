@@ -4,1222 +4,1610 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StormouS.X LEAK | BLOG</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>STORMOUS | Data Leak </title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
     <style>
         :root {
-            --primary: #ff2e2e;
-            --primary-dark: #ff1a1a;
-            --bg: #0a0a0a;
-            --card-bg: #111;
-            --text: #e0e0e0;
-            --text-muted: #9ca3af;
+            --primary-red: #ff003c;
+            --bg-dark: #070707;
+            --card-bg: #0f0f0f;
+            --accent-blue: #00f2ff;
         }
 
         body {
+            background-color: var(--bg-dark);
+            color: #e0e0e0;
             font-family: 'JetBrains Mono', monospace;
-            background-color: var(--bg);
-            color: var(--text);
-            min-height: 100vh;
+            background-image:
+                radial-gradient(circle at 50% 50%, rgba(20, 20, 20, 1) 0%, rgba(5, 5, 5, 1) 100%),
+                url('https://www.transparenttextures.com/patterns/carbon-fibre.png');
+            overflow-x: hidden;
         }
 
-        .nav-link {
-            position: relative;
+        .glow-text {
+            text-shadow: 0 0 10px var(--primary-red), 0 0 20px var(--primary-red);
         }
 
-        .nav-link:after {
-            content: '';
-            position: absolute;
-            width: 0;
-            height: 1px;
-            bottom: -2px;
-            left: 0;
-            background-color: var(--primary);
-            transition: width 0.3s ease;
-        }
-
-        .nav-link:hover:after {
-            width: 100%;
-        }
-
-        .category-card {
-            background-color: var(--card-bg);
+        .danger-border {
             border: 1px solid #333;
             transition: all 0.3s ease;
         }
 
-        .category-card:hover {
-            border-color: var(--primary);
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(255, 46, 46, 0.15);
+        .danger-border:hover {
+            border-color: var(--primary-red);
+            box-shadow: 0 0 15px rgba(255, 0, 60, 0.2);
         }
 
-        .btn-primary {
-            background-color: var(--primary);
-            transition: all 0.2s ease;
+        .scanline {
+            width: 100%;
+            height: 100px;
+            z-index: 99;
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(255, 0, 60, 0.05) 50%, rgba(0, 0, 0, 0) 100%);
+            opacity: 0.1;
+            position: fixed;
+            bottom: 100%;
+            animation: scanline 10s linear infinite;
         }
 
-        .btn-primary:hover {
-            background-color: var(--primary-dark);
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(255, 46, 46, 0.3);
+        @keyframes scanline {
+            0% {
+                bottom: 100%;
+            }
+
+            100% {
+                bottom: -100px;
+            }
+        }
+
+        .timer-red {
+            color: var(--primary-red);
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 1.25rem;
         }
 
         .status-badge {
-            font-size: 0.7rem;
-            padding: 0.2rem 0.5rem;
-            border-radius: 9999px;
+            padding: 2px 8px;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            border-radius: 2px;
         }
 
-        .status-new {
-            background-color: rgba(0, 255, 136, 0.1);
-            color: #00ff88;
-        }
-
-        .status-popular {
-            background-color: rgba(255, 46, 46, 0.1);
-            color: var(--primary);
-        }
-
-        .status-beta {
-            background-color: rgba(255, 204, 0, 0.1);
-            color: #ffcc00;
-        }
-
-        .crypto-id {
-            font-family: 'JetBrains Mono', monospace;
-            background-color: rgba(0, 255, 136, 0.1);
-            padding: 0.5rem;
-            border-radius: 4px;
-            color: #00ff88;
-            word-break: break-all;
-        }
-
-        .feature-icon {
-            width: 3rem;
-            height: 3rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            background-color: rgba(255, 46, 46, 0.1);
-            color: var(--primary);
-            margin-bottom: 1rem;
-            font-size: 1.2rem;
-        }
-
-        .price-tag {
-            background: linear-gradient(135deg, rgba(255, 46, 46, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
-            border: 1px solid rgba(255, 46, 46, 0.3);
-            padding: 0.3rem 0.8rem;
-            border-radius: 20px;
-            font-weight: 500;
-        }
-
-        .tooltip {
+        .btn-nav {
             position: relative;
-            display: inline-block;
+            overflow: hidden;
+            transition: color 0.3s;
         }
 
-        .tooltip .tooltiptext {
-            visibility: hidden;
-            width: 200px;
-            background-color: #111;
-            color: #fff;
-            text-align: center;
-            border-radius: 6px;
-            padding: 5px;
+        .btn-nav::after {
+            content: '';
             position: absolute;
-            z-index: 1;
-            bottom: 125%;
-            left: 50%;
-            margin-left: -100px;
-            opacity: 0;
-            transition: opacity 0.3s;
-            border: 1px solid #333;
-            font-size: 0.8rem;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            height: 2px;
+            background: var(--primary-red);
+            transition: width 0.3s;
         }
 
-        .tooltip:hover .tooltiptext {
-            visibility: visible;
-            opacity: 1;
+        .btn-nav:hover::after {
+            width: 100%;
         }
 
-        .payment-method {
-            border: 1px solid #333;
-            border-radius: 4px;
-            padding: 0.5rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all 0.3s ease;
+        .grid-bg {
+            background-size: 40px 40px;
+            background-image: linear-gradient(to right, #1a1a1a 1px, transparent 1px), linear-gradient(to bottom, #1a1a1a 1px, transparent 1px);
         }
 
-        .payment-method:hover {
-            border-color: var(--primary);
-            background-color: rgba(255, 46, 46, 0.05);
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #0a0a0a;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary-red);
+        }
+
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 3px;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #333;
         }
     </style>
 </head>
 
-<body class="antialiased">
-    <!-- Navigation -->
-    <nav class="border-b border-gray-800 py-4 sticky top-0 z-50 bg-black bg-opacity-90 backdrop-blur-sm">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center">
-                <div class="flex items-center">
-                    <span class="text-2xl font-bold text-red-500"><i class="fas fa-skull mr-2"></i>StormouS.X RottenBay
-                    </span>
+<body class="grid-bg min-h-screen">
+    <div class="scanline"></div>
+
+    <header class="border-b border-red-900/30 bg-black/90 backdrop-blur-xl sticky top-0 z-50">
+        <div class="container mx-auto px-4 lg:px-6 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-4 cursor-pointer" onclick="switchView('dashboard')">
+                <div class="w-8 h-8 bg-red-600 flex items-center justify-center rounded-sm">
+                    <span class="text-white font-black text-lg">S.T.M</span>
                 </div>
-                <div class="hidden md:flex space-x-8">
-                    <a href="#categories" class="text-gray-400 hover:text-white nav-link">HOME</a>
-                    <a href="#services" class="text-green-400 hover:text-white nav-link">Services</a>
-                    <a href="http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/"
-                        class="text-red-400 hover:text-white nav-link">LEAK</a>
-                    <a href="feedback.html" class="text-gray-400 hover:text-white nav-link">Pressfeedback</a>
-                    <a href="#contact" class="text-gray-400 hover:text-white nav-link">Contact</a>
+                <h1 class="text-xl font-black tracking-widest glow-text hidden sm:block"></h1>
+            </div>
+
+            <nav class="flex items-center bg-zinc-900/50 border border-zinc-800 p-1 rounded-sm">
+                <a href="#" onclick="switchView('dashboard')"
+                    class="px-4 py-2 text-[10px] font-black uppercase hover:text-red-500 transition-colors">DASHBOARD</a>
+                <a href="#" onclick="switchView('affiliate')"
+                    class="px-4 py-2 text-[10px] font-black uppercase hover:text-red-500 transition-colors border-r border-zinc-800">AFFILIATE</a>
+                <a href="" onclick="switchView('contact')"
+                    class="px-4 py-2 text-[10px] font-black uppercase hover:text-red-500 transition-colors border-r border-zinc-800">CONTACT</a>
+                <a href="feedback.html" onclick="switchView('feedback')"
+                    class="px-4 py-2 text-[10px] font-black uppercase hover:text-red-500 transition-colors border-r border-zinc-800">feedback</a>
+            </nav>
+
+            <div class="hidden lg:flex items-center space-x-4 text-[10px] font-bold">
+                <div class="flex flex-col items-end border-r border-zinc-800 pr-4">
+                    <span class="text-zinc-500 uppercase"> Status</span>
+                    <span class="text-green-500 animate-pulse">â online</span>
                 </div>
-                <div class="md:hidden">
-                    <button class="text-gray-400 hover:text-white focus:outline-none">
-                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div class="flex flex-col items-end">
+                    <span class="text-zinc-500 uppercase">Live Targets</span>
+                    <span class="text-white">166 TOTAL </span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12">
+        <!-- Dashboard  -->
+        <div id="view-dashboard" class="page-view">
+            <div class="mb-16 border-l-4 border-red-600 pl-6 py-4 bg-red-900/10 flex justify-between items-center">
+                <div>
+                    <h2 class="text-4xl font-bold mb-2 uppercase italic">Data Publication Portal</h2>
+                    <p class="text-zinc-400 max-w-2xl">
+                        The following entities have failed to secure their infrastructure. Their data is being prepared
+                        for public release.
+                        We provide a window for negotiation before the final deadline expires.
+                    </p>
+                </div>
+                <div class="hidden lg:block text-right">
+                    <div class="text-red-500 font-bold text-2xl tracking-widest">S.T.M</div>
+                    <div class="text-xs text-zinc-500">MONITORING GLOBAL EXFILTRATION</div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="leaks-container">
+            </div>
+
+            <div class="mt-12 flex justify-center items-center space-x-4">
+                <button onclick="previousPage()"
+                    class="bg-zinc-900 border border-zinc-800 hover:border-red-600 px-4 py-2 text-[10px] font-black uppercase transition-all flex items-center gap-2">
+                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
+                        </path>
+                    </svg>
+                    Previous
+                </button>
+                <span class="text-zinc-400 text-xs font-mono" id="page-info">Page 1 of 2</span>
+                <button onclick="nextPage()"
+                    class="bg-zinc-900 border border-zinc-800 hover:border-red-600 px-4 py-2 text-[10px] font-black uppercase transition-all flex items-center gap-2">
+                    Next
+                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Affiliate  -->
+        <div id="view-affiliate" class="page-view hidden">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-5xl font-black mb-8 border-b border-red-600 pb-4 italic">AFFILIATE PROGRAM <span
+                        class="text-zinc-700">RaaS v5</span></h2>
+
+                <div class="grid md:grid-cols-3 gap-6 mb-12">
+                    <div class="bg-zinc-900 border border-zinc-800 p-6">
+                        <div class="text-red-500 text-3xl font-bold mb-2">85/15</div>
+                        <div class="text-xs text-zinc-500 uppercase">Profit Split</div>
+                        <p class="text-sm mt-2">You keep 85% of every successful ransom payment.</p>
+                    </div>
+                    <div class="bg-zinc-900 border border-zinc-800 p-6">
+                        <div class="text-red-500 text-3xl font-bold mb-2">AUTO</div>
+                        <div class="text-xs text-zinc-500 uppercase">Panel Access</div>
+                        <p class="text-sm mt-2">Automated builder with custom payloads and FUD injectors.</p>
+                    </div>
+                    <div class="bg-zinc-900 border border-zinc-800 p-6">
+                        <div class="text-red-500 text-3xl font-bold mb-2">24/7</div>
+                        <div class="text-xs text-zinc-500 uppercase">Support</div>
+                        <p class="text-sm mt-2">Dedicated negotiation experts to maximize your payouts.</p>
+                    </div>
+                </div>
+
+                <div class="space-y-8 text-zinc-300">
+
+                    <section class="bg-red-600/5 p-8 border border-red-900/30">
+                        <h3 class="text-xl font-bold text-red-500 mb-4 uppercase">How to Apply</h3>
+                        <p class="text-sm mb-6">Applications are only accepted via our secure encrypted channels.
+                            Include your portfolio or links to previous work on specialized forums.</p>
+                        <div class="bg-black p-4 font-mono text-xs border border-zinc-800 break-all">
+                            STORMOUS
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact  -->
+        <div id="view-contact" class="page-view hidden">
+            <div class="max-w-2xl mx-auto text-center">
+                <div class="mb-12">
+                    <div class="inline-block p-4 border-2 border-red-600 mb-4">
+                        <svg class="w-12 h-12 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h16M4 18h16"></path>
+                                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z">
+                            </path>
                         </svg>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="py-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center">
-                <h1 class="text-4xl md:text-6xl font-bold mb-6">Stormous <span class="text-red-500">V.5</span> DATA
-                    LEAK</h1>
-                <p class="text-xl text-gray-400 max-w-3xl mx-auto mb-10">
-                    Welcome to our blog! We have been active since 2021
-                </p>
-                <p class="text-xl text-gray-400 max-w-3xl mx-auto mb-10">
-                    Ransomware / Infostealer / Data Leak
-                </p>
-                <div class="flex justify-center space-x-4">
-                    <a href="#categories" class="btn-primary px-8 py-3 rounded-md font-medium flex items-center">
-                        <i class="fas fa-ghost mr-2"></i> Browse Companies
-                    </a>
-                    <a href="#contact"
-                        class="border border-gray-700 px-8 py-3 rounded-md font-medium hover:border-red-500 transition flex items-center">
-                        <i class="fas fa-lock mr-2"></i> Secure Contact
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Categories Section -->
-    <section id="categories" class="py-16 bg-gray-900/50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold mb-4">List Of <span class="text-red-500">Companies</span></h2>
-                <p class="text-gray-400 max-w-2xl mx-auto">
-                    All companies listed here have been accessed by us/For any questions, please contact support/For any
-                    issues accessing the data, please reach out to us.
-                </p>
-            </div>
-
-
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-
-
-
-
-                
-                <!-- CLARO -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-lock" style="color: rgb(255, 1, 1);"></i></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: rgb(255, 1, 1);">clarochile.cl</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: rgb(255, 1, 1);">
-                       Source_Code_&_Binaries Claro_PhoneProtect_App - Database_Core_Logic (Claro_OWBDPHPRO_Schema) - Access_Control_&_Security - Operational_Workflows 
-                       (Claro_PhoneProtect_Device_Management) - Complete Database Schema Definition -Identity Management (IDM) Configuration - 
-                       Google Firebase Cloud Messaging (FCM) Authorization Key - Huawei Cloud Push Service Client Credentials (ID & Secret) and more ....</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">?GB</span>
-                        <span class="status-badge status-new">0%</span>
-                        <span class="status-badge status-beta">$500,000</span>
-                        <span class="status-badge status-beta">ACCESS SAMPLE</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='';">
-                            <i class="fas fa-eye mr-2"></i> 05/01/2026
-                        </button>
-                    </div>
+                    <h2 class="text-4xl font-bold uppercase tracking-widest">Secure Comms</h2>
+                    <p class="text-zinc-500 mt-2">The only official channels for victims and press.</p>
                 </div>
 
-            
-
-                <!-- www.holidaypalace.com -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">holidaypalace.com</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        All of this data is offered for sale (user information: email, phone number, full name, date of
-                        birth / payment and booking data / ID cards and passports used in booking processes / full
-                        access was obtained to the system and all data was extracted). </p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">20GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">ACCESS SAMPLE</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-
-
-                <!-- www.bkcolombia.org -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">bkcolombia.org</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        (Folders/Files) Email/Communication/System/Application Data
-                        AYEAPLICACIONES database/Log Data BDATOSFITCLOD ( Software/Installation/Program Files
-                        AUTOBÎÎ¥ Personal/Miscellaneous Files AvenaCubana )</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">12GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://zib7duoiglvzvnpjs5faly6bio4xhwiby2lupsnxrkjnx46gmwdfyrid.onion/bkcolombia.org/';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- www.futureal.hu -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">futureal.hu</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Project Planning & Execution Documents...More than 5.000 files and 23 folders (17 GB)</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">17GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://zjwkcbb4p4gspejz64t5mbdf5dltry7ez5v76dfnzp55z4ji2woeypid.onion/futureal.hu';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- www.goodmanmfg.com -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">goodmanmfg.com</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Administrative/System Files/ADMIN, DOAS, operational records, engineering drawings,
-                        schematicsâ¦</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">44GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://zjwkcbb4p4gspejz64t5mbdf5dltry7ez5v76dfnzp55z4ji2woeypid.onion/goodmanmfg.com';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- www.francetravail.fr -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">francetravail.fr</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Plaintext authentication credentials (usernames/passwords)-(full
-                        names, dates of birth, gender)-(addresses, phone numbers, emails)-Employment history and
-                        professional skills-CNI-RIB - RelevÃ© d'IdentitÃ© Bancair - CDD, CDI, temporary missions -
-                        spanning multiple years - Tax documents (Avis d'imposition) - Social security
-                        attestations - Training certificates - Work authorization documents and more .... </p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">30GB</span>
-                        <span class="status-badge status-new">12%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://zib7duoiglvzvnpjs5faly6bio4xhwiby2lupsnxrkjnx46gmwdfyrid.onion/francetravail.fr/660d57fc66ad';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-
-                <!-- Sincroslab Sas-->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">Sincroslab Sas</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        incroslab Sas is a company in Colombia, with a head office in
-                        Bogota D.C.. It operates in the Miscellaneous Nondurable Goods Merchant Wholesalers
-                        industry.</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">3GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://zib7duoiglvzvnpjs5faly6bio4xhwiby2lupsnxrkjnx46gmwdfyrid.onion/sincroslab.com/';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-
-
-
-                <!-- usbmemorydirect.com-->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">usbmemorydirect.com</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Personal data (individual names, photos, etc.),
-                        company/business data (company names, services, tools, equipment), backup copies, system
-                        archive compressed files, internal documents and project files, and more.</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">60GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/www.usbmemorydirect.com/';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- North Country HealthCare-->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">North Country HealthCare</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Health information for 600,000 patients has been accessed from
-                        the North Country Health (NCH) care.The dataset includes full Personally Identifiable
-                        Information
-                        (PII), Protected Health Information (PHI),</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">?GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/NCH/';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- bulenbulentklise.com.tr-->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">bulenbulentklise.com.tr</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Customer names, identification numbers, production orders,client records, delivery tracking
-                        data, customer information,
-                        logos, and more</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">?GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/www.bulentklise.com.tr';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Volkswagen -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">Volkswagen</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        CarNet system breach,Internal data accessed</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">?GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/CarNet.log';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- rinaldi.com.br -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">rinaldi.com.br</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Data of 1,000 registered distributors and sellers
-                        employee and customer information â admin login passwords â
-                        email addresses, phone numbers, full names â and more...</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">?GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/rinaldi.com.br';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- thewatermansarms.net -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">thewatermansarms.net</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        CVs - Bank - VCF - Business accounts - image - SCAN - Passport
-                        Details - ID Card - ...... </p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">?GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/thewatermansarms.net';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- atolon-parkhotel.com -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">atolon-parkhotel.com</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Vs - FACTURES - Hwawei.com - AA GROUPE 2025 - RESERVATION 2025
-                        - PERSONNELS - INFOS - STAGIAIRES .....</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">2GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/atolon-parkhotel.com';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-
-                <!-- Transak -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">Transak</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        We have extracted more than 300GB of data,which includes sensitive personal documents such as
-                        government-issued IDs ..</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">300GB</span>
-                        <span class="status-badge status-new">50%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/transak.com/';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Hy-Vee.com -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">Hy-Vee.com</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Hy-Vee refuses to pay, and we are proceeding to leak all the
-                        data that was extracted.Internal documents, infrastructure diagrams, employee data,
-                        training materials ....</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">80GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://kxlpsf4uua2k36quvcob3mjlguurbc3rhjkwt7thoyi52o7y6tf2wrad.onion/hy-vee/';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- crystalhotels.com.tr -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">crystalhotels.com.tr</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Full names of hotel guests a Email addresses (internal and
-                        external) Customer.complaints and feedback content Booking or reference numbers
-                        Internal hotel communication data ......</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">?GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/crystalhotels.com.tr';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- jparkislandresort.com -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">jparkislandresort.com</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Full reservation databases Booking platform references
-                        (including HeyTripGo) Payment Data PDF files containing credit card numbers, expiration
-                        dates and CVV codes Scans of physical card images used in transactions
-                        Names and billing addresses linked to card ...... .</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">?GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/jparkislandresort.com';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- regencyrestors.com -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">regencyrestors.com</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Full customer reservation databases (names, phones, emails,
-                        addresses, booking dates).Scanned ID documents (passports, national IDs) Internal emails
-                        via OWA Employee and customer email lists RDP credential files</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">?GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencytorviscas.com';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- regencycountryclub.com -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">regencycountryclub.com</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Full customer reservation databases (names, phones, emails,
-                        addresses, booking dates)canned ID documents (passports, national IDs) Internal emails
-                        via OWA Employee and customer email lists RDP credential files</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">?GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencytorviscas.com';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- regencytorviscas.com -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">regencytorviscas.com</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Full customer reservation databases (names, phones, emails,
-                        addresses, booking dates)Scanned ID documents (passports, national IDs) Internal emails
-                        via OWA Employee and customer email lists RDP credential files</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">?GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencytorviscas.com';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- KYC UK -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">KYC UK</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        ENJOY!</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">?GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/KYC-UK';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- enersolcr.com -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">enersolcr.com</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Internal Data - System Data - 73 Partner Data - Customer Data
-                        (Email, Name, Phone Number) - Admin Data and Their Roles, etc....</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">5GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/enersolcr.com';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- turbomp.com -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">turbomp.com</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        ecause this company receives product design drawings from other
-                        partner companies and carries out manufacturing orders, it has detailed contract
-                        documents with numerous companiestheir design documents, detailed drawings required for
-                        the manufacturing process, and documents showing the manufacturing process.</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">44GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/turbomp.com';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- biodimed.com -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">biodimed.com</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Email operations associated with all employees - attachments
-                        include 40GB of documents related to biodimed - employee data - internal message</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">?GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/biodimed.com';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- acuity.co.uk -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">acuity.co.uk</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        his includes important legal documents such as drafts of
-                        non-disclosure agreements (NDA),pertaining to the company and strategic partners like
-                        Bosch, detailed financial documents containing analyses of Acuity's financial
-                        position</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">30GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/acuity.co.uk';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- ascires.com -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">ascires.com</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Client Data - Medical Reports - Financial Status (Bank reports,
-                        taxes, and more) - Annual Accounts - Personal Informatiok,New Projects - Large amounts of
-                        patient-related data -
-                        Business plans and much more â a total of 700 GB of critical information!</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">100GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/ascires.com';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- aosense.com -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">aosense.com</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Accounting Information- AOSense Commercial
-                        Sales-Design-Financial-Inertial_Sensors_Group-IT-Products-Report,ContractsAdmin-Active Project
-                        Numbers-USNO Ca oven-NASA-Atom
-                        Computing</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">70GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/aosense.com';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- French Government -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">aosense.com</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Stealer-type breach,Valid credentials, sensitive access</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">?GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/French-Gouv/';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- guardianhc.com -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">guardianhc.com</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Apps - Attachments - Daily Admission Copies - Documents -
-                        Pictures - COVID TESTING DATE - Custom Office Templates -Vaccine</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">?GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/guardianhc.com';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- uatf.edu.bo -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">uatf.edu.bo</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Personal data (names, addresses, phone numbers) - Internal email
-                        correspondences - Attachments containing educational and administrative documents,Information on
-                        student or employee activities - Contact
-                        list for all students, internal messages, and more</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">?GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/uatf.edu.bo';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-                <!-- lyra.officegroup.it -->
-                <div class="category-card rounded-lg p-6">
-                    <div class="feature-icon mx-auto">
-                        <i class="fas fa-unlock" style="color: green;"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center" style="color: green;">lyra.officegroup.it</h3>
-                    <p class="text-gray-400 text-sm mb-4 text-center" style="color: green;">
-                        Enjoy!</p>
-                    <div class="flex flex-wrap gap-2 justify-center mb-4">
-                        <span class="status-badge status-popular">?GB</span>
-                        <span class="status-badge status-new">100%</span>
-                        <span class="status-badge status-beta">PUBLISHED</span>
-                    </div>
-                    <div class="mt-6 text-center">
-                        <button class="btn-primary text-sm px-6 py-2 rounded flex items-center mx-auto"
-                            onclick="window.location.href='http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/lyra.officegroup.it';">
-                            <i class="fas fa-eye mr-2"></i> DATA ACCESS
-                        </button>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        </div>
-    </section>
-
-
-
-
-    <!-- Featured Products -->
-    <section id="services" class="py-16 bg-gray-900/50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold mb-4">Featured <span class="text-red-500">Products</span></h2>
-                <p class="text-gray-400 max-w-2xl mx-auto">
-                    Our most popular and effective tools currently available.
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <!-- Product 1 -->
-                <div class="category-card rounded-lg p-5">
-                    <div class="flex justify-between items-start mb-3">
-                        <span class="status-badge status-popular">BESTSELLER</span>
-                        <span class="text-sm text-gray-500">v3.0.0</span>
-                    </div>
-                    <div class="feature-icon mx-auto mb-4">
-                        <i class="fas fa-lock"></i>
-                    </div>
-                    <h3 class="text-lg font-bold mb-2 text-center">RottenBay RAT/Infostealer</h3>
-                    <p class="text-gray-400 text-xs mb-4 text-center">
-                        Fully undetectable remote access trojan with persistence and keylogging.
-                    </p>
-                    <div class="flex justify-between items-center mb-4">
-                        <div class="tooltip">
-                            <span class="text-xs text-gray-400"><i class="fas fa-shield-alt mr-1"></i> FUD</span>
-                            <span class="tooltiptext">Fully Undetectable by all major AVs</span>
+                <div class="space-y-6">
+                    <div class="bg-zinc-900 border border-zinc-800 p-8 hover:border-red-600 transition-all group">
+                        <div class="text-xs text-zinc-500 uppercase mb-2">TOX ID (Recommended)</div>
+                        <div class="text-xl font-mono text-white select-all group-hover:text-red-500">
+                            782A1B99C3D4E5F67890ABCDEF1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF123456
                         </div>
-                        <div class="text-sm font-medium text-red-500">$500</div>
                     </div>
-                    <button onclick="scrollToContact()"
-                        class="btn-primary text-sm w-full py-2 rounded flex items-center justify-center">
-                        <i class="fas fa-shopping-cart mr-2"></i> Purchase via qTox
-                    </button>
-                </div>
 
-                <!-- Product 2 -->
-                <div class="category-card rounded-lg p-5">
-                    <div class="flex justify-between items-start mb-3">
-                        <span class="status-badge status-new">BESTSELLER</span>
-                        <span class="text-sm text-gray-500">v5.0.0</span>
-                    </div>
-                    <div class="feature-icon mx-auto mb-4">
-                        <i class="fas fa-lock"></i>
-                    </div>
-                    <h3 class="text-lg font-bold mb-2 text-center">Ransomware</h3>
-                    <p class="text-gray-400 text-xs mb-4 text-center">
-                        Join our exclusive affiliate program and leverage our advanced Version 5 ransomware toolkit.
-                        Integrated with a previous STM.X version, developed in Go, packed with multiple features.
-                    </p>
-                    <div class="flex justify-between items-center mb-4">
-                        <div class="tooltip">
-                            <span class="text-xs text-gray-400"><i class="fas fa-shield-alt mr-1"></i> FUD</span>
-                            <span class="tooltiptext">Fully Undetectable by all major AVs</span>
+
+                    <div class="grid grid-cols-2 gap-4 pt-8">
+                        <div class="text-left">
+                            <h4 class="text-white font-bold text-sm mb-1 uppercase">Victim Support</h4>
+                            <p class="text-xs text-zinc-500">Include your unique ID found in the ransom note for faster
+                                decryption verification.</p>
                         </div>
-                        <div class="text-sm font-medium text-red-500">$750</div>
+                        <div class="text-left border-l border-zinc-800 pl-4">
+                            <h4 class="text-white font-bold text-sm mb-1 uppercase">Press Inquiries</h4>
+                            <p class="text-xs text-zinc-500">We respond to journalists within 24-48 hours. Proof of
+                                identity required.</p>
+                        </div>
                     </div>
-                    <button onclick="scrollToContact()"
-                        class="btn-primary text-sm w-full py-2 rounded flex items-center justify-center">
-                        <i class="fas fa-shopping-cart mr-2"></i> Purchase via qTox
-                    </button>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Payment Methods -->
-    <section class="py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold mb-4">Accepted <span class="text-red-500">Payment Methods</span></h2>
-                <p class="text-gray-400 max-w-2xl mx-auto">
-                    Secure and anonymous cryptocurrency payments only.
-                </p>
-            </div>
-
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-2xl mx-auto">
-                <div class="payment-method">
-                    <i class="fab fa-bitcoin text-2xl text-orange-500"></i>
-                    <span class="ml-2 font-medium">Bitcoin</span>
-                </div>
-                <div class="payment-method">
-                    <i class="fas fa-coins text-2xl text-purple-500"></i>
-                    <span class="ml-2 font-medium">Monero</span>
                 </div>
             </div>
         </div>
-    </section>
+    </main>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-16 bg-gray-900/50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold mb-4">Secure <span class="text-red-500">Contact</span></h2>
-                <p class="text-gray-400 max-w-2xl mx-auto">
-                    For security reasons, we only communicate through qTox encrypted channels.
-                </p>
-            </div>
-
-            <div class="max-w-2xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
-                <!-- First qTox ID -->
-                <div class="bg-gray-800/50 p-6 rounded-lg border border-gray-700">
-                    <h3 class="text-lg font-medium mb-2 flex items-center">
-                        <i class="fas fa-fingerprint mr-2"></i> qTox Contact
-                    </h3>
-                    <p class="text-gray-400 text-sm mb-4">
-                        For fastest response:
-                    </p>
-                    <div class="crypto-id flex items-center justify-between">
-                        <span>0E67D9C77F417ABA9564B97C616A6ADAEDC2D3B2CD32B4868FD65E661F6C79311F5C9D908716</span>
-                        <button class="ml-2 text-gray-400 hover:text-white">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-                </div>
-
-
-
-                <div class="mt-8 text-center text-gray-500 text-xs max-w-2xl mx-auto">
-                    <p><i class="fas fa-exclamation-triangle mr-1"></i> Always verify the qTox ID fingerprint matches
-                        before
-                        communicating sensitive information.</p>
-                </div>
-            </div>
-    </section>
-    <!-- Footer -->
-    <footer class="border-t border-gray-800 py-8">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row justify-between items-center">
-                <div class="mb-4 md:mb-0">
-                    <span class="text-xl font-bold text-red-500 flex items-center">
-                        <i class="fas fa-skull mr-2"></i>StormousGroup
-                    </span>
-                    <p class="text-gray-400 text-sm mt-1"></p>
-                </div>
-
-            </div>
-            <div class="mt-8 text-center text-gray-500 text-xs">
-                <p>Â© 2021/2025 Stormous</p>
-
+    <!-- Footer Stats -->
+    <footer class="border-t border-zinc-800 mt-20 bg-black py-10">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-zinc-600 text-xs uppercase tracking-widest mb-4">STORMOUS Group &copy; 2026 </p>
+            <div class="flex justify-center space-x-4 opacity-50 grayscale hover:grayscale-0 transition-all">
+                <div class="text-[10px] border border-zinc-700 p-2">TOR: ...onion</div>
+                <div class="text-[10px] border border-zinc-700 p-2">2021/2026</div>
             </div>
         </div>
     </footer>
 
     <script>
-        // Mobile menu toggle
-        document.querySelector('.md\\:hidden button').addEventListener('click', function () {
-            const menu = document.createElement('div');
-            menu.className = 'fixed inset-0 bg-black bg-opacity-90 z-50 flex flex-col items-center justify-center';
-            menu.innerHTML = `
-                <button class="absolute top-4 right-4 text-gray-400 hover:text-white">
-                    <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                    </svg>
-                </button>
-                <div class="flex flex-col space-y-8 text-center">
-                    <a href="#categories" class="text-2xl text-gray-400 hover:text-white nav-link">Products</a>
-                    <a href="#services" class="text-2xl text-gray-400 hover:text-white nav-link">Services</a>
-                    <a href="#testimonials" class="text-2xl text-gray-400 hover:text-white nav-link">Reviews</a>
-                    <a href="#faq" class="text-2xl text-gray-400 hover:text-white nav-link">FAQ</a>
-                    <a href="#contact" class="text-2xl text-gray-400 hover:text-white nav-link">Contact</a>
+        const companies = [
+            {
+                id: 1.3,
+                name: "clarochile.cl",
+                description: "Source_Code_&_Binaries Claro_PhoneProtect_App - Database_Core_Logic (Claro_OWBDPHPRO_Schema) - Access_Control_&_Security - Operational_Workflows (Claro_PhoneProtect_Device_Management) - Complete Database Schema Definition -Identity Management (IDM) Configuration - Google Firebase Cloud Messaging (FCM) Authorization Key - Huawei Cloud Push Service Client Credentials (ID & Secret) and more ....",
+                type: "Source_Code_&_Binaries",
+                size: "? GB",
+                deadline: new Date().getTime() + (8 * 24 * 60 * 60 * 1000),
+                timerActive: true,
+                publishedDate: "2026-01-20",
+                status: "timer",
+                method: "Database Access",
+                downloadLinks: [
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            {
+                id: 1,
+                name: "GOODMANMFG",
+                description: "Administrative/System Files/ADMIN, DOAS, operational records, engineering drawings, schematicsâ¦",
+                type: "Administrative Files",
+                size: "44 GB",
+                deadline: new Date().getTime() + (5 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-12-09",
+                status: "FINISH",
+                method: "System Breach",
+                downloadLinks: [
+                    "http://zjwkcbb4p4gspejz64t5mbdf5dltry7ez5v76dfnzp55z4ji2woeypid.onion/goodmanmfg.com",
+                    "http://zjwkcbb4p4gspejz64t5mbdf5dltry7ez5v76dfnzp55z4ji2woeypid.onion/goodmanmfg.com",
+                    "http://zjwkcbb4p4gspejz64t5mbdf5dltry7ez5v76dfnzp55z4ji2woeypid.onion/goodmanmfg.com"
+                ]
+            },
+            {
+                id: 2,
+                name: "futureal",
+                description: "Project Planning & Execution Documents...",
+                type: "Project Documents",
+                size: "17 GB",
+                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-12-07",
+                status: "FINISH",
+                method: "Data Exfiltration",
+                downloadLinks: [
+                    "http://zjwkcbb4p4gspejz64t5mbdf5dltry7ez5v76dfnzp55z4ji2woeypid.onion/futureal.hu",
+                    "http://zjwkcbb4p4gspejz64t5mbdf5dltry7ez5v76dfnzp55z4ji2woeypid.onion/futureal.hu",
+                    "http://zjwkcbb4p4gspejz64t5mbdf5dltry7ez5v76dfnzp55z4ji2woeypid.onion/futureal.hu"
+                ]
+            },
+            {
+                id: 3,
+                name: "bkcolombia",
+                description: "(Folders/Files) Email/Communication/System/Application Data AYEAPLICACIONES database/Log Data BDATOSFITCLOD ( Software/Installation/Program Files AUTOBÎÎ¥ Personal/Miscellaneous Files AvenaCubana )",
+                type: "Email & System Data",
+                size: "12 gb",
+                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-12-01",
+                status: "FINISH",
+                method: "Database Access",
+                downloadLinks: [
+                    "http://zib7duoiglvzvnpjs5faly6bio4xhwiby2lupsnxrkjnx46gmwdfyrid.onion/bkcolombia.org/",
+                    "http://zib7duoiglvzvnpjs5faly6bio4xhwiby2lupsnxrkjnx46gmwdfyrid.onion/bkcolombia.org/",
+                    "http://zib7duoiglvzvnpjs5faly6bio4xhwiby2lupsnxrkjnx46gmwdfyrid.onion/bkcolombia.org/"
+                ]
+            },
+            {
+                id: 4,
+                name: "holidaypalace",
+                description: "All of this data is offered for sale (user information: email, phone number, full name, date of birth / payment and booking data / ID cards and passports used in booking processes / full access was obtained to the system and all data was extracted).",
+                type: "Customer PII",
+                size: "? ",
+                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-11-12",
+                status: "FOR SALE",
+                method: "Full System Access",
+                downloadLinks: [
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            {
+                id: 5,
+                name: "VPN Access Company",
+                description: "VPN access to the company's internal network is provided",
+                type: "Network Access",
+                size: "VPN Credentials",
+                deadline: new Date().getTime() + (1 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-11-17",
+                status: "finish",
+                method: "VPN Breach",
+                downloadLinks: [
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            {
+                id: 6,
+                name: "www.wilmar.co.id",
+                description: "VPN access to the company's internal network is provided",
+                type: "Network Infrastructure",
+                size: "VPN Access",
+                deadline: new Date().getTime() + (1 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-11-24",
+                status: "finish",
+                method: "VPN Compromise",
+                downloadLinks: [
+                    "",
+                    "",
+
+                ]
+            },
+            {
+                id: 7,
+                name: "www.danareksa.com",
+                description: "VPN access to the company's internal network is provided",
+                type: "Network Access",
+                size: "VPN Credentials",
+                deadline: new Date().getTime() + (1 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-09-04",
+                status: "finish",
+                method: "VPN Breach",
+                downloadLinks: [
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            {
+                id: 8,
+                name: "www.marjane.ma",
+                description: "Marjane Group is a Moroccan retail group that owns the Marjane hypermarkets and Marjane Market supermarkets. Founded in 1990, Marjane has gradually become the largest retail company in Morocco",
+                type: "Retail Data",
+                size: "VPN Credentials/SSH",
+                deadline: new Date().getTime() + (3 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-09-11",
+                status: "finish",
+                method: "VPN Breach",
+                downloadLinks: [
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            {
+                id: 9,
+                name: "French Government ",
+                description: "Stealer-type breach Valid credentials, sensitive access",
+                type: "Government Data",
+                size: "?",
+                deadline: new Date().getTime() + (5 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-09-16",
+                status: "finish",
+                method: "Credential Theft",
+                downloadLinks: [
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/",
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/",
+                ]
+            },
+            {
+                id: 10,
+                name: "acuity",
+                description: "This includes important legal documents such as drafts of non-disclosure agreements (NDA) pertaining to the company and strategic partners like Bosch, detailed financial documents containing analyses of Acuity's financial position",
+                type: "Legal & Financial",
+                size: "38 GB",
+                deadline: new Date().getTime() + (4 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-08-28",
+                status: "finish",
+                method: "Document Exfiltration",
+                downloadLinks: [
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/acuity.co.uk",
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/acuity.co.uk",
+                ]
+            },
+            {
+                id: 11,
+                name: "enersolcr",
+                description: "Internal Data - System Data - 73 Partner Data - Customer Data (Email, Name, Phone Number) - Admin Data and Their Roles, etc....",
+                type: "Partner & Customer Data",
+                size: "1 GB",
+                deadline: new Date().getTime() + (3 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-08-21",
+                status: "finish",
+                method: "Database Dump",
+                downloadLinks: [
+                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/enersolcr.com",
+                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/enersolcr.com",
+                ]
+            },
+            {
+                id: 12,
+                name: "regencytorviscas",
+                description: "Full customer reservation databases (names, phones, emails, addresses, booking dates) Scanned ID documents (passports, national IDs) Internal emails via OWA Employee and customer email lists RDP credential files",
+                type: "Hotel Reservation Data",
+                size: "?GB",
+                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-08-09",
+                status: "FINISH",
+                method: "RDP ",
+                downloadLinks: [
+                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencytorviscas.com",
+
+                ]
+            },
+            {
+                id: 13,
+                name: "regencycountryclub",
+                description: "Full customer reservation databases (names, phones, emails, addresses, booking dates) Scanned ID documents (passports, national IDs) Internal emails via OWA Employee and customer email lists RDP credential files",
+                type: "Reservation Data",
+                size: "?GB",
+                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-08-07",
+                status: "FINISH",
+                method: "RDP",
+                downloadLinks: [
+                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencycountryclub.com",
+                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencycountryclub.com",
+                ]
+            },
+            {
+                id: 14,
+                name: "regencyrestors",
+                description: "Full customer reservation databases (names, phones, emails, addresses, booking dates) Scanned ID documents (passports, national IDs) Internal emails via OWA Employee and customer email lists RDP credential files",
+                type: "Hotel Customer Data",
+                size: "?GB",
+                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-07-17",
+                status: "FINISH",
+                method: "Email System Breach",
+                downloadLinks: [
+                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencyrestors.com",
+                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencyrestors.com",
+                ]
+            },
+            {
+                id: 15,
+                name: "jparkislandresort",
+                description: "Full reservation databases Booking platform references (including HeyTripGo) Payment Data PDF files containing credit card numbers, expiration dates and CVV codes Scans of physical card images used in transactions Names and billing addresses linked to card ......",
+                type: "Payment & Reservation Data",
+                size: "? GB",
+                deadline: new Date().getTime() + (3 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-07-17",
+                status: "FINISH",
+                method: "",
+                downloadLinks: [
+                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/jparkislandresort.com",
+                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/jparkislandresort.com",
+                ]
+            },
+            {
+                id: 16,
+                name: "crystalhotels",
+                description: "Full names of hotel guests a Email addresses (internal and external) Customer complaints and feedback content Booking or reference numbers Internal hotel communication data ......",
+                type: "Hotel Guest Data",
+                size: "? GB",
+                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-07-17",
+                status: "FINISH",
+                method: "Hotel System Breach",
+                downloadLinks: [
+                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/crystalhotels.com",
+                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/crystalhotels.com",
+                ]
+            },
+            {
+                id: 17,
+                name: "Hy-Vee",
+                description: "Hy-Vee refuses to pay, and we are proceeding to leak all the data that was extracted. Internal documents, infrastructure diagrams, employee data, training materials ....",
+                type: "Corporate Internal Data",
+                size: "88 GB",
+                deadline: new Date().getTime() + (1 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-07-12",
+                status: "FINISH",
+                method: "Atlassian Compromise",
+                downloadLinks: [
+                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/hy-vee",
+                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/hy-vee",
+                ]
+            },
+            {
+                id: 18,
+                name: "atolon-parkhotel",
+                description: "CVs - FACTURES - Hwawei.com - AA GROUPE 2025 - RESERVATION 2025 - PERSONNELS - INFOS - STAGIAIRES .....",
+                type: "Hotel Operational Data",
+                size: "? GB",
+                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-06-08",
+                status: "FINISH",
+                method: "Hotel Management System",
+                downloadLinks: [
+                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/atolon-parkhotel.com",
+                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/atolon-parkhotel.com",
+                ]
+            },
+            {
+                id: 19,
+                name: "thewatermansarms",
+                description: "CVs - Bank - VCF - Business accounts - image - SCAN - Passport Details - ID Card - ......",
+                type: "Personal & Financial Data",
+                size: "? GB",
+                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-08-07",
+                status: "FINISH",
+                method: "Document Theft",
+                downloadLinks: [
+                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/thewatermansarms.com",
+                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/thewatermansarms.com",
+                ]
+            },
+            {
+                id: 20,
+                name: "rinaldi",
+                description: "Data of 1,000 registered distributors and sellers employee and customer information â admin login passwords â email addresses, phone numbers, full names â and more...",
+                type: "Distributor Network Data",
+                size: "1 GB",
+                deadline: new Date().getTime() + (3 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-09-17",
+                status: "FINISH",
+                method: "?",
+                downloadLinks: [
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/rinaldi.com.br",
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/rinaldi.com.br",
+                ]
+            },
+            {
+                id: 21,
+                name: "Volkswagen",
+                description: "CarNet system breach Internal data accessed",
+                type: "Automotive System Data",
+                size: "? GB",
+                deadline: new Date().getTime() + (4 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-09-15",
+                status: "FINISH",
+                method: "CarNet Breach",
+                downloadLinks: [
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/CarNet.log",
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/CarNet.log",
+                ]
+            },
+            {
+                id: 22,
+                name: "bulentklise",
+                description: "Customer names, identification numbers, production orders, client records, delivery tracking data, customer information, logos, and more",
+                type: "Manufacturing Data",
+                size: "? GB",
+                deadline: new Date().getTime() + (3 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-07-14",
+                status: "FINISH",
+                method: "Production System",
+                downloadLinks: [
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/www.bulentklise.com.tr",
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/www.bulentklise.com.tr",
+                ]
+            },
+            {
+                id: 23,
+                name: "usbmemorydirect.com",
+                description: "Personal data (individual names, photos, etc.), company/business data (company names, services, tools, equipment), backup copies, system archive compressed files, internal documents and project files, and more.",
+                type: "Corporate Backup Data",
+                size: "60 GB",
+                deadline: new Date().getTime() + (5 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-07-22",
+                status: "FINISH",
+                method: "Backup System",
+                downloadLinks: [
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/www.usbmemorydirect.com/",
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/www.usbmemorydirect.com/",
+                ]
+            },
+            {
+                id: 24,
+                name: "Sincroslab Sas",
+                description: "Sincroslab Sas is a company in Colombia, with a head office in Bogota D.C.. It operates in the Miscellaneous Nondurable Goods Merchant Wholesalers industry.",
+                type: "Wholesale Business Data",
+                size: "3 GB",
+                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-07-24",
+                status: "negotiation",
+                method: "Business System",
+                downloadLinks: [
+                    "http://zib7duoiglvzvnpjs5faly6bio4xhwiby2lupsnxrkjnx46gmwdfyrid.onion/sincroslab.com/",
+                    "http://zib7duoiglvzvnpjs5faly6bio4xhwiby2lupsnxrkjnx46gmwdfyrid.onion/sincroslab.com/",
+                ]
+            },
+            {
+                id: 25,
+                name: "visioninksltd",
+                description: "Vision Inks and Resins Limited ( previously known as Vision Inks & Resins ) is established in May 1999 with Factory at MIDC, Murbad, Maharashtra INDIA having ...",
+                type: "Manufacturing Data",
+                size: "? GB",
+                deadline: new Date().getTime() + (3 * 24 * 60 * 60 * 1000),
+                publishedDate: "?",
+                status: "imminent",
+                method: "",
+                downloadLinks: [
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            {
+                id: 26,
+                name: "americanadecolchones",
+                description: "VPN access to the company's internal network is provided.",
+                type: "Network Access",
+                size: "VPN Credentials",
+                deadline: new Date().getTime() + (1 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-08-16",
+                status: "timer",
+                method: "VPN Breach",
+                downloadLinks: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                id: 27,
+                name: "FRANCE TRAVAIL DATA BREACH - 2025",
+                description: "Plaintext authentication credentials (usernames/passwords)-(full names, dates of birth, gender)-(addresses, phone numbers, emails)-Employment history and professional skills-CNI-RIB - RelevÃ© d'IdentitÃ© Bancair - CDD, CDI, temporary missions - spanning multiple years - Tax documents (Avis d'imposition) - Social security attestations - Training certificates - Work authorization documents and more ....",
+                type: "Government Employment Data",
+                size: "34 GB",
+                deadline: new Date().getTime() + (6 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-07-13",
+                status: "FOR SALE ",
+                method: "",
+                downloadLinks: [
+                    "http://zib7duoiglvzvnpjs5faly6bio4xhwiby2lupsnxrkjnx46gmwdfyrid.onion/francetravail.fr/660d57fc66ad",
+                    "http://zib7duoiglvzvnpjs5faly6bio4xhwiby2lupsnxrkjnx46gmwdfyrid.onion/francetravail.fr/",
+                ]
+            },
+            {
+                id: 28,
+                name: "North Country HealthCare",
+                description: "Health information for 600,000 patients has been accessed from the North Country Health (NCH) care",
+                type: "Healthcare Patient Data",
+                size: "? ",
+                deadline: new Date().getTime() + (5 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-06-24",
+                status: "FINISH",
+                method: "Healthcare System",
+                downloadLinks: [
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/NCH/",
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/NCH/",
+                ]
+            },
+            {
+                id: 46,
+                name: "Wizz Air",
+                description: "The response stated: 'Wizz Air has strong security systems in place, designed to protect the sensitive data of our valued customers and partners.' But I would like to know what guarantees you actually offer your customers and others, because this company clearly seems unaware of what's going on. The breach was published nearly a month ago, and the data has been widely circulated and used. It has also been verified, and it is indeed valid data linked to your employees. Does the company not have any monitoring system? Or perhaps there have been numerous reports of major fraud incidents committed under your name. So, your denial of the breach â which dates back to a month ago â appears more like an attempt to mislead your customers and partners.",
+                type: "Airline Employee Data",
+                size: "? GB",
+                deadline: new Date().getTime() + (5 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-03-28",
+                status: "FINISH",
+                method: "Employee Data Breach",
+                downloadLinks: [
+                    "?",
+                    "?",
+                    "?"
+                ]
+            },
+            {
+                id: 47,
+                name: "phish.pw Forum",
+                description: "A forum created by the operators of Stormous and many of their affiliates, including members from Lapsus$, GhostSec, RedRaas, and others. This forum offers the latest phishing techniques and social engineering methods used in cutting-edge hacking strategies. (These methods have been utilized in our attacks against major KYC services and others, such as Transak, Fractal, and AOSense.) Do you want to gain skills and work with us or operate independently?",
+                type: "Hacking Forum Data",
+                size: "1.9 TB",
+                deadline: new Date().getTime() + (4 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-03-28",
+                status: "FINISH",
+                method: "",
+                downloadLinks: [
+                    "",
+                    "",
+                ]
+            },
+            {
+                id: 48,
+                name: "KYC UK",
+                description: "ENJOY!",
+                type: "KYC Verification Data",
+                size: "12 GB",
+                deadline: new Date().getTime() + (6 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-03-19",
+                status: "FINISH",
+                method: "KYC System",
+                downloadLinks: [
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/KYC-UK",
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/KYC-UK",
+                ]
+            },
+
+
+            {
+                id: 52,
+                name: "Transak.com",
+                description: "We have extracted more than 300GB of data, which includes sensitive personal documents such as government-issued IDs, proof of address, financial statements, and user selfies",
+                type: "Crypto KYC Data",
+                size: "300 GB",
+                deadline: new Date().getTime() + (4 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-03-17",
+                status: "FINISH",
+                method: "Crypto Platform",
+                downloadLinks: [
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/Transak.com",
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/Transak.com",
+                ]
+            },
+            {
+                id: 53,
+                name: "uatf.edu.bo",
+                description: "Personal data (names, addresses, phone numbers) - Internal email correspondences - Attachments containing educational and administrative documents - Information on student or employee activities - Contact list for all students, internal messages, and more",
+                type: "University Data",
+                size: "? GB",
+                deadline: new Date().getTime() + (5 * 24 * 60 * 60 * 1000),
+                publishedDate: "2025-03-17",
+                status: "negotiation",
+                method: "Education System",
+                downloadLinks: [
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/uatf.edu.bo",
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/uatf.edu.bo",
+                ]
+            },
+            {
+                id: 54,
+                name: "guardianhc.com",
+                description: "Apps - Attachments - Daily Admission Copies - Documents - Pictures - COVID TESTING DATE - Custom Office Templates -Vaccines",
+                type: "Healthcare Data",
+                size: "? GB",
+                deadline: new Date().getTime() + (4 * 24 * 60 * 60 * 1000),
+                publishedDate: "2024-08-12",
+                status: "FINISH",
+                method: "Healthcare System",
+                downloadLinks: [
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/guardianhc.com",
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/guardianhc.com",
+                ]
+            },
+            {
+                id: 55,
+                name: "ascires.com",
+                description: "Client Data - Medical Reports - Financial Status (Bank reports, taxes, and more) - Annual Accounts - Personal Information - New Projects - Large amounts of patient-related data - Business plans and much more â a total of 700 GB of critical information!",
+                type: "Medical & Financial Data",
+                size: "700 GB",
+                deadline: new Date().getTime() + (3 * 24 * 60 * 60 * 1000),
+                publishedDate: "2024-03-22",
+                status: "FINIISH",
+                method: "Medical System",
+                downloadLinks: [
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/ascires.com",
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/ascires.com",
+                ]
+            },
+            {
+                id: 56,
+                name: "fractal.id",
+                description: "The total amount of data we managed to access exceeded 10 GB ------ 12GB, including personal photos, bank statements, proof of address, and ETH/BTC addresses",
+                type: "Crypto Identity Data",
+                size: "12 GB",
+                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
+                publishedDate: "2024-04-19",
+                status: "FINISH",
+                method: "Identity Platform",
+                downloadLinks: [
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/fractal.id",
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/fractal.id",
+                ]
+            },
+            {
+                id: 57,
+                name: "aosense.com",
+                description: "Accounting Information- AOSense Commercial Sales-Design-Financial-Inertial_Sensors_Group-IT-Products-Report-ContractsAdmin-Active Project Numbers-USNO Ca oven-NASA-Atom Computing-Subcontracts-Purchasing-IntellectualProperty-Administrative-Data-Navigation",
+                type: "Aerospace Data",
+                size: "1 TB",
+                deadline: new Date().getTime() + (6 * 24 * 60 * 60 * 1000),
+                publishedDate: "2024-09-19",
+                status: "FINISH",
+                method: "Aerospace System",
+                downloadLinks: [
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/aosense.com",
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/aosense.com",
+                ]
+            },
+            {
+                id: 58,
+                name: "acuity.co.uk",
+                description: "his includes important legal documents such as drafts of non-disclosure agreements (NDA) pertaining to the company and strategic partners like Bosch, detailed financial documents containing analyses of Acuity's financial position",
+                type: "Legal & Financial",
+                size: "17 GB",
+                deadline: new Date().getTime() + (4 * 24 * 60 * 60 * 1000),
+                publishedDate: "2024-03-17",
+                status: "FINISH",
+                method: "Document Exfiltration",
+                downloadLinks: [
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/acuity.co.uk",
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/acuity.co.uk",
+                ]
+            },
+            {
+                id: 59,
+                name: "biodimed.com",
+                description: "Email operations associated with all employees - attachments include 40GB of documents related to biodimed - employee data - internal messages",
+                type: "Biomedical Data",
+                size: "40 GB",
+                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
+                publishedDate: "2024-03-17",
+                status: "FINISH",
+                method: "Email System",
+                downloadLinks: [
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/biodimed.com",
+                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/biodimed.com",
+                ]
+            },
+            {
+                id: 60,
+                name: "turbomp.com",
+                description: "Because this company receives product design drawings from other partner companies and carries out manufacturing orders, it has detailed contract documents with numerous companies, their design documents, detailed drawings required for the manufacturing process, and documents showing the manufacturing process.",
+                type: "Manufacturing Designs",
+                size: "700 GB",
+                deadline: new Date().getTime() + (3 * 24 * 60 * 60 * 1000),
+                publishedDate: "2024-03-17",
+                status: "FINISH",
+                method: "Design System",
+                downloadLinks: [
+                    "https://mega.nz/folder/turbomp#link60",
+                    "https://anonfiles.com/turbomp_data",
+                    "https://file.io/turbomp2025"
+                ]
+            }
+        ];
+
+        function switchView(viewId) {
+            document.querySelectorAll('.page-view').forEach(v => v.classList.add('hidden'));
+            const target = document.getElementById(`view-${viewId}`);
+            if (target) target.classList.remove('hidden');
+
+            window.scrollTo(0, 0);
+        }
+
+        function updateTimers() {
+
+            companies.forEach(company => {
+                if (!company.timerActive) return;
+
+                const timerElement = document.getElementById(`timer-${company.id}`);
+                if (!timerElement) return;
+
+                const now = new Date().getTime();
+                const distance = company.deadline - now;
+
+                if (distance < 0) {
+                    timerElement.innerHTML = "EXPIRED - DATA RELEASED";
+                    timerElement.classList.add('text-green-500');
+                    timerElement.classList.remove('timer-red');
+                } else {
+                    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                    timerElement.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+                }
+            });
+        }
+
+        function downloadSample(filename) {
+            const link = document.createElement('a');
+            link.href = '#'; // In a real scenario, this would be the file path
+            link.download = filename;
+            alert(`[ENCRYPTED TUNNEL ESTABLISHED]\nInitiating secure download of: ${filename}`);
+        }
+
+        // Company-specific file systems
+        const companyFileSystems = {
+            1.3: [ // clarochile.cl
+                { name: '01_Archivos WAR/', type: 'dir', size: '-' },
+                { name: 'PhoneProtectChWeb/', type: 'dir', size: '-' },
+                { name: 'TerminalChService/', type: 'dir', size: '-' },
+                { name: 'Scripts de base de datos/', type: 'dir', size: '-' },
+                { name: 'Agustes_Componenetes/', type: 'dir', size: '-' },
+                { name: '-RollBack SCRIPTS BD/', type: 'dir', size: '-' },
+                { name: 'WAR_AppService - Correccion APP /', type: 'dir', size: '-' },
+                { name: '5_TG-SP-20180808.sql', type: 'file', size: '777 MB' },
+                { name: 'PERMISO_ROL.sql', type: 'file', size: 'MB' }
+            ],
+
+
+            1: [ // GOODMANMFG
+                { name: 'ADMIN/', type: 'dir', size: '-' },
+                { name: 'DOAS/', type: 'dir', size: '-' },
+                { name: 'Engineering_Drawings/', type: 'dir', size: '-' },
+                { name: 'Schematics/', type: 'dir', size: '-' },
+
+            ],
+            2: [ // futureal
+                { name: 'Project_Planning/', type: 'dir', size: '-' },
+                { name: 'Execution_Documents/', type: 'dir', size: '-' },
+                { name: 'Timeline_Charts/', type: 'dir', size: '-' },
+
+            ],
+            3: [ // bkcolombia
+                { name: 'Email_Communications/', type: 'dir', size: '-' },
+                { name: 'AYEAPLICACIONES_Database/', type: 'dir', size: '-' },
+                { name: 'BDATOSFITCLOD_Logs/', type: 'dir', size: '-' },
+                { name: 'AUTOBOY_Software/', type: 'dir', size: '-' },
+                { name: 'AvenaCubana_Files/', type: 'dir', size: '-' },
+
+            ],
+            4: [ // holidaypalace
+                { name: 'User_Information/', type: 'dir', size: '-' },
+                { name: 'Payment_Data/', type: 'dir', size: '-' },
+                { name: 'ID_Cards_Passports/', type: 'dir', size: '-' },
+                { name: 'Booking_Records/', type: 'dir', size: '-' },
+                { name: 'full_user_database.sql', type: 'file', size: '1.2 TB' },
+                { name: 'payment_transactions.csv', type: 'file', size: '450 MB' },
+                { name: 'passport_scans.zip', type: 'file', size: '890 GB' },
+                { name: 'booking_history_2020-2025.xlsx', type: 'file', size: '125 MB' }
+            ],
+            5: [ // VPN Access Company
+                { name: 'VPN_Configurations/', type: 'dir', size: '-' },
+                { name: 'Network_Topology/', type: 'dir', size: '-' },
+                { name: 'vpn_credentials.txt', type: 'file', size: '4 KB' },
+
+            ],
+            6: [ // www.wilmar.co.id
+                { name: 'VPN_Access/', type: 'dir', size: '-' },
+                { name: 'Internal_Network/', type: 'dir', size: '-' },
+                { name: 'wilmar_vpn_config.ovpn', type: 'file', size: '12 KB' },
+
+            ],
+            7: [ // www.danareksa.com
+                { name: 'VPN_Credentials/', type: 'dir', size: '-' },
+                { name: 'Financial_Systems/', type: 'dir', size: '-' },
+                { name: 'danareksa_access.txt', type: 'file', size: '5 KB' },
+
+            ],
+            8: [ // www.marjane.ma
+                { name: 'VPN_Credentials//', type: 'dir', size: '-' },
+                { name: 'Customer/', type: 'dir', size: '-' },
+                { name: 'Inventory_Systems/', type: 'dir', size: '-' },
+                { name: 'Hypermarket_Records/', type: 'dir', size: '-' },
+
+            ],
+            9: [ // French Government
+                { name: 'Credentials/', type: 'dir', size: '-' },
+                { name: 'Sensitive_Access/', type: 'dir', size: '-' },
+                { name: 'valid_credentials.txt', type: 'file', size: '2.8 MB' },
+
+            ],
+            10: [ // acuity
+                { name: 'Legal_Documents/', type: 'dir', size: '-' },
+                { name: 'NDA_Drafts/', type: 'dir', size: '-' },
+                { name: 'Financial_Analysis/', type: 'dir', size: '-' },
+                { name: 'Bosch_Partnership/', type: 'dir', size: '-' },
+                { name: 'nda_bosch_2024.pdf', type: 'file', size: '12.5 MB' },
+                { name: 'financial_position_analysis.xlsx', type: 'file', size: '45 MB' },
+                { name: 'strategic_partners_list.docx', type: 'file', size: '8.9 MB' },
+                { name: 'confidential_contracts.zip', type: 'file', size: '890 GB' }
+            ],
+            11: [ // enersolcr
+                { name: 'Internal_Data/', type: 'dir', size: '-' },
+                { name: 'Partner_Data/', type: 'dir', size: '-' },
+                { name: 'Customer_Database/', type: 'dir', size: '-' },
+                { name: 'Admin_Roles/', type: 'dir', size: '-' },
+                { name: '73_partners_data.sql', type: 'file', size: '1 GB' },
+                { name: 'customer_emails_phones.csv', type: 'file', size: '45 MB' },
+                { name: 'admin_credentials_roles.xlsx', type: 'file', size: '2.1 MB' },
+                { name: 'system_backup_full.tar.gz', type: 'file', size: ' GB' }
+            ],
+            12: [ // regencytorviscas
+                { name: 'Reservations_Database/', type: 'dir', size: '-' },
+                { name: 'Scanned_IDs/', type: 'dir', size: '-' },
+                { name: 'OWA_Emails/', type: 'dir', size: '-' },
+                { name: 'RDP_Credentials/', type: 'dir', size: '-' },
+                { name: 'customer_reservations.sql', type: 'file', size: ' GB' },
+                { name: 'passport_scans.zip', type: 'file', size: ' GB' },
+                { name: 'national_ids.zip', type: 'file', size: ' GB' },
+                { name: 'rdp_access_files.txt', type: 'file', size: '15 KB' }
+            ],
+            13: [ // regencycountryclub
+                { name: 'Member_Database/', type: 'dir', size: '-' },
+                { name: 'Booking_Records/', type: 'dir', size: '-' },
+                { name: 'ID_Documents/', type: 'dir', size: '-' },
+                { name: 'Email_Archives/', type: 'dir', size: '-' },
+
+            ],
+            14: [ // regencyrestors
+                { name: 'Customer_Data/', type: 'dir', size: '-' },
+                { name: 'Reservation_System/', type: 'dir', size: '-' },
+                { name: 'Internal_Emails/', type: 'dir', size: '-' },
+
+            ],
+            15: [ // jparkislandresort
+                { name: 'Reservation_Database/', type: 'dir', size: '-' },
+                { name: 'Payment_Data/', type: 'dir', size: '-' },
+                { name: 'Credit_Cards/', type: 'dir', size: '-' },
+                { name: 'HeyTripGo_Data/', type: 'dir', size: '-' },
+
+            ],
+            16: [ // crystalhotels
+                { name: 'Guest_Information/', type: 'dir', size: '-' },
+                { name: 'Email_Archives/', type: 'dir', size: '-' },
+                { name: 'Complaints_Feedback/', type: 'dir', size: '-' },
+
+            ],
+            17: [ // Hy-Vee
+                { name: 'Internal_Documents/', type: 'dir', size: '-' },
+                { name: 'Infrastructure_Diagrams/', type: 'dir', size: '-' },
+                { name: 'Employee_Data/', type: 'dir', size: '-' },
+                { name: 'Training_Materials/', type: 'dir', size: '-' },
+
+            ],
+            18: [ // atolon-parkhotel
+                { name: 'CVs/', type: 'dir', size: '-' },
+                { name: 'FACTURES/', type: 'dir', size: '-' },
+                { name: 'AA_GROUPE_2025/', type: 'dir', size: '-' },
+                { name: 'RESERVATION_2025/', type: 'dir', size: '-' },
+                { name: 'PERSONNELS/', type: 'dir', size: '-' },
+
+            ],
+            19: [ // thewatermansarms
+                { name: 'CVs/', type: 'dir', size: '-' },
+                { name: 'Bank_Documents/', type: 'dir', size: '-' },
+                { name: 'Business_Accounts/', type: 'dir', size: '-' },
+                { name: 'Passport_Scans/', type: 'dir', size: '-' },
+                { name: 'ID_Cards/', type: 'dir', size: '-' },
+            ],
+            20: [ // rinaldi
+                { name: 'Distributors_1000/', type: 'dir', size: '-' },
+                { name: 'Employee_Info/', type: 'dir', size: '-' },
+                { name: 'Admin_Passwords/', type: 'dir', size: '-' },
+
+            ],
+            21: [ // Volkswagen
+                { name: 'CarNet_System/', type: 'dir', size: '-' },
+                { name: 'Internal_Data/', type: 'dir', size: '-' },
+                { name: 'Vehicle_Systems/', type: 'dir', size: '-' },
+
+            ],
+            22: [ // bulentklise
+                { name: 'Customer_Names/', type: 'dir', size: '-' },
+                { name: 'Production_Orders/', type: 'dir', size: '-' },
+                { name: 'Delivery_Tracking/', type: 'dir', size: '-' },
+
+            ],
+            23: [ // usbmemorydirect.com
+                { name: 'Personal_Data/', type: 'dir', size: '-' },
+                { name: 'Company_Data/', type: 'dir', size: '-' },
+                { name: 'Backup_Copies/', type: 'dir', size: '-' },
+                { name: 'Internal_Documents/', type: 'dir', size: '-' },
+
+            ],
+            24: [ // Sincroslab Sas
+                { name: 'Wholesale_Data/', type: 'dir', size: '-' },
+                { name: 'Bogota_Office/', type: 'dir', size: '-' },
+                { name: 'Nondurable_Goods/', type: 'dir', size: '-' },
+
+            ],
+            25: [ // visioninksltd
+                { name: 'Factory_MIDC/', type: 'dir', size: '-' },
+                { name: 'Manufacturing_Data/', type: 'dir', size: '-' },
+                { name: 'Resins_Formulas/', type: 'dir', size: '-' },
+
+            ],
+            26: [ // americanadecolchones
+                { name: 'VPN_Access/', type: 'dir', size: '-' },
+                { name: 'Internal_Network/', type: 'dir', size: '-' },
+                { name: 'vpn_credentials.txt', type: 'file', size: '8 KB' },
+
+            ],
+            27: [ // FRANCE TRAVAIL DATA BREACH
+                { name: 'Authentication_Credentials/', type: 'dir', size: '-' },
+                { name: 'Personal_Information/', type: 'dir', size: '-' },
+                { name: 'Employment_History/', type: 'dir', size: '-' },
+
+            ],
+            28: [ // North Country HealthCare
+                { name: 'Patient_Records_600K/', type: 'dir', size: '-' },
+                { name: 'Health_Information/', type: 'dir', size: '-' },
+                { name: 'Medical_History/', type: 'dir', size: '-' },
+
+            ],
+            46: [ // Wizz Air
+                { name: 'Employee_Data/', type: 'dir', size: '-' },
+                { name: 'Valid_Credentials/', type: 'dir', size: '-' },
+                { name: 'Customer_Partners/', type: 'dir', size: '-' },
+
+            ],
+            47: [ // phish.pw Forum
+                { name: 'Phishing_Techniques/', type: 'dir', size: '-' },
+                { name: 'Social_Engineering/', type: 'dir', size: '-' },
+                { name: 'Lapsus_GhostSec/', type: 'dir', size: '-' },
+                { name: 'KYC_Attack_Methods/', type: 'dir', size: '-' },
+
+            ],
+            48: [ // KYC UK
+                { name: 'KYC_Verification/', type: 'dir', size: '-' },
+                { name: 'Identity_Documents/', type: 'dir', size: '-' },
+                { name: 'User_Data/', type: 'dir', size: '-' },
+
+            ],
+            49: [ // Moroccan Bank Cards
+                { name: 'Bank_Cards_50K/', type: 'dir', size: '-' },
+                { name: 'Five_Banks_Data/', type: 'dir', size: '-' },
+
+            ],
+            50: [ // vouch.co.uk + KYC UK
+                { name: 'KYC_Information/', type: 'dir', size: '-' },
+                { name: 'UK_ID_Cards/', type: 'dir', size: '-' },
+                { name: 'User_Emails_Phones/', type: 'dir', size: '-' },
+
+            ],
+            51: [ // vouch.co.uk
+                { name: 'Customer_Data/', type: 'dir', size: '-' },
+                { name: 'KYC_Records/', type: 'dir', size: '-' },
+                { name: 'Identity_Scans/', type: 'dir', size: '-' },
+
+            ],
+            52: [ // Transak.com
+                { name: 'KYC_Documents/', type: 'dir', size: '-' },
+                { name: 'Government_IDs/', type: 'dir', size: '-' },
+                { name: 'Proof_of_Address/', type: 'dir', size: '-' },
+                { name: 'User_Selfies/', type: 'dir', size: '-' },
+                { name: 'gov_ids_scan.zip', type: 'file', size: '120 GB' },
+                { name: 'address_proofs.zip', type: 'file', size: '80 GB' },
+                { name: 'financial_statements.pdf', type: 'file', size: '45 GB' },
+                { name: 'selfies_300gb.zip', type: 'file', size: '55 GB' }
+            ],
+            53: [ // uatf.edu.bo
+                { name: 'Personal_Data/', type: 'dir', size: '-' },
+                { name: 'Email_Correspondences/', type: 'dir', size: '-' },
+                { name: 'Educational_Documents/', type: 'dir', size: '-' },
+                { name: 'Student_Activities/', type: 'dir', size: '-' },
+
+            ],
+            54: [ // guardianhc.com
+                { name: 'Apps/', type: 'dir', size: '-' },
+                { name: 'Daily_Admissions/', type: 'dir', size: '-' },
+                { name: 'COVID_Testing/', type: 'dir', size: '-' },
+                { name: 'Vaccines/', type: 'dir', size: '-' },
+
+            ],
+            55: [ // ascires.com
+                { name: 'Client_Data/', type: 'dir', size: '-' },
+                { name: 'Medical_Reports/', type: 'dir', size: '-' },
+                { name: 'Financial_Status/', type: 'dir', size: '-' },
+                { name: 'Patient_Data/', type: 'dir', size: '-' },
+                { name: 'New_Projects/', type: 'dir', size: '-' },
+
+            ],
+            56: [ // fractal.id
+                { name: 'Personal_Photos/', type: 'dir', size: '-' },
+                { name: 'Bank_Statements/', type: 'dir', size: '-' },
+                { name: 'Proof_of_Address/', type: 'dir', size: '-' },
+                { name: 'Crypto_Addresses/', type: 'dir', size: '-' },
+
+            ],
+            57: [ // aosense.com
+                { name: 'Accounting/', type: 'dir', size: '-' },
+                { name: 'Commercial_Sales/', type: 'dir', size: '-' },
+                { name: 'NASA_Projects/', type: 'dir', size: '-' },
+                { name: 'Inertial_Sensors/', type: 'dir', size: '-' },
+                { name: 'Intellectual_Property/', type: 'dir', size: '-' },
+
+            ],
+            58: [ // acuity.co.uk
+                { name: 'Legal_Documents/', type: 'dir', size: '-' },
+                { name: 'NDA_Drafts/', type: 'dir', size: '-' },
+                { name: 'Bosch_Partnership/', type: 'dir', size: '-' },
+                { name: 'Financial_Analysis/', type: 'dir', size: '-' },
+
+            ],
+            59: [ // biodimed.com
+                { name: 'Employee_Emails/', type: 'dir', size: '-' },
+                { name: 'Attachments_40GB/', type: 'dir', size: '-' },
+                { name: 'Internal_Messages/', type: 'dir', size: '-' },
+
+            ],
+            60: [ // turbomp.com
+                { name: 'Product_Designs/', type: 'dir', size: '-' },
+                { name: 'Partner_Drawings/', type: 'dir', size: '-' },
+                { name: 'Contract_Documents/', type: 'dir', size: '-' },
+                { name: 'Manufacturing_Process/', type: 'dir', size: '-' },
+
+            ]
+        };
+
+        // Default files for companies without specific file systems
+        const defaultFiles = [
+            { name: 'Data_Archive/', type: 'dir', size: '-' },
+            { name: 'Confidential_Documents/', type: 'dir', size: '-' },
+            { name: 'System_Backup/', type: 'dir', size: '-' },
+
+        ];
+
+        function openFileExplorer(id) {
+            const company = companies.find(c => c.id === id);
+            const explorer = document.createElement('div');
+            explorer.className = 'fixed inset-0 z-[100] flex items-center justify-center bg-black/95 backdrop-blur-sm p-4';
+
+            const simulatedFiles = companyFileSystems[id] || defaultFiles;
+
+            explorer.innerHTML = `
+                <div class="bg-[#0f0f0f] border border-red-600 w-full max-w-4xl h-[80vh] flex flex-col font-mono">
+                    <div class="p-4 border-b border-zinc-800 flex justify-between items-center bg-zinc-900/50">
+                        <div class="flex items-center gap-3">
+                            <span class="text-red-500 font-bold uppercase tracking-widest">STORMOUS Data Explorer v2.1</span>
+                            <span class="text-zinc-600 text-xs">ROOT://TARGETS/${company.name.replace(/\s+/g, '_').toUpperCase()}</span>
+                        </div>
+                        <button onclick="this.parentElement.parentElement.parentElement.remove()" class="text-zinc-500 hover:text-white transition-colors">[ ESCAPE ]</button>
+                    </div>
+                    <div class="flex-1 overflow-y-auto p-4 custom-scrollbar">
+                        <table class="w-full text-left text-xs">
+                            <thead>
+                                <tr class="text-zinc-500 border-b border-zinc-800 uppercase">
+                                    <th class="pb-2 font-normal">Name</th>
+                                    <th class="pb-2 font-normal">Type</th>
+                                    <th class="pb-2 font-normal">Size</th>
+                                    <th class="pb-2 font-normal">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-zinc-300">
+                                ${simulatedFiles.map(file => `
+                                    <tr class="hover:bg-red-500/5 transition-colors group">
+                                        <td class="py-3 flex items-center gap-2">
+                                            <span class="${file.type === 'dir' ? 'text-yellow-500' : 'text-zinc-500'}">
+                                                ${file.type === 'dir' ? 'ð' : 'ð'}
+                                            </span>
+                                            <span class="group-hover:text-red-500">${file.name}</span>
+                                        </td>
+                                        <td class="py-3 uppercase opacity-50">${file.type === 'dir' ? 'Folder' : 'File'}</td>
+                                        <td class="py-3 opacity-50">${file.size}</td>
+                                        <td class="py-3">
+                                            ${file.type === 'file' ? `<button onclick="alert('Preparing chunk for download...')" class="text-red-500 hover:underline">EXTRACT</button>` : `<button class="text-zinc-600 hover:text-white">OPEN</button>`}
+                                        </td>
+                                    </tr>
+                                `).join('')}
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="p-3 bg-black border-t border-zinc-800 text-[10px] text-zinc-500 flex justify-between">
+                        <span>TOTAL OBJECTS: ${simulatedFiles.length} FILES/FOLDERS â¢ ${company.size} TOTAL</span>
+                        <span>STATUS: REMOTE_READY â¢ ${company.name.toUpperCase()}</span>
+                    </div>
                 </div>
             `;
-            document.body.appendChild(menu);
+            document.body.appendChild(explorer);
+        }
 
-            menu.querySelector('button').addEventListener('click', function () {
-                document.body.removeChild(menu);
-            });
+        function openDownloadLinks(id) {
+            const company = companies.find(c => c.id === id);
+            const modal = document.createElement('div');
+            modal.className = 'fixed inset-0 z-[100] flex items-center justify-center bg-black/95 backdrop-blur-sm p-4';
 
-            menu.querySelectorAll('a').forEach(link => {
-                link.addEventListener('click', function () {
-                    document.body.removeChild(menu);
-                });
-            });
-        });
+            modal.innerHTML = `
+                <div class="bg-[#0f0f0f] border border-red-600 w-full max-w-2xl">
+                    <div class="p-4 border-b border-zinc-800 flex justify-between items-center bg-zinc-900/50">
+                        <div class="flex items-center gap-3">
+                            <span class="text-red-500 font-bold uppercase tracking-widest">Secure Download Links</span>
+                            <span class="text-zinc-600 text-xs">${company.name.toUpperCase()}</span>
+                        </div>
+                        <button onclick="this.parentElement.parentElement.parentElement.remove()" class="text-zinc-500 hover:text-white transition-colors">[ CLOSE ]</button>
+                    </div>
+                    
+                    <div class="p-6">
+                        <div class="mb-6">
+                            <h3 class="text-white font-bold mb-4 uppercase text-sm">Available Download Links</h3>
+                            <p class="text-zinc-400 text-xs mb-6">Click on any link to be redirected to the data repository</p>
+                        </div>
+                        
+                        <div class="space-y-4">
+                            ${company.downloadLinks.map((link, index) => `
+                                <div class="bg-black/50 border border-zinc-800 p-4 hover:border-red-600 transition-all group">
+                                    <div class="flex justify-between items-center">
+                                        <div>
+                                            <div class="text-[10px] text-zinc-500 uppercase mb-1">Repository ${index + 1}</div>
+                                            <div class="text-sm font-mono text-white truncate group-hover:text-red-500 transition-colors">${link}</div>
+                                        </div>
+                                        <button onclick="window.open('${link}', '_blank')" class="bg-red-600 hover:bg-white hover:text-black text-white px-4 py-2 text-[10px] font-bold uppercase transition-all">
+                                            Access
+                                        </button>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                        
+                        <div class="mt-8 pt-6 border-t border-zinc-800">
+                            <div class="text-[10px] text-zinc-500 uppercase mb-2">Security Notice</div>
+                            <p class="text-xs text-zinc-400">All links.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="p-3 bg-black border-t border-zinc-800 text-[10px] text-zinc-500">
+                        <span>STATUS: LINKS_ACTIVE â¢ s.t.m</span>
+                    </div>
+                </div>
+            `;
 
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
+            document.body.appendChild(modal);
+        }
 
-                const targetId = this.getAttribute('href');
-                if (targetId === '#') return;
+        function renderLeaks() {
+            const container = document.getElementById('leaks-container');
+            container.innerHTML = companies.map(company => `
+                <div class="danger-border bg-zinc-900/40 p-0 relative overflow-hidden group">
+                    <!-- Image/Thumbnail Preview Section -->
+                    <div class="h-48 bg-zinc-800 relative overflow-hidden border-b border-zinc-800">
+                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80" alt="Evidence Preview" class="w-full h-full object-cover opacity-30 group-hover:opacity-50 transition-opacity grayscale group-hover:grayscale-0">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
+                        <div class="absolute bottom-4 left-6">
+                             <div class="flex items-center gap-2 mb-1">
+                                <span class="w-2 h-2 bg-red-600 animate-pulse rounded-full"></span>
+                                <span class="text-[10px] font-bold text-red-500 uppercase tracking-widest">Leaked: ${company.publishedDate}</span>
+                             </div>
+                             <h3 class="text-2xl font-black text-white uppercase tracking-tighter">${company.name}</h3>
+                        </div>
+                        <div class="absolute top-4 right-4 bg-red-600 text-white text-[9px] font-black px-2 py-1 rotate-3 shadow-lg">
+                            ${company.status.toUpperCase()}
+                        </div>
+                    </div>
 
-                const targetElement = document.querySelector(targetId);
-                if (targetElement) {
-                    targetElement.scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
+                    <div class="p-6">
+                        <p class="text-zinc-400 text-xs mb-6 leading-relaxed italic border-l-2 border-red-600 pl-4">
+                            "${company.description.substring(0, 200)}${company.description.length > 200 ? '...' : ''}"
+                        </p>
 
-        // Copy contact info to clipboard
-        document.querySelectorAll('.crypto-id').forEach(element => {
-            element.querySelector('button').addEventListener('click', function () {
-                const text = element.querySelector('span').innerText;
-                navigator.clipboard.writeText(text).then(() => {
-                    const originalText = element.querySelector('span').innerText;
-                    element.querySelector('span').innerText = 'Copied to clipboard!';
-                    setTimeout(() => {
-                        element.querySelector('span').innerText = originalText;
-                    }, 2000);
-                });
-            });
-        });
+                        <!-- Proof Samples Section -->
+                        <div class="mb-6">
+                            <h4 class="text-[10px] text-zinc-500 font-bold uppercase mb-3 flex justify-between">
+                                <span>Data Type</span>
+                                <span class="text-green-500">${company.method.toUpperCase()}</span>
+                            </h4>
+                            <div class="flex flex-wrap gap-2">
+                                <div class="flex-1 min-w-[120px] bg-black border border-zinc-800 p-2 text-center">
+                                    <div class="text-[9px] text-zinc-500 uppercase">Data Category</div>
+                                    <div class="text-[8px] text-red-500 font-bold">${company.type}</div>
+                                </div>
+                                <div class="flex-1 min-w-[120px] bg-black border border-zinc-800 p-2 text-center">
+                                    <div class="text-[9px] text-zinc-500 uppercase">Data Volume</div>
+                                    <div class="text-[8px] text-red-500 font-bold">${company.size}</div>
+                                </div>
+                            </div>
+                        </div>
 
-        // FAQ accordion
-        document.querySelectorAll('#faq button').forEach(button => {
-            button.addEventListener('click', function () {
-                const content = this.nextElementSibling;
-                const icon = this.querySelector('i');
+                        <div class="grid grid-cols-2 gap-4 mb-6 text-[10px] uppercase">
+                            <div class="bg-black/40 p-2 border border-zinc-800/50">
+                                <span class="text-zinc-600 block mb-1">Leak Date</span>
+                                <span class="text-zinc-200 font-bold">${company.publishedDate}</span>
+                            </div>
+                            <div class="bg-black/40 p-2 border border-zinc-800/50">
+                                <span class="text-zinc-600 block mb-1">Compromise Method</span>
+                                <span class="text-red-500 font-bold">${company.method}</span>
+                            </div>
+                        </div>
 
-                if (content.style.maxHeight) {
-                    content.style.maxHeight = null;
-                    icon.style.transform = 'rotate(0deg)';
-                } else {
-                    content.style.maxHeight = content.scrollHeight + 'px';
-                    icon.style.transform = 'rotate(180deg)';
-                }
-            });
-        });
+                        <!-- Timer and Actions -->
+                        <div class="flex flex-col gap-4">
+                            <div class="w-full bg-black/50 p-3 border-l-2 border-red-600">
+                                <span class="text-[9px] text-zinc-500 block uppercase mb-1">Deadline for Publication</span>
+                                <div id="timer-${company.id}" class="timer-red glow-text font-bold text-xl tracking-widest">00:00:00:00</div>
+                            </div>
+                            
+                       
+            `).join('');
+        }
 
-        // Scroll to contact section for purchase buttons
-        function scrollToContact() {
-            const contactSection = document.getElementById('contact');
-            if (contactSection) {
-                contactSection.scrollIntoView({
-                    behavior: 'smooth'
-                });
+        // Pagination variables
+        let currentPage = 1;
+        const itemsPerPage = 12;
+        let totalPages = Math.ceil(companies.length / itemsPerPage);
+
+        function updatePagination() {
+            document.getElementById('page-info').textContent = `Page ${currentPage} of ${totalPages}`;
+            renderLeaks();
+        }
+
+        function nextPage() {
+            if (currentPage < totalPages) {
+                currentPage++;
+                updatePagination();
+                window.scrollTo(0, 0);
             }
         }
+
+        function previousPage() {
+            if (currentPage > 1) {
+                currentPage--;
+                updatePagination();
+                window.scrollTo(0, 0);
+            }
+        }
+
+        function renderLeaks() {
+            const container = document.getElementById('leaks-container');
+
+            // Calculate start and end indices for current page
+            const startIndex = (currentPage - 1) * itemsPerPage;
+            const endIndex = startIndex + itemsPerPage;
+            const currentCompanies = companies.slice(startIndex, endIndex);
+
+            container.innerHTML = currentCompanies.map(company => {
+                // Ø§ÙØªØ­ÙÙ ÙÙ ØªÙØ¹ÙÙ Ø§ÙØ¹Ø¯Ø§Ø¯ ÙÙØ°Ù Ø§ÙØ´Ø±ÙØ©
+                const hasActiveTimer = company.timerActive === true;
+                const statusText = hasActiveTimer ? 'COUNTDOWN' : 'RELEASED';
+
+                return `
+                <div class="danger-border bg-zinc-900/40 p-0 relative overflow-hidden group">
+                    <!-- Help Banner Section -->
+                    <div class="h-48 bg-zinc-900 relative overflow-hidden border-b border-zinc-800 flex items-center justify-center">
+                        <div class="text-center z-10">
+                            <div class="text-6xl font-black text-red-600 glow-text animate-pulse mb-2"></div>
+                            <div class="text-xs text-zinc-500 uppercase tracking-widest">Data Compromised</div>
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
+                        <div class="absolute bottom-4 left-6 z-20">
+                             <div class="flex items-center gap-2 mb-1">
+                                <span class="w-2 h-2 bg-red-600 animate-pulse rounded-full"></span>
+                                <span class="text-[10px] font-bold text-red-500 uppercase tracking-widest">Leaked: ${company.publishedDate}</span>
+                             </div>
+                             <h3 class="text-2xl font-black text-white uppercase tracking-tighter">${company.name}</h3>
+                        </div>
+                        <div class="absolute top-4 right-4 ${hasActiveTimer ? 'bg-yellow-600' : 'bg-green-600'} text-white text-[9px] font-black px-2 py-1 rotate-3 shadow-lg z-20">
+                            ${statusText}
+                        </div>
+                    </div>
+
+                    <div class="p-6">
+                        <p class="text-zinc-400 text-xs mb-6 leading-relaxed italic border-l-2 border-red-600 pl-4">
+                            "${company.description.substring(0, 150)}${company.description.length > 150 ? '...' : ''}"
+                        </p>
+
+                        <!-- Proof Samples Section -->
+                        <div class="mb-6">
+                            <h4 class="text-[10px] text-zinc-500 font-bold uppercase mb-3 flex justify-between">
+                                <span>Data Type</span>
+                                <span class="text-green-500">${company.method.substring(0, 15)}${company.method.length > 15 ? '...' : ''}</span>
+                            </h4>
+                            <div class="flex flex-wrap gap-2">
+                                <div class="flex-1 min-w-[120px] bg-black border border-zinc-800 p-2 text-center">
+                                    <div class="text-[9px] text-zinc-500 uppercase">Data Category</div>
+                                    <div class="text-[8px] text-red-500 font-bold">${company.type.substring(0, 20)}${company.type.length > 20 ? '...' : ''}</div>
+                                </div>
+                                <div class="flex-1 min-w-[120px] bg-black border border-zinc-800 p-2 text-center">
+                                    <div class="text-[9px] text-zinc-500 uppercase">Data Volume</div>
+                                    <div class="text-[8px] text-red-500 font-bold">${company.size}</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-4 mb-6 text-[10px] uppercase">
+                            <div class="bg-black/40 p-2 border border-zinc-800/50">
+                                <span class="text-zinc-600 block mb-1">Leak Date</span>
+                                <span class="text-zinc-200 font-bold">${company.publishedDate}</span>
+                            </div>
+                            <div class="bg-black/40 p-2 border border-zinc-800/50">
+                                <span class="text-zinc-600 block mb-1">Method</span>
+                                <span class="text-red-500 font-bold">${company.method.substring(0, 12)}${company.method.length > 12 ? '...' : ''}</span>
+                            </div>
+                        </div>
+
+                        <!-- Timer and Actions -->
+                        <div class="flex flex-col gap-4">
+                            <div class="w-full bg-black/50 p-3 border-l-2 ${hasActiveTimer ? 'border-yellow-600' : 'border-green-600'}">
+                                <span class="text-[9px] text-zinc-500 block uppercase mb-1">${hasActiveTimer ? 'Deadline' : 'Status'}</span>
+                                ${hasActiveTimer ?
+                        `<div id="timer-${company.id}" class="timer-red glow-text font-bold text-xl tracking-widest">00:00:00:00</div>` :
+                        `<div class="text-green-500 font-bold text-xl tracking-widest">EXPIRED - DATA RELEASED</div>`
+                    }
+                            </div>
+                            
+                            <!-- Download Links Button -->
+                            <div class="mb-4">
+                                <button onclick="openDownloadLinks(${company.id})" 
+                                        class="w-full bg-gradient-to-r from-red-600 to-red-800 hover:from-white hover:to-red-300 hover:text-black text-white px-4 py-3 text-[10px] font-black uppercase transition-all flex items-center justify-center gap-2 border border-red-700">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                                    </svg>
+                                    Access Data Links
+                                </button>
+                                <p class="text-[8px] text-zinc-500 mt-2 text-center">Secure download repositories</p>
+                            </div>
+                            
+                            <div class="flex gap-2">
+                                <button onclick="openFileExplorer(${company.id})" class="flex-1 bg-zinc-100 text-black hover:bg-red-600 hover:text-white px-4 py-3 text-[10px] font-black uppercase transition-all flex items-center justify-center gap-2">
+                                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"></path></svg>
+                                    Browse
+                             
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `}).join('');
+        }
+
+        // Initialize
+        updatePagination();
+        setInterval(updateTimers, 1000);
+        updateTimers();
+
+        // Add event listeners for navigation
+        document.addEventListener('DOMContentLoaded', () => {
+            const links = document.querySelectorAll('nav a');
+            links.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const target = link.textContent.toLowerCase();
+                    if (target === 'affiliate') switchView('affiliate');
+                    else if (target === 'contact') switchView('contact');
+                    else if (target === 'pressfedbak' || target === 'feedback' || target === 'press') switchView('dashboard'); // Placeholder for press
+                });
+            });
+
+            // Logo click goes home
+            // document.querySelector('header h1').parentElement.addEventListener('click', () => switchView('dashboard'));
+        });
     </script>
 </body>
 
