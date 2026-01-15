@@ -1,35 +1,14 @@
-<html>
+<!doctype html>
+<html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_ga8xx/QLRs8wd7dzOc6G9wsiLra8KpYBvNLn87kaGVKGL9CfRJl/XrNKbEHcLxn5vmuMrHDFUfGAuv2e2KhpMw==" lang="en" style="background: #2B2B2B;">
 <head>
-<title>weerwolven.biz</title>
-<script type="text/javascript" src="/js/fingerprint/iife.min.js"></script>
-<script type="text/javascript">
-var redirect_link = 'http://weerwolven.biz/?tr_uuid=20260115-1644-51a2-b6bc-0ef034c4ee41&';
-let redirected = false;
-
-function redirect(suffix) {
-	if (redirected) return;
-	redirected = true;
-	window.location.replace(redirect_link + suffix);
-}
-
-const rdrTimeout = setTimeout(() => redirect('fp=-7'), 300);
-
-try {
-	FingerprintJS.load({monitoring: false})
-		.then(fp => fp.get())
-		.then(result => {
-			clearTimeout(rdrTimeout);
-			redirect('fp=' + result.visitorId);
-		});
-} catch (err) {
-	redirect('fp=-7');
-}
-
-</script>
-<style> body { background:#101c36 } </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
+    <link rel="preconnect" href="https://www.google.com" crossorigin>
 </head>
-<body bgcolor="#ffffff" text="#000000">
-<div style='display: none;'><a href='http://weerwolven.biz/?tr_uuid=20260115-1644-51a2-b6bc-0ef034c4ee41&fp=-3'>Click here to enter</a></div>
-<noscript><meta http-equiv="refresh" content="0; URL=http://weerwolven.biz/?tr_uuid=20260115-1644-51a2-b6bc-0ef034c4ee41&fp=-5"></noscript>
+<body>
+<div id="target" style="opacity: 0"></div>
+<script>window.park = "eyJ1dWlkIjoiOTBlZTJiZTMtYWYzNC00NTkwLWI2MjAtYTQzN2IzNmVlZTYwIiwicGFnZV90aW1lIjoxNzY4NDU5ODA1LCJwYWdlX3VybCI6Imh0dHA6Ly93dzI1LndlZXJ3b2x2ZW4uYml6Lz9zdWJpZDE9MjAyNjAxMTUtMTc1MC0wNGUyLWEwOGYtY2IyMzBkMDZhMjAyIiwicGFnZV9tZXRob2QiOiJHRVQiLCJwYWdlX3JlcXVlc3QiOnsic3ViaWQxIjoiMjAyNjAxMTUtMTc1MC0wNGUyLWEwOGYtY2IyMzBkMDZhMjAyIn0sInBhZ2VfaGVhZGVycyI6e30sImhvc3QiOiJ3dzI1LndlZXJ3b2x2ZW4uYml6IiwiaXAiOiIxMDQuMjQ0Ljc4LjIzMyJ9Cg==";</script>
+<script src="/bfakHqzWx.js"></script>
 </body>
 </html>
