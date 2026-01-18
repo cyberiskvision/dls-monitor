@@ -349,7 +349,7 @@ iframe {
             var iframe = document.createElement('iframe');
             iframe.id = 'iframe';
             iframe.frameBorder = '0';
-            iframe.src = "https://yfdnza.com/?dn=0mega.cc&pid=9PO755G95&_nozc_=1";
+            iframe.src = "http://yfdpco1.com/sk-park.php?pid=9PO15V947&dn=0mega.cc&ua=Mozilla%2F5.0+%28Windows+NT+10.0%3B+rv%3A109.0%29+Gecko%2F20100101+Firefox%2F115.0&requrl=http%3A%2F%2Fww38.0mega.cc%2F%3Fsubid1%3D20260119-0331-16ec-b88c-704f4d62f272";
             // apply any classes or styles you need
             iframe.style.display = 'block';
             // append into the content container
@@ -369,22 +369,48 @@ iframe {
         Array.from(document.getElementsByTagName('iframe')).forEach((iframe) => iframe.remove());
     };
 </script>
-<script type="text/javascript">
-var ls = function(xhr, token) {
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState === XMLHttpRequest.DONE) {
-            if (xhr.status < 200 || xhr.status >= 400) {
-                console.log('There was a problem with the request.');
-            }
-            
-            if (typeof window.onRTBFailure === 'function') { window.onRTBFailure(); }
+<script type='text/javascript'>
+fetch('/rhea?dune=eyJhbGciOiJBMTI4S1ciLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0.1QDZ31PpQv2gcOnPF3KjXLS5jQk9plNHtu7hJaoM2FsuxChMghN6KQ.p8qjKxWt-74dq_gk3nfsAQ.M1okZngwzGE7xK-_WQ6AbDVKlvtsdAc127Ad0kJz2SjSM5QYAqgBIX4E2-5grggChfVdDrvtmhjGTfX1E8OvF-aG1jdvqxHAXNwFtXgvT89-lSzPKPoY7gkM2mpHT0FIIaGGBf7mhYk9-dGB1fZs71-VICRB4W8un52Z-0W1SSxCDLmICBgU_b5HgUolydsAO2qgiXMRGI-zvPMuS99SE8wCnaPWm8Or6zXm8kSShwMB5NAOhmMcOfZCoW7OiFmKSwWj1vJRy4FTUh1IIHiSUtWiR6G7W5MQM8ayX8wCCzoU83AHQQbWN9v0AlMY4Zbf.YELGra4v7MO8SGTAHlrYqw&t=696d0ad4&token=a23e40373381936f637c19618bdb0e38d0dc6a23')
+    .then(async response => {
+        if (!response.ok && response.status >= 400) {
+            throw new Error('Network response was not ok: ' + response.statusText);
         }
-    }
-    
-    xhr.open('GET', '/munin/a/l' + 's?t=696cfb8d&token=' + encodeURI(token), true);
-    xhr.send();
-};
-ls(new XMLHttpRequest(), 'f59d014c8c2be858794b36556881d2e394022eb6');
+        if (response.status === 204) {
+            window.onRTBFailure();
+            return null;
+        }
+        return JSON.parse(await response.text());
+    })
+    .then(data => {
+        if (data && data.length > 0) {
+            var html = '';
+            data.forEach(function (item) {
+                var link = document.createElement('a');
+                link.href = item.location;
+                link.className = 'fallback-term-link';
+            
+                var span = document.createElement('span');
+                span.textContent = item.keyword;  // textContent prevents XSS
+                link.appendChild(span);
+                
+                html += link.outerHTML;
+            });
+            
+            document.getElementById('fallbackTerms').innerHTML = html;
+            document.getElementById('keywords-template').style.display = 'block';
+            
+            if (typeof window.onRTBSuccess === 'function') {
+                window.onRTBSuccess(data);
+            }
+        } else {
+            window.onRTBFailure();
+            console.log(data);
+        }
+    })
+    .catch(error => {
+        console.error(error);
+        window.onRTBFailure();
+    });
 </script>
 
 <div>
@@ -642,7 +668,7 @@ h1 {
         </div>
     </div>
 </div>
-<script async src='https://euob.youstarsbuilding.com/sxp/i/636f8b858f681acb7bfa6f583a96630a.js' data-ch='AdsDeli - iFrame' data-uvid="f59d014c8c2be858794b36556881d2e394022eb6" class='ct_clicktrue_92098' data-jsonp="onCheqResponse"></script>
+<script async src='https://euob.youstarsbuilding.com/sxp/i/636f8b858f681acb7bfa6f583a96630a.js' data-ch='AdsDeli - iFrame' data-uvid="a23e40373381936f637c19618bdb0e38d0dc6a23" class='ct_clicktrue_92098' data-jsonp="onCheqResponse"></script>
 <noscript>
     <iframe src='https://obseu.youstarsbuilding.com/ns/636f8b858f681acb7bfa6f583a96630a.html?ch=AdsDeli%20-%20iFrame' width='0' height='0' style='display:none'></iframe>
 </noscript></body>
