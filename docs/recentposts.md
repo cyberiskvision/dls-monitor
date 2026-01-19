@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-01-19 | [`[Apple Data]Luxshare Precision Industry Co. Ltd.`](https://google.com/search?q=%5BApple+Data%5DLuxshare+Precision+Industry+Co.+Ltd.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-01-10 | [`WiZiX Technology Group`](https://google.com/search?q=WiZiX+Technology+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-10 | [`Launie & Marino`](https://google.com/search?q=Launie+%26+Marino) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-10 | [`Denny's 5th Avenue Bakery`](https://google.com/search?q=Denny%27s+5th+Avenue+Bakery) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-09-24 | [`The Maryland Department of Transportation`](https://google.com/search?q=The+Maryland+Department+of+Transportation) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-09-23 | [`Vcinity`](https://google.com/search?q=Vcinity) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-23 | [`Takeuchi US`](https://google.com/search?q=Takeuchi+US) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-09-23 | [`Roth & Scholl`](https://google.com/search?q=Roth+%26+Scholl) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
