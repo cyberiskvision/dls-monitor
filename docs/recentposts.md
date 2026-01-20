@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-01-20 | [`Raymundos Food Group`](https://google.com/search?q=Raymundos+Food+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-20 | [`Eastern Ice`](https://google.com/search?q=Eastern+Ice) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-19 | [`[Apple Data]Luxshare Precision Industry Co. Ltd.`](https://google.com/search?q=%5BApple+Data%5DLuxshare+Precision+Industry+Co.+Ltd.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-01-10 | [`WiZiX Technology Group`](https://google.com/search?q=WiZiX+Technology+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-09-27 | [`Amelia Overhead Doors`](https://google.com/search?q=Amelia+Overhead+Doors) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-27 | [`Atlas Pressed Metals`](https://google.com/search?q=Atlas+Pressed+Metals) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-24 | [`The Maryland Department of Transportation`](https://google.com/search?q=The+Maryland+Department+of+Transportation) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
-| 2025-09-23 | [`Vcinity`](https://google.com/search?q=Vcinity) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
