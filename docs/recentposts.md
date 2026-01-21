@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-01-21 | [`CE Electronics`](https://google.com/search?q=CE+Electronics) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-21 | [`Jet-care International`](https://google.com/search?q=Jet-care+International) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-01-20 | [`Riverwood Golf Club`](https://google.com/search?q=Riverwood+Golf+Club) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-20 | [`Release Marine`](https://google.com/search?q=Release+Marine) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-09-28 | [`Steve Basso Plumbing Heating`](https://google.com/search?q=Steve+Basso+Plumbing+Heating) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-27 | [`Pangborn`](https://google.com/search?q=Pangborn) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-09-27 | [`Earthadelic`](https://google.com/search?q=Earthadelic) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-09-27 | [`ComTec Systems`](https://google.com/search?q=ComTec+Systems) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |

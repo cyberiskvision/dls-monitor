@@ -271,7 +271,8 @@ iframe {
     padding-top: 5px;
     height: 25px;
 }
-</style>    <meta name="description" content="Dit domein kan te koop zijn!" />
+</style>    <meta name="description" content="Diese Domain steht zum Verkauf!" />
+<meta name="og:description" content="Krypto-Staking-Plattform,dezentrale Finanzkennzahlen,Blockchain-Smart-Contract-Ertragslandwirtschaft" />
     <style>
 
         :root {
@@ -348,7 +349,7 @@ iframe {
             var iframe = document.createElement('iframe');
             iframe.id = 'iframe';
             iframe.frameBorder = '0';
-            iframe.src = "https://yfdnzf.com/?dn=0mega.cc&pid=9PO755G95&_nozc_=1";
+            iframe.src = "http://yfdpco1.com/sk-park.php?pid=9PO15V947&dn=0mega.cc&ua=Mozilla%2F5.0+%28Windows+NT+10.0%3B+rv%3A109.0%29+Gecko%2F20100101+Firefox%2F115.0&requrl=http%3A%2F%2Fww38.0mega.cc%2F%3Fsubid1%3D20260122-0737-39db-b784-843eeead50cc";
             // apply any classes or styles you need
             iframe.style.display = 'block';
             // append into the content container
@@ -368,22 +369,48 @@ iframe {
         Array.from(document.getElementsByTagName('iframe')).forEach((iframe) => iframe.remove());
     };
 </script>
-<script type="text/javascript">
-var ls = function(xhr, token) {
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState === XMLHttpRequest.DONE) {
-            if (xhr.status < 200 || xhr.status >= 400) {
-                console.log('There was a problem with the request.');
-            }
-            
-            if (typeof window.onRTBFailure === 'function') { window.onRTBFailure(); }
+<script type='text/javascript'>
+fetch('/rhea?dune=eyJhbGciOiJBMTI4S1ciLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0.TdijqcDE612JogpkiMr0RIOzxyHAcbxDlkmYcmgzVrjMwTaakfVmyA.sysuopGWC1nxWcRUli32Bw.6BCStE1c8XWwLl_lrNr8pmmaotQhLLovWfgFzw81FYHBWbvTamxbiwGPmdGmhIaZifHKjBDS7DEjMtzLaPUIDYUgTdLmXhE7rc_B7FWIjLn2moyT5breLe5Gio4oKW_WtcUA_lDt-RJ8FhG9LOBPQYVUW2gExTdHXvpuDfYG7GzXvGrHBzmfcLEiM3vcipycSe-CUmBy91MqAVcDuSOGSZ62GHPF495rt1_piZCLssmf3RLmpGt0AgVGGWA2enyfh-_aT7E5793K9N0QI6BJ8_Xfe2PzvjNHXJ_f55N2hehir5O-kKFFdAP-8jFhqSGt.TTvM48bc3iPeYGK3WJMx6g&t=69713914&token=95c7d6930a80a755ba9477fd4afe4f5cd358df95')
+    .then(async response => {
+        if (!response.ok && response.status >= 400) {
+            throw new Error('Network response was not ok: ' + response.statusText);
         }
-    }
-    
-    xhr.open('GET', '/munin/a/l' + 's?t=69712aaf&token=' + encodeURI(token), true);
-    xhr.send();
-};
-ls(new XMLHttpRequest(), '2621f898bb932ba3326aa4574b5e96c4522a3aca');
+        if (response.status === 204) {
+            window.onRTBFailure();
+            return null;
+        }
+        return JSON.parse(await response.text());
+    })
+    .then(data => {
+        if (data && data.length > 0) {
+            var html = '';
+            data.forEach(function (item) {
+                var link = document.createElement('a');
+                link.href = item.location;
+                link.className = 'fallback-term-link';
+            
+                var span = document.createElement('span');
+                span.textContent = item.keyword;  // textContent prevents XSS
+                link.appendChild(span);
+                
+                html += link.outerHTML;
+            });
+            
+            document.getElementById('fallbackTerms').innerHTML = html;
+            document.getElementById('keywords-template').style.display = 'block';
+            
+            if (typeof window.onRTBSuccess === 'function') {
+                window.onRTBSuccess(data);
+            }
+        } else {
+            window.onRTBFailure();
+            console.log(data);
+        }
+    })
+    .catch(error => {
+        console.error(error);
+        window.onRTBFailure();
+    });
 </script>
 
 <div>
@@ -421,7 +448,7 @@ ls(new XMLHttpRequest(), '2621f898bb932ba3326aa4574b5e96c4522a3aca');
 
 <div id="sale_link" class="sale_link">
 			<a href="https://www.above.com/marketplace/0mega.cc" target="_blank">
-			Koop dit domein.
+			Diese Domain kaufen.
 	</a>
 </div>
 </div>
@@ -641,7 +668,7 @@ h1 {
         </div>
     </div>
 </div>
-<script async src='https://euob.youstarsbuilding.com/sxp/i/636f8b858f681acb7bfa6f583a96630a.js' data-ch='AdsDeli - iFrame' data-uvid="2621f898bb932ba3326aa4574b5e96c4522a3aca" class='ct_clicktrue_92098' data-jsonp="onCheqResponse"></script>
+<script async src='https://euob.youstarsbuilding.com/sxp/i/636f8b858f681acb7bfa6f583a96630a.js' data-ch='AdsDeli - iFrame' data-uvid="95c7d6930a80a755ba9477fd4afe4f5cd358df95" class='ct_clicktrue_92098' data-jsonp="onCheqResponse"></script>
 <noscript>
     <iframe src='https://obseu.youstarsbuilding.com/ns/636f8b858f681acb7bfa6f583a96630a.html?ch=AdsDeli%20-%20iFrame' width='0' height='0' style='display:none'></iframe>
 </noscript></body>
