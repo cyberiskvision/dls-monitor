@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-01-27 | [`Quantum Fuel Systems Technologies`](https://google.com/search?q=Quantum+Fuel+Systems+Technologies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-26 | [`Joyva`](https://google.com/search?q=Joyva) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-26 | [`F&B Mfg`](https://google.com/search?q=F%26B+Mfg) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-26 | [`Christine London`](https://google.com/search?q=Christine+London) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-10-07 | [`JASCO Applied Sciences`](https://google.com/search?q=JASCO+Applied+Sciences) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-10-06 | [`Dataforth`](https://google.com/search?q=Dataforth) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-10-06 | [`AES Clean Technology`](https://google.com/search?q=AES+Clean+Technology) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-10-05 | [`https://www.libertydentaltown.com`](https://google.com/search?q=https%3A%2F%2Fwww.libertydentaltown.com) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
