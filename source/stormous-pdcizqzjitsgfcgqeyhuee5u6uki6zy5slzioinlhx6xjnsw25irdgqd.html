@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -160,6 +160,7 @@
     </header>
 
     <main class="container mx-auto px-6 py-12">
+     
         <!-- Dashboard  -->
         <div id="view-dashboard" class="page-view">
             <div class="mb-16 border-l-4 border-red-600 pl-6 py-4 bg-red-900/10 flex justify-between items-center">
@@ -200,7 +201,6 @@
             </div>
         </div>
 
-        <!-- Affiliate  -->
         <div id="view-affiliate" class="page-view hidden">
             <div class="max-w-4xl mx-auto">
                 <h2 class="text-5xl font-black mb-8 border-b border-red-600 pb-4 italic">AFFILIATE PROGRAM <span
@@ -279,7 +279,6 @@
         </div>
     </main>
 
-    <!-- Footer Stats -->
     <footer class="border-t border-zinc-800 mt-20 bg-black py-10">
         <div class="container mx-auto px-6 text-center">
             <p class="text-zinc-600 text-xs uppercase tracking-widest mb-4">STORMOUS Group &copy; 2026 </p>
@@ -294,19 +293,19 @@
         const companies = [
             {
                 id: 1.3,
-                name: "clarochile.cl",
+                name: "clarochile.cl / For Sale",
                 description: "Source_Code_&_Binaries Claro_PhoneProtect_App - Database_Core_Logic (Claro_OWBDPHPRO_Schema) - Access_Control_&_Security - Operational_Workflows (Claro_PhoneProtect_Device_Management) - Complete Database Schema Definition -Identity Management (IDM) Configuration - Google Firebase Cloud Messaging (FCM) Authorization Key - Huawei Cloud Push Service Client Credentials (ID & Secret) and more ....",
                 type: "Source_Code_&_Binaries",
-                size: "? GB",
-                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
+                size: "7 GB",
+                deadline: new Date().getTime() + (0 * 0 * 0 * 0 * 0),
                 timerActive: true,
-                publishedDate: "2026-01-20",
-                status: "timer",
+                publishedDate: "2026-01-27",
+                status: "For Sale",
                 method: "Database Access",
                 downloadLinks: [
-                    "",
-                    "",
-                    ""
+                    "http://pdcizqzjitsgfcgqeyhuee5u6uki6zy5slzioinlhx6xjnsw25irdgqd.onion/CH/CH-Part-1.rar",
+                    "http://pdcizqzjitsgfcgqeyhuee5u6uki6zy5slzioinlhx6xjnsw25irdgqd.onion/CH/CH-Part-1.rar",
+                    "http://pdcizqzjitsgfcgqeyhuee5u6uki6zy5slzioinlhx6xjnsw25irdgqd.onion/CH/CH-Part-1.rar"
                 ]
             },
             {
@@ -960,12 +959,11 @@
 
         function downloadSample(filename) {
             const link = document.createElement('a');
-            link.href = '#'; // In a real scenario, this would be the file path
+            link.href = '#'; 
             link.download = filename;
             alert(`[ENCRYPTED TUNNEL ESTABLISHED]\nInitiating secure download of: ${filename}`);
         }
 
-        // Company-specific file systems
         const companyFileSystems = {
             1.3: [ // clarochile.cl
                 { name: '01_Archivos WAR/', type: 'dir', size: '-' },
@@ -1280,7 +1278,6 @@
             ]
         };
 
-        // Default files for companies without specific file systems
         const defaultFiles = [
             { name: 'Data_Archive/', type: 'dir', size: '-' },
             { name: 'Confidential_Documents/', type: 'dir', size: '-' },
@@ -1488,15 +1485,13 @@
         function renderLeaks() {
             const container = document.getElementById('leaks-container');
 
-            // Calculate start and end indices for current page
             const startIndex = (currentPage - 1) * itemsPerPage;
             const endIndex = startIndex + itemsPerPage;
             const currentCompanies = companies.slice(startIndex, endIndex);
 
             container.innerHTML = currentCompanies.map(company => {
-                // Ø§ÙØªØ­ÙÙ ÙÙ ØªÙØ¹ÙÙ Ø§ÙØ¹Ø¯Ø§Ø¯ ÙÙØ°Ù Ø§ÙØ´Ø±ÙØ©
                 const hasActiveTimer = company.timerActive === true;
-                const statusText = hasActiveTimer ? 'COUNTDOWN' : 'RELEASED';
+                const statusText = hasActiveTimer ? 'RELEASED' : 'RELEASED';
 
                 return `
                 <div class="danger-border bg-zinc-900/40 p-0 relative overflow-hidden group">
@@ -1587,12 +1582,10 @@
             `}).join('');
         }
 
-        // Initialize
         updatePagination();
         setInterval(updateTimers, 1000);
         updateTimers();
 
-        // Add event listeners for navigation
         document.addEventListener('DOMContentLoaded', () => {
             const links = document.querySelectorAll('nav a');
             links.forEach(link => {
@@ -1601,12 +1594,11 @@
                     const target = link.textContent.toLowerCase();
                     if (target === 'affiliate') switchView('affiliate');
                     else if (target === 'contact') switchView('contact');
-                    else if (target === 'pressfedbak' || target === 'feedback' || target === 'press') switchView('dashboard'); // Placeholder for press
+                    else if (target === 'pressfedbak' || target === 'feedback' || target === 'press') switchView('dashboard'); 
                 });
             });
 
-            // Logo click goes home
-            // document.querySelector('header h1').parentElement.addEventListener('click', () => switchView('dashboard'));
+            
         });
     </script>
 </body>
