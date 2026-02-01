@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-02-01 | [`Deatak`](https://google.com/search?q=Deatak) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-31 | [`NAI Plotkin`](https://google.com/search?q=NAI+Plotkin) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-31 | [`Bar S Services`](https://google.com/search?q=Bar+S+Services) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-31 | [`Transaction Packing`](https://google.com/search?q=Transaction+Packing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-10-15 | [`Tex-Tube`](https://google.com/search?q=Tex-Tube) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-10-15 | [`Royal Thai`](https://google.com/search?q=Royal+Thai) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-10-15 | [`Legacy Manufacturing`](https://google.com/search?q=Legacy+Manufacturing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-10-15 | [`Koch & White Heating & Cooling`](https://google.com/search?q=Koch+%26+White+Heating+%26+Cooling) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
