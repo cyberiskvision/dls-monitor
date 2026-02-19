@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-02-19 | [`Oklahoma Auto Exchange`](https://google.com/search?q=Oklahoma+Auto+Exchange) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-02-19 | [`Kirbor Homes`](https://google.com/search?q=Kirbor+Homes) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-02-19 | [`Indianapolis Car Exchange`](https://google.com/search?q=Indianapolis+Car+Exchange) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-02-19 | [`Auto Auction of New England`](https://google.com/search?q=Auto+Auction+of+New+England) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-10-30 | [`https://www.weberwaterresources.com`](https://google.com/search?q=https%3A%2F%2Fwww.weberwaterresources.com) | [metaencryptor](https://ransomwatch.telemetry.ltd/#/profiles?id=metaencryptor) |
 | 2025-10-30 | [`ASKUL`](https://google.com/search?q=ASKUL) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-10-30 | [`Spindletop Center`](https://google.com/search?q=Spindletop+Center) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
-| 2025-10-29 | [`Gemini Group`](https://google.com/search?q=Gemini+Group) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
