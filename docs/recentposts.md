@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-02-26 | [`BT Services`](https://google.com/search?q=BT+Services) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-02-26 | [`en.yofc.com`](https://google.com/search?q=en.yofc.com) | [blackout](https://ransomwatch.telemetry.ltd/#/profiles?id=blackout) |
 | 2026-02-26 | [`thinlinetech.com`](https://google.com/search?q=thinlinetech.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2026-02-23 | [`Rohner`](https://google.com/search?q=Rohner) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-11-04 | [`American PowerNet`](https://google.com/search?q=American+PowerNet) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-04 | [`Invacare`](https://google.com/search?q=Invacare) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-11-04 | [`Automated Logistics Systems`](https://google.com/search?q=Automated+Logistics+Systems) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
-| 2025-11-03 | [`www.myriversidedentaloffice.com`](https://google.com/search?q=www.myriversidedentaloffice.com) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
