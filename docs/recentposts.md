@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-02-27 | [`Accelerated Services`](https://google.com/search?q=Accelerated+Services) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-02-27 | [`Neinver`](https://google.com/search?q=Neinver) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-02-26 | [`Landmark Rehab Group`](https://google.com/search?q=Landmark+Rehab+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-02-26 | [`Integrity Building`](https://google.com/search?q=Integrity+Building) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-11-05 | [`KISS FM`](https://google.com/search?q=KISS+FM) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-11-05 | [`sonoco.c`](https://google.com/search?q=sonoco.c) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-11-04 | [`Sellars Absorbent Materials`](https://google.com/search?q=Sellars+Absorbent+Materials) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-11-04 | [`ConvExx`](https://google.com/search?q=ConvExx) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
