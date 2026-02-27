@@ -2,48 +2,158 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-<meta name="csrf-token" content="c2cc6eebcc26c9400634e6dcd40351aae61d7f1e86a192091ad59683dd4d6b63">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Cormorant:ital,wght@1,300&display=swap" rel="stylesheet">
+<meta name="csrf-token" content="c4f2b896895734aa10641133026a31355c91d71221076fa238a42112f001f80d">
 <meta name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="/assets/fonts/Inter/stylesheet.css">
-<link rel="stylesheet" href="/assets/css/base_style.css?1772203150">
-<link rel="stylesheet" href="/assets/css/jquery.datetimepicker.css?1772203150">
-<link rel="stylesheet" href="/assets/css/selectize.css?1772203150">
-<link rel="stylesheet" href="/assets/css/modal.css?1772203150">
-<link rel="stylesheet" href="/assets/css/lightbox.min.css?1772203150">
+<link rel="stylesheet" href="/assets/css/base_style.css?1772206503">
+<link rel="stylesheet" href="/assets/css/jquery.datetimepicker.css?1772206503">
+<link rel="stylesheet" href="/assets/css/selectize.css?1772206503">
+<link rel="stylesheet" href="/assets/css/modal.css?1772206503">
+<link rel="stylesheet" href="/assets/css/lightbox.min.css?1772206503">
 <link rel="stylesheet" type="text/css" href="/assets/css/icon-fa.css"/>
 
 <script src="/assets/js/jquery-3.6.0.min.js"></script>
 
-<script src="/assets/js/cookie.js?1772203150"></script>
-<script src="/assets/js/jquery.maskedinput.min.js?1772203150"></script>
-<script src="/assets/js/selectize.min.js?1772203150"></script>
-<script src="/assets/js/modal.js?1772203150"></script>
-<script src="/assets/js/jquery.datetimepicker.full.js?1772203150"></script>
-<script src="/assets/js/jquery.datetimepicker.js?1772203150"></script>
+<script src="/assets/js/cookie.js?1772206503"></script>
+<script src="/assets/js/jquery.maskedinput.min.js?1772206503"></script>
+<script src="/assets/js/selectize.min.js?1772206503"></script>
+<script src="/assets/js/modal.js?1772206503"></script>
+<script src="/assets/js/jquery.datetimepicker.full.js?1772206503"></script>
+<script src="/assets/js/jquery.datetimepicker.js?1772206503"></script>
 
 <script src="/assets/js/core.js"></script>
 <script src="/assets/js/tippy.js"></script>
 
 <script src="/assets/js/Masonry.js"></script>
 
-<link rel="stylesheet" href="/assets/css/style.css?1772203150">
+<link rel="stylesheet" href="/assets/css/style.css?1772206503">
 
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>    <title></title>
 </head>
 <body>
 
+<!-- #0 — ЗАГРУЗОЧНЫЙ ЭКРАН -->
+<div id="intro-screen">
+    <canvas id="rays"></canvas>
+    <div class="stage">
+        <div class="logo-wrap">
+            <img src="/new_logo.png" alt="Everest Group">
+        </div>
+        <div class="divider"></div>
+        <div class="title">Everest Group</div>
+        
+    </div>
+</div>
+
+<script>
+(function() {
+    var canvas = document.getElementById('rays');
+    var ctx    = canvas.getContext('2d');
+    var W, H, cx, cy;
+
+    function resize() {
+        W = canvas.width  = window.innerWidth;
+        H = canvas.height = window.innerHeight;
+        cx = W / 2;
+        cy = H * 0.42;
+    }
+    resize();
+    window.addEventListener('resize', resize);
+
+    var NUM_RAYS = 32;
+    var rays = Array.from({ length: NUM_RAYS }, function(_, i) { return {
+        angle: -Math.PI / 2 + ((i / NUM_RAYS) - 0.5) * 2.3,
+        len:    W * 0.55 + Math.random() * W * 0.2,
+        width:  12 + Math.random() * 28,
+        speed:  0.00015 + Math.random() * 0.0002,
+        phase:  Math.random() * Math.PI * 2,
+        alpha:  0.012 + Math.random() * 0.022,
+    }; });
+
+    var start = null;
+
+    function draw(ts) {
+        if (!start) start = ts;
+        var elapsed = ts - start;
+
+        var progress = Math.min(elapsed / 1200, 1);
+        var fadeOut  = elapsed > 3800 ? Math.max(0, 1 - (elapsed - 3800) / 800) : 1;
+        var global   = progress * fadeOut;
+
+        ctx.clearRect(0, 0, W, H);
+
+        var bloom = ctx.createRadialGradient(cx, cy, 0, cx, cy, H * 0.55);
+        bloom.addColorStop(0,    'rgba(120,180,255,' + (0.22 * global) + ')');
+        bloom.addColorStop(0.18, 'rgba(82,134,255,'  + (0.10 * global) + ')');
+        bloom.addColorStop(0.5,  'rgba(40,80,180,'   + (0.04 * global) + ')');
+        bloom.addColorStop(1,    'rgba(6,8,16,0)');
+        ctx.beginPath();
+        ctx.fillStyle = bloom;
+        ctx.arc(cx, cy, H * 0.55, 0, Math.PI * 2);
+        ctx.fill();
+
+        rays.forEach(function(ray) {
+            var wobble  = Math.sin(elapsed * ray.speed + ray.phase) * 0.018;
+            var flicker = 0.7 + 0.3 * Math.sin(elapsed * ray.speed * 3.7 + ray.phase * 2);
+            var angle   = ray.angle + wobble;
+            var alpha   = ray.alpha * flicker * global;
+
+            var x2 = cx + Math.cos(angle) * ray.len;
+            var y2 = cy + Math.sin(angle) * ray.len;
+
+            var g = ctx.createLinearGradient(cx, cy, x2, y2);
+            g.addColorStop(0,    'rgba(160,200,255,' + (alpha * 7)   + ')');
+            g.addColorStop(0.08, 'rgba(130,175,245,' + (alpha * 4)   + ')');
+            g.addColorStop(0.35, 'rgba(82,134,255,'  + (alpha * 1.5) + ')');
+            g.addColorStop(1,    'rgba(82,134,255,0)');
+
+            ctx.beginPath();
+            ctx.strokeStyle = g;
+            ctx.lineWidth   = ray.width;
+            ctx.lineCap     = 'round';
+            ctx.moveTo(cx, cy);
+            ctx.lineTo(x2, y2);
+            ctx.stroke();
+        });
+
+        var core = ctx.createRadialGradient(cx, cy, 0, cx, cy, 40);
+        core.addColorStop(0,   'rgba(220,235,255,' + (0.55 * global) + ')');
+        core.addColorStop(0.4, 'rgba(160,200,255,' + (0.20 * global) + ')');
+        core.addColorStop(1,   'rgba(82,134,255,0)');
+        ctx.beginPath();
+        ctx.fillStyle = core;
+        ctx.arc(cx, cy, 40, 0, Math.PI * 2);
+        ctx.fill();
+
+        if (elapsed < 5400) {
+            requestAnimationFrame(draw);
+        }
+    }
+    requestAnimationFrame(draw);
+})();
+</script>
+
 <div class="flex mt-5 mb-3">
     <input type="hidden" id="translit" value="">
-    ﻿<div class="w-15 h-100vh ml-5 p-relative mb-3">
+    <div class="w-15 h-100vh ml-5 p-relative mb-3">
+
+    <!-- Brand block -->
     <div class="container pl-0">
-        <div class="left-logo flex align-center">
-            <img src="/assets/images/new_logo.png">
-            <div class="left-logo--title">
-                Everest Group            </div>
+        <div class="left-logo sidebar-brand flex align-center">
+            <div class="sidebar-logo-img">
+                <img src="/new_logo.png" alt="Everest Group">
+            </div>
+            <div class="sidebar-brand-text">
+                <div class="left-logo--title">Everest Group</div>
+            </div>
         </div>
+
+        <div class="sidebar-divider"></div>
+
         <div class="mb-3">
             <a class="menu-item js-page-get active" data-page="news" href="javascript:"><i class="fa-solid fa-newspaper"></i> News</a>
         </div>
@@ -54,10 +164,19 @@
             <a class="menu-item js-page-get" data-page="complaint" href="javascript:"><i class="fa-solid fa-headphones"></i> Жалоба</a>
         </div>
 	    </div>
-    <div class="left-footer">
-        © 2026, All rights reserved
+
+    <!-- Footer: copyright + theme toggle -->
+    <div class="sidebar-footer-section">
+        <div class="left-footer">© 2026, All rights reserved</div>
+        <div class="theme-toggle-track">
+            <span class="theme-icon sun">☀</span>
+            <button id="theme-toggle" class="theme-toggle-pill" aria-label="Toggle theme"></button>
+            <span class="theme-icon moon">☾</span>
+        </div>
     </div>
-</div>    <div class="w-85 mr-5">
+
+</div>
+    <div class="w-85 mr-5">
         <div class="container container-data js-controller-view"><div class="spinner-controller"></div></div>
     </div>
 </div>
@@ -130,11 +249,30 @@
     function openChat (translit) {
         $('.js-open-chat').removeClass('active');
         $('.js-open-chat[data-translit="'+translit+'"]').addClass('active');
+        // #5 — Skeleton loader
+        var skeletonHtml = '';
+        for (var s = 0; s < 4; s++) {
+            skeletonHtml += '<div class="skeleton-block">'
+                + '<div class="skeleton-line" style="width:55%"></div>'
+                + '<div class="skeleton-line" style="width:80%"></div>'
+                + '<div class="skeleton-line" style="width:40%"></div>'
+                + '</div>';
+        }
+        $('.js-chat-container').html(skeletonHtml);
         $.post('/controllers/news_card',{translit:translit},function (resHtml) {
             $('.js-chat-container').html(resHtml);
             setLocation('/news/'+translit+'/');
             updTimers();
             scrollBottomChat();
+            // #1 — Волновой fade-in публикаций
+            $('.timeline-item').each(function(i) {
+                var $el = $(this);
+                setTimeout(function() { $el.addClass('anim-in'); }, i * 60);
+            });
+            // #8 — Tooltip на просмотрах
+            tippy('[data-tippy-content]', {
+                theme: 'dark', placement: 'top', animation: 'fade'
+            });
             // На мобиле: скрыть список категорий, показать чат с кнопкой "Назад"
             if (window.innerWidth <= 768) {
                 $('.chats-list').addClass('hidden-mobile');
@@ -255,6 +393,23 @@
             }
         })
     })
+
+    // #10 — Parallax фона
+    $(window).on('scroll', function() {
+        var offset = $(this).scrollTop() * 0.25;
+        $('html').css('background-position-y', offset + 'px');
+    });
+
+    // #9 — Переключатель тёмная/светлая тема (состояние через [data-theme] на html)
+    if (localStorage.getItem('theme') === 'light') {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }
+    $('#theme-toggle').on('click', function() {
+        var isLight = document.documentElement.getAttribute('data-theme') === 'light';
+        var newTheme = isLight ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+    });
 </script>
 
 <script>
