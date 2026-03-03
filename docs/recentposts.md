@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-03-03 | [`LRA Constructors`](https://google.com/search?q=LRA+Constructors) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-03-03 | [`Gordon/Clifford Realty`](https://google.com/search?q=Gordon%2FClifford+Realty) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-03-02 | [`Go Professional Cases`](https://google.com/search?q=Go+Professional+Cases) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-03-02 | [`Favaro Lavezzo Gill Caretti`](https://google.com/search?q=Favaro+Lavezzo+Gill+Caretti) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-11-10 | [`Garvin Promotion Group`](https://google.com/search?q=Garvin+Promotion+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-10 | [`Darvin Furniture`](https://google.com/search?q=Darvin+Furniture) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-10 | [`[DISCLOSED]Kurogane Kasei Co.`](https://google.com/search?q=%5BDISCLOSED%5DKurogane+Kasei+Co.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
-| 2025-11-10 | [`MARCK Industries`](https://google.com/search?q=MARCK+Industries) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
