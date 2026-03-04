@@ -1,1606 +1,410 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STORMOUS | Data Leak </title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link
-        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Share+Tech+Mono&display=swap"
-        rel="stylesheet">
+    <title>Stormous.Leak</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        :root {
-            --primary-red: #ff003c;
-            --bg-dark: #070707;
-            --card-bg: #0f0f0f;
-            --accent-blue: #00f2ff;
-        }
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{background:#f5f5f5;font-family:'Inter',sans-serif;color:#222;min-height:100vh}
+        .container{max-width:960px;margin:0 auto;padding:30px 20px}
+        .header{text-align:center;margin-bottom:24px}
+        .header h1{font-size:1.8rem;font-weight:700;color:#111}
+        .header h1 span{color:#e53e3e}
+        .nav{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-bottom:30px}
+        .nav a{background:#fff;color:#444;text-decoration:none;padding:10px 24px;border-radius:8px;font-size:.85rem;font-weight:500;border:1px solid #e0e0e0;transition:all .2s}
+        .nav a:hover{background:#111;color:#fff;border-color:#111}
+        .search-box{margin-bottom:24px;text-align:center}
+        .search-box input{width:100%;max-width:500px;padding:11px 18px;border:1px solid #ddd;border-radius:8px;font-size:.88rem;font-family:'Inter',sans-serif;outline:none}
+        .search-box input:focus{border-color:#999}
+        .count{text-align:center;margin-bottom:20px;font-size:.82rem;color:#999}
+        .count strong{color:#333}
+        .entries{display:flex;flex-direction:column;gap:12px}
 
-        body {
-            background-color: var(--bg-dark);
-            color: #e0e0e0;
-            font-family: 'JetBrains Mono', monospace;
-            background-image:
-                radial-gradient(circle at 50% 50%, rgba(20, 20, 20, 1) 0%, rgba(5, 5, 5, 1) 100%),
-                url('https://www.transparenttextures.com/patterns/carbon-fibre.png');
-            overflow-x: hidden;
-        }
+        .card{background:#fff;border:1px solid #e8e8e8;border-radius:10px;display:flex;flex-direction:row;overflow:hidden;transition:box-shadow .2s}
+        .card:hover{box-shadow:0 4px 18px rgba(0,0,0,.05)}
+        .card-content{flex:1;padding:18px 22px}
+        .card-side{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:8px;padding:14px 16px;border-left:1px solid #eee;background:#fafafa;min-width:90px}
 
-        .glow-text {
-            text-shadow: 0 0 10px var(--primary-red), 0 0 20px var(--primary-red);
-        }
+        .card-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;gap:10px}
+        .card-name{font-size:1rem;font-weight:700;color:#111}
+        .card-date{font-size:.75rem;color:#999;white-space:nowrap}
 
-        .danger-border {
-            border: 1px solid #333;
-            transition: all 0.3s ease;
-        }
+        .card-url{display:inline-block;background:#f0f0f0;color:#555;font-size:.73rem;padding:3px 10px;border-radius:5px;margin-bottom:10px;font-family:monospace;border:1px solid #e0e0e0}
 
-        .danger-border:hover {
-            border-color: var(--primary-red);
-            box-shadow: 0 0 15px rgba(255, 0, 60, 0.2);
-        }
+        .card-desc{font-size:.84rem;color:#666;line-height:1.65;margin-bottom:10px;word-break:break-word;max-height:90px;overflow-y:auto}
+        .card-desc::-webkit-scrollbar{width:4px}
+        .card-desc::-webkit-scrollbar-thumb{background:#ccc;border-radius:4px}
 
-        .scanline {
-            width: 100%;
-            height: 100px;
-            z-index: 99;
-            background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(255, 0, 60, 0.05) 50%, rgba(0, 0, 0, 0) 100%);
-            opacity: 0.1;
-            position: fixed;
-            bottom: 100%;
-            animation: scanline 10s linear infinite;
-        }
+        .badge{display:inline-flex;align-items:center;gap:5px;padding:4px 13px;border-radius:20px;font-size:.73rem;font-weight:600}
+        .badge-leaked{background:#fee2e2;color:#dc2626}
+        .badge-leaked .dot{width:6px;height:6px;background:#dc2626;border-radius:50%}
 
-        @keyframes scanline {
-            0% {
-                bottom: 100%;
-            }
+        .card-new{border:2px solid #dc2626;background:#fff8f8}
+        .card-new .card-content{background:transparent}
+        .card-new .card-side{background:#fff0f0;border-left:1px solid #fcc}
+        .card-new .card-name{color:#dc2626}
+        .badge-pending{background:#fef3c7;color:#d97706}
+        .badge-pending .dot{width:6px;height:6px;background:#d97706;border-radius:50%;animation:blink 1s infinite}
+        .tag-new{background:#dc2626;color:#fff;font-size:.65rem;font-weight:700;padding:2px 8px;border-radius:4px;letter-spacing:.5px}
+        .timer{font-family:'Courier New',monospace;font-size:.75rem;color:#dc2626;font-weight:600}
+        @keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
 
-            100% {
-                bottom: -100px;
-            }
-        }
+        .btn-go{display:block;background:#111;color:#fff;border:none;padding:8px 0;border-radius:6px;font-size:.75rem;font-weight:600;cursor:pointer;font-family:'Inter',sans-serif;transition:background .2s;text-decoration:none;text-align:center;width:100%}
+        .btn-go:hover{background:#333}
+        .btn-contact{display:block;background:#fff;color:#111;border:1px solid #ddd;padding:7px 0;border-radius:6px;font-size:.73rem;font-weight:500;cursor:pointer;font-family:'Inter',sans-serif;transition:all .2s;text-decoration:none;text-align:center;width:100%}
+        .btn-contact:hover{background:#111;color:#fff;border-color:#111}
 
-        .timer-red {
-            color: var(--primary-red);
-            font-family: 'Share Tech Mono', monospace;
-            font-size: 1.25rem;
-        }
+        .blog-post{background:#fff;border:1px solid #e8e8e8;border-left:3px solid #111;border-radius:8px;padding:12px 16px;margin-bottom:16px}
+        .blog-post-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;flex-wrap:wrap;gap:6px}
+        .blog-post-title{font-size:.78rem;font-weight:700;color:#111}
+        .blog-post-tag{background:#111;color:#fff;font-size:.58rem;font-weight:600;padding:2px 7px;border-radius:3px;letter-spacing:.5px}
+        .blog-post-body{font-size:.72rem;color:#555;line-height:1.55}
+        .blog-post-body p{margin-bottom:4px}
+        .blog-post-body strong{color:#111}
+        .blog-list{list-style:none;padding:0;margin:3px 0 5px 0}
+        .blog-list li{padding:1px 0;font-size:.7rem;color:#444;position:relative;padding-left:12px}
+        .blog-list li:before{content:"";position:absolute;left:0;top:8px;width:4px;height:4px;background:#111;border-radius:50%}
+        .blog-section{margin:6px 0 3px 0;font-size:.72rem;font-weight:700;color:#111;border-bottom:1px solid #eee;padding-bottom:2px}
+        .blog-regions{display:flex;flex-wrap:wrap;gap:4px;margin-top:3px}
+        .blog-regions span{background:#f0f0f0;color:#333;font-size:.65rem;padding:2px 8px;border-radius:4px;border:1px solid #e0e0e0;font-weight:500}
 
-        .status-badge {
-            padding: 2px 8px;
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            border-radius: 2px;
-        }
+        .footer{text-align:center;margin-top:35px;padding-top:18px;border-top:1px solid #e8e8e8;font-size:.75rem;color:#aaa}
 
-        .btn-nav {
-            position: relative;
-            overflow: hidden;
-            transition: color 0.3s;
-        }
-
-        .btn-nav::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 0%;
-            height: 2px;
-            background: var(--primary-red);
-            transition: width 0.3s;
-        }
-
-        .btn-nav:hover::after {
-            width: 100%;
-        }
-
-        .grid-bg {
-            background-size: 40px 40px;
-            background-image: linear-gradient(to right, #1a1a1a 1px, transparent 1px), linear-gradient(to bottom, #1a1a1a 1px, transparent 1px);
-        }
-
-        ::-webkit-scrollbar {
-            width: 5px;
-        }
-
-        ::-webkit-scrollbar-track {
-            background: #0a0a0a;
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: var(--primary-red);
-        }
-
-        .custom-scrollbar::-webkit-scrollbar {
-            width: 3px;
-        }
-
-        .custom-scrollbar::-webkit-scrollbar-thumb {
-            background: #333;
+        @media(max-width:600px){
+            .nav a{padding:8px 14px;font-size:.78rem}
+            .card{flex-direction:column}
+            .card-content{padding:16px 18px}
+            .card-side{flex-direction:row;border-left:none;border-top:1px solid #eee;padding:10px 18px;min-width:auto}
+            .card-side a{flex:1}
+            .card-top{flex-direction:column;align-items:flex-start;gap:4px}
         }
     </style>
 </head>
+<body>
 
-<body class="grid-bg min-h-screen">
-    <div class="scanline"></div>
+<div class="container">
+    <div class="header">
+        <h1>Stormous.<span>Leak</span></h1>
+    </div>
+    <div class="nav">
+      
+      
+        <a href="contact.html">Contact</a>
+        <a href="">Feedback</a>
+        <a href="affiliate.html">GhostLocker/Stm</a>
+    </div>
+    <div class="search-box"><input type="text" id="search" placeholder="Search..."></div>
 
-    <header class="border-b border-red-900/30 bg-black/90 backdrop-blur-xl sticky top-0 z-50">
-        <div class="container mx-auto px-4 lg:px-6 py-3 flex justify-between items-center">
-            <div class="flex items-center space-x-4 cursor-pointer" onclick="switchView('dashboard')">
-                <div class="w-8 h-8 bg-red-600 flex items-center justify-center rounded-sm">
-                    <span class="text-white font-black text-lg">S.T.M</span>
-                </div>
-                <h1 class="text-xl font-black tracking-widest glow-text hidden sm:block"></h1>
-            </div>
-
-            <nav class="flex items-center bg-zinc-900/50 border border-zinc-800 p-1 rounded-sm">
-                <a href="#" onclick="switchView('dashboard')"
-                    class="px-4 py-2 text-[10px] font-black uppercase hover:text-red-500 transition-colors">DASHBOARD</a>
-                <a href="#" onclick="switchView('affiliate')"
-                    class="px-4 py-2 text-[10px] font-black uppercase hover:text-red-500 transition-colors border-r border-zinc-800">AFFILIATE</a>
-                <a href="" onclick="switchView('contact')"
-                    class="px-4 py-2 text-[10px] font-black uppercase hover:text-red-500 transition-colors border-r border-zinc-800">CONTACT</a>
-                <a href="feedback.html" onclick="switchView('feedback')"
-                    class="px-4 py-2 text-[10px] font-black uppercase hover:text-red-500 transition-colors border-r border-zinc-800">feedback</a>
-            </nav>
-
-            <div class="hidden lg:flex items-center space-x-4 text-[10px] font-bold">
-                <div class="flex flex-col items-end border-r border-zinc-800 pr-4">
-                    <span class="text-zinc-500 uppercase"> Status</span>
-                    <span class="text-green-500 animate-pulse">â online</span>
-                </div>
-                <div class="flex flex-col items-end">
-                    <span class="text-zinc-500 uppercase">Live Targets</span>
-                    <span class="text-white">166 TOTAL </span>
-                </div>
-            </div>
+    <div class="blog-post">
+        <div class="blog-post-head">
+            <div class="blog-post-title">Initial Access Brokers - Long-Term Collaboration</div>
+            <span class="blog-post-tag">PINNED</span>
         </div>
-    </header>
+        <div class="blog-post-body">
+            <p>We are currently seeking reliable Initial Access Brokers for long-term collaboration.</p>
+            <p>** Please do not waste time attempting complex exploit development or direct EDR confrontation. We are interested exclusively in stable corporate access.</p>
 
-    <main class="container mx-auto px-6 py-12">
-     
-        <!-- Dashboard  -->
-        <div id="view-dashboard" class="page-view">
-            <div class="mb-16 border-l-4 border-red-600 pl-6 py-4 bg-red-900/10 flex justify-between items-center">
-                <div>
-                    <h2 class="text-4xl font-bold mb-2 uppercase italic">Data Publication Portal</h2>
-                    <p class="text-zinc-400 max-w-2xl">
-                        The following entities have failed to secure their infrastructure. Their data is being prepared
-                        for public release.
-                        We provide a window for negotiation before the final deadline expires.
-                    </p>
-                </div>
-                <div class="hidden lg:block text-right">
-                    <div class="text-red-500 font-bold text-2xl tracking-widest">S.T.M</div>
-                    <div class="text-xs text-zinc-500">MONITORING GLOBAL EXFILTRATION</div>
-                </div>
+            <div class="blog-section">Accepted Access Types</div>
+            <ul class="blog-list">
+                <li>RDP</li>
+                <li>VPN (including AnyConnect)</li>
+                <li>Citrix environments</li>
+                <li>SSH</li>
+            </ul>
+
+            <p>Local user access is acceptable.</p>
+            <div class="blog-section">Compensation</div>
+            <ul class="blog-list">
+                <li>Small to mid-sized enterprises: fixed payment starting at <strong>+$3,000</strong></li>
+                <li>Large enterprises: <strong>20-25%</strong> revenue share from final settlement</li>
+            </ul>
+
+            <div class="blog-section">Target Regions +%</div>
+            <div class="blog-regions">
+                <span>France</span>
+                <span>United States</span>
+                <span>Spain</span>
+                <span>Qatar</span>
+                <span>Belgium</span>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="leaks-container">
-            </div>
-
-            <div class="mt-12 flex justify-center items-center space-x-4">
-                <button onclick="previousPage()"
-                    class="bg-zinc-900 border border-zinc-800 hover:border-red-600 px-4 py-2 text-[10px] font-black uppercase transition-all flex items-center gap-2">
-                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
-                        </path>
-                    </svg>
-                    Previous
-                </button>
-                <span class="text-zinc-400 text-xs font-mono" id="page-info">Page 1 of 2</span>
-                <button onclick="nextPage()"
-                    class="bg-zinc-900 border border-zinc-800 hover:border-red-600 px-4 py-2 text-[10px] font-black uppercase transition-all flex items-center gap-2">
-                    Next
-                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                    </svg>
-                </button>
-            </div>
         </div>
+    </div>
 
-        <div id="view-affiliate" class="page-view hidden">
-            <div class="max-w-4xl mx-auto">
-                <h2 class="text-5xl font-black mb-8 border-b border-red-600 pb-4 italic">AFFILIATE PROGRAM <span
-                        class="text-zinc-700">RaaS v5</span></h2>
+    <div class="count" id="count"></div>
+    <div class="entries" id="entries"></div>
+    <div class="footer">Stormous.Leak&mdash;2026</div>
+</div>
 
-                <div class="grid md:grid-cols-3 gap-6 mb-12">
-                    <div class="bg-zinc-900 border border-zinc-800 p-6">
-                        <div class="text-red-500 text-3xl font-bold mb-2">85/15</div>
-                        <div class="text-xs text-zinc-500 uppercase">Profit Split</div>
-                        <p class="text-sm mt-2">You keep 85% of every successful ransom payment.</p>
-                    </div>
-                    <div class="bg-zinc-900 border border-zinc-800 p-6">
-                        <div class="text-red-500 text-3xl font-bold mb-2">AUTO</div>
-                        <div class="text-xs text-zinc-500 uppercase">Panel Access</div>
-                        <p class="text-sm mt-2">Automated builder with custom payloads and FUD injectors.</p>
-                    </div>
-                    <div class="bg-zinc-900 border border-zinc-800 p-6">
-                        <div class="text-red-500 text-3xl font-bold mb-2">24/7</div>
-                        <div class="text-xs text-zinc-500 uppercase">Support</div>
-                        <p class="text-sm mt-2">Dedicated negotiation experts to maximize your payouts.</p>
-                    </div>
-                </div>
+<script>
+var data=[
+{name:"FANASA.COM",desc:"Personally Identifiable Information (PII), âElectronic Fiscal Documents (CFDI/XML), âFinancial Transaction Records, âCommercial Invoices & Billing Data, âTaxpayer Identification Numbers (RFC), âClient & Vendor Database/âInternal Corporate Documentation",date:"2026-03-04",status:"new",link:""},
+{name:"GOODMANMFG",desc:"Administrative/System Files/ADMIN, DOAS, operational records, engineering drawings, schematics...",date:"2025-12-09",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"futureal",desc:"Project Planning & Execution Documents...",date:"2025-12-09",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"bkcolombia",desc:"(Folders/Files) Email/Communication/System/Application Data AYEAPLICACIONES database/Log Data BDATOSFITCLOD, Software/Installation/Program Files AUTOBOU, Personal/Miscellaneous Files AvenaCubana",date:"2025-12-09",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"holidaypalace",desc:"All of this data is offered for sale (user information: email, phone number, full name, date of birth / payment and booking data / ID cards and passports used in booking processes / full access was obtained to the system and all data was extracted).",date:"2025-12-09",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"VPN Access Sale",desc:"VPN access to the company's internal network is provided",date:"2025-11-10",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"www.wilmar.co.id",desc:"VPN access to the company's internal network is provided",date:"2025-11-07",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"www.danareksa.com",desc:"VPN access to the company's internal network is provided",date:"2025-11-07",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"www.marjane.ma",desc:"Marjane Group is a Moroccan retail group that owns the Marjane hypermarkets and Marjane Market supermarkets. Founded in 1990, Marjane has gradually become the largest retail company in Morocco",date:"2025-10-28",link:"https://www.marjane.ma"},
+{name:"French Government",desc:"Stealer-type breach Valid credentials, sensitive access",date:"2025-10-28"},
+{name:"acuity",desc:"This includes important legal documents such as drafts of non-disclosure agreements (NDA) pertaining to the company and strategic partners like Bosch, detailed financial documents containing analyses of Acuity's financial position",date:"2025-10-28",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"enersolcr",desc:"Internal Data - System Data - 73 Partner Data - Customer Data (Email, Name, Phone Number) - Admin Data and Their Roles, etc....",date:"2025-10-28",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"regencytorviscas",desc:"Full customer reservation databases (names, phones, emails, addresses, booking dates) Scanned ID documents (passports, national IDs) Internal emails via OWA Employee and customer email lists RDP credential files",date:"2025-10-28",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"regencycountryclub",desc:"Full customer reservation databases (names, phones, emails, addresses, booking dates) Scanned ID documents (passports, national IDs) Internal emails via OWA Employee and customer email lists RDP credential files",date:"2025-10-28",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"regencyrestors",desc:"Full customer reservation databases (names, phones, emails, addresses, booking dates) Scanned ID documents (passports, national IDs) Internal emails via OWA Employee and customer email lists RDP credential files",date:"2025-10-28",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"jparkislandresort",desc:"Full reservation databases Booking platform references (including HeyTripGo) Payment Data PDF files containing credit card numbers, expiration dates and CVV codes Scans of physical card images used in transactions Names and billing addresses linked to card...",date:"2025-10-28",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"crystalhotels",desc:"Full names of hotel guests, Email addresses (internal and external), Customer complaints and feedback content, Booking or reference numbers, Internal hotel communication data...",date:"2025-10-28",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"Hy-Vee",desc:"Hy-Vee refuses to pay, and we are proceeding to leak all the data that was extracted. Internal documents, infrastructure diagrams, employee data, training materials....",date:"2025-10-28",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"atolon-parkhotel",desc:"CVs - FACTURES - Hwawei.com - AA GROUPE 2025 - RESERVATION 2025 - PERSONNELS - INFOS - STAGIAIRES.....",date:"2025-10-28",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"thewatermansarms",desc:"CVs - Bank - VCF - Business accounts - image - SCAN - Passport Details - ID Card -......",date:"2025-10-28",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"rinaldi",desc:"Data of 1,000 registered distributors and sellers employee and customer information - admin login passwords - email addresses, phone numbers, full names - and more...",date:"2025-10-28",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"Volkswagen",desc:"CarNet system breach Internal data accessed",date:"2025-10-28",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"bulentklise",desc:"Customer names, identification numbers, production orders, client records, delivery tracking data, customer information, logos, and more",date:"2025-10-28",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"usbmemorydirect.com",desc:"Personal data (individual names, photos, etc.), company/business data (company names, services, tools, equipment), backup copies, system archive compressed files, internal documents and project files, and more.",date:"2025-10-28",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"Important Announcement",desc:"Nova Ransomware-DevMan Ransomware-CoinBaseCartel-RADAR Ransomware-Desolator Ransomware-Kryptos Ransomware",date:"2025-10-28",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"Sincroslab Sas",desc:"Sincroslab Sas is a company in Colombia, with a head office in Bogota D.C.. It operates in the Miscellaneous Nondurable Goods Merchant Wholesalers industry.",date:"2025-10-28",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"visioninksltd",desc:"Vision Inks and Resins Limited (previously known as Vision Inks & Resins) is established in May 1999 with Factory at MIDC, Murbad, Maharashtra INDIA...",date:"2025-10-28",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"americanadecolchones",desc:"VPN access to the company's internal network is provided.",date:"2025-10-28",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"FRANCE TRAVAIL DATA BREACH - 2025",desc:"Plaintext authentication credentials (usernames/passwords)-(full names, dates of birth, gender)-(addresses, phone numbers, emails)-Employment history and professional skills-CNI-RIB - CDD, CDI, temporary missions - Tax documents - Social security attestations - Training certificates - Work authorization documents and more....",date:"2025-07-13"},
+{name:"North Country HealthCare",desc:"Health information for 600,000 patients has been accessed from the North Country Health (NCH) care",date:"2025-06-24"},
+{name:"hy-vee.com",desc:"Access to Hy-Vee's environment was obtained through compromised Atlassian accounts, including tools such as Confluence and Jira. Internal documents, infrastructure diagrams, employee data, training materials, and technical information related to several operational systems were extracted.",date:"2025-06-15",link:"https://www.hy-vee.com"},
+{name:"bulentklise.com.tr",desc:"Customer names, identification numbers, production orders, client records, delivery tracking data, customer information, logos, and more",date:"2025-06-10",link:"https://bulentklise.com.tr"},
+{name:"education.gouv.fr",desc:"Data of over +40,000 individuals has been accessed. The data includes email addresses, passwords, dates, login URLs, names, and regions",date:"2025-06-06",link:"https://education.gouv.fr"},
+{name:"rinaldi.com.br",desc:"Data of 1,000 registered distributors and sellers - employee and customer information - admin login passwords - email addresses, phone numbers, full names - and more...",date:"2025-05-23",link:"https://rinaldi.com.br"},
+{name:"French Gov 2025",desc:"We present a comprehensive leak including full email addresses and password hashes from multiple high-profile French government organizations: Carsat, Finance, Retraite, and IGAS -AAF - AFT - ac-lyoun.fr - cnaf.fr - cnsa.fr.......",date:"2025-05-23"},
+{name:"French Gov",desc:"We present a comprehensive leak including full email addresses and password hashes from multiple high-profile French government organizations: Carsat, Finance, Retraite, and IGAS -AAF - AFT - ac-lyoun.fr - cnaf.fr - cnsa.fr.......",date:"2025-05-21"},
+{name:"www.seashoremotel.com",desc:"A large amount of valid banking card data from various sources - customer information from ID cards, passports, and driver's licenses - email addresses, phone numbers, full names - and selfie photos.",date:"2025-05-21",link:"https://www.seashoremotel.com"},
+{name:"www.wirebangkok.com",desc:"",date:"2025-05-21",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"www.axxoshotels.com",desc:"IPT - customer data - 2025 bookings - identity cards and more.",date:"2025-05-21",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"crystalhotels.com.tr",desc:"Full names of hotel guests, Email addresses (internal and external), Customer complaints and feedback content, Booking or reference numbers, Internal hotel communication data...",date:"2025-05-21",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"nirvanahotels.com.tr",desc:"Full names of hotel guests, Email addresses (internal and external), Customer complaints and feedback content, Booking or reference numbers, Internal hotel communication data...",date:"2025-05-21",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"thewatermansarms.net",desc:"",date:"2025-05-18",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"www.atolon-parkhotel.com",desc:"CVs - FACTURES - Hwawei.com - AA GROUPE 2025 - RESERVATION 2025 - PERSONNELS - INFOS - STAGIAIRES.....",date:"2025-05-15",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"www.jparkislandresort.com",desc:"Full reservation databases, Booking platform references (including HeyTripGo), Payment Data PDF files containing credit card numbers, expiration dates, and CVV codes, Scans of physical card images, Names and billing addresses linked to cards, Full reports of transaction history, Partner commission data and invoice logs, ID Documents, Guest registration forms (with physical signatures), Internal Communication, Booking confirmation exchanges with platforms (HeyTripGo, Agoda, etc.)",date:"2025-05-11",link:"https://www.jparkislandresort.com"},
+{name:"www.regencytorviscas.com",desc:"Full customer reservation databases (names, phones, emails, addresses, booking dates) Scanned ID documents (passports, national IDs) Internal emails via OWA Employee and customer email lists RDP credential files (with usernames/passwords)",date:"2025-05-11",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"www.regencycountryclub.com",desc:"Full customer reservation databases (names, phones, emails, addresses, booking dates) Scanned ID documents (passports, national IDs) Internal emails via OWA Employee and customer email lists RDP credential files (with usernames/passwords)",date:"2025-05-11",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"www.regencyrestors.com",desc:"Full customer reservation databases (names, phones, emails, addresses, booking dates) Scanned ID documents (passports, national IDs) Internal emails via OWA Employee and customer email lists RDP credential files (with usernames/passwords)",date:"2025-05-11",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"Wizz Air",desc:"The response stated: \"Wizz Air has strong security systems in place, designed to protect the sensitive data of our valued customers and partners.\" But I would like to know what guarantees you actually offer your customers and others, because this company clearly seems unaware of what's going on.",date:"2025-05-02",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"Welcome to phish.pw",desc:"A forum created by the operators of Stormous and many of their affiliates, including members from Lapsus$, GhostSec, RedRaas, and others. This forum offers the latest phishing techniques and social engineering methods used in cutting-edge hacking strategies.",date:"2025-03-28",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"KYC UK",desc:"ENJOY!",date:"2025-03-19"},
+{name:"Details of bank card data for over 50,000 Moroccan",desc:"Details of bank card data for over 50,000 Moroccan individuals from 5 different Moroccan banks for sale: Cardholder's name / Card number / Expiry date / Security code... ** For more details, you can contact support to receive full information.",date:"2025-03-19",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"vouch.co.uk + KYC UK",desc:"Vouch does not protect its customers' data at all and stores it poorly. Many users' data, including KYC information, UK ID cards, email addresses, phone numbers, full names, and more, have been extracted. Approximately 3GB of data was collected.",date:"2025-03-17",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"vouch.co.uk",desc:"Vouch does not protect its customers' data at all and stores it poorly. Many users' data, including KYC information, UK ID cards, email addresses, phone numbers, full names, and more, have been extracted. Approximately 3GB of data was collected.",date:"2025-03-17",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"Transak.com",desc:"We have extracted more than 300GB of data, which includes sensitive personal documents such as government-issued IDs, proof of address, financial statements, and user selfies",date:"2025-03-17",link:"https://transak.com"},
+{name:"uatf.edu.bo",desc:"Personal data (names, addresses, phone numbers) - Internal email correspondences - Attachments containing educational and administrative documents - Information on student or employee activities - Contact list for all students, internal messages, and more",date:"2025-03-17",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"guardianhc.com",desc:"Apps - Attachments - Daily Admission Copies - Documents - Pictures - COVID TESTING DATE - Custom Office Templates - Vaccines",date:"2025-03-17",link:"https://guardianhc.com"},
+{name:"ascires.com",desc:"Client Data - Medical Reports - Financial Status (Bank reports, taxes, and more) - Annual Accounts - Personal Information - New Projects - Large amounts of patient-related data - Business plans and much more - a total of 700 GB of critical information!",date:"2025-03-17",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"fractal.id",desc:"The total amount of data we managed to access exceeded 10 GB ------ 12GB, including personal photos, bank statements, proof of address, and ETH/BTC addresses",date:"2025-03-17",link:"https://web.fractal.id"},
+{name:"aosense.com",desc:"Accounting Information- AOSense Commercial Sales-Design-Financial-Inertial_Sensors_Group-IT-Products-Report-ContractsAdmin-Active Project Numbers-NASA-Atom Computing-Subcontracts-Purchasing-IntellectualProperty-Administrative-Data-Navigation",date:"2025-03-17",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"acuity.co.uk",desc:"This includes important legal documents such as drafts of non-disclosure agreements (NDA) pertaining to the company and strategic partners like Bosch, detailed financial documents containing analyses of Acuity's financial position",date:"2025-03-17",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"biodimed.com",desc:"Email operations associated with all employees - attachments include 40GB of documents related to biodimed - employee data - internal messages",date:"2025-03-17",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"turbomp.com",desc:"Because this company receives product design drawings from other partner companies and carries out manufacturing orders, it has detailed contract documents with numerous companies, their design documents, detailed drawings required for the manufacturing process, and documents showing the manufacturing process.",date:"2025-03-17",link:"https://turbomp.com"},
+{name:"cmr24.by",desc:"Account statements and payment checks A list of delinquent customers with their data, Includes invoices, operational reports, and logistical document",date:"2025-03-15",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"enersolcr.com",desc:"enersolcr/",date:"2025-03-08",link:"https://enersolcr.com",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"Wizz Air Abu Dhabi",desc:"Wizz Air Abu Dhabi/",date:"2025-02-25",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"Transak",desc:"transak/",date:"2025-02-06",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"turbomp",desc:"turbomp.com Size: 700GB - Because this company receives product design drawings from other partner companies and carries out manufacturing orders, it has detailed contract documents with numerous companies.",date:"2025-02-06"},
+{name:"cmr24",desc:"cmr24.by Size: 5GB - Account statements and payment checks A list of delinquent customers with their data, Includes invoices, operational reports, and logistical document",date:"2025-02-06"},
+{name:"biodimed",desc:"biodimed.com/",date:"2024-12-16",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"uatf",desc:"uatf.edu.bo/",date:"2024-12-11",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"transak",desc:"transak.com/",date:"2024-12-11",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"lyra.officegroup",desc:"lyra.officegroup.it/",date:"2024-12-11",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"guardianhc",desc:"guardianhc.com/",date:"2024-12-11",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"ascires",desc:"ascires.com/",date:"2024-12-11",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"aosense",desc:"aosense.com/",date:"2024-12-11",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"acuity",desc:"acuity.co.uk/",date:"2024-12-11",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"fractal",desc:"web.fractal.id/",date:"2024-12-11",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"AOSense/NASA",desc:"",date:"2024-10-05",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"NASA/AOSense",desc:"",date:"2024-10-05",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"lyra.officegroup.it",desc:"",date:"2024-10-05",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"Acuity Advisor",desc:"",date:"2024-10-01",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"asobostudio",desc:"",date:"2024-10-01",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"mivideo.club",desc:"",date:"2024-09-13",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"jatelindo",desc:"",date:"2024-09-12",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"TELECO",desc:"",date:"2024-08-18",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"intrama-bg",desc:"",date:"2024-07-27",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"HITC.VN",desc:"",date:"2024-07-07",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
+{name:"Barid soft",desc:"",date:"2024-05-10"},
+{name:"KAI",desc:"",date:"2024-05-08"},
+{name:"bombaygrills",desc:"",date:"2024-05-03"},
+{name:"everplast",desc:"",date:"2024-05-03"},
+{name:"tox.chat",desc:"",date:"2024-05-03"},
+{name:"airbogo",desc:"",date:"2024-05-03"},
+{name:"viadirectamarketing",desc:"",date:"2024-05-03"},
+{name:"www.loghmanpharma.com",desc:"",date:"2024-05-03"},
+{name:"www.duvel.com",desc:"",date:"2024-05-03"},
+{name:"mioa.gov",desc:"",date:"2024-05-03"},
+{name:"lostlb",desc:"",date:"2024-05-03"},
+{name:"education.eeb-lost",desc:"",date:"2024-05-03"},
+{name:"paginesi",desc:"",date:"2024-05-03"},
+{name:"berjayaclubs",desc:"",date:"2024-05-03"},
+{name:"casio india",desc:"",date:"2024-05-03"},
+{name:"sharik",desc:"",date:"2024-05-03"},
+{name:"tdra",desc:"",date:"2024-05-03"},
+{name:"fanr.gov.ae",desc:"",date:"2024-05-03"},
+{name:"Bayanat",desc:"",date:"2024-05-03"},
+{name:"kidx",desc:"",date:"2024-05-03"},
+{name:"delia.pl",desc:"Polish cosmetics company with over 25 years of experience, with an established position not only in Poland, but also in over 70 countries around the world.",date:"2024-02-16"},
+{name:"bombaygrills.com",desc:"Bombay grill located at Zagreb, Tkalcieva is one of up coming leading restaurant & Bar. committed to serving seasonally inspired cooking and providing great service in superbly designed restaurants.",date:"2024-02-14"},
+{name:"calcomp.co.th",desc:"Cal-Comp is the largest Electronics Manufacturing Services (EMS) Company in Thailand and Southeast Asia, providing manufacturing services in OEM and ODM across a variety of products for clients that are mostly exported worldwide",date:"2024-02-14"},
+{name:"Abelsantosyasoc.com.ar (FF)",desc:"Our activities cover the regulatory, technical, medical, marketing, building and administrative management aspects of companies dedicated to the manufacturing and/or marketing of pharmaceutical, cosmetic, dental, biomedical, mass consumption, household health products.",date:"2024-02-02"},
+{name:"Abelsantosyasoc.com.ar",desc:"Our activities cover the regulatory, technical, medical, marketing, building and administrative management aspects of companies dedicated to the manufacturing and/or marketing of pharmaceutical, cosmetic, dental, biomedical, mass consumption, household health products.",date:"2024-02-02"},
+{name:"uffs.edu.br",desc:"UFFS is a public federal university located in the southern region of Brazil. It was established to provide higher education and promote regional development in the states of Santa Catarina, Parana, and Rio Grande do Sul",date:"2024-01-18"},
+{name:"www.kai.id (FF)",desc:"PT Kereta Api Indonesia is the national railway company in Indonesia, also known as Kereta Api. It is responsible for operating train services throughout the country.",date:"2024-01-14"},
+{name:"pcmarket.uz",desc:"The PC Market, a computer and hardware store, is the number one choice in Uzbekistan. Pc Market is a professional team with extensive experience in computer sales and maintenance.",date:"2023-12-25"},
+{name:"zonesoft.pt",desc:"Zone Soft is present in more than 30 thousand customers in Portugal, Brazil, Spain, South Africa, Cape Verde, Angola and Mozambique, with one mission: to offer the best experience for everyone involved in a buying and selling process.",date:"2023-12-22"},
+{name:"Warning to Zonesoft",desc:"Since there has been no response from the company or any communication with us to address the data leak issue, and in adherence to our principles, it is announced that we will leak the initial version of the data tonight.",date:"2023-12-22"},
+{name:"comtrade.com",desc:"Comtrade is a dynamic and well-established group of technology companies, with a 30-year track record of innovation and steady development. Founded as a software engineering and services company, today it stands at the forefront of the industry in Southeast Europe.",date:"2023-12-22"},
+{name:"zewailcity.edu.eg",desc:"Zewail City of Science and Technology is a nonprofit, independent institution of learning, research and innovation. The concept of the City was proposed in 1999 and its cornerstone laid on January 1, 2000.",date:"2023-12-22"},
+{name:"evn.com.vn",desc:"VietNam Electricity (EVN) is the largest power company in Vietnam serving more than 19 million customers and having an installed electricity generation capacity of 8,860 MW.",date:"2023-12-22"},
+{name:"inwi.ma",desc:"Founded in 1999, Inwi is a global operator covering all telecommunications services including voice services, Internet, and data for private and corporate clients",date:"2023-12-22"},
+{name:"rmutto.ac.th",desc:"Rajamangala University of Technology Tawan-Ok. It is a university of science and technology established in accordance with the Rajamangala University of Technology Act 2005.",date:"2023-12-22"},
+{name:"trabzon.edu.tr",desc:"Trabzon Akabat University was established by Law No. 7141 published in the Official Gazette dated 18.05.2018. Providing education in the light of universal values and scientific principles.",date:"2023-12-22"},
+{name:"epson",desc:"Epson is a global technology leader whose philosophy of efficient, compact and precise innovation improves the quality of people's lives and helps create a better world.",date:"2023-09-25"},
+{name:"interep",desc:"A Brazilian company specializing in national and international land travel with services exclusively targeting travel agents.",date:"2023-09-23"},
+{name:"enpos",desc:"Established in 1995, EnPOS has been serving in many fields of activity such as payment systems, sales, campaigns, CRM and security. With its 25 years of experience.",date:"2023-09-13"},
+{name:"pvc-ms",desc:"PetroVietnam Metallic Structures & Erection Joint Stock Company (PVC-MS) is a member unit of Vietnam Oil and Gas Construction Joint Stock Corporation. Established in 1983 with the function of providing construction services specialized in the oil and gas industry.",date:"2023-09-08"},
+{name:"novelis",desc:"Novelis is an aluminum company created by Alcan's spin-off in 2005. It was acquired by Hindalco in 2007.",date:"2023-09-03"},
+{name:"davinci",desc:"Da Vinci School has one of the largest educational technological infrastructures in Argentina: fully equipped classrooms, chroma rooms for special effects, sound recording studio, unique motion capture equipment.",date:"2023-09-03"},
+{name:"alkf+",desc:"We are a leading company in the industry, providing the best products and services to our customers.",date:"2023-09-03"},
+{name:"mambo",desc:"Safari travel company in Tanzania, offering unique and adventurous experiences. We are committed to providing exceptional service to you through a wide range of wildlife tours.",date:"2023-09-03"},
+{name:"socomec",desc:"Socomec is a global energy company that specializes in providing integrated and advanced electrical solutions to medium enterprises.",date:"2023-09-03"},
+{name:"archi+",desc:"Archiplus principal office is in Hong Kong, its wholly owned subsidiary company in the same name is registered in Beijing with offices in the United Kingdom, New York and Sydney.",date:"2023-09-03"},
+{name:"nipun",desc:"We at Nipun impart training and the skill-set that is required to succeed in the Pharma Industry.",date:"2023-09-03"},
+{name:"jasper",desc:"The Jasper Picture Company is an ideal choice for creating corporate video production content for all industries, including government, not-for-profit, and businesses.",date:"2023-09-03"},
+{name:"senior",desc:"Senior develops and delivers enterprise resource planning, logistics, access and security management, and human capital management solutions.",date:"2023-09-03"},
+{name:"econocom",desc:"The group econocom First General Digital Company in Europe, the Econocom group designs, finances and facilitates the digital transformation of large companies and public organizations.",date:"2023-09-03"},
+{name:"vivtok",desc:"VIVOTEK Inc. was founded in February 2000. The Company markets VIVOTEK solutions worldwide, and has become a leading brand in global security surveillance.",date:"2023-09-03"},
+{name:"dynamite",desc:"DYNAMITE was founded in 2004 and is home to many best-selling properties, including The Boys, The Shadow, Warlord of Mars, Game of Thrones, SEAL Team Six and more!",date:"2023-07-24"},
+{name:"Senior",desc:"Senior develops and delivers enterprise resource planning, logistics, access and security management, and human capital management solutions.",date:"2023-07-17"},
+{name:"jasperpictures",desc:"The Jasper Picture Company is an ideal choice for creating corporate video production content for all industries.",date:"2023-07-15"},
+{name:"Ministry of Energy and Mines (Cuba) - STORMOUS + GhostSec",desc:"Ministry of Energy and Mines. Ministry created on December 3, 2012 as an agreement of a meeting of the Council of Ministers of the Republic of Cuba.",date:"2023-07-15"},
+{name:"Ministerio de Cultura de la Republica de Cuba - STORMOUS + GhostSec",desc:"The triumph of the Cuban Revolution, government cultural functions were performed by the Department of Culture, Ministry of Education. In 1961 the National Council for Culture was founded.",date:"2023-07-13"},
+{name:"Ministry of Foreign Trade - STORMOUS + GhostSec",desc:"It is the body of the Central State Administration in charge of proposing, and once approved, directing, executing and controlling State and Government policies in matters of foreign trade, foreign investment and international economic collaboration",date:"2023-07-13"},
+{name:"berjaya",desc:"For years, the name Berjaya Clubs has been sparking visions of scenic surroundings, great golfing experiences, wonderful activities, excellent food, memorable events or simply a good time.",date:"2023-07-12"},
+{name:"Novelis",desc:"Novelis is an aluminum company created by Alcan's spin-off Alcan in 2005. It was acquired by Hindalco in 2007.",date:"2023-07-12"},
+{name:"confido",desc:"Confido Technical Services LLC is a Control Systems Consultancy and Systems Integrator with particular strengths in open systems integration and legacy systems adaptation.",date:"2023-07-12"},
+{name:"La Providence",desc:"Catholic educational establishment located in Blois, Campus La Providence is organized around a vocational high school, a technological high school, a higher education center, a CFA and a continuing education center.",date:"2023-07-12"},
+{name:"Ingersoll Rand",desc:"Ingersoll Rand is a global market leader with a broad range of innovative and mission-critical air, fluid, energy and medical technologies, providing services and solutions to increase industrial productivity and efficiency.",date:"2023-07-12"},
+{name:"Arrowall",desc:"Arrowall Co. is curtainwall designer, manufacturer, and installer with over 30 years experience in the central Texas market.",date:"2023-07-12"},
+{name:"OKS",desc:"Delivering business and legal process outsourcing solutions to some of the world's largest and most demanding organizations",date:"2023-07-12"},
+{name:"Matrix",desc:"Company of the ICCNET group, created in 1997, MATRIX TELECOMS is a Networks and Telecoms operator with a state-of-the-art infrastructure for all types of telecommunications solution needs",date:"2023-07-12"},
+{name:"Melco",desc:"Melco Resorts & Entertainment Limited (Melco) is a developer, owner and operator of integrated resort facilities in Asia and Europe.",date:"2023-07-12"},
+{name:"ocean",desc:"The Marine Engineering Study Program was established to prepare its graduates to master competence and be able to compete at the national, regional",date:"2023-07-12"},
+{name:"treenovum.es",desc:"Creative software agency that specializes in making customized software solutions",date:"2023-07-12"},
+{name:"archiplusinter.com",desc:"The Sage Partner Network is a vibrant, close-knit partner community focused on winning together.",date:"2023-07-12"},
+{name:"marehotels",desc:"In 2013, Mare expanded its business and opened the Mare Hotel complex within the same compound. The hotel features modern and meticulous decor.",date:"2023-07-12"},
+{name:"mamboafricaadventure",desc:"Safari travel company in Tanzania, offering unique and adventurous experiences.",date:"2023-07-12"},
+{name:"Nipun Consultancy",desc:"We at Nipun impart training and the skill-set that is required to succeed in the Pharma Industry.",date:"2023-07-12"},
+{name:"TWHOUSE",desc:"The Wholesale House is a company founded in 1978 by Steven and Mary Hite. Starting from humble beginnings with two people working from their home to multiple warehouses today.",date:"2023-04-03"},
+{name:"METALWORK",desc:"Metal Work is an Italian company specialised in the production of pneumatic components for automation systems",date:"2023-04-03"},
+{name:"OCEAN",desc:"The Marine Engineering Study Program was established to prepare its graduates to master competence and be able to compete at the national, regional",date:"2023-04-03"},
+{name:"TREENOVUM",desc:"Creative software agency that specializes in making customized software solutions",date:"2023-04-03"},
+{name:"ARCHI+",desc:"Archiplus principal office is in Hong Kong, its wholly owned subsidiary company in the same name is registered in Beijing with offices in the United Kingdom, New York and Sydney.",date:"2023-04-03"},
+{name:"SAGE",desc:"The Sage Partner Network is a vibrant, close-knit partner community focused on winning together. Partner with a strong brand that can attract and retain customers.",date:"2023-04-03"},
+{name:"GOV.PL",desc:"The central authority for the government department concerned with national roads is the Director General of National Roads and Highways.",date:"2023-03-30"},
+{name:"matrixtelecoms",desc:"Company of the ICCNET group, created in 1997, MATRIX TELECOMS is a Networks and Telecoms operator with a state-of-the-art infrastructure.",date:"2023-03-30"},
+{name:"ieseco",desc:"A wide range of subjects and disciplines are taught, from basic education to higher levels of vocational education and training.",date:"2023-03-30"},
+{name:"MELCO",desc:"Melco Resorts & Entertainment Limited (Melco) is a developer, owner and operator of integrated resort facilities in Asia and Europe.",date:"2023-03-30"},
+{name:"LINX",desc:"A company of the Stone Co group, Linx is a specialist in retail technology and leader in the management software market, with a 45.6% retail market share.",date:"2023-03-27"},
+{name:"FURUNO",desc:"Furuno Spain S.A. is a subsidiary company of Furuno Electric Co., a world leader in marine electronics, headquartered in Nishinomiya - Japan.",date:"2023-03-27"},
+{name:"IRCO",desc:"Ingersoll Rand is a global market leader with a broad range of innovative and mission-critical air, fluid, energy and medical technologies.",date:"2023-03-27"},
+{name:"ARROWAL",desc:"Arrowall Co. is curtainwall designer, manufacturer, and installer with over 30 years experience in the central Texas market.",date:"2023-03-27"},
+{name:"OKSGROUP",desc:"Delivering business and legal process outsourcing solutions to some of the worlds largest and most demanding organizations",date:"2023-03-27"},
+{name:"turvatehnika",desc:"Turvatehnika As is a security and protection company established in Tallinn, Estonia in 1995. Since then, the company has grown into a leading supplier of security equipment.",date:"2023-03-26"},
+{name:"KONICA",desc:"Konica Minolta Co Ltd. is a Japanese printing solutions and IT services company headquartered in Tokyo. It results from the merger of two companies, Minolta and Konica.",date:"2023-03-26"},
+{name:"SOCOMEC",desc:"Socomec is a global energy company that specializes in providing integrated and advanced electrical solutions to medium enterprises.",date:"2023-03-26"},
+{name:"FICHTNER",desc:"Fichtner Water & Transportation is a renowned global engineering company specializing in infrastructure projects.",date:"2023-03-26"},
+{name:"DAVINCI",desc:"Da Vinci School has one of the largest educational technological infrastructures in Argentina.",date:"2023-03-26"},
+{name:"ALKF+",desc:"Li Jingxun and Lei Huanting Architects is an innovative and diverse architectural company that was founded in 1962.",date:"2023-03-26"},
+{name:"berjayaClubs",desc:"For years, the name Berjaya Clubs has been sparking visions of scenic surroundings, great golfing experiences, wonderful activities, excellent food.",date:"2023-03-26"},
+{name:"NOVELIS",desc:"Novelis is an aluminum company created by Alcan's spin-off Alcan in 2005. It was acquired by Hindalco in 2007.",date:"2023-03-26"},
+{name:"CONFIDO",desc:"Confido Technical Services LLC is a Control Systems Consultancy and Systems Integrator with particular strengths in open systems integration.",date:"2023-03-26"},
+{name:"CESCE",desc:"CESCEBRASIL, the guarantee insurance specialist, implements digital certificates to speed up the entire process of approval, issuance and transmission of policies.",date:"2023-03-26"},
+{name:"la providence",desc:"Catholic educational establishment located in Blois, Campus La Providence is organized around a vocational high school, a technological high school, a higher education center.",date:"2023-03-26"},
+{name:"DGCX",desc:"DGCX is a subsidiary of Dubai Multi Commodities Centre (DMCC), a strategic initiative of the Government of Dubai, with a mandate to enhance commodity trade flows through the Emirate.",date:"2023-03-26"}
+];
 
-                <div class="space-y-8 text-zinc-300">
-
-                    <section class="bg-red-600/5 p-8 border border-red-900/30">
-                        <h3 class="text-xl font-bold text-red-500 mb-4 uppercase">How to Apply</h3>
-                        <p class="text-sm mb-6">Applications are only accepted via our secure encrypted channels.
-                            Include your portfolio or links to previous work on specialized forums.</p>
-                        <div class="bg-black p-4 font-mono text-xs border border-zinc-800 break-all">
-                            0E67D9C77F417ABA9564B97C616A6ADAEDC2D3B2CD32B4868FD65E661F6C79311F5C9D908716
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </div>
-
-        <!-- Contact  -->
-        <div id="view-contact" class="page-view hidden">
-            <div class="max-w-2xl mx-auto text-center">
-                <div class="mb-12">
-                    <div class="inline-block p-4 border-2 border-red-600 mb-4">
-                        <svg class="w-12 h-12 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z">
-                            </path>
-                        </svg>
-                    </div>
-                    <h2 class="text-4xl font-bold uppercase tracking-widest">Secure Comms</h2>
-                    <p class="text-zinc-500 mt-2">The only official channels for victims and press and buyers.</p>
-                </div>
-
-                <div class="space-y-6">
-                    <div class="bg-zinc-900 border border-zinc-800 p-8 hover:border-red-600 transition-all group">
-                        <div class="text-xs text-zinc-500 uppercase mb-2">TOX ID (Recommended)</div>
-                        <div class="text-xl font-mono text-white select-all group-hover:text-red-500">
-                            0E67D9C77F417ABA9564B97C616A6ADAEDC2D3B2CD32B4868FD65E661F6C79311F5C9D908716
-                        </div>
-                    </div>
-
-
-                    <div class="grid grid-cols-2 gap-4 pt-8">
-                        <div class="text-left">
-                            <h4 class="text-white font-bold text-sm mb-1 uppercase">Victim Support</h4>
-                            <p class="text-xs text-zinc-500">Include your unique ID found in the ransom note for faster
-                                decryption verification.</p>
-                        </div>
-                        <div class="text-left border-l border-zinc-800 pl-4">
-                            <h4 class="text-white font-bold text-sm mb-1 uppercase">Press Inquiries</h4>
-                            <p class="text-xs text-zinc-500">We respond to journalists within 24-48 hours. Proof of
-                                identity required.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <footer class="border-t border-zinc-800 mt-20 bg-black py-10">
-        <div class="container mx-auto px-6 text-center">
-            <p class="text-zinc-600 text-xs uppercase tracking-widest mb-4">STORMOUS Group &copy; 2026 </p>
-            <div class="flex justify-center space-x-4 opacity-50 grayscale hover:grayscale-0 transition-all">
-                <div class="text-[10px] border border-zinc-700 p-2">TOR: ...onion</div>
-                <div class="text-[10px] border border-zinc-700 p-2">2021/2026</div>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        const companies = [
-            {
-                id: 1.3,
-                name: "clarochile.cl / For Sale",
-                description: "Source_Code_&_Binaries Claro_PhoneProtect_App - Database_Core_Logic (Claro_OWBDPHPRO_Schema) - Access_Control_&_Security - Operational_Workflows (Claro_PhoneProtect_Device_Management) - Complete Database Schema Definition -Identity Management (IDM) Configuration - Google Firebase Cloud Messaging (FCM) Authorization Key - Huawei Cloud Push Service Client Credentials (ID & Secret) and more ....",
-                type: "Source_Code_&_Binaries",
-                size: "7 GB",
-                deadline: new Date().getTime() + (0 * 0 * 0 * 0 * 0),
-                timerActive: true,
-                publishedDate: "2026-01-27",
-                status: "For Sale",
-                method: "Database Access",
-                downloadLinks: [
-                    "http://pdcizqzjitsgfcgqeyhuee5u6uki6zy5slzioinlhx6xjnsw25irdgqd.onion/CH/CH-Part-1.rar",
-                    "http://pdcizqzjitsgfcgqeyhuee5u6uki6zy5slzioinlhx6xjnsw25irdgqd.onion/CH/CH-Part-1.rar",
-                    "http://pdcizqzjitsgfcgqeyhuee5u6uki6zy5slzioinlhx6xjnsw25irdgqd.onion/CH/CH-Part-1.rar"
-                ]
-            },
-            {
-                id: 1,
-                name: "GOODMANMFG",
-                description: "Administrative/System Files/ADMIN, DOAS, operational records, engineering drawings, schematicsâ¦",
-                type: "Administrative Files",
-                size: "44 GB",
-                deadline: new Date().getTime() + (5 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-12-09",
-                status: "FINISH",
-                method: "System Breach",
-                downloadLinks: [
-                    "http://zjwkcbb4p4gspejz64t5mbdf5dltry7ez5v76dfnzp55z4ji2woeypid.onion/goodmanmfg.com",
-                    "http://zjwkcbb4p4gspejz64t5mbdf5dltry7ez5v76dfnzp55z4ji2woeypid.onion/goodmanmfg.com",
-                    "http://zjwkcbb4p4gspejz64t5mbdf5dltry7ez5v76dfnzp55z4ji2woeypid.onion/goodmanmfg.com"
-                ]
-            },
-            {
-                id: 2,
-                name: "futureal",
-                description: "Project Planning & Execution Documents...",
-                type: "Project Documents",
-                size: "17 GB",
-                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-12-07",
-                status: "FINISH",
-                method: "Data Exfiltration",
-                downloadLinks: [
-                    "http://zjwkcbb4p4gspejz64t5mbdf5dltry7ez5v76dfnzp55z4ji2woeypid.onion/futureal.hu",
-                    "http://zjwkcbb4p4gspejz64t5mbdf5dltry7ez5v76dfnzp55z4ji2woeypid.onion/futureal.hu",
-                    "http://zjwkcbb4p4gspejz64t5mbdf5dltry7ez5v76dfnzp55z4ji2woeypid.onion/futureal.hu"
-                ]
-            },
-            {
-                id: 3,
-                name: "bkcolombia",
-                description: "(Folders/Files) Email/Communication/System/Application Data AYEAPLICACIONES database/Log Data BDATOSFITCLOD ( Software/Installation/Program Files AUTOBÎÎ¥ Personal/Miscellaneous Files AvenaCubana )",
-                type: "Email & System Data",
-                size: "12 gb",
-                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-12-01",
-                status: "FINISH",
-                method: "Database Access",
-                downloadLinks: [
-                    "http://zib7duoiglvzvnpjs5faly6bio4xhwiby2lupsnxrkjnx46gmwdfyrid.onion/bkcolombia.org/",
-                    "http://zib7duoiglvzvnpjs5faly6bio4xhwiby2lupsnxrkjnx46gmwdfyrid.onion/bkcolombia.org/",
-                    "http://zib7duoiglvzvnpjs5faly6bio4xhwiby2lupsnxrkjnx46gmwdfyrid.onion/bkcolombia.org/"
-                ]
-            },
-            {
-                id: 4,
-                name: "holidaypalace",
-                description: "All of this data is offered for sale (user information: email, phone number, full name, date of birth / payment and booking data / ID cards and passports used in booking processes / full access was obtained to the system and all data was extracted).",
-                type: "Customer PII",
-                size: "? ",
-                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-11-12",
-                status: "FOR SALE",
-                method: "Full System Access",
-                downloadLinks: [
-                    "",
-                    "",
-                    ""
-                ]
-            },
-            {
-                id: 5,
-                name: "VPN Access Company",
-                description: "VPN access to the company's internal network is provided",
-                type: "Network Access",
-                size: "VPN Credentials",
-                deadline: new Date().getTime() + (1 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-11-17",
-                status: "finish",
-                method: "VPN Breach",
-                downloadLinks: [
-                    "",
-                    "",
-                    ""
-                ]
-            },
-            {
-                id: 6,
-                name: "www.wilmar.co.id",
-                description: "VPN access to the company's internal network is provided",
-                type: "Network Infrastructure",
-                size: "VPN Access",
-                deadline: new Date().getTime() + (1 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-11-24",
-                status: "finish",
-                method: "VPN Compromise",
-                downloadLinks: [
-                    "",
-                    "",
-
-                ]
-            },
-            {
-                id: 7,
-                name: "www.danareksa.com",
-                description: "VPN access to the company's internal network is provided",
-                type: "Network Access",
-                size: "VPN Credentials",
-                deadline: new Date().getTime() + (1 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-09-04",
-                status: "finish",
-                method: "VPN Breach",
-                downloadLinks: [
-                    "",
-                    "",
-                    ""
-                ]
-            },
-            {
-                id: 8,
-                name: "www.marjane.ma",
-                description: "Marjane Group is a Moroccan retail group that owns the Marjane hypermarkets and Marjane Market supermarkets. Founded in 1990, Marjane has gradually become the largest retail company in Morocco",
-                type: "Retail Data",
-                size: "VPN Credentials/SSH",
-                deadline: new Date().getTime() + (3 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-09-11",
-                status: "finish",
-                method: "VPN Breach",
-                downloadLinks: [
-                    "",
-                    "",
-                    ""
-                ]
-            },
-            {
-                id: 9,
-                name: "French Government ",
-                description: "Stealer-type breach Valid credentials, sensitive access",
-                type: "Government Data",
-                size: "?",
-                deadline: new Date().getTime() + (5 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-09-16",
-                status: "finish",
-                method: "Credential Theft",
-                downloadLinks: [
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/",
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/",
-                ]
-            },
-            {
-                id: 10,
-                name: "acuity",
-                description: "This includes important legal documents such as drafts of non-disclosure agreements (NDA) pertaining to the company and strategic partners like Bosch, detailed financial documents containing analyses of Acuity's financial position",
-                type: "Legal & Financial",
-                size: "38 GB",
-                deadline: new Date().getTime() + (4 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-08-28",
-                status: "finish",
-                method: "Document Exfiltration",
-                downloadLinks: [
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/acuity.co.uk",
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/acuity.co.uk",
-                ]
-            },
-            {
-                id: 11,
-                name: "enersolcr",
-                description: "Internal Data - System Data - 73 Partner Data - Customer Data (Email, Name, Phone Number) - Admin Data and Their Roles, etc....",
-                type: "Partner & Customer Data",
-                size: "1 GB",
-                deadline: new Date().getTime() + (3 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-08-21",
-                status: "finish",
-                method: "Database Dump",
-                downloadLinks: [
-                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/enersolcr.com",
-                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/enersolcr.com",
-                ]
-            },
-            {
-                id: 12,
-                name: "regencytorviscas",
-                description: "Full customer reservation databases (names, phones, emails, addresses, booking dates) Scanned ID documents (passports, national IDs) Internal emails via OWA Employee and customer email lists RDP credential files",
-                type: "Hotel Reservation Data",
-                size: "?GB",
-                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-08-09",
-                status: "FINISH",
-                method: "RDP ",
-                downloadLinks: [
-                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencytorviscas.com",
-
-                ]
-            },
-            {
-                id: 13,
-                name: "regencycountryclub",
-                description: "Full customer reservation databases (names, phones, emails, addresses, booking dates) Scanned ID documents (passports, national IDs) Internal emails via OWA Employee and customer email lists RDP credential files",
-                type: "Reservation Data",
-                size: "?GB",
-                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-08-07",
-                status: "FINISH",
-                method: "RDP",
-                downloadLinks: [
-                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencycountryclub.com",
-                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencycountryclub.com",
-                ]
-            },
-            {
-                id: 14,
-                name: "regencyrestors",
-                description: "Full customer reservation databases (names, phones, emails, addresses, booking dates) Scanned ID documents (passports, national IDs) Internal emails via OWA Employee and customer email lists RDP credential files",
-                type: "Hotel Customer Data",
-                size: "?GB",
-                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-07-17",
-                status: "FINISH",
-                method: "Email System Breach",
-                downloadLinks: [
-                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencyrestors.com",
-                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/regencyrestors.com",
-                ]
-            },
-            {
-                id: 15,
-                name: "jparkislandresort",
-                description: "Full reservation databases Booking platform references (including HeyTripGo) Payment Data PDF files containing credit card numbers, expiration dates and CVV codes Scans of physical card images used in transactions Names and billing addresses linked to card ......",
-                type: "Payment & Reservation Data",
-                size: "? GB",
-                deadline: new Date().getTime() + (3 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-07-17",
-                status: "FINISH",
-                method: "",
-                downloadLinks: [
-                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/jparkislandresort.com",
-                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/jparkislandresort.com",
-                ]
-            },
-            {
-                id: 16,
-                name: "crystalhotels",
-                description: "Full names of hotel guests a Email addresses (internal and external) Customer complaints and feedback content Booking or reference numbers Internal hotel communication data ......",
-                type: "Hotel Guest Data",
-                size: "? GB",
-                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-07-17",
-                status: "FINISH",
-                method: "Hotel System Breach",
-                downloadLinks: [
-                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/crystalhotels.com",
-                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/crystalhotels.com",
-                ]
-            },
-            {
-                id: 17,
-                name: "Hy-Vee",
-                description: "Hy-Vee refuses to pay, and we are proceeding to leak all the data that was extracted. Internal documents, infrastructure diagrams, employee data, training materials ....",
-                type: "Corporate Internal Data",
-                size: "88 GB",
-                deadline: new Date().getTime() + (1 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-07-12",
-                status: "FINISH",
-                method: "Atlassian Compromise",
-                downloadLinks: [
-                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/hy-vee",
-                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/hy-vee",
-                ]
-            },
-            {
-                id: 18,
-                name: "atolon-parkhotel",
-                description: "CVs - FACTURES - Hwawei.com - AA GROUPE 2025 - RESERVATION 2025 - PERSONNELS - INFOS - STAGIAIRES .....",
-                type: "Hotel Operational Data",
-                size: "? GB",
-                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-06-08",
-                status: "FINISH",
-                method: "Hotel Management System",
-                downloadLinks: [
-                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/atolon-parkhotel.com",
-                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/atolon-parkhotel.com",
-                ]
-            },
-            {
-                id: 19,
-                name: "thewatermansarms",
-                description: "CVs - Bank - VCF - Business accounts - image - SCAN - Passport Details - ID Card - ......",
-                type: "Personal & Financial Data",
-                size: "? GB",
-                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-08-07",
-                status: "FINISH",
-                method: "Document Theft",
-                downloadLinks: [
-                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/thewatermansarms.com",
-                    "6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/thewatermansarms.com",
-                ]
-            },
-            {
-                id: 20,
-                name: "rinaldi",
-                description: "Data of 1,000 registered distributors and sellers employee and customer information â admin login passwords â email addresses, phone numbers, full names â and more...",
-                type: "Distributor Network Data",
-                size: "1 GB",
-                deadline: new Date().getTime() + (3 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-09-17",
-                status: "FINISH",
-                method: "?",
-                downloadLinks: [
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/rinaldi.com.br",
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/rinaldi.com.br",
-                ]
-            },
-            {
-                id: 21,
-                name: "Volkswagen",
-                description: "CarNet system breach Internal data accessed",
-                type: "Automotive System Data",
-                size: "? GB",
-                deadline: new Date().getTime() + (4 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-09-15",
-                status: "FINISH",
-                method: "CarNet Breach",
-                downloadLinks: [
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/CarNet.log",
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/CarNet.log",
-                ]
-            },
-            {
-                id: 22,
-                name: "bulentklise",
-                description: "Customer names, identification numbers, production orders, client records, delivery tracking data, customer information, logos, and more",
-                type: "Manufacturing Data",
-                size: "? GB",
-                deadline: new Date().getTime() + (3 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-07-14",
-                status: "FINISH",
-                method: "Production System",
-                downloadLinks: [
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/www.bulentklise.com.tr",
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/www.bulentklise.com.tr",
-                ]
-            },
-            {
-                id: 23,
-                name: "usbmemorydirect.com",
-                description: "Personal data (individual names, photos, etc.), company/business data (company names, services, tools, equipment), backup copies, system archive compressed files, internal documents and project files, and more.",
-                type: "Corporate Backup Data",
-                size: "60 GB",
-                deadline: new Date().getTime() + (5 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-07-22",
-                status: "FINISH",
-                method: "Backup System",
-                downloadLinks: [
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/www.usbmemorydirect.com/",
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/www.usbmemorydirect.com/",
-                ]
-            },
-            {
-                id: 24,
-                name: "Sincroslab Sas",
-                description: "Sincroslab Sas is a company in Colombia, with a head office in Bogota D.C.. It operates in the Miscellaneous Nondurable Goods Merchant Wholesalers industry.",
-                type: "Wholesale Business Data",
-                size: "3 GB",
-                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-07-24",
-                status: "negotiation",
-                method: "Business System",
-                downloadLinks: [
-                    "http://zib7duoiglvzvnpjs5faly6bio4xhwiby2lupsnxrkjnx46gmwdfyrid.onion/sincroslab.com/",
-                    "http://zib7duoiglvzvnpjs5faly6bio4xhwiby2lupsnxrkjnx46gmwdfyrid.onion/sincroslab.com/",
-                ]
-            },
-            {
-                id: 25,
-                name: "visioninksltd",
-                description: "Vision Inks and Resins Limited ( previously known as Vision Inks & Resins ) is established in May 1999 with Factory at MIDC, Murbad, Maharashtra INDIA having ...",
-                type: "Manufacturing Data",
-                size: "? GB",
-                deadline: new Date().getTime() + (3 * 24 * 60 * 60 * 1000),
-                publishedDate: "?",
-                status: "imminent",
-                method: "",
-                downloadLinks: [
-                    "",
-                    "",
-                    ""
-                ]
-            },
-            {
-                id: 26,
-                name: "americanadecolchones",
-                description: "VPN access to the company's internal network is provided.",
-                type: "Network Access",
-                size: "VPN Credentials",
-                deadline: new Date().getTime() + (1 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-08-16",
-                status: "timer",
-                method: "VPN Breach",
-                downloadLinks: [
-                    "",
-                    "",
-                ]
-            },
-            {
-                id: 27,
-                name: "FRANCE TRAVAIL DATA BREACH - 2025",
-                description: "Plaintext authentication credentials (usernames/passwords)-(full names, dates of birth, gender)-(addresses, phone numbers, emails)-Employment history and professional skills-CNI-RIB - RelevÃ© d'IdentitÃ© Bancair - CDD, CDI, temporary missions - spanning multiple years - Tax documents (Avis d'imposition) - Social security attestations - Training certificates - Work authorization documents and more ....",
-                type: "Government Employment Data",
-                size: "34 GB",
-                deadline: new Date().getTime() + (6 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-07-13",
-                status: "FOR SALE ",
-                method: "",
-                downloadLinks: [
-                    "http://zib7duoiglvzvnpjs5faly6bio4xhwiby2lupsnxrkjnx46gmwdfyrid.onion/francetravail.fr/660d57fc66ad",
-                    "http://zib7duoiglvzvnpjs5faly6bio4xhwiby2lupsnxrkjnx46gmwdfyrid.onion/francetravail.fr/",
-                ]
-            },
-            {
-                id: 28,
-                name: "North Country HealthCare",
-                description: "Health information for 600,000 patients has been accessed from the North Country Health (NCH) care",
-                type: "Healthcare Patient Data",
-                size: "? ",
-                deadline: new Date().getTime() + (5 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-06-24",
-                status: "FINISH",
-                method: "Healthcare System",
-                downloadLinks: [
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/NCH/",
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/NCH/",
-                ]
-            },
-            {
-                id: 46,
-                name: "Wizz Air",
-                description: "The response stated: 'Wizz Air has strong security systems in place, designed to protect the sensitive data of our valued customers and partners.' But I would like to know what guarantees you actually offer your customers and others, because this company clearly seems unaware of what's going on. The breach was published nearly a month ago, and the data has been widely circulated and used. It has also been verified, and it is indeed valid data linked to your employees. Does the company not have any monitoring system? Or perhaps there have been numerous reports of major fraud incidents committed under your name. So, your denial of the breach â which dates back to a month ago â appears more like an attempt to mislead your customers and partners.",
-                type: "Airline Employee Data",
-                size: "? GB",
-                deadline: new Date().getTime() + (5 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-03-28",
-                status: "FINISH",
-                method: "Employee Data Breach",
-                downloadLinks: [
-                    "?",
-                    "?",
-                    "?"
-                ]
-            },
-            {
-                id: 47,
-                name: "phish.pw Forum",
-                description: "A forum created by the operators of Stormous and many of their affiliates, including members from Lapsus$, GhostSec, RedRaas, and others. This forum offers the latest phishing techniques and social engineering methods used in cutting-edge hacking strategies. (These methods have been utilized in our attacks against major KYC services and others, such as Transak, Fractal, and AOSense.) Do you want to gain skills and work with us or operate independently?",
-                type: "Hacking Forum Data",
-                size: "1.9 TB",
-                deadline: new Date().getTime() + (4 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-03-28",
-                status: "FINISH",
-                method: "",
-                downloadLinks: [
-                    "",
-                    "",
-                ]
-            },
-            {
-                id: 48,
-                name: "KYC UK",
-                description: "ENJOY!",
-                type: "KYC Verification Data",
-                size: "12 GB",
-                deadline: new Date().getTime() + (6 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-03-19",
-                status: "FINISH",
-                method: "KYC System",
-                downloadLinks: [
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/KYC-UK",
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/KYC-UK",
-                ]
-            },
-
-
-            {
-                id: 52,
-                name: "Transak.com",
-                description: "We have extracted more than 300GB of data, which includes sensitive personal documents such as government-issued IDs, proof of address, financial statements, and user selfies",
-                type: "Crypto KYC Data",
-                size: "300 GB",
-                deadline: new Date().getTime() + (4 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-03-17",
-                status: "FINISH",
-                method: "Crypto Platform",
-                downloadLinks: [
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/Transak.com",
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/Transak.com",
-                ]
-            },
-            {
-                id: 53,
-                name: "uatf.edu.bo",
-                description: "Personal data (names, addresses, phone numbers) - Internal email correspondences - Attachments containing educational and administrative documents - Information on student or employee activities - Contact list for all students, internal messages, and more",
-                type: "University Data",
-                size: "? GB",
-                deadline: new Date().getTime() + (5 * 24 * 60 * 60 * 1000),
-                publishedDate: "2025-03-17",
-                status: "negotiation",
-                method: "Education System",
-                downloadLinks: [
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/uatf.edu.bo",
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/uatf.edu.bo",
-                ]
-            },
-            {
-                id: 54,
-                name: "guardianhc.com",
-                description: "Apps - Attachments - Daily Admission Copies - Documents - Pictures - COVID TESTING DATE - Custom Office Templates -Vaccines",
-                type: "Healthcare Data",
-                size: "? GB",
-                deadline: new Date().getTime() + (4 * 24 * 60 * 60 * 1000),
-                publishedDate: "2024-08-12",
-                status: "FINISH",
-                method: "Healthcare System",
-                downloadLinks: [
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/guardianhc.com",
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/guardianhc.com",
-                ]
-            },
-            {
-                id: 55,
-                name: "ascires.com",
-                description: "Client Data - Medical Reports - Financial Status (Bank reports, taxes, and more) - Annual Accounts - Personal Information - New Projects - Large amounts of patient-related data - Business plans and much more â a total of 700 GB of critical information!",
-                type: "Medical & Financial Data",
-                size: "700 GB",
-                deadline: new Date().getTime() + (3 * 24 * 60 * 60 * 1000),
-                publishedDate: "2024-03-22",
-                status: "FINIISH",
-                method: "Medical System",
-                downloadLinks: [
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/ascires.com",
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/ascires.com",
-                ]
-            },
-            {
-                id: 56,
-                name: "fractal.id",
-                description: "The total amount of data we managed to access exceeded 10 GB ------ 12GB, including personal photos, bank statements, proof of address, and ETH/BTC addresses",
-                type: "Crypto Identity Data",
-                size: "12 GB",
-                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
-                publishedDate: "2024-04-19",
-                status: "FINISH",
-                method: "Identity Platform",
-                downloadLinks: [
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/fractal.id",
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/fractal.id",
-                ]
-            },
-            {
-                id: 57,
-                name: "aosense.com",
-                description: "Accounting Information- AOSense Commercial Sales-Design-Financial-Inertial_Sensors_Group-IT-Products-Report-ContractsAdmin-Active Project Numbers-USNO Ca oven-NASA-Atom Computing-Subcontracts-Purchasing-IntellectualProperty-Administrative-Data-Navigation",
-                type: "Aerospace Data",
-                size: "1 TB",
-                deadline: new Date().getTime() + (6 * 24 * 60 * 60 * 1000),
-                publishedDate: "2024-09-19",
-                status: "FINISH",
-                method: "Aerospace System",
-                downloadLinks: [
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/aosense.com",
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/aosense.com",
-                ]
-            },
-            {
-                id: 58,
-                name: "acuity.co.uk",
-                description: "his includes important legal documents such as drafts of non-disclosure agreements (NDA) pertaining to the company and strategic partners like Bosch, detailed financial documents containing analyses of Acuity's financial position",
-                type: "Legal & Financial",
-                size: "17 GB",
-                deadline: new Date().getTime() + (4 * 24 * 60 * 60 * 1000),
-                publishedDate: "2024-03-17",
-                status: "FINISH",
-                method: "Document Exfiltration",
-                downloadLinks: [
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/acuity.co.uk",
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/acuity.co.uk",
-                ]
-            },
-            {
-                id: 59,
-                name: "biodimed.com",
-                description: "Email operations associated with all employees - attachments include 40GB of documents related to biodimed - employee data - internal messages",
-                type: "Biomedical Data",
-                size: "40 GB",
-                deadline: new Date().getTime() + (2 * 24 * 60 * 60 * 1000),
-                publishedDate: "2024-03-17",
-                status: "FINISH",
-                method: "Email System",
-                downloadLinks: [
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/biodimed.com",
-                    "http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/biodimed.com",
-                ]
-            },
-            {
-                id: 60,
-                name: "turbomp.com",
-                description: "Because this company receives product design drawings from other partner companies and carries out manufacturing orders, it has detailed contract documents with numerous companies, their design documents, detailed drawings required for the manufacturing process, and documents showing the manufacturing process.",
-                type: "Manufacturing Designs",
-                size: "700 GB",
-                deadline: new Date().getTime() + (3 * 24 * 60 * 60 * 1000),
-                publishedDate: "2024-03-17",
-                status: "FINISH",
-                method: "Design System",
-                downloadLinks: [
-                    "https://mega.nz/folder/turbomp#link60",
-                    "https://anonfiles.com/turbomp_data",
-                    "https://file.io/turbomp2025"
-                ]
-            }
-        ];
-
-        function switchView(viewId) {
-            document.querySelectorAll('.page-view').forEach(v => v.classList.add('hidden'));
-            const target = document.getElementById(`view-${viewId}`);
-            if (target) target.classList.remove('hidden');
-
-            window.scrollTo(0, 0);
+function render(list) {
+    var el = document.getElementById('entries');
+    document.getElementById('count').innerHTML = 'Total: <strong>' + list.length + '</strong> entries';
+    var html = '';
+    for (var i = 0; i < list.length; i++) {
+        var item = list[i];
+        var isNew = item.status === 'new';
+        var goLink = item.link || '#';
+        html += '<div class="card' + (isNew ? ' card-new' : '') + '">';
+        html += '<div class="card-content">';
+        html += '<div class="card-top">';
+        html += '<div class="card-name">' + item.name + (isNew ? ' <span class="tag-new">NEW</span>' : '') + '</div>';
+        html += '<div class="card-date">' + item.date + '</div>';
+        html += '</div>';
+        var url = item.name.toLowerCase().replace(/\s+/g,'-');
+        if (item.name.indexOf('.')!==-1 || item.name.indexOf('/')!==-1) url = item.name;
+        html += '<div class="card-url">' + url + '</div>';
+        if (isNew) {
+            html += '<div class="timer" id="timer-' + i + '"></div>';
         }
+        if (item.desc) {
+            html += '<div class="card-desc">' + item.desc + '</div>';
+        }
+        if (isNew) {
+            html += '<span class="badge badge-pending"><span class="dot"></span>Pending</span>';
+        } else {
+            html += '<span class="badge badge-leaked"><span class="dot"></span>Leaked</span>';
+        }
+        html += '</div>';
+        html += '<div class="card-side">';
+        html += '<a href="' + goLink + '" target="_blank" class="btn-go">GO</a>';
+        html += '<a href="contact.html" class="btn-contact">Contact</a>';
+        html += '</div>';
+        html += '</div>';
+    }
+    el.innerHTML = html;
+    startTimers(list);
+}
 
-        function updateTimers() {
-
-            companies.forEach(company => {
-                if (!company.timerActive) return;
-
-                const timerElement = document.getElementById(`timer-${company.id}`);
-                if (!timerElement) return;
-
-                const now = new Date().getTime();
-                const distance = company.deadline - now;
-
-                if (distance < 0) {
-                    timerElement.innerHTML = "EXPIRED - DATA RELEASED";
-                    timerElement.classList.add('text-green-500');
-                    timerElement.classList.remove('timer-red');
-                } else {
-                    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                    timerElement.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+function startTimers(list) {
+    for (var i = 0; i < list.length; i++) {
+        if (list[i].status === 'new') {
+            (function(idx) {
+                var end = new Date('2026-03-09T00:00:00').getTime();
+                var el = document.getElementById('timer-' + idx);
+                if (!el) return;
+                function tick() {
+                    var now = new Date().getTime();
+                    var diff = end - now;
+                    if (diff <= 0) { el.textContent = 'TIME UP'; return; }
+                    var d = Math.floor(diff / 86400000);
+                    var h = Math.floor((diff % 86400000) / 3600000);
+                    var m = Math.floor((diff % 3600000) / 60000);
+                    var s = Math.floor((diff % 60000) / 1000);
+                    el.textContent = d + 'd ' + h + 'h ' + m + 'm ' + s + 's';
                 }
-            });
+                tick();
+                setInterval(tick, 1000);
+            })(i);
         }
+    }
+}
 
-        function downloadSample(filename) {
-            const link = document.createElement('a');
-            link.href = '#'; 
-            link.download = filename;
-            alert(`[ENCRYPTED TUNNEL ESTABLISHED]\nInitiating secure download of: ${filename}`);
+render(data);
+
+document.getElementById('search').addEventListener('input', function() {
+    var q = this.value.toLowerCase();
+    if (!q) { render(data); return; }
+    var filtered = [];
+    for (var i = 0; i < data.length; i++) {
+        if (data[i].name.toLowerCase().indexOf(q) !== -1 || data[i].desc.toLowerCase().indexOf(q) !== -1) {
+            filtered.push(data[i]);
         }
+    }
+    render(filtered);
+});
+</script>
 
-        const companyFileSystems = {
-            1.3: [ // clarochile.cl
-                { name: '01_Archivos WAR/', type: 'dir', size: '-' },
-                { name: 'PhoneProtectChWeb/', type: 'dir', size: '-' },
-                { name: 'TerminalChService/', type: 'dir', size: '-' },
-                { name: 'Scripts de base de datos/', type: 'dir', size: '-' },
-                { name: 'Agustes_Componenetes/', type: 'dir', size: '-' },
-                { name: '-RollBack SCRIPTS BD/', type: 'dir', size: '-' },
-                { name: 'WAR_AppService - Correccion APP /', type: 'dir', size: '-' },
-                { name: '5_TG-SP-20180808.sql', type: 'file', size: '777 MB' },
-                { name: 'PERMISO_ROL.sql', type: 'file', size: 'MB' }
-            ],
-
-
-            1: [ // GOODMANMFG
-                { name: 'ADMIN/', type: 'dir', size: '-' },
-                { name: 'DOAS/', type: 'dir', size: '-' },
-                { name: 'Engineering_Drawings/', type: 'dir', size: '-' },
-                { name: 'Schematics/', type: 'dir', size: '-' },
-
-            ],
-            2: [ // futureal
-                { name: 'Project_Planning/', type: 'dir', size: '-' },
-                { name: 'Execution_Documents/', type: 'dir', size: '-' },
-                { name: 'Timeline_Charts/', type: 'dir', size: '-' },
-
-            ],
-            3: [ // bkcolombia
-                { name: 'Email_Communications/', type: 'dir', size: '-' },
-                { name: 'AYEAPLICACIONES_Database/', type: 'dir', size: '-' },
-                { name: 'BDATOSFITCLOD_Logs/', type: 'dir', size: '-' },
-                { name: 'AUTOBOY_Software/', type: 'dir', size: '-' },
-                { name: 'AvenaCubana_Files/', type: 'dir', size: '-' },
-
-            ],
-            4: [ // holidaypalace
-                { name: 'User_Information/', type: 'dir', size: '-' },
-                { name: 'Payment_Data/', type: 'dir', size: '-' },
-                { name: 'ID_Cards_Passports/', type: 'dir', size: '-' },
-                { name: 'Booking_Records/', type: 'dir', size: '-' },
-                { name: 'full_user_database.sql', type: 'file', size: 'MB' },
-                { name: 'payment_transactions.csv', type: 'file', size: ' MB' },
-                { name: 'passport_scans.zip', type: 'file', size: ' GB' },
-                { name: 'booking_history_2020-2025.xlsx', type: 'file', size: '125 MB' }
-            ],
-            5: [ // VPN Access Company
-                { name: 'VPN_Configurations/', type: 'dir', size: '-' },
-                { name: 'Network_Topology/', type: 'dir', size: '-' },
-                { name: 'vpn_credentials.txt', type: 'file', size: '4 KB' },
-
-            ],
-            6: [ // www.wilmar.co.id
-                { name: 'VPN_Access/', type: 'dir', size: '-' },
-                { name: 'Internal_Network/', type: 'dir', size: '-' },
-                { name: 'wilmar_vpn_config.ovpn', type: 'file', size: '12 KB' },
-
-            ],
-            7: [ // www.danareksa.com
-                { name: 'VPN_Credentials/', type: 'dir', size: '-' },
-                { name: 'Financial_Systems/', type: 'dir', size: '-' },
-                { name: 'danareksa_access.txt', type: 'file', size: '5 KB' },
-
-            ],
-            8: [ // www.marjane.ma
-                { name: 'VPN_Credentials//', type: 'dir', size: '-' },
-                { name: 'Customer/', type: 'dir', size: '-' },
-                { name: 'Inventory_Systems/', type: 'dir', size: '-' },
-                { name: 'Hypermarket_Records/', type: 'dir', size: '-' },
-
-            ],
-            9: [ // French Government
-                { name: 'Credentials/', type: 'dir', size: '-' },
-                { name: 'Sensitive_Access/', type: 'dir', size: '-' },
-                { name: 'valid_credentials.txt', type: 'file', size: '2.8 MB' },
-
-            ],
-            10: [ // acuity
-                { name: 'Legal_Documents/', type: 'dir', size: '-' },
-                { name: 'NDA_Drafts/', type: 'dir', size: '-' },
-                { name: 'Financial_Analysis/', type: 'dir', size: '-' },
-                { name: 'Bosch_Partnership/', type: 'dir', size: '-' },
-                { name: 'nda_bosch_2024.pdf', type: 'file', size: '12.5 MB' },
-                { name: 'financial_position_analysis.xlsx', type: 'file', size: '45 MB' },
-                { name: 'strategic_partners_list.docx', type: 'file', size: '8.9 MB' },
-                { name: 'confidential_contracts.zip', type: 'file', size: ' GB' }
-            ],
-            11: [ // enersolcr
-                { name: 'Internal_Data/', type: 'dir', size: '-' },
-                { name: 'Partner_Data/', type: 'dir', size: '-' },
-                { name: 'Customer_Database/', type: 'dir', size: '-' },
-                { name: 'Admin_Roles/', type: 'dir', size: '-' },
-                { name: '73_partners_data.sql', type: 'file', size: ' GB' },
-                { name: 'customer_emails_phones.csv', type: 'file', size: '45 MB' },
-                { name: 'admin_credentials_roles.xlsx', type: 'file', size: '2.1 MB' },
-                { name: 'system_backup_full.tar.gz', type: 'file', size: ' GB' }
-            ],
-            12: [ // regencytorviscas
-                { name: 'Reservations_Database/', type: 'dir', size: '-' },
-                { name: 'Scanned_IDs/', type: 'dir', size: '-' },
-                { name: 'OWA_Emails/', type: 'dir', size: '-' },
-                { name: 'RDP_Credentials/', type: 'dir', size: '-' },
-                { name: 'customer_reservations.sql', type: 'file', size: ' GB' },
-                { name: 'passport_scans.zip', type: 'file', size: ' GB' },
-                { name: 'national_ids.zip', type: 'file', size: ' GB' },
-                { name: 'rdp_access_files.txt', type: 'file', size: '15 KB' }
-            ],
-            13: [ // regencycountryclub
-                { name: 'Member_Database/', type: 'dir', size: '-' },
-                { name: 'Booking_Records/', type: 'dir', size: '-' },
-                { name: 'ID_Documents/', type: 'dir', size: '-' },
-                { name: 'Email_Archives/', type: 'dir', size: '-' },
-
-            ],
-            14: [ // regencyrestors
-                { name: 'Customer_Data/', type: 'dir', size: '-' },
-                { name: 'Reservation_System/', type: 'dir', size: '-' },
-                { name: 'Internal_Emails/', type: 'dir', size: '-' },
-
-            ],
-            15: [ // jparkislandresort
-                { name: 'Reservation_Database/', type: 'dir', size: '-' },
-                { name: 'Payment_Data/', type: 'dir', size: '-' },
-                { name: 'Credit_Cards/', type: 'dir', size: '-' },
-                { name: 'HeyTripGo_Data/', type: 'dir', size: '-' },
-
-            ],
-            16: [ // crystalhotels
-                { name: 'Guest_Information/', type: 'dir', size: '-' },
-                { name: 'Email_Archives/', type: 'dir', size: '-' },
-                { name: 'Complaints_Feedback/', type: 'dir', size: '-' },
-
-            ],
-            17: [ // Hy-Vee
-                { name: 'Internal_Documents/', type: 'dir', size: '-' },
-                { name: 'Infrastructure_Diagrams/', type: 'dir', size: '-' },
-                { name: 'Employee_Data/', type: 'dir', size: '-' },
-                { name: 'Training_Materials/', type: 'dir', size: '-' },
-
-            ],
-            18: [ // atolon-parkhotel
-                { name: 'CVs/', type: 'dir', size: '-' },
-                { name: 'FACTURES/', type: 'dir', size: '-' },
-                { name: 'AA_GROUPE_2025/', type: 'dir', size: '-' },
-                { name: 'RESERVATION_2025/', type: 'dir', size: '-' },
-                { name: 'PERSONNELS/', type: 'dir', size: '-' },
-
-            ],
-            19: [ // thewatermansarms
-                { name: 'CVs/', type: 'dir', size: '-' },
-                { name: 'Bank_Documents/', type: 'dir', size: '-' },
-                { name: 'Business_Accounts/', type: 'dir', size: '-' },
-                { name: 'Passport_Scans/', type: 'dir', size: '-' },
-                { name: 'ID_Cards/', type: 'dir', size: '-' },
-            ],
-            20: [ // rinaldi
-                { name: 'Distributors_1000/', type: 'dir', size: '-' },
-                { name: 'Employee_Info/', type: 'dir', size: '-' },
-                { name: 'Admin_Passwords/', type: 'dir', size: '-' },
-
-            ],
-            21: [ // Volkswagen
-                { name: 'CarNet_System/', type: 'dir', size: '-' },
-                { name: 'Internal_Data/', type: 'dir', size: '-' },
-                { name: 'Vehicle_Systems/', type: 'dir', size: '-' },
-
-            ],
-            22: [ // bulentklise
-                { name: 'Customer_Names/', type: 'dir', size: '-' },
-                { name: 'Production_Orders/', type: 'dir', size: '-' },
-                { name: 'Delivery_Tracking/', type: 'dir', size: '-' },
-
-            ],
-            23: [ // usbmemorydirect.com
-                { name: 'Personal_Data/', type: 'dir', size: '-' },
-                { name: 'Company_Data/', type: 'dir', size: '-' },
-                { name: 'Backup_Copies/', type: 'dir', size: '-' },
-                { name: 'Internal_Documents/', type: 'dir', size: '-' },
-
-            ],
-            24: [ // Sincroslab Sas
-                { name: 'Wholesale_Data/', type: 'dir', size: '-' },
-                { name: 'Bogota_Office/', type: 'dir', size: '-' },
-                { name: 'Nondurable_Goods/', type: 'dir', size: '-' },
-
-            ],
-            25: [ // visioninksltd
-                { name: 'Factory_MIDC/', type: 'dir', size: '-' },
-                { name: 'Manufacturing_Data/', type: 'dir', size: '-' },
-                { name: 'Resins_Formulas/', type: 'dir', size: '-' },
-
-            ],
-            26: [ // americanadecolchones
-                { name: 'VPN_Access/', type: 'dir', size: '-' },
-                { name: 'Internal_Network/', type: 'dir', size: '-' },
-                { name: 'vpn_credentials.txt', type: 'file', size: '8 KB' },
-
-            ],
-            27: [ // FRANCE TRAVAIL DATA BREACH
-                { name: 'Authentication_Credentials/', type: 'dir', size: '-' },
-                { name: 'Personal_Information/', type: 'dir', size: '-' },
-                { name: 'Employment_History/', type: 'dir', size: '-' },
-
-            ],
-            28: [ // North Country HealthCare
-                { name: 'Patient_Records_600K/', type: 'dir', size: '-' },
-                { name: 'Health_Information/', type: 'dir', size: '-' },
-                { name: 'Medical_History/', type: 'dir', size: '-' },
-
-            ],
-            46: [ // Wizz Air
-                { name: 'Employee_Data/', type: 'dir', size: '-' },
-                { name: 'Valid_Credentials/', type: 'dir', size: '-' },
-                { name: 'Customer_Partners/', type: 'dir', size: '-' },
-
-            ],
-            47: [ // phish.pw Forum
-                { name: 'Phishing_Techniques/', type: 'dir', size: '-' },
-                { name: 'Social_Engineering/', type: 'dir', size: '-' },
-                { name: 'Lapsus_GhostSec/', type: 'dir', size: '-' },
-                { name: 'KYC_Attack_Methods/', type: 'dir', size: '-' },
-
-            ],
-            48: [ // KYC UK
-                { name: 'KYC_Verification/', type: 'dir', size: '-' },
-                { name: 'Identity_Documents/', type: 'dir', size: '-' },
-                { name: 'User_Data/', type: 'dir', size: '-' },
-
-            ],
-            49: [ // Moroccan Bank Cards
-                { name: 'Bank_Cards_50K/', type: 'dir', size: '-' },
-                { name: 'Five_Banks_Data/', type: 'dir', size: '-' },
-
-            ],
-            50: [ // vouch.co.uk + KYC UK
-                { name: 'KYC_Information/', type: 'dir', size: '-' },
-                { name: 'UK_ID_Cards/', type: 'dir', size: '-' },
-                { name: 'User_Emails_Phones/', type: 'dir', size: '-' },
-
-            ],
-            51: [ // vouch.co.uk
-                { name: 'Customer_Data/', type: 'dir', size: '-' },
-                { name: 'KYC_Records/', type: 'dir', size: '-' },
-                { name: 'Identity_Scans/', type: 'dir', size: '-' },
-
-            ],
-            52: [ // Transak.com
-                { name: 'KYC_Documents/', type: 'dir', size: '-' },
-                { name: 'Government_IDs/', type: 'dir', size: '-' },
-                { name: 'Proof_of_Address/', type: 'dir', size: '-' },
-                { name: 'User_Selfies/', type: 'dir', size: '-' },
-                { name: 'gov_ids_scan.zip', type: 'file', size: '120 GB' },
-                { name: 'address_proofs.zip', type: 'file', size: '80 GB' },
-                { name: 'financial_statements.pdf', type: 'file', size: '45 GB' },
-                { name: 'selfies_300gb.zip', type: 'file', size: '55 GB' }
-            ],
-            53: [ // uatf.edu.bo
-                { name: 'Personal_Data/', type: 'dir', size: '-' },
-                { name: 'Email_Correspondences/', type: 'dir', size: '-' },
-                { name: 'Educational_Documents/', type: 'dir', size: '-' },
-                { name: 'Student_Activities/', type: 'dir', size: '-' },
-
-            ],
-            54: [ // guardianhc.com
-                { name: 'Apps/', type: 'dir', size: '-' },
-                { name: 'Daily_Admissions/', type: 'dir', size: '-' },
-                { name: 'COVID_Testing/', type: 'dir', size: '-' },
-                { name: 'Vaccines/', type: 'dir', size: '-' },
-
-            ],
-            55: [ // ascires.com
-                { name: 'Client_Data/', type: 'dir', size: '-' },
-                { name: 'Medical_Reports/', type: 'dir', size: '-' },
-                { name: 'Financial_Status/', type: 'dir', size: '-' },
-                { name: 'Patient_Data/', type: 'dir', size: '-' },
-                { name: 'New_Projects/', type: 'dir', size: '-' },
-
-            ],
-            56: [ // fractal.id
-                { name: 'Personal_Photos/', type: 'dir', size: '-' },
-                { name: 'Bank_Statements/', type: 'dir', size: '-' },
-                { name: 'Proof_of_Address/', type: 'dir', size: '-' },
-                { name: 'Crypto_Addresses/', type: 'dir', size: '-' },
-
-            ],
-            57: [ // aosense.com
-                { name: 'Accounting/', type: 'dir', size: '-' },
-                { name: 'Commercial_Sales/', type: 'dir', size: '-' },
-                { name: 'NASA_Projects/', type: 'dir', size: '-' },
-                { name: 'Inertial_Sensors/', type: 'dir', size: '-' },
-                { name: 'Intellectual_Property/', type: 'dir', size: '-' },
-
-            ],
-            58: [ // acuity.co.uk
-                { name: 'Legal_Documents/', type: 'dir', size: '-' },
-                { name: 'NDA_Drafts/', type: 'dir', size: '-' },
-                { name: 'Bosch_Partnership/', type: 'dir', size: '-' },
-                { name: 'Financial_Analysis/', type: 'dir', size: '-' },
-
-            ],
-            59: [ // biodimed.com
-                { name: 'Employee_Emails/', type: 'dir', size: '-' },
-                { name: 'Attachments_40GB/', type: 'dir', size: '-' },
-                { name: 'Internal_Messages/', type: 'dir', size: '-' },
-
-            ],
-            60: [ // turbomp.com
-                { name: 'Product_Designs/', type: 'dir', size: '-' },
-                { name: 'Partner_Drawings/', type: 'dir', size: '-' },
-                { name: 'Contract_Documents/', type: 'dir', size: '-' },
-                { name: 'Manufacturing_Process/', type: 'dir', size: '-' },
-
-            ]
-        };
-
-        const defaultFiles = [
-            { name: 'Data_Archive/', type: 'dir', size: '-' },
-            { name: 'Confidential_Documents/', type: 'dir', size: '-' },
-            { name: 'System_Backup/', type: 'dir', size: '-' },
-
-        ];
-
-        function openFileExplorer(id) {
-            const company = companies.find(c => c.id === id);
-            const explorer = document.createElement('div');
-            explorer.className = 'fixed inset-0 z-[100] flex items-center justify-center bg-black/95 backdrop-blur-sm p-4';
-
-            const simulatedFiles = companyFileSystems[id] || defaultFiles;
-
-            explorer.innerHTML = `
-                <div class="bg-[#0f0f0f] border border-red-600 w-full max-w-4xl h-[80vh] flex flex-col font-mono">
-                    <div class="p-4 border-b border-zinc-800 flex justify-between items-center bg-zinc-900/50">
-                        <div class="flex items-center gap-3">
-                            <span class="text-red-500 font-bold uppercase tracking-widest">STORMOUS Data Explorer v2.1</span>
-                            <span class="text-zinc-600 text-xs">ROOT://TARGETS/${company.name.replace(/\s+/g, '_').toUpperCase()}</span>
-                        </div>
-                        <button onclick="this.parentElement.parentElement.parentElement.remove()" class="text-zinc-500 hover:text-white transition-colors">[ ESCAPE ]</button>
-                    </div>
-                    <div class="flex-1 overflow-y-auto p-4 custom-scrollbar">
-                        <table class="w-full text-left text-xs">
-                            <thead>
-                                <tr class="text-zinc-500 border-b border-zinc-800 uppercase">
-                                    <th class="pb-2 font-normal">Name</th>
-                                    <th class="pb-2 font-normal">Type</th>
-                                    <th class="pb-2 font-normal">Size</th>
-                                    <th class="pb-2 font-normal">Action</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-zinc-300">
-                                ${simulatedFiles.map(file => `
-                                    <tr class="hover:bg-red-500/5 transition-colors group">
-                                        <td class="py-3 flex items-center gap-2">
-                                            <span class="${file.type === 'dir' ? 'text-yellow-500' : 'text-zinc-500'}">
-                                                ${file.type === 'dir' ? 'ð' : 'ð'}
-                                            </span>
-                                            <span class="group-hover:text-red-500">${file.name}</span>
-                                        </td>
-                                        <td class="py-3 uppercase opacity-50">${file.type === 'dir' ? 'Folder' : 'File'}</td>
-                                        <td class="py-3 opacity-50">${file.size}</td>
-                                        <td class="py-3">
-                                            ${file.type === 'file' ? `<button onclick="alert('Preparing chunk for download...')" class="text-red-500 hover:underline">EXTRACT</button>` : `<button class="text-zinc-600 hover:text-white">OPEN</button>`}
-                                        </td>
-                                    </tr>
-                                `).join('')}
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="p-3 bg-black border-t border-zinc-800 text-[10px] text-zinc-500 flex justify-between">
-                        <span>TOTAL OBJECTS: ${simulatedFiles.length} FILES/FOLDERS â¢ ${company.size} TOTAL</span>
-                        <span>STATUS: REMOTE_READY â¢ ${company.name.toUpperCase()}</span>
-                    </div>
-                </div>
-            `;
-            document.body.appendChild(explorer);
-        }
-
-        function openDownloadLinks(id) {
-            const company = companies.find(c => c.id === id);
-            const modal = document.createElement('div');
-            modal.className = 'fixed inset-0 z-[100] flex items-center justify-center bg-black/95 backdrop-blur-sm p-4';
-
-            modal.innerHTML = `
-                <div class="bg-[#0f0f0f] border border-red-600 w-full max-w-2xl">
-                    <div class="p-4 border-b border-zinc-800 flex justify-between items-center bg-zinc-900/50">
-                        <div class="flex items-center gap-3">
-                            <span class="text-red-500 font-bold uppercase tracking-widest">Secure Download Links</span>
-                            <span class="text-zinc-600 text-xs">${company.name.toUpperCase()}</span>
-                        </div>
-                        <button onclick="this.parentElement.parentElement.parentElement.remove()" class="text-zinc-500 hover:text-white transition-colors">[ CLOSE ]</button>
-                    </div>
-                    
-                    <div class="p-6">
-                        <div class="mb-6">
-                            <h3 class="text-white font-bold mb-4 uppercase text-sm">Available Download Links</h3>
-                            <p class="text-zinc-400 text-xs mb-6">Click on any link to be redirected to the data repository</p>
-                        </div>
-                        
-                        <div class="space-y-4">
-                            ${company.downloadLinks.map((link, index) => `
-                                <div class="bg-black/50 border border-zinc-800 p-4 hover:border-red-600 transition-all group">
-                                    <div class="flex justify-between items-center">
-                                        <div>
-                                            <div class="text-[10px] text-zinc-500 uppercase mb-1">Repository ${index + 1}</div>
-                                            <div class="text-sm font-mono text-white truncate group-hover:text-red-500 transition-colors">${link}</div>
-                                        </div>
-                                        <button onclick="window.open('${link}', '_blank')" class="bg-red-600 hover:bg-white hover:text-black text-white px-4 py-2 text-[10px] font-bold uppercase transition-all">
-                                            Access
-                                        </button>
-                                    </div>
-                                </div>
-                            `).join('')}
-                        </div>
-                        
-                        <div class="mt-8 pt-6 border-t border-zinc-800">
-                            <div class="text-[10px] text-zinc-500 uppercase mb-2">Security Notice</div>
-                            <p class="text-xs text-zinc-400">All links.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="p-3 bg-black border-t border-zinc-800 text-[10px] text-zinc-500">
-                        <span>STATUS: LINKS_ACTIVE â¢ s.t.m</span>
-                    </div>
-                </div>
-            `;
-
-            document.body.appendChild(modal);
-        }
-
-        function renderLeaks() {
-            const container = document.getElementById('leaks-container');
-            container.innerHTML = companies.map(company => `
-                <div class="danger-border bg-zinc-900/40 p-0 relative overflow-hidden group">
-                    <!-- Image/Thumbnail Preview Section -->
-                    <div class="h-48 bg-zinc-800 relative overflow-hidden border-b border-zinc-800">
-                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80" alt="Evidence Preview" class="w-full h-full object-cover opacity-30 group-hover:opacity-50 transition-opacity grayscale group-hover:grayscale-0">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
-                        <div class="absolute bottom-4 left-6">
-                             <div class="flex items-center gap-2 mb-1">
-                                <span class="w-2 h-2 bg-red-600 animate-pulse rounded-full"></span>
-                                <span class="text-[10px] font-bold text-red-500 uppercase tracking-widest">Leaked: ${company.publishedDate}</span>
-                             </div>
-                             <h3 class="text-2xl font-black text-white uppercase tracking-tighter">${company.name}</h3>
-                        </div>
-                        <div class="absolute top-4 right-4 bg-red-600 text-white text-[9px] font-black px-2 py-1 rotate-3 shadow-lg">
-                            ${company.status.toUpperCase()}
-                        </div>
-                    </div>
-
-                    <div class="p-6">
-                        <p class="text-zinc-400 text-xs mb-6 leading-relaxed italic border-l-2 border-red-600 pl-4">
-                            "${company.description.substring(0, 200)}${company.description.length > 200 ? '...' : ''}"
-                        </p>
-
-                        <!-- Proof Samples Section -->
-                        <div class="mb-6">
-                            <h4 class="text-[10px] text-zinc-500 font-bold uppercase mb-3 flex justify-between">
-                                <span>Data Type</span>
-                                <span class="text-green-500">${company.method.toUpperCase()}</span>
-                            </h4>
-                            <div class="flex flex-wrap gap-2">
-                                <div class="flex-1 min-w-[120px] bg-black border border-zinc-800 p-2 text-center">
-                                    <div class="text-[9px] text-zinc-500 uppercase">Data Category</div>
-                                    <div class="text-[8px] text-red-500 font-bold">${company.type}</div>
-                                </div>
-                                <div class="flex-1 min-w-[120px] bg-black border border-zinc-800 p-2 text-center">
-                                    <div class="text-[9px] text-zinc-500 uppercase">Data Volume</div>
-                                    <div class="text-[8px] text-red-500 font-bold">${company.size}</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="grid grid-cols-2 gap-4 mb-6 text-[10px] uppercase">
-                            <div class="bg-black/40 p-2 border border-zinc-800/50">
-                                <span class="text-zinc-600 block mb-1">Leak Date</span>
-                                <span class="text-zinc-200 font-bold">${company.publishedDate}</span>
-                            </div>
-                            <div class="bg-black/40 p-2 border border-zinc-800/50">
-                                <span class="text-zinc-600 block mb-1">Compromise Method</span>
-                                <span class="text-red-500 font-bold">${company.method}</span>
-                            </div>
-                        </div>
-
-                        <!-- Timer and Actions -->
-                        <div class="flex flex-col gap-4">
-                            <div class="w-full bg-black/50 p-3 border-l-2 border-red-600">
-                                <span class="text-[9px] text-zinc-500 block uppercase mb-1">Deadline for Publication</span>
-                                <div id="timer-${company.id}" class="timer-red glow-text font-bold text-xl tracking-widest">00:00:00:00</div>
-                            </div>
-                            
-                       
-            `).join('');
-        }
-
-        // Pagination variables
-        let currentPage = 1;
-        const itemsPerPage = 12;
-        let totalPages = Math.ceil(companies.length / itemsPerPage);
-
-        function updatePagination() {
-            document.getElementById('page-info').textContent = `Page ${currentPage} of ${totalPages}`;
-            renderLeaks();
-        }
-
-        function nextPage() {
-            if (currentPage < totalPages) {
-                currentPage++;
-                updatePagination();
-                window.scrollTo(0, 0);
-            }
-        }
-
-        function previousPage() {
-            if (currentPage > 1) {
-                currentPage--;
-                updatePagination();
-                window.scrollTo(0, 0);
-            }
-        }
-
-        function renderLeaks() {
-            const container = document.getElementById('leaks-container');
-
-            const startIndex = (currentPage - 1) * itemsPerPage;
-            const endIndex = startIndex + itemsPerPage;
-            const currentCompanies = companies.slice(startIndex, endIndex);
-
-            container.innerHTML = currentCompanies.map(company => {
-                const hasActiveTimer = company.timerActive === true;
-                const statusText = hasActiveTimer ? 'RELEASED' : 'RELEASED';
-
-                return `
-                <div class="danger-border bg-zinc-900/40 p-0 relative overflow-hidden group">
-                    <!-- Help Banner Section -->
-                    <div class="h-48 bg-zinc-900 relative overflow-hidden border-b border-zinc-800 flex items-center justify-center">
-                        <div class="text-center z-10">
-                            <div class="text-6xl font-black text-red-600 glow-text animate-pulse mb-2"></div>
-                            <div class="text-xs text-zinc-500 uppercase tracking-widest">Data Compromised</div>
-                        </div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
-                        <div class="absolute bottom-4 left-6 z-20">
-                             <div class="flex items-center gap-2 mb-1">
-                                <span class="w-2 h-2 bg-red-600 animate-pulse rounded-full"></span>
-                                <span class="text-[10px] font-bold text-red-500 uppercase tracking-widest">Leaked: ${company.publishedDate}</span>
-                             </div>
-                             <h3 class="text-2xl font-black text-white uppercase tracking-tighter">${company.name}</h3>
-                        </div>
-                        <div class="absolute top-4 right-4 ${hasActiveTimer ? 'bg-yellow-600' : 'bg-green-600'} text-white text-[9px] font-black px-2 py-1 rotate-3 shadow-lg z-20">
-                            ${statusText}
-                        </div>
-                    </div>
-
-                    <div class="p-6">
-                        <p class="text-zinc-400 text-xs mb-6 leading-relaxed italic border-l-2 border-red-600 pl-4">
-                            "${company.description.substring(0, 150)}${company.description.length > 150 ? '...' : ''}"
-                        </p>
-
-                        <!-- Proof Samples Section -->
-                        <div class="mb-6">
-                            <h4 class="text-[10px] text-zinc-500 font-bold uppercase mb-3 flex justify-between">
-                                <span>Data Type</span>
-                                <span class="text-green-500">${company.method.substring(0, 15)}${company.method.length > 15 ? '...' : ''}</span>
-                            </h4>
-                            <div class="flex flex-wrap gap-2">
-                                <div class="flex-1 min-w-[120px] bg-black border border-zinc-800 p-2 text-center">
-                                    <div class="text-[9px] text-zinc-500 uppercase">Data Category</div>
-                                    <div class="text-[8px] text-red-500 font-bold">${company.type.substring(0, 20)}${company.type.length > 20 ? '...' : ''}</div>
-                                </div>
-                                <div class="flex-1 min-w-[120px] bg-black border border-zinc-800 p-2 text-center">
-                                    <div class="text-[9px] text-zinc-500 uppercase">Data Volume</div>
-                                    <div class="text-[8px] text-red-500 font-bold">${company.size}</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="grid grid-cols-2 gap-4 mb-6 text-[10px] uppercase">
-                            <div class="bg-black/40 p-2 border border-zinc-800/50">
-                                <span class="text-zinc-600 block mb-1">Leak Date</span>
-                                <span class="text-zinc-200 font-bold">${company.publishedDate}</span>
-                            </div>
-                            <div class="bg-black/40 p-2 border border-zinc-800/50">
-                                <span class="text-zinc-600 block mb-1">Method</span>
-                                <span class="text-red-500 font-bold">${company.method.substring(0, 12)}${company.method.length > 12 ? '...' : ''}</span>
-                            </div>
-                        </div>
-
-                        <!-- Timer and Actions -->
-                        <div class="flex flex-col gap-4">
-                            <div class="w-full bg-black/50 p-3 border-l-2 ${hasActiveTimer ? 'border-yellow-600' : 'border-green-600'}">
-                                <span class="text-[9px] text-zinc-500 block uppercase mb-1">${hasActiveTimer ? 'Deadline' : 'Status'}</span>
-                                ${hasActiveTimer ?
-                        `<div id="timer-${company.id}" class="timer-red glow-text font-bold text-xl tracking-widest">00:00:00:00</div>` :
-                        `<div class="text-green-500 font-bold text-xl tracking-widest">EXPIRED - DATA RELEASED</div>`
-                    }
-                            </div>
-                            
-                            <!-- Download Links Button -->
-                            <div class="mb-4">
-                                <button onclick="openDownloadLinks(${company.id})" 
-                                        class="w-full bg-gradient-to-r from-red-600 to-red-800 hover:from-white hover:to-red-300 hover:text-black text-white px-4 py-3 text-[10px] font-black uppercase transition-all flex items-center justify-center gap-2 border border-red-700">
-                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
-                                    </svg>
-                                    Access Data Links
-                                </button>
-                                <p class="text-[8px] text-zinc-500 mt-2 text-center">Secure download repositories</p>
-                            </div>
-                            
-                            <div class="flex gap-2">
-                                <button onclick="openFileExplorer(${company.id})" class="flex-1 bg-zinc-100 text-black hover:bg-red-600 hover:text-white px-4 py-3 text-[10px] font-black uppercase transition-all flex items-center justify-center gap-2">
-                                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"></path></svg>
-                                    Browse
-                             
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            `}).join('');
-        }
-
-        updatePagination();
-        setInterval(updateTimers, 1000);
-        updateTimers();
-
-        document.addEventListener('DOMContentLoaded', () => {
-            const links = document.querySelectorAll('nav a');
-            links.forEach(link => {
-                link.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    const target = link.textContent.toLowerCase();
-                    if (target === 'affiliate') switchView('affiliate');
-                    else if (target === 'contact') switchView('contact');
-                    else if (target === 'pressfedbak' || target === 'feedback' || target === 'press') switchView('dashboard'); 
-                });
-            });
-
-            
-        });
-    </script>
 </body>
-
 </html>
