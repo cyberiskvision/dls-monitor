@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-03-08 | [`Infinity Systems`](https://google.com/search?q=Infinity+Systems) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-03-08 | [`Helen Kaminski`](https://google.com/search?q=Helen+Kaminski) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-03-08 | [`Facilities USA`](https://google.com/search?q=Facilities+USA) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-03-08 | [`Byard F Brogan`](https://google.com/search?q=Byard+F+Brogan) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-11-17 | [`[DISCLOSED] Fulgar S.p.A.`](https://google.com/search?q=%5BDISCLOSED%5D+Fulgar+S.p.A.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-11-15 | [`https://www.bew.co.th`](https://google.com/search?q=https%3A%2F%2Fwww.bew.co.th) | [alphalocker](https://ransomwatch.telemetry.ltd/#/profiles?id=alphalocker) |
 | 2025-11-14 | [`Valley Plains Equipment`](https://google.com/search?q=Valley+Plains+Equipment) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-11-14 | [`Sellers Publishing`](https://google.com/search?q=Sellers+Publishing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
