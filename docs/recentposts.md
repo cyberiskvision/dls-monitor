@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-03-12 | [`Bioptik Technology`](https://google.com/search?q=Bioptik+Technology) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-03-12 | [`Eagle Industrial Equipment`](https://google.com/search?q=Eagle+Industrial+Equipment) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-03-08 | [`Southern Concrete Construction`](https://google.com/search?q=Southern+Concrete+Construction) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-03-08 | [`Serrano Industries`](https://google.com/search?q=Serrano+Industries) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-11-20 | [`Makro`](https://google.com/search?q=Makro) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-11-18 | [`Smoll & Banning, CPAs`](https://google.com/search?q=Smoll+%26+Banning%2C+CPAs) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-11-17 | [`dulay.ca`](https://google.com/search?q=dulay.ca) | [ransomblog_noname](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomblog_noname) |
-| 2025-11-17 | [`[DISCLOSED]Victorian Chemical`](https://google.com/search?q=%5BDISCLOSED%5DVictorian+Chemical) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
