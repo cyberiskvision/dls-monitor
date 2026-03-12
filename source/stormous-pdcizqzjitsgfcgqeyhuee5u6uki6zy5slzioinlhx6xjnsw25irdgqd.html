@@ -371,7 +371,7 @@ function startTimers(list) {
     for (var i = 0; i < list.length; i++) {
         if (list[i].status === 'new') {
             (function(idx) {
-                var end = new Date('2026-03-09T00:00:00').getTime();
+                var end = new Date('2026-03-15T00:00:00').getTime();
                 var el = document.getElementById('timer-' + idx);
                 if (!el) return;
                 function tick() {
