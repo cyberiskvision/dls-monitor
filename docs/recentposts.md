@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-03-24 | [`Ascent Asset Group`](https://google.com/search?q=Ascent+Asset+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-03-24 | [`All Real Estate Title Solutions`](https://google.com/search?q=All+Real+Estate+Title+Solutions) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-03-17 | [`Knight's Site Services`](https://google.com/search?q=Knight%27s+Site+Services) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-03-17 | [`Gsolutionz`](https://google.com/search?q=Gsolutionz) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-11-21 | [`Fucerep`](https://google.com/search?q=Fucerep) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-11-20 | [`Radio Sound`](https://google.com/search?q=Radio+Sound) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-20 | [`One Source Associates`](https://google.com/search?q=One+Source+Associates) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-11-20 | [`N C Machinery`](https://google.com/search?q=N+C+Machinery) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
