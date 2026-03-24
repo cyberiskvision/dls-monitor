@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-03-24 | [`Roxiticus Golf Club`](https://google.com/search?q=Roxiticus+Golf+Club) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-03-24 | [`Pinnacle`](https://google.com/search?q=Pinnacle) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-03-24 | [`Capital Wholesale Drug`](https://google.com/search?q=Capital+Wholesale+Drug) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-03-24 | [`Block Engineering`](https://google.com/search?q=Block+Engineering) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-11-22 | [`Keystone Fabricating`](https://google.com/search?q=Keystone+Fabricating) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-22 | [`Katch Kan`](https://google.com/search?q=Katch+Kan) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-22 | [`St. Joseph's Healthcare Hamilton`](https://google.com/search?q=St.+Joseph%27s+Healthcare+Hamilton) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
-| 2025-11-21 | [`Wachusett School District MA`](https://google.com/search?q=Wachusett+School+District+MA) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
