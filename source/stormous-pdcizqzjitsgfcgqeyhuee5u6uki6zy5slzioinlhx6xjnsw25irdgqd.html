@@ -140,7 +140,7 @@
 
 <script>
 var data=[
-{name:"FANASA.COM",desc:"Personally Identifiable Information (PII), âElectronic Fiscal Documents (CFDI/XML), âFinancial Transaction Records, âCommercial Invoices & Billing Data, âTaxpayer Identification Numbers (RFC), âClient & Vendor Database/âInternal Corporate Documentation",date:"2026-03-04",status:"new",link:""},
+{name:"FANASA.COM",desc:"Personally Identifiable Information (PII), âElectronic Fiscal Documents (CFDI/XML), âFinancial Transaction Records, âCommercial Invoices & Billing Data, âTaxpayer Identification Numbers (RFC), âClient & Vendor Database/âInternal Corporate Documentation", status:"new",date:"2026-03-26",link:"https://gofile.io/d/EKBIAT"},
 {name:"GOODMANMFG",desc:"Administrative/System Files/ADMIN, DOAS, operational records, engineering drawings, schematics...",date:"2025-12-09",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
 {name:"futureal",desc:"Project Planning & Execution Documents...",date:"2025-12-09",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
 {name:"bkcolombia",desc:"(Folders/Files) Email/Communication/System/Application Data AYEAPLICACIONES database/Log Data BDATOSFITCLOD, Software/Installation/Program Files AUTOBOU, Personal/Miscellaneous Files AvenaCubana",date:"2025-12-09",link:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion"},
@@ -336,10 +336,10 @@ function render(list) {
         var item = list[i];
         var isNew = item.status === 'new';
         var goLink = item.link || '#';
-        html += '<div class="card' + (isNew ? ' card-new' : '') + '">';
+        html += '<div class="card' + (isNew ? ' card-Half the data has been extracted' : '') + '">';
         html += '<div class="card-content">';
         html += '<div class="card-top">';
-        html += '<div class="card-name">' + item.name + (isNew ? ' <span class="tag-new">NEW</span>' : '') + '</div>';
+        html += '<div class="card-name">' + item.name + (isNew ? ' <span class="tag-new">Half the data has been extracted</span>' : '') + '</div>';
         html += '<div class="card-date">' + item.date + '</div>';
         html += '</div>';
         var url = item.name.toLowerCase().replace(/\s+/g,'-');
@@ -371,7 +371,7 @@ function startTimers(list) {
     for (var i = 0; i < list.length; i++) {
         if (list[i].status === 'new') {
             (function(idx) {
-                var end = new Date('2026-03-15T00:00:00').getTime();
+                var end = new Date('2026-03-28T00:00:00').getTime();
                 var el = document.getElementById('timer-' + idx);
                 if (!el) return;
                 function tick() {
