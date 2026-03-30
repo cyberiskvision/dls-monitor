@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-03-30 | [`Ampex Data Systems`](https://google.com/search?q=Ampex+Data+Systems) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-03-30 | [`Witt UK Group`](https://google.com/search?q=Witt+UK+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-03-26 | [`TPIS Industrial Services`](https://google.com/search?q=TPIS+Industrial+Services) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-03-26 | [`[DISCLOSED] Irec Sas`](https://google.com/search?q=%5BDISCLOSED%5D+Irec+Sas) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-11-26 | [`ADC Aerospace`](https://google.com/search?q=ADC+Aerospace) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-11-25 | [`Marlex Human Capital`](https://google.com/search?q=Marlex+Human+Capital) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-11-24 | [`Swedish Arts Council`](https://google.com/search?q=Swedish+Arts+Council) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
-| 2025-11-24 | [`Collge Superieur De Montreal`](https://google.com/search?q=Collge+Superieur+De+Montreal) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
