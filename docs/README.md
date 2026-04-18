@@ -12,7 +12,7 @@ ransomwatch is currently crawling `367` sites belonging to `182` unique groups
 
 🏚 there have been `164` posts within the `year of 2026`
 
-_⚙️ there are currently `47` online hosts & `112` custom parsers._
+_⚙️ there are currently `51` online hosts & `112` custom parsers._
 
 🦕 ransomwatch has been running for `4 years, 7 months and 12 days` and indexed `13904` posts
 
