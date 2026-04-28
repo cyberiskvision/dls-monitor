@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-04-28 | [`Cybersecurity Vendor`](https://google.com/search?q=Cybersecurity+Vendor) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-04-27 | [`Stelia North America`](https://google.com/search?q=Stelia+North+America) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-04-24 | [`Star Energy Geothermal Salak`](https://google.com/search?q=Star+Energy+Geothermal+Salak) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-04-21 | [`Jiangsu Zenergy Battery Technologies Group Co., Ltd.`](https://google.com/search?q=Jiangsu+Zenergy+Battery+Technologies+Group+Co.%2C+Ltd.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-12-11 | [`Woodard, Emhardt, Henry, Reeves & Wagner, LLP`](https://google.com/search?q=Woodard%2C+Emhardt%2C+Henry%2C+Reeves+%26+Wagner%2C+LLP) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-12-11 | [`Harbour Town Doctors`](https://google.com/search?q=Harbour+Town+Doctors) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-12-10 | [`dillonyarn.com`](https://google.com/search?q=dillonyarn.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
-| 2025-12-07 | [`Kane's Furniture`](https://google.com/search?q=Kane%27s+Furniture) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
