@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-05-08 | [`K & E Distributing`](https://google.com/search?q=K+%26+E+Distributing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-05-07 | [`EMA Engineering & Consulting`](https://google.com/search?q=EMA+Engineering+%26+Consulting) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-05-07 | [`Accessoires Outillage Ltee`](https://google.com/search?q=Accessoires+Outillage+Ltee) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-05-07 | [`Trellix (McAfee & FireEye)`](https://google.com/search?q=Trellix+%28McAfee+%26+FireEye%29) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-12-13 | [`Jabezco Industrial Group`](https://google.com/search?q=Jabezco+Industrial+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-12-13 | [`Eastman Cooke`](https://google.com/search?q=Eastman+Cooke) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-12-13 | [`Choates HVAC`](https://google.com/search?q=Choates+HVAC) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-12-13 | [`***** ***********`](https://google.com/search?q=%2A%2A%2A%2A%2A+%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
