@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-05-15 | [`Tower View Primary School`](https://google.com/search?q=Tower+View+Primary+School) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-05-14 | [`technic.com`](https://google.com/search?q=technic.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2026-05-11 | [`Forestdale`](https://google.com/search?q=Forestdale) | [moneymessage](https://ransomwatch.telemetry.ltd/#/profiles?id=moneymessage) |
 | 2026-05-08 | [`K & E Distributing`](https://google.com/search?q=K+%26+E+Distributing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-12-15 | [`acdcex`](https://google.com/search?q=acdcex) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-12-15 | [`Diaz Gill Medicina Laboratorial S.A.`](https://google.com/search?q=Diaz+Gill+Medicina+Laboratorial+S.A.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-12-13 | [`Viga Eatery`](https://google.com/search?q=Viga+Eatery) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-12-13 | [`Jabezco Industrial Group`](https://google.com/search?q=Jabezco+Industrial+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
