@@ -148,7 +148,7 @@
 | [alphv](https://ransomwatch.telemetry.ltd/#/profiles?id=alphv) |  | 🔴 | 2021-05-01 | 2cuqgeerjdba2rhdiviezodpu3lc4qz2sjf4qin6f7std2evleqlzjid.onion |
 | [alphv](https://ransomwatch.telemetry.ltd/#/profiles?id=alphv) | 404 Not Found | 🔴 | 2024-06-25 | vqifktlreqpudvulhbzmc5gocbeawl67uvs2pttswemdorbnhaddohyd.onion |
 | [alphv](https://ransomwatch.telemetry.ltd/#/profiles?id=alphv) | Error response | 🔴 | 2024-03-09 | alphvuzxyxv6ylumd2ngp46xzq3pw6zflomrghvxeuks6kklberrbmyd.onion |
-| [cryp70n1c0d3](https://ransomwatch.telemetry.ltd/#/profiles?id=cryp70n1c0d3) | -*- CRYP70N1C0D3 Team -*- | 🟢 |  | 7k4yyskpz3rxq5nyokf6ztbpywzbjtdfanweup3skctcxopmt7tq7eid.onion |
+| [cryp70n1c0d3](https://ransomwatch.telemetry.ltd/#/profiles?id=cryp70n1c0d3) | -*- CRYP70N1C0D3 Team -*- | 🔴 | 2026-05-30 | 7k4yyskpz3rxq5nyokf6ztbpywzbjtdfanweup3skctcxopmt7tq7eid.onion |
 | [dread](https://ransomwatch.telemetry.ltd/#/profiles?id=dread) | dread Access Queue | 🔴 | 2023-08-06 | dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion |
 | [againstthewest](https://ransomwatch.telemetry.ltd/#/profiles?id=againstthewest) | Threat Actors - Onion Forums  - Internal Error | 🔴 | 2023-06-01 | giphvoitymatg4cv7bxqh5dz6sn6bfscywoat4qtslztkomf5lavrayd.onion |
 | [holyghost](https://ransomwatch.telemetry.ltd/#/profiles?id=holyghost) | HolyGhost | 🔴 | 2022-04-22 | matmq3z3hiovia3voe2tix2x54sghc3tszj74xgdy4tqtypoycszqzqd.onion |
@@ -367,7 +367,7 @@
 | [lockbit3_cronos](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3_cronos) | LockBit LOGIN | 🔴 | 2024-02-19 | lockbitsupxcjntihbmat4rrh7ktowips2qzywh6zer5r3xafhviyhqd.onion |
 | [lockbit3_cronos](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3_cronos) | LockBit LOGIN | 🔴 | 2024-02-19 | lockbitsupq3g62dni2f36snrdb4n5qzqvovbtkt5xffw3draxk6gwqd.onion |
 | [lockbit3_cronos](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3_cronos) | LockBit LOGIN | 🔴 | 2024-02-19 | lockbitsup4yezcd5enk5unncx3zcy7kw6wllyqmiyhvanjj352jayid.onion |
-| [blackout](https://ransomwatch.telemetry.ltd/#/profiles?id=blackout) |  | 🟢 |  | black3gnkizshuynieigw6ejgpblb53mpasftzd6pydqpmq2vn2xf6yd.onion |
+| [blackout](https://ransomwatch.telemetry.ltd/#/profiles?id=blackout) | Blackout Blog | 🟢 |  | black3gnkizshuynieigw6ejgpblb53mpasftzd6pydqpmq2vn2xf6yd.onion |
 | [donex](https://ransomwatch.telemetry.ltd/#/profiles?id=donex) | Donex ransomeware leakage -  | 🔴 | 2024-04-02 | g3h3klsev3eiofxhykmtenmdpi67wzmaixredk5pjuttbx7okcfkftqd.onion |
 | [killsecurity](https://ransomwatch.telemetry.ltd/#/profiles?id=killsecurity) | Kill Security 2.0 | 🟢 |  | kill432ltnkqvaqntbalnsgojqqs2wz4lhnamrqjg66tq6fuvcztilyd.onion |
 | [redransomware](https://ransomwatch.telemetry.ltd/#/profiles?id=redransomware) | Red Ransomware Group - Wall of shame | 🟢 |  | 33zo6hifw4usofzdnz74fm2zmhd3zsknog5jboqdgblcbwrmpcqzzbid.onion |
