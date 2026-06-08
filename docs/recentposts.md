@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-06-08 | [`Ma Pak Leung Company Limited`](https://google.com/search?q=Ma+Pak+Leung+Company+Limited) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-06-08 | [`Aegle Aviation`](https://google.com/search?q=Aegle+Aviation) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-06-01 | [`School Facility Consultants`](https://google.com/search?q=School+Facility+Consultants) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2026-06-01 | [`landkreis-limburg-weilburg.de`](https://google.com/search?q=landkreis-limburg-weilburg.de) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-12-19 | [`Lawsoft`](https://google.com/search?q=Lawsoft) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-12-16 | [`Maypay Farms Inc`](https://google.com/search?q=Maypay+Farms+Inc) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-12-16 | [`Fairgrove Oil`](https://google.com/search?q=Fairgrove+Oil) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-12-16 | [`Allure Home Creation`](https://google.com/search?q=Allure+Home+Creation) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
