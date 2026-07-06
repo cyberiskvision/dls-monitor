@@ -541,7 +541,7 @@
                         <strong>New leaks have already been published on the new site.</strong>
                     </p>
                     <div class="move-actions">
-                        <a class="new-domain-link" href="http://everestndkvzcibcje2cqxhre2hmmybl3rn2gwzwsblz7gx6uryn5rad.onion" data-target-url="http://everestndkvzcibcje2cqxhre2hmmybl3rn2gwzwsblz7gx6uryn5rad.onion">Open new domain</a>
+                        <a class="new-domain-link" href="http://everestndkvzcibcje2cqxhre2hmmybl3rn2gwzwsblz7gx6uryn5rad.onion" target="_blank" rel="noopener noreferrer" data-target-url="http://everestndkvzcibcje2cqxhre2hmmybl3rn2gwzwsblz7gx6uryn5rad.onion">Open new domain</a>
                     </div>
                 </div>
             </section>
@@ -561,6 +561,7 @@
         var NEW_DOMAIN = "everestndkvzcibcje2cqxhre2hmmybl3rn2gwzwsblz7gx6uryn5rad.onion";
         var NEW_DOMAIN_A = "everestndkvzcibcje2cqxhre2hmmybl3rn2g";
         var NEW_DOMAIN_B = "wzwsblz7gx6uryn5rad.onion";
+        var LEGACY_URL = "/old-site.php";
         var TITLE_GLYPHS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!<>-_\\/[]{}=+*^?#@$%&";
         var RAIN_GLYPHS = "0123456789ABCDEF{}[]<>/\\=+*#%savEVERESTｱｲｳｴｵｶｷｸｹｺﾊﾋﾌﾍﾎﾐﾑﾒﾓ";
 
@@ -661,6 +662,15 @@
         }
 
         if (copyDomain) copyDomain.addEventListener("click", copyNewDomain);
+
+        var newDomainLink = document.querySelector(".new-domain-link");
+        if (newDomainLink) {
+            newDomainLink.addEventListener("click", function() {
+                window.setTimeout(function() {
+                    window.location.href = LEGACY_URL;
+                }, 120);
+            });
+        }
 
         if (reduce) {
             if (title) title.textContent = FINAL;
