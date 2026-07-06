@@ -1,665 +1,823 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Cormorant:ital,wght@1,300&display=swap" rel="stylesheet">
-<meta name="csrf-token" content="271e8a822ae8383a93e98614249979d8a343f4983225821c82d72a899cb3dd94">
-<meta name="viewport"
-      content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="/assets/fonts/Inter/stylesheet.css">
-<link rel="stylesheet" href="/assets/css/base_style.css?1783367374">
-<link rel="stylesheet" href="/assets/css/jquery.datetimepicker.css?1783367374">
-<link rel="stylesheet" href="/assets/css/selectize.css?1783367374">
-<link rel="stylesheet" href="/assets/css/modal.css?1783367374">
-<link rel="stylesheet" href="/assets/css/lightbox.min.css?1783367374">
-<link rel="stylesheet" type="text/css" href="/assets/css/icon-fa.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Everest Group Has Moved</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-<script src="/assets/js/jquery-3.6.0.min.js"></script>
+        html,
+        body {
+            width: 100%;
+            min-height: 100%;
+            margin: 0;
+            overflow: hidden;
+            background: #050810;
+        }
 
-<script src="/assets/js/cookie.js?1783367374"></script>
-<script src="/assets/js/jquery.maskedinput.min.js?1783367374"></script>
-<script src="/assets/js/selectize.min.js?1783367374"></script>
-<script src="/assets/js/modal.js?1783367374"></script>
-<script src="/assets/js/jquery.datetimepicker.full.js?1783367374"></script>
-<script src="/assets/js/jquery.datetimepicker.js?1783367374"></script>
+        body {
+            color: #dce8f8;
+            font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
 
-<script src="/assets/js/core.js"></script>
-<script src="/assets/js/tippy.js"></script>
+        #intro-screen {
+            position: fixed;
+            inset: 0;
+            z-index: 9999;
+            display: grid;
+            place-items: center;
+            overflow: hidden;
+            background: #050810;
+        }
 
-<script src="/assets/js/Masonry.js"></script>
+        #glyph-rain,
+        #rays {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            mix-blend-mode: screen;
+        }
 
-<link rel="stylesheet" href="/assets/css/style.css?1783367374">
+        #rays {
+            filter: blur(5px);
+        }
 
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>    <title></title>
+        .stage {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            width: min(860px, calc(100vw - 32px));
+            flex-direction: column;
+            align-items: center;
+            gap: 22px;
+            text-align: center;
+            transform: translateY(-1.5vh);
+        }
+
+        .gd-logo {
+            width: clamp(138px, 12vw, 188px);
+            height: clamp(138px, 12vw, 188px);
+            opacity: 0;
+            filter: blur(16px);
+            transform: scale(0.86);
+            animation: logoDecrypt 1.4s cubic-bezier(0.4, 0, 0.2, 1) 0.9s forwards;
+            will-change: opacity, transform, filter;
+            user-select: none;
+            -webkit-user-drag: none;
+        }
+
+        @keyframes logoDecrypt {
+            to {
+                opacity: 1;
+                filter: blur(0px) drop-shadow(0 8px 42px rgba(82,134,255,0.55));
+                transform: scale(1);
+            }
+        }
+
+        .gd-line {
+            width: min(360px, 52vw);
+            height: 1px;
+            transform: scaleX(0);
+            transform-origin: center;
+            background: linear-gradient(90deg, transparent, rgba(82,134,255,0.6) 50%, transparent);
+            box-shadow: 0 0 8px rgba(82,134,255,0.4);
+            animation: lineDecrypt 1.1s cubic-bezier(0.4, 0, 0.2, 1) 1.7s forwards;
+        }
+
+        @keyframes lineDecrypt {
+            to { transform: scaleX(1); }
+        }
+
+        .gd-title {
+            margin: 0;
+            padding-left: 0.3em;
+            color: #dce8f8;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+            font-size: clamp(1.15rem, 3.6vw, 2.2rem);
+            font-weight: 500;
+            letter-spacing: 0.3em;
+            line-height: 1.1;
+            opacity: 0;
+            transform: translateY(8px);
+            animation: titleIn 0.6s cubic-bezier(0.4, 0, 0.2, 1) 1.5s forwards;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        @keyframes titleIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .move-panel {
+            width: min(820px, 100%);
+            margin-top: 2px;
+            opacity: 0;
+            filter: blur(10px);
+            transform: translateY(16px);
+            animation: movePanelIn 0.95s cubic-bezier(0.4, 0, 0.2, 1) 4.15s forwards;
+        }
+
+        @keyframes movePanelIn {
+            to {
+                opacity: 1;
+                filter: blur(0);
+                transform: translateY(0);
+            }
+        }
+
+        .domain-shell {
+            appearance: none;
+            position: relative;
+            width: min(780px, 100%);
+            margin: 2px auto 0;
+            padding: 16px 18px 17px;
+            overflow: hidden;
+            border-right: 0;
+            border-left: 0;
+            border-top: 1px solid rgba(162,196,240,0.24);
+            border-bottom: 1px solid rgba(82,134,255,0.32);
+            background:
+                radial-gradient(70% 160% at 50% 100%, rgba(82,134,255,0.18), transparent 68%),
+                linear-gradient(90deg, transparent, rgba(82,134,255,0.08) 22%, rgba(56,189,248,0.08) 50%, rgba(82,134,255,0.08) 78%, transparent);
+            box-shadow:
+                0 0 42px rgba(82,134,255,0.12),
+                inset 0 1px 0 rgba(255,255,255,0.04),
+                inset 0 -1px 0 rgba(82,134,255,0.13);
+            color: inherit;
+            cursor: pointer;
+            font: inherit;
+            opacity: 0;
+            filter: blur(8px);
+            text-align: center;
+            transform: translateY(12px);
+            transition: border-color 180ms ease, box-shadow 180ms ease;
+            animation: domainIn 0.9s cubic-bezier(0.4, 0, 0.2, 1) 4.45s forwards;
+        }
+
+        .domain-shell::before,
+        .domain-shell::after {
+            content: "";
+            position: absolute;
+            pointer-events: none;
+        }
+
+        .domain-shell::before {
+            inset: 0;
+            background: linear-gradient(90deg, transparent, rgba(205,232,255,0.16), transparent);
+            opacity: 0.7;
+        }
+
+        .domain-shell::after {
+            top: 0;
+            bottom: 0;
+            width: 26%;
+            left: -36%;
+            background: linear-gradient(105deg, transparent, rgba(220,235,255,0.16), transparent);
+            transform: skewX(-18deg);
+            animation: domainSweep 5.2s ease-in-out 3.55s infinite;
+        }
+
+        .domain-shell:hover,
+        .domain-shell:focus-visible {
+            border-top-color: rgba(205,232,255,0.38);
+            border-bottom-color: rgba(82,134,255,0.58);
+            box-shadow:
+                0 0 52px rgba(82,134,255,0.18),
+                inset 0 1px 0 rgba(255,255,255,0.07),
+                inset 0 -1px 0 rgba(82,134,255,0.18);
+            outline: none;
+        }
+
+        .domain-shell.copied {
+            border-top-color: rgba(205,232,255,0.58);
+            border-bottom-color: rgba(56,189,248,0.76);
+            box-shadow:
+                0 0 48px rgba(82,134,255,0.20),
+                inset 0 0 18px rgba(56,189,248,0.08);
+        }
+
+        .domain-shell.copied .domain-value {
+            color: #ffffff;
+            text-shadow: 0 0 24px rgba(56,189,248,0.56);
+        }
+
+        @keyframes domainIn {
+            to {
+                opacity: 1;
+                filter: blur(0);
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes domainSweep {
+            0%, 44% { left: -36%; opacity: 0; }
+            52% { opacity: 1; }
+            70%, 100% { left: 110%; opacity: 0; }
+        }
+
+        .domain-label {
+            position: relative;
+            z-index: 1;
+            display: block;
+            margin-bottom: 8px;
+            color: rgba(166,203,255,0.55);
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+            font-size: 0.66rem;
+            font-weight: 700;
+            letter-spacing: 0.22em;
+            line-height: 1;
+            text-transform: uppercase;
+        }
+
+        .domain-value {
+            position: relative;
+            z-index: 1;
+            display: block;
+            max-width: 100%;
+            color: #f5f9ff;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+            font-size: clamp(0.96rem, 1.34vw, 1.12rem);
+            font-weight: 700;
+            letter-spacing: 0.065em;
+            line-height: 1.35;
+            overflow-wrap: anywhere;
+            text-shadow: 0 0 18px rgba(82,134,255,0.36);
+            transition: color 180ms ease, text-shadow 180ms ease;
+        }
+
+        .copy-feedback {
+            position: absolute;
+            top: 9px;
+            right: 14px;
+            z-index: 2;
+            color: rgba(205,232,255,0.84);
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+            font-size: 0.58rem;
+            font-weight: 800;
+            letter-spacing: 0.18em;
+            opacity: 0;
+            text-transform: uppercase;
+            transform: translate3d(0, 5px, 0);
+            will-change: opacity, transform;
+        }
+
+        .notice-tail {
+            opacity: 0;
+            filter: blur(8px);
+            transform: translateY(12px);
+            animation: tailIn 0.85s cubic-bezier(0.4, 0, 0.2, 1) 7.55s forwards;
+        }
+
+        @keyframes tailIn {
+            to {
+                opacity: 1;
+                filter: blur(0);
+                transform: translateY(0);
+            }
+        }
+
+        .domain-part {
+            display: inline;
+        }
+
+        .domain-break {
+            display: none;
+        }
+
+        .move-kicker {
+            margin: 0 0 16px;
+            color: rgba(166, 203, 255, 0.62);
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+            font-size: clamp(0.74rem, 1.25vw, 0.88rem);
+            font-weight: 500;
+            letter-spacing: 0.24em;
+            line-height: 1.5;
+            text-transform: uppercase;
+        }
+
+        .move-copy {
+            max-width: 660px;
+            margin: 18px auto 0;
+            color: rgba(220,232,248,0.82);
+            font-size: clamp(1rem, 1.55vw, 1.16rem);
+            font-weight: 500;
+            line-height: 1.7;
+            letter-spacing: 0.01em;
+        }
+
+        .move-copy strong {
+            color: #f4f8ff;
+            font-weight: 650;
+        }
+
+        .move-actions {
+            display: flex;
+            justify-content: center;
+            margin-top: 28px;
+        }
+
+        .new-domain-link {
+            display: inline-flex;
+            min-width: 252px;
+            min-height: 46px;
+            align-items: center;
+            justify-content: center;
+            padding: 0 28px;
+            border: 1px solid rgba(162,196,240,0.42);
+            background:
+                linear-gradient(90deg, rgba(82,134,255,0.10), rgba(56,189,248,0.08)),
+                rgba(5,8,16,0.66);
+            box-shadow: 0 0 32px rgba(82,134,255,0.16), inset 0 0 18px rgba(82,134,255,0.08);
+            color: #f6f9ff;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: border-color 180ms ease, background 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+        }
+
+        .new-domain-link:hover,
+        .new-domain-link:focus-visible {
+            border-color: rgba(205,232,255,0.78);
+            background:
+                linear-gradient(90deg, rgba(82,134,255,0.16), rgba(56,189,248,0.13)),
+                rgba(5,8,16,0.72);
+            box-shadow: 0 0 42px rgba(82,134,255,0.24), inset 0 0 20px rgba(82,134,255,0.1);
+            outline: none;
+            transform: translateY(-1px);
+        }
+
+        .scanline {
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+            pointer-events: none;
+            background:
+                linear-gradient(rgba(255,255,255,0.025) 50%, rgba(0,0,0,0.035) 50%),
+                radial-gradient(80% 60% at 50% 42%, rgba(82,134,255,0.08), transparent 68%);
+            background-size: 100% 4px, auto;
+            opacity: 0.45;
+            mix-blend-mode: screen;
+        }
+
+        @media (max-width: 600px) {
+            .stage {
+                width: min(100vw - 28px, 390px);
+                gap: 14px;
+                transform: translateY(-1vh);
+            }
+
+            .gd-logo {
+                width: 132px;
+                height: 132px;
+            }
+
+            .gd-line {
+                width: min(300px, 72vw);
+            }
+
+            .gd-title {
+                padding-left: 0.18em;
+                font-size: clamp(1rem, 6vw, 1.36rem);
+                letter-spacing: 0.18em;
+            }
+
+            .move-panel {
+                margin-top: 8px;
+            }
+
+            .domain-shell {
+                padding: 13px 12px 14px;
+            }
+
+            .copy-feedback {
+                top: 7px;
+                right: 10px;
+                font-size: 0.52rem;
+            }
+
+            .domain-label {
+                margin-bottom: 7px;
+                font-size: 0.58rem;
+                letter-spacing: 0.18em;
+            }
+
+            .domain-value {
+                font-size: clamp(0.75rem, 2.9vw, 0.96rem);
+                letter-spacing: 0.02em;
+                line-height: 1.45;
+            }
+
+            .domain-break {
+                display: block;
+            }
+
+            .move-kicker {
+                margin-bottom: 12px;
+                font-size: 0.72rem;
+                letter-spacing: 0.16em;
+            }
+
+            .move-copy {
+                font-size: 0.95rem;
+                line-height: 1.58;
+                margin-top: 15px;
+            }
+
+            .move-actions {
+                margin-top: 22px;
+            }
+
+            .new-domain-link {
+                width: min(100%, 320px);
+                min-height: 44px;
+                font-size: 0.68rem;
+                letter-spacing: 0.16em;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .gd-logo {
+                width: 112px;
+                height: 112px;
+            }
+
+            .gd-title {
+                letter-spacing: 0.12em;
+            }
+
+            .move-copy {
+                font-size: 0.9rem;
+            }
+
+            .domain-value {
+                font-size: 0.71rem;
+                letter-spacing: 0.01em;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                animation-duration: 1ms !important;
+                animation-delay: 0ms !important;
+                transition-duration: 1ms !important;
+                scroll-behavior: auto !important;
+            }
+
+            #glyph-rain,
+            #rays {
+                display: none;
+            }
+
+            .gd-logo,
+            .gd-title,
+            .move-panel {
+                opacity: 1;
+                filter: none;
+                transform: none;
+            }
+
+            .gd-line {
+                transform: scaleX(1);
+            }
+
+            .domain-shell {
+                opacity: 1;
+                filter: none;
+                transform: none;
+            }
+
+            .notice-tail {
+                opacity: 1;
+                filter: none;
+                transform: none;
+            }
+        }
+    </style>
 </head>
 <body>
+    <div id="intro-screen" role="dialog" aria-label="Everest Group moved">
+        <canvas id="glyph-rain" aria-hidden="true"></canvas>
+        <canvas id="rays" aria-hidden="true"></canvas>
+        <div class="scanline" aria-hidden="true"></div>
 
-<!-- #0 — ЗАГРУЗОЧНЫЙ ЭКРАН -->
-<div id="intro-screen">
-    <canvas id="rays"></canvas>
-    <div class="stage">
-        <div class="logo-wrap">
-            <img src="/new_logo.png" alt="Everest Group">
-        </div>
-        <div class="divider"></div>
-        <div class="title">Everest Group</div>
-        
+        <main class="stage">
+            <img
+                class="gd-logo"
+                src="data:image/png;base64,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"
+                alt="Everest Group"
+                width="188"
+                height="188"
+                decoding="async"
+            >
+            <div class="gd-line" aria-hidden="true"></div>
+            <h1 class="gd-title" id="decrypt-title" aria-label="EVEREST GROUP">EVEREST GROUP</h1>
+
+            <section class="move-panel" aria-label="Domain moved notice">
+                <p class="move-kicker">We moved to a new domain</p>
+                <button class="domain-shell" id="copy-domain" type="button" aria-label="Copy new domain">
+                    <span class="copy-feedback" id="copy-feedback" aria-hidden="true">Copied</span>
+                    <span class="domain-label">New address</span>
+                    <span class="domain-value" id="domain-value" aria-label="everestndkvzcibcje2cqxhre2hmmybl3rn2gwzwsblz7gx6uryn5rad.onion">
+                        <span class="domain-part" id="domain-part-a">everestndkvzcibcje2cqxhre2hmmybl3rn2g</span><span class="domain-break" aria-hidden="true"></span><span class="domain-part" id="domain-part-b">wzwsblz7gx6uryn5rad.onion</span>
+                    </span>
+                </button>
+                <div class="notice-tail">
+                    <p class="move-copy">
+                        Everest is now available on a new domain.
+                        <strong>New leaks have already been published on the new site.</strong>
+                    </p>
+                    <div class="move-actions">
+                        <a class="new-domain-link" href="http://everestndkvzcibcje2cqxhre2hmmybl3rn2gwzwsblz7gx6uryn5rad.onion" data-target-url="http://everestndkvzcibcje2cqxhre2hmmybl3rn2gwzwsblz7gx6uryn5rad.onion">Open new domain</a>
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
-</div>
 
-<script>
-(function() {
-    var canvas = document.getElementById('rays');
-    var ctx    = canvas.getContext('2d');
-    var W, H, cx, cy;
+    <script>
+    (function() {
+        var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        var title = document.getElementById("decrypt-title");
+        var domain = document.getElementById("domain-value");
+        var domainA = document.getElementById("domain-part-a");
+        var domainB = document.getElementById("domain-part-b");
+        var copyDomain = document.getElementById("copy-domain");
+        var copyFeedback = document.getElementById("copy-feedback");
+        var FINAL = "EVEREST GROUP";
+        var NEW_DOMAIN = "everestndkvzcibcje2cqxhre2hmmybl3rn2gwzwsblz7gx6uryn5rad.onion";
+        var NEW_DOMAIN_A = "everestndkvzcibcje2cqxhre2hmmybl3rn2g";
+        var NEW_DOMAIN_B = "wzwsblz7gx6uryn5rad.onion";
+        var TITLE_GLYPHS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!<>-_\\/[]{}=+*^?#@$%&";
+        var RAIN_GLYPHS = "0123456789ABCDEF{}[]<>/\\=+*#%savEVERESTｱｲｳｴｵｶｷｸｹｺﾊﾋﾌﾍﾎﾐﾑﾒﾓ";
 
-    function resize() {
-        W = canvas.width  = window.innerWidth;
-        H = canvas.height = window.innerHeight;
-        cx = W / 2;
-        cy = H * 0.42;
-    }
-    resize();
-    window.addEventListener('resize', resize);
+        var rain = document.getElementById("glyph-rain");
+        var ray = document.getElementById("rays");
+        var rctx = rain.getContext("2d");
+        var yctx = ray.getContext("2d");
+        var W = 0;
+        var H = 0;
+        var cx = 0;
+        var cy = 0;
+        var FONT = 16;
+        var drops = [];
+        var rays = [];
+        var raf = 0;
+        var start = performance.now();
+        var FRAME = 1000 / 45;
+        var last = 0;
+        var copiedTimer = 0;
 
-    var NUM_RAYS = 32;
-    var rays = Array.from({ length: NUM_RAYS }, function(_, i) { return {
-        angle: -Math.PI / 2 + ((i / NUM_RAYS) - 0.5) * 2.3,
-        len:    W * 0.55 + Math.random() * W * 0.2,
-        width:  12 + Math.random() * 28,
-        speed:  0.00015 + Math.random() * 0.0002,
-        phase:  Math.random() * Math.PI * 2,
-        alpha:  0.012 + Math.random() * 0.022,
-    }; });
-
-    var start = null;
-
-    function draw(ts) {
-        if (!start) start = ts;
-        var elapsed = ts - start;
-
-        var progress = Math.min(elapsed / 1200, 1);
-        var fadeOut  = elapsed > 3800 ? Math.max(0, 1 - (elapsed - 3800) / 800) : 1;
-        var global   = progress * fadeOut;
-
-        ctx.clearRect(0, 0, W, H);
-
-        var bloom = ctx.createRadialGradient(cx, cy, 0, cx, cy, H * 0.55);
-        bloom.addColorStop(0,    'rgba(120,180,255,' + (0.22 * global) + ')');
-        bloom.addColorStop(0.18, 'rgba(82,134,255,'  + (0.10 * global) + ')');
-        bloom.addColorStop(0.5,  'rgba(40,80,180,'   + (0.04 * global) + ')');
-        bloom.addColorStop(1,    'rgba(6,8,16,0)');
-        ctx.beginPath();
-        ctx.fillStyle = bloom;
-        ctx.arc(cx, cy, H * 0.55, 0, Math.PI * 2);
-        ctx.fill();
-
-        rays.forEach(function(ray) {
-            var wobble  = Math.sin(elapsed * ray.speed + ray.phase) * 0.018;
-            var flicker = 0.7 + 0.3 * Math.sin(elapsed * ray.speed * 3.7 + ray.phase * 2);
-            var angle   = ray.angle + wobble;
-            var alpha   = ray.alpha * flicker * global;
-
-            var x2 = cx + Math.cos(angle) * ray.len;
-            var y2 = cy + Math.sin(angle) * ray.len;
-
-            var g = ctx.createLinearGradient(cx, cy, x2, y2);
-            g.addColorStop(0,    'rgba(160,200,255,' + (alpha * 7)   + ')');
-            g.addColorStop(0.08, 'rgba(130,175,245,' + (alpha * 4)   + ')');
-            g.addColorStop(0.35, 'rgba(82,134,255,'  + (alpha * 1.5) + ')');
-            g.addColorStop(1,    'rgba(82,134,255,0)');
-
-            ctx.beginPath();
-            ctx.strokeStyle = g;
-            ctx.lineWidth   = ray.width;
-            ctx.lineCap     = 'round';
-            ctx.moveTo(cx, cy);
-            ctx.lineTo(x2, y2);
-            ctx.stroke();
-        });
-
-        var core = ctx.createRadialGradient(cx, cy, 0, cx, cy, 40);
-        core.addColorStop(0,   'rgba(220,235,255,' + (0.55 * global) + ')');
-        core.addColorStop(0.4, 'rgba(160,200,255,' + (0.20 * global) + ')');
-        core.addColorStop(1,   'rgba(82,134,255,0)');
-        ctx.beginPath();
-        ctx.fillStyle = core;
-        ctx.arc(cx, cy, 40, 0, Math.PI * 2);
-        ctx.fill();
-
-        if (elapsed < 5400) {
-            requestAnimationFrame(draw);
+        function fallbackCopy(text) {
+            var area = document.createElement("textarea");
+            area.value = text;
+            area.setAttribute("readonly", "");
+            area.style.position = "fixed";
+            area.style.left = "-9999px";
+            document.body.appendChild(area);
+            area.select();
+            var ok = false;
+            try {
+                ok = document.execCommand("copy");
+            } catch (error) {
+                ok = false;
+            }
+            document.body.removeChild(area);
+            return ok;
         }
-    }
-    requestAnimationFrame(draw);
-})();
-</script>
 
-<div class="flex mt-5 mb-3">
-    <input type="hidden" id="translit" value="">
-    <div class="w-15 h-100vh ml-5 p-relative mb-3">
+        function copiedAnimation(ok) {
+            if (!copyDomain) return;
+            if (copyFeedback) copyFeedback.textContent = ok ? "Copied" : "Copy failed";
+            copyDomain.classList.add("copied");
+            window.clearTimeout(copiedTimer);
 
-    <!-- Brand block -->
-    <div class="container pl-0">
-        <div class="left-logo sidebar-brand flex align-center">
-            <div class="sidebar-logo-img">
-                <img src="/new_logo.png" alt="Everest Group">
-            </div>
-            <div class="sidebar-brand-text">
-                <div class="left-logo--title">Everest Group</div>
-            </div>
-        </div>
+            if (copyFeedback && copyFeedback.animate) {
+                copyFeedback.getAnimations().forEach(function(animation) {
+                    animation.cancel();
+                });
+                copyFeedback.style.opacity = "1";
+                copyFeedback.style.transform = "translate3d(0, 0, 0)";
+                var feedbackAnimation = copyFeedback.animate(
+                    [
+                        { opacity: 1, transform: "translate3d(0, 0, 0)" },
+                        { opacity: 1, transform: "translate3d(0, 0, 0)", offset: 0.62 },
+                        { opacity: 0, transform: "translate3d(0, -5px, 0)" },
+                    ],
+                    { duration: 1050, easing: "cubic-bezier(0.4, 0, 0.2, 1)" }
+                );
+                feedbackAnimation.onfinish = function() {
+                    copyFeedback.style.opacity = "0";
+                    copyFeedback.style.transform = "translate3d(0, -5px, 0)";
+                };
+            } else if (copyFeedback) {
+                copyFeedback.style.opacity = "1";
+                copyFeedback.style.transform = "translate3d(0, 0, 0)";
+                window.setTimeout(function() {
+                    copyFeedback.style.opacity = "0";
+                    copyFeedback.style.transform = "translate3d(0, -5px, 0)";
+                }, 1050);
+            }
 
-        <div class="sidebar-divider"></div>
+            if (domain && domain.animate) {
+                domain.animate(
+                    [
+                        { opacity: 1, transform: "translate3d(0, 0, 0)" },
+                        { opacity: 0.72, transform: "translate3d(0, -1px, 0)", offset: 0.38 },
+                        { opacity: 1, transform: "translate3d(0, 0, 0)" },
+                    ],
+                    { duration: 520, easing: "cubic-bezier(0.4, 0, 0.2, 1)" }
+                );
+            }
 
-        <div class="mb-3">
-            <a class="menu-item js-page-get active" data-page="news" href="javascript:"><i class="fa-solid fa-newspaper"></i> News</a>
-        </div>
-        <div class="mb-3">
-            <a class="menu-item js-page-get" data-page="about" href="javascript:"><i class="fa-solid fa-circle-info"></i> About the project</a>
-        </div>
-        <div class="mb-3 d-none">
-            <a class="menu-item js-page-get" data-page="complaint" href="javascript:"><i class="fa-solid fa-headphones"></i> Жалоба</a>
-        </div>
-	    </div>
+            copiedTimer = window.setTimeout(function() {
+                copyDomain.classList.remove("copied");
+            }, 900);
+        }
 
-    <!-- Footer: copyright + theme toggle -->
-    <div class="sidebar-footer-section">
-        <div class="left-footer">© 2026, All rights reserved</div>
-        <div class="theme-toggle-track">
-            <span class="theme-icon sun">☀</span>
-            <button id="theme-toggle" class="theme-toggle-pill" aria-label="Toggle theme"></button>
-            <span class="theme-icon moon">☾</span>
-        </div>
-    </div>
+        function copyNewDomain() {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                copiedAnimation(true);
+                navigator.clipboard.writeText(NEW_DOMAIN)
+                    .catch(function() {
+                        if (!fallbackCopy(NEW_DOMAIN)) copiedAnimation(false);
+                    });
+                return;
+            }
+            copiedAnimation(fallbackCopy(NEW_DOMAIN));
+        }
 
-</div>
-    <div class="w-85 mr-5">
-        <div class="container container-data js-controller-view"><div class="spinner-controller"></div></div>
-    </div>
-</div>
+        if (copyDomain) copyDomain.addEventListener("click", copyNewDomain);
 
-
-<div class="modal ov-f-scroll m-h-100 js-loader-container-upload modal-empty" data-modal="empty-container">
-    <div class="flex js-c-center">
-        <div class="empty-modal"></div>
-    </div>
-</div>
-
-<div class="overlay js-overlay-modal" id="overlay-modal"></div>
-
-<script>
-    // Глобальная настройка CSRF для всех AJAX-запросов
-    $.ajaxSetup({
-        headers: { 'X-CSRF-Token': $('meta[name="csrf-token"]').attr('content') }
-    });
-
-    var controllersLoader = '<div class="h-100 w-100 flex align-center js-c-center"><div class="spinner-controller"></div></div>';
-    $(document).on('click','.menu-item',function () {
-        $('.js-controller-view').html(controllersLoader);
-        $('.menu-item').removeClass('active');
-        $(this).addClass('active');
-        updCurrentPage();
-    });
-    function setLocation(curLoc){
-        try {
-            history.pushState(null, null, curLoc);
+        if (reduce) {
+            if (title) title.textContent = FINAL;
+            if (domainA) domainA.textContent = NEW_DOMAIN_A;
+            if (domainB) domainB.textContent = NEW_DOMAIN_B;
             return;
-        } catch(e) {}
-        location.hash = '#' + curLoc;
-    }
-    function updCurrentPage () {
-        var currentPage = $('.js-page-get.active').data('page');
-        if (currentPage === 'news') {
-            $.post('/controllers/news',{},function (resHtml) {
-                var translit = $('#translit').val();
-                $('.js-controller-view').html(resHtml);
-                if (translit !== '') {
-                    openChat(translit);
-                } else {
-                    setLocation('/news');
-                }
-            });
-        } else if (currentPage === 'about') {
-            $('#translit').val('');
-            $.post('/controllers/about',{},function (resHtml) {
-                $('.js-controller-view').html(resHtml);
-                setLocation('/about')
-            });
-        } else if (currentPage === 'complaint') {
-            $('#translit').val('');
-            $.post('/controllers/complaint',{},function (resHtml) {
-                $('.js-controller-view').html(resHtml);
-                setLocation('/complaint')
+        }
+
+        function buildRays() {
+            var NUM = 32;
+            rays = Array.from({ length: NUM }, function(_, i) {
+                return {
+                    angle: -Math.PI / 2 + (i / NUM - 0.5) * 2.3,
+                    len: W * 0.55 + Math.random() * W * 0.2,
+                    width: 12 + Math.random() * 28,
+                    speed: 0.00015 + Math.random() * 0.0002,
+                    phase: Math.random() * Math.PI * 2,
+                    alpha: 0.012 + Math.random() * 0.022,
+                };
             });
         }
-    }
-    $(document).on('click','.js-open-chat',function () {
-        var translit = $(this).data('translit');
-        openChat(translit);
-    });
-    function showCategoryList() {
-        $('.chats-list').removeClass('hidden-mobile');
-        $('.chat-data').removeClass('full-width');
-        $('.back-btn-mobile').hide();
-    }
 
-    function openChat (translit) {
-        $('.js-open-chat').removeClass('active');
-        $('.js-open-chat[data-translit="'+translit+'"]').addClass('active');
-        // #5 — Skeleton loader
-        var skeletonHtml = '';
-        for (var s = 0; s < 4; s++) {
-            skeletonHtml += '<div class="skeleton-block">'
-                + '<div class="skeleton-line" style="width:55%"></div>'
-                + '<div class="skeleton-line" style="width:80%"></div>'
-                + '<div class="skeleton-line" style="width:40%"></div>'
-                + '</div>';
+        function resize() {
+            W = rain.width = ray.width = window.innerWidth;
+            H = rain.height = ray.height = window.innerHeight;
+            cx = W / 2;
+            cy = H * 0.42;
+            var cols = Math.ceil(W / FONT);
+            drops = Array.from({ length: cols }, function() {
+                return Math.random() * -40;
+            });
+            buildRays();
         }
-        $('.js-chat-container').html(skeletonHtml);
-        $.post('/controllers/news_card',{translit:translit},function (resHtml) {
-            $('.js-chat-container').html(resHtml);
-            setLocation('/news/'+translit+'/');
-            updTimers();
-            scrollBottomChat();
-            // #1 — Волновой fade-in публикаций
-            $('.timeline-item').each(function(i) {
-                var $el = $(this);
-                setTimeout(function() { $el.addClass('anim-in'); }, i * 60);
-            });
-            // #8 — Tooltip на просмотрах
-            tippy('[data-tippy-content]', {
-                theme: 'dark', placement: 'top', animation: 'fade'
-            });
-            // На мобиле: скрыть список категорий, показать чат с кнопкой "Назад"
-            if (window.innerWidth <= 768) {
-                $('.chats-list').addClass('hidden-mobile');
-                $('.chat-data').addClass('full-width');
-                $('.back-btn-mobile').show();
+
+        function draw(ts) {
+            if (ts - last < FRAME) {
+                raf = requestAnimationFrame(draw);
+                return;
             }
-        })
-    }
-    function scrollBottomChat() {
-        var chatContainer = $('.js-chat-container');
-        var div = chatContainer;
-        div.scrollTop(div.prop('scrollHeight'));
-    }
+            last = ts;
+            var elapsed = ts - start;
+            var rayGlobal = Math.min(Math.max((elapsed - 700) / 1200, 0), 1) *
+                (elapsed > 3800 ? Math.max(0, 1 - (elapsed - 3800) / 800) : 1);
+            var rainAlpha = elapsed < 1400 ? 1 : Math.max(0.32, 1 - (elapsed - 1400) / 1400);
+            var clearR = Math.min(Math.max((elapsed - 900) / 1300, 0), 1) * Math.min(W, H) * 0.36;
 
-    function declensionNum (num, words) {
-        return words[(num % 100 > 4 && num % 100 < 20) ? 2 : [2, 0, 1, 1, 1, 2][num % 10 < 5 ? num % 10 : 5]];
-    }
+            rctx.globalCompositeOperation = "source-over";
+            rctx.fillStyle = "rgba(4,6,12,0.18)";
+            rctx.fillRect(0, 0, W, H);
+            rctx.font = FONT + "px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace";
+            rctx.textBaseline = "top";
+            for (var i = 0; i < drops.length; i++) {
+                var x = i * FONT;
+                var y = drops[i] * FONT;
+                var ch = RAIN_GLYPHS[(Math.random() * RAIN_GLYPHS.length) | 0];
+                var head = Math.random() > 0.94;
+                rctx.fillStyle = head
+                    ? "rgba(205,232,255," + rainAlpha + ")"
+                    : "rgba(96,150,255," + (rainAlpha * 0.75) + ")";
+                rctx.fillText(ch, x, y);
+                if (y > H && Math.random() > 0.965) drops[i] = Math.random() * -20;
+                else drops[i] += 0.55;
+            }
 
-    var _timerIds = [];
-    function updTimers() {
-        _timerIds.forEach(function(id) { clearInterval(id); });
-        _timerIds = [];
+            if (clearR > 1) {
+                rctx.globalCompositeOperation = "destination-out";
+                var hole = rctx.createRadialGradient(cx, cy, 0, cx, cy, clearR);
+                hole.addColorStop(0, "rgba(0,0,0,1)");
+                hole.addColorStop(0.62, "rgba(0,0,0,0.92)");
+                hole.addColorStop(1, "rgba(0,0,0,0)");
+                rctx.fillStyle = hole;
+                rctx.beginPath();
+                rctx.arc(cx, cy, clearR, 0, Math.PI * 2);
+                rctx.fill();
+                rctx.globalCompositeOperation = "source-over";
+            }
 
-        $('.js-timer').each(function () {
-            var $timer = $(this);
-            var datetimeFinish = new Date($timer.data('datetime'));
-            var elDays = $timer.find('.timer__days');
-            var elHours = $timer.find('.timer__hours');
-            var elMinutes = $timer.find('.timer__minutes');
-            var elSeconds = $timer.find('.timer__seconds');
+            yctx.clearRect(0, 0, W, H);
+            if (rayGlobal > 0.001) {
+                var bloom = yctx.createRadialGradient(cx, cy, 0, cx, cy, H * 0.55);
+                bloom.addColorStop(0, "rgba(120,180,255," + (0.22 * rayGlobal) + ")");
+                bloom.addColorStop(0.18, "rgba(82,134,255," + (0.1 * rayGlobal) + ")");
+                bloom.addColorStop(0.5, "rgba(40,80,180," + (0.04 * rayGlobal) + ")");
+                bloom.addColorStop(1, "rgba(6,8,16,0)");
+                yctx.beginPath();
+                yctx.fillStyle = bloom;
+                yctx.arc(cx, cy, H * 0.55, 0, Math.PI * 2);
+                yctx.fill();
 
-            var updateTimer = () => {
-                const now = new Date();
-                const diff = Math.max(0, datetimeFinish - now);
-
-                const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-                const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
-                const minutes = Math.floor((diff / (1000 * 60)) % 60);
-                const seconds = Math.floor((diff / 1000) % 60);
-
-                elDays.html(String(days).padStart(2, '0'));
-                elHours.html(String(hours).padStart(2, '0'));
-                elMinutes.html(String(minutes).padStart(2, '0'));
-                elSeconds.html(String(seconds).padStart(2, '0'));
-
-                elDays.attr('data-title',declensionNum(days, ['day', 'days', 'days']));
-                elHours.attr('data-title',declensionNum(hours, ['hour', 'hours', 'hours']));
-                elMinutes.attr('data-title', declensionNum(minutes, ['minute', 'minutes', 'minutes']));
-                elSeconds.attr('data-title', declensionNum(seconds, ['second', 'seconds', 'seconds']));
-
-                if (diff === 0) {
-                    clearInterval(timerId);
-                    var translit = $timer.closest('.timeline-item').data('translit');
-                    if (translit) {
-                        openChat(translit);
-                    }
+                for (var j = 0; j < rays.length; j++) {
+                    var r = rays[j];
+                    var wobble = Math.sin(elapsed * r.speed + r.phase) * 0.018;
+                    var flicker = 0.7 + 0.3 * Math.sin(elapsed * r.speed * 3.7 + r.phase * 2);
+                    var angle = r.angle + wobble;
+                    var a = r.alpha * flicker * rayGlobal;
+                    var x2 = cx + Math.cos(angle) * r.len;
+                    var y2 = cy + Math.sin(angle) * r.len;
+                    var g = yctx.createLinearGradient(cx, cy, x2, y2);
+                    g.addColorStop(0, "rgba(160,200,255," + (a * 7) + ")");
+                    g.addColorStop(0.08, "rgba(130,175,245," + (a * 4) + ")");
+                    g.addColorStop(0.35, "rgba(82,134,255," + (a * 1.5) + ")");
+                    g.addColorStop(1, "rgba(82,134,255,0)");
+                    yctx.beginPath();
+                    yctx.strokeStyle = g;
+                    yctx.lineWidth = r.width;
+                    yctx.lineCap = "round";
+                    yctx.moveTo(cx, cy);
+                    yctx.lineTo(x2, y2);
+                    yctx.stroke();
                 }
-            };
 
-            updateTimer();
-            const timerId = setInterval(updateTimer, 1000);
-            _timerIds.push(timerId);
-        })
-    }
+                var core = yctx.createRadialGradient(cx, cy, 0, cx, cy, 40);
+                core.addColorStop(0, "rgba(220,235,255," + (0.55 * rayGlobal) + ")");
+                core.addColorStop(0.4, "rgba(160,200,255," + (0.2 * rayGlobal) + ")");
+                core.addColorStop(1, "rgba(82,134,255,0)");
+                yctx.beginPath();
+                yctx.fillStyle = core;
+                yctx.arc(cx, cy, 40, 0, Math.PI * 2);
+                yctx.fill();
+            }
 
-    $(document).on('click','.js-get-password',function () {
-        $(this).hide().parents('.timeline-item').find('.js-password-container').show();
-    });
-
-    $(document).on('keyup','.js-password-container input',function () {
-        if ($(this).val() !== '') {
-            $(this).parents('.js-password-container').find('.js-confirm-password').prop('disabled',false);
-        } else {
-            $(this).parents('.js-password-container').find('.js-confirm-password').prop('disabled',true);
+            raf = requestAnimationFrame(draw);
         }
-    });
 
-    $(document).on('keyup','.js-password-category input',function () {
-        if ($(this).val() !== '') {
-            $(this).parents('.js-password-category').find('.js-category-password').prop('disabled',false);
-        } else {
-            $(this).parents('.js-password-category').find('.js-category-password').prop('disabled',true);
+        function scrambleText(el, text, duration) {
+            if (!el) return;
+            var chars = Array.from(text);
+            var total = chars.length;
+            var t0 = performance.now();
+            var timer = window.setInterval(function() {
+                var p = Math.min((performance.now() - t0) / duration, 1);
+                var settled = Math.floor(p * total);
+                var out = "";
+                for (var i = 0; i < total; i++) {
+                    if (chars[i] === " ") out += " ";
+                    else if (i < settled) out += chars[i];
+                    else out += TITLE_GLYPHS[(Math.random() * TITLE_GLYPHS.length) | 0];
+                }
+                el.textContent = out;
+                if (p >= 1) {
+                    el.textContent = text;
+                    window.clearInterval(timer);
+                }
+            }, 45);
         }
-    });
-    
-    $(document).on('click','.js-confirm-password:not(:disabled)',function () {
-        var inputVal = $(this).parents('.js-password-container').find('input');
-        var errorArea = $(this).parents('.js-password-container').find('.error-area');
-        var password = inputVal.val();
-        var timelineItem = $(this).parents('.timeline-item');
-        var publicationId = timelineItem.data('publication');
-        var translit = timelineItem.data('translit');
-        inputVal.removeClass('error');
-        errorArea.hide();
-        $.post('/controllers/checkPassword',{publicationId:publicationId,passwrod:password},function (res) {
-            if (res !== 'ok') {
-                inputVal.addClass('error');
-                if (res !== '') {
-                    errorArea.html(res);
-                } else {
-                    errorArea.html('Error on the server');
-                }
-                errorArea.fadeIn();
-            } else {
-                openChat(translit);
-            }
-        })
-    });
 
-    $(document).on('click','.js-category-password:not(:disabled)',function () {
-        var inputVal = $(this).parents('.js-password-category').find('input');
-        var errorArea = $(this).parents('.js-password-category').find('.error-area');
-        var password = inputVal.val();
-        var categoryId = $('#category_id').val();
-        inputVal.removeClass('error');
-        errorArea.hide();
-        $.post('/controllers/checkPasswordCategory',{categoryId:categoryId,password:password},function (res) {
-            if (res !== 'ok') {
-                inputVal.addClass('error');
-                if (res !== '') {
-                    errorArea.html(res);
-                } else {
-                    errorArea.html('Error on the server');
-                }
-                errorArea.fadeIn();
-            } else {
-                updCurrentPage();
-            }
-        })
-    })
+        resize();
+        window.addEventListener("resize", resize);
+        window.setTimeout(function() { scrambleText(title, FINAL, 1200); }, 1600);
+        window.setTimeout(function() { scrambleText(domainA, NEW_DOMAIN_A, 2800); }, 4450);
+        window.setTimeout(function() { scrambleText(domainB, NEW_DOMAIN_B, 2600); }, 4520);
+        raf = requestAnimationFrame(draw);
 
-    // #10 — Parallax фона
-    $(window).on('scroll', function() {
-        var offset = $(this).scrollTop() * 0.25;
-        $('html').css('background-position-y', offset + 'px');
-    });
-
-    // #9 — Переключатель тёмная/светлая тема (состояние через [data-theme] на html)
-    if (localStorage.getItem('theme') === 'light') {
-        document.documentElement.setAttribute('data-theme', 'light');
-    }
-    $('#theme-toggle').on('click', function() {
-        var isLight = document.documentElement.getAttribute('data-theme') === 'light';
-        var newTheme = isLight ? 'dark' : 'light';
-        document.documentElement.setAttribute('data-theme', newTheme);
-        localStorage.setItem('theme', newTheme);
-    });
-</script>
-
-<script>
-    $("a.scrollto").on("click", function () {
-        let href = $(this).attr("href");
-
-        $("html, body").animate({
-            scrollTop: $(href).offset().top
-        }, {
-            duration: 370,
-            easing: "linear"
-        });
-
-        return false;
-    });
-    $('textarea').on('input', function(){
-        this.style.height = 'auto';
-        this.style.height = (this.scrollHeight +5) + 'px';
-    });
-
-    $('textarea').each(function(){
-        this.style.height = 'auto';
-        this.style.height = (this.scrollHeight +5) + 'px';
-    });
-    $(function(){
-        $(".mask-phone").mask("+7 (999) 999 99-99");
-        $(".js-mask-time").mask("99:99");
-    });
-    document.addEventListener('DOMContentLoaded', function() {
-        var modalButtons = document.querySelectorAll('.js-open-modal'),
-            overlay      = document.querySelector('.js-overlay-modal'),
-            closeButtons = document.querySelectorAll('.js-modal-close');
-        modalButtons.forEach(function(item){
-            item.addEventListener('click', function(e) {
-                e.preventDefault();
-                var modalId = this.getAttribute('data-modal'),
-                    modalElem = document.querySelector('.modal[data-modal="' + modalId + '"]');
-                modalElem.classList.add('active');
-                overlay.classList.add('active');
-            });
-        });
-        closeButtons.forEach(function(item){
-            item.addEventListener('click', function(e) {
-                var parentModal = this.closest('.modal');
-
-                parentModal.classList.remove('active');
-                overlay.classList.remove('active');
-            });
-        });
-        document.body.addEventListener('keyup', function (e) {
-            var key = e.keyCode;
-
-            if (key == 27) {
-
-                document.querySelector('.modal.active').classList.remove('active');
-                document.querySelector('.overlay').classList.remove('active');
-            };
-        }, false);
-        overlay.addEventListener('click', function() {
-            document.querySelector('.modal.active').classList.remove('active');
-            this.classList.remove('active');
-        });
-    });
-</script>
-
-
-<script>
-    $(document).on('keydown', 'input.js-input-money', function(e){
-
-        if(this.selectionStart || this.selectionStart == 0){
-            // selectionStart won't work in IE < 9
-
-            var key = e.which;
-            var prevDefault = true;
-
-            var thouSep = " ";  // your seperator for thousands
-            var deciSep = ",";  // your seperator for decimals
-            var deciNumber = 2; // how many numbers after the comma
-
-            var thouReg = new RegExp(thouSep,"g");
-            var deciReg = new RegExp(deciSep,"g");
-
-            function spaceCaretPos(val, cPos){
-                /// get the right caret position without the spaces
-
-                if(cPos > 0 && val.substring((cPos-1),cPos) == thouSep)
-                    cPos = cPos-1;
-
-                if(val.substring(0,cPos).indexOf(thouSep) >= 0){
-                    cPos = cPos - val.substring(0,cPos).match(thouReg).length;
-                }
-
-                return cPos;
-            }
-
-            function spaceFormat(val, pos){
-                /// add spaces for thousands
-
-                if(val.indexOf(deciSep) >= 0){
-                    var comPos = val.indexOf(deciSep);
-                    var int = val.substring(0,comPos);
-                    var dec = val.substring(comPos);
-                } else{
-                    var int = val;
-                    var dec = "";
-                }
-                var ret = [val, pos];
-
-                if(int.length > 3){
-
-                    var newInt = "";
-                    var spaceIndex = int.length;
-
-                    while(spaceIndex > 3){
-                        spaceIndex = spaceIndex - 3;
-                        newInt = thouSep+int.substring(spaceIndex,spaceIndex+3)+newInt;
-                        if(pos > spaceIndex) pos++;
-                    }
-                    ret = [int.substring(0,spaceIndex) + newInt + dec, pos];
-                }
-                return ret;
-            }
-
-            $(this).on('keyup', function(ev){
-
-                if(ev.which == 8){
-                    // reformat the thousands after backspace keyup
-
-                    var value = this.value;
-                    var caretPos = this.selectionStart;
-
-                    caretPos = spaceCaretPos(value, caretPos);
-                    value = value.replace(thouReg, '');
-
-                    var newValues = spaceFormat(value, caretPos);
-                    this.value = newValues[0];
-                    this.selectionStart = newValues[1];
-                    this.selectionEnd   = newValues[1];
-                }
-            });
-
-            if((e.ctrlKey && (key == 65 || key == 67 || key == 86 || key == 88 || key == 89 || key == 90)) ||
-                (e.shiftKey && key == 9)) // You don't want to disable your shortcuts!
-                prevDefault = false;
-
-            if((key < 37 || key > 40) && key != 8 && key != 9 && prevDefault){
-                e.preventDefault();
-
-                if(!e.altKey && !e.shiftKey && !e.ctrlKey){
-
-                    var value = this.value;
-                    if((key > 95 && key < 106)||(key > 47 && key < 58) ||
-                        (deciNumber > 0 && (key == 110 || key == 188 || key == 190))){
-
-                        var keys = { // reformat the keyCode
-                            48: 0, 49: 1, 50: 2, 51: 3,  52: 4,  53: 5,  54: 6,  55: 7,  56: 8,  57: 9,
-                            96: 0, 97: 1, 98: 2, 99: 3, 100: 4, 101: 5, 102: 6, 103: 7, 104: 8, 105: 9,
-                            110: deciSep, 188: deciSep, 190: deciSep
-                        };
-
-                        var caretPos = this.selectionStart;
-                        var caretEnd = this.selectionEnd;
-
-                        if(caretPos != caretEnd) // remove selected text
-                            value = value.substring(0,caretPos) + value.substring(caretEnd);
-
-                        caretPos = spaceCaretPos(value, caretPos);
-
-                        value = value.replace(thouReg, '');
-
-                        var before = value.substring(0,caretPos);
-                        var after = value.substring(caretPos);
-                        var newPos = caretPos+1;
-
-                        if(keys[key] == deciSep && value.indexOf(deciSep) >= 0){
-                            if(before.indexOf(deciSep) >= 0){ newPos--; }
-                            before = before.replace(deciReg, '');
-                            after = after.replace(deciReg, '');
-                        }
-                        var newValue = before + keys[key] + after;
-
-                        if(newValue.substring(0,1) == deciSep){
-                            newValue = "0"+newValue;
-                            newPos++;
-                        }
-
-                        while(newValue.length > 1 &&
-                        newValue.substring(0,1) == "0" && newValue.substring(1,2) != deciSep){
-                            newValue = newValue.substring(1);
-                            newPos--;
-                        }
-
-                        if(newValue.indexOf(deciSep) >= 0){
-                            var newLength = newValue.indexOf(deciSep)+deciNumber+1;
-                            if(newValue.length > newLength){
-                                newValue = newValue.substring(0,newLength);
-                            }
-                        }
-
-                        newValues = spaceFormat(newValue, newPos);
-
-                        this.value = newValues[0];
-                        this.selectionStart = newValues[1];
-                        this.selectionEnd   = newValues[1];
-                    }
-                }
-            }
-
-            $(this).on('blur', function(e){
-
-                if(deciNumber > 0){
-                    var value = this.value;
-
-                    var noDec = "";
-                    for(var i = 0; i < deciNumber; i++)
-                        noDec += "0";
-
-                    if(value == "0"+deciSep+noDec)
-                        this.value = ""; //<-- put your default value here
-                    else
-                    if(value.length > 0){
-                        if(value.indexOf(deciSep) >= 0){
-                            var newLength = value.indexOf(deciSep)+deciNumber+1;
-                            if(value.length < newLength){
-                                while(value.length < newLength){ value = value+"0"; }
-                                this.value = value.substring(0,newLength);
-                            }
-                        }
-                        else this.value = value + deciSep + noDec;
-                    }
-                }
-            });
-        }
-    });
-</script>
-
-<script>
-    updCurrentPage();
-    Fancybox.bind("[data-fancybox]");
-</script>
-
+        window.addEventListener("pagehide", function() {
+            cancelAnimationFrame(raf);
+        }, { once: true });
+    })();
+    </script>
 </body>
 </html>
