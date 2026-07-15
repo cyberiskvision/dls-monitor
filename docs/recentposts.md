@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-07-15 | [`Fidelity Services Group`](https://google.com/search?q=Fidelity+Services+Group) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-07-09 | [`Envision Unlimited`](https://google.com/search?q=Envision+Unlimited) | [moneymessage](https://ransomwatch.telemetry.ltd/#/profiles?id=moneymessage) |
 | 2026-07-06 | [`[DISCLOSED]Prince George County`](https://google.com/search?q=%5BDISCLOSED%5DPrince+George+County) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-07-02 | [`[EVIDENCE]Prince George County`](https://google.com/search?q=%5BEVIDENCE%5DPrince+George+County) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-12-29 | [`Esquire Brands`](https://google.com/search?q=Esquire+Brands) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-12-29 | [`C&r Electric`](https://google.com/search?q=C%26r+Electric) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-12-29 | [`ESSPL`](https://google.com/search?q=ESSPL) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
-| 2025-12-29 | [`Arkan`](https://google.com/search?q=Arkan) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
