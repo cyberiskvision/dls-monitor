@@ -2098,7 +2098,7 @@ _parsing : `enabled`_
 | none | False | 2 | 00:00 01/05/2021 | `rgleak7op734elep.onion` |
 | This site has been seized | False | 3 | 22:56 20/07/2026 | `rgleaktxuey67yrgspmhvtnrqtgogur35lwdrup4d3igtbm3pupc4lyd.onion` |
 | none | False | 2 | 00:00 01/05/2021 | `p6o7m73ujalhgkiv.onion` |
-| This site has been seized | True | 3 | 13:27 21/07/2026 | `ragnarnwvli32xnmwudsvhbl7klzmofxeylyhcqfc5ifx5mbybq3ekqd.onion` |
+| This site has been seized | False | 3 | 13:27 21/07/2026 | `ragnarnwvli32xnmwudsvhbl7klzmofxeylyhcqfc5ifx5mbybq3ekqd.onion` |
 
 | post | date |
 |---|---|
@@ -2239,7 +2239,7 @@ _parsing : `enabled`_
 | title | available | version | last visit | fqdn
 |---|---|---|---|---|
 | none | False | 2 | 00:00 01/05/2021 | `ekbgzchl6x2ias37.onion` |
-| Access Queue | True | 3 | 13:27 21/07/2026 | `santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion` |
+| Access Queue | True | 3 | 15:41 21/07/2026 | `santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion` |
 | TORRENT - CL0P^_- LEAKS | False | 3 | 20:14 15/07/2024 | `toznnag5o3ambca56s2yacteu7q7x2avrfherzmz4nmujrjuib4iusad.onion` |
 
 | post | date |
@@ -7395,7 +7395,7 @@ _parsing : `enabled`_
 | title | available | version | last visit | fqdn
 |---|---|---|---|---|
 | ©RansomHouse | False | 3 | 20:57 01/10/2022 | `xw7au5pnwtl6lozbsudkmyd32n6gnqdngitjdppybudan3x3pjgpmpid.onion` |
-| none | True | 3 | 13:36 21/07/2026 | `zohlm7ahjwegcedoz7lrdrti7bvpofymcayotp744qhx6gjmxbuo2yid.onion` |
+| none | True | 3 | 15:50 21/07/2026 | `zohlm7ahjwegcedoz7lrdrti7bvpofymcayotp744qhx6gjmxbuo2yid.onion` |
 
 | post | date |
 |---|---|
@@ -10614,7 +10614,7 @@ _parsing : `enabled`_
 | title | available | version | last visit | fqdn
 |---|---|---|---|---|
 | 0mega - Blog | False | 3 | 14:27 29/05/2025 | `omegalock5zxwbhswbisc42o2q2i54vdulyvtqqbudqousisjgc7j7yd.onion` |
-| 0mega.cc | True | 0 | 13:45 21/07/2026 | `0mega.cc` |
+| 0mega.cc | True | 0 | 15:59 21/07/2026 | `0mega.cc` |
 | 0mega - Blog | False | 3 | 09:26 26/01/2025 | `omegalo4jci44dj2ww6ioppevssjqj7kovfd3nn7oyq4byxbbqmf5cid.onion` |
 
 | post | date |
@@ -10648,30 +10648,30 @@ _`fs=fileserver`_
 
 | title | available | version | last visit | fqdn
 |---|---|---|---|---|
-| LockBit - Leaked | False | 3 | 11:25 21/07/2026 | `lockbit7z2jwcskxpbokpemdxmltipntwlkmidcll2qirbu7ykg46eyd.onion` |
-| LockBit - Leaked | False | 3 | 11:25 21/07/2026 | `lockbit7z2mmiz3ryxafn5kapbvbbiywsxwovasfkgf5dqqp5kxlajad.onion` |
-| LockBit - Leaked | True | 3 | 13:46 21/07/2026 | `lockbit7z2og4jlsmdy7dzty3g42eu3gh2sx2b6ywtvhrjtss7li4fyd.onion` |
-| LockBit - Leaked | True | 3 | 13:46 21/07/2026 | `lockbit7z355oalq4hiy5p7de64l6rsqutwlvydqje56uvevcc57r6qd.onion` |
-| LockBit - Leaked | True | 3 | 13:46 21/07/2026 | `lockbit7z36ynytxwjzuoao46ck7b3753gpedary3qvuizn3iczhe4id.onion` |
+| LockBit - Leaked | True | 3 | 15:59 21/07/2026 | `lockbit7z2jwcskxpbokpemdxmltipntwlkmidcll2qirbu7ykg46eyd.onion` |
+| LockBit - Leaked | True | 3 | 15:59 21/07/2026 | `lockbit7z2mmiz3ryxafn5kapbvbbiywsxwovasfkgf5dqqp5kxlajad.onion` |
+| LockBit - Leaked | True | 3 | 15:59 21/07/2026 | `lockbit7z2og4jlsmdy7dzty3g42eu3gh2sx2b6ywtvhrjtss7li4fyd.onion` |
+| LockBit - Leaked | True | 3 | 16:00 21/07/2026 | `lockbit7z355oalq4hiy5p7de64l6rsqutwlvydqje56uvevcc57r6qd.onion` |
+| LockBit - Leaked | False | 3 | 13:46 21/07/2026 | `lockbit7z36ynytxwjzuoao46ck7b3753gpedary3qvuizn3iczhe4id.onion` |
 | LockBit - Leaked | False | 3 | 08:34 21/07/2026 | `lockbit7z37ntefjdbjextn6tmdkry4j546ejnru5cejeguitiopvhad.onion` |
-| LockBit - Leaked | True | 3 | 13:47 21/07/2026 | `lockbit7z3azdoxdpqxzliszutufbc2fldagztdu47xyucp25p4xtqad.onion` |
+| LockBit - Leaked | True | 3 | 16:00 21/07/2026 | `lockbit7z3azdoxdpqxzliszutufbc2fldagztdu47xyucp25p4xtqad.onion` |
 | LockBit - Leaked | False | 3 | 11:26 21/07/2026 | `lockbit7z3ddvg5vuez2vznt73ljqgwx5tnuqaa2ye7lns742yiv2zyd.onion` |
-| LockBit - Leaked | False | 3 | 11:26 21/07/2026 | `lockbit7z3hv7ev5knxbrhsvv2mmu2rddwqizdz4vwfvxt5izrq6zqqd.onion` |
-| LockBit - Leaked | True | 3 | 13:48 21/07/2026 | `lockbit7z3ujnkhxwahhjduh5me2updvzxewhhc5qvk2snxezoi5drad.onion` |
-| LockBit - Leaked | True | 3 | 13:48 21/07/2026 | `lockbit7z4bsm63m3dagp5xglyacr4z4bwytkvkkwtn6enmuo5fi5iyd.onion` |
-| LockBit - Leaked | False | 3 | 11:27 21/07/2026 | `lockbit7z4cgxvictidwfxpuiov4scdw34nxotmbdjyxpkvkg34mykyd.onion` |
+| LockBit - Leaked | True | 3 | 16:01 21/07/2026 | `lockbit7z3hv7ev5knxbrhsvv2mmu2rddwqizdz4vwfvxt5izrq6zqqd.onion` |
+| LockBit - Leaked | False | 3 | 13:48 21/07/2026 | `lockbit7z3ujnkhxwahhjduh5me2updvzxewhhc5qvk2snxezoi5drad.onion` |
+| LockBit - Leaked | False | 3 | 13:48 21/07/2026 | `lockbit7z4bsm63m3dagp5xglyacr4z4bwytkvkkwtn6enmuo5fi5iyd.onion` |
+| LockBit - Leaked | True | 3 | 16:02 21/07/2026 | `lockbit7z4cgxvictidwfxpuiov4scdw34nxotmbdjyxpkvkg34mykyd.onion` |
 | LockBit - Leaked | False | 3 | 02:29 13/07/2026 | `lockbit7z4k5zer5fbqi2vdq5sx2vuggatwyqvoodrkhubxftyrvncid.onion` |
-| LockBit - Leaked | True | 3 | 13:49 21/07/2026 | `lockbit7z4ndl6thsct34yd47jrzdkpnfg3acfvpacuccb45pnars2ad.onion` |
+| LockBit - Leaked | True | 3 | 16:02 21/07/2026 | `lockbit7z4ndl6thsct34yd47jrzdkpnfg3acfvpacuccb45pnars2ad.onion` |
 | LockBit - Leaked | False | 3 | 11:27 21/07/2026 | `lockbit7z55tuwaflw2c7torcryobdvhkcgvivhflyndyvcrexafssad.onion` |
-| LockBit - Leaked | True | 3 | 13:49 21/07/2026 | `lockbit7z57mkicfkuq44j6yrpu5finwvjllczkkp2uvdedsdonjztyd.onion` |
-| LockBit - Leaked | True | 3 | 13:49 21/07/2026 | `lockbit7z5ehshj6gzpetw5kso3onts6ty7wrnneya5u4aj3vzkeoaqd.onion` |
-| LockBit - Leaked | True | 3 | 13:49 21/07/2026 | `lockbit7z5hwf6ywfuzipoa42tjlmal3x5suuccngsamsgklww2xgyqd.onion` |
+| LockBit - Leaked | False | 3 | 13:49 21/07/2026 | `lockbit7z57mkicfkuq44j6yrpu5finwvjllczkkp2uvdedsdonjztyd.onion` |
+| LockBit - Leaked | True | 3 | 16:03 21/07/2026 | `lockbit7z5ehshj6gzpetw5kso3onts6ty7wrnneya5u4aj3vzkeoaqd.onion` |
+| LockBit - Leaked | False | 3 | 13:49 21/07/2026 | `lockbit7z5hwf6ywfuzipoa42tjlmal3x5suuccngsamsgklww2xgyqd.onion` |
 | LockBit - Leaked | False | 3 | 19:55 20/07/2026 | `lockbit7z5ltrhzv46lsg447o3cx2637dloc3qt4ugd3gr2xdkkkeayd.onion` |
-| LockBit - Leaked | True | 3 | 13:50 21/07/2026 | `lockbit7z6choojah4ipvdpzzfzxxchjbecnmtn4povk6ifdvx2dpnid.onion` |
-| LockBit - Leaked | True | 3 | 13:50 21/07/2026 | `lockbit7z6dqziutocr43onmvpth32njp4abfocfauk2belljjpobxyd.onion` |
-| LockBit - Leaked | False | 3 | 11:28 21/07/2026 | `lockbit7z6f3gu6rjvrysn5gjbsqj3hk3bvsg64ns6pjldqr2xhvhsyd.onion` |
-| LockBit - Leaked | True | 3 | 13:50 21/07/2026 | `lockbit7z6qinyhhmibvycu5kwmcvgrbpvtztkvvmdce5zwtucaeyrqd.onion` |
-| LockBit - Leaked | True | 3 | 13:50 21/07/2026 | `lockbit7z6rzyojiye437jp744d4uwtff7aq7df7gh2jvwqtv525c4yd.onion` |
+| LockBit - Leaked | False | 3 | 13:50 21/07/2026 | `lockbit7z6choojah4ipvdpzzfzxxchjbecnmtn4povk6ifdvx2dpnid.onion` |
+| LockBit - Leaked | False | 3 | 13:50 21/07/2026 | `lockbit7z6dqziutocr43onmvpth32njp4abfocfauk2belljjpobxyd.onion` |
+| LockBit - Leaked | True | 3 | 16:04 21/07/2026 | `lockbit7z6f3gu6rjvrysn5gjbsqj3hk3bvsg64ns6pjldqr2xhvhsyd.onion` |
+| LockBit - Leaked | False | 3 | 13:50 21/07/2026 | `lockbit7z6qinyhhmibvycu5kwmcvgrbpvtztkvvmdce5zwtucaeyrqd.onion` |
+| LockBit - Leaked | True | 3 | 16:05 21/07/2026 | `lockbit7z6rzyojiye437jp744d4uwtff7aq7df7gh2jvwqtv525c4yd.onion` |
 
 | post | date |
 |---|---|
@@ -12996,7 +12996,7 @@ _parsing : `enabled`_
 
 | title | available | version | last visit | fqdn
 |---|---|---|---|---|
-| none | True | 3 | 13:56 21/07/2026 | `3ev4metjirohtdpshsqlkrqcmxq6zu3d7obrdhglpy5jpbr7whmlfgqd.onion` |
+| none | True | 3 | 16:10 21/07/2026 | `3ev4metjirohtdpshsqlkrqcmxq6zu3d7obrdhglpy5jpbr7whmlfgqd.onion` |
 
 | post | date |
 |---|---|
@@ -13096,7 +13096,7 @@ _parsing : `enabled`_
 
 | title | available | version | last visit | fqdn
 |---|---|---|---|---|
-| none | True | 3 | 13:56 21/07/2026 | `blogvl7tjyjvsfthobttze52w36wwiz34hrfcmorgvdzb6hikucb7aqd.onion` |
+| none | True | 3 | 16:10 21/07/2026 | `blogvl7tjyjvsfthobttze52w36wwiz34hrfcmorgvdzb6hikucb7aqd.onion` |
 
 | post | date |
 |---|---|
@@ -13156,7 +13156,7 @@ _parsing : `enabled`_
 
 | title | available | version | last visit | fqdn
 |---|---|---|---|---|
-| none | True | 3 | 13:56 21/07/2026 | `akiral2iz6a7qgd3ayp3l6yub7xx2uep76idk3u2kollpj5z3z636bad.onion` |
+| none | False | 3 | 13:56 21/07/2026 | `akiral2iz6a7qgd3ayp3l6yub7xx2uep76idk3u2kollpj5z3z636bad.onion` |
 | / | False | 3 | 08:41 21/07/2026 | `akiralkzxzq2dsrzsrvbr2xgbbu2wgsmxryd4csgfameg52n7efvr2id.onion` |
 
 | post | date |
@@ -15402,7 +15402,7 @@ _parsing : `enabled`_
 
 | title | available | version | last visit | fqdn
 |---|---|---|---|---|
-| Metaencryptor::Home | False | 3 | 12:21 09/07/2026 | `metacrptmytukkj7ajwjovdpjqzd7esg5v3sg344uzhigagpezcqlpyd.onion` |
+| Metaencryptor::Home | True | 3 | 16:19 21/07/2026 | `metacrptmytukkj7ajwjovdpjqzd7esg5v3sg344uzhigagpezcqlpyd.onion` |
 
 | post | date |
 |---|---|
@@ -15640,7 +15640,7 @@ _parsing : `enabled`_
 
 | title | available | version | last visit | fqdn
 |---|---|---|---|---|
-| Verify | True | 3 | 14:06 21/07/2026 | `threeamkelxicjsaf2czjyz2lc4q3ngqkxhhlexyfcp2o6raw4rphyad.onion` |
+| Verify | True | 3 | 16:20 21/07/2026 | `threeamkelxicjsaf2czjyz2lc4q3ngqkxhhlexyfcp2o6raw4rphyad.onion` |
 
 | post | date |
 |---|---|
@@ -16160,8 +16160,8 @@ _parsing : `enabled`_
 
 | title | available | version | last visit | fqdn
 |---|---|---|---|---|
-| none | False | 3 | 11:41 21/07/2026 | `z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion` |
-| DragonForce - Recovery | True | 3 | 14:09 21/07/2026 | `3pktcrcbmssvrnwe5skburdwe2h3v6ibdnn5kbjqihsg6eu6s6b7ryqd.onion` |
+| none | True | 3 | 16:23 21/07/2026 | `z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion` |
+| DragonForce - Recovery | False | 3 | 14:09 21/07/2026 | `3pktcrcbmssvrnwe5skburdwe2h3v6ibdnn5kbjqihsg6eu6s6b7ryqd.onion` |
 
 | post | date |
 |---|---|
@@ -16208,7 +16208,7 @@ _parsing : `enabled`_
 | title | available | version | last visit | fqdn
 |---|---|---|---|---|
 | 404 Not Found | False | 0 | 01:55 07/03/2024 | `werewolves.pro` |
-| weerwolven.biz | True | 0 | 14:09 21/07/2026 | `weerwolven.biz` |
+| weerwolven.biz | True | 0 | 16:23 21/07/2026 | `weerwolven.biz` |
 
 | post | date |
 |---|---|
@@ -16240,7 +16240,7 @@ _parsing : `enabled`_
 | title | available | version | last visit | fqdn
 |---|---|---|---|---|
 | Just a moment... | False | 0 | 10:37 10/11/2024 | `malekteam.ac` |
-| 33 квадратных метра — дома из контейнеров | True | 0 | 14:09 21/07/2026 | `195.14.123.2` |
+| 33 квадратных метра — дома из контейнеров | True | 0 | 16:23 21/07/2026 | `195.14.123.2` |
 
 | post | date |
 |---|---|
