@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-07-23 | [`Indigo Energy`](https://google.com/search?q=Indigo+Energy) | [moneymessage](https://ransomwatch.telemetry.ltd/#/profiles?id=moneymessage) |
 | 2026-07-21 | [`Nichirei`](https://google.com/search?q=Nichirei) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-07-18 | [`bluebellgroup.com`](https://google.com/search?q=bluebellgroup.com) | [blackout](https://ransomwatch.telemetry.ltd/#/profiles?id=blackout) |
 | 2026-07-16 | [`Megawork`](https://google.com/search?q=Megawork) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-12-30 | [`Falk, Waas, Hernandez, Cortina, Solomon & Bonner Overview Metrics`](https://google.com/search?q=Falk%2C+Waas%2C+Hernandez%2C+Cortina%2C+Solomon+%26+Bonner+Overview+Metrics) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2025-12-29 | [`MP Filtri`](https://google.com/search?q=MP+Filtri) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-12-29 | [`JZ Russell Industries`](https://google.com/search?q=JZ+Russell+Industries) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-12-29 | [`Genoa Lakes`](https://google.com/search?q=Genoa+Lakes) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
