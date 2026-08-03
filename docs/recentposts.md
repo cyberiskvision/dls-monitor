@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-08-03 | [`[DISCLOSED]Fidelity Services Group`](https://google.com/search?q=%5BDISCLOSED%5DFidelity+Services+Group) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-08-03 | [`PCL Holding`](https://google.com/search?q=PCL+Holding) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-07-25 | [`Yourway Transportation`](https://google.com/search?q=Yourway+Transportation) | [moneymessage](https://ransomwatch.telemetry.ltd/#/profiles?id=moneymessage) |
 | 2026-07-23 | [`Indigo Energy`](https://google.com/search?q=Indigo+Energy) | [moneymessage](https://ransomwatch.telemetry.ltd/#/profiles?id=moneymessage) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2026-01-02 | [`Garner Foods`](https://google.com/search?q=Garner+Foods) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-02 | [`Benise-Dowling & Associates`](https://google.com/search?q=Benise-Dowling+%26+Associates) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-12-31 | [`Infinite Computing Systems`](https://google.com/search?q=Infinite+Computing+Systems) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2025-12-30 | [`Falk, Waas, Hernandez, Cortina, Solomon & Bonner Overview Metrics`](https://google.com/search?q=Falk%2C+Waas%2C+Hernandez%2C+Cortina%2C+Solomon+%26+Bonner+Overview+Metrics) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
