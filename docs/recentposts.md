@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-08-06 | [`TECHVENTURES BANK S.A.`](https://google.com/search?q=TECHVENTURES+BANK+S.A.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-08-06 | [`City of McMinnville OR`](https://google.com/search?q=City+of+McMinnville+OR) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-08-03 | [`[DISCLOSED]Fidelity Services Group`](https://google.com/search?q=%5BDISCLOSED%5DFidelity+Services+Group) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-08-03 | [`PCL Holding`](https://google.com/search?q=PCL+Holding) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2026-01-02 | [`Pewarchuk CPA`](https://google.com/search?q=Pewarchuk+CPA) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-02 | [`Lakeside Title Company`](https://google.com/search?q=Lakeside+Title+Company) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-02 | [`Garner Foods`](https://google.com/search?q=Garner+Foods) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2026-01-02 | [`Benise-Dowling & Associates`](https://google.com/search?q=Benise-Dowling+%26+Associates) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
