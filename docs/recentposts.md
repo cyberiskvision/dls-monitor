@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-08-09 | [`[DISCLOSED]Nichirei`](https://google.com/search?q=%5BDISCLOSED%5DNichirei) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-08-07 | [`Alya Construtora`](https://google.com/search?q=Alya+Construtora) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-08-07 | [`lya Construtora`](https://google.com/search?q=lya+Construtora) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-08-07 | [`City of Beacon`](https://google.com/search?q=City+of+Beacon) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2026-01-06 | [`Mill Brothers`](https://google.com/search?q=Mill+Brothers) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-02 | [`Wardell Builders`](https://google.com/search?q=Wardell+Builders) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-02 | [`Stoughton Steel`](https://google.com/search?q=Stoughton+Steel) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2026-01-02 | [`Rockport Technology Group`](https://google.com/search?q=Rockport+Technology+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
