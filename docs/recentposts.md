@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-08-14 | [`Pierce Township`](https://google.com/search?q=Pierce+Township) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-08-14 | [`[DISCLOSED]PCL Holding`](https://google.com/search?q=%5BDISCLOSED%5DPCL+Holding) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-08-13 | [`[DISCLOSED]TECHVENTURES BANK S.A.`](https://google.com/search?q=%5BDISCLOSED%5DTECHVENTURES+BANK+S.A.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-08-13 | [`SIA Medical Centre`](https://google.com/search?q=SIA+Medical+Centre) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2026-01-08 | [`[DISCLOSED]Assolim`](https://google.com/search?q=%5BDISCLOSED%5DAssolim) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-01-08 | [`Fedcap`](https://google.com/search?q=Fedcap) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-01-08 | [`Luxshare Precision Industry Co. Ltd.`](https://google.com/search?q=Luxshare+Precision+Industry+Co.+Ltd.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
-| 2026-01-06 | [`Charles Leonard Steel Services`](https://google.com/search?q=Charles+Leonard+Steel+Services) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
