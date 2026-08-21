@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-08-21 | [`Battle Creek Public Schools`](https://google.com/search?q=Battle+Creek+Public+Schools) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-08-18 | [`[DISCLOSED]Alya Construtora`](https://google.com/search?q=%5BDISCLOSED%5DAlya+Construtora) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-08-14 | [`Pierce Township`](https://google.com/search?q=Pierce+Township) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-08-14 | [`[DISCLOSED]PCL Holding`](https://google.com/search?q=%5BDISCLOSED%5DPCL+Holding) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2026-01-10 | [`Launie & Marino`](https://google.com/search?q=Launie+%26+Marino) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-10 | [`Denny's 5th Avenue Bakery`](https://google.com/search?q=Denny%27s+5th+Avenue+Bakery) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-08 | [`[DISCLOSED]Assolim`](https://google.com/search?q=%5BDISCLOSED%5DAssolim) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
-| 2026-01-08 | [`Fedcap`](https://google.com/search?q=Fedcap) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
