@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-09-07 | [`Rug & Home`](https://google.com/search?q=Rug+%26+Home) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-09-02 | [`[EVIDENCE]REXT Holdings Co., Ltd.`](https://google.com/search?q=%5BEVIDENCE%5DREXT+Holdings+Co.%2C+Ltd.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-09-01 | [`Szechenyi Programiroda Nonprofit Kf`](https://google.com/search?q=Szechenyi+Programiroda+Nonprofit+Kf) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-09-01 | [`REXT Holdings Co., Ltd.`](https://google.com/search?q=REXT+Holdings+Co.%2C+Ltd.) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2026-01-22 | [`California Tax Data`](https://google.com/search?q=California+Tax+Data) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-21 | [`Midway Windows and Doors`](https://google.com/search?q=Midway+Windows+and+Doors) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-21 | [`Cemtech`](https://google.com/search?q=Cemtech) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2026-01-21 | [`CE Electronics`](https://google.com/search?q=CE+Electronics) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
