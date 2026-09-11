@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-09-11 | [`General Santos Doctors Hospital`](https://google.com/search?q=General+Santos+Doctors+Hospital) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-09-10 | [`Professional Retail Services`](https://google.com/search?q=Professional+Retail+Services) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-09-10 | [`California School Employees Association`](https://google.com/search?q=California+School+Employees+Association) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-09-08 | [`SAD'S Interim`](https://google.com/search?q=SAD%27S+Interim) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2026-01-25 | [`Cytek Biosciences`](https://google.com/search?q=Cytek+Biosciences) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-01-23 | [`TREC Group`](https://google.com/search?q=TREC+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-23 | [`Warren County Sheriff’s Office`](https://google.com/search?q=Warren+County+Sheriff%E2%80%99s+Office) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
-| 2026-01-23 | [`Encore Roofing`](https://google.com/search?q=Encore+Roofing) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
