@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-09-15 | [`[DISCLOSED] California School Employees Association`](https://google.com/search?q=%5BDISCLOSED%5D+California+School+Employees+Association) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-09-12 | [`Axdia International`](https://google.com/search?q=Axdia+International) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-09-11 | [`General Santos Doctors Hospital`](https://google.com/search?q=General+Santos+Doctors+Hospital) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-09-10 | [`Professional Retail Services`](https://google.com/search?q=Professional+Retail+Services) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2026-01-26 | [`ALLMAX`](https://google.com/search?q=ALLMAX) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-26 | [`sitoy.com`](https://google.com/search?q=sitoy.com) | [abyss](https://ransomwatch.telemetry.ltd/#/profiles?id=abyss) |
 | 2026-01-25 | [`Cytek Biosciences`](https://google.com/search?q=Cytek+Biosciences) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
-| 2026-01-23 | [`TREC Group`](https://google.com/search?q=TREC+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
