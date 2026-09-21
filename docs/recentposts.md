@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-09-21 | [`U.S. Electrical Services and Wiedenbach Brown`](https://google.com/search?q=U.S.+Electrical+Services+and+Wiedenbach+Brown) | [moneymessage](https://ransomwatch.telemetry.ltd/#/profiles?id=moneymessage) |
 | 2026-09-19 | [`Kreishandwerkerschaft Borken`](https://google.com/search?q=Kreishandwerkerschaft+Borken) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-09-18 | [`MPA Pharma`](https://google.com/search?q=MPA+Pharma) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-09-17 | [`Pertamina`](https://google.com/search?q=Pertamina) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2026-01-26 | [`Joyva`](https://google.com/search?q=Joyva) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-26 | [`F&B Mfg`](https://google.com/search?q=F%26B+Mfg) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-26 | [`Christine London`](https://google.com/search?q=Christine+London) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2026-01-26 | [`Aquatic Control`](https://google.com/search?q=Aquatic+Control) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
