@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-09-30 | [`clicks digital GmbH Information`](https://google.com/search?q=clicks+digital+GmbH+Information) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-09-30 | [`Law Offices of R. David Williams, P.A.`](https://google.com/search?q=Law+Offices+of+R.+David+Williams%2C+P.A.) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-09-24 | [`NEAD Pro`](https://google.com/search?q=NEAD+Pro) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-09-23 | [`Legis`](https://google.com/search?q=Legis) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2026-01-27 | [`The Sourcing Group`](https://google.com/search?q=The+Sourcing+Group) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-27 | [`Tele Plus`](https://google.com/search?q=Tele+Plus) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-27 | [`Routten & Laster Law`](https://google.com/search?q=Routten+%26+Laster+Law) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2026-01-27 | [`Quantum Fuel Systems Technologies`](https://google.com/search?q=Quantum+Fuel+Systems+Technologies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
