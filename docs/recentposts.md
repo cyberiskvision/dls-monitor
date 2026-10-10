@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-10-10 | [`Gress Clark Young & Schoepper`](https://google.com/search?q=Gress+Clark+Young+%26+Schoepper) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-10-09 | [`Anne Arundel County`](https://google.com/search?q=Anne+Arundel+County) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-10-09 | [`RealManage`](https://google.com/search?q=RealManage) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-10-03 | [`Skaff Group`](https://google.com/search?q=Skaff+Group) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2026-02-02 | [`Elabs`](https://google.com/search?q=Elabs) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-02-01 | [`Deatak`](https://google.com/search?q=Deatak) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-01-31 | [`NAI Plotkin`](https://google.com/search?q=NAI+Plotkin) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2026-01-31 | [`Bar S Services`](https://google.com/search?q=Bar+S+Services) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
