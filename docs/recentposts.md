@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-10-23 | [`Line2Line Coatings`](https://google.com/search?q=Line2Line+Coatings) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-10-22 | [`DR.SCHNELL GmbH & Co. KGaA`](https://google.com/search?q=DR.SCHNELL+GmbH+%26+Co.+KGaA) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-10-14 | [`[DISCLOSED]Terca`](https://google.com/search?q=%5BDISCLOSED%5DTerca) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-10-14 | [`[DISCLOSED]Hospital Hermilio Valdizán`](https://google.com/search?q=%5BDISCLOSED%5DHospital+Hermilio+Valdiz%C3%A1n) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2026-02-05 | [`Leading Edge Speciali`](https://google.com/search?q=Leading+Edge+Speciali) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-02-05 | [`[Internal database pack 2] Warren County Sheriff’s Office`](https://google.com/search?q=%5BInternal+database+pack+2%5D+Warren+County+Sheriff%E2%80%99s+Office) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-02-04 | [`Woodfield`](https://google.com/search?q=Woodfield) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2026-02-04 | [`ISTS`](https://google.com/search?q=ISTS) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
