@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-10-28 | [`Machelen (Belgium)`](https://google.com/search?q=Machelen+%28Belgium%29) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-10-26 | [`MISC Group`](https://google.com/search?q=MISC+Group) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-10-23 | [`Sanders Law Group`](https://google.com/search?q=Sanders+Law+Group) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-10-23 | [`Line2Line Coatings`](https://google.com/search?q=Line2Line+Coatings) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2026-02-07 | [`Carlton Scale`](https://google.com/search?q=Carlton+Scale) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-02-07 | [`Bloom's Bus Lines`](https://google.com/search?q=Bloom%27s+Bus+Lines) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-02-06 | [`Associated Endocrinologists`](https://google.com/search?q=Associated+Endocrinologists) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
-| 2026-02-05 | [`Leading Edge Speciali`](https://google.com/search?q=Leading+Edge+Speciali) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
