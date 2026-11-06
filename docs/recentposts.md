@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-11-06 | [`Here at Pope and Johnson County Title Company`](https://google.com/search?q=Here+at+Pope+and+Johnson+County+Title+Company) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-11-06 | [`Juge, Napolitano, Ruli, Putfark & Pittman`](https://google.com/search?q=Juge%2C+Napolitano%2C+Ruli%2C+Putfark+%26+Pittman) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-11-06 | [`[DISCLOSED]Namibian Defence Force`](https://google.com/search?q=%5BDISCLOSED%5DNamibian+Defence+Force) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2026-11-05 | [`[DISCLOSED]Pertamina`](https://google.com/search?q=%5BDISCLOSED%5DPertamina) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2026-02-11 | [`Altak`](https://google.com/search?q=Altak) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-02-11 | [`Catalanatto & Barnes`](https://google.com/search?q=Catalanatto+%26+Barnes) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-02-10 | [`Milwaukee Forge`](https://google.com/search?q=Milwaukee+Forge) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2026-02-08 | [`RAL Companies`](https://google.com/search?q=RAL+Companies) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
