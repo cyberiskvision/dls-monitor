@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-11-07 | [`Treuhand & Immobilien Abt AG`](https://google.com/search?q=Treuhand+%26+Immobilien+Abt+AG) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-11-07 | [`INTI International University & Colleges`](https://google.com/search?q=INTI+International+University+%26+Colleges) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-11-06 | [`Phoenix Charter Academy`](https://google.com/search?q=Phoenix+Charter+Academy) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-11-06 | [`Here at Pope and Johnson County Title Company`](https://google.com/search?q=Here+at+Pope+and+Johnson+County+Title+Company) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2026-02-12 | [`Phoenix Art Museum`](https://google.com/search?q=Phoenix+Art+Museum) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-02-11 | [`Northbridge`](https://google.com/search?q=Northbridge) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-02-11 | [`Makivik`](https://google.com/search?q=Makivik) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2026-02-11 | [`Altak`](https://google.com/search?q=Altak) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
