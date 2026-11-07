@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2026-11-07 | [`INTAX, Inc.`](https://google.com/search?q=INTAX%2C+Inc.) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-11-07 | [`Cipsa Industrias Sa De Cv`](https://google.com/search?q=Cipsa+Industrias+Sa+De+Cv) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-11-07 | [`Tribunal de Justica do Estado de Minas Gerais`](https://google.com/search?q=Tribunal+de+Justica+do+Estado+de+Minas+Gerais) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
 | 2026-11-07 | [`Treuhand & Immobilien Abt AG`](https://google.com/search?q=Treuhand+%26+Immobilien+Abt+AG) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2026-02-13 | [`Lusamerica Foods`](https://google.com/search?q=Lusamerica+Foods) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-02-13 | [`Heartland Title Services`](https://google.com/search?q=Heartland+Title+Services) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2026-02-13 | [`HMA`](https://google.com/search?q=HMA) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
-| 2026-02-12 | [`Phoenix Art Museum`](https://google.com/search?q=Phoenix+Art+Museum) | [rhysida](https://ransomwatch.telemetry.ltd/#/profiles?id=rhysida) |
